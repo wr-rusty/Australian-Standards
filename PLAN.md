@@ -274,3 +274,7 @@ for AS 1743, then 2–3 for AS 1319.
     for parking text and metric abbreviations (not needed: legends are outlined).
   * TODO — UK after NZ.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
+* Layout (2026-09-06, agreed with Russell): country → jurisdiction pack → `Original …/` + `SVGs/<family>/`:
+  `Australia/National (AS 1743)`, `Australia/<State>` (all eight states/territories, P1), `USA/Federal (MUTCD 2023)`,
+  `USA/<State>` (major states first, minor states as tickets), `New Zealand/National (TCD Manual)`, `UK/<Region>`.
+  Work is tracked in `Tickets/` (`python3 Tickets/tk.py list`, Akimbo format); Linear is not used.

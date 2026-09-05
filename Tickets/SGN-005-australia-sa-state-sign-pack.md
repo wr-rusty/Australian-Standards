@@ -1,12 +1,12 @@
 ---
 id: SGN-005
 title: Australia/SA: state sign pack
-status: open
+status: in-progress
 priority: P1
 area: sources
 project: australia
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -30,3 +30,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 
 - 2026-09-06 — filed.
 - 2026-09-06 — SA Standard Road Sign Index is an Angular app over an AWS API (api/v1/signs, /series, /references): 1,211 signs, 1,023 with a PDF at signindex.dit.sa.gov.au/assets/signs/pdf/<id>.pdf (vector, no text). Register written to `Australia/SA/REGISTER.csv`; PDFs downloading to `Australia/SA/Original PDFs/`. Licence: CC BY 3.0 AU (site footer).
+- 2026-09-05 — status → in-progress.
