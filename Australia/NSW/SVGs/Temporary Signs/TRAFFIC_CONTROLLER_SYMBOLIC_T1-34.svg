@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="30.45mm" height="19.72mm" viewBox="0 0 86.32 55.9">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32.24mm" height="20.59mm" viewBox="0 0 91.4 58.38">
 <g transform="scale(0.1)">
-  <path fill="#ff7f00" fill-rule="evenodd" d="M0 0L863.18 559.04L0 559.04"/>
-  <path fill="#000000" fill-rule="evenodd" d="M271.79 226.76L264.58 344.58L232.42 344.58"/>
-  <path fill="#000000" fill-rule="evenodd" d="M271.79 226.76L314.12 226.76L264.58 344.58"/>
-  <path fill="#000000" fill-rule="evenodd" d="M237.08 346.28L263.74 346.28L259.51 355.6"/>
-  <path fill="#000000" fill-rule="evenodd" d="M314.12 228.03L415.71 346.28L314.12 346.28"/>
-  <path fill="#000000" fill-rule="evenodd" d="M365.34 346.28L416.14 379.33L369.15 379.33"/>
-  <path fill="#000000" fill-rule="evenodd" d="M369.15 379.33L416.57 533.19L386.51 533.19"/>
-  <path fill="#000000" fill-rule="evenodd" d="M314.12 346.28L343.75 533.19L313.7 533.19"/>
-  <path fill="#000000" fill-rule="evenodd" d="M314.12 346.28L365.34 346.28L343.75 533.19"/>
-  <path fill="#000000" fill-rule="evenodd" d="M556.69 205.14L568.12 533.62L556.69 533.62"/>
+  <path fill="#ff7f00" fill-rule="evenodd" d="M25.4 0L888.58 558.38L25.4 558.38"/>
+  <path fill="#ff7f00" fill-rule="evenodd" d="M25.4 0L888.58 0L888.58 558.38"/>
+  <path fill="#000000" fill-rule="evenodd" d="M0 0L0 583.78L913.98 583.78L913.98 558.38L25.4 558.38L25.4 0L0 0"/>
+  <path fill="#000000" fill-rule="evenodd" d="M582.08 204.89L582.08 532.98L593.51 532.98L593.51 204.89L582.08 204.89"/>
+  <path fill="#000000" fill-rule="evenodd" d="M257.81 344.17L262.47 345.86L284.9 355.18L289.14 345.86L289.98 344.17L339.49 226.54L339.51 226.54L339.51 345.86L339.09 532.55L369.15 532.55L390.27 349.94L391.21 349.94L394.55 378.88L411.9 532.55L441.96 532.55L441.54 378.88L441.11 345.86L440.27 227.75L447.46 226.48L303.95 204.89L297.18 226.48L257.81 344.17"/>
 </g>
 </svg>
