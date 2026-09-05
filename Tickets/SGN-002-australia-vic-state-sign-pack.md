@@ -33,3 +33,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-05 — status → blocked.
 - 2026-09-06 — Unblocked: the DTP Engineering Standards Catalogue lists 'TEM Vol 2 Part 2.17 – Supplement to AS 1743:2023 Road signs – Specifications v2.0' (370 pages, one V-series drawing per page) and TEM Vol 3 Part 2.12 tourist/service signs. Downloaded to `Australia/VIC/Original PDFs/`; `tools/vic_extract.py` (pages turned 90°, names from the index tables) → ~320 SVGs; 172 without a readable size (check). Legends are live Times text with per-letter spans — the extractor now keeps big single letters as legend.
 - 2026-09-05 — status → in-progress.
+- 2026-09-06 — Full run: 319 SVGs in 11 families (`Australia/VIC/SVGs`), 18 pages without a drawing, 172 size checks (no readable dimension figure → drawn at 1:10). Review sheets checked: legends complete after the big-letter fix.
