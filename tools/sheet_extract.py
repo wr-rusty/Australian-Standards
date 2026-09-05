@@ -167,14 +167,20 @@ def drawing_region(F, spans):
 def is_number(t): return re.fullmatch(r"[\d.,]+\*?\s*(?:mm)?|R\s*\d+|\d+\s*[x×]\s*\d+|\d+\s*[A-Za-z]{1,3}\*?|[A-Za-z]{1,2}|\(\d+\)|[a-z]\d?", t.strip()) is not None
 
 def clusters(fills, margin):
+    """Union-find over fills whose (margin-expanded) boxes touch; a sweep over x keeps it near-linear."""
     parent = list(range(len(fills)))
     def find(i):
         while parent[i] != i: parent[i] = parent[parent[i]]; i = parent[i]
         return i
-    for i in range(len(fills)):
+    order = sorted(range(len(fills)), key=lambda i: fills[i]["rect"].x0)
+    active = []
+    for i in order:
         ri = fills[i]["rect"] + (-margin, -margin, margin, margin)
-        for j in range(i + 1, len(fills)):
-            if ri.intersects(fills[j]["rect"]): parent[find(i)] = find(j)
+        active = [j for j in active if fills[j]["rect"].x1 + margin >= ri.x0]
+        for j in active:
+            rj = fills[j]["rect"]
+            if ri.y0 <= rj.y1 and rj.y0 <= ri.y1 and ri.x0 <= rj.x1 and rj.x0 <= ri.x1: parent[find(i)] = find(j)
+        active.append(i)
     g = {}
     for i in range(len(fills)): g.setdefault(find(i), []).append(fills[i])
     return list(g.values())
@@ -320,7 +326,10 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
     if not fills: return []
     region = drawing_region(F, spans)
     superseded = any("SUPERSEDED" in s["text"].upper() for s in spans)
-    def annotation(s): return not SIGN_FONT.search(s["font"]) and (is_number(s["text"]) or not region.contains(pymupdf.Point(s["origin"])))
+    blocks0 = {}
+    for s in spans: blocks0.setdefault(s["block"], []).append(s)
+    prose_blocks = {b for b, ss in blocks0.items() if len(ss) >= 3 and sum(len(x["text"]) for x in ss) / len(ss) > 18 and not any(SIGN_FONT.search(x["font"]) for x in ss)}
+    def annotation(s): return not SIGN_FONT.search(s["font"]) and (is_number(s["text"]) or not region.contains(pymupdf.Point(s["origin"])) or s["block"] in prose_blocks)
     ann_boxes = [s["bbox"] + (-2.5, -2.5, 2.5, 2.5) for s in spans if annotation(s)]
     blocks = {}
     for s in spans: blocks.setdefault(s["block"], []).append(s)
@@ -359,6 +368,11 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         g = [f for f in g if not (f.get("virtual") and is_frame(f))]
         if sum(1 for f in real if any(b.intersects(f["rect"]) for b in ann_spans)) >= 0.8 * len(real): continue   # a text block (table, note) converted to paths
         if len(real) > 25 and max(f["area"] for f in real) < 0.02 * box.get_area() and all(X.colour_name(f["fill"]) == "BLACK" for f in real): continue   # outlined text block
+        def grey(c): return abs(c[0] - c[1]) < 0.08 and abs(c[1] - c[2]) < 0.08 and 0.25 < c[0] < 0.92
+        if all(grey(f["fill"]) for f in real): continue                                                # greyed detail / ghost drawing
+        letters = sum(1 for s in spans if re.fullmatch(r"[a-z]\d?|[A-Z]", s["text"].strip()) and (box + (-18, -18, 18, 18)).contains(pymupdf.Point(s["origin"])) and not box.contains(pymupdf.Point(s["origin"])))
+        if max(box.width, box.height) > 6 * min(box.width, box.height) and max(f["area"] for f in real) < 0.05 * box.get_area(): continue   # a column/row of dimension figures
+        if letters >= 3 and all(X.colour_name(f["fill"]) in ("BLACK", "WHITE") for f in real) and box.get_area() < 0.5 * max(bbox_of(c).get_area() for c in clusters(inside, m)): continue   # a dimensioned symbol detail
         if any(s["text"].strip().lower().startswith("example") and (box + (-40, -40, 40, 40)).contains(pymupdf.Point(s["origin"])) for s in spans): continue
         g = sorted([f for f in g if f.get("virtual")], key=lambda f: -f["area"]) + real            # outlines painted first, then the sheet's fills in order
         panel = max(g, key=lambda f: f["area"])
@@ -384,13 +398,19 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
             r = f["rect"]; c = ((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
             if bordered and not X.in_hull(hull, c) and f["area"] < 0.2 * box.get_area(): return False
             if not triangulated and X.is_triangle(f["items"]) and f["area"] < 0.004 * pr.get_area(): return False   # dimension arrowheads
-            if min(r.width, r.height) <= 0.4 and max(r.width, r.height) > 15 * min(r.width, r.height): return False  # leader / mask lines
+            if min(r.width, r.height) <= 1.0 and max(r.width, r.height) > 12 * min(r.width, r.height): return False  # leader / dimension / mask lines
+            if min(r.width, r.height) <= 2.5 and max(r.width, r.height) > 40 * min(r.width, r.height): return False  # long dimension lines
             if f.get("virtual") and f["area"] < 0.01 * pr.get_area(): return False                                 # small closed strokes: symbols' outlines, arrows
             return True
         content = [f for f in g if keep(f)]
         if not content or (len(content) == 1 and len(content[0]["items"]) <= 5): continue          # swatch / speck
         if triangulated: content = union_by_colour(content, box)
-        pr = bbox_of(content) if not bordered else (pr | bbox_of([f for f in content if not f.get("virtual")]))   # stacked panels extend the sign
+        realc = [f for f in content if not f.get("virtual")]
+        if not realc: continue
+        if all(grey(f["fill"]) for f in realc): continue                                                # greyed detail / ghost drawing
+        if sum(f["area"] for f in realc) < 0.02 * box.get_area(): continue                             # sparse marks (arrowheads, ticks)
+        if len(realc) == 1 and max(box.width, box.height) > 8 * min(box.width, box.height) and min(box.width, box.height) < 4: continue   # a lone dimension line
+        pr = bbox_of(content) if not bordered else (pr | bbox_of(realc))   # stacked panels extend the sign
         note = []; scale = None
         dim = dimension_figure(spans, pr)
         if dim and dim[0] < 100: dim = None                                                          # a small figure is a detail, not the overall size
