@@ -11,6 +11,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TX = os.path.join(ROOT, "USA", "Texas")
 X.CODE_RE = re.compile(r"^([A-Z]{1,2}\d{0,2}-\d{1,3}[a-zA-Z]{0,3}(?:\s?[LRVHC])?(?:\s?\([^)]*\))?)$"); X.LABEL_MIN_SIZE = 11
 
+def family(code):
+    """Texas prefixes on top of the MUTCD families: CW construction warning, SW school warning, TX Texas-specific guide,
+    RS- the standard arrow / symbol details of section 11 (a symbol library, not signs)."""
+    c = code.upper()
+    if c.startswith("CW"): return "Temporary Traffic Control Signs"
+    if c.startswith("SW"): return "School Signs"
+    if c.startswith("TX"): return "Guide Signs"
+    if c.startswith("RS-"): return "Symbols and Arrows"
+    return O.family(code)
+
 def main(section=None):
     out = os.path.join(TX, "SVGs"); rows = []; seen = {}
     pdfs = sorted(glob.glob(os.path.join(TX, "Original PDFs", "shsd-2012-section*.pdf")), key=lambda f: int(re.search(r"section(\d+)", f).group(1)))
@@ -21,13 +31,14 @@ def main(section=None):
             try: signs = X.extract_page(doc, pno, "Texas")
             except Exception as ex: print("  !!", sec, pno + 1, str(ex)[:80], flush=True); continue
             for s in signs:
-                code = s["code"].replace(" ", ""); fam = O.family(code)
+                code = s["code"].replace(" ", ""); fam = family(code)
                 svg, W, H = X.write_svg(s, fam)
                 name = re.sub(r"[^A-Z0-9]+", "_", s["name"].upper()).strip("_") or "SIGN"
                 variant = s.get("variant", "")
-                fn = f"{name}_{variant}_{code}.svg" if variant else f"{name}_{code}.svg"; fn = fn.replace("(", "").replace(")", "").replace(",", "-")
-                k = 2
-                while fn in seen: fn = re.sub(r"(_\d+)?_" + re.escape(code.replace("(", "").replace(")", "").replace(",", "-")) + r"\.svg$", f"_{k}_{code}.svg", fn); k += 1
+                cd = code.replace("(", "").replace(")", "").replace(",", "-")
+                fn = f"{name}_{variant}_{cd}.svg" if variant else f"{name}_{cd}.svg"; fn = fn.replace("(", "").replace(")", "").replace(",", "-")
+                k = 2; base = fn
+                while fn in seen: fn = re.sub(r"\.svg$", f"_{k}.svg", base); k += 1
                 seen[fn] = 1; folder = os.path.join(out, fam); os.makedirs(folder, exist_ok=True)
                 if s.get("intervene"): folder = os.path.join(out, "intervene", fam); os.makedirs(folder, exist_ok=True)
                 open(os.path.join(folder, fn), "w").write(svg); n += 1

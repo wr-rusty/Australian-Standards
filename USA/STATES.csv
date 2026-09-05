@@ -3,7 +3,7 @@ Alabama,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,t
 Alaska,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Arizona,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Arkansas,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
-California,State MUTCD (CA MUTCD) + Caltrans sign specs,USA/California,planned (major state),
+California,State MUTCD (CA MUTCD) + Caltrans sign specs,USA/California,extracted — vector half (245 SVGs); scanned half needs vector copies,SGN-009
 Colorado,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Connecticut,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Delaware,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
@@ -42,7 +42,7 @@ Rhode Island,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets ex
 South Carolina,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 South Dakota,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Tennessee,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
-Texas,State MUTCD (TMUTCD) + SHSD,USA/Texas,planned (major state),
+Texas,State MUTCD (TMUTCD) + SHSD,USA/Texas,extracted (1870 SVGs; review sheets checked),SGN-010
 Utah,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Vermont,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,
 Virginia,unconfirmed,USA/Federal (MUTCD 2023) applies unless state sheets exist,todo,

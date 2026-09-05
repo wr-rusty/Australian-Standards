@@ -92,5 +92,17 @@ path (the embedded sign fonts are the authority for the letterforms), the origin
 block, notes and dimension figures are, and fills are clustered into drawings, cleaned of annotations, scaled from the
 sheet's stated size / dimension / table / scale, and written with the usual header. Line-drawn sheets get white panels
 from closed outlines, thick strokes become bands, triangulated CAD exports are unioned (Shapely), sideways sheets are
-turned upright. Drivers: `qld_extract.py` (TC sign categories → `Australia/QLD/SVGs/<Category>/`), `nsw_extract.py`
-(register → `Australia/NSW/SVGs/<family>/`). Review sheets: `pack_sheets.py <pack> <out>`.
+turned upright. Text merged into one path by the converter is split back into its marks (annotation glyphs dropped,
+holes kept with their shape), arrowheads and ticks at the panel edge are dropped, and a drawing that fills most of the
+sheet is told from the sheet frame by its margins. Drivers: `qld_extract.py` (TC sign categories →
+`Australia/QLD/SVGs/<Category>/`), `nsw_extract.py` (register → `Australia/NSW/SVGs/<family>/`), `sa_extract.py`
+(register sizes; 60% grey rendered white), `ca_extract.py` (Caltrans two-tone sheets recoloured from their COLORS note,
+sizes from the SIGN SIZE table; scanned sheets listed without files). Review sheets: `pack_sheets.py <pack> <out>`
+(sources may carry `#page=N`).
+
+### Texas — `tools/tx_extract.py`
+
+TxDOT's SHSD 2012 sheets follow the FHWA SHS layout, so the MUTCD extractor runs with Texas code patterns and family
+rules (CW → temporary traffic control, SW → school, TX → guide, RS- → `Symbols and Arrows`). Legend text in fonts the
+repo has no outlines for (Clearview, Highway *Plus) is outlined from the sheet's embedded font programs
+(`shs_extract.embedded_legend`, via `nz_extract.glyph_items`); only fonts the sheet does not embed go to `intervene/`.

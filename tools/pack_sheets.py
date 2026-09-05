@@ -13,7 +13,8 @@ def main(pack, out, limit=None):
         if not row["file"]: continue
         if limit and done >= limit: break
         done += 1
-        page = pymupdf.open(os.path.join(pack, row["source"]))[0]; pix = page.get_pixmap(dpi=36); a = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+        src, _, pg = row["source"].partition("#page=")
+        page = pymupdf.open(os.path.join(pack, src))[int(pg) - 1 if pg else 0]; pix = page.get_pixmap(dpi=36); a = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
         if a.height > 300: a = a.resize((int(a.width * 300 / a.height), 300))
         svg = os.path.join(pack, "SVGs", row["family"], row["file"]); png = os.path.join(out, "_r.png")
         if os.path.exists(png): os.remove(png)

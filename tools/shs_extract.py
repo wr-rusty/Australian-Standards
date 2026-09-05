@@ -375,6 +375,33 @@ def foreign_legend(raw, pr):
                 if pr.x0 <= ox <= pr.x1 and pr.y0 <= oy <= pr.y1: found.add(name)
     return sorted(found)
 
+def embedded_legend(doc, page, raw, pr, fonts):
+    """Legend text inside the panel set in fonts the repo has no outlines for: outline it from the sheet's embedded font
+    programs (TrueType / CFF / Type 1 via fontTools). Returns (fills in paint order, fonts still not outlined)."""
+    import nz_extract as NZ
+    xrefs = {}
+    for fx in page.get_fonts():
+        xrefs.setdefault(fx[3].split("+")[-1], (fx[0], fx[1]))
+    fills = []; missing = set()
+    for b in raw["blocks"]:
+        if not b.get("lines"): continue
+        for l in b["lines"]:
+            for sp in l["spans"]:
+                name = sp["font"].split("+")[-1]; text = "".join(c["c"] for c in sp["chars"]).strip()
+                if name not in fonts or sp["size"] < 14 or re.fullmatch(r"[\d.,\s*\"'/-]+|[A-Za-z]{1,2}\*?", text): continue   # only legend-sized words, not dimension figures set in the same font
+                ox, oy = sp["origin"]
+                if not (pr.x0 <= ox <= pr.x1 and pr.y0 <= oy <= pr.y1): continue
+                xref, ext = xrefs.get(name, (None, None))
+                col = tuple(v / 255 for v in pymupdf.sRGB_to_rgb(sp["color"])) if isinstance(sp.get("color"), int) else (0.0, 0.0, 0.0)
+                for c in sp["chars"]:
+                    if not c["c"].strip(): continue
+                    items = NZ.glyph_items(doc, xref, name, ext, c["c"], c["origin"], sp["size"]) if xref else None
+                    if not items: missing.add(name); continue
+                    pts = item_points(items)
+                    r = pymupdf.Rect(min(q[0] for q in pts), min(q[1] for q in pts), max(q[0] for q in pts), max(q[1] for q in pts))
+                    fills.append({"rect": r, "fill": col, "items": items, "area": r.get_area(), "even_odd": False, "glyph": True})
+    return fills, sorted(missing)
+
 def annotation_spans(raw):
     """Origins of dimension letters / figures / notes (non-Series text of small size)."""
     out = []
@@ -405,7 +432,8 @@ def extract_page(doc, pno, family):
             if not b.get("lines"): continue
             for l in b["lines"]:
                 for sp in l["spans"]:
-                    if font_family(sp["font"]) in SERIES and pr.x0 <= sp["origin"][0] <= pr.x1 and pr.y0 <= sp["origin"][1] <= pr.y1: return True
+                    legend = font_family(sp["font"]) in SERIES or (sp["size"] >= 14 and not any(a in sp["font"] for a in ANNOTATION_FONTS) and "".join(c["c"] for c in sp["chars"]).strip())
+                    if legend and pr.x0 <= sp["origin"][0] <= pr.x1 and pr.y0 <= sp["origin"][1] <= pr.y1: return True
         return False
     def has_content(f): return has_glyph(f["rect"]) or any(g is not f and contained(g, f) and g["area"] > 20 for g in fills)
     panels = [f for f in panels if not (len(f["items"]) == 1 and f["fill"] == (1.0, 1.0, 1.0) and not has_content(f))]   # plain white masks
@@ -499,6 +527,11 @@ def extract_page(doc, pno, family):
                     "scale_src": src, "row": row, "note": note, "page": pno + 1, "hull": hull, "text_like": looks_like_text(inside, panel["area"])}
             if dup: sign["intervene"] = f"{dup} overlapping duplicate shape(s) in the sheet's drawing (FHWA artwork fault); needs a manual check"
             foreign = foreign_legend(raw, pr)
+            if foreign:
+                extra_fills, foreign = embedded_legend(doc, page, raw, pr, foreign)
+                if extra_fills:
+                    sign["fills"] = sign["fills"] + extra_fills
+                    sign["note"] = (sign["note"] + "; " if sign["note"] else "") + f"{len(extra_fills)} legend glyph(s) outlined from the sheet's embedded font(s)"
             if foreign: sign["intervene"] = f"legend set in {', '.join(foreign)} on the sheet, a font the extractor cannot outline; that lettering is missing"
             if not sign["name"]: sign["name"] = default_name(lab, sign)
             results.append(sign); by_label.setdefault(id(lab), []).append(sign)

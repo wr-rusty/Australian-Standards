@@ -8,3 +8,13 @@
 
 `SVGs/` is produced by `tools/tx_extract.py` (the MUTCD extractor `tools/shs_extract.py` with Texas code patterns);
 `SVGs/MANIFEST.csv` records the size row used and anything to check.
+
+## Result (2026-09-05)
+
+1,870 SVGs in 13 family folders (`Symbols and Arrows/` holds section 11's standard arrow and symbol details, useful as
+artwork but not signs). Legends set in Clearview / Highway *Plus fonts are outlined from the sheets' embedded font
+programs. 30 files sit in `SVGs/intervene/…` (fonts the sheet does not embed, or FHWA-style artwork faults) and 594 rows
+carry a "check" note, mostly size (no conventional-road marker in the size table, so the smallest row is used). Known
+faults to review: symbol placeholders drawn as black blocks on sheets that say "see Symbol section"; a few sheets with
+dimension figures outlined inside the panel (e.g. R4-10); outline-less square signs (e.g. R5-1) rendered without their
+white background.

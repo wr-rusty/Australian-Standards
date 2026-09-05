@@ -95,7 +95,9 @@ def page_fills(page, F):
                 if k == "re": r = it[1]; pts = [(r.x0, r.y0), (r.x1, r.y0), (r.x1, r.y1), (r.x0, r.y1)]
                 else: q = it[1]; pts = [q.ul, q.ur, q.lr, q.ll]
                 pts = [F.P(p) for p in pts]; items += [("l", pts[i], pts[(i + 1) % 4]) for i in range(4)]
-        r = F.R(f["rect"]); out.append({"rect": r, "fill": f["fill"], "items": items, "area": r.get_area(), "even_odd": f.get("even_odd")})
+        r = F.R(f["rect"])
+        if r.width < 0.3 and r.height < 0.3 or (min(r.width, r.height) < 0.05 and max(r.width, r.height) < 40): continue   # degenerate (zero-width) marks
+        out.append({"rect": r, "fill": f["fill"], "items": items, "area": r.get_area(), "even_odd": f.get("even_odd")})
     return out
 
 def closed_strokes(page, F):
@@ -322,6 +324,58 @@ def dimension_figure(spans, pr):
             if best is None or (best[2] == "h" and v > best[1]): best = (0, v, "h")
     return (best[1], best[2]) if best else None
 
+def subpaths(items):
+    """Split a path's items where the pen lifts (an item that does not start at the previous item's end)."""
+    out = []; cur = []; end = None
+    for it in items:
+        start, stop = it[1], it[-1]
+        if cur and end is not None and (abs(start[0] - end[0]) > 0.05 or abs(start[1] - end[1]) > 0.05): out.append(cur); cur = []
+        cur.append(it); end = stop
+    if cur: out.append(cur)
+    return out
+
+def strip_annotated_subpaths(f, ann_boxes):
+    """A converter can merge every glyph of a text layer (dimension letters, notes) into one path whose box spans the
+    drawing. Drop the subpaths sitting under annotation text; keep the rest (None when nothing is left)."""
+    if f.get("virtual") or len(f["items"]) < 6 or not ann_boxes: return f
+    parts = subpaths(f["items"])
+    if len(parts) < 3: return f
+    keep = []; dropped = 0
+    for part in parts:
+        pts = X.item_points(part); r = pymupdf.Rect(min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts))
+        if any(b.contains(r) for b in ann_boxes): dropped += 1
+        else: keep.append(part)
+    if not dropped: return f
+    if not keep: return None
+    items = [it for part in keep for it in part]; pts = X.item_points(items)
+    r = pymupdf.Rect(min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts))
+    return dict(f, items=items, rect=r, area=r.get_area())
+
+def explode(f):
+    """A compound path (several pen-lifts) as separate fills, one per outermost subpath with the subpaths nested in it
+    (glyph counters, rings) kept together so even-odd holes still render. Arrowheads and ticks merged by a converter thus
+    become the small separate marks the sign rules already drop."""
+    if f.get("virtual") or f.get("band") or len(f["items"]) < 6: return [f]
+    parts = subpaths(f["items"])
+    if len(parts) < 2: return [f]
+    boxes = []
+    for part in parts:
+        pts = X.item_points(part); boxes.append(pymupdf.Rect(min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts)))
+    order = sorted(range(len(parts)), key=lambda i: -boxes[i].get_area())
+    root = {}
+    for k, i in enumerate(order):
+        root[i] = i
+        for j in order[:k]:
+            if boxes[j].contains(boxes[i]): root[i] = root[j]; break
+    groups = {}
+    for i in range(len(parts)): groups.setdefault(root[i], []).append(i)
+    if len(groups) == 1: return [f]
+    out = []
+    for r, idx in groups.items():
+        items = [it for i in sorted(idx) for it in parts[i]]; box = boxes[r]
+        out.append(dict(f, items=items, rect=box, area=box.get_area()))
+    return out
+
 def extract_page(pdf, pno=0, min_area_frac=0.02):
     """Drawings on a sheet: list of sign dicts for X.write_svg (panel, fills, scale, note, superseded, text)."""
     doc = pymupdf.open(pdf); page = doc[pno]
@@ -343,7 +397,8 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
     ann_boxes = [s["bbox"] + (-2.5, -2.5, 2.5, 2.5) for s in spans if annotation(s)]
     blocks = {}
     for s in spans: blocks.setdefault(s["block"], []).append(s)
-    ann_boxes += [ss[0]["block_bbox"] + (-2.5, -2.5, 2.5, 2.5) for ss in blocks.values() if all(annotation(s) for s in ss)]   # a text object converted as one path
+    ann_boxes += [ss[0]["block_bbox"] + (-2.5, -2.5, 2.5, 2.5) for ss in blocks.values()
+                  if all(annotation(s) for s in ss) and ss[0]["block_bbox"].get_area() <= 4 * sum(s["bbox"].get_area() for s in ss)]   # a text object converted as one path (not letters scattered round a drawing)
     from shapely.geometry import box as sbox
     from shapely.ops import unary_union
     ann_union = unary_union([sbox(b.x0, b.y0, b.x1, b.y1) for b in ann_boxes]) if ann_boxes else None
@@ -354,9 +409,11 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         return ann_union.intersection(sbox(r.x0, r.y0, r.x1, r.y1)).area >= 0.7 * r.get_area()   # a text block converted as one path
     def in_region(f):
         r = f["rect"]
-        if r.get_area() >= 0.45 * region.get_area(): return False                                     # sheet frame / page background
+        if r.get_area() >= 0.45 * region.get_area() and (r.width >= 0.9 * region.width or r.height >= 0.9 * region.height): return False   # sheet frame / page background (a big drawing keeps margins)
         if f.get("virtual"): return region.contains(r)                                                 # outlines: wholly inside
         return region.contains(pymupdf.Point((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2))
+    fills = [g for f in fills for g in [strip_annotated_subpaths(f, ann_boxes)] if g]   # text merged into one path by the converter: drop its annotation glyphs
+    fills = [g for f in fills for g in explode(f)]                                         # ... and split what remains into its separate marks (holes stay with their shape)
     inside = [f for f in fills if in_region(f) and not under_annotation(f)]
     if not inside: return []
     U = bbox_of(inside); m = 0.015 * max(U.width, U.height)
@@ -374,7 +431,7 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         real = [f for f in g if not f.get("virtual")]
         if not real: continue                                                                        # outlines with nothing drawn inside
         def is_frame(v):
-            if v["area"] >= 0.5 * region.get_area(): return True                                   # the sheet's own frame
+            if v["area"] >= 0.5 * region.get_area() and (v["rect"].width >= 0.9 * region.width or v["rect"].height >= 0.9 * region.height): return True   # the sheet's own frame
             inner = [f for f in real if v["rect"].contains(f["rect"]) and f["area"] >= 0.45 * v["area"]]
             return bool(inner) and not any(abs(f["rect"].x0 - v["rect"].x0) < 2 and abs(f["rect"].y0 - v["rect"].y0) < 2 and abs(f["rect"].x1 - v["rect"].x1) < 2 and abs(f["rect"].y1 - v["rect"].y1) < 2 for f in inner)
         g = [f for f in g if not (f.get("virtual") and is_frame(f))]
@@ -389,10 +446,11 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         g = sorted([f for f in g if f.get("virtual")], key=lambda f: -f["area"]) + real            # outlines painted first, then the sheet's fills in order
         panel = max(g, key=lambda f: f["area"])
         hull = X.convex_hull(X.item_points(panel["items"]))
-        bordered = panel["area"] >= 0.5 * box.get_area()
+        core = bbox_of([f for f in g if f["area"] >= 0.002 * box.get_area()] or g)          # the drawing without the dimension marks around it
+        bordered = panel["area"] >= 0.5 * core.get_area()
         if not bordered:   # a border ring drawn as a fill with nothing behind it: its outline becomes the white panel
             big = max(real, key=lambda f: f["area"])
-            if big["area"] >= 0.85 * box.get_area() and len(big["items"]) >= 6:
+            if big["area"] >= 0.85 * core.get_area() and len(big["items"]) >= 6:
                 hb = X.convex_hull(X.item_points(big["items"]))
                 if len(hb) >= 3:
                     items = [("l", hb[i], hb[(i + 1) % len(hb)]) for i in range(len(hb))]
@@ -405,14 +463,18 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
             g = [virt] + g; panel = virt; hull = X.convex_hull(X.item_points(items)); bordered = True; assumed = True
         pr = panel["rect"] if bordered else box
         tri = [f for f in real if X.is_triangle(f["items"])]
-        pieces = [f for f in real if len(f["items"]) <= 5 and all(it[0] == "l" for it in f["items"])]        # triangles and quads of a tessellated export
-        triangulated = (len(tri) > 60 and len(tri) > 0.4 * max(1, len(real))) or (len(pieces) > 200 and len(pieces) > 0.6 * max(1, len(real)))
+        pieces = [f for f in real if len(f["items"]) <= 5 and all(it[0] == "l" for it in f["items"]) and max(f["rect"].width, f["rect"].height) < 8 * max(0.1, min(f["rect"].width, f["rect"].height))]   # triangles and quads of a tessellated export (not hatching lines)
+        piece_area = sum(f["area"] for f in pieces)
+        triangulated = piece_area > 0.05 * box.get_area() and ((len(tri) > 60 and len(tri) > 0.4 * max(1, len(real))) or (len(pieces) > 200 and len(pieces) > 0.6 * max(1, len(real))))
         edge = 0.06 * min(pr.width, pr.height)      # a border drawn as bars around the panel sits just outside its outline
         def keep(f):
             r = f["rect"]; c = ((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
             if bordered and not X.in_hull(hull, c, tol=edge) and f["area"] < 0.2 * box.get_area(): return False
             if triangulated: return True                                                                 # every piece of a tessellated shape counts
             if X.is_triangle(f["items"]) and f["area"] < 0.004 * pr.get_area(): return False   # dimension arrowheads
+            if not f.get("virtual") and f["area"] < 0.0015 * pr.get_area() and max(r.width, r.height) < 0.05 * min(pr.width, pr.height):
+                edge_d = min(abs(r.x0 - pr.x0), abs(r.x1 - pr.x1), abs(r.y0 - pr.y0), abs(r.y1 - pr.y1))
+                if edge_d < 0.05 * min(pr.width, pr.height) or not pr.contains(r): return False        # arrowheads / ticks of dimension lines at the panel edge
             if min(r.width, r.height) <= 1.0 and max(r.width, r.height) > 12 * min(r.width, r.height): return False  # leader / dimension / mask lines
             if min(r.width, r.height) <= 2.5 and max(r.width, r.height) > 40 * min(r.width, r.height): return False  # long dimension lines
             if f.get("virtual") and f["area"] < 0.01 * pr.get_area(): return False                                 # small closed strokes: symbols' outlines, arrows

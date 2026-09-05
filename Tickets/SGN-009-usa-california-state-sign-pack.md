@@ -31,3 +31,4 @@ Review sheets checked; corner check clean; STATES.csv row updated with adoption 
 - 2026-09-06 — filed.
 - 2026-09-06 — Caltrans sign-spec index crawled (487 PDFs, `USA/California/REGISTER.csv`), downloading into `Original PDFs/<series>/`. About half are scanned images (OCR layer, no vectors) — those need tracing or a vector copy from Caltrans; the vector half can go through the sheet extractor.
 - 2026-09-05 — status → in-progress.
+- 2026-09-05 — `tools/ca_extract.py`: 245 SVGs from the 246 vector sheets (two-tone sheets recoloured from the COLORS note; sizes from the SIGN SIZE table). 228 scanned sheets listed without files — need vector copies or tracing. Sheet extractor fixes along the way (converter-merged text paths, compound-path explode, arrowheads at panel edges, scattered-letter blocks, big panels vs sheet frame). 200 check rows. Review sheets checked.
