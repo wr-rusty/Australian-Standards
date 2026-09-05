@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="26.88mm" height="21.5mm" viewBox="0 0 76.2 60.95">
+<g transform="scale(0.1)">
+  <path fill="#ffff00" d="M0 0H762V609.46H0Z"/>
+  <path fill="#000000" d="M723.95 9.61H752.4V38.05H723.95Z"/>
+  <path fill="#000000" d="M9.61 9.61H38.05V38.05H9.61Z"/>
+  <path fill="#000000" d="M9.61 571.41H38.05V600.21H9.61Z"/>
+  <path fill="#000000" d="M723.95 571.41H752.4V600.21H723.95Z"/>
+  <path fill="#000000" d="M38.05 9.6H723.95V25.61H38.05Z"/>
+  <path fill="#000000" d="M9.61 38.04H25.61V571.41H9.61Z"/>
+  <path fill="#000000" d="M38.05 584.21H723.95V600.21H38.05Z"/>
+  <path fill="#000000" d="M736.76 38.04H752.41V571.41H736.76Z"/>
+</g>
+</svg>

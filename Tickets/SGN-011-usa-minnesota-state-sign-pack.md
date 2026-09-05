@@ -1,12 +1,12 @@
 ---
 id: SGN-011
 title: USA/Minnesota: state sign pack
-status: open
+status: in-progress
 priority: P1
 area: sources
 project: usa
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -29,3 +29,6 @@ Review sheets checked; corner check clean; STATES.csv row updated with adoption 
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — MnDOT Standard Signs and Markings Manual sections located (edocs-public docIds) and downloading into `USA/Minnesota/Original PDFs/`; structure to inspect (expected SHS-style vector sheets).
+- 2026-09-05 — status → in-progress.
+- 2026-09-06 — edocs-public.dot.state.mn.us times out for curl (no TCP response within 60 s, http and https); the 14 section links are recorded in `USA/Minnesota/SOURCES.md`. Try again later, from another network, or through the Browser pane (save prompts).

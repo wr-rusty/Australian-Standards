@@ -1,12 +1,12 @@
 ---
 id: SGN-009
 title: USA/California: state sign pack
-status: open
+status: in-progress
 priority: P1
 area: sources
 project: usa
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -29,3 +29,5 @@ Review sheets checked; corner check clean; STATES.csv row updated with adoption 
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — Caltrans sign-spec index crawled (487 PDFs, `USA/California/REGISTER.csv`), downloading into `Original PDFs/<series>/`. About half are scanned images (OCR layer, no vectors) — those need tracing or a vector copy from Caltrans; the vector half can go through the sheet extractor.
+- 2026-09-05 — status → in-progress.

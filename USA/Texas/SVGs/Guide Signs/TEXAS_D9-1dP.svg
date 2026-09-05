@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="21.51mm" height="5.38mm" viewBox="0 0 60.96 15.25">
+<g transform="scale(0.1)">
+  <path fill="#005a9c" d="M0 0H609.6V152.46H0Z"/>
+  <path fill="#ffffff" d="M571.55 -0H609.6V38.05H571.55Z"/>
+  <path fill="#ffffff" d="M0 -0H38.05V38.05H0Z"/>
+  <path fill="#ffffff" d="M0 114.28H38.05V152.46H0Z"/>
+  <path fill="#ffffff" d="M571.55 114.28H609.6V152.46H571.55Z"/>
+  <path fill="#ffffff" d="M38.05 0H571.55V12.68H38.05Z"/>
+  <path fill="#ffffff" d="M0 38.05H12.68V114.28H0Z"/>
+  <path fill="#ffffff" d="M38.05 139.66H571.55V152.46H38.05Z"/>
+  <path fill="#ffffff" d="M596.92 38.05H609.6V114.28H596.92Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M415.29 21.81C413.99 20.98 412.57 20.63 411.14 20.63C406.64 20.63 403.2 24.18 403.2 28.57C403.2 29.16 403.2 29.76 403.32 30.35L411.14 28.57L415.29 21.81"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M403.32 121.87C403.2 122.46 403.2 123.17 403.2 123.77C403.2 128.16 406.64 131.83 411.14 131.83C412.57 131.83 414.11 131.35 415.41 130.52L411.14 123.77L403.32 121.87"/>
+  <path fill="#ffffff" d="M403.43 21.93H495.31V130.52H403.43Z"/>
+  <path fill="#ffffff" d="M114.29 55.59H409.6V96.86H114.29Z"/>
+  <path fill="#191818" d="M172.81 86.46L172.81 65.99L172.81 86.46"/>
+</g>
+</svg>

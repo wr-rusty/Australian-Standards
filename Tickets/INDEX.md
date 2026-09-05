@@ -22,9 +22,9 @@ Open: 67 (P1 18, P2 49) · Closed: 0
 
 | ID | Pri | Status | Area | Title |
 |---|---|---|---|---|
-| [SGN-009](SGN-009-usa-california-state-sign-pack.md) | P1 | open | sources | USA/California: state sign pack |
-| [SGN-010](SGN-010-usa-texas-state-sign-pack.md) | P1 | open | sources | USA/Texas: state sign pack |
-| [SGN-011](SGN-011-usa-minnesota-state-sign-pack.md) | P1 | open | sources | USA/Minnesota: state sign pack |
+| [SGN-009](SGN-009-usa-california-state-sign-pack.md) | P1 | in-progress | sources | USA/California: state sign pack |
+| [SGN-010](SGN-010-usa-texas-state-sign-pack.md) | P1 | in-progress | sources | USA/Texas: state sign pack |
+| [SGN-011](SGN-011-usa-minnesota-state-sign-pack.md) | P1 | in-progress | sources | USA/Minnesota: state sign pack |
 | [SGN-012](SGN-012-usa-ohio-state-sign-pack.md) | P1 | open | sources | USA/Ohio: state sign pack |
 | [SGN-013](SGN-013-usa-michigan-state-sign-pack.md) | P1 | open | sources | USA/Michigan: state sign pack |
 | [SGN-014](SGN-014-usa-washington-state-sign-pack.md) | P1 | open | sources | USA/Washington: state sign pack |

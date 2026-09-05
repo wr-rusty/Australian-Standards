@@ -32,6 +32,7 @@ SERIES = {"SeriesB2000": "B", "SeriesC2000": "C", "SeriesD2000": "D", "SeriesE20
 # cap height / em of the embedded fonts, measured from their 'H' outline (2004/2012 sheets): the Series*2000 and Highway*98
 # Type 1 fonts are 0.285, the Highway*66 fonts 0.667; anything else is measured from the extracted font file at run time
 CAP_RATIO = {}
+LABEL_MIN_SIZE = 12   # sign-code labels are set larger than dimension figures; state sheets may use 11 pt
 DEFAULT_NAMES = {"OM": "OBJECT MARKER", "D": "GUIDE SIGN", "E": "GUIDE SIGN", "I": "GENERAL INFORMATION SIGN", "M": "ROUTE SIGN", "G": "GUIDE SIGN"}
 CONVENTIONAL = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "shs_conventional_sizes.json")))
 NOTE_START = ("COLORS", "LEGEND", "BACKGROUND", "SYMBOL", "BORDER", "SEE ", "NOTE", "*", "—", "-", "(")
@@ -98,7 +99,7 @@ def page_signs(page):
     lines = page_lines(page); labels = []
     for l in lines:
         m = CODE_RE.match(l["text"].replace("  ", " "))
-        if m and l["size"] >= 12 and not l["series"]:
+        if m and l["size"] >= LABEL_MIN_SIZE and not l["series"]:
             x0, y0, x1, y1 = l["bbox"]; labels.append({"code": l["text"], "x": (x0 + x1) / 2, "y": y0, "bbox": l["bbox"]})
     def namey(l):
         t = l["text"]
@@ -450,7 +451,7 @@ def extract_page(doc, pno, family):
                 r = f["rect"]; items = f["items"]
                 c = ((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
                 if not in_hull(hull, c): return True                                                            # outside the sign outline
-                if len(items) == 1 and items[0][0] == "re" and min(r.width, r.height) <= 0.8 and max(r.width, r.height) > 9 * min(r.width, r.height): return True   # dimension ticks
+                if len(items) == 1 and items[0][0] == "re" and min(r.width, r.height) <= 0.8 and max(r.width, r.height) > 14 * min(r.width, r.height): return True   # dimension ticks (a small letter I is squatter than 1:14)
                 if min(r.width, r.height) <= 1.5 and colour_name(f["fill"]) == "WHITE" and max(r.width, r.height) > 12: return True   # white dimension-line masks
                 if is_triangle(items) and f["area"] < 60: return True                                            # dimension arrowheads
                 if f["area"] < 400 and any(r.x0 <= ax <= r.x1 and r.y0 <= ay <= r.y1 for ax, ay in ann): return True   # mask under a dimension letter/figure

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="69.89mm" height="11.88mm" viewBox="0 0 198.12 33.68">
+<g transform="scale(0.1)">
+  <path fill="#ffffff" fill-rule="evenodd" d="M1981.19 79.04C1980.91 35.16 1946.83 -0 1904.92 -0L1904.65 -0L1904.92 79.33L1981.19 79.04"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M75.72 0C33.81 0 0.01 35.45 0.01 79.04L76 79.34L75.72 0"/>
+  <path fill="#ffffff" d="M76 0L76 79.34L0 79.34L0 336.8L1981.2 336.8L1981.2 79.34L1904.92 79.34L1904.92 0L76 0"/>
+  <path fill="#000000" d="M1904.92 19.76H1961.92V79.33H1904.92Z"/>
+  <path fill="#000000" d="M19 19.76H76V79.33H19Z"/>
+  <path fill="#000000" d="M1930.34 79.33H1961.91V336.81H1930.34Z"/>
+  <path fill="#000000" d="M76 19.76H1904.92V52.89H76Z"/>
+  <path fill="#000000" d="M19 79.33H50.57V336.81H19Z"/>
+  <path fill="#000000" d="M50.57 303.97H1930.34V336.81H50.57Z"/>
+  <path fill="#231f20" d="M46.39 92.57L72.85 92.54L46.39 92.57"/>
+  <path fill="#000000" d="M73.34 171.51L100.54 171.47L73.34 171.51"/>
+</g>
+</svg>

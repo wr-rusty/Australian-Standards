@@ -1,12 +1,12 @@
 ---
 id: SGN-010
 title: USA/Texas: state sign pack
-status: open
+status: in-progress
 priority: P1
 area: sources
 project: usa
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -29,3 +29,5 @@ Review sheets checked; corner check clean; STATES.csv row updated with adoption 
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — SHSD 2012 rev 4 sections 1–13 downloaded (`USA/Texas/Original PDFs/`); the sheets match the FHWA SHS layout, so `tools/tx_extract.py` runs the MUTCD extractor with Texas code patterns (R1-2bTP, R7-107R (L,DBL), 11 pt labels). Full run in progress.
+- 2026-09-05 — status → in-progress.
