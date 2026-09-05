@@ -33,3 +33,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-05 — status → in-progress.
 - 2026-09-06 — WA's PDFs are raster scans (one image per sheet), so the vector route is the DWG. LibreDWG 0.14 (dwg2dxf) converts the DWGs but loses block contents and misplaces text (only hatches, a few polylines and stray glyphs survive), so the output is unusable. Options: ODA File Converter (free, needs the ODA licence click-through, not scriptable to install), AutoCAD/BricsCAD export by Russell, or ask Main Roads for DXF/vector PDF. The DXF text styles are SHX (HWAYLC, B-series): legends would be set with the repo's FHWA fonts by style mapping.
 - 2026-09-05 — status → blocked.
+- 2026-09-06 — crawl done: 1,800 index items, 917 DWGs and 725 PDF scans in `Australia/WA/Original PDFs/<Category>/<Series>/` with `REGISTER.csv`. PDF scans are git-ignored (417 MB raster); DWGs committed (197 MB).

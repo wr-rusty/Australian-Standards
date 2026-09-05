@@ -369,6 +369,7 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         real = [f for f in g if not f.get("virtual")]
         if not real: continue                                                                        # outlines with nothing drawn inside
         def is_frame(v):
+            if v["area"] >= 0.5 * region.get_area(): return True                                   # the sheet's own frame
             inner = [f for f in real if v["rect"].contains(f["rect"]) and f["area"] >= 0.45 * v["area"]]
             return bool(inner) and not any(abs(f["rect"].x0 - v["rect"].x0) < 2 and abs(f["rect"].y0 - v["rect"].y0) < 2 and abs(f["rect"].x1 - v["rect"].x1) < 2 and abs(f["rect"].y1 - v["rect"].y1) < 2 for f in inner)
         g = [f for f in g if not (f.get("virtual") and is_frame(f))]

@@ -31,3 +31,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-06 — filed.
 - 2026-09-05 — status → in-progress.
 - 2026-09-06 — register crawled: 1,662 signs, 1,162 with a design plan PDF (`Australia/NSW/REGISTER.csv`). Sheet extractor handles the modern plans well (text in FHWA fonts, stated 'W x H'); the older CAD exports (all text outlined, sideways sheets, several sizes per sheet, triangulated shapes, stroked outlines) still lose borders and keep dimension figures — see the manifest notes and the review sheets. Full run started; results to be QA'd.
+- 2026-09-06 — first full run: 1,574 SVGs from 1,162 plans (`Australia/NSW/SVGs`, 8 families); 163 plans gave no drawing (old line-drawn sheets), 721 have no readable size (outlined figures; flagged 'check'), 208 have an assumed white background. 874 are NSW-only codes. Rerun due with the later extractor fixes (tessellated exports, frame filter).
