@@ -75,5 +75,5 @@
    "4.5"
   ]
  },
- "intervene": "vertical datum of the LOW / CLEARANCE / numeral block is not dimensioned: spec anchors the 200 D numeral top on the centreline, illustration shows the block ~30 mm higher - LOW top ~204 vs 240; intervene set"
+ "accepted_drawing_discrepancy": "vertical datum of the LOW / CLEARANCE / numeral block is not dimensioned: spec anchors the 200 D numeral top on the centreline, illustration shows the block ~30 mm higher - LOW top ~204 vs 240; intervene set"
 }
