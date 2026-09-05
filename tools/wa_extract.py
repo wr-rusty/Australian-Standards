@@ -6,7 +6,7 @@ The DWG is converted with LibreDWG (dwg2dxf), loaded with ezdxf's recovery reade
 ezdxf's drawing add-on, Inkscape turns that into a PDF, and the sheet extractor picks the sign drawings out of it. Closed
 polylines on the letters layers (L25, L35 ...) that carry no hatch are filled solid, as the sign maker would.
   python3 tools/wa_extract.py [limit]      (WA_FILES=comma,separated,stems to run named drawings)"""
-import os, re, sys, csv, glob, subprocess, collections, hashlib
+import os, re, sys, csv, glob, subprocess, collections, hashlib, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pymupdf, ezdxf
 from ezdxf import recover, bbox
@@ -114,6 +114,55 @@ def dxf_of(dwg):
         repair_dxf(out)
     return out
 
+def supplement_blocks(doc, dwg):
+    """LibreDWG's DXF writer drops the contents of some anonymous blocks (GuideSIGN glyphs). Its JSON reader keeps
+    them: refill every empty *U block from the JSON entities owned by the same block-record handle."""
+    import json
+    jpath = dxf_of(dwg)[:-4] + ".dwg.json"
+    if not os.path.exists(jpath):
+        r = subprocess.run(["dwgread", "-O", "json", dwg], capture_output=True, text=True, timeout=600)
+        if not r.stdout.strip(): return 0
+        open(jpath, "w").write(r.stdout)
+    try: objs = json.load(open(jpath)).get("OBJECTS", [])
+    except Exception: return 0
+    layers = {o["handle"][-1]: o.get("name", "0") for o in objs if o.get("object") == "LAYER" and o.get("handle")}
+    by_owner = {}
+    for o in objs:
+        if "entity" in o and o.get("ownerhandle"): by_owner.setdefault(o["ownerhandle"][-1], []).append(o)
+    added = 0
+    for b in doc.blocks:
+        if not b.name.startswith("*U") or len(list(b)) or not b.block_record.dxf.hasattr("handle"): continue
+        ents = by_owner.get(int(b.block_record.dxf.handle, 16), [])
+        for o in ents:
+            lay = layers.get((o.get("layer") or [None])[-1], "0"); col = (o.get("color") or {}).get("index", 256)
+            attribs = {"layer": lay, "color": col if isinstance(col, int) else 256}
+            try:
+                if o["entity"] == "LWPOLYLINE":
+                    pts = o.get("points") or []; bul = o.get("bulges") or []
+                    if len(pts) >= 2:
+                        b.add_lwpolyline([(x, y, (bul[i] if i < len(bul) else 0.0)) for i, (x, y) in enumerate(pts)], format="xyb", close=bool((o.get("flag") or 0) & 512), dxfattribs=attribs); added += 1
+                elif o["entity"] == "HATCH":
+                    h = b.add_hatch(color=attribs["color"], dxfattribs={"layer": lay}); n = 0
+                    for ph in o.get("paths") or []:
+                        if ph.get("polyline_paths"):
+                            pts = [(q["point"][0], q["point"][1], q.get("bulge", 0.0)) for q in ph["polyline_paths"]]
+                            if len(pts) >= 2: h.paths.add_polyline_path(pts, is_closed=True, flags=ph.get("flag", 1)); n += 1
+                        elif ph.get("segs"):
+                            ep = h.paths.add_edge_path(flags=ph.get("flag", 1))
+                            for sg in ph["segs"]:
+                                t = sg.get("curve_type")
+                                if t == 1: ep.add_line(tuple((sg.get("first_endpoint") or sg["start"])[:2]), tuple((sg.get("second_endpoint") or sg["end"])[:2]))
+                                elif t == 2: ep.add_arc(tuple(sg["center"][:2]), sg["radius"], math.degrees(sg["start_angle"]), math.degrees(sg["end_angle"]), ccw=bool(sg.get("is_ccw", 1)))
+                                elif t == 3: ep.add_ellipse(tuple(sg["center"][:2]), tuple(sg["endpoint"][:2]) if "endpoint" in sg else (sg.get("radius", 1), 0), sg.get("minor_major_ratio", sg.get("ratio", 1)), math.degrees(sg.get("start_angle", 0)), math.degrees(sg.get("end_angle", 6.283185)), ccw=bool(sg.get("is_ccw", 1)))
+                                elif t == 4:
+                                    cps = [tuple(c[:2]) for c in (sg.get("control_points") or sg.get("fit_points") or [])]
+                                    for a, c in zip(cps, cps[1:]): ep.add_line(a, c)
+                            n += 1
+                    if n: added += 1
+                    else: b.delete_entity(h)
+            except Exception: pass
+    return added
+
 def strip_furniture(doc):
     """Remove sheet furniture and text; fill hatch-less closed polylines on letters layers. Returns notes."""
     notes = []
@@ -180,8 +229,13 @@ def render_pdf(dwg):
     import json
     dxf = dxf_of(dwg); pdf = dxf[:-4] + ".pdf"; meta = dxf[:-4] + ".json"
     if os.path.exists(pdf) and os.path.exists(meta): return pdf, json.load(open(meta))
-    doc, aud = recover.readfile(dxf); texts = sheet_text(doc)
-    info = {"scale": sheet_scale(texts), "colours": colour_note(texts), "legend_text": legend_text(doc), "notes": strip_furniture(doc), "layers": {l.dxf.name: l.color for l in doc.layers}}
+    doc, aud = recover.readfile(dxf); texts = sheet_text(doc); refilled = supplement_blocks(doc, dwg)
+    guidesign = any(l.dxf.name.upper() == "GSCOLORFILL" for l in doc.layers)
+    if guidesign:   # GuideSIGN export: the colour level is the truth; drop the black-and-white and outline levels
+        for space in [doc.modelspace()] + [b for b in doc.blocks]:
+            for e in list(space):
+                if (e.dxf.layer or "").upper() in ("GSBWFILL", "GSOUTLINE") and e.dxftype() != "INSERT": space.delete_entity(e)
+    info = {"scale": sheet_scale(texts), "colours": colour_note(texts), "legend_text": legend_text(doc), "notes": strip_furniture(doc) + ([f"{refilled} glyph block(s) refilled from the DWG (LibreDWG's DXF dropped them)"] if refilled else []), "guidesign": guidesign, "layers": {l.dxf.name: l.color for l in doc.layers}}
     msp = doc.modelspace(); ext = bbox.extents(msp, fast=True)
     if not ext.has_data: raise RuntimeError("nothing left to draw")
     w, h = max(ext.size.x, 1), max(ext.size.y, 1); info["extents"] = [ext.extmin.x, ext.extmin.y, w, h]
@@ -198,6 +252,24 @@ def render_pdf(dwg):
 
 LIGHT = {"WHITE", "YELLOW", "TEAL"}
 SERIES_DEFAULT = [(r"^MR-W|^MR-T", ("BLACK", "YELLOW")), (r"^MR-G", ("WHITE", "GREEN")), (r"^MR-S", ("WHITE", "BLUE")), (r"^MR-V", ("WHITE", "BROWN")), (r"^MR-HM", ("RED", "WHITE"))]
+
+DARK_BG = {"BLUE", "GREEN", "BROWN", "RED", "BLACK"}
+def recolour_true(sign, code):
+    """GuideSIGN colour level: every fill's rendered colour is a real sign colour (nearest palette name); the panel's
+    colour is the background, black/white legend follows the background's tone."""
+    fills = sign["fills"]; real = [f for f in fills if not f.get("virtual")]
+    top = max(real, key=lambda f: f["area"]) if real else None
+    bg = X.colour_name(top["fill"]) if top else "WHITE"
+    if bg not in PALETTE: bg = "WHITE"
+    legend = "WHITE" if bg in DARK_BG else "BLACK"
+    for f in fills:
+        n = X.colour_name(f["fill"])
+        if f.get("virtual"): f["fill"] = hex2rgb(PALETTE[bg])
+        elif n in PALETTE and n not in ("BLACK", "WHITE"): f["fill"] = hex2rgb(PALETTE[n])
+        elif n == "WHITE": f["fill"] = hex2rgb(PALETTE["WHITE"])
+        else: f["fill"] = hex2rgb(PALETTE[legend])
+    sign["bg"] = bg
+    return f"colours from the drawing's GuideSIGN colour level: background {bg}, legend {legend}"
 
 def recolour(sign, colours, code):
     """Drafting colours mean nothing, so the stacking tells the design: the last panel-sized fill (one that holds the
@@ -303,7 +375,7 @@ def main(limit=None):
                 sgn["scale"] = 10 / 72; note.insert(0, "no scale on the sheet and no register size; drawn at 1:10 — check")
             W_mm, H_mm = pr.width * sgn["scale"] * 25.4, pr.height * sgn["scale"] * 25.4
             if rw and (abs(W_mm - rw) > 0.06 * rw or abs(H_mm - rh) > 0.06 * rh): note.append(f"register size {r['size']} mm differs from the drawing ({W_mm:.0f} x {H_mm:.0f} mm) — check")
-            note.append(recolour(sgn, info.get("colours") or {}, code))
+            note.append(recolour_true(sgn, code) if info.get("guidesign") and not info.get("colours") else recolour(sgn, info.get("colours") or {}, code))
             intervene = not any(not f.get("virtual") for f in sgn["fills"])
             if intervene: note.append("line drawing only (outlines, no fills): needs drawing up by hand")
             if info.get("legend_text"):
