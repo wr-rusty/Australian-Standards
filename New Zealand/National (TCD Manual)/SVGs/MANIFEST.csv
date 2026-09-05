@@ -1,6 +1,7 @@
 code,name,family,file,size,register_dimensions,notes
 RP6V,"""Stop On Red Signal"" variable",Regulatory Signs,STOP_ON_RED_SIGNAL_VARIABLE_RP6V.svg,1200x1000 mm,a : 1200 b : 1000 c : 30 d : 100 Text : 200D,
-RL3V,"Arrow variable S, L or R and X",Regulatory Signs,ARROW_VARIABLE_S_L_OR_R_AND_X_RL3V.svg,202x202 mm,a : 265 b : 40 c : 265 d : 40,drawn width 202 mm vs register 265 mm — check; drawn at 2 sizes on the sheet; register size kept
+RL3V,"Arrow variable S, L or R and X",Regulatory Signs,ARROW_VARIABLE_S_L_OR_R_AND_X_RL3V.svg,216x216 mm,a : 265 b : 40 c : 265 d : 40,drawn width 216 mm vs register 265 mm — check
+RL3V,"Arrow variable S, L or R and X",Regulatory Signs,ARROW_VARIABLE_S_L_OR_R_AND_X_YELLOW_RL3V.svg,202x202 mm,a : 265 b : 40 c : 265 d : 40,drawn at 2 sizes on the sheet; register size kept
 RL3V,"Arrow variable S, L or R and X",Regulatory Signs,ARROW_VARIABLE_S_L_OR_R_AND_X_GREEN_RL3V.svg,120x265 mm,a : 265 b : 40 c : 265 d : 40,
 RJ53,Axle limit,Regulatory Signs,AXLE_LIMIT_RJ53.svg,1000x750 mm,a : 1000 b : 750 r : 60 c : 10 d : 25 e : 75 1st line : 100B 2nd line : 100C 3rd line : Numerals 150C 3rd line : kg Transport D Med x = 75,
 RPB,Barrier arm (used in conjunction with RPX1 assembly),Regulatory Signs,BARRIER_ARM_USED_IN_CONJUNCTION_WITH_RPX1_ASSEMBLY_RPB.svg,2120x50 mm,a : Width varied to suit roadway being controlled b : 50 FRONT alternating vertical bands c : red 280 wide d : white 180 wide REVERSE at least 3 rectangles equally spaced across arm e : 280 wide # : spacing equal between red rectangles,
@@ -158,7 +159,7 @@ SV36,Fire engine,Symbols,FIRE_ENGINE_SV36.svg,560x171 mm,a : 560 b : 160 Sign Si
 SV37,Fork-lift,Symbols,FORK_LIFT_SV37.svg,480x438 mm,a : 480 b : 480 Sign Size : 480 x 480 Symbol : Black,symbol sheet drawn at 1204 mm wide; scaled to the register's 480 mm
 SR10,Gravel surface,Symbols,GRAVEL_SURFACE_SR10.svg,500x221 mm,b : 240 a : 500 Sign Size : 500 x 240 Symbol : Black,symbol sheet drawn at 1288 mm wide; scaled to the register's 500 mm
 SV52,Helicopter,Symbols,HELICOPTER_SV52.svg,440x239 mm,a : 440 b : 320 Sign Size : 440 x 320 Symbol : Black,symbol sheet drawn at 1242 mm wide; scaled to the register's 440 mm
-ST03,Historic Places Trust building,Symbols,,,a : 300 b : 300,no filled artwork in the EPS
+ST03,Historic Places Trust building,Symbols,HISTORIC_PLACES_TRUST_BUILDING_ST03.svg,300x314 mm,a : 300 b : 300,symbol sheet drawn at 1909 mm wide; scaled to the register's 300 mm; artwork is stroked line art on the sheet; strokes outlined with Inkscape
 None,Keep Left W14-11 Symbol,Symbols,KEEP_LEFT_W14_11_SYMBOL_None.svg,400x400 mm,symbol of cars/arrow/centre line 400 x 600 500 x 750 600 x 900 800 x 1200,symbol sheet drawn at 1200 mm wide; scaled to the register's 400 mm
 SV12,Light rails,Symbols,LIGHT_RAILS_SV12.svg,560x262 mm,a : 560 b : 260 Sign Size : 560 x 260 Symbol : Black,symbol sheet drawn at 1362 mm wide; scaled to the register's 560 mm
 ST10,Look Out Symbol,Symbols,LOOK_OUT_SYMBOL_ST10.svg,255x300 mm,"a 300 b 300 Note 1: The symbol is Figure A67 in NZS 8603:2005, Design and Application of Outdoor Recreation Symbols. Reproduction of this symbol is subject to copyright and requires the purchase of NZS 8603:2005 CD ROM. For more information please contact Standards New Zealand. Telephone: 64 3 943 4259 or Freephone: 0800 782 632 (within New Zealand) Internet: www.standards.govt.nz",artwork lifted from the VI3L tourist sheet where NZTA draws it (symbol sheet carries only a Standards NZ copyright notice); holes cut with Inkscape booleans
@@ -195,7 +196,7 @@ SU04,School bus route,Symbols,SCHOOL_BUS_ROUTE_SU04.svg,550x460 mm,a : 550 b : 5
 SF12,Sheep,Symbols,SHEEP_SF12.svg,987x740 mm,,
 SR06,Slippery surface,Symbols,SLIPPERY_SURFACE_SR06.svg,520x463 mm,b : 480 a : 520 Sign Size : 520 x 480 Symbol : Black,symbol sheet drawn at 1224 mm wide; scaled to the register's 520 mm
 SE02,Snow,Symbols,SNOW_SE02.svg,50x58 mm,a : 50 b : 58 Symbol Size: 50 x 58 Symbol : Black,symbol sheet drawn at 500 mm wide; scaled to the register's 50 mm
-SG01,State highway shield,Symbols,,,,no filled artwork in the EPS
+SG01,State highway shield,Symbols,,,,register EPS is only a size frame (no artwork published)
 SV50,Steam engine,Symbols,STEAM_ENGINE_SV50.svg,480x516 mm,a : 480 b : 520 Sign Size : 480 x 520 Symbol : Black,symbol sheet drawn at 931 mm wide; scaled to the register's 480 mm
 SR07,Steep grade,Symbols,STEEP_GRADE_SR07.svg,420x261 mm,b : 300 a : 420 Sign Size : 420 x 300 Symbol : Black,symbol sheet drawn at 1054 mm wide; scaled to the register's 420 mm
 SR15,Steep grade – ‘%’ symbol (see also SR07),Symbols,STEEP_GRADE_SYMBOL_SEE_ALSO_SR07_SR15.svg,100x60 mm,a : 100 b : 59 Sign Size : 100 x 59 Symbol : black,symbol sheet drawn at 1000 mm wide; scaled to the register's 100 mm
@@ -207,7 +208,7 @@ SV30,Truck,Symbols,TRUCK_SV30.svg,100x49 mm,a : 100 b : 50 Sign Size : 100 x 50 
 SV30,Truck - side view,Symbols,TRUCK_SIDE_VIEW_SV30.svg,100x50 mm,a : 100 b : 50 Sign Size : 100 x 50 Symbol : Black,symbol sheet drawn at 1004 mm wide; scaled to the register's 100 mm
 SV33,Truck - tilting,Symbols,TRUCK_TILTING_SV33.svg,1130x1396 mm,a : 1130 b : 1400 Sign Size : 1130 x 1400 Symbol : Black,symbol sheet drawn at 567 mm wide; scaled to the register's 1130 mm
 SR04,Tunnel,Symbols,TUNNEL_SR04.svg,360x315 mm,b : 320 a : 360 Sign Size : 360 x 320 Symbol : Black,symbol sheet drawn at 869 mm wide; scaled to the register's 360 mm
-ST07,Vineyard,Symbols,,,a : 240 b : 300,no filled artwork in the EPS
+ST07,Vineyard,Symbols,VINEYARD_ST07.svg,240x323 mm,a : 240 b : 300,symbol sheet drawn at 1348 mm wide; scaled to the register's 240 mm; artwork is stroked line art on the sheet; strokes outlined with Inkscape
 SF21,Wild horses,Symbols,WILD_HORSES_SF21.svg,1163x960 mm,,
 SE01,Wind sock,Symbols,WIND_SOCK_SE01.svg,120x95 mm,a : 120 b : 90 Sign Size : 120x90 Symbol Size: 112x88.3 Symbol : black,symbol sheet drawn at 1116 mm wide; scaled to the register's 120 mm
 SF32,birds - pukeko,Symbols,BIRDS_PUKEKO_SF32.svg,416x399 mm,a : 415 b : 400 Sign Size : 415x400,
@@ -523,8 +524,8 @@ GJ1B,Junction direction - double chevron,Guide Signs,JUNCTION_DIRECTION_DOUBLE_C
 GJF,Junction direction - finger board,Guide Signs,JUNCTION_DIRECTION_FINGER_BOARD_GJF.svg,1800x240 mm,a 1800 Rectangle with blunted triangular end length sized to suit message b 240 Type Locality 120D Numerals 120D Legend 'km' Transport D Med x=80,
 GJUR,Junction direction cycle route - chevron board R (revised 2010),Guide Signs,JUNCTION_DIRECTION_CYCLE_ROUTE_CHEVRON_BOARD_R_REVISED_2010_GJUR.svg,1352x225 mm,a 1350 Rectangle w pointed end pointing in direction of locality length sized to suit message b 225 r 20 c 10 d 190 e 70 f 50 g 330 Type Locality Series Mod E 120 Cycle symbol 270 x 175,
 GJUB,Junction direction cycle route - double chevron (revised 2010),Guide Signs,JUNCTION_DIRECTION_CYCLE_ROUTE_DOUBLE_CHEVRON_REVISED_2010_GJUB.svg,2653x480 mm,"a 2650 Rectangle w pointed end at each end pointing in direction of localities, length sized to suit message b 480 r 20 c 20 d 220 e 90 f 100 g 400 Type Locality Series Mod E 120 Cycle symbol 340 x 220",
-GA11,"One panel, 1 line of legend example",Guide Signs,,,,no EPS file on the register entry
-GA12,"One panel, 2 lines of legend example",Guide Signs,,,,no EPS file on the register entry
+GA11,"One panel, 1 line of legend example",Guide Signs,,,,example-only register entry (no artwork); the code's own entry is drawn
+GA12,"One panel, 2 lines of legend example",Guide Signs,,,,example-only register entry (no artwork); the code's own entry is drawn
 GA13,"One panel, 3 lines of legend example",Guide Signs,ONE_PANEL_3_LINES_OF_LEGEND_EXAMPLE_GA13.svg,1300x950 mm,,
 GA14,"One panel, 4 lines of legend example",Guide Signs,ONE_PANEL_4_LINES_OF_LEGEND_EXAMPLE_GA14.svg,400x532 mm,,
 GA15,"One panel, 5 lines of legend example",Guide Signs,ONE_PANEL_5_LINES_OF_LEGEND_EXAMPLE_GA15.svg,400x532 mm,,

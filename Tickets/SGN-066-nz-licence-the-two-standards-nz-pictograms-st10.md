@@ -30,3 +30,4 @@ Written permission or licence on file.
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-05 — NZ pass: ST03 and ST07 were stroked line art (no fills) — the extractor now outlines strokes with Inkscape and reads those (552 SVGs). SG01's register EPS is only a size frame (the state highway shield artwork is not published there); GA11/GA12 'example' rows are examples without artwork; the two Airport route entries (ids 740/741) have no files on the register and the page is behind the Imperva check — needs Russell in the browser pane. The rerun also fixed 40-odd signs whose second identical-bbox shape had been deduplicated away (e.g. RL3N diagonal cross).

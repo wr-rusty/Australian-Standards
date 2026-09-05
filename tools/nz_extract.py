@@ -29,6 +29,14 @@ def eps_to_pdf(eps, cache):
         if r.returncode or not os.path.exists(pdf): raise RuntimeError(f"ghostscript failed: {r.stderr.strip()[:200]}")
     return pdf
 
+def strokes_to_fills(pdf):
+    """The sheet with every stroked path outlined (Inkscape stroke-to-path), for line-art symbols."""
+    out = pdf[:-4] + "_strokes.pdf"
+    if not os.path.exists(out):
+        r = subprocess.run([INK, pdf, "--actions=select-all;object-stroke-to-path;export-type:pdf;export-filename:" + out + ";export-do"], capture_output=True, text=True, timeout=300)
+        if not os.path.exists(out): raise RuntimeError("inkscape could not outline the strokes: " + r.stderr.strip()[-150:])
+    return out
+
 def register_widths(dim):
     """Sign widths in mm from the register's dimension list: every figure after 'a' (several sizes), else the first WxH."""
     m = re.search(r"\ba\s*:?\s*((?:\d{2,5}(?:\.\d+)?\s*(?:mm)?\s*(?:\([^)]*\)\s*)?)+)", dim)
@@ -247,14 +255,20 @@ def main(register=None):
         fam = FAMILY.get(r["category"], r["category"]); folder = os.path.join(out, fam); os.makedirs(folder, exist_ok=True)
         eps_files = [p for p in r["local"].split(" | ") if p.lower().endswith(".eps")]
         if not eps_files:
-            rows.append([r["code"], r["title"], fam, "", "", r["dimensions"], "no EPS file on the register entry"]); continue
+            why = "example-only register entry (no artwork); the code's own entry is drawn" if "example" in (r.get("rule", "") + r.get("motsam", "")).lower() else "no EPS file on the register entry"
+            rows.append([r["code"], r["title"], fam, "", "", r["dimensions"], why]); continue
         for i, rel in enumerate(eps_files):
             eps = os.path.join(NZ, rel)
-            try: signs = extract(eps_to_pdf(eps, cache), whole=(fam == "Symbols"))
+            line_art = ""
+            try:
+                pdf = eps_to_pdf(eps, cache); signs = extract(pdf, whole=(fam == "Symbols"))
+                if not signs:   # line art (stroked paths only, e.g. ST03, ST07): outline the strokes and read those fills
+                    signs = extract(strokes_to_fills(pdf), whole=(fam == "Symbols")); line_art = "artwork is stroked line art on the sheet; strokes outlined with Inkscape"
             except RuntimeError as ex:
                 rows.append([r["code"], r["title"], fam, "", "", r["dimensions"], str(ex)]); continue
             if not signs:
-                rows.append([r["code"], r["title"], fam, "", "", r["dimensions"], "no filled artwork in the EPS"]); continue
+                why = "register EPS is only a size frame (no artwork published)" if "size frame" in open(eps, "rb").read(400).decode("latin-1") else "no filled artwork in the EPS"
+                rows.append([r["code"], r["title"], fam, "", "", r["dimensions"], why]); continue
             name = re.sub(r"[^A-Z0-9]+", "_", r["title"].upper()).strip("_") or "SIGN"
             code = r["code"].replace(" ", "").replace("/", "-")
             stem_variant = ""
@@ -275,6 +289,7 @@ def main(register=None):
                 if sign.get("sizes", 1) > 1: note = (note + "; " if note else "") + f"drawn at {sign['sizes']} sizes on the sheet; {'register size' if widths else 'largest'} kept"
                 if sign["missing_fonts"]: note = (note + "; " if note else "") + f"text in {', '.join(sign['missing_fonts'])} could not be outlined — check"
                 if sign["strokes"]: note = (note + "; " if note else "") + f"{sign['strokes']} stroked path(s) ignored"
+                if line_art: note = (note + "; " if note else "") + line_art
                 variant = stem_variant
                 if vi: variant = (variant + "_" if variant else "") + (sign["bg"] if sign["bg"] != signs[0]["bg"] else f"VAR{vi + 1}")
                 fn = f"{name}_{variant}_{code}.svg" if variant else f"{name}_{code}.svg"
