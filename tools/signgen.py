@@ -26,7 +26,7 @@ from fontTools.pens.boundsPen import BoundsPen
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, "Fonts", "fhwa-series-font-family")
 SYM_DIR = os.path.join(ROOT, "tools", "symbols")
-OUT_ROOT = os.path.join(ROOT, "AS 1743-2023", "SVGs")
+OUT_ROOT = os.path.join(ROOT, "Australia", "National (AS 1743)", "SVGs")
 SERIES_FILES = {"B": "Fhwaseriesb2025{t}.otf", "C": "Fhwaseriesc2024{t}.otf",
                 "D": "Fhwaseriesd2024{t}.otf", "E": "Fhwaseriese2024{t}.otf",
                 "Emod": "Fhwaseriesemod2024{t}.otf", "F": "Fhwaseriesf2025{t}.otf"}

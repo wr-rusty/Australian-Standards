@@ -6,7 +6,7 @@ tools/symbols/as1319/<id>.svg with a viewBox in units of the sign's nominal size
 import os, re, subprocess, sys, tempfile
 from PIL import Image, ImageOps
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PNG = os.path.join(ROOT, "AS 1319-1994", "Original PNGs"); OUT = os.path.join(ROOT, "tools", "symbols", "as1319")
+PNG = os.path.join(ROOT, "Australia", "National (AS 1319)", "Original PNGs"); OUT = os.path.join(ROOT, "tools", "symbols", "as1319")
 UP = 8
 # id, source file, symbol colour, sign form (for the mask), category
 TABLE = [

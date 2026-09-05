@@ -8,7 +8,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from signgen import folder_for
 INK = "/Applications/Inkscape.app/Contents/MacOS/inkscape"
-OUT = os.path.join(ROOT, "AS 1743-2023", "SVGs"); PNG = os.path.join(ROOT, "AS 1743-2023", "Original PNGs")
+OUT = os.path.join(ROOT, "Australia", "National (AS 1743)", "SVGs"); PNG = os.path.join(ROOT, "Australia", "National (AS 1743)", "Original PNGs")
 def pick_value(vary):
     vals = vary["values"]
     for pref in (60, 40, 2, 300, 6, 5): 

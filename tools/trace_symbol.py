@@ -14,7 +14,7 @@ import argparse, glob, json, os, re, subprocess, sys, tempfile
 from PIL import Image, ImageOps, ImageFilter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PNG_DIR = os.path.join(ROOT, "AS 1743-2023", "Original PNGs")
+PNG_DIR = os.path.join(ROOT, "Australia", "National (AS 1743)", "Original PNGs")
 SYM_DIR = os.path.join(ROOT, "tools", "symbols")
 UPSCALE = 6
 

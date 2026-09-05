@@ -1,4 +1,4 @@
-# Plan: generate every sign variation in AS 1743-2023 (and AS 1319-1994)
+# Plan: generate every sign variation in Australia/National (AS 1743) (and Australia/National (AS 1319))
 
 Written 2026-09-04 after a full survey of the repo. This is the working plan for
 producing a dimensionally correct SVG for every sign drawing in the standards,
@@ -10,11 +10,11 @@ in every size and handedness variant the standard lists.
 
 | Area | Contents | Notes |
 |---|---|---|
-| `AS 1743-2023/Original PNGs/` | 873 PNGs | Dimensioned construction drawings from AS 1743-2023, one per code (e.g. `TM2-4A.png`). ~753 px wide, dimensions legible. These ARE the "how to make" instructions. |
-| `AS 1743-2023/SVGs/` | 78 SVGs | Hand-built in Illustrator. Text outlined to paths. Not at mm scale (e.g. a 600 mm sign is 64 units wide). Named descriptively, not by code. |
-| `AS 1319-1994/Original PNGs/` | 57 PNGs | Mostly small raster pictograms (223 px), plus layout-rule figures (D1–D6), colour chart (A1), and shape figures. No per-sign dimensioned drawings. |
-| `AS 1319-1994/SVGs/` | 16 SVGs | Danger / Prohibition / Safety text signs built from the three templates. |
-| `AS 1744-2015/AS 1744-2015.txt` | Text of the alphabet standard | Contains the six spacing tables (Series B, C, D, E, E Mod, F) at 100 mm cap height. |
+| `Australia/National (AS 1743)/Original PNGs/` | 873 PNGs | Dimensioned construction drawings from Australia/National (AS 1743), one per code (e.g. `TM2-4A.png`). ~753 px wide, dimensions legible. These ARE the "how to make" instructions. |
+| `Australia/National (AS 1743)/SVGs/` | 78 SVGs | Hand-built in Illustrator. Text outlined to paths. Not at mm scale (e.g. a 600 mm sign is 64 units wide). Named descriptively, not by code. |
+| `Australia/National (AS 1319)/Original PNGs/` | 57 PNGs | Mostly small raster pictograms (223 px), plus layout-rule figures (D1–D6), colour chart (A1), and shape figures. No per-sign dimensioned drawings. |
+| `Australia/National (AS 1319)/SVGs/` | 16 SVGs | Danger / Prohibition / Safety text signs built from the three templates. |
+| `Australia/National (AS 1744)/Australia/National (AS 1744).txt` | Text of the alphabet standard | Contains the six spacing tables (Series B, C, D, E, E Mod, F) at 100 mm cap height. |
 | `Fonts/fhwa-series-font-family/` | 78 OTFs | FHWA Series B–F + E Modified, 13 tracking variants each (`minus100` … `plus0` … `plus100`). `plus0` matches the AS 1744 tables exactly (verified, see §3). |
 | `Fonts/PragmaticaCTT-Bold/` | 4 TTFs | Helvetica-style face used for the AS 1319 signs. |
 | `Design Templates/` | 5 SVGs | Speed sign, speed-with-text, Danger, Warning, Prohibition templates. |
@@ -193,7 +193,7 @@ Visual, per batch of 12:
   (contact sheet), review by eye. Record `status` in the manifest:
   `draft | verified | needs-manual | blocked`.
 
-### Phase 6 — AS 1319-1994 (different model)
+### Phase 6 — Australia/National (AS 1319) (different model)
 
 AS 1319 gives rules, not drawings: shape proportions (D1), layout ratios in
 terms of letter height H (D2–D6), colours (A1), and 50-odd pictograms as low
@@ -263,12 +263,12 @@ for AS 1743, then 2–3 for AS 1319.
   `tools/specs/AS1319/*.json` and comparing against his 16 existing SVGs.
 * International: see `International/REVIEW.md` (USA first, then NZ, then UK).
   * USA (2026-09-05): FHWA Standard Highway Signs sheets (2004 edition, 2012 supplement, 2024 releases 1–6) downloaded to
-    `MUTCD 2023/Original PDFs/`; artwork lifted exactly from the vector PDFs by `tools/shs_extract.py` (see `tools/README.md`),
-    organised into family folders under `MUTCD 2023/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
+    `USA/Federal (MUTCD 2023)/Original PDFs/`; artwork lifted exactly from the vector PDFs by `tools/shs_extract.py` (see `tools/README.md`),
+    organised into family folders under `USA/Federal (MUTCD 2023)/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
     code. Open for Russell: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
     conventional-road marker), guide signs drawn at sheet scale (no size table), and `SVGs/intervene/INTERVENE_LIST.md`.
   * NZ (2026-09-05): NZTA sign-specifications register crawled with `tools/nz_crawl.py` (Russell passes the site's
-    Imperva check once in the Browser pane; the tools reuse that session) into `NZ TCD Manual/` (`REGISTER.csv`,
+    Imperva check once in the Browser pane; the tools reuse that session) into `New Zealand/National (TCD Manual)/` (`REGISTER.csv`,
     `Original EPS/`); `tools/nz_extract.py` lifts the EPS artwork (1:10, legends outlined) into `SVGs/<family>/` with
     `MANIFEST.csv`. Fonts per TCD Manual Part 1 §5.3.1: AS 1744 Series A–E + modified E lower case, Transport Medium NZ
     for parking text and metric abbreviations (not needed: legends are outlined).

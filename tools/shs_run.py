@@ -3,7 +3,7 @@
   python3 tools/shs_run.py [sheets_dir]"""
 import os, sys, shutil
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import shs_extract as X, shs_sheets as SH
-P = os.path.join(X.ROOT, "MUTCD 2023", "Original PDFs")
+P = os.path.join(X.ROOT, "USA", "Federal (MUTCD 2023)", "Original PDFs")
 SETS = [("SHS 2004 Edition/Regulatory.pdf", "Regulatory Signs"), ("SHS 2004 Edition/Warning.pdf", "Warning Signs"), ("SHS 2004 Edition/Guide.pdf", "Guide Signs"),
         ("SHS 2004 Edition/School.pdf", "School Signs"), ("SHS 2004 Edition/EM.pdf", "Emergency Management Signs"), ("SHS 2004 Edition/Markers.pdf", "Object Markers"),
         ("SHS 2012 Supplement/shs_2004_2012_sup.pdf", "2012 Supplement"),

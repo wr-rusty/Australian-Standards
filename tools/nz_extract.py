@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import shs_extract as X
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NZ = os.path.join(ROOT, "NZ TCD Manual")
+NZ = os.path.join(ROOT, "New Zealand", "National (TCD Manual)")
 GS = "/opt/homebrew/bin/gs"
 MM_PER_PT = 25.4 / 72
 DRAWN_SCALE = 10          # the EPS files are drawn at 1:10

@@ -5,7 +5,7 @@ Families by code prefix: R7/R8 Parking; other R Regulatory; W20–W25, G20 Tempo
 S School; M Route Markers; D/E/I/G Guide; OM Object Markers; EM Emergency Management."""
 import os, re, csv, shutil, glob, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "MUTCD 2023", "SVGs")
+OUT = os.path.join(ROOT, "USA", "Federal (MUTCD 2023)", "SVGs")
 SOURCES = [("2004 Edition", ["Regulatory Signs", "Warning Signs", "Guide Signs", "School Signs", "Emergency Management Signs", "Object Markers"]),
            ("2012 Supplement", ["2012 Supplement"]),
            ("2024 Edition", ["2024 Releases 1-4", "2024 Release 5 Guide", "2024 Release 6 Regulatory", "2024 Release 6 Guide"])]

@@ -8,7 +8,7 @@ dimensions, colours, files) and downloads the EPS and non-labelled GIF into NZ T
 HTML is cached under the scratch dir so re-runs do not re-fetch."""
 import os, re, sys, csv, time, subprocess, html as H
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NZ = os.path.join(ROOT, "NZ TCD Manual")
+NZ = os.path.join(ROOT, "New Zealand", "National (TCD Manual)")
 BASE = "https://www.nzta.govt.nz"
 REG = "/resources/traffic-control-devices-manual/sign-specifications"
 CATS = {677: "Regulatory", 734: "Permanent warning", 835: "Temporary warning", 923: "Symbol", 924: "Parking",

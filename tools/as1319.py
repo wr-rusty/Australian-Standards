@@ -32,7 +32,7 @@ from fontTools.pens.boundsPen import BoundsPen
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT = os.path.join(ROOT, "Fonts", "PragmaticaCTT-Bold", "PRG75.TTF")
 SYM = os.path.join(ROOT, "tools", "symbols", "as1319")
-OUT = os.path.join(ROOT, "AS 1319-1994", "SVGs")
+OUT = os.path.join(ROOT, "Australia", "National (AS 1319)", "SVGs")
 TEMPLATE_DANGER = os.path.join(ROOT, "Design Templates", "DANGER_TEMPLATE.svg")
 CAP = 0.70   # Pragmatica Bold cap height / em
 OUT_SCALE = 0.1

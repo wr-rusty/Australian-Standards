@@ -1,7 +1,7 @@
 # Writing sign specs (tools/specs/<FAMILY>/<CODE>.json)
 
 These are official road signs. Every number in a spec must come from the AS 1743 drawing
-(`AS 1743-2023/Original PNGs/<CODE>.png`). Never estimate a dimension by eye when the
+(`Australia/National (AS 1743)/Original PNGs/<CODE>.png`). Never estimate a dimension by eye when the
 drawing states it; never invent an element the drawing does not show. If something is
 unclear, write it in `notes` and keep going.
 

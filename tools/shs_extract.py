@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import signgen   # fonts, fmt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "MUTCD 2023", "SVGs")
+OUT = os.path.join(ROOT, "USA", "Federal (MUTCD 2023)", "SVGs")
 IN_MM = 25.4
 CODE_RE = re.compile(r"^([A-Z]{1,2}\d{0,2}-\d{1,2}[a-zA-Z]{0,2}(?:\s?[LRVHC])?(?:\([^)]*\))?)$")
 EMBEDDED_CAP = 0.285   # cap height / em of the embedded FHWA Series 2000 Type 1 fonts (from their glyph bounds)
