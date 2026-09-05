@@ -31,5 +31,5 @@
   }
  ],
  "notes": "T4-6A 900x600 illustrated. Ground is fluorescent yellow (drawn with the standard yellow colour).",
- "intervene": "drawing specifies a fluorescent yellow ground (drawn paler than standard yellow); the generator palette has no fluorescent yellow, so standard yellow is used."
+ "accepted_drawing_discrepancy": "drawing specifies a fluorescent yellow ground (drawn paler than standard yellow); the generator palette has no fluorescent yellow, so standard yellow is used."
 }

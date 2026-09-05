@@ -95,5 +95,5 @@
   }
  ],
  "notes": "Height is given as 1140-1200 with the top and bottom black bands 100-130; drawn at 1200 with 130 bands (no 'Illust.' size given). Stack: 130 | 50 | 172+172 chevron | 51 | 50 bar | 51 | 172+172 chevron | 50 | 130. Each chevron is a black band 100 wide horizontally (dims 100 | 50 | 100): outer edge from x 0 at top/bottom to x 150 at mid-height, inner edge from x 100 to x 250 (right edge) - confirmed against the drawing's pixels. No border. Points right as drawn.",
- "intervene": "drawing gives the height as a range 1140\u20131200 with 100\u2013130 end bands and no \"Illust.\" size; drawn at 1200 with 130 bands."
+ "accepted_drawing_discrepancy": "drawing gives the height as a range 1140\u20131200 with 100\u2013130 end bands and no \"Illust.\" size; drawn at 1200 with 130 bands."
 }

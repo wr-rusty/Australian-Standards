@@ -47,5 +47,5 @@
   }
  },
  "notes": "Top dimension chains: outer 77 | 446 | 77 belongs to SURFACE (65 E = 447), inner 127 | 346 | 127 to ROUGH (70 E = 346). Bicycle: 220 wide (190 each side), bottom 50 above the panel bottom. Its height is not stated; measured from the 30 grid inset as about 4.9 squares = 146 (the trace of the 220-wide box gives 147 high), so y = 400-146 = 254 (gap of ~29 below SURFACE, unstated).",
- "intervene": "FIXED the swapped expects (ROUGH 346 / SURFACE 446 \u2014 the drawing's outer chain 77|446|77 is SURFACE, inner 127|346|127 is ROUGH); remaining: the bicycle's height is not dimensioned (only its 220 width and 50 bottom margin), taken from the 30 grid as 146 (trace gives 147)."
+ "accepted_drawing_discrepancy": "FIXED the swapped expects (ROUGH 346 / SURFACE 446 \u2014 the drawing's outer chain 77|446|77 is SURFACE, inner 127|346|127 is ROUGH); remaining: the bicycle's height is not dimensioned (only its 220 width and 50 bottom margin), taken from the 30 grid as 146 (trace gives 147)."
 }
