@@ -38,7 +38,8 @@ COLOURS = {"yellow": "#ffe40d", "red": "#ed1c24", "white": "#fff", "black": "#00
            "orange": "#f58020", "green": "#0b804c", "blue": "#3a53a4", "brown": "#754c24",
            "yellowgreen": "#c4d82e", "grey": "#8c8c8c"}
 KEYLINE_MM = 2.0
-WIDTH_MISMATCH_TO_INTERVENE = False   # drawing width figures that contradict AS 1744 spacing are accepted as typos (Russell, 2026-09-05)
+WIDTH_MISMATCH_TO_INTERVENE = False
+EXCLUDE_FOLDERS = {"Freeway Signs", "Guide Signs"}   # not traffic signs for the platform (Russell, 2026-09-05); specs kept, not generated   # drawing width figures that contradict AS 1744 spacing are accepted as typos (Russell, 2026-09-05)
 OUT_SCALE = 0.1   # mm -> output units (1 unit = 1 cm)
 
 def col(c): return COLOURS.get(c, c)
@@ -310,6 +311,8 @@ def main(argv):
         with open(sp) as fh: spec = json.load(fh)
         if spec.get("skip"): 
             rows.append([spec["code"], "", "", spec.get("legend", ""), "SKIPPED: " + spec.get("skip"), "", ""]); continue
+        if folder_for(spec) in EXCLUDE_FOLDERS:
+            rows.append([spec["code"], "", "", spec.get("legend", ""), "EXCLUDED: " + folder_for(spec), "", ""]); continue
         for values, hand, fname in expand(spec):
             try:
                 svg, checks, flags = build(spec, values, hand)
