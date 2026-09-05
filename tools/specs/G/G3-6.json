@@ -1,10 +1,103 @@
-{"code":"G3-6","name":"C383_BORALMA_15_GREEN_FINGERBOARD","legend":"C383 BORALMA 15",
- "shape":"rect","size":[1609,200],"radius":0,"ground":"white",
- "elements":[
-  {"type":"polygon","points":[[0,0],[1554.8,0],[1608.8,100],[1554.8,200],[0,200]],"radius":0,"colour":"green"},
-  {"type":"text","text":"C383","series":"D","height":100,"top":50,"align":"left","x":100,"colour":"yellow"},
-  {"type":"text","text":"BORALMA","series":"D","height":100,"top":50,"align":"left","x":532.3,"colour":"white"},
-  {"type":"text","text":"15","series":"D","height":100,"top":50,"align":"left","x":1219.7,"colour":"white"},
-  {"type":"polygon","points":[[1414.8,20],[1490.3,20],[1551.3,100],[1490.3,180],[1414.8,180],[1475.8,100]],"radius":0,"colour":"white"}
+{
+ "code": "G3-6",
+ "name": "C383_BORALMA_15_GREEN_FINGERBOARD",
+ "legend": "C383 BORALMA 15",
+ "shape": "rect",
+ "size": [
+  1609,
+  200
  ],
- "notes":"Green fingerboard with pointed right end, 200 high, 100 D legend vertically centred (top 50; route number C383 yellow). Width 'Varies' = 100 + C383 332.3 + 100 + BORALMA 607.4 + 80 + 15 115.1 + 80 + 140 + 54 = 1609; chain ...|80|140|54 read as gap to the chevron's flat end, flat end to the sign corner, point run. Chevron detail (50 grid) gives only 160 high and 60 thick (perpendicular); the V run is NOT stated - taken as 61 like G3-5 (overall 136.5). The caption mentions a white border but none is drawn or dimensioned, so none is included. No corner radii stated."}
+ "radius": 0,
+ "ground": "none",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     1554.8,
+     0
+    ],
+    [
+     1608.8,
+     100
+    ],
+    [
+     1554.8,
+     200
+    ],
+    [
+     0,
+     200
+    ]
+   ],
+   "radius": 0,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "C383",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "align": "left",
+   "x": 100,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "text": "BORALMA",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "align": "left",
+   "x": 532.3,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "15",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "align": "left",
+   "x": 1219.7,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1414.8,
+     20
+    ],
+    [
+     1490.3,
+     20
+    ],
+    [
+     1551.3,
+     100
+    ],
+    [
+     1490.3,
+     180
+    ],
+    [
+     1414.8,
+     180
+    ],
+    [
+     1475.8,
+     100
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  }
+ ],
+ "notes": "Green fingerboard with pointed right end, 200 high, 100 D legend vertically centred (top 50; route number C383 yellow). Width 'Varies' = 100 + C383 332.3 + 100 + BORALMA 607.4 + 80 + 15 115.1 + 80 + 140 + 54 = 1609; chain ...|80|140|54 read as gap to the chevron's flat end, flat end to the sign corner, point run. Chevron detail (50 grid) gives only 160 high and 60 thick (perpendicular); the V run is NOT stated - taken as 61 like G3-5 (overall 136.5). The caption mentions a white border but none is drawn or dimensioned, so none is included. No corner radii stated."
+}

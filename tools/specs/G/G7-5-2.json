@@ -8,7 +8,7 @@
   500
  ],
  "radius": 0,
- "ground": "white",
+ "ground": "none",
  "hands": [
   "L",
   "R"

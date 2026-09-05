@@ -2,7 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="8.47mm" height="8.47mm" viewBox="0 0 24 24">
 <g transform="scale(0.1)">
   <g id="panel">
-    <path id="ground" fill="#fff" d="M0 0h240v240h-240Z"/>
   </g>
   <g id="legend">
     <path fill="#fff" d="M94.62 10.58A66 66 0 0 1 145.38 10.58L213 38.75A33 33 0 0 1 232.07 78.16L193.27 215.94A33 33 0 0 1 161.51 240L78.49 240A33 33 0 0 1 46.73 215.94L7.93 78.16A33 33 0 0 1 27 38.75L94.62 10.58Z"/>

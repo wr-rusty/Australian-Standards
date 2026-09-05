@@ -24,7 +24,9 @@ unclear, write it in `notes` and keep going.
 ## Panel
 * `shape`: `rect` | `octagon` | `triangle` (point down, `size` = [sharp width, height]) | `diamond` (`size` = [s*1.41421, s*1.41421] for side s) | `circle`.
 * `radius`: outer corner radius (R50 etc.). Inner shapes get `radius - inset` automatically.
-* `ground`: colour name (`yellow`, `white`, `red`, `orange`, `green`, `blue`, `brown`, `yellowgreen`, `black`).
+* `ground`: colour name (`yellow`, `white`, `red`, `orange`, `green`, `blue`, `brown`, `yellowgreen`, `black`), or `none` for a
+  transparent background when the sign's real outline is a polygon (fingerboards, pointed panels, shields): everything
+  outside the sign must be transparent for the digital platform; white that is part of the sign is drawn as elements.
 * `edge`: `{"colour": "white", "width": 10}` — an outer strip, drawn first (e.g. the 10 white edge on white
   regulatory signs, the 16 white strip on STOP). Only if the drawing shows one.
 * `border`: `{"colour": "black", "width": 25}` — the band inside the edge. Several: `"borders": [ ... ]` outer to inner.

@@ -1,15 +1,243 @@
-{"code":"G2-4","name":"SALTASH_HIGHWAY_HAWKER_A79_PLUMPTON_GREEN_DOUBLE_FINGERBOARD","legend":"SALTASH HIGHWAY / Hawker A79 Plumpton",
- "shape":"rect","size":[4400,750],"radius":0,"ground":"white",
- "elements":[
-  {"type":"polygon","points":[[285,0],[4115,0],[4400,375],[4115,750],[285,750],[0,375]],"radius":[100,100,20,100,100,20],"colour":"green"},
-  {"type":"polygon","points":[[294.9,20],[4105.1,20],[4374.9,375],[4105.1,730],[294.9,730],[25.1,375]],"radius":[80,80,0,80,80,0],"colour":"white"},
-  {"type":"polygon","points":[[304.8,40],[4095.2,40],[4349.8,375],[4095.2,710],[304.8,710],[50.2,375]],"radius":[60,60,0,60,60,0],"colour":"green"},
-  {"type":"polygon","points":[[690,90],[464,375],[690,660],[390,660],[164,375],[390,90]],"radius":0,"colour":"white"},
-  {"type":"polygon","points":[[3710,90],[3936,375],[3710,660],[4010,660],[4236,375],[4010,90]],"radius":0,"colour":"white"},
-  {"type":"panel","x":1392,"y":100,"w":1610,"h":240,"radius":40,"colour":"white"},
-  {"type":"text","text":"SALTASH HIGHWAY","series":"D","height":120,"top":160,"cx":2197,"colour":"black","expect":1490},
-  {"type":"text","text":"Hawker","series":"Emod","height":160,"top":425,"align":"left","x":775,"colour":"white","expect":903},
-  {"type":"text","text":"A79","series":"E","height":160,"top":425,"align":"left","x":1838,"colour":"yellow","expect":454},
-  {"type":"text","text":"Plumpton","series":"Emod","height":160,"top":425,"align":"left","x":2452,"colour":"white","expect":1192}
+{
+ "code": "G2-4",
+ "name": "SALTASH_HIGHWAY_HAWKER_A79_PLUMPTON_GREEN_DOUBLE_FINGERBOARD",
+ "legend": "SALTASH HIGHWAY / Hawker A79 Plumpton",
+ "shape": "rect",
+ "size": [
+  4400,
+  750
  ],
- "notes":"Drawing rotated 90 deg on the page; transcribed in true orientation 4400 wide x 750 high, pointed at both ends (points at mid-height 375, slopes reaching the top/bottom 285 from each tip), R100 at the obtuse corners, tips 'break sharp point with a 20 mm radius'. Green edge 20 + white border 20 as offset polygons on a white ground. Chevrons from the 220-grid detail: 570 high (90 to 660), flat end 300 long, outer point 226 beyond it (526 overall), band 235 thick perpendicular; flat ends at x 690 (285+405) and 3710. Road-name panel 1610x240 R40 at x 1392 (1398 from the right end), y 100, SALTASH HIGHWAY 120 D (60|1490|60). Hawker, A79, Plumpton on baseline 585 (top 425), 165 below. INCONSISTENCY: the long chain 285+405+66+1168+160+454+160+903+85+405+285 = 4376, 24 short of 4400; Plumpton in 160 Emod is 1192 by AS 1744 (and G1-3 gives 1190), so 1168 is taken as 1192 and the 66 gap kept (alternatively 66 -> 90). Chevron detail dims: 570, 300, 226, 285|285, 235."}
+ "radius": 0,
+ "ground": "none",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     285,
+     0
+    ],
+    [
+     4115,
+     0
+    ],
+    [
+     4400,
+     375
+    ],
+    [
+     4115,
+     750
+    ],
+    [
+     285,
+     750
+    ],
+    [
+     0,
+     375
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    20,
+    100,
+    100,
+    20
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     294.9,
+     20
+    ],
+    [
+     4105.1,
+     20
+    ],
+    [
+     4374.9,
+     375
+    ],
+    [
+     4105.1,
+     730
+    ],
+    [
+     294.9,
+     730
+    ],
+    [
+     25.1,
+     375
+    ]
+   ],
+   "radius": [
+    80,
+    80,
+    0,
+    80,
+    80,
+    0
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     304.8,
+     40
+    ],
+    [
+     4095.2,
+     40
+    ],
+    [
+     4349.8,
+     375
+    ],
+    [
+     4095.2,
+     710
+    ],
+    [
+     304.8,
+     710
+    ],
+    [
+     50.2,
+     375
+    ]
+   ],
+   "radius": [
+    60,
+    60,
+    0,
+    60,
+    60,
+    0
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     690,
+     90
+    ],
+    [
+     464,
+     375
+    ],
+    [
+     690,
+     660
+    ],
+    [
+     390,
+     660
+    ],
+    [
+     164,
+     375
+    ],
+    [
+     390,
+     90
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     3710,
+     90
+    ],
+    [
+     3936,
+     375
+    ],
+    [
+     3710,
+     660
+    ],
+    [
+     4010,
+     660
+    ],
+    [
+     4236,
+     375
+    ],
+    [
+     4010,
+     90
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 1392,
+   "y": 100,
+   "w": 1610,
+   "h": 240,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "SALTASH HIGHWAY",
+   "series": "D",
+   "height": 120,
+   "top": 160,
+   "cx": 2197,
+   "colour": "black",
+   "expect": 1490
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 160,
+   "top": 425,
+   "align": "left",
+   "x": 775,
+   "colour": "white",
+   "expect": 903
+  },
+  {
+   "type": "text",
+   "text": "A79",
+   "series": "E",
+   "height": 160,
+   "top": 425,
+   "align": "left",
+   "x": 1838,
+   "colour": "yellow",
+   "expect": 454
+  },
+  {
+   "type": "text",
+   "text": "Plumpton",
+   "series": "Emod",
+   "height": 160,
+   "top": 425,
+   "align": "left",
+   "x": 2452,
+   "colour": "white",
+   "expect": 1192
+  }
+ ],
+ "notes": "Drawing rotated 90 deg on the page; transcribed in true orientation 4400 wide x 750 high, pointed at both ends (points at mid-height 375, slopes reaching the top/bottom 285 from each tip), R100 at the obtuse corners, tips 'break sharp point with a 20 mm radius'. Green edge 20 + white border 20 as offset polygons on a white ground. Chevrons from the 220-grid detail: 570 high (90 to 660), flat end 300 long, outer point 226 beyond it (526 overall), band 235 thick perpendicular; flat ends at x 690 (285+405) and 3710. Road-name panel 1610x240 R40 at x 1392 (1398 from the right end), y 100, SALTASH HIGHWAY 120 D (60|1490|60). Hawker, A79, Plumpton on baseline 585 (top 425), 165 below. INCONSISTENCY: the long chain 285+405+66+1168+160+454+160+903+85+405+285 = 4376, 24 short of 4400; Plumpton in 160 Emod is 1192 by AS 1744 (and G1-3 gives 1190), so 1168 is taken as 1192 and the 66 gap kept (alternatively 66 -> 90). Chevron detail dims: 570, 300, 226, 285|285, 235."
+}

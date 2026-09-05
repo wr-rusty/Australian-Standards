@@ -4,7 +4,7 @@
   240,
   240
  ],
- "ground": "white",
+ "ground": "none",
  "elements": [
   {
    "type": "polygon",

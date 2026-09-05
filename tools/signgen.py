@@ -182,7 +182,8 @@ def build(spec, values, hand=None):
         bi = inset + border.get("inset", 0)
         out.append(f'    <path id="border{i or ""}" fill="{col(border["colour"])}" d="{shape_path(spec, W, H, bi, radius)}"/>')
         inset = bi + border["width"]
-    out.append(f'    <path id="ground" fill="{col(spec["ground"])}" d="{shape_path(spec, W, H, inset, radius)}"/>')
+    if spec["ground"] != "none":   # "none": transparent — the sign's own shape is drawn by polygon/path elements
+        out.append(f'    <path id="ground" fill="{col(spec["ground"])}" d="{shape_path(spec, W, H, inset, radius)}"/>')
     if spec.get("keyline"):
         out.append(f'    <path id="keyline" fill="#000" fill-rule="evenodd" d="{shape_path(spec, W, H, 0, radius)} {shape_path(spec, W, H, KEYLINE_MM, radius)}"/>')
     out.append('  </g>\n  <g id="legend">')

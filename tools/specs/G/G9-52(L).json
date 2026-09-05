@@ -7,7 +7,7 @@
   2100,
   350
  ],
- "ground": "white",
+ "ground": "none",
  "elements": [
   {
    "type": "polygon",
