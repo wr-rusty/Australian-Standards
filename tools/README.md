@@ -106,3 +106,26 @@ TxDOT's SHSD 2012 sheets follow the FHWA SHS layout, so the MUTCD extractor runs
 rules (CW → temporary traffic control, SW → school, TX → guide, RS- → `Symbols and Arrows`). Legend text in fonts the
 repo has no outlines for (Clearview, Highway *Plus) is outlined from the sheet's embedded font programs
 (`shs_extract.embedded_legend`, via `nz_extract.glyph_items`); only fonts the sheet does not embed go to `intervene/`.
+
+### Victoria — `tools/vic_extract.py`
+
+DTP's Supplement to AS 1743 (TEM Vol 2 Part 2.17) and TEM Vol 3 Part 2.12 are books with one V-series drawing per page,
+drawn reading up the page: the driver turns every page 90°, names signs from the index tables, and skips index pages
+(four or more codes on a page). Legend text is live Times/Arial with one-letter spans, so the extractor treats big single
+letters (bbox height ≥ 12 pt) as legend rather than dimension letters.
+
+### Western Australia — `tools/wa_extract.py`
+
+Main Roads publishes DWGs (the PDFs are scans). Route: `dwg2dxf` (LibreDWG) → `repair_dxf` (SEQEND / attribute-flag
+faults) → ezdxf recovery reader → `supplement_blocks` (anonymous glyph blocks the DXF writer drops are refilled from
+`dwgread -O json`) → sheet furniture, dimensions and text stripped (`strip_furniture`; the sheet's `1:N` scale, COLOURS
+note and legend-text entities are read first) → hatch-less closed letter outlines filled → ezdxf drawing add-on renders
+1 unit = 1 mm to SVG → Inkscape PDF → sheet extractor. Colours: drafting colours mean nothing, so fills are coloured by
+stacking (`recolour`: the last panel-sized fill is the background, panel-sized fills under it and small fills are legend,
+light fills nested in dark ones are white) with the colours from the note, else the series default (flagged);
+GuideSIGN exports (layer GSCOLORFILL) keep their own colours (`recolour_true`). Signs whose legend is CAD text go to
+`intervene/`. `tools/precache.py` converts NSW/QLD/SA sheets in parallel before a rerun.
+
+### ACT — `tools/act_extract.py`
+
+TCCS ACTSD sign drawings: the vector pay-parking sheets are extracted; scanned parking sheets are listed without files.
