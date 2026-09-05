@@ -49,44 +49,24 @@
   <path fill="#ffffff" d="M80.28 640.94L69.21 640.94L69.21 628.61C75.79 627.09 79.4 624.69 82.67 619.28L94.93 619.28L94.93 705.01L80.28 705.01L80.28 640.94"/>
   <path fill="#ffffff" d="M163.43 644.25C163.43 637.63 156.18 633.43 145.61 633.43C134.73 633.43 127.5 637.64 127.5 643.95C127.5 650.76 134.73 654.77 145.61 654.77C156.18 654.77 163.43 650.56 163.43 644.25M126.39 706.52L124.17 706.52L124.17 691.18L126.51 691.18C148.11 691.18 158.98 678.19 163.74 667.41C156.18 669.52 151.35 670.12 144.39 670.12C125.66 670.12 112.08 659.3 112.08 644.25C112.08 629.11 125.6 617.79 145.01 617.79C155 617.79 181.56 622.55 181.56 652.62C181.56 685.02 157.66 706.52 126.39 706.52"/>
   <path fill="#231f20" d="M652.14 602.14H892.18V722.15H652.14Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M400.81 12.96H423.26V32.9H400.81Z"/>
   <path fill="#231f20" fill-rule="evenodd" d="M755.57 439.24H788.11V458.51H755.57Z"/>
   <path fill="#231f20" fill-rule="evenodd" d="M755.57 602.23H788.11V621.5H755.57Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M755.89 402.88H788.43V430.06H755.89Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M488.7 144.6H503.79V171.79H488.7Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M253.37 13.41H275.81V33.35H253.37Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M619.53 28.05H641.97V55.23H619.53Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M608.2 128.06H633.14V155.24H608.2Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M295.15 305.84H323.2V333.02H295.15Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M425.55 305.84H453.6V333.02H425.55Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M603.77 305.84H631.82V333.02H603.77Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M912.38 402.88H934.83V430.06H912.38Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M87.46 420.9H120.78V448.08H87.46Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M165.17 420.9H198.49V448.08H165.17Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M330.21 433.7H363.53V460.88H330.21Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M21.62 420.9H48.28V448.08H21.62Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M543.75 433.7H577.07V460.88H543.75Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M755.89 728.75H788.43V755.93H755.89Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M912.38 728.75H934.83V755.93H912.38Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M128 746.77H161.32V773.95H128Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M246.29 746.77H279.62V773.95H246.29Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M410.83 759.57H444.16V786.75H410.83Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M21.62 746.77H48.28V773.95H21.62Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M555.55 810.82H578V838H555.55Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M624.48 810.82H646.93V838H624.48Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M583.96 759.57H617.28V786.75H583.96Z"/>
   <path fill="#231f20" d="M652.14 765.02H892.18V885.03H652.14Z"/>
   <path fill="#231f20" fill-rule="evenodd" d="M755.57 776.19H788.11V795.47H755.57Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M477.92 484.95H500.37V512.13H477.92Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M755.89 565.76H788.43V592.94H755.89Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M624.48 485H646.93V512.18H624.48Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M912.38 565.76H934.83V592.94H912.38Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M21.62 583.78H48.28V610.96H21.62Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M109.04 583.78H142.37V610.96H109.04Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M208.39 583.78H241.71V610.96H208.39Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M372.86 596.58H406.19V623.76H372.86Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M523.54 647.83H545.99V675.01H523.54Z"/>
-  <path fill="#005a9c" fill-rule="evenodd" d="M624.48 648.54H646.93V675.72H624.48Z"/>
   <path fill="#005a9c" fill-rule="evenodd" d="M564.85 596.58H598.17V623.76H564.85Z"/>
   <path fill="#231f20" d="M622.74 805.96H693.7V876.92H622.74Z"/>
   <path fill="#ffffff" d="M628.77 809.51C628.77 810.88 627.66 811.99 626.29 811.99C624.92 811.99 623.81 810.88 623.81 809.51C623.81 808.13 624.92 807.02 626.29 807.02C627.66 807.02 628.77 808.13 628.77 809.51"/>

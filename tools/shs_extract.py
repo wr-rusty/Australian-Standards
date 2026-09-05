@@ -452,6 +452,8 @@ def extract_page(doc, pno, family):
                 if min(r.width, r.height) <= 1.5 and colour_name(f["fill"]) == "WHITE" and max(r.width, r.height) > 12: return True   # white dimension-line masks
                 if is_triangle(items) and f["area"] < 60: return True                                            # dimension arrowheads
                 if f["area"] < 400 and any(r.x0 <= ax <= r.x1 and r.y0 <= ay <= r.y1 for ax, ay in ann): return True   # mask under a dimension letter/figure
+                if len(items) == 1 and items[0][0] == "re" and f["area"] < 120 and colour_name(f["fill"]) == bg: return True   # background-coloured mask square
+                if f["area"] < 30 and len(items) <= 4 and all(it[0] == "l" for it in items) and max(r.width, r.height) < 2.5 * min(r.width, r.height): return True   # arrowhead fragments
                 return False
             glyphs = page_glyphs(raw, pr, doc)
             inside = [f for f in fills if (f is panel or contained(f, panel)) and not is_annotation(f)]   # page paint order kept
