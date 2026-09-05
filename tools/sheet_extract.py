@@ -47,8 +47,11 @@ class Frame:
         dirs = [rot(s["dir"]) for s in (legend or [s for s in spans_raw if len(s["text"]) > 2])]
         vert = sum(1 for d in dirs if abs(d[1]) > abs(d[0])); horiz = len(dirs) - vert
         extra = 0
-        if not dirs and page.rect.width < page.rect.height:   # text all outlined (old CAD exports): NSW draws landscape sheets on portrait pages, turned anticlockwise
-            extra = -90
+        if not dirs and page.rect.width < page.rect.height:   # text all outlined (old CAD exports): is the title block a strip down the right (sheet turned) or a band at the bottom?
+            rects = [d["rect"] for d in page.get_drawings()]
+            vert = sum(1 for r in rects if r.width < 14 and r.height > 3 * r.width and r.height > 30)      # text lines running up the page
+            horiz = sum(1 for r in rects if r.height < 14 and r.width > 3 * r.height and r.width > 30)
+            extra = -90 if vert > horiz else 0
         if vert > horiz and dirs:
             up = sum(1 for d in dirs if abs(d[1]) > abs(d[0]) and d[1] < 0)
             extra = 90 if up >= vert / 2 else -90       # text running up the page reads upright after a +90 turn
