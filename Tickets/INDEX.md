@@ -8,9 +8,9 @@ Open: 67 (P1 18, P2 49) · Closed: 0
 
 | ID | Pri | Status | Area | Title |
 |---|---|---|---|---|
-| [SGN-001](SGN-001-australia-nsw-state-sign-pack.md) | P1 | open | sources | Australia/NSW: state sign pack |
+| [SGN-001](SGN-001-australia-nsw-state-sign-pack.md) | P1 | in-progress | sources | Australia/NSW: state sign pack |
 | [SGN-002](SGN-002-australia-vic-state-sign-pack.md) | P1 | open | sources | Australia/VIC: state sign pack |
-| [SGN-003](SGN-003-australia-qld-state-sign-pack.md) | P1 | open | sources | Australia/QLD: state sign pack |
+| [SGN-003](SGN-003-australia-qld-state-sign-pack.md) | P1 | in-progress | sources | Australia/QLD: state sign pack |
 | [SGN-004](SGN-004-australia-wa-state-sign-pack.md) | P1 | open | sources | Australia/WA: state sign pack |
 | [SGN-005](SGN-005-australia-sa-state-sign-pack.md) | P1 | open | sources | Australia/SA: state sign pack |
 | [SGN-006](SGN-006-australia-tas-state-sign-pack.md) | P1 | open | sources | Australia/TAS: state sign pack |

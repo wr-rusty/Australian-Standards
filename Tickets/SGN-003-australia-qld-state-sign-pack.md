@@ -1,12 +1,12 @@
 ---
 id: SGN-003
 title: Australia/QLD: state sign pack
-status: open
+status: in-progress
 priority: P1
 area: sources
 project: australia
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -29,3 +29,5 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-05 — status → in-progress.
+- 2026-09-06 — TC signs collection (June 2026, 1,173 sheets) downloaded; `tools/qld_extract.py` produced 790 SVGs in 36 category folders (`Australia/QLD/SVGs/MANIFEST.csv`: 264 sheets have no readable size and are drawn at 1:10 with a check note; 19 sheets superseded or without a drawing). Q-series (488-page book) not yet extracted.

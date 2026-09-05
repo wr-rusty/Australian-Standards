@@ -84,3 +84,13 @@ the tools then reuse that session cookie.
 
 Fonts (TCD Manual Part 1 §5.3.1): AS 1744 Series A–E and modified E lower case, plus "Transport Medium NZ" for parking
 sign text and metric abbreviations. The EPS legends are already outlined, so no font is needed to reproduce them.
+
+## State registers — `tools/sheet_extract.py`
+
+Generic extractor for CAD-style sign design sheets (NSW design plans, QLD TC signs): Inkscape converts every glyph to a
+path (the embedded sign fonts are the authority for the letterforms), the original PDF's text says where the title
+block, notes and dimension figures are, and fills are clustered into drawings, cleaned of annotations, scaled from the
+sheet's stated size / dimension / table / scale, and written with the usual header. Line-drawn sheets get white panels
+from closed outlines, thick strokes become bands, triangulated CAD exports are unioned (Shapely), sideways sheets are
+turned upright. Drivers: `qld_extract.py` (TC sign categories → `Australia/QLD/SVGs/<Category>/`), `nsw_extract.py`
+(register → `Australia/NSW/SVGs/<family>/`). Review sheets: `pack_sheets.py <pack> <out>`.

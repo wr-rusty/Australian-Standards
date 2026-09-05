@@ -1,12 +1,12 @@
 ---
 id: SGN-001
 title: Australia/NSW: state sign pack
-status: open
+status: in-progress
 priority: P1
 area: sources
 project: australia
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -29,3 +29,5 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-05 — status → in-progress.
+- 2026-09-06 — register crawled: 1,662 signs, 1,162 with a design plan PDF (`Australia/NSW/REGISTER.csv`). Sheet extractor handles the modern plans well (text in FHWA fonts, stated 'W x H'); the older CAD exports (all text outlined, sideways sheets, several sizes per sheet, triangulated shapes, stroked outlines) still lose borders and keep dimension figures — see the manifest notes and the review sheets. Full run started; results to be QA'd.
