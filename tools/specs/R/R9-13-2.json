@@ -1,0 +1,61 @@
+{
+ "code": "R9-13-2",
+ "name": "OVER_2.5_m_WIDE_WHITE_LONG",
+ "legend": "OVER 2.5 m WIDE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "E",
+   "height": 100,
+   "top": 80,
+   "expect": 383
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2.5",
+     "series": "E",
+     "height": 80
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 70
+    },
+    {
+     "text": "WIDE",
+     "series": "C",
+     "height": 80
+    }
+   ],
+   "top": 240,
+   "gap": [
+    35,
+    40
+   ],
+   "expect": [
+    null,
+    77,
+    202
+   ]
+  }
+ ],
+ "notes": "R9-13-2A (600 x 400) illustrated. OVER 100 E top 80, numerals line top 240, 80 below. Line 2 as R9-13-1."
+}

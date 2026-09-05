@@ -1,0 +1,47 @@
+{
+ "code": "TM10-7A",
+ "name": "LEFT_TURN_ARROW_LANE_CLOSED_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm10-7a_left_turn_arrow",
+   "x": 50,
+   "y": 174,
+   "w": 205,
+   "h": 309
+  },
+  {
+   "type": "rect",
+   "x": 310,
+   "y": 174,
+   "w": 240,
+   "h": 80
+  },
+  {
+   "type": "rect",
+   "x": 404,
+   "y": 300,
+   "w": 53,
+   "h": 183
+  }
+ ],
+ "symbols": {
+  "tm10-7a_left_turn_arrow": {
+   "source": "TM10-7A",
+   "desc": "left-turn block arrow: vertical stem 53 wide curving into leftward head (205 x 309)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Top dims read as 50 | 205 | 55 | 240 | 50 (the outer '5's are cropped '50's; sums to 600). Arrow bbox x 50 w 205, y 174, h 146+163=309 (stem 53 wide at x 202..255, from the bottom dims 202 | 53 | 149 | 53 | 143). Bar x 310 w 240, y 174 h 80; stem x 404 w 53, y 174+80+46=300, h 183; 117 to bottom."
+}

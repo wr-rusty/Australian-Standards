@@ -1,0 +1,75 @@
+{
+ "code": "R6-23",
+ "name": "END_TRUCK_AND_BUS_LOW_GEAR_AREA_WHITE",
+ "legend": "END TRUCK & BUS LOW GEAR AREA",
+ "shape": "rect",
+ "size": [
+  1000,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 120,
+   "top": 80,
+   "expect": 340
+  },
+  {
+   "type": "text",
+   "words": [
+    "TRUCK",
+    "&",
+    "BUS"
+   ],
+   "series": "C",
+   "height": 115,
+   "top": 255,
+   "gap": [
+    63,
+    59
+   ],
+   "expect": [
+    398,
+    100,
+    232
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "LOW",
+    "GEAR"
+   ],
+   "series": "C",
+   "height": 115,
+   "top": 430,
+   "gap": 60,
+   "expect": [
+    240,
+    310
+   ]
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 120,
+   "top": 600,
+   "expect": 408
+  }
+ ],
+ "notes": "R6-23A illustrated. R100, 15 white edge, 45 border. Stack 80/120E/55/115C/60/115C/55/120D/80. TRUCK & BUS gaps 63 and 59. Drawing gives & = 100 wide at 115 C; the FHWA font ampersand is 115 (kept as drawn series/height).",
+ "accepted_drawing_discrepancy": "drawing gives & = 100 wide at 115 C; the FHWA Series C ampersand is 115 and no series/height gives 100; drawn as labelled \u2014 width check fails, routed to intervene"
+}

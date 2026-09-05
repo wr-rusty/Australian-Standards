@@ -1,0 +1,59 @@
+{
+ "code": "TM2-57C",
+ "name": "FOR_ROADWORK_ENQUIRIES_YELLOW_LONG",
+ "legend": "FOR ROADWORK ENQUIRIES PH: 12345678",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "FOR",
+    "ROADWORK"
+   ],
+   "series": "C",
+   "height": 120,
+   "top": 80,
+   "gap": 69,
+   "expect": [
+    236,
+    699
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ENQUIRIES",
+   "series": "C",
+   "height": 120,
+   "top": 240,
+   "expect": 677
+  },
+  {
+   "type": "text",
+   "text": "PH:",
+   "series": "C",
+   "height": 120,
+   "top": 400,
+   "expect": 196,
+   "align": "left",
+   "x": 146
+  },
+  {
+   "type": "text",
+   "text": "12345678",
+   "series": "C",
+   "height": 120,
+   "top": 400,
+   "cx": 771
+  }
+ ],
+ "notes": "Phone number varies (dashed placeholder '12345678' used as drawn). Bottom dims 146|196|=|Varies|=: PH: left-aligned at 146; number centred between the end of PH: (342) and the right edge (1200) -> cx 771."
+}

@@ -1,0 +1,51 @@
+{
+ "code": "W2-4",
+ "name": "SIDE_ROAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-4_side_road_l",
+   "x": 275.33,
+   "y": 155.33,
+   "w": 400,
+   "h": 690,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-4_side_road_l": {
+   "source": "W2-4",
+   "desc": "side-road symbol, left hand: stem 110 wide, side arm 200 long x 80 thick to the left, arm top 155 below barb line, 235 below arm; arrowhead 240 tall x 290 wide (R20 barbs), notch 20. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    81,
+    529,
+    529
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 375 above centreline, arm top on centreline (375 | 80 | 235), stem centred (55 | 55), arm 200 to the left -> x from -255 to +145 (arrowhead half-width). Sign chain 690 vs inset 240+155+80+235 = 710 (20 discrepancy as W2-1); sign dims used."
+}

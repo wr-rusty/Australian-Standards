@@ -1,0 +1,51 @@
+{
+ "code": "W5-42",
+ "name": "FALLING_ROCKS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-42_falling_rocks",
+   "x": 60.33,
+   "y": 190.33,
+   "w": 695.0,
+   "h": 586.0,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "w5-42_falling_rocks": {
+   "source": "W5-42(L)",
+   "desc": "falling rocks: cliff wedge with boulders, 695 x 586",
+   "grid_mm": 37.5,
+   "panel_px": [
+    68,
+    73,
+    517,
+    521
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims for (L). Symbol 695 x 586 (inset); left edge 470 left of centre (x 60.33, at the diamond's left corner), bottom 246 below centre."
+}

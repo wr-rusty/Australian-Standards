@@ -1,0 +1,53 @@
+{
+ "code": "RM2-4A",
+ "name": "NO_ENTRY_WHITE_SQUARE",
+ "legend": "NO ENTRY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "circle",
+   "cx": 300,
+   "cy": 300,
+   "r": 269.5,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 71,
+   "y": 254.5,
+   "w": 458,
+   "h": 91,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 92,
+   "top": 126,
+   "expect": 141,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "ENTRY",
+   "series": "D",
+   "height": 92,
+   "top": 382,
+   "expect": 368,
+   "colour": "white",
+   "cx": 304
+  }
+ ],
+ "notes": "RM2-4A 600 x 600, 25 black border, square corners. Red circle dia 539 (224+91+224) centred; white bar 458 x 91 centred. NO 92 D top 126 (230|141|229), ENTRY 92 D top 382; drawing gives 120|368|112 for ENTRY (centre 304, not 300) - followed as drawn. NO drawn 141 wide vs AS 1744 148 (5 pct, as on R2-4). Vertical 126/92/164/92/126.",
+ "accepted_drawing_discrepancy": "drawing gives NO = 141 at 92 D; font gives 148, 5 % over, as on R2-4 \u2014 routed to intervene"
+}

@@ -1,0 +1,60 @@
+{
+ "code": "R4-12",
+ "name": "END_{speed}_SPEED_SIGN",
+ "legend": "END {speed}",
+ "folder": "Speed Signs/End",
+ "shape": "rect",
+ "size": [
+  600,
+  1000
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 80,
+   "colour": "black",
+   "expect": 452
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 617,
+   "r_outer": 282,
+   "r_inner": 237,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 240,
+   "top": 497,
+   "colour": "black"
+  }
+ ],
+ "notes": "END 160 E top 80. Black annulus R282/R237 centre (300,617) [80+160+377]. Numerals 240 top 497, 263 to bottom; 101 below annulus checks."
+}

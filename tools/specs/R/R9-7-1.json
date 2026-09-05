@@ -1,0 +1,53 @@
+{
+ "code": "R9-7-1",
+ "name": "NEXT_5_km_WHITE_WIDE_SKINNY",
+ "legend": "NEXT 5 km",
+ "shape": "rect",
+ "size": [
+  750,
+  150
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 75
+    },
+    {
+     "text": "5",
+     "series": "E",
+     "height": 75
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 65
+    }
+   ],
+   "top": 37.5,
+   "gap": [
+    55,
+    38
+   ],
+   "expect": [
+    276,
+    null,
+    134
+   ]
+  }
+ ],
+ "notes": "R9-7-1A (750 x 150) illustrated. One line 75 E centred vertically (top 37.5): = |NEXT 276|55|numerals Varies|38|km 134| = . The drawing shows an EMPTY dashed box for the numerals (no value) - '5' used as on R9-7-2; varies. km 65 Emod; group centred (runs, shared baseline)."
+}

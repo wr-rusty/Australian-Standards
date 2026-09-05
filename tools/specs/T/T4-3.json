@@ -1,0 +1,5 @@
+{"code":"T4-3","name":"END_BLASTING_AREA_RED_WIDE","legend":"END BLASTING AREA","shape":"rect","size":[1200,450],
+ "ground":"red",
+ "elements":[{"type":"text","text":"END","series":"D","height":120,"top":70,"colour":"white","expect":288},
+             {"type":"text","words":["BLASTING","AREA"],"gap":115,"series":"C","height":120,"top":260,"colour":"white","expect":[601,330]}],
+ "notes":"T4-3AA 1200x450 illustrated (no border). Margins 77/77 on the second line."}

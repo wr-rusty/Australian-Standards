@@ -1,0 +1,66 @@
+{
+ "code": "T1-24",
+ "name": "ROADWORK_NEXT_{km}_KM_YELLOW_WIDE",
+ "legend": "ROADWORK NEXT {km} km",
+ "shape": "rect",
+ "size": [
+  1800,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "expect": 1312
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 135
+    }
+   ],
+   "gap": [
+    135,
+    80
+   ],
+   "top": 340,
+   "expect": [
+    586,
+    null,
+    279
+   ]
+  }
+ ],
+ "notes": "T1-24A 1800x600 illustrated. Numeral varies (dashed '2', width 'Varies'): {km} = 1-5. Bottom dims: = | 586 NEXT | 135 | Varies | 80 | 279 km | =. km is lower case E Modified at capital height 135 (ink 279 matches the '135 Emod' label), baseline shared with the 160 line. Line centred as a whole for every value."
+}

@@ -1,0 +1,5 @@
+{"code":"T3-9","name":"LOOSE_STONES_YELLOW_LONG","legend":"","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t3-9_loose_stones","x":75,"y":125,"w":750,"h":350,"colour":"black"}],
+ "symbols":{"t3-9_loose_stones":{"source":"T3-9","desc":"car throwing stones at a following car with cracked windscreen","grid_mm":45}},
+ "notes":"T3-9A 900x600 illustrated. Symbol box 75 from each side, 125 top/bottom: 750 x 350."}

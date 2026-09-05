@@ -1,0 +1,29 @@
+{
+ "code": "G1-5",
+ "name": "A30_SYDNEY_A85_HAWKER_PLUMPTON_ROUNDABOUT_GREEN",
+ "legend": "A30 Sydney / A85 SALTASH HWY Hawker / A85 SALTASH HWY Plumpton",
+ "shape": "rect",
+ "size": [3800, 1910],
+ "radius": 100,
+ "ground": "green",
+ "edge": {"colour": "green", "width": 20},
+ "border": {"colour": "white", "width": 20},
+ "elements": [
+  {"type": "path", "d": "M2082.0 1341.77A360 360 0 1 1 2213.77 1210.0L2109.85 1150.0A240 240 0 1 0 2022.0 1237.85Z", "colour": "white"},
+  {"type": "polygon", "points": [[2202, 970], [2622, 970], [2682, 1030], [2622, 1090], [2202, 1090]], "radius": 0, "colour": "white"},
+  {"type": "polygon", "points": [[1602, 970], [1182, 970], [1122, 1030], [1182, 1090], [1602, 1090]], "radius": 0, "colour": "white"},
+  {"type": "polygon", "points": [[1842, 1330], [1962, 1330], [1962, 1690], [1842, 1690]], "radius": 0, "colour": "white"},
+  {"type": "polygon", "points": [[1549, 420], [1630.96, 441.96], [1803.96, 740.19], [1700.04, 800.19], [1527.04, 501.96]], "radius": 0, "colour": "white"},
+  {"type": "text", "text": "A30", "series": "E", "height": 160, "top": 160, "align": "left", "x": 785, "colour": "yellow", "expect": 470},
+  {"type": "text", "text": "Sydney", "series": "Emod", "height": 160, "top": 160, "align": "left", "x": 1415, "colour": "white", "expect": 914},
+  {"type": "text", "text": "A85", "series": "E", "height": 160, "top": 950, "align": "left", "x": 2796, "colour": "yellow", "expect": 459},
+  {"type": "panel", "x": 2394, "y": 1230, "w": 1262, "h": 240, "radius": 40, "colour": "white"},
+  {"type": "text", "text": "SALTASH HWY", "series": "D", "height": 120, "top": 1290, "cx": 3025, "colour": "black", "expect": 1142},
+  {"type": "text", "text": "Hawker", "series": "Emod", "height": 160, "top": 1590, "align": "left", "x": 2573, "colour": "white", "expect": 905},
+  {"type": "text", "text": "A85", "series": "E", "height": 160, "top": 950, "align": "left", "x": 545, "colour": "yellow", "expect": 459},
+  {"type": "panel", "x": 143, "y": 1230, "w": 1262, "h": 240, "radius": 40, "colour": "white"},
+  {"type": "text", "text": "SALTASH HWY", "series": "D", "height": 120, "top": 1290, "cx": 774, "colour": "black", "expect": 1142},
+  {"type": "text", "text": "Plumpton", "series": "Emod", "height": 160, "top": 1590, "align": "left", "x": 190, "colour": "white", "expect": 1192}
+ ],
+ "notes": "Drawing rotated 90 deg on the page; transcribed in true orientation 3800 wide x 1910 high. Green edge 20 + white border 20, R100. Vertical chain (both sides): A30/Sydney baseline 320; A85 baseline 1110 (790 below); panels 1230-1470; Hawker/Plumpton baseline 1750; 160 bottom margin. Horizontal from the right-hand chains: 545/459/1792/459/545 (A85s), 144/1262/989/1262/143 (panels), 322/905/1191/1192/190 (names), 1118/1560/1122 (symbol). Symbol bbox: x 1122-2682 (1560), top at 420 from the top edge; height taken as 1270 from the symbol detail (550+120+600). INCONSISTENCY: the top chain reads 420+1330+160 = 1910, i.e. 1330 for the symbol where the detail gives 1270 (the 1330 line coincides with the Hawker/Plumpton baseline); detail value used. The A85 route numbers sit on the ring centre line (y 1030) and the approach stem is centred at x 1902. QA: roundabout drawn from the detail's dimensions instead of a trace (the drawing is rotated): ring R360/R240 centred (1902,1030) = box x 1122-2682, y 420-1690; stems 120 wide with 60 pointed tips (right exit tip 2682, left exit tip 1122, diagonal exit at 30 deg from the vertical with its tip at (1549,420), approach flat-ended at y 1690); the ring is omitted between the two radial cuts 30 deg from the right exit and 30 deg from the approach (the two 30 deg notes), i.e. the lower-right sector between screen angles 30 and 60 deg."
+}

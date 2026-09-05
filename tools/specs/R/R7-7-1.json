@@ -1,0 +1,72 @@
+{
+ "code": "R7-7-1",
+ "name": "T2_TRANSIT_LANE_WHITE_TALL",
+ "legend": "TRANSIT T2 LANE",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRANSIT",
+   "series": "C",
+   "height": 170,
+   "top": 135,
+   "expect": 736
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7-1_t2_badge",
+   "x": 112,
+   "y": 461,
+   "w": 308,
+   "h": 210,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7_car_2",
+   "x": 507,
+   "y": 445,
+   "w": 280,
+   "h": 240,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 240,
+   "top": 825,
+   "expect": 632
+  }
+ ],
+ "notes": "R7-7-1D (900 x 1200) illustrated. R100, 15 white edge, 45 border. Stack 135/170C/140/240 symbols/140/240C/135. Symbol row: 112|badge 308|87|car 280|113. Badge height not dimensioned here (207 on R9-9-1 for the same 308-wide badge); bbox given as the 240 row, the symbol keeps its own aspect and is centred in it. QA: badge height is not dimensioned on this drawing; drawn badge measures 207 high, vertically centred on the 240 car band (top 462) - box set to y 461 / h 210 so the 308 width governs the scale.",
+ "symbols": {
+  "r7-7-1_t2_badge": {
+   "source": "R7-7-1",
+   "desc": "red badge (R370 top/bottom, R185 sides) with white T2 legend; 308 wide, 207 high (height from R9-9-1); traced as the red layer, letters are cut-outs",
+   "grid_mm": 60,
+   "colours": [
+    "red"
+   ]
+  },
+  "r7-7_car_2": {
+   "source": "R7-7-1",
+   "desc": "black car, front view, two occupants",
+   "grid_mm": 60
+  }
+ }
+}

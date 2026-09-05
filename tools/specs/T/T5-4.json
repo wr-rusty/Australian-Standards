@@ -1,0 +1,6 @@
+{"code":"T5-4","name":"CHEVRON_ALIGNMENT_3_YELLOW_WIDE","legend":"","shape":"rect","size":[1500,450],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"polygon","points":[[25,25],[275,25],[475,225],[275,425],[25,425],[225,225]],"colour":"black"},
+             {"type":"polygon","points":[[525,25],[775,25],[975,225],[775,425],[525,425],[725,225]],"colour":"black"},
+             {"type":"polygon","points":[[1025,25],[1275,25],[1475,225],[1275,425],[1025,425],[1225,225]],"colour":"black"}],
+ "notes":"Three black 45-degree chevron bands on yellow: bands 250 wide horizontally (177 perpendicular) with boundaries at 25 + 250k along the top/bottom edges (25 | 250 x5 | 200 | 25), points 200 from the top/bottom edges (25 | 200 | 200 | 25) so each apex is offset 200 to the right. The final yellow chevron is clipped by the right border (its apex touches the border at mid-height). Drawn to the right (arrows point right); the standard uses the mirrored sign for the other direction but this PNG shows one hand only."}

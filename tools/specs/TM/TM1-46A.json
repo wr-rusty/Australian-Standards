@@ -1,0 +1,41 @@
+{
+ "code": "TM1-46A",
+ "name": "QUEUED_TRAFFIC_AHEAD_YELLOW_SQUARE",
+ "legend": "QUEUED TRAFFIC AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "QUEUED",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 427
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 426
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "expect": 350
+  }
+ ]
+}

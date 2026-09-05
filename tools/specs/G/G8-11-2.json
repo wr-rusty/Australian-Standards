@@ -1,0 +1,32 @@
+{
+ "code": "G8-11-2",
+ "name": "C253_GREEN_LONG",
+ "legend": "C253",
+ "shape": "rect",
+ "size": [
+  600,
+  300
+ ],
+ "radius": 70,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "C253",
+   "series": "E",
+   "height": 120,
+   "top": 90,
+   "colour": "yellow",
+   "expect": 442
+  }
+ ],
+ "notes": "600x300 R70, 20/10 border. C253 120 E yellow baseline 210 (top 90), 90 bottom, centred 442."
+}

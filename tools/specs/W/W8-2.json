@@ -1,0 +1,63 @@
+{
+ "code": "W8-2",
+ "name": "{speed}_KMH_YELLOW",
+ "legend": "{speed} km/h",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "E",
+   "height": 240,
+   "top": 65.0,
+   "tracking": "minus10"
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 85,
+   "top": 350.0,
+   "expect": 356
+  }
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   15,
+   20,
+   25,
+   30,
+   35,
+   40,
+   45,
+   50,
+   55,
+   60,
+   65,
+   70,
+   75,
+   80,
+   85,
+   90,
+   95,
+   100,
+   110
+  ]
+ },
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. Numerals 240 E (Varies) centred, 'medium spacing' -> tracking minus10; top 65. km/h 85 Emod (capital height) top 65+240+45 = 350, 356 wide centred. Advisory speed values 15-110 in 5s."
+}

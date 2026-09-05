@@ -1,0 +1,58 @@
+{
+ "code": "R2-5",
+ "name": "NO_U_TURN_WHITE_SQUARE",
+ "legend": "(no U-turn symbol)",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 225,
+   "r_outer": 220,
+   "r_inner": 184,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r2-5_u_turn_arrow",
+   "x": 125,
+   "y": 88,
+   "w": 200,
+   "h": 280,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M380.28 126.29L126.29 380.28A184 184 0 0 1 69.72 323.71L323.71 69.72A184 184 0 0 1 380.28 126.29Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M395.34 85.77L85.77 395.34A220 220 0 0 1 54.66 364.23L364.23 54.66A220 220 0 0 1 395.34 85.77Z",
+   "colour": "red"
+  }
+ ],
+ "notes": "Red annulus dia 440 (5 margin), inner R184. Red slash 44 wide at 45 deg from upper-right to lower-left, ends clipped to R220. The grid's '18' beside the '44' read as the white gap between the slash and the black arrow (the sign picture shows the arrow interrupted either side of the slash): drawn as a white bar 80 wide clipped to the inner circle. U-turn arrow box 200 x 280 centred horizontally; top 137 (100+37) above the centreline per the grid's 100/37/88 stack -> y 88. Tracer: panel_px from the red annulus pixel bbox (outer dia 440 in 450); only the black layer traced (the red slash and annulus are drawn by the spec).",
+ "symbols": {
+  "r2-5_u_turn_arrow": {
+   "source": "R2-5",
+   "desc": "U-turn arrow: 200 wide x 280 high, outer R100, inner R44, stem 56, head 100 wide, dims 37/88/44",
+   "grid_mm": 22.5,
+   "panel_px": [
+    153,
+    97,
+    418,
+    362
+   ],
+   "colours": [
+    "black"
+   ]
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "code": "R7-11-2",
+ "name": "LEFT_ARROW_WHITE_WIDE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     119,
+     100
+    ],
+    [
+     186,
+     47
+    ],
+    [
+     177,
+     87.5
+    ],
+    [
+     480,
+     87.5
+    ],
+    [
+     480,
+     112.5
+    ],
+    [
+     177,
+     112.5
+    ],
+    [
+     186,
+     153
+    ]
+   ],
+   "radius": [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "R7-11-2C illustrated. Left arrow 361 x 106 at x 119 (119|361|120), y 47: head 67 to barb tips, shaft joins 9 forward of the tips, shaft 25 thick and 303 long. R5 at the barb tips (per-vertex radius)."
+}

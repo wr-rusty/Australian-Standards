@@ -1,0 +1,59 @@
+{
+ "code": "W1-3",
+ "name": "{dir}_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-3_curve_arrow_l",
+   "x": 230.33,
+   "y": 289.33,
+   "w": 485,
+   "h": 511,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-3_curve_arrow_l": {
+   "source": "W1-3",
+   "desc": "curve arrow, left hand: stem 110 wide, straight 90, then arc inner R235 (centre 235 from stem far edge at the 90 level), outer R345, sweep 75 deg; arrowhead on the arc end: 220 long x 290 wide (20+125+125+20, R20 barbs), notch 15. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    52,
+    81,
+    500,
+    529
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 300 left of centreline and stem near edge 75 right of centreline (both stated) -> width 485 (300+75+110); bottom 270 below centreline (stated). Height 511 is NOT stated: derived from the inset geometry (upper barb R20 extreme = 90 + 290*sin75 + 125*... computed 510.9); geometry check: tip works out 372.4 from stem near edge vs 375 (300+75) stated.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

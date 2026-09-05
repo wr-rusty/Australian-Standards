@@ -1,0 +1,5 @@
+{"code":"T1-27","name":"ROAD_PLANT_ON_SIDE_ROAD_YELLOW_WIDE","legend":"ROAD PLANT ON SIDE ROAD","shape":"rect","size":[1800,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","words":["ROAD","PLANT"],"gap":135,"series":"E","height":160,"top":100,"expect":[632,755]},
+             {"type":"text","words":["ON","SIDE","ROAD"],"gap":120,"series":"D","height":160,"top":340,"expect":[258,445,536]}],
+ "notes":"Margins 139/139 top line, 160/161 bottom line; both lines centred."}

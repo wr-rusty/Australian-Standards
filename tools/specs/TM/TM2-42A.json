@@ -1,0 +1,41 @@
+{
+ "code": "TM2-42A",
+ "name": "SLOW_MOVING_VEHICLE_YELLOW_SQUARE",
+ "legend": "SLOW MOVING VEHICLE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SLOW",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 282
+  },
+  {
+   "type": "text",
+   "text": "MOVING",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 400
+  },
+  {
+   "type": "text",
+   "text": "VEHICLE",
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "expect": 447
+  }
+ ]
+}

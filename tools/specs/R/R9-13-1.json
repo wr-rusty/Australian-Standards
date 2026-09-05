@@ -1,0 +1,69 @@
+{
+ "code": "R9-13-1",
+ "name": "VEHICLES_OVER_2.5_m_WIDE_WHITE_LONG",
+ "legend": "VEHICLES OVER 2.5 m WIDE",
+ "shape": "rect",
+ "size": [
+  600,
+  500
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "C",
+   "height": 100,
+   "top": 60,
+   "expect": 514
+  },
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "E",
+   "height": 100,
+   "top": 210,
+   "expect": 383
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2.5",
+     "series": "E",
+     "height": 80
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 70
+    },
+    {
+     "text": "WIDE",
+     "series": "C",
+     "height": 80
+    }
+   ],
+   "top": 370,
+   "gap": [
+    35,
+    40
+   ],
+   "expect": [
+    null,
+    77,
+    202
+   ]
+  }
+ ],
+ "notes": "R9-13-1B (600 x 500) illustrated. As R9-10-1 (vertical string sums to 510; tops 60/210/370 used). Line 3: numerals 80 E (2.5 shown; varies)|35|m 70 Emod 77|40|WIDE 80 C 202, group centred (runs, shared baseline)."
+}

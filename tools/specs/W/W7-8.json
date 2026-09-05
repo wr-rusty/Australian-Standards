@@ -1,0 +1,46 @@
+{
+ "code": "W7-8",
+ "name": "RAILWAY_CROSSING_AHEAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-8_rail_crossing",
+   "x": 147.33,
+   "y": 155.33,
+   "w": 766.0,
+   "h": 750.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w7-8_rail_crossing": {
+   "source": "W7-8",
+   "desc": "road (125 wide, 750 tall, broken at the track) crossing a horizontal track 766 long (rails 148/109/86, sleepers 43 at 31 gaps, 187 tall)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    108,
+    99,
+    556,
+    548
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Symbol 766 x 750 (inset). No placement dims on the sign; the illustration shows it centred on both centrelines (measured), so it is placed centred (x 147.33, y 155.33)."
+}

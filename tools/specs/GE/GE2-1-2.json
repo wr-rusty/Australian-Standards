@@ -1,0 +1,85 @@
+{
+ "code": "GE2-1-2",
+ "name": "A69_MONASH_HAWKER_EXIT_GREEN_LONG",
+ "legend": "A69 Monash Hawker EXIT",
+ "shape": "rect",
+ "size": [
+  4650,
+  2600
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A69",
+   "series": "E",
+   "height": 400,
+   "top": 790,
+   "colour": "yellow",
+   "align": "left",
+   "x": 396,
+   "expect": 1179
+  },
+  {
+   "type": "text",
+   "text": "Monash",
+   "series": "Emod",
+   "height": 400,
+   "top": 440,
+   "colour": "white",
+   "align": "left",
+   "x": 1972,
+   "expect": 2282
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 400,
+   "top": 1140,
+   "colour": "white",
+   "align": "left",
+   "x": 1969,
+   "expect": 2256
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_diag_up_left_505",
+   "x": 1300,
+   "y": 1745,
+   "w": 505,
+   "h": 505,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 350,
+   "top": 1850,
+   "colour": "white",
+   "align": "left",
+   "x": 2577,
+   "expect": 1072
+  }
+ ],
+ "symbols": {
+  "arrow_diag_up_left_505": {
+   "source": "GE2-1-2",
+   "desc": "Straight block arrow pointing up-left at 45 degrees, 505x505 box (232.5 grid): head 550 across?? (drawing: 550), barbs 357, 270, notch 154, 39 offset, shaft 193 wide, R19 head and tail corners.",
+   "grid_mm": 232.5,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "4650x2600 R300; green 70 / white 70. Left chain 1190 (A69 baseline) | 555 | 505 arrow | 350; right chain 840 Monash | 700 Hawker | 660 EXIT | 400 (baselines). Top: 396 | 1179 A69 | 397 | 2282 | 396. Bottom: Hawker 1969 | 2256 | 425; arrow 1300 | 505 | 772 | EXIT 1072 | 1001. NOTE the arrow detail quotes 550 for the head width although the box is 505 - copied as drawn."
+}

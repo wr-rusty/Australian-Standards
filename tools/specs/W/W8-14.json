@@ -1,0 +1,31 @@
+{
+ "code": "W8-14",
+ "name": "SCHOOL_YELLOWGREEN_WIDE",
+ "legend": "SCHOOL",
+ "shape": "rect",
+ "size": [
+  750,
+  250
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 125,
+   "top": 62.0,
+   "expect": 637
+  }
+ ],
+ "notes": "750 x 250 (Illust. B). R50, 10 yellow-green edge, 30 black border; fluorescent yellow-green ground. SCHOOL 125 D top 62 (62 | 125 | 63), centred (= dims)."
+}

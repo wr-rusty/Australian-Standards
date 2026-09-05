@@ -1,0 +1,33 @@
+{
+ "code": "TM8-18A",
+ "name": "BICYCLE_SYMBOL_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-17a_bicycle",
+   "x": 73,
+   "y": 150,
+   "w": 454,
+   "h": 300
+  }
+ ],
+ "symbols": {
+  "tm8-17a_bicycle": {
+   "source": "TM8-17A",
+   "desc": "bicycle, side view facing left (454 x 300)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Bicycle 73 | 454 | 73 wide, 150 | 300 | 150 high; same size and grid inset as TM8-17A, so that symbol id is reused."
+}

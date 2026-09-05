@@ -1,0 +1,66 @@
+{
+ "code": "G9-51",
+ "name": "SLOW_VEHICLE_TURNOUT_ARROW_WHITE_TALL",
+ "legend": "SLOW VEHICLE TURNOUT",
+ "shape": "rect",
+ "size": [
+  900,
+  1000
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g9-51_arrow_diag_up_left",
+   "x": 348,
+   "y": 107,
+   "w": 203,
+   "h": 203,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 370,
+   "colour": "black",
+   "text": "SLOW",
+   "expect": 400
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 565,
+   "colour": "black",
+   "text": "VEHICLE",
+   "expect": 635
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 760,
+   "colour": "black",
+   "text": "TURNOUT",
+   "expect": 698
+  }
+ ],
+ "notes": "G9-51A illustrated 900 x 1000 (B 1200x1400 ignored). 15 white edge + 30 black border. Stack 107|203 arrow|60|120D|75|120D|75|120D|120. Arrow 348|203|349. SLOW 250|400|250, VEHICLE 132|635|133, TURNOUT 101|698|101.",
+ "symbols": {
+  "g9-51_arrow_diag_up_left": {
+   "source": "G9-51",
+   "desc": "diagonal block arrow pointing up-left at 45 deg in a 203 square: overall length 219 along the axis, head 140 across, barb step 17, head base 109 (dims along the 45 deg axes: 219, 140, 109, 17), shaft 50 wide, shaft end 68, R10 at the tip and shaft-end corners; grid 50",
+   "grid_mm": 50
+  }
+ }
+}

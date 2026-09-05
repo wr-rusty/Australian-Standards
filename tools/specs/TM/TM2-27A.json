@@ -1,0 +1,33 @@
+{
+ "code": "TM2-27A",
+ "name": "BRIDGE_WORK_YELLOW_SQUARE",
+ "legend": "BRIDGE WORK",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 100,
+   "top": 150,
+   "expect": 450
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 100,
+   "top": 350,
+   "expect": 350
+  }
+ ]
+}

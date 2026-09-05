@@ -1,0 +1,164 @@
+{
+ "code": "R5-16",
+ "name": "HALF_P_10AM_430PM_MON_SAT_GREEN_TALL",
+ "legend": "1/2 P 10AM - 4.30PM MON - SAT",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5_half_fraction",
+   "x": 26,
+   "y": 20,
+   "w": 68,
+   "h": 100,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 20,
+   "expect": 80,
+   "colour": "green",
+   "align": "left",
+   "x": 119
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "series": "D",
+   "height": 50,
+   "top": 143,
+   "expect": 59,
+   "colour": "green",
+   "align": "left",
+   "x": 10
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 178,
+   "expect": 32,
+   "colour": "green",
+   "align": "left",
+   "x": 71
+  },
+  {
+   "type": "rect",
+   "x": 106,
+   "y": 164.09,
+   "w": 20,
+   "h": 7.81,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "D",
+   "height": 50,
+   "top": 143,
+   "expect": 38,
+   "colour": "green",
+   "align": "left",
+   "x": 134
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 143,
+   "expect": 39,
+   "colour": "green",
+   "align": "left",
+   "x": 176
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 178,
+   "colour": "green",
+   "align": "left",
+   "x": 176
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "D",
+   "height": 27,
+   "top": 203,
+   "expect": 70,
+   "colour": "green",
+   "align": "left",
+   "x": 25
+  },
+  {
+   "type": "rect",
+   "x": 107,
+   "y": 214.39,
+   "w": 15,
+   "h": 4.22,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "SAT",
+   "series": "D",
+   "height": 27,
+   "top": 203,
+   "expect": 62,
+   "colour": "green",
+   "align": "left",
+   "x": 138
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_left",
+   "x": 50,
+   "y": 255,
+   "w": 125,
+   "h": 32,
+   "colour": "green"
+  }
+ ],
+ "notes": "All green, no border. 1/2 P 100 E top 20: fraction box 26|68 (1 = 15 wide, 13 gap, 2 = 40 wide; 50 E each), P at 119 (80 wide). Time line 50 D (footnote a: usually 50 E) top 143 (20+100+23): 10|59|2|32|31|38|4|39|10 with the dash 20 long at 96..116 of the 205 block (x 106..126); 30 in 30 C top-aligned, AM/PM 15 E bottom-aligned at 193 (gap 5 between 30 and PM). MON - SAT 27 D top 203: 25|70|12|15|16|62|25 (dash 15 at x 107). Arrow 50|125|50 top 255. Dash thickness from the font hyphen (not dimensioned). Tracer: no border ring, panel_px = pixel bbox of the sign's white interior; open 9 removes dimension hairlines.",
+ "symbols": {
+  "r5_half_fraction": {
+   "source": "R5-16",
+   "desc": "fraction 1/2: '1' 50 E (15 wide, top of box) over '2' 50 E (40 wide, bottom of box, right-aligned) with a diagonal slash; box 68 x 100",
+   "grid_mm": 15,
+   "panel_px": [
+    278,
+    131,
+    474,
+    394
+   ],
+   "open": 9,
+   "threshold": 150
+  },
+  "r5_arrow_left": {
+   "source": "R5-16",
+   "desc": "open-chevron arrow pointing left 125 long x 32 high, shaft 12, head 42 long, barb thickness 12 (R5-1 grid: 22/21 barb dims)",
+   "grid_mm": 15,
+   "panel_px": [
+    278,
+    131,
+    474,
+    394
+   ],
+   "open": 9,
+   "threshold": 150
+  }
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "code": "GE1-13",
+ "name": "B205_HOLLEY_STREET_LEFT_LANE_GREEN_LONG",
+ "legend": "B205 HOLLEY STREET LEFT LANE",
+ "shape": "rect",
+ "size": [
+  6250,
+  2950
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "B205",
+   "series": "E",
+   "height": 400,
+   "top": 440,
+   "colour": "yellow",
+   "expect": 1494
+  },
+  {
+   "type": "panel",
+   "x": 522,
+   "y": 1140,
+   "w": 5206,
+   "h": 800,
+   "radius": 100,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "HOLLEY",
+    "STREET"
+   ],
+   "series": "E",
+   "height": 400,
+   "top": 1340,
+   "gap": 309,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "LEFT",
+    "LANE"
+   ],
+   "series": "E",
+   "height": 350,
+   "top": 2240,
+   "gap": 300,
+   "expect": [
+    1203,
+    1339
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "6250x2950 R300; green 70 / white border 70. FLAG: vertical chain 840 | 300 | 800 | 650 | 460 sums to 3050 for a 2950 sign. Used 840 (B205 baseline) | 300 | 800 panel (1140-1940) | 650 (LEFT LANE baseline 2590), leaving a 360 bottom margin instead of the drawn 460. Road-name panel 5206x800 R100 at 522 from each side, HOLLEY STREET 400 E black, 200 margins each side (ink 4806), equal (200) above and below; the word gap is not stated - 309 makes the two words total 4806. B205 centred, (1494) wide. LEFT LANE 350 E: 1704 | 1203 | 300 | 1339 | 1704."
+}

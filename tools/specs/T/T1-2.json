@@ -1,0 +1,4 @@
+{"code":"T1-2","name":"BRIDGEWORK_AHEAD_YELLOW_WIDE","legend":"BRIDGEWORK AHEAD","shape":"rect","size":[1800,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"BRIDGEWORK","series":"E","height":160,"top":100,"expect":1514},
+             {"type":"text","text":"AHEAD","series":"E","height":160,"top":340,"expect":818}]}

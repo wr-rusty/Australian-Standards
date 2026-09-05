@@ -1,0 +1,39 @@
+{
+ "code": "W3-3-2",
+ "name": "SIGNALS_AHEAD_YELLOWGREEN_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w3-3_signals",
+   "x": 320.33,
+   "y": 225.33,
+   "w": 420,
+   "h": 672,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w3-3_signals": {
+   "source": "W3-3-1",
+   "desc": "traffic signal pictogram: body 140 wide x 642 tall with three lamp hoods (lamps dia 120 at 165 spacing, first lamp 110 below body top, 202 from lowest lamp to body bottom), hoods to 185 (lower corner) / 210 (upper corner) from axis with 10/65/60/15 profile, base 70 wide x 87 tall, top hook 55 wide x 25 tall on a 5 neck; overall 420 wide x 672 tall (642 + 30 hook).",
+   "grid_mm": 37.5
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellowgreen edge, 30 black border (as drawing). No position dimension on the sign: placed with the middle lamp centre on the sign centre (body top 275 above centreline, hook top 305 above, bottom 367 below), which matches the drawing (measured -305 / +371). Overall height 672 = 642 body + 25 hook + 5 neck (hook dims read from inset). Fluorescent yellow-green ground/edge."
+}

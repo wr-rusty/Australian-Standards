@@ -1,0 +1,38 @@
+{
+ "code": "TM2-52A",
+ "name": "BOOM_GATE_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm2-52a_boom_gate",
+   "x": 72,
+   "y": 80,
+   "w": 455,
+   "h": 430,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm2-52a_boom_gate": {
+   "source": "TM2-52A",
+   "desc": "boom gate post with hatched arm and red disc",
+   "grid_mm": 50,
+   "colours": [
+    "black",
+    "red"
+   ]
+  }
+ },
+ "notes": "Caption says 'black symbol' but the disc is drawn red and the arm hatched black/white (colours inside the symbol artwork)."
+}

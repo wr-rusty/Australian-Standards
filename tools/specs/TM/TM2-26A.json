@@ -1,0 +1,33 @@
+{
+ "code": "TM2-26A",
+ "name": "ROAD_WORK_YELLOW_SQUARE",
+ "legend": "ROAD WORK",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 110,
+   "top": 140,
+   "expect": 369
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 110,
+   "top": 350,
+   "expect": 386
+  }
+ ]
+}

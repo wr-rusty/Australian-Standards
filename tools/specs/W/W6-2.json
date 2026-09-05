@@ -1,0 +1,97 @@
+{
+ "code": "W6-2",
+ "name": "PEDESTRIAN_CROSSING_AHEAD_YELLOWGREEN_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "colour": "black",
+   "points": [
+    [
+     530.33,
+     154.33
+    ],
+    [
+     655.33,
+     279.33
+    ],
+    [
+     570.83,
+     279.33
+    ],
+    [
+     570.83,
+     373.33
+    ],
+    [
+     489.83,
+     373.33
+    ],
+    [
+     489.83,
+     279.33
+    ],
+    [
+     405.33,
+     279.33
+    ]
+   ],
+   "radius": [
+    0,
+    8,
+    0,
+    0,
+    0,
+    0,
+    8
+   ]
+  },
+  {
+   "type": "annulus",
+   "cx": 530.33,
+   "cy": 632.33,
+   "r_outer": 225,
+   "r_inner": 210,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "w6-2_legs",
+   "x": 361.58,
+   "y": 502,
+   "w": 337.5,
+   "h": 242.5,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w6-2_legs": {
+   "source": "W6-2",
+   "desc": "walking legs (inset: thighs 74/9/50 wide at top, legs 178/191 long at 65 deg with 45 deg shoes)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow-green edge, 30 black border; centre 530.33. Fluorescent yellow-green ground. Circle centre 102 below the horizontal centreline (dim 102): annulus R225/R210. Arrow: head 250 wide x 125 high, shaft 81 wide x 94 high, shaft bottom 259 above the circle centre -> tip at y 154.33; drawn as a polygon with R8 on the two barb tips (per-vertex radii). Legs symbol bbox is not dimensioned: ~328 x 240, centred on the circle's vertical axis, measured from the illustration. Missing dims: legs bbox. Drawing note: arrow may also be aligned at 45 degrees (not generated). QA: legs bbox re-measured on the illustration with the corrected drawing scale: 337.5 x 242.5, top 502 (130 above the circle centre, bottom 112 below), centred on the vertical axis."
+}

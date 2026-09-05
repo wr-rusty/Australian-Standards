@@ -1,0 +1,34 @@
+{
+ "code": "G6-2",
+ "name": "SWAN_RIVER_WHITE",
+ "legend": "SWAN RIVER",
+ "shape": "rect",
+ "size": [
+  1214,
+  200
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "SWAN",
+    "RIVER"
+   ],
+   "gap": 105,
+   "series": "D",
+   "height": 140,
+   "top": 30,
+   "align": "left",
+   "x": 70,
+   "colour": "black",
+   "expect": [
+    474,
+    495
+   ]
+  }
+ ],
+ "notes": "1214x200: 30|140 D|30; 70|474|105|495|70. Corners drawn rounded but no radius stated."
+}

@@ -1,0 +1,236 @@
+{
+ "code": "GE1-14",
+ "name": "A81_SUNHILL_M8_HAWKER_PLUMPTON_4_ARROWS_GREEN_WIDE_SKINNY",
+ "legend": "A81 Sunhill M8 Hawker/Plumpton",
+ "shape": "rect",
+ "size": [
+  15250,
+  3100
+ ],
+ "radius": 300,
+ "ground": "white",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     140,
+     140
+    ],
+    [
+     5990,
+     140
+    ],
+    [
+     5990,
+     1140
+    ],
+    [
+     140,
+     1140
+    ]
+   ],
+   "radius": [
+    160,
+    100,
+    100,
+    160
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     6060,
+     140
+    ],
+    [
+     15110,
+     140
+    ],
+    [
+     15110,
+     1140
+    ],
+    [
+     6060,
+     1140
+    ]
+   ],
+   "radius": [
+    100,
+    160,
+    100,
+    100
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     140,
+     1210
+    ],
+    [
+     15110,
+     1210
+    ],
+    [
+     15110,
+     2960
+    ],
+    [
+     140,
+     2960
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    160,
+    160
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "A81",
+   "series": "E",
+   "height": 400,
+   "top": 440,
+   "colour": "yellow",
+   "align": "left",
+   "x": 1186,
+   "expect": 963
+  },
+  {
+   "type": "text",
+   "text": "Sunhill",
+   "series": "Emod",
+   "height": 400,
+   "top": 440,
+   "colour": "white",
+   "align": "left",
+   "x": 2549,
+   "expect": 2394
+  },
+  {
+   "type": "text",
+   "text": "M8",
+   "series": "E",
+   "height": 400,
+   "top": 440,
+   "colour": "yellow",
+   "align": "left",
+   "x": 7085,
+   "expect": 777
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "Hawker",
+     "series": "Emod",
+     "height": 400
+    },
+    {
+     "text": "/",
+     "series": "Emod",
+     "height": 400,
+     "slot": 400
+    },
+    {
+     "text": "Plumpton",
+     "series": "Emod",
+     "height": 400
+    }
+   ],
+   "gap": [
+    60,
+    110
+   ],
+   "top": 440,
+   "colour": "white",
+   "align": "left",
+   "x": 8262,
+   "expect": [
+    2256,
+    400,
+    2973
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_straight_up_1000x528",
+   "x": 13111,
+   "y": 1585,
+   "w": 528,
+   "h": 1000,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_straight_up_1000x528",
+   "x": 9611,
+   "y": 1585,
+   "w": 528,
+   "h": 1000,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_up_and_curve_left_1300x1000",
+   "x": 5375,
+   "y": 1585,
+   "w": 1300,
+   "h": 1000,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_curve_up_left_800",
+   "x": 2475,
+   "y": 1585,
+   "w": 800,
+   "h": 1000,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_straight_up_1000x528": {
+   "source": "GE1-14/rotated",
+   "desc": "Straight arrow 1000 long: head 317 long, 528 across; shaft 683 long, 120 wide at the head widening to 140 at the tail; R24 (typ.). Grid 762.5 on GE1-14 / 500 on GE1-16.",
+   "grid_mm": 500,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "GE1-14 is drawn rotated 90 deg, which tools/trace_symbol.py cannot handle: traced from the image rotated -90 (panel px 158,190,1001,359 in the rotated image, invert), then the svg viewBox was stretched to the dimensioned box. 'source' is written GE1-14/rotated so a --force rerun does not overwrite the trace with a crop of the unrotated image."
+  },
+  "arrow_up_and_curve_left_1300x1000": {
+   "source": "GE1-14/rotated",
+   "desc": "Straight up arrow (as the 1000x528 straight arrow: head 317/683, 528 across, 120/140 shaft, R24 typ.) with a second branch leaving the shaft 165 from the bottom (194 head offset), curving down-left on R1200 to a second head 528 across at 60 degrees with 317/176 barbs; overall 1300 wide x 1000 high, branch tip 966 from the top.",
+   "grid_mm": 762.5,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "GE1-14 is drawn rotated 90 deg, which tools/trace_symbol.py cannot handle: traced from the image rotated -90 (panel px 158,190,1001,359 in the rotated image, invert), then the svg viewBox was stretched to the dimensioned box. 'source' is written GE1-14/rotated so a --force rerun does not overwrite the trace with a crop of the unrotated image."
+  },
+  "arrow_curve_up_left_800": {
+   "source": "GE1-17",
+   "desc": "Curved arrow, stem vertical at lower right curving to a head pointing upper-left. Overall 800 wide x 1000 high: stem 165 wide, 100 from the right, straight 100 at the bottom, centreline bend R600, head 528 across at 60 degrees, barbs 317/176/24, R24 (typ.); head tip 660 left of the stem, 900 above the stem foot.",
+   "grid_mm": 100,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "Drawn rotated 90 degrees (legend reads upward); transcribed in the sign's frame: 15250 wide x 3100 high, R300, green 70 / white 70. Text row and arrow row separated by a 70 white divider (840 baseline | 300 | 70 -> 1140-1210, as GE1-16); the text row is split by a 70 white divider at 5990-6060; sub-panel corners R100 (typ.) -> drawn as green polygons on a white ground with R160 (300-140) outer corners. Along the sign from the left: 1186 | A81 963 | 400 | Sunhill 2394 | 1047 | 70 | 1025 | M8 777 | 400 | Hawker 2256 | 110 | / 400 | 60 | Plumpton 2973 | 1165 (sums 15226, 24 short of 15250 - FLAG). Sunhill drawn 2394 but 400 Emod gives 2281 (FLAG - 5%, unresolved; the sign width and every other position follow the chain, so only the gap after Sunhill differs). Hawker / Plumpton is one runs line with the drawn 60 and 110 gaps; the 400 Emod slash glyph is 428 wide, so it is centred in a 400 slot to keep the chain at 5799. Arrows 1000 high at 840 | 745 | 1000 | 515 (top 1585); from the right end 1875 (to the first straight arrow centreline) | 3500 (to the second) | 3200 | 1300 combo | 2100 | 800 curve | 2475 = 15250; straight arrows 528 wide centred at 13375 and 9875. Bottom-band chain 1025 | 525 | 340 after the divider and the '350 E'/'300 E' labels do not correspond to any drawn legend (an ONLY panel is mentioned in the caption but not drawn). 1817/1000/12433 reference dims not tied to a feature.",
+ "accepted_drawing_discrepancy": "Sunhill drawn 2394 but 400 Emod gives 2281 (5%); along-sign chain sums 15226 for a 15250 sign; intervene kept; sub-panels, arrows and Hawker/Plumpton runs line check against the drawing"
+}

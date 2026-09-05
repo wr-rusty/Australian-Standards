@@ -1,0 +1,63 @@
+{
+ "code": "R4-5",
+ "name": "END_SHARED_ZONE_WHITE_TALL",
+ "legend": "END SHARED ZONE",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 120,
+   "top": 90,
+   "expect": 287
+  },
+  {
+   "type": "text",
+   "text": "SHARED",
+   "series": "D",
+   "height": 60,
+   "top": 280,
+   "expect": 300
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 60,
+   "top": 390,
+   "expect": 198
+  },
+  {
+   "type": "symbol",
+   "id": "r4-4_shared_zone_symbols",
+   "x": 50,
+   "y": 507,
+   "w": 350,
+   "h": 163,
+   "colour": "black"
+  }
+ ],
+ "notes": "END 120 D top 90 (81|287|82); SHARED top 280; ZONE top 390; symbols top 507 (390+60+57), 80 bottom. Same symbol group as R4-4.",
+ "symbols": {
+  "r4-4_shared_zone_symbols": {
+   "source": "R4-4",
+   "desc": "child pedestrian (left) and car front view (right) as one group, 350 wide x 163 high",
+   "grid_mm": 37.5
+  }
+ }
+}

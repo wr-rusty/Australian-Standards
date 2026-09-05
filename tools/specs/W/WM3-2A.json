@@ -1,0 +1,68 @@
+{
+ "code": "WM3-2A",
+ "name": "GIVE_WAY_AHEAD_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w3-1_up_arrow",
+   "x": 224.09,
+   "y": 45,
+   "w": 151.83,
+   "h": 133,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     105.32,
+     235
+    ],
+    [
+     494.68,
+     235
+    ],
+    [
+     300,
+     572.22
+    ]
+   ],
+   "radius": 18.01,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "w3-2_give_way_red",
+   "x": 127.14,
+   "y": 243.64,
+   "w": 345.71,
+   "h": 302.5,
+   "colour": "red"
+  }
+ ],
+ "symbols": {
+  "w3-1_up_arrow": {
+   "source": "W3-1",
+   "desc": "upward arrow: 250 wide x 219 tall, head 125 tall, stem 81 wide, barb 16 thick at the ends, R8 corners. Fully dimensioned.",
+   "grid_mm": 37.5
+  },
+  "w3-2_give_way_red": {
+   "source": "W3-2",
+   "desc": "red band of the give-way emblem as W3-2, scaled 363/504",
+   "grid_mm": 50
+  }
+ },
+ "notes": "600 square, square corners, 25 black border (stated). Right chain 45 | 133 arrow | 57 | 320 emblem | 45; emblem 363 wide centred (top 235). Arrow width NOT dimensioned (50 grid): the drawn arrow measures 152 x 131, matching the W3-1 arrow proportion (250 x 219 -> 151.8 at 133 tall), so the W3-1 arrow is reused at 133 tall - flag. QA: emblem drawn as W3-2 (white R18 rounded-triangle polygon + traced red band) scaled by 363/504 = 0.72: outline 363 x 319.2 at top 235, red band box 345.71 x 302.5 at (127.14, 243.64)."
+}

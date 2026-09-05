@@ -1,0 +1,40 @@
+{
+ "code": "W5-43",
+ "name": "UNEVEN_SURFACE_YELLOW_DIAMOND",
+ "legend": "UNEVEN SURFACE",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "UNEVEN",
+   "series": "D",
+   "height": 120,
+   "top": 360.33,
+   "expect": 590
+  },
+  {
+   "type": "text",
+   "text": "SURFACE",
+   "series": "D",
+   "height": 120,
+   "top": 540.33,
+   "expect": 695,
+   "cx": 520.83
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. UNEVEN 120 D bottom 50 above the centreline; SURFACE 120 D bottom 130 below the centreline (gap 60). Top dims 295 | 590 -> UNEVEN centred; bottom dims 357 | 695 (from the vertical centreline) -> SURFACE cx 520.83."
+}

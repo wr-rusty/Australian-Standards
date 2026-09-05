@@ -1,0 +1,32 @@
+{
+ "code": "W5-9",
+ "name": "DIP_YELLOW_DIAMOND",
+ "legend": "DIP",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DIP",
+   "series": "E",
+   "height": 250,
+   "top": 405.33,
+   "expect": 568,
+   "cx": 541.73
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. DIP 250 E centred vertically (125). Bottom dims 237 | 568 | 215 -> cx 541.73 (11 mm right of centre, as drawn)."
+}

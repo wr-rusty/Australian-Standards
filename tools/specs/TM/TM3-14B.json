@@ -1,0 +1,32 @@
+{
+ "code": "TM3-14B",
+ "name": "LOOSE_SURFACE_YELLOW_LONG_SKINNY",
+ "legend": "LOOSE SURFACE",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LOOSE",
+    "SURFACE"
+   ],
+   "series": "C",
+   "height": 120,
+   "top": 90,
+   "gap": 62,
+   "expect": [
+    403,
+    580
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "code": "W5-2",
+ "name": "OPENING_BRIDGE_YELLOW_DIAMOND",
+ "legend": "OPENING BRIDGE",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "OPENING",
+   "series": "D",
+   "height": 125,
+   "top": 393.33,
+   "expect": 682
+  },
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 125,
+   "top": 581.33,
+   "expect": 563
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 125 D / 63 / 125 D; OPENING bottom 12 above the horizontal centreline (drawing dim 12), BRIDGE top 63 below OPENING. Both words centred (= dims)."
+}

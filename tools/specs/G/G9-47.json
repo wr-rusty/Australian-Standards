@@ -1,0 +1,174 @@
+{
+ "code": "G9-47",
+ "name": "VERY_STEEP_CLIMB_NEXT_3_km_W5-13B_WHITE_LONG",
+ "legend": "VERY STEEP CLIMB NEXT 3 km",
+ "shape": "rect",
+ "size": [
+  3000,
+  1800
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 240,
+   "top": 200,
+   "colour": "black",
+   "text": "VERY",
+   "align": "left",
+   "x": 200,
+   "expect": 794
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 240,
+   "top": 200,
+   "colour": "black",
+   "text": "STEEP",
+   "align": "left",
+   "x": 1164,
+   "expect": 910
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 240,
+   "top": 610,
+   "colour": "black",
+   "text": "CLIMB",
+   "align": "left",
+   "x": 200,
+   "expect": 904
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "3",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 155
+    }
+   ],
+   "gap": [
+    190.0,
+    90.0
+   ],
+   "top": 1420,
+   "colour": "black",
+   "expect": [
+    null,
+    null,
+    319
+   ],
+   "align": "left",
+   "x": 200
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2315,
+     549.67
+    ],
+    [
+     2845.33,
+     1080
+    ],
+    [
+     2315,
+     1610.33
+    ],
+    [
+     1784.67,
+     1080
+    ]
+   ],
+   "radius": 50.0,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2315,
+     563.81
+    ],
+    [
+     2831.19,
+     1080
+    ],
+    [
+     2315,
+     1596.19
+    ],
+    [
+     1798.81,
+     1080
+    ]
+   ],
+   "radius": 40.0,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2315,
+     606.24
+    ],
+    [
+     2788.76,
+     1080
+    ],
+    [
+     2315,
+     1553.76
+    ],
+    [
+     1841.24,
+     1080
+    ]
+   ],
+   "radius": 10.0,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w5-13_car_steep_ascent",
+   "x": 2010,
+   "y": 920,
+   "w": 610,
+   "h": 320,
+   "colour": "black"
+  }
+ ],
+ "notes": "Only the 20 white edge is dimensioned; the black border width is NOT stated - 40 used (pixel image about 7 px = 40 mm, and G9-46 uses 20+40). Stack 200|240D|170|240D|570|180E|200. VERY STEEP 200|794|170|910|926; CLIMB 200|904|1896; NEXT 3 km: 200|708|190|Varies|90|319 (km 155 Emod baseline-aligned, top 1445). QA: NEXT is stated 708 but the drawn word measures about 670 = AS 1744 E 180 (664), so 708 is a drawing typo (not checked); the 190 gap is applied after the actual NEXT width and the 90 gap before km, so the numeral starts at 1054 rather than 1098. W5-13B (steep climb pictogram, 750 side diamond = 1061 across) centred 685 from the right edge and 1080 from the top (720 from the bottom); its bounding box is derived from the 750 side. QA: W5-13B inset built as the W5-13 sign (750 side = 1060.66 across, R50, 10 yellow edge, 30 black border) centred on (2315,1080) with the W5-13 car symbol at its W5-13 position (225.33, 370.33 from the diamond's bounding box).",
+ "symbols": {
+  "w5-13_car_steep_ascent": {
+   "source": "W5-13",
+   "desc": "car ascending the 610 x 278 wedge, as traced for W5-13 (placed as on W5-13, centred in the diamond)",
+   "grid_mm": null
+  }
+ }
+}

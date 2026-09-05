@@ -1,0 +1,68 @@
+{
+ "code": "G9-12",
+ "name": "SLOW_VEHICLES_USE_LEFT_LANE_WHITE_TALL",
+ "legend": "SLOW VEHICLES USE LEFT LANE",
+ "shape": "rect",
+ "size": [
+  950,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 110,
+   "colour": "black",
+   "text": "SLOW",
+   "expect": 472
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 300,
+   "colour": "black",
+   "text": "VEHICLES",
+   "expect": 729
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 490,
+   "colour": "black",
+   "text": "USE",
+   "expect": 332
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 680,
+   "colour": "black",
+   "text": "LEFT",
+   "expect": 414
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 870,
+   "colour": "black",
+   "text": "LANE",
+   "expect": 460
+  }
+ ],
+ "notes": "15 white edge + 30 black border. Stack 110|120E|70|120D|70|120E|70|120E|70|120E|110; all centred."
+}

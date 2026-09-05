@@ -1,0 +1,33 @@
+{
+ "code": "TM10-15A",
+ "name": "LANE_SHIFT_LEFT_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm10-15a_lane_shift_left",
+   "x": 124,
+   "y": 51,
+   "w": 352,
+   "h": 498
+  }
+ ],
+ "symbols": {
+  "tm10-15a_lane_shift_left": {
+   "source": "TM10-15A",
+   "desc": "single arrow shifting one lane to the left (352 x 498)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol 124 | 352 | 124 wide, 51 | 498 | 51 high."
+}

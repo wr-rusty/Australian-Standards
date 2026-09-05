@@ -1,0 +1,46 @@
+{
+ "code": "R9-1-3",
+ "name": "AT_ALL_TIMES_WHITE_LONG",
+ "legend": "AT ALL TIMES",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "AT",
+    "ALL"
+   ],
+   "series": "E",
+   "height": 90,
+   "top": 77,
+   "gap": 60,
+   "expect": [
+    167,
+    258
+   ]
+  },
+  {
+   "type": "text",
+   "text": "TIMES",
+   "series": "E",
+   "height": 90,
+   "top": 233,
+   "expect": 384
+  }
+ ],
+ "notes": "R9-1-3B (600 x 400) illustrated. R25, 5 white edge, 15 border. Stack 77/90E/66/90E/77."
+}

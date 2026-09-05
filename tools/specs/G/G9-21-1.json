@@ -1,0 +1,98 @@
+{
+ "code": "G9-21-1",
+ "name": "ROAD_SUBJECT_TO_FLOODING_INDICATORS_WHITE_WIDE",
+ "legend": "ROAD SUBJECT TO FLOODING INDICATORS SHOW DEPTH",
+ "shape": "rect",
+ "size": [
+  2150,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 95,
+   "colour": "black",
+   "text": "ROAD",
+   "align": "left",
+   "x": 218,
+   "expect": 469
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 95,
+   "colour": "black",
+   "text": "SUBJECT",
+   "align": "left",
+   "x": 817,
+   "expect": 785
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 95,
+   "colour": "black",
+   "text": "TO",
+   "align": "left",
+   "x": 1728,
+   "expect": 204
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 320,
+   "colour": "black",
+   "text": "FLOODING",
+   "expect": 1300
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 585,
+   "colour": "black",
+   "text": "INDICATORS",
+   "align": "left",
+   "x": 87,
+   "expect": 895
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 585,
+   "colour": "black",
+   "text": "SHOW",
+   "align": "left",
+   "x": 1077,
+   "expect": 418
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 585,
+   "colour": "black",
+   "text": "DEPTH",
+   "align": "left",
+   "x": 1597,
+   "expect": 466
+  }
+ ],
+ "notes": "15 white edge + 30 black border (45). Stack 95|140D|85|180E|85|120D|95. Line 1: 218|469|130|785|126|204|218. FLOODING 425|1300|425. Line 3: 87|895|95|418|102|466|87."
+}

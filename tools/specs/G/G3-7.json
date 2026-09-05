@@ -1,0 +1,6 @@
+{"code":"G3-7","name":"C383_GREEN_ROUTE_PLATE","legend":"C383",
+ "shape":"rect","size":[412,150],"radius":40,"ground":"green",
+ "elements":[
+  {"type":"text","text":"C383","series":"D","height":100,"top":25,"colour":"yellow"}
+ ],
+ "notes":"Route-number plate: 150 high (25|100 D|25), R40, width 'Varies' = 40 + ink 332.3 + 40 = 412. Fluorescent yellow letters on green, no border."}

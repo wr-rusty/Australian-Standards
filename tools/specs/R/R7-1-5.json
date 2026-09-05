@@ -1,0 +1,47 @@
+{
+ "code": "R7-1-5",
+ "name": "TRAM_LANE_WHITE_TALL",
+ "legend": "LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-5_tram",
+   "x": 50,
+   "y": 111,
+   "w": 500,
+   "h": 269,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 160,
+   "top": 510,
+   "expect": 422
+  }
+ ],
+ "notes": "R7-1-5C illustrated. Tram 500 x 269 at (50,111); 130 gap; LANE 160 C top 510; 130 bottom.",
+ "symbols": {
+  "r7-1-5_tram": {
+   "source": "R7-1-5",
+   "desc": "tram, side view, pole to the right",
+   "grid_mm": 40
+  }
+ }
+}

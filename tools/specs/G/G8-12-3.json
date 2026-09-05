@@ -1,0 +1,45 @@
+{
+ "code": "G8-12-3",
+ "name": "START_OD1_BLUE",
+ "legend": "START OD1",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "START",
+   "series": "D",
+   "height": 160,
+   "top": 100,
+   "align": "left",
+   "x": 144,
+   "colour": "white",
+   "expect": 611
+  },
+  {
+   "type": "text",
+   "text": "OD1",
+   "series": "D",
+   "height": 160,
+   "top": 340,
+   "align": "left",
+   "x": 285,
+   "colour": "white",
+   "expect": 330
+  }
+ ],
+ "notes": "900x600 R100, 40/20 border. START 160 D 144|611|145, top 100; OD1 160 D 285|330|285, top 340 (100|160 D|80|160 D|100)."
+}

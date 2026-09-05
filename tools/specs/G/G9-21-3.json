@@ -1,0 +1,126 @@
+{
+ "code": "G9-21-3",
+ "name": "ROAD_SUBJECT_TO_FLOODING_DO_NOT_ENTER_WHITE_RED_LONG",
+ "legend": "ROAD SUBJECT TO FLOODING DO NOT ENTER WHEN FLOODED",
+ "shape": "rect",
+ "size": [
+  2150,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M15 525H2135V1000A85 85 0 0 1 2050 1085H100A85 85 0 0 1 15 1000Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 105,
+   "colour": "black",
+   "text": "ROAD",
+   "align": "left",
+   "x": 125,
+   "expect": 554
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 105,
+   "colour": "black",
+   "text": "SUBJECT",
+   "align": "left",
+   "x": 773,
+   "expect": 931
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 105,
+   "colour": "black",
+   "text": "TO",
+   "align": "left",
+   "x": 1785,
+   "expect": 243
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 335,
+   "colour": "black",
+   "text": "FLOODING",
+   "expect": 1015
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 575,
+   "colour": "white",
+   "text": "DO",
+   "align": "left",
+   "x": 200,
+   "expect": 310
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 575,
+   "colour": "white",
+   "text": "NOT",
+   "align": "left",
+   "x": 636,
+   "expect": 461
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 575,
+   "colour": "white",
+   "text": "ENTER",
+   "align": "left",
+   "x": 1209,
+   "expect": 754
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 835,
+   "colour": "white",
+   "text": "WHEN",
+   "align": "left",
+   "x": 264,
+   "expect": 569
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 835,
+   "colour": "white",
+   "text": "FLOODED",
+   "align": "left",
+   "x": 939,
+   "expect": 939
+  }
+ ],
+ "notes": "15 white edge + 30 black border (45). Upper panel white (black letters), lower panel red from y 525 (upper 525 / lower 575 brackets) out to the 15 white edge strip on both sides and the bottom (the black border stops at the split, as drawn), bottom corners R85 = R100 - 15 (path). Line 1: 125|554|94|931|81|243|122; FLOODING 567|1015|568; DO NOT ENTER 200|310|126|461|112|754|187; WHEN FLOODED 264|569|106|939|272. INCONSISTENT: lower stack 100|180D|80|140E|100 plus the 50 above the split sums to 1075 not 1100; DO NOT ENTER placed by the top-down chain (FLOODING baseline 475 + 100 = 575); pixel-measured position is about 585 with a bottom margin of about 114. DO NOT ENTER stated widths (310/461/754) are 8.5 percent wider than AS 1744 Series D at 180 (286/425/695) - consistent with about 195 high or wider spacing; D 180 kept as labelled. QA: pixel check of the drawing confirms DO NOT ENTER is drawn about 180 high but its stated widths 310/461/754 equal Series D at 195 (or D 180 spaced 8 percent wider); the drawing contradicts itself, so the letter size/spacing needs a human decision.",
+ "accepted_drawing_discrepancy": "red lower panel fixed to run out to the 15 edge strip with R85 corners as drawn; DO NOT ENTER stated widths 310/461/754 contradict the \"180 D\" label \u2014 they equal D at 195; drawn height measures 180; marked intervene"
+}

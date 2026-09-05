@@ -1,0 +1,46 @@
+{
+ "code": "W5-52",
+ "name": "CASSOWARIES_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-52_cassowary",
+   "x": 249.33,
+   "y": 300.33,
+   "w": 562.0,
+   "h": 562.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-52_cassowary": {
+   "source": "W5-52",
+   "desc": "cassowary, 562 x 562",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    530,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Cassowary 562 x 562 (inset); 281 left/right of centre, top 230 above / bottom 332 below centre."
+}

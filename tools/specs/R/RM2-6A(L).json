@@ -1,0 +1,38 @@
+{
+ "code": "RM2-6A(L)",
+ "name": "NO_LEFT_TURN_WHITE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "rm2-6a_no_left_turn",
+   "x": 30.5,
+   "y": 30.5,
+   "w": 539,
+   "h": 539,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "rm2-6a_no_left_turn": {
+   "source": "RM2-6A(L)",
+   "desc": "red annulus with red bar (top-left to bottom-right) over a black left-turn block arrow; 539 outer diameter; annulus/bar widths and arrow geometry only on the 50 grid; multi-colour - symbol carries its own fills",
+   "grid_mm": 50,
+   "colours": [
+    "red",
+    "black"
+   ]
+  }
+ },
+ "notes": "RM2-6A(L) 600 x 600, 25 black border, square corners. Symbol 539 dia centred ('=' margins, 30.5 from the edge). Annulus thickness, bar width and arrow dims are not stated (grid only) so the whole device is one symbol."
+}

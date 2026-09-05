@@ -1,0 +1,103 @@
+{
+ "code": "G9-63",
+ "name": "BICYCLES_CROSS_HERE_WITH_CARE_WHITE_SQUARE",
+ "legend": "CROSS HERE WITH CARE",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "bicycle",
+   "x": 250,
+   "y": 95,
+   "w": 400,
+   "h": 265,
+   "colour": "black",
+   "mirror": false
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 410,
+   "colour": "black",
+   "text": "CROSS",
+   "align": "left",
+   "x": 130,
+   "expect": 325
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 410,
+   "colour": "black",
+   "text": "HERE",
+   "align": "left",
+   "x": 515,
+   "expect": 255
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 540,
+   "colour": "black",
+   "text": "WITH",
+   "align": "left",
+   "x": 176,
+   "expect": 224
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 540,
+   "colour": "black",
+   "text": "CARE",
+   "align": "left",
+   "x": 460,
+   "expect": 263
+  },
+  {
+   "type": "symbol",
+   "id": "g9-63_arrow_right",
+   "x": 200,
+   "y": 670,
+   "w": 500,
+   "h": 135,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing G9-63(L), G9-63(R) illustrated with the right arrow; \"Arrow may be left or right\" - hands L/R, drawn R (arrow mirrors, text centred). 15 white edge + 30 black border. Bicycle 250|400|250 at 95 (265 tall); CROSS HERE 130|325|60|255|130 top 410; WITH CARE 176|224|60|263|177 top 540; arrow 200|500|200 at 670, 135 tall (95|265|50|80D|50|80D|50|135|95). QA: only the arrow mirrors for the (L) hand; the bicycle keeps its drawn orientation (mirror false).",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "R",
+ "symbols": {
+  "bicycle": {
+   "source": "G9-57",
+   "desc": "bicycle pictogram (side view, facing left), 681 x 450 on G9-57 (grid 45); same outline scaled on G9-58 (317x210, grid 22.5), G9-60/64 (278x184, grid 30/37.5), G9-62/65 (454x300, grid 60), G9-63 (400x265, grid 45)",
+   "grid_mm": 45
+  },
+  "g9-63_arrow_right": {
+   "source": "G9-63",
+   "desc": "thin block arrow pointing right 500 x 135: shaft 413 long x 31 wide, head 87 long x 135 across, barb return 10, R6 tip and barbs; grid 45",
+   "grid_mm": 45
+  }
+ }
+}

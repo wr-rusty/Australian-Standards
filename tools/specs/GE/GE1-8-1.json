@@ -1,0 +1,48 @@
+{
+ "code": "GE1-8-1",
+ "name": "BENDIGO_THIS_EXIT_GREEN_LONG",
+ "legend": "Bendigo THIS EXIT",
+ "shape": "rect",
+ "size": [
+  2650,
+  1550
+ ],
+ "radius": 240,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 50
+ },
+ "border": {
+  "colour": "white",
+  "width": 50
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "Bendigo",
+   "series": "Emod",
+   "height": 320,
+   "top": 340,
+   "colour": "white",
+   "expect": 1965
+  },
+  {
+   "type": "text",
+   "words": [
+    "THIS",
+    "EXIT"
+   ],
+   "series": "E",
+   "height": 280,
+   "top": 940,
+   "gap": 210,
+   "expect": [
+    887,
+    854
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "2650x1550 R240; green 50 outside a 50 white border (100/50). Baselines 660 (Bendigo 320 Emod) | 560 (THIS EXIT 280 E, baseline 1220) | 330. Bendigo 342 | 1965 | 343; THIS EXIT 349 | 887 | 210 | 854 | 350."
+}

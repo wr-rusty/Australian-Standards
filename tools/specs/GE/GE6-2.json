@@ -1,0 +1,100 @@
+{
+ "code": "GE6-2",
+ "name": "PROHIBITED_ON_FREEWAY_LIST_WHITE_TALL",
+ "legend": "PROHIBITED ON FREEWAY PEDESTRIANS BICYCLES ANIMALS AGRICULTURAL MACHINERY",
+ "shape": "rect",
+ "size": [
+  1200,
+  1300
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PROHIBITED",
+   "series": "E",
+   "height": 100,
+   "top": 140,
+   "colour": "black",
+   "expect": 856
+  },
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "E",
+   "height": 100,
+   "top": 300,
+   "colour": "black",
+   "expect": 188
+  },
+  {
+   "type": "text",
+   "text": "FREEWAY",
+   "series": "E",
+   "height": 100,
+   "top": 460,
+   "colour": "black",
+   "expect": 700
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "E",
+   "height": 60,
+   "top": 680,
+   "colour": "black",
+   "align": "left",
+   "x": 240
+  },
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "E",
+   "height": 60,
+   "top": 800,
+   "colour": "black",
+   "align": "left",
+   "x": 240
+  },
+  {
+   "type": "text",
+   "text": "ANIMALS",
+   "series": "E",
+   "height": 60,
+   "top": 920,
+   "colour": "black",
+   "align": "left",
+   "x": 240
+  },
+  {
+   "type": "text",
+   "text": "AGRICULTURAL",
+   "series": "E",
+   "height": 60,
+   "top": 1040,
+   "colour": "black",
+   "align": "left",
+   "x": 240
+  },
+  {
+   "type": "text",
+   "text": "MACHINERY",
+   "series": "E",
+   "height": 60,
+   "top": 1130,
+   "colour": "black",
+   "align": "left",
+   "x": 240
+  }
+ ],
+ "notes": "1200 x 1300 (height varies with the legend) R100; white 15 edge outside a 30 black border. Right chain 140 | 100 E | 60 | 100 E | 60 | 100 E | 120 | 60 E | 60 | 60 E | 60 | 60 E | 60 | 60 E | 30 | 60 E | 110 = 1300. PROHIBITED 172 | 856 | 172; ON 506 | 188 | 506; FREEWAY 250 | 700 | 250 (the chains are stacked out of line order); list lines 60 E left-aligned at 240."
+}

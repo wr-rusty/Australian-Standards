@@ -1,0 +1,4 @@
+{"code":"T3-13","name":"GRAVEL_ROAD_YELLOW_LONG","legend":"GRAVEL ROAD","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"GRAVEL","series":"D","height":140,"top":115,"expect":684},
+             {"type":"text","text":"ROAD","series":"D","height":140,"top":345,"expect":469}]}

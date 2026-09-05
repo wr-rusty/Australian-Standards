@@ -1,0 +1,32 @@
+{
+ "code": "W5-7-1",
+ "name": "FLOODWAY_YELLOW_DIAMOND",
+ "legend": "FLOODWAY",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "FLOODWAY",
+   "series": "C",
+   "height": 125,
+   "top": 467.83,
+   "expect": 708,
+   "cx": 534.73
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. FLOODWAY 125 C centred vertically (63 = half height). Bottom dims 160 | 708 | 150 -> cx 534.73 (4 mm right of centre, as drawn)."
+}

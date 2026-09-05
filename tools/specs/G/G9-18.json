@@ -1,0 +1,50 @@
+{
+ "code": "G9-18",
+ "name": "NO_THROUGH_ROAD_WHITE_LONG",
+ "legend": "NO THROUGH ROAD",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 60,
+   "colour": "black",
+   "text": "NO",
+   "expect": 225
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 240,
+   "colour": "black",
+   "text": "THROUGH",
+   "expect": 712
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 420,
+   "colour": "black",
+   "text": "ROAD",
+   "expect": 474
+  }
+ ],
+ "notes": "G9-18B illustrated 900 x 600 (G9-18A 600x400 ignored). 10 white edge + 20 black border (30). Stack 60|120E|60|120D|60|120E|60; all centred."
+}

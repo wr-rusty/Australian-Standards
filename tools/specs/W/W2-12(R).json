@@ -1,0 +1,46 @@
+{
+ "code": "W2-12(R)",
+ "name": "STAGGERED_SIDE_ROADS_RIGHT_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-12_r",
+   "x": 211.43,
+   "y": 285.03,
+   "w": 626.5,
+   "h": 515.3,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-12_r": {
+   "source": "W2-12(R)",
+   "desc": "right curve: stem 110, straight 90, arc inner R233, sweep 20 + 20 + 37 = 77 deg as labelled; outer side arm (80 x 150) radial at 20 deg from arc start, inner side arm (80 x 150) at 40 deg; arrowhead 220 x 296 (R20), notch 20. Mirror of W2-11(L). Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    108,
+    115,
+    556,
+    563
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right-hand drawing: stem near (right) edge 75 left of centreline, bottom 270 below (stated). FLAG: 37+20+20 = 77 deg (drawn symbol matches: tip 315 from centreline measured vs 307.6 computed, arm end 308 vs 318.9). Box from inset geometry: tip 382.6 right of stem near edge, arm end 243.9 left -> width 626.5, height 515.3."
+}

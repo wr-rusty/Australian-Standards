@@ -1,0 +1,81 @@
+{
+ "code": "R7-11-1",
+ "name": "TWO_WAY_ARROW_WHITE_WIDE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     72,
+     100
+    ],
+    [
+     139,
+     47
+    ],
+    [
+     130,
+     87.5
+    ],
+    [
+     470,
+     87.5
+    ],
+    [
+     461,
+     47
+    ],
+    [
+     528,
+     100
+    ],
+    [
+     461,
+     153
+    ],
+    [
+     470,
+     112.5
+    ],
+    [
+     130,
+     112.5
+    ],
+    [
+     139,
+     153
+    ]
+   ],
+   "radius": [
+    0,
+    5,
+    0,
+    0,
+    5,
+    0,
+    5,
+    0,
+    0,
+    5
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "R7-11-1C (600 x 200) illustrated. 8 white edge, 16 border. Double-headed arrow 456 x 106 centred (72 margins, 47 top): shaft 25 thick, heads 67 long to the barb tips, shaft meets the head 9 forward of the barb tips (58 from the tip; shaft 340 long), R5 at the four barb tips (per-vertex radius). Grid 25."
+}

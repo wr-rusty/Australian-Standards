@@ -1,0 +1,42 @@
+{
+ "code": "TM9-3A",
+ "name": "EVENT_IN_PROGRESS_YELLOWGREEN_SQUARE",
+ "legend": "EVENT IN PROGRESS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "EVENT",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 325
+  },
+  {
+   "type": "text",
+   "text": "IN",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 92
+  },
+  {
+   "type": "text",
+   "text": "PROGRESS",
+   "series": "B",
+   "height": 100,
+   "top": 420,
+   "expect": 440
+  }
+ ],
+ "notes": "DRAWING INCONSISTENCY: EVENT is labelled 100 B but its width 325 (137 | 325 | 138) is 100 C, and PROGRESS is labelled 100 C but its width 440 (80 | 440 | 80) is 100 B (C = 560 would not fit); the series letters appear swapped, C / C / B used. DRAWING INCONSISTENCY: the width of IN is labelled 408 (254 | 408 | 254 = 916, not 600); 408 is the CLOSED width copied from TM8-9A/11A. Expect uses 600-254-254 = 92 from the drawing's side margins."
+}

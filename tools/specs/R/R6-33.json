@@ -1,0 +1,68 @@
+{
+ "code": "R6-33",
+ "name": "OVERALL_LENGTH_LIMIT_26_m_WHITE_TALL",
+ "legend": "OVERALL LENGTH LIMIT 26 m",
+ "shape": "rect",
+ "size": [
+  1200,
+  1350
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "OVERALL",
+   "series": "D",
+   "height": 180,
+   "top": 135,
+   "expect": 1024
+  },
+  {
+   "type": "text",
+   "text": "LENGTH",
+   "series": "D",
+   "height": 180,
+   "top": 435,
+   "expect": 852
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 180,
+   "top": 735,
+   "expect": 562
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "26",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 155
+    }
+   ],
+   "top": 1035,
+   "gap": 70,
+   "expect": [
+    null,
+    169
+   ]
+  }
+ ],
+ "notes": "R6-33B (1200 x 1350) illustrated. R100, 15 white edge, 45 border. Stack 135/180D/120/180D/120/180D/120/180E/135. Top dimension lines nearest-first: 88|1024|88 = OVERALL, 174|852|174 = LENGTH. Numerals 180 E 'Varies' (26 shown; varies), 70 gap, m 155 Emod width 169, group centred (runs, shared baseline)."
+}

@@ -1,0 +1,61 @@
+{
+ "code": "GE6-8",
+ "name": "NEXT_SERVICE_25_KM_BLUE_WIDE",
+ "legend": "NEXT SERVICE 25 km",
+ "shape": "rect",
+ "size": [
+  3300,
+  1150
+ ],
+ "radius": 180,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NEXT",
+    "SERVICE"
+   ],
+   "series": "E",
+   "height": 240,
+   "top": 260,
+   "gap": 200,
+   "expect": [
+    883,
+    1480
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "25",
+     "series": "E",
+     "height": 240
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 205
+    }
+   ],
+   "gap": 120,
+   "top": 650,
+   "colour": "white",
+   "expect": [
+    421,
+    422
+   ]
+  }
+ ],
+ "notes": "3300x1150 R180; blue 40 / white 40 (80/40). Right chain 260 | 240 E | 150 | 240 | 260 = 1150. NEXT SERVICE 368 | 883 | 200 | 1480 | 369; '25 km' = | 421 | 120 | 422 | = (one centred runs line), km 205 Emod on the 890 baseline."
+}

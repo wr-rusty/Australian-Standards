@@ -1,0 +1,7 @@
+{"code":"G3-4","name":"POLICE_ROAD_WHITE","legend":"POLICE ROAD",
+ "shape":"rect","size":[710,380],"radius":40,"ground":"white","keyline":true,
+ "elements":[
+  {"type":"text","text":"POLICE","series":"D","height":120,"top":40,"colour":"black"},
+  {"type":"text","text":"ROAD","series":"D","height":120,"top":220,"colour":"black"}
+ ],
+ "notes":"Second variant on drawing G3-4: two-line road-name sign 380 high (40|120 D|60|120 D|40), R40, width 'Varies' = 90 + longest line + 90 = 710 (POLICE 529.5). Lines centred."}

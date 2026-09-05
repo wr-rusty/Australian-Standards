@@ -1,0 +1,59 @@
+{
+ "code": "W1-1",
+ "name": "{dir}_TURN_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-1_turn_arrow_l",
+   "x": 200.33,
+   "y": 305.33,
+   "w": 500,
+   "h": 485,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-1_turn_arrow_l": {
+   "source": "W1-1",
+   "desc": "sharp-turn arrow, left hand: vertical stem 110 wide x 395 tall (bottom to top of arm), outer corner R60, inner corner R15; arm runs from stem to arrowhead; arrowhead 220 long (barb line to tip) x 290 wide (20+125+125+20, barb ends R20), V-notch 15 behind barb line; tip 390 from stem's far edge, tip level 340 above stem bottom. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    54,
+    86,
+    502,
+    534
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 60 from vertical centreline, stem bottom 260 below horizontal centreline (both stated on drawing). Width 500 = 110 stem + 390 to tip; height 485 = 340 (bottom to tip level) + 125 + 20 (upper barb). Symbol id is the left-hand artwork; R mirrored by generator.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

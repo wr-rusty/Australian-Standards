@@ -1,0 +1,6 @@
+{"code":"T1-19","name":"STOCK_AHEAD_YELLOW_LONG","legend":"AHEAD","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t1-19_cattle_sheep","x":145,"y":60,"w":625,"h":330,"colour":"black"},
+             {"type":"text","text":"AHEAD","series":"E","height":100,"top":440,"expect":512}],
+ "symbols":{"t1-19_cattle_sheep":{"source":"T1-19","desc":"cow and sheep side by side","grid_mm":45}},
+ "notes":"T1-19A 900x600 illustrated. Symbol box 145 from left, 60 from top, 625 x 330 (130 right). AHEAD top = 60+330+50 = 440."}

@@ -1,0 +1,55 @@
+{
+ "code": "GE11-1",
+ "name": "LIZARD_FARM_THIS_EXIT_BROWN_WIDE",
+ "legend": "LIZARD FARM THIS EXIT",
+ "shape": "rect",
+ "size": [
+  2800,
+  980
+ ],
+ "radius": 180,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LIZARD",
+    "FARM"
+   ],
+   "series": "D",
+   "height": 240,
+   "top": 180,
+   "gap": 225,
+   "expect": [
+    1053,
+    793
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "THIS",
+    "EXIT"
+   ],
+   "series": "E",
+   "height": 200,
+   "top": 600,
+   "gap": 185,
+   "expect": [
+    635,
+    612
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "2800x980 R180; brown 40 outside a 40 white border (80/40). 180 | 240 D | 180 | 200 E | 180. LIZARD FARM 365 | 1053 | 225 | 793 | 364; THIS EXIT 684 | 635 | 185 | 612 | 684."
+}

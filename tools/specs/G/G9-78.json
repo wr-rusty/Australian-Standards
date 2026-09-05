@@ -1,0 +1,45 @@
+{
+ "code": "G9-78",
+ "name": "300_m_WHITE_WIDE_SKINNY",
+ "legend": "300 m",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "gap": 60.0,
+   "top": 50,
+   "colour": "black",
+   "expect": [
+    null,
+    93
+   ]
+  }
+ ],
+ "notes": "G9-78A illustrated 600 x 200 (B 900x300, C 1200x400 ignored); supplementary plate under G9-15/G9-16. 5 white edge + 10 black border (15). Stack 50|100E|50. Centred group (=|Varies|60|93|=): numerals 300 (100 E, vary), m 85 Emod baseline-aligned (top 65); x from the font width of 300 (286) - not stated. QA: the 300 m line is built as one runs group (gap [60.0]) so the generator centres it as the drawing's = margins require."
+}

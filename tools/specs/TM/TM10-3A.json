@@ -1,0 +1,47 @@
+{
+ "code": "TM10-3A",
+ "name": "LEFT_LANE_CLOSED_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 75,
+   "y": 165,
+   "w": 240,
+   "h": 80
+  },
+  {
+   "type": "rect",
+   "x": 166,
+   "y": 295,
+   "w": 58,
+   "h": 200
+  },
+  {
+   "type": "symbol",
+   "id": "tm10-1a_up_arrow",
+   "x": 375,
+   "y": 100,
+   "w": 150,
+   "h": 400
+  }
+ ],
+ "symbols": {
+  "tm10-1a_up_arrow": {
+   "source": "TM10-1A",
+   "desc": "upward block arrow (400 high; head width 3 grid squares = 150, shaft 1 square = 50)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Bar 75 from left, 240 wide, 165 from top, 80 high. Stem 58 wide, 295 from top, 200 high; its horizontal position is only given as the 58 width, so it is centred under the bar (x 166) as on TM10-2A. Arrow centreline 150 from right edge (75 | 240 | 135 | 150), 100 from top and bottom; head width 3 grid squares = 150 from the inset."
+}

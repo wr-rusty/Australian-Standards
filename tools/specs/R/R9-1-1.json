@@ -1,0 +1,100 @@
+{
+ "code": "R9-1-1",
+ "name": "7-9_30_AM_MON-FRI_WHITE_LONG",
+ "legend": "7 - 9.30 AM MON-FRI",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "7",
+   "series": "C",
+   "height": 120,
+   "top": 45,
+   "expect": 67,
+   "align": "left",
+   "x": 48
+  },
+  {
+   "type": "rect",
+   "x": 160,
+   "y": 99,
+   "w": 30,
+   "h": 12,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "C",
+   "height": 120,
+   "top": 45,
+   "expect": 67,
+   "align": "left",
+   "x": 230
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 60,
+   "top": 45,
+   "expect": 80,
+   "align": "right",
+   "x": 400
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "D",
+   "height": 45,
+   "top": 120,
+   "expect": 75,
+   "align": "right",
+   "x": 400
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 45,
+   "top": 210,
+   "expect": 137,
+   "align": "left",
+   "x": 79
+  },
+  {
+   "type": "rect",
+   "x": 231,
+   "y": 229,
+   "w": 30,
+   "h": 8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 45,
+   "top": 210,
+   "expect": 95,
+   "align": "left",
+   "x": 276
+  }
+ ],
+ "notes": "R9-1-1A (450 x 300) illustrated. R25, 5 white edge, 15 border. Times vary (7 - 9.30 AM shown). 7 and 9 120 C top 45 (48|67|45|30|40|67|23|80|50); dash 30 x 12 at y 99; 30 60 C and AM 45 D right-aligned at 400 (top 45 and 120; 45|60|15|45|135); MON-FRI 45 E top 210 (79|137|15|30|15|95|79), dash 30 x 8 at y 229 (99+12+118). Drawing's AM width 75 vs AS 1744 80 (R9-1-2 gives 80 for the same AM).",
+ "accepted_drawing_discrepancy": "drawing gives AM = 75 at 45 D; font/AS 1744 gives 80, as R9-1-2 dimensions it; drawn as labelled \u2014 width check fails, routed to intervene"
+}

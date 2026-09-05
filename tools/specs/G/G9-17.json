@@ -1,0 +1,76 @@
+{
+ "code": "G9-17",
+ "name": "WINDING_ROAD_ENDS_3_km_WHITE_WIDE",
+ "legend": "WINDING ROAD ENDS 3 km",
+ "shape": "rect",
+ "size": [
+  1100,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 68,
+   "colour": "black",
+   "text": "WINDING",
+   "align": "left",
+   "x": 77,
+   "expect": 525
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 68,
+   "colour": "black",
+   "text": "ROAD",
+   "align": "left",
+   "x": 687,
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "ENDS",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "3",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "gap": [
+    100.0,
+    50.0
+   ],
+   "top": 232,
+   "colour": "black",
+   "expect": [
+    380,
+    null,
+    176
+   ]
+  }
+ ],
+ "notes": "5 white edge + 10 black border (15). Stack 68|100D|64|100|68. Second line centred as a group (=|380|100|Varies|50|176|=): ENDS 100 E, numeral (varies, drawn 3, taken as 100 E - the drawing gives only the height 100), km 85 Emod baseline-aligned (top 247); group x from font ink widths (ENDS 381, 3 = 81) - not stated dimensions. QA: the ENDS 3 km line is built as one runs group (gap [100.0, 50.0]) so the generator centres it as the drawing's = margins require."
+}

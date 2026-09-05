@@ -1,0 +1,94 @@
+{
+ "code": "W7-14-4",
+ "name": "LOOK_FOR_TRAINS_{tracks}_TRACKS_WHITE_TALL",
+ "legend": "LOOK FOR TRAINS {tracks} TRACKS",
+ "shape": "rect",
+ "size": [
+  300,
+  450
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-14_train",
+   "x": 50.0,
+   "y": 40.0,
+   "w": 200.0,
+   "h": 200.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LOOK",
+   "series": "D",
+   "height": 30,
+   "top": 270.0,
+   "expect": 99,
+   "cx": 150.5
+  },
+  {
+   "type": "text",
+   "words": [
+    "FOR",
+    "TRAINS"
+   ],
+   "series": "D",
+   "height": 30,
+   "top": 325.0,
+   "gap": 27.3,
+   "expect": [
+    null,
+    null
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{tracks}",
+     "series": "E",
+     "height": 30
+    },
+    {
+     "text": "TRACKS",
+     "series": "D",
+     "height": 30
+    }
+   ],
+   "gap": 25,
+   "top": 380.0,
+   "expect": [
+    null,
+    149
+   ]
+  }
+ ],
+ "vary": {
+  "key": "tracks",
+  "values": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "notes": "300 x 450 white plate, R25, 5 white edge, 10 black border (15 total). Train symbol in the 200 x 200 zone (50 | 200 | 50 across, 40 | 200 down; the illustrated train fills it). Text: LOOK 30 D baseline 300 from the top (top 270), 55 line pitch -> FOR TRAINS top 325, numeral/TRACKS top 380, 40 below the last baseline. LOOK 101 | 99 | 100 -> cx 150.5; FOR TRAINS 34 | 232 | 34 -> word gap derived from the 232 total. Numeral line as runs: numeral 30 E | 25 | TRACKS 30 D (149), centred as a group (= | Varies | 25 | 149 | =), so every vary value stays centred. Numeral values 2-6 chosen as plausible track counts.",
+ "symbols": {
+  "w7-14_train": {
+   "source": "W7-14-4",
+   "desc": "small steam locomotive, ~200 x 195 (inset 99/164/89 dims, wheels R21/R15)",
+   "grid_mm": 22.5
+  }
+ }
+}

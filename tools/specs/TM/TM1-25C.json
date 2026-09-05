@@ -1,0 +1,46 @@
+{
+ "code": "TM1-25C",
+ "name": "ROADWORK_ON_SIDE_ROAD_YELLOW_LONG",
+ "legend": "ROADWORK ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "C",
+   "height": 160,
+   "top": 115,
+   "expect": 933
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 120,
+   "top": 365,
+   "words": [
+    "ON",
+    "SIDE",
+    "ROAD"
+   ],
+   "gap": [
+    90,
+    93
+   ],
+   "expect": [
+    162,
+    282,
+    331
+   ]
+  }
+ ],
+ "notes": "Second line 121 | 162 | 90 | 282 | 93 | 331 | 121: centred group with per-pair gaps 90 / 93."
+}

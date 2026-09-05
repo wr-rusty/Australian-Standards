@@ -1,0 +1,177 @@
+{
+ "code": "G11-4(L)",
+ "name": "SILVERBAND_FALLS_2_CHEVRON_BROWN_POINTED",
+ "legend": "2 SILVERBAND FALLS",
+ "shape": "rect",
+ "size": [
+  1840,
+  550
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0.0,
+     275.0
+    ],
+    [
+     142.0,
+     0
+    ],
+    [
+     1840,
+     0
+    ],
+    [
+     1840,
+     550
+    ],
+    [
+     142.0,
+     550
+    ]
+   ],
+   "radius": [
+    75,
+    70,
+    70,
+    70,
+    70
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     11.25,
+     275.0
+    ],
+    [
+     148.09,
+     10
+    ],
+    [
+     1830,
+     10
+    ],
+    [
+     1830,
+     540
+    ],
+    [
+     148.09,
+     540
+    ]
+   ],
+   "radius": [
+    65,
+    60,
+    60,
+    60,
+    60
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     22.51,
+     275.0
+    ],
+    [
+     154.18,
+     20
+    ],
+    [
+     1820,
+     20
+    ],
+    [
+     1820,
+     530
+    ],
+    [
+     154.18,
+     530
+    ]
+   ],
+   "radius": [
+    55,
+    50,
+    50,
+    50,
+    50
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     213,
+     275
+    ],
+    [
+     315,
+     75
+    ],
+    [
+     484,
+     75
+    ],
+    [
+     382,
+     275
+    ],
+    [
+     484,
+     475
+    ],
+    [
+     315,
+     475
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 215,
+   "colour": "white",
+   "text": "2",
+   "align": "left",
+   "x": 503,
+   "expect": 82
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 117,
+   "colour": "white",
+   "text": "SILVERBAND",
+   "align": "left",
+   "x": 719,
+   "expect": 942
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 312,
+   "colour": "white",
+   "text": "FALLS",
+   "align": "left",
+   "x": 985,
+   "expect": 460
+  }
+ ],
+ "notes": "Pointed sign drawn as polygons on a white panel: R75 tip, R70 corners, 10 brown edge + 10 white border (20 | 10), tip inset 142, point at mid-height (75|200|200|75). Chevron 400 tall (200|200) centred vertically (y 75); its point at 213 from the tip and its right edge at 142+342 = 484 (width 271); arm perpendicular thickness 151 from the detail; the horizontal arm extent (about 102) is derived from 271 and 151 (h + 151*sqrt(h^2+200^2)/200 = 271) - not a stated dimension. Chain 213|290|82|134|942|179: numeral 2 (120 D, 82) at 503, 215|120D|215; SILVERBAND 117|120D|75|120D|118 at 719; FALLS 460 at 985 (460|395 from the right)."
+}

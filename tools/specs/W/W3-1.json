@@ -1,0 +1,124 @@
+{
+ "code": "W3-1",
+ "name": "STOP_SIGN_AHEAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w3-1_up_arrow",
+   "x": 405.33,
+   "y": 160.33,
+   "w": 250,
+   "h": 219,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     452.66,
+     467.33
+    ],
+    [
+     608.0,
+     467.33
+    ],
+    [
+     717.83,
+     577.16
+    ],
+    [
+     717.83,
+     732.5
+    ],
+    [
+     608.0,
+     842.33
+    ],
+    [
+     452.66,
+     842.33
+    ],
+    [
+     342.83,
+     732.5
+    ],
+    [
+     342.83,
+     577.16
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     457.64,
+     479.33
+    ],
+    [
+     603.02,
+     479.33
+    ],
+    [
+     705.83,
+     582.14
+    ],
+    [
+     705.83,
+     727.52
+    ],
+    [
+     603.02,
+     830.33
+    ],
+    [
+     457.64,
+     830.33
+    ],
+    [
+     354.83,
+     727.52
+    ],
+    [
+     354.83,
+     582.14
+    ]
+   ],
+   "radius": 0,
+   "colour": "red"
+  }
+ ],
+ "symbols": {
+  "w3-1_up_arrow": {
+   "source": "W3-1",
+   "desc": "upward arrow: 250 wide x 219 tall, head 125 tall, stem 81 wide, barb 16 thick at the ends, R8 corners. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    96,
+    101,
+    544,
+    549
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Left chain 219 arrow | 88 | 63 | 375 octagon: octagon top 63 above centreline, arrow bottom 151 above, arrow top 370 above; all centred (12 | 351 | 12). Octagon (flat top) 375 across flats, white edge strip 12 -> red octagon 351 across flats; drawn as polygons with square corners (no corner radius stated for the octagon). Red octagon with white edge strip per drawing note."
+}

@@ -1,0 +1,46 @@
+{
+ "code": "W4-4",
+ "name": "DIVIDED_ROAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w4-4_divided_road",
+   "x": 377.33,
+   "y": 249.33,
+   "w": 306,
+   "h": 562,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w4-4_divided_road": {
+   "source": "W4-4",
+   "desc": "Y (divided road) symbol: two arms 103 wide with a 100 gap (306 overall), merging with R75 (inner) / R178 / R119 into a stem 127 wide; 562 tall, 323 from arm bottoms, stem 169 straight. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    52,
+    74,
+    500,
+    522
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). No position dimensions on the sign: centred on both centrelines as drawn (measured y -281..284, x -152..154)."
+}

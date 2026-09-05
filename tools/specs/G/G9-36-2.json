@@ -1,0 +1,57 @@
+{
+ "code": "G9-36-2",
+ "name": "SAFETY_RAMP_ARROW_WHITE_SQUARE",
+ "legend": "SAFETY RAMP",
+ "shape": "rect",
+ "size": [
+  2200,
+  2000
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 320,
+   "top": 260,
+   "colour": "black",
+   "text": "SAFETY",
+   "expect": 1524
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 320,
+   "top": 780,
+   "colour": "black",
+   "text": "RAMP",
+   "expect": 1106
+  },
+  {
+   "type": "symbol",
+   "id": "g9-36_arrow_diag_up_left",
+   "x": 897,
+   "y": 1310,
+   "w": 406,
+   "h": 406,
+   "colour": "black"
+  }
+ ],
+ "notes": "20 white edge + 40 black border (60). Baselines 580 (SAFETY), +520 (RAMP 1100), +210 arrow top 1310, arrow 406, 284 bottom. The drawing labels the width rows 547|1106|547 and 338|1524|338; 1524 belongs to SAFETY and 1106 to RAMP (both centred, so positions unaffected). Arrow 897|406|897, same arrow as G9-36-1 (grid 110).",
+ "symbols": {
+  "g9-36_arrow_diag_up_left": {
+   "source": "G9-36-1(L)",
+   "desc": "diagonal block arrow pointing up-left at 45 deg, bounding square 406 x 406: overall length along the axis 438, head width 281 across, head length 217, shaft width 100, shaft end 136 wide (square-cut, perpendicular), barb step 34, R20 at the tip and at the shaft-end corners; grid 225 (G9-36-1) / 110 (G9-36-2)",
+   "grid_mm": 225
+  }
+ }
+}

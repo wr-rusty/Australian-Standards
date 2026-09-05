@@ -1,0 +1,41 @@
+{
+ "code": "R4-3",
+ "name": "ROADWORK_WHITE",
+ "legend": "ROAD WORK",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "colour": "black",
+   "expect": 394
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "E",
+   "height": 100,
+   "top": 225,
+   "colour": "black",
+   "expect": 410
+  }
+ ],
+ "notes": "R50, 10 white edge, 30 black border. ROAD top 75, WORK top 225."
+}

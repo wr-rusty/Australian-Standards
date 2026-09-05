@@ -1,0 +1,47 @@
+{
+ "code": "D4-5-1",
+ "name": "STRIPES_BLACK_ON_WHITE_WIDE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1800,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "rect",
+   "x": 200,
+   "y": 0,
+   "w": 200,
+   "h": 400,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 600,
+   "y": 0,
+   "w": 200,
+   "h": 400,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1000,
+   "y": 0,
+   "w": 200,
+   "h": 400,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1400,
+   "y": 0,
+   "w": 200,
+   "h": 400,
+   "colour": "black"
+  }
+ ],
+ "notes": "1800x400 R25 (no size table). Vertical stripes 200 wide at 200 pitch starting 200 from the left edge: stripes at x=200,600,1000,1400; white 200 at both ends. 1800:400 = 4.5:1."
+}

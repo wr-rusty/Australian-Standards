@@ -1,0 +1,34 @@
+{
+ "code": "TM8-13A",
+ "name": "PEDESTRIAN_HAZARD_YELLOW_SQUARE",
+ "legend": "PEDESTRIAN HAZARD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PEDESTRIAN",
+   "series": "B",
+   "height": 95,
+   "top": 160,
+   "expect": 496
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "C",
+   "height": 100,
+   "top": 340,
+   "expect": 414
+  }
+ ],
+ "notes": "DRAWING INCONSISTENCY: HAZARD is labelled 100 B but its stated width 414 (93 | 414 | 93) is the 100 C width (B = 340, as on TM8-13B); C used. Stack 160 | 95 B | 85 | 100 C | 160 (PEDESTRIAN is 95 high, HAZARD 100, as drawn)."
+}

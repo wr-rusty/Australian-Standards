@@ -1,0 +1,18 @@
+{
+ "code": "G3-8-4",
+ "name": "VICTORIA_ST_DOUBLE_ARROW_WHITE",
+ "legend": "VICTORIA ST",
+ "shape": "rect",
+ "size": [1151, 450],
+ "radius": 40,
+ "ground": "white",
+ "keyline": true,
+ "symbols": {
+   "g3-8-4_arrow_double": {"source": "G3-8-4", "desc": "double-headed thin arrow on 50 grid: 640 long overall, heads 150 high; shaft width and head length not dimensioned", "grid_mm": 50, "panel_px": [163, 140, 671, 340]}
+ },
+ "elements": [
+  {"type": "text", "text": "VICTORIA ST", "series": "D", "height": 120, "top": 50, "colour": "black"},
+  {"type": "symbol", "id": "g3-8-4_arrow_double", "x": 255.5, "y": 250, "w": 640, "h": 150, "colour": "black"}
+ ],
+ "notes": "As G3-8-3 with a double-headed 640x150 arrow centred at y 250-400. Width = 80 + 990.5 + 80 = 1151."
+}

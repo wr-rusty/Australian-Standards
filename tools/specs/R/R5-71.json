@@ -1,0 +1,108 @@
+{
+ "code": "R5-71",
+ "name": "NO_STANDING_AREA_9AM_630PM_WHITE_TALL",
+ "legend": "(no standing) AREA 9AM - 6.30PM",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-71_no_standing_360",
+   "x": 120,
+   "y": 70,
+   "w": 360,
+   "h": 360,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 100,
+   "top": 465,
+   "expect": 410
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 80,
+   "top": 630,
+   "expect": 65,
+   "align": "left",
+   "x": 119
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 25,
+   "top": 685,
+   "expect": 54,
+   "align": "left",
+   "x": 200
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 666,
+   "w": 32,
+   "h": 8
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 80,
+   "top": 630,
+   "expect": 65,
+   "align": "left",
+   "x": 350
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 45,
+   "top": 630,
+   "expect": 57,
+   "align": "left",
+   "x": 431
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 25,
+   "top": 685,
+   "expect": 49,
+   "align": "left",
+   "x": 431
+  }
+ ],
+ "notes": "R5-71 illustrated 600 x 800. Roundel 360 at 120, 70; AREA 100 E top 465 (95|410|95); 9AM - 6.30PM 80 E top 630: 119|65|16|54|32|32|32|65|16|49|120 = 600 (dash 32 long, 8 thick at 36|8|36); 30 in 45 C top-aligned, PM 25 E bottom-aligned (10 between); AM height not labelled - taken as 25 E like PM. The '57' above the 49 is read as the width of the 30 (PM 49). 90 bottom.",
+ "symbols": {
+  "r5-71_no_standing_360": {
+   "source": "R5-71",
+   "desc": "no-standing roundel 360 dia: red annulus R180/R150, black S 220 E centred (86+86), red slash 30 wide at 25 deg from vertical, white halo across the S",
+   "grid_mm": 40,
+   "colours": [
+    "red",
+    "black"
+   ]
+  }
+ }
+}

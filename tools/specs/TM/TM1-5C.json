@@ -1,0 +1,34 @@
+{
+ "code": "TM1-5C",
+ "name": "WORKER_ORANGE_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm1-5a_worker",
+   "x": 325,
+   "y": 67,
+   "w": 547,
+   "h": 466,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm1-5a_worker": {
+   "source": "TM1-5A",
+   "desc": "road worker with shovel and heap",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Same worker symbol as TM1-5A, bbox 325|547|328 x 67|466|67."
+}

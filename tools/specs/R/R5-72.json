@@ -1,0 +1,138 @@
+{
+ "code": "R5-72",
+ "name": "YOU_ARE_WITHIN_A_NO_STANDING_AREA_WHITE_TALL",
+ "legend": "YOU ARE WITHIN A (no standing) AREA 9AM - 6.30PM",
+ "shape": "rect",
+ "size": [
+  450,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "YOU",
+    "ARE"
+   ],
+   "series": "E",
+   "height": 50,
+   "top": 60,
+   "gap": 45,
+   "expect": [
+    152,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "WITHIN",
+    "A"
+   ],
+   "series": "E",
+   "height": 50,
+   "top": 145,
+   "gap": 45,
+   "expect": [
+    241,
+    51
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "r5-72_no_standing_290",
+   "x": 80,
+   "y": 230,
+   "w": 290,
+   "h": 290,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 80,
+   "top": 555,
+   "expect": 326
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 60,
+   "top": 680,
+   "expect": 49,
+   "align": "left",
+   "x": 88
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 20,
+   "top": 720,
+   "expect": 42,
+   "align": "left",
+   "x": 149
+  },
+  {
+   "type": "rect",
+   "x": 215,
+   "y": 707,
+   "w": 24,
+   "h": 6
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 60,
+   "top": 680,
+   "expect": 48,
+   "align": "left",
+   "x": 263
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 35,
+   "top": 680,
+   "expect": 46,
+   "align": "left",
+   "x": 323
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 20,
+   "top": 720,
+   "expect": 38,
+   "align": "left",
+   "x": 323
+  }
+ ],
+ "notes": "R5-72A 450 x 800. YOU ARE 50 E top 60 (52|152|45|148|53); WITHIN A top 145 (56|241|45|51|57); roundel 290 at 80, 230; AREA 80 E top 555 (62|326|62); 9AM - 6.30PM 60 E top 680: 88|49|12|42|24|24|24|48|12|38|88 (dash 24 long, 6 thick at 27|6|27); 30 in 35 C top-aligned, PM 20 E bottom-aligned (5 between); AM height not labelled - taken as 20 E like PM; '46' read as the width of the 30. 60 bottom.",
+ "symbols": {
+  "r5-72_no_standing_290": {
+   "source": "R5-72",
+   "desc": "no-standing roundel 290 dia: red annulus R145/R120, black S 180 E centred (72+72), red slash 25 wide at 25 deg from vertical, white halo across the S",
+   "grid_mm": 40,
+   "colours": [
+    "red",
+    "black"
+   ]
+  }
+ }
+}

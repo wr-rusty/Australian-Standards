@@ -1,0 +1,121 @@
+{
+ "code": "GE1-12",
+ "name": "COCKFOSTERS_M10_MONASH_HAWKER_A25_1KM_GREEN_TALL",
+ "legend": "Cockfosters M10 Monash Hawker A25 1 km",
+ "shape": "rect",
+ "size": [
+  4450,
+  5600
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "Cockfosters",
+   "series": "Emod",
+   "height": 400,
+   "top": 440,
+   "colour": "white",
+   "align": "left",
+   "x": 400,
+   "expect": 3633
+  },
+  {
+   "type": "text",
+   "text": "M10",
+   "series": "E",
+   "height": 400,
+   "top": 1140,
+   "colour": "yellow",
+   "align": "left",
+   "x": 2336,
+   "expect": 1014
+  },
+  {
+   "type": "text",
+   "text": "Monash",
+   "series": "Emod",
+   "height": 400,
+   "top": 2375,
+   "colour": "white",
+   "align": "left",
+   "x": 400,
+   "expect": 2278
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 400,
+   "top": 3075,
+   "colour": "white",
+   "align": "left",
+   "x": 400,
+   "expect": 2255
+  },
+  {
+   "type": "text",
+   "text": "A25",
+   "series": "E",
+   "height": 400,
+   "top": 3775,
+   "colour": "yellow",
+   "align": "left",
+   "x": 400,
+   "expect": 1153
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "1",
+     "series": "E",
+     "height": 350
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 300
+    }
+   ],
+   "gap": 175,
+   "top": 4830,
+   "colour": "white",
+   "align": "left",
+   "x": 2450,
+   "expect": [
+    106,
+    618
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_up_exit_diag_left_1870x4300",
+   "x": 2080,
+   "y": 1040,
+   "w": 1870,
+   "h": 4300,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_up_exit_diag_left_1870x4300": {
+   "source": "GE1-12/masked",
+   "desc": "Vertical up-arrow with a diagonal exit branch to the lower left. Overall 1870 wide x 4300 high (280 grid); head top 150/151 per detail; vertical shaft 300 wide with 530 stub below the junction; junction 1610 above the bottom, diagonal branch at 60 degrees, branch head 1570 to the left of the shaft, 2690 from the top; R75 (typ.) fillets.",
+   "grid_mm": 280,
+   "invert": true,
+   "inset": 0,
+   "trace_note": "traced from GE1-12.png with the drawing's own legend that falls inside the arrow's 1870x4300 box painted in the ground colour first (sign-mm rects: M10 2310,1120-3380,1560; Monash 'sh' 2060,2355-2700,2795; Hawker 'er' 2060,3055-2680,3495; '1' 2430,4810-2580,5200; 'km' 2700,4835-3370,5200), otherwise exactly as tools/trace_symbol.py; 'source' is written GE1-12/masked so a --force rerun of the tracer does not overwrite the trace with the text glyphs included"
+  }
+ },
+ "notes": "4450x5600 R300; green 70 / white border 70 (70/140). Vertical chain to baselines: 840 Cockfosters | 700 M10 | 1235 Monash | 700 Hawker | 700 A25 | 1005 1 km (5180) | 420 = 5600; arrow 1040 | 4300 | 260. Horizontal: 400 left margin; Cockfosters (3633) 417 right; M10 2336 | 1014 | 1100; Monash (2278), Hawker (2255), A25 (1153) then 527 | arrow 1870 | 500; '1 km': 2450 | 106 | 175 | 618 | 1100 (sums 4449). '1' 350 E, 'km' 300 Emod (right label), common baseline 5180."
+}

@@ -1,0 +1,6 @@
+{"code":"T8-2(L)","name":"PEDESTRIANS_ARROW_LEFT_YELLOW_LONG_SKINNY","legend":"PEDESTRIANS","shape":"rect","size":[1200,300],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t8-2_arrow_left","x":96,"y":80,"w":160,"h":140,"colour":"black"},
+             {"type":"text","text":"PEDESTRIANS","series":"C","height":100,"top":100,"align":"left","x":356,"expect":721}],
+ "symbols":{"t8-2_arrow_left":{"source":"T8-2(L)","desc":"small arrow pointing left, 160 long x 140 high: head 90 long, shaft 43 wide, 30 and 11 barb dims, R6 tips","grid_mm":60}},
+ "notes":"Arrow 96 from left, 80 top/bottom; PEDESTRIANS starts 100 after the arrow (x 356), 123 right margin. Separate PNG for each hand, so a separate spec."}

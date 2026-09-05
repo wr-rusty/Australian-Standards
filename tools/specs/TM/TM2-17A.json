@@ -1,0 +1,44 @@
+{
+ "code": "TM2-17A",
+ "name": "END_ROAD_WORK_YELLOW_SQUARE",
+ "legend": "END ROAD WORK",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "colour": "black",
+   "expect": 239
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "colour": "black",
+   "expect": 350
+  }
+ ]
+}

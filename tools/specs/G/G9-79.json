@@ -1,0 +1,59 @@
+{
+ "code": "G9-79",
+ "name": "{speed}_AHEAD_WHITE_TALL",
+ "legend": "{speed} AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  1000
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 375,
+   "r_outer": 297,
+   "r_inner": 237,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "speed",
+   "height": 240,
+   "top": 250,
+   "colour": "black",
+   "text": "{speed}"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 820,
+   "colour": "black",
+   "text": "AHEAD",
+   "expect": 512
+  }
+ ],
+ "notes": "G9-79B illustrated 600 x 1000 (A 450x750, C 800x1350 ignored). No border. Black annulus R297/R237 centred x 300, 375 from the top. Numerals 240: 2 numerals (and 110, 115) Series D, other 3 numerals Series C (the speed rule); top 250 from the left chain 80|170|240 (the annulus centre 375 would give 255 - 5 mm inconsistency). AHEAD 100 E, 80 above the bottom, 44|512|44."
+}

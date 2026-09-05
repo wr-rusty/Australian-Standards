@@ -1,0 +1,25 @@
+{
+ "code": "G11-11",
+ "name": "WINERIES_OAKVALE_CHALMERS_SUNRISE_GRAPES_BROWN_LONG",
+ "legend": "WINERIES OAKVALE 2 CHALMERS 3 SUNRISE 5",
+ "shape": "rect",
+ "size": [1600, 1200],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {"colour": "brown", "width": 20},
+ "border": {"colour": "white", "width": 20},
+ "elements": [
+  {"type": "symbol", "id": "grapes", "x": 227.5, "y": 164, "w": 199, "h": 253.5, "colour": "white"},
+  {"type": "text", "series": "D", "height": 140, "top": 215, "colour": "white", "text": "WINERIES", "align": "left", "x": 637, "expect": 813},
+  {"type": "text", "series": "D", "height": 140, "top": 530, "colour": "white", "text": "OAKVALE", "align": "left", "x": 140},
+  {"type": "text", "series": "D", "height": 140, "top": 740, "colour": "white", "text": "CHALMERS", "align": "left", "x": 140},
+  {"type": "text", "series": "D", "height": 140, "top": 950, "colour": "white", "text": "SUNRISE", "align": "left", "x": 140},
+  {"type": "text", "series": "D", "height": 140, "top": 530, "colour": "white", "text": "2", "align": "right", "x": 1415},
+  {"type": "text", "series": "D", "height": 140, "top": 740, "colour": "white", "text": "3", "align": "right", "x": 1415},
+  {"type": "text", "series": "D", "height": 140, "top": 950, "colour": "white", "text": "5", "align": "right", "x": 1415}
+ ],
+ "notes": "20 brown edge + 20 white border (40 | 20). Grapes box 350 at 150|350|137|813|150, 110 from the top. Stack 110|350|70|140D|70|140D|70|140D|110; WINERIES 215|140D from the top at x 637. Destinations 140 D left-aligned at 140 (140|Varies|Varies|Var|185); numerals right-aligned 185 from the right edge (widths vary). QA: grapes box = ink extent placed as on G11-8, scaled to the nominal 350 square at (150,110).",
+ "symbols": {
+   "grapes": {"source": "G11-8", "desc": "bunch of grapes pictogram (10 circles with stalk) in a 410 (G11-8) / 350 (G11-11) square box; grid 70", "grid_mm": 70}
+ }
+}

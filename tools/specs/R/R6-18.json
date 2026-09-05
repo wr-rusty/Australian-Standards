@@ -1,0 +1,47 @@
+{
+ "code": "R6-18",
+ "name": "BUSES_MUST_ENTER_WHITE_TALL",
+ "legend": "BUSES MUST ENTER",
+ "shape": "rect",
+ "size": [
+  900,
+  1050
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 180,
+   "top": 135,
+   "expect": 711
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "D",
+   "height": 180,
+   "top": 435,
+   "expect": 585
+  },
+  {
+   "type": "text",
+   "text": "ENTER",
+   "series": "D",
+   "height": 180,
+   "top": 735,
+   "expect": 695
+  }
+ ],
+ "notes": "R6-18B (900 x 1050) illustrated. R100, 15 white edge, 45 border. Stack 135/180/120/180/120/180/135."
+}

@@ -1,0 +1,42 @@
+{
+ "code": "TM2-44A",
+ "name": "CHANGED_TRAFFIC_CONDITIONS_YELLOW_SQUARE",
+ "legend": "CHANGED TRAFFIC CONDITIONS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CHANGED",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 499
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 427
+  },
+  {
+   "type": "text",
+   "text": "CONDITIONS",
+   "series": "B",
+   "height": 95,
+   "top": 420,
+   "expect": 503
+  }
+ ],
+ "notes": "Top dims 86|427|87 and 50|499|51: 499 taken as CHANGED and 427 as TRAFFIC (TRAFFIC 100 C = 426 on TM1-46A)."
+}

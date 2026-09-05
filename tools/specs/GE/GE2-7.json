@@ -1,0 +1,66 @@
+{
+ "code": "GE2-7",
+ "name": "EXIT_18_PANEL_DIAG_ARROW_GREEN_TALL",
+ "legend": "EXIT 18",
+ "shape": "rect",
+ "size": [
+  1800,
+  2200
+ ],
+ "radius": 200,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 390,
+   "y": 230,
+   "w": 1020,
+   "h": 1060,
+   "radius": 60,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 240,
+   "top": 355,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "18",
+   "series": "E",
+   "height": 440,
+   "top": 725,
+   "colour": "green"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_diag_up_left_406",
+   "x": 697,
+   "y": 1514,
+   "w": 406,
+   "h": 406,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_diag_up_left_406": {
+   "source": "GE2-7",
+   "desc": "Straight block arrow pointing up-left at 45 degrees, 406x406 box (90 grid): head 439 across, barbs 286, 216, notch 124, 30 offset, shaft 154 wide, R15 head and tail corners (mirror of GE2-3).",
+   "grid_mm": 90,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "1800x2200 R200; green 40 / white 40 (80/40). Chain 230 | 125 | 240 E | 130 | 440 E | 125 | 224 | 406 arrow | 280 = 2200. Exit panel white R60, 1060 high: 1020 wide (390 | 1020 | 390) for two alphanumerics as illustrated (18); 1340 wide (230 | 1340 | 230) for three. EXIT and numerals centred, green. Arrow centred (697 | 406 | 697)."
+}

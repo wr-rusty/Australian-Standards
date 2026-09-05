@@ -1,0 +1,34 @@
+{
+ "code": "TM2-54A",
+ "name": "TRAM_ONLY_YELLOW_SQUARE",
+ "legend": "TRAM ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAM",
+   "series": "E",
+   "height": 100,
+   "top": 160,
+   "expect": 397
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 100,
+   "top": 340,
+   "expect": 399
+  }
+ ],
+ "notes": "Drawing labels both lines 100 D but the widths 397/399 are Series E (100 D = 331/339; TRAM 100 D = 330 on TM1-42A, 100 E = 397 on TM2-55A); E used."
+}

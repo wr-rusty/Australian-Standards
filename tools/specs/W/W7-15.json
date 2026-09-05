@@ -1,0 +1,40 @@
+{
+ "code": "W7-15",
+ "name": "RAILWAY_GATE_YELLOW_DIAMOND",
+ "legend": "RAILWAY GATE",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "RAILWAY",
+   "series": "D",
+   "height": 110,
+   "top": 390.33,
+   "expect": 610
+  },
+  {
+   "type": "text",
+   "text": "GATE",
+   "series": "E",
+   "height": 125,
+   "top": 560.33,
+   "expect": 465,
+   "cx": 521.23
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. RAILWAY 110 D bottom 30 above the centreline; GATE 125 E top 30 below. RAILWAY centred (= dims); GATE bottom dims 268 | 465 | 286 -> cx 521.23."
+}

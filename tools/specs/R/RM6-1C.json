@@ -1,0 +1,49 @@
+{
+ "code": "RM6-1C",
+ "name": "NO_OVERTAKING_OR_PASSING_WHITE_LONG",
+ "legend": "NO OVERTAKING OR PASSING",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 100,
+   "top": 80,
+   "expect": 188
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKING",
+   "series": "E",
+   "height": 100,
+   "top": 250,
+   "expect": 924
+  },
+  {
+   "type": "text",
+   "words": [
+    "OR",
+    "PASSING"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 420,
+   "gap": 70,
+   "expect": [
+    188,
+    626
+   ]
+  }
+ ],
+ "notes": "RM6-1C 1200 x 600, 25 black border, square corners. Stack 80/100E/70/100E/70/100E/80. 158|188|70|626|158."
+}

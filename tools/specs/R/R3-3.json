@@ -1,0 +1,30 @@
+{
+ "code": "R3-3",
+ "name": "CHILDREN_CROSSING_ORANGE_SQUARE",
+ "legend": "CHILDREN CROSSING",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "orange",
+ "elements": [
+  {
+   "type": "text",
+   "text": "CHILDREN",
+   "series": "B",
+   "height": 120,
+   "top": 120,
+   "expect": 520
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "B",
+   "height": 120,
+   "top": 360,
+   "expect": 516
+  }
+ ],
+ "notes": "Flag, fluorescent orange, no border, no corner radius shown. CHILDREN 120 B top 120 (40|520|40); CROSSING top 360 (42|516|42)."
+}

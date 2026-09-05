@@ -1,0 +1,39 @@
+{
+ "code": "W8-13",
+ "name": "PLAYGROUND_YELLOWGREEN",
+ "legend": "PLAY GROUND",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PLAY",
+   "series": "D",
+   "height": 125,
+   "top": 94.0,
+   "expect": 410
+  },
+  {
+   "type": "text",
+   "text": "GROUND",
+   "series": "C",
+   "height": 125,
+   "top": 281.0,
+   "expect": 548
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 yellow-green edge, 30 black border; fluorescent yellow-green ground. PLAY 125 D top 94 (= dims), GROUND 125 C top 281, 101 | 548 | 101 centred."
+}

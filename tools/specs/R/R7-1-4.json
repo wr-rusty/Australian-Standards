@@ -1,0 +1,47 @@
+{
+ "code": "R7-1-4",
+ "name": "BICYCLE_LANE_WHITE_TALL",
+ "legend": "LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-4_bicycle",
+   "x": 70,
+   "y": 120,
+   "w": 460,
+   "h": 305,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 160,
+   "top": 520,
+   "expect": 422
+  }
+ ],
+ "notes": "R7-1-4C illustrated. Bicycle 460 x 305 at (70,120); 95 gap; LANE 160 C top 520; 120 bottom.",
+ "symbols": {
+  "r7-1-4_bicycle": {
+   "source": "R7-1-4",
+   "desc": "bicycle, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

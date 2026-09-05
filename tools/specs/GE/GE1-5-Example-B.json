@@ -1,0 +1,106 @@
+{
+ "code": "GE1-5-Example-B",
+ "name": "A53_MIDLANDS_HWY_SWAN_CK_MANSFIELD_EXIT_2KM_GREEN",
+ "legend": "A53 MIDLANDS HWY Swan Ck Mansfield EXIT 2 km",
+ "shape": "rect",
+ "size": [
+  2090,
+  1850
+ ],
+ "radius": 130,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A53",
+   "series": "E",
+   "height": 200,
+   "top": 180,
+   "colour": "yellow",
+   "expect": 578
+  },
+  {
+   "type": "panel",
+   "x": 207,
+   "y": 470,
+   "w": 1675,
+   "h": 270,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "MIDLANDS",
+    "HWY"
+   ],
+   "series": "E",
+   "height": 135,
+   "top": 537.5,
+   "gap": 93.8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "Swan",
+    "Ck"
+   ],
+   "series": "Emod",
+   "height": 180,
+   "top": 830,
+   "gap": 139.4,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Mansfield",
+   "series": "Emod",
+   "height": 180,
+   "top": 1100,
+   "colour": "white",
+   "expect": 1335
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "EXIT",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "2",
+     "series": "E",
+     "height": 180,
+     "slot": 171
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 160
+    }
+   ],
+   "gap": [
+    109,
+    76
+   ],
+   "top": 1460,
+   "colour": "white",
+   "expect": [
+    551,
+    171,
+    330
+   ]
+  }
+ ],
+ "notes": "Drawing is titled GE1-5 and fully dimensioned (file GE1-5-Example-B). 2090x1850 R130, green 30 outside a 30 white border (60/30). Vertical chain 180 | 200 E | 90 | 270 panel | 90 | 180 Emod | 90 | 180 Emod | 180 | 180 E | 210 = 1850. A53 (578) centred; panel 1675x270 R50 at 207, MIDLANDS HWY 135 E black with 68 margins (ink 1539, word gap derived 93.8), equal margins above/below; Swan Ck centred 462 | 1166 | 462 (word gap derived 139.4); Mansfield 377 | 1335 | 378; EXIT 2 km: 427 | 551 | 109 | 171 | 76 | 330 | 426 -> one centred runs line, the dashed (varies) numeral in a 171 slot (180 E '2' is 146 wide, centred in the slot). km 160 Emod on the 1640 baseline. Distance varies (2 illustrated)."
+}

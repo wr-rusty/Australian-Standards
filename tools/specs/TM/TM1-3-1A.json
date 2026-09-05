@@ -1,0 +1,41 @@
+{
+ "code": "TM1-3-1A",
+ "name": "ROAD_PLANT_AHEAD_YELLOW_SQUARE",
+ "legend": "ROAD PLANT AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "PLANT",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 396
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 430
+  }
+ ]
+}

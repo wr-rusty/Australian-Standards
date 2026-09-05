@@ -1,0 +1,127 @@
+{
+ "code": "W7-14-6",
+ "name": "DO_NOT_CROSS_LIGHTS_{tracks}_TRACKS_WHITE",
+ "legend": "DO NOT CROSS WHILE LIGHTS ARE DISPLAYED OR ALARM SOUNDING {tracks} TRACKS",
+ "shape": "rect",
+ "size": [
+  450,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT",
+    "CROSS"
+   ],
+   "series": "D",
+   "height": 30,
+   "top": 45.0,
+   "gap": 36.95,
+   "expect": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHILE",
+    "LIGHTS"
+   ],
+   "series": "D",
+   "height": 30,
+   "top": 100.0,
+   "gap": 30.5,
+   "expect": [
+    null,
+    null
+   ],
+   "cx": 225.5
+  },
+  {
+   "type": "text",
+   "words": [
+    "ARE",
+    "DISPLAYED"
+   ],
+   "series": "D",
+   "height": 30,
+   "top": 155.0,
+   "gap": 18.4,
+   "expect": [
+    null,
+    null
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "OR",
+    "ALARM"
+   ],
+   "series": "D",
+   "height": 30,
+   "top": 210.0,
+   "gap": 27.3,
+   "expect": [
+    null,
+    null
+   ],
+   "cx": 225.5
+  },
+  {
+   "type": "text",
+   "text": "SOUNDING",
+   "series": "D",
+   "height": 30,
+   "top": 265.0,
+   "expect": 195,
+   "cx": 225.5
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{tracks}",
+     "series": "E",
+     "height": 30
+    },
+    {
+     "text": "TRACKS",
+     "series": "D",
+     "height": 30
+    }
+   ],
+   "gap": 23,
+   "top": 320.0,
+   "expect": [
+    null,
+    146
+   ]
+  }
+ ],
+ "vary": {
+  "key": "tracks",
+  "values": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "notes": "450 x 400 white plate, R25, 5 white edge, 10 black border. Six lines 30 D: first baseline 75 from the top, 55 pitch, last baseline 350, 50 below. Widths: DO NOT CROSS 68 | 314 | 68, WHILE LIGHTS 90 | 271 | 89 (cx 225.5), ARE DISPLAYED 74 | 302 | 74, OR ALARM 123 | 205 | 122 (cx 225.5), SOUNDING 128 | 195 | 127 (cx 225.5); word gaps derived from the line totals. Numeral line as runs: numeral 30 E | 23 | TRACKS 30 D (146), centred as a group (= | Varies | 23 | 146 | =), so every vary value stays centred. The drawing's single-track version (TRACKS line removed, 70 pitch) is a different layout and is not generated."
+}

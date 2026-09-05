@@ -1,0 +1,41 @@
+{
+ "code": "GM9-90B",
+ "name": "DO_NOT_OVERTAKE_WHITE_LONG_SKINNY",
+ "legend": "DO NOT OVERTAKE",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT",
+    "OVERTAKE"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "gap": [
+    60,
+    52
+   ],
+   "expect": [
+    132,
+    197,
+    538
+   ],
+   "align": "left",
+   "x": 110,
+   "colour": "black"
+  }
+ ],
+ "notes": "1200x300, 25 black border. 100 | 100 C | 100. 110 | 132 | 60 | 197 | 52 | 538 | 111: the drawing gives 60 between DO and NOT and 52 between NOT and OVERTAKE (per-pair gaps), left-aligned at 110."
+}

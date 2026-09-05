@@ -1,0 +1,46 @@
+{
+ "code": "W5-50",
+ "name": "TRACTORS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-50_tractor",
+   "x": 255.33,
+   "y": 341.33,
+   "w": 545.0,
+   "h": 385.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-50_tractor": {
+   "source": "W5-50",
+   "desc": "tractor side view, 42+24+196+220+63 = 545 wide, wheels R113/R66",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 275 left of centre, bottom 196 below centre. Width 545 from the inset chain (42+24+196+220+63). Height not stated as one chain (29+103+124+43 and R113 do not close); 385 from the grid inset/illustration. Missing dim: overall height."
+}

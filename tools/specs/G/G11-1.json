@@ -1,0 +1,77 @@
+{
+ "code": "G11-1",
+ "name": "CAMERA_300_m_ON_LEFT_BROWN_TALL",
+ "legend": "300 m ON LEFT",
+ "shape": "rect",
+ "size": [
+  800,
+  1350
+ ],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "camera",
+   "x": 266,
+   "y": 235.5,
+   "w": 270.5,
+   "h": 161,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 590,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 830,
+   "colour": "white",
+   "text": "ON",
+   "expect": 226
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1070,
+   "colour": "white",
+   "text": "LEFT",
+   "expect": 401
+  }
+ ],
+ "notes": "20 brown edge + 20 white border (20 | 40 callouts). Stack 140|350 symbol|100|140D|100|140D|100|140D|140. Camera box 350 centred (=|350|=). Numeral line centred as a group (=|Varies|70|Varies|=): 300 (140 D, vary), m 120 Emod baseline-aligned (top 610); x from font widths - not stated. ON =|226|=, LEFT =|401|=. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal 350 square at (225,140). QA: the 300 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require.",
+ "symbols": {
+  "camera": {
+   "source": "G11-1",
+   "desc": "camera pictogram (front view with lens) in a 350 square box (corner ticks shown), white; grid 70 on G11-10",
+   "grid_mm": 70,
+   "invert": true,
+   "inset": 0
+  }
+ }
+}

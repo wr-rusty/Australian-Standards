@@ -1,0 +1,57 @@
+{
+ "code": "R7-10",
+ "name": "TRAM_ONLY_WHITE_TALL",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-5_tram",
+   "x": 50,
+   "y": 91,
+   "w": 500,
+   "h": 269,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 50,
+   "y": 460,
+   "w": 500,
+   "h": 230,
+   "radius": 35,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 160,
+   "top": 495,
+   "expect": 445,
+   "colour": "white"
+  }
+ ],
+ "notes": "R7-10C illustrated. Tram 500 x 269 at y 91; 100 gap; red panel R35 230 high (y 460-690), ONLY 160 C white 35 below its top; 110 bottom. Panel width 50|515|50 on the drawing sums to 615 - 500 used as R7-8.",
+ "symbols": {
+  "r7-1-5_tram": {
+   "source": "R7-1-5",
+   "desc": "tram, side view, pole to the right",
+   "grid_mm": 40
+  }
+ }
+}

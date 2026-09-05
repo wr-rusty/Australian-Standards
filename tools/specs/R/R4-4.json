@@ -1,0 +1,76 @@
+{
+ "code": "R4-4",
+ "name": "{speed}_SHARED_ZONE_WHITE_TALL",
+ "legend": "{speed} SHARED ZONE",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   10
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 185,
+   "r_outer": 125,
+   "r_inner": 95,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 100,
+   "top": 135
+  },
+  {
+   "type": "text",
+   "text": "SHARED",
+   "series": "D",
+   "height": 60,
+   "top": 340,
+   "expect": 300
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 60,
+   "top": 430,
+   "expect": 198
+  },
+  {
+   "type": "symbol",
+   "id": "r4-4_shared_zone_symbols",
+   "x": 50,
+   "y": 527,
+   "w": 350,
+   "h": 163,
+   "colour": "black"
+  }
+ ],
+ "notes": "Annulus outer dia 250 (100|250|100), band 30, top 60 -> centre (225,185). Numerals 100 D top 135 (60+30+45), dashed in the drawing -> vary (shared zones are 10 km/h). SHARED 60 D top 340, ZONE top 430, symbols 163 high top 527, 60 bottom, 50|350|50.",
+ "symbols": {
+  "r4-4_shared_zone_symbols": {
+   "source": "R4-4",
+   "desc": "child pedestrian (left) and car front view (right) as one group, 350 wide x 163 high",
+   "grid_mm": 37.5
+  }
+ }
+}

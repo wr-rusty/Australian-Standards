@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="7.94mm" height="15.88mm" viewBox="0 0 22.5 45">
+<g transform="scale(0.1)">
+  <g id="panel">
+    <path id="ground" fill="#fff" d="M25 0h175a25 25 0 0 1 25 25v400a25 25 0 0 1 -25 25h-175a25 25 0 0 1 -25 -25v-400a25 25 0 0 1 25 -25Z"/>
+  </g>
+  <g id="legend">
+    <path fill="#000" d="M190.92 0L100.41 0L0 100.41L0 190.92L190.92 0Z"/>
+    <path fill="#000" d="M225 56.43L0 281.43L0 371.94L225 146.94L225 56.43Z"/>
+    <path fill="#000" d="M225 237.45L12.45 450L102.96 450L225 327.96L225 237.45Z"/>
+  </g>
+</g>
+</svg>

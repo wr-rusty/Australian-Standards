@@ -1,0 +1,53 @@
+{
+ "code": "R2-11",
+ "name": "TWO_WAY_TRAFFIC_WHITE_TALL",
+ "legend": "(two-way arrows)",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r2-11_arrow_up",
+   "x": 48,
+   "y": 120,
+   "w": 165,
+   "h": 360,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r2-11_arrow_down",
+   "x": 237,
+   "y": 120,
+   "w": 165,
+   "h": 360,
+   "colour": "black"
+  }
+ ],
+ "notes": "Two arrows 360 long x 165 wide, 120 from top and bottom; 48|165|24|165|48. Separate ids for up/down rather than 'flip' because flip mirrors about the panel centre, not the bbox.",
+ "symbols": {
+  "r2-11_arrow_up": {
+   "source": "R2-11",
+   "desc": "block arrow pointing up: 360 long x 165 wide head, head 136 long, shaft 57, R12, notch 12 (grid draws it pointing left)",
+   "grid_mm": 30
+  },
+  "r2-11_arrow_down": {
+   "source": "R2-11",
+   "desc": "same arrow as r2-11_arrow_up pointing down",
+   "grid_mm": 30
+  }
+ }
+}

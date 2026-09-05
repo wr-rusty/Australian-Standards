@@ -1,0 +1,41 @@
+{
+ "code": "W5-18",
+ "name": "ROAD_ENDS_YELLOW_DIAMOND",
+ "legend": "ROAD ENDS",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 150,
+   "top": 342.33,
+   "expect": 502,
+   "cx": 540.73
+  },
+  {
+   "type": "text",
+   "text": "ENDS",
+   "series": "D",
+   "height": 150,
+   "top": 567.33,
+   "expect": 483,
+   "cx": 541.23
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 150 D / 75 / 150 D; ROAD bottom 38 above the centreline (drawing dim 38). Bottom dims 269 | 502 | 248 and 279 | 483 | 257 -> cx 540.73 / 541.23 (both ~11 mm right of centre, as drawn)."
+}

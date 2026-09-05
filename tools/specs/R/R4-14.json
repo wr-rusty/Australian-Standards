@@ -1,0 +1,80 @@
+{
+ "code": "R4-14",
+ "name": "YOU_ARE_WITHIN_A_{speed}_AREA_SPEED_SIGN",
+ "legend": "YOU ARE WITHIN A {speed} AREA",
+ "folder": "Speed Signs/Area",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "YOU",
+    "ARE"
+   ],
+   "series": "E",
+   "height": 50,
+   "top": 30,
+   "gap": 31,
+   "expect": [
+    null,
+    null
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "WITHIN",
+    "A"
+   ],
+   "series": "E",
+   "height": 50,
+   "top": 110,
+   "gap": 47,
+   "expect": [
+    null,
+    null
+   ]
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 410,
+   "r_outer": 223,
+   "r_inner": 178,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 180,
+   "top": 320
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 60,
+   "top": 660,
+   "expect": 245
+  }
+ ],
+ "notes": "No border. Right-hand 80/80 dims are top-to-baseline: YOU ARE 50 E top 30, WITHIN A top 110; 250 from WITHIN A baseline (160) to annulus centre 410; R223/R178; numerals 180 D centred (top 320; '500' to their bottom checks); AREA 60 E top 660 (310 from centre to its baseline 720), 30 bottom. Word gaps in YOU ARE / WITHIN A not dimensioned: derived from the whole-line widths 60|330|60 and 56|338|56 minus the AS 1744 word widths (YOU 152 + ARE 147 -> gap 31; WITHIN 240 + A 51 -> gap 47)."
+}

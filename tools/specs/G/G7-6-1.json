@@ -1,0 +1,18 @@
+{
+ "code": "G7-6-1",
+ "name": "PARKING_P_BLUE_SQUARE",
+ "legend": "P",
+ "shape": "rect",
+ "size": [600, 600],
+ "radius": 50,
+ "ground": "blue",
+ "edge": {"colour": "blue", "width": 25},
+ "border": {"colour": "white", "width": 25},
+ "symbols": {
+   "s14_parking_p": {"source": "G7-6-1", "desc": "parking 'P' symbol (S14) in a 450x450 box; drawn as a bold P letter", "grid_mm": null, "invert": true, "inset": 0}
+ },
+ "elements": [
+  {"type": "symbol", "id": "s14_parking_p", "x": 158.5, "y": 124.5, "w": 283, "h": 351, "colour": "white"}
+ ],
+ "notes": "G7-6-1A (Illust.) 600x600 R50, blue edge 25 + white border 25 (50/25 dims). P symbol box 450x450 with 75 margins. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal 450 square at (75,75)."
+}

@@ -1,0 +1,45 @@
+{
+ "code": "T5-1",
+ "name": "DETOUR_ARROW_UP_YELLOW_LONG_SKINNY",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "E",
+   "height": 120,
+   "top": 90,
+   "align": "left",
+   "x": 116,
+   "expect": 687
+  },
+  {
+   "type": "symbol",
+   "id": "t5-1_arrow_up",
+   "x": 909,
+   "y": 64,
+   "w": 160,
+   "h": 182,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "t5-1_arrow_up": {
+   "source": "T5-1",
+   "desc": "upward arrow 160 wide x 182 high (the T5-1(L,R) arrow rotated): head 105 high with R7 tips, shaft 50 wide, barb overhang 13, 37 dim at apex",
+   "grid_mm": 60
+  }
+ },
+ "notes": "T5-1A 1200x300 illustrated (straight-ahead variant; the (L)/(R) variants are in T5-1(L,R).json, same code). Horizontal chain 116 | 687 | 106 | 160 | 121 sums to 1190, not 1200 - drawing inconsistency. DETOUR kept at x 116 (as in T5-1(R)) and the arrow at 909 (116+687+106), leaving 131 on the right instead of the stated 121. Arrow 64 from top and bottom.",
+ "accepted_drawing_discrepancy": "horizontal chain 116|687|106|160|121 sums to 1190 on a 1200 sign (drawing inconsistency); placed from the left, leaving 131 right instead of 121."
+}

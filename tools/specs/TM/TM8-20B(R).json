@@ -1,0 +1,58 @@
+{
+ "code": "TM8-20B(R)",
+ "name": "ACCESS_RIGHT_YELLOW_LONG_SKINNY",
+ "legend": "ACCESS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-19c_wheelchair",
+   "x": 130,
+   "y": 0,
+   "w": 188,
+   "h": 300
+  },
+  {
+   "type": "text",
+   "text": "ACCESS",
+   "series": "D",
+   "height": 100,
+   "top": 100,
+   "expect": 494,
+   "align": "left",
+   "x": 349
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 898,
+   "y": 50,
+   "w": 168,
+   "h": 200,
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "tm8-2b_arrow": {
+   "source": "TM8-2B(L)",
+   "desc": "horizontal block arrow pointing left (166 wide x 145 high on TM8-2B)",
+   "grid_mm": 50
+  },
+  "tm8-19c_wheelchair": {
+   "source": "TM8-19C(L)",
+   "desc": "wheelchair access symbol facing right (188 x 215)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "ACCESS labelled 100 C but 494 wide = 100 D (as TM8-19C and TM8-20B(L)); D used. Row 130 | wheelchair 188 | 31 | ACCESS 494 | 55 | arrow 168 | 134 (drawing height is 600 label / 300 by dimensions as on TM8-20B(L); 300 used). Arrow flipped to point right, centreline y 150; wheelchair not mirrored, vertical position not dimensioned (full-height bbox, width governs).",
+ "accepted_drawing_discrepancy": "as TM8-20B(L) (intervene set"
+}

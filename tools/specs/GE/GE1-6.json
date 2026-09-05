@@ -1,0 +1,110 @@
+{
+ "code": "GE1-6",
+ "name": "A36_QUEENSTOWN_ROAD_HEATHMONT_EXIT_1KM_2_LEFT_LANES_GREEN",
+ "legend": "A36 QUEENSTOWN ROAD Heathmont EXIT 1 km 2 LEFT LANES",
+ "shape": "rect",
+ "size": [
+  5150,
+  4150
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A36",
+   "series": "E",
+   "height": 400,
+   "top": 440,
+   "colour": "yellow",
+   "expect": 1167
+  },
+  {
+   "type": "panel",
+   "x": 503,
+   "y": 1140,
+   "w": 4143,
+   "h": 600,
+   "radius": 100,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "QUEENSTOWN ROAD",
+   "series": "D",
+   "height": 300,
+   "top": 1290,
+   "colour": "black",
+   "expect": 3843
+  },
+  {
+   "type": "text",
+   "text": "Heathmont",
+   "series": "Emod",
+   "height": 400,
+   "top": 2040,
+   "colour": "white",
+   "expect": 3454
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "EXIT",
+     "series": "E",
+     "height": 350
+    },
+    {
+     "text": "1",
+     "series": "E",
+     "height": 350
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 300
+    }
+   ],
+   "gap": [
+    260,
+    225
+   ],
+   "top": 2740,
+   "colour": "white",
+   "expect": [
+    1068,
+    104,
+    620
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "2",
+    "LEFT",
+    "LANES"
+   ],
+   "series": "E",
+   "height": 350,
+   "top": 3390,
+   "gap": 260,
+   "expect": [
+    283,
+    1203,
+    1671
+   ],
+   "align": "left",
+   "x": 736,
+   "colour": "white"
+  }
+ ],
+ "notes": "5150x4150 R300; green 70 / white 70. Right chain to baselines: 840 A36 | 300 | 600 panel (1140-1740) | 700 Heathmont baseline 2440 | 650 EXIT baseline 3090 | 1060; left: 3090 | 650 | 410 -> 2 LEFT LANES baseline 3740. Panel 503 | 4143 | 504, QUEENSTOWN ROAD 300 D black, 150 margins (ink 3843), equal above/below. A36 1991 | 1167 | 1992; Heathmont 848 | 3454 | 848; EXIT 1 km: 1436 | 1068 | 260 | 104 | 225 | 620 | 1437 -> one centred runs line (km 300 Emod, common baseline 3090); 2 LEFT LANES: 736 | 283 | 260 | 1203 | 260 | 1671 | 737."
+}

@@ -1,0 +1,5 @@
+{"code":"T1-5","name":"WORKER_ORANGE_LONG","legend":"","shape":"rect","size":[900,600],
+ "ground":"orange","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t1-5_worker","x":180,"y":60,"w":550,"h":470,"colour":"black"}],
+ "symbols":{"t1-5_worker":{"source":"T1-5","desc":"road worker with shovel and mound of earth","grid_mm":45}},
+ "notes":"T1-5A 900x600 illustrated. Symbol bounding box: 180 from left, 60 from top, 550 wide, 470 high (170 right, 70 bottom). Fluorescent orange ground."}

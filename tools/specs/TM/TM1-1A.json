@@ -1,0 +1,44 @@
+{
+ "code": "TM1-1A",
+ "name": "ROADWORK_YELLOW_SQUARE",
+ "legend": "ROAD WORK AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "colour": "black",
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "expect": 350
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "colour": "black",
+   "expect": 430
+  }
+ ]
+}

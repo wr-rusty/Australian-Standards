@@ -1,0 +1,50 @@
+{
+ "code": "R5-50",
+ "name": "CLEARWAY_WHITE_TALL",
+ "legend": "CLEARWAY (C symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CLEARWAY",
+   "series": "D",
+   "height": 70,
+   "top": 54,
+   "expect": 478
+  },
+  {
+   "type": "symbol",
+   "id": "r5_clearway_c",
+   "x": 185,
+   "y": 159,
+   "w": 230,
+   "h": 230,
+   "colour": "red"
+  }
+ ],
+ "notes": "R5-50A 600 x 800. CLEARWAY 70 D top 54 (61|478|61); C symbol 230 square (R230 sides, white C 180 D) at 185, 159 (54+70+35). Below it a 500 x 320 variable legend panel (dashed, at 50, 424) left empty: the drawing gives alternatives - AT ALL TIMES (100 D, AT 153 + 78 + ALL 239 at 65 from left, top 459; TIMES 359 top 609) and time-of-operation legends with '*variable' widths.",
+ "symbols": {
+  "r5_clearway_c": {
+   "source": "R5-50",
+   "desc": "clearway symbol: red rounded square (sides are arcs, R = side length) with white C in Series D as a cut-out (C height 110 at 140 square; 180 at 230; 265 at 340); traced from R5-50 (230 square) as the red layer",
+   "grid_mm": 22.5,
+   "colours": [
+    "red"
+   ]
+  }
+ }
+}

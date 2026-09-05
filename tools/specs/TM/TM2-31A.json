@@ -1,0 +1,33 @@
+{
+ "code": "TM2-31A",
+ "name": "LITTER_COLLECTION_YELLOW_SQUARE",
+ "legend": "LITTER COLLECTION",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LITTER",
+   "series": "C",
+   "height": 100,
+   "top": 170,
+   "expect": 339
+  },
+  {
+   "type": "text",
+   "text": "COLLECTION",
+   "series": "B",
+   "height": 90,
+   "top": 350,
+   "expect": 473
+  }
+ ]
+}

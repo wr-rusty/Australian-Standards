@@ -1,0 +1,26 @@
+{
+ "code": "TM5-7A",
+ "name": "DETOUR_YELLOW_SQUARE",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 488
+  }
+ ],
+ "notes": "56|488|56 across, 250|100 D|250 down. The drawing also carries a stray bottom row 92|415|93 with no corresponding line of legend (looks copied from TM4-6A); ignored."
+}

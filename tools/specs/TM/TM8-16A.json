@@ -1,0 +1,49 @@
+{
+ "code": "TM8-16A",
+ "name": "BICYCLE_LANE_CLOSED_WHITE_SQUARE",
+ "legend": "LANE CLOSED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-17a_bicycle",
+   "x": 152,
+   "y": 50,
+   "w": 295,
+   "h": 195
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 100,
+   "top": 285,
+   "expect": 321
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "D",
+   "height": 100,
+   "top": 435,
+   "expect": 483
+  }
+ ],
+ "symbols": {
+  "tm8-17a_bicycle": {
+   "source": "TM8-17A",
+   "desc": "bicycle, side view facing left (454 x 300)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Bicycle 152 | 295 | 153 wide, 50 from top, 195 high (same 1.51 aspect as the 454 x 300 bicycle of TM8-17A; the same artwork id is reused at the smaller size). Stack 50 | 195 | 40 | 100 D | 50 | 100 D | 65."
+}

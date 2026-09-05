@@ -1,0 +1,69 @@
+{
+ "code": "GE7-3-5",
+ "name": "INFO_BAY_2_KM_BLUE_SQUARE",
+ "legend": "i BAY 2 km",
+ "shape": "rect",
+ "size": [
+  2177,
+  2400
+ ],
+ "radius": 240,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 50
+ },
+ "border": {
+  "colour": "white",
+  "width": 50
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "service_info_bay",
+   "x": 684.5,
+   "y": 326.0,
+   "w": 808,
+   "h": 1148,
+   "colour": "white",
+   "nominal_box": [
+    0,
+    260,
+    2177,
+    1280
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2",
+     "series": "E",
+     "height": 400
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 340
+    }
+   ],
+   "gap": 160,
+   "top": 1640,
+   "colour": "white",
+   "expect": [
+    null,
+    700
+   ]
+  }
+ ],
+ "symbols": {
+  "service_info_bay": {
+   "source": "GE7-3-5",
+   "desc": "Information bay symbol: lower-case 'i' above the word BAY (one symbol block). Drawn 808 wide x 1148 high, centred in the 260 | Varies (1280 by subtraction) | 100 zone; width 'Varies' (not dimensioned) - element box = ink extent measured from the drawing.",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "2177x2400 R240; blue 50 / white 50 (100/50). 260 | symbol (Varies = 1280 by subtraction) | 100 | 400 E | 360 = 2400. Symbol width not stated ('Varies', centred): the drawn i/BAY block measures 808 x 1148 and is centred in the 1280 zone - element box = that ink extent. '2 km': = | Varies | 160 | 700 | = (one centred runs line), km 340 Emod on the 2040 baseline."
+}

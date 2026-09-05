@@ -1,0 +1,68 @@
+{
+ "code": "R6-4",
+ "name": "GROSS_LOAD_LIMIT_80_t_WHITE_TALL",
+ "legend": "GROSS LOAD LIMIT 80 t",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "GROSS",
+   "series": "D",
+   "height": 120,
+   "top": 90,
+   "expect": 486
+  },
+  {
+   "type": "text",
+   "text": "LOAD",
+   "series": "D",
+   "height": 120,
+   "top": 290,
+   "expect": 392
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 120,
+   "top": 490,
+   "expect": 374
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "80",
+     "series": "E",
+     "height": 120
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "top": 690,
+   "gap": 60,
+   "expect": [
+    null,
+    54
+   ]
+  }
+ ],
+ "notes": "R6-4A illustrated. Numerals 120 E 'Variable' (80 shown; varies), t 105 Emod width 54, gap 60, group centred (runs, shared baseline)."
+}

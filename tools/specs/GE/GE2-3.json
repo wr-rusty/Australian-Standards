@@ -1,0 +1,50 @@
+{
+ "code": "GE2-3",
+ "name": "EXIT_DIAG_ARROW_GREEN_SQUARE",
+ "legend": "EXIT",
+ "shape": "rect",
+ "size": [
+  1800,
+  1600
+ ],
+ "radius": 200,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 320,
+   "top": 317,
+   "colour": "white",
+   "expect": 978
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_diag_up_left_406",
+   "x": 697,
+   "y": 877,
+   "w": 406,
+   "h": 406,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_diag_up_left_406": {
+   "source": "GE2-7",
+   "desc": "Straight block arrow pointing up-left at 45 degrees (the drawing shows up-left, same detail as GE2-7), 406x406 box (90 grid): head 439 across, barbs 286, 216, notch 124, 30 offset, shaft 154 wide, R15 head and tail corners.",
+   "grid_mm": 90,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "1800x1600 R200; green 40 / white 40 (80/40). 317 | 320 E | 240 | 406 arrow | 317 = 1600. EXIT 411 | 978 | 411; arrow 697 | 406 | 697."
+}

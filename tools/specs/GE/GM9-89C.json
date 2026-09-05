@@ -1,0 +1,59 @@
+{
+ "code": "GM9-89C",
+ "name": "NO_LINES_DO_NOT_OVERTAKE_WHITE_LONG",
+ "legend": "NO LINES DO NOT OVERTAKE",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 80,
+   "gap": 73,
+   "expect": [
+    188,
+    null
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 250,
+   "gap": 73,
+   "expect": [
+    184,
+    277
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKE",
+   "series": "E",
+   "height": 100,
+   "top": 420,
+   "colour": "black",
+   "expect": 771
+  }
+ ],
+ "notes": "1200x600, 25 black border. 80 | 100 E | 70 | 100 E | 70 | 100 E | 80. The two upper chains are drawn against the wrong lines: 263 | 188 | 73 | 422 | 264 fits NO LINES and 333 | 184 | 73 | 277 | 333 fits DO NOT. FLAG: the NO LINES chain sums 1210 for a 1200 sign; LINES in 100 E is 413, and 263 + 188 + 73 + 413 + 264 = 1201 closes the chain, so the drawn 422 is a drawing typo for 413 - LINES is not width-checked and the line is centred (263/264 margins). OVERTAKE 214 | 771 | 215."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "G9-10",
+ "name": "SLOW_VEHICLE_LANE_AHEAD_WHITE_SQUARE",
+ "legend": "SLOW VEHICLE LANE AHEAD",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 105,
+   "colour": "black",
+   "text": "SLOW",
+   "expect": 472
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 295,
+   "colour": "black",
+   "text": "VEHICLE",
+   "expect": 635
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 485,
+   "colour": "black",
+   "text": "LANE",
+   "expect": 460
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 675,
+   "colour": "black",
+   "text": "AHEAD",
+   "expect": 613
+  }
+ ],
+ "notes": "15 white edge + 30 black border (45). Stack 105|120E|70|120D|70|120E|70|120E|105. All lines centred (214|472|214, 132|635|133, 220|460|220, 143|613|144)."
+}

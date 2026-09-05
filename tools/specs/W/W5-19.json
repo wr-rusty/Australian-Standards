@@ -1,0 +1,40 @@
+{
+ "code": "W5-19",
+ "name": "GRAVEL_ROAD_YELLOW_DIAMOND",
+ "legend": "GRAVEL ROAD",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "GRAVEL",
+   "series": "D",
+   "height": 125,
+   "top": 392.33,
+   "expect": 611,
+   "cx": 537.23
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 125,
+   "top": 580.33,
+   "expect": 419
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 125 D / 63 / 125 D; GRAVEL bottom 13 above the centreline (dim 13). GRAVEL bottom dims 211 | 611 | 197 -> cx 537.23; ROAD centred (= dims)."
+}

@@ -1,0 +1,42 @@
+{
+ "code": "TM8-11A",
+ "name": "PATH_CLOSED_AHEAD_YELLOW_SQUARE",
+ "legend": "PATH CLOSED AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PATH",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 259
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 408
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "expect": 350
+  }
+ ],
+ "notes": "DRAWING INCONSISTENCY: PATH is labelled 100 B but its stated width 259 (170 | 259 | 171) is the 100 C width (B = 204); C used."
+}

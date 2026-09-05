@@ -1,0 +1,93 @@
+{
+ "code": "G7-8-2",
+ "name": "FUEL_RESTAURANT_TURN_RIGHT_300M_BLUE",
+ "legend": "TURN RIGHT 300 m",
+ "shape": "rect",
+ "size": [
+  1300,
+  1000
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g7_fuel": {
+   "source": "G7-3-4",
+   "desc": "fuel (petrol pump) symbol in a 350x350 box; artwork not dimensioned",
+   "grid_mm": null
+  },
+  "g7_cutlery": {
+   "source": "G7-3-4",
+   "desc": "restaurant (spoon and fork) symbol in a 350x350 box (280 wide on G7-4-3/G7-8-2); artwork not dimensioned",
+   "grid_mm": null
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g7_fuel",
+   "x": 319.5,
+   "y": 149.5,
+   "w": 297,
+   "h": 282.5,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g7_cutlery",
+   "x": 747.5,
+   "y": 145.5,
+   "w": 225,
+   "h": 293,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TURN",
+    "RIGHT"
+   ],
+   "gap": 105,
+   "series": "D",
+   "height": 140,
+   "top": 535,
+   "align": "left",
+   "x": 121,
+   "colour": "white",
+   "expect": [
+    451,
+    501
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 745,
+   "colour": "white",
+   "expect": [
+    null,
+    131
+   ]
+  }
+ ],
+ "notes": "G7-8-2A (Illust.) 1300x1000 R100, 40/20 border. Symbol boxes 300|350|70|280|300 at y 115 (right chain 115|350|70|140 D|70|140|115). TURN RIGHT 121|451|105|501|122; '300 m' block Varies|70|131 centred (551, x 374.5). QA: fuel / cutlery boxes = G7-3-4 ink extents within the nominal 350 square at (300,115) and the 280 box at (720,115). QA: the 300 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require."
+}

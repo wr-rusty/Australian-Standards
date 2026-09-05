@@ -1,0 +1,110 @@
+{
+ "code": "D4-1-1",
+ "name": "CHEVRONS_LEFT_WHITE_ON_BLACK_LONG_SKINNY",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1600,
+  400
+ ],
+ "radius": 25,
+ "ground": "black",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     214,
+     0
+    ],
+    [
+     412,
+     0
+    ],
+    [
+     212,
+     200
+    ],
+    [
+     412,
+     400
+    ],
+    [
+     214,
+     400
+    ],
+    [
+     14,
+     200
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     610,
+     0
+    ],
+    [
+     808,
+     0
+    ],
+    [
+     608,
+     200
+    ],
+    [
+     808,
+     400
+    ],
+    [
+     610,
+     400
+    ],
+    [
+     410,
+     200
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1006,
+     0
+    ],
+    [
+     1204,
+     0
+    ],
+    [
+     1004,
+     200
+    ],
+    [
+     1204,
+     400
+    ],
+    [
+     1006,
+     400
+    ],
+    [
+     806,
+     200
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M1402 0H1575A25 25 0 0 1 1592.68 7.32L1400 200L1592.68 392.68A25 25 0 0 1 1575 400H1402L1202 200Z",
+   "colour": "white"
+  }
+ ],
+ "notes": "Illust. D4-1-1A 1600x400 R25. Four white 45-degree chevrons pointing left, stripe 140 perpendicular = 198 horizontal; bottom-edge boundaries at 214 then every 198 (214+7x198=1600), tips at mid-height (200/200). First white tip therefore at x=14 (drawing image shows it touching the edge; 214 as stated). The last stripe reaches the top-right and bottom-right corners, so it is entered as a path with the R25 corner arcs (the generator does not clip elements to the panel outline)."
+}

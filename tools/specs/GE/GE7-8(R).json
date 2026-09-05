@@ -1,0 +1,67 @@
+{
+ "code": "GE7-8(R)",
+ "name": "TELEPHONE_ARROW_RIGHT_BLUE_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  200,
+  350
+ ],
+ "radius": 25,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 5
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "service_telephone",
+   "x": 40,
+   "y": 15,
+   "w": 120,
+   "h": 200,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_left_120x80",
+   "x": 40,
+   "y": 250,
+   "w": 120,
+   "h": 80,
+   "colour": "white",
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "service_telephone": {
+   "source": "GE7-8(L)",
+   "desc": "Telephone handset symbol, 120x200 box.",
+   "grid_mm": null,
+   "invert": true,
+   "nomask": true,
+   "inset": 0,
+   "panel_px": [
+    177,
+    105,
+    309,
+    336
+   ],
+   "trace_note": "detected panel is 177,101,309,332; nudged 4 px down so the crop of the phone box (whose top coincides with the border's inner edge) excludes the white border line (2 px still caught a 2 mm sliver of it)"
+  },
+  "arrow_left_120x80": {
+   "source": "GE7-8(L)",
+   "desc": "Small horizontal arrow pointing left, 120 long x 80 high (17.5 grid): head 51 long and 80 across, shaft 69 long x 25 wide, barb depth 18, 7 offset, R4 tip and barb corners. Drawn on the sign at 120 x 62 (the detail's 80-high head is not honoured by the picture); the traced picture is fitted into the 120x80 box.",
+   "grid_mm": 17.5,
+   "invert": true,
+   "nomask": true,
+   "inset": 0
+  }
+ },
+ "notes": "200x350 R25 blue. Border read as GE7-9: white 5 wide with its inner edge 15 from the sign edge (blue 10 outside it); FLAG: the drawing also shows 20 | 160 | 20 across the top which would put the inner edge at 20. Chain 15 | 200 phone | 15 | 80 arrow | 40 = 350 from the edge; phone 40 | 120 | 40; arrow 120 long (pointing right, mirror of (L))."
+}

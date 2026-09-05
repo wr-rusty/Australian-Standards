@@ -1,0 +1,75 @@
+{
+ "code": "TM8-19C(R)",
+ "name": "PEDESTRIANS_ACCESS_RIGHT_YELLOW_LONG",
+ "legend": "PEDESTRIANS ACCESS",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "expect": 720,
+   "align": "left",
+   "x": 117
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 915,
+   "y": 50,
+   "w": 168,
+   "h": 200,
+   "flip": "h"
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 134,
+   "y": 300,
+   "w": 168,
+   "h": 200
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-19c_wheelchair",
+   "x": 357,
+   "y": 291,
+   "w": 188,
+   "h": 215
+  },
+  {
+   "type": "text",
+   "text": "ACCESS",
+   "series": "D",
+   "height": 100,
+   "top": 350,
+   "expect": 494,
+   "align": "left",
+   "x": 576
+  }
+ ],
+ "symbols": {
+  "tm8-2b_arrow": {
+   "source": "TM8-2B(L)",
+   "desc": "horizontal block arrow pointing left (166 wide x 145 high on TM8-2B)",
+   "grid_mm": 50
+  },
+  "tm8-19c_wheelchair": {
+   "source": "TM8-19C(L)",
+   "desc": "wheelchair access symbol facing right (188 x 215)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Mirror layout of TM8-19C(L): top row 117 | PEDESTRIANS 720 | 78 | arrow 168 | 118; bottom row 134 | arrow 168 | 55 | wheelchair 188 | 31 | ACCESS 494 | 130. Wheelchair is not mirrored (inset shows it facing right as on the (L) sign). Arrow heights not dimensioned; bbox 200 high on centrelines y 150 / y 400 so width governs."
+}

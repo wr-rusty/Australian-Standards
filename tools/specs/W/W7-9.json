@@ -1,0 +1,51 @@
+{
+ "code": "W7-9",
+ "name": "RAILWAY_CROSSING_SKEW_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-9_rail_crossing_skew",
+   "x": 257.83,
+   "y": 139.83,
+   "w": 545,
+   "h": 781.0,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "w7-9_rail_crossing_skew": {
+   "source": "W7-9(L)",
+   "desc": "road 125 x 781 crossed by a 45-degree track 656 long (rails 148/109/86, sleepers 43/31)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    74,
+    500,
+    522
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims for (L). No placement dims on the sign; symbol is 781 tall (road) and symmetric about the centre; illustration shows it centred. Horizontal extent not stated: 534 measured from the illustration. Missing dims: symbol width and placement. QA: width 545 from the drawn aspect (548:785 at the stated 781 road height), centred; replaces the 534 estimate."
+}

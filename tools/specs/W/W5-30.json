@@ -1,0 +1,46 @@
+{
+ "code": "W5-30",
+ "name": "AIRCRAFT_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-30_aircraft",
+   "x": 226.33,
+   "y": 211.33,
+   "w": 600.0,
+   "h": 646.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-30_aircraft": {
+   "source": "W5-30",
+   "desc": "aircraft at 16 deg (inset dims 560 x 646 are along the rotated axes; R38 nose, R15 wing tip, R12 tail)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 304 left of centre, bottom 327 below centre. The inset's 560/646 are measured along the 16-degree rotated axes, not the bounding box; the illustration measures ~600 wide x 645 high, so bbox 600 x 646 is used. Missing dim: horizontal bounding width."
+}

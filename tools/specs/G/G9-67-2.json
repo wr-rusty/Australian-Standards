@@ -1,0 +1,21 @@
+{
+ "code": "G9-67-2",
+ "name": "KEEP_TRACKS_CLEAR_GRID_WHITE_TALL",
+ "legend": "KEEP TRACKS CLEAR",
+ "shape": "rect",
+ "size": [600, 1200],
+ "radius": 50,
+ "ground": "white",
+ "edge": {"colour": "white", "width": 10},
+ "border": {"colour": "black", "width": 20},
+ "elements": [
+  {"type": "text", "series": "D", "height": 100, "top": 100, "colour": "black", "text": "KEEP", "expect": 313},
+  {"type": "text", "series": "D", "height": 100, "top": 270, "colour": "black", "text": "TRACKS", "expect": 488},
+  {"type": "text", "series": "D", "height": 100, "top": 440, "colour": "black", "text": "CLEAR", "expect": 405},
+  {"type": "symbol", "id": "g9-67-2_yellow_grid_patch", "x": 50, "y": 610, "w": 500, "h": 500, "colour": "black"}
+ ],
+ "notes": "10 white edge + 20 black border. Stack 100|100D|70|100D|70|100D|70|500 symbol|90. Symbol 500 square centred (500 under the sign): black ground with yellow lines - square frame line 10 wide set in 30, 45 deg diagonal lines 10 wide at 90 pitch (grid 60). Symbol is two-colour (black + yellow); the symbol file must carry its own fills.",
+ "symbols": {
+   "g9-67-2_yellow_grid_patch": {"source": "G9-67-2", "desc": "500 x 500 black square with yellow retroreflective lines: a square frame line 10 wide inset 30 from the edge, and 45 deg diagonal lines 10 wide at 90 mm perpendicular pitch in both directions; grid 60", "grid_mm": 60, "colours": ["black", "yellow"]}
+ }
+}

@@ -1,0 +1,5 @@
+{"code":"T1-3-1","name":"ROAD_PLANT_AHEAD_YELLOW_LONG","legend":"ROAD PLANT AHEAD","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"ROAD","series":"E","height":100,"top":80,"expect":395},
+             {"type":"text","text":"PLANT","series":"E","height":120,"top":240,"expect":567},
+             {"type":"text","text":"AHEAD","series":"E","height":100,"top":420,"expect":511}]}

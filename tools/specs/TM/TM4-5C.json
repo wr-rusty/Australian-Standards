@@ -1,0 +1,56 @@
+{
+ "code": "TM4-5C",
+ "name": "POWER_LINE_WORKS_IN_PROGRESS_YELLOW_LONG",
+ "legend": "POWER LINE WORKS IN PROGRESS",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "POWER",
+    "LINE"
+   ],
+   "series": "D",
+   "height": 110,
+   "top": 75,
+   "gap": 65,
+   "expect": [
+    458,
+    299
+   ]
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "D",
+   "height": 110,
+   "top": 245,
+   "expect": 470
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "PROGRESS"
+   ],
+   "series": "D",
+   "height": 110,
+   "top": 415,
+   "gap": 73,
+   "expect": [
+    119,
+    716
+   ]
+  }
+ ],
+ "notes": "Stack 75 | 110 D | 60 | 110 D | 60 | 110 D | 75."
+}

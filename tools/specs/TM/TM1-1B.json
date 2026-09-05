@@ -1,0 +1,33 @@
+{
+ "code": "TM1-1B",
+ "name": "ROADWORK_YELLOW_LONG_SKINNY",
+ "legend": "ROADWORK AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ROADWORK",
+    "AHEAD"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "gap": 76,
+   "expect": [
+    583,
+    350
+   ],
+   "colour": "black"
+  }
+ ]
+}

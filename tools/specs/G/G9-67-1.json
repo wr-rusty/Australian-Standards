@@ -1,0 +1,50 @@
+{
+ "code": "G9-67-1",
+ "name": "KEEP_TRACKS_CLEAR_WHITE_SQUARE",
+ "legend": "KEEP TRACKS CLEAR",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 85,
+   "colour": "black",
+   "text": "KEEP",
+   "expect": 313
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "text": "TRACKS",
+   "expect": 488
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 415,
+   "colour": "black",
+   "text": "CLEAR",
+   "expect": 405
+  }
+ ],
+ "notes": "G9-67-1A illustrated 600 x 600 (B 750 ignored). 10 white edge + 20 black border. Stack 85|100D|65|100D|65|100D|85; 143|313|144, 56|488|56, 97|405|98."
+}

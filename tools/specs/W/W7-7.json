@@ -1,0 +1,51 @@
+{
+ "code": "W7-7",
+ "name": "TRAIN_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-7_train",
+   "x": 235.33,
+   "y": 149.33,
+   "w": 586.0,
+   "h": 580.0,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "w7-7_train": {
+   "source": "W7-7(L)",
+   "desc": "steam locomotive with smoke, 586 wide (inset), wheels R45/R61",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    76,
+    500,
+    524
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims for (L). Sign dims: left edge 295 left of centre, bottom 199 below centre; width 586 (inset). Overall height not stated (inset 221/259/39 chains do not reach the smoke top): ~580 measured from the illustration (inset grid agrees, ~586). Missing dim: overall height."
+}

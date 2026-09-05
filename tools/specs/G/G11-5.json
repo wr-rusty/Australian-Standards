@@ -1,0 +1,107 @@
+{
+ "code": "G11-5",
+ "name": "SILVERBAND_FALLS_2_CHEVRON_BROWN_POINTED_NO_BORDER",
+ "legend": "2 SILVERBAND FALLS",
+ "shape": "rect",
+ "size": [
+  2000,
+  500
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0.0,
+     250.0
+    ],
+    [
+     126.0,
+     0
+    ],
+    [
+     2000,
+     0
+    ],
+    [
+     2000,
+     500
+    ],
+    [
+     126.0,
+     500
+    ]
+   ],
+   "radius": [
+    75,
+    0,
+    0,
+    0,
+    0
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     126,
+     250
+    ],
+    [
+     314,
+     68
+    ],
+    [
+     428,
+     68
+    ],
+    [
+     240,
+     250
+    ],
+    [
+     428,
+     432
+    ],
+    [
+     314,
+     432
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 180,
+   "colour": "white",
+   "text": "2",
+   "align": "left",
+   "x": 528
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 75,
+   "colour": "white",
+   "text": "SILVERBAND",
+   "align": "right",
+   "x": 1930
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 285,
+   "colour": "white",
+   "text": "FALLS",
+   "cx": 1380.83
+  }
+ ],
+ "notes": "Pointed sign without border drawn as a brown polygon on a white panel: R75 tip, square corners (no corner radius stated), tip inset 126, point at mid-height. Chevron 364 tall (182|182, y 68) from x 126 (126|302|100|Var.): overall 302 from the sign chain with the detail arm extent 188 (horizontal offset then 114); INCONSISTENT with the detail, which gives 188 | 160 (= 348 overall) and a perpendicular arm thickness of 126. Numeral 2 (140 D) at 528 (126+302+100), 180|140D|180. SILVERBAND 140 D right-aligned 70 from the right edge (Varies | 70), top 75; FALLS centred under it (=|Varies|=|70), top 285; 75|140D|70|140D|75 (the 180|140D|180 chain also applies to the numeral)."
+}

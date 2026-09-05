@@ -1,0 +1,55 @@
+{
+ "code": "R2-17",
+ "name": "ONE_WAY_UP_ARROW_WHITE_TALL",
+ "legend": "ONE WAY",
+ "shape": "rect",
+ "size": [
+  450,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ONE",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 248
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "D",
+   "height": 100,
+   "top": 240,
+   "expect": 272
+  },
+  {
+   "type": "symbol",
+   "id": "r2-17_arrow_up",
+   "x": 121,
+   "y": 405,
+   "w": 208,
+   "h": 315,
+   "colour": "black"
+  }
+ ],
+ "notes": "ONE 100 D top 80 (101|248|101); WAY top 240 (89|272|89) - the drawing lists the wider WAY row outermost; at 100 D ONE is 247 and WAY 272, so the rows belong to WAY/ONE respectively; arrow top 405 (240+100+65), 315 high, 121|208|121, 80 bottom. Grid inset labels the arrow height '800' and head width 240 (vs 315 / 208 on the sign) - drawing inconsistency; sign dims used.",
+ "symbols": {
+  "r2-17_arrow_up": {
+   "source": "R2-17",
+   "desc": "straight block arrow pointing up: on sign 208 wide x 315 high; grid gives head 240 wide (R9 tips), 203/185 head dims, shaft 47/64 (grid height labelled 800 - inconsistent)",
+   "grid_mm": 40
+  }
+ }
+}

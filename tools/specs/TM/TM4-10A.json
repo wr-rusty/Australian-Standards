@@ -1,0 +1,34 @@
+{
+ "code": "TM4-10A",
+ "name": "HAZARDOUS_MATERIAL_YELLOW_SQUARE",
+ "legend": "HAZARDOUS MATERIAL",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "HAZARDOUS",
+   "series": "B",
+   "height": 95,
+   "top": 160,
+   "expect": 498
+  },
+  {
+   "type": "text",
+   "text": "MATERIAL",
+   "series": "B",
+   "height": 100,
+   "top": 340,
+   "expect": 422
+  }
+ ],
+ "notes": "Stack 160 | 95 B | 85 | 100 B | 160. HAZARDOUS row reads 51|362|51 (sum 464); 600-51-51 = 498 used for expect ('362' is a typo, AS 1744 gives 497)."
+}

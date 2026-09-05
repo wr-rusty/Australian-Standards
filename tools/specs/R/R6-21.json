@@ -1,0 +1,41 @@
+{
+ "code": "R6-21",
+ "name": "END_FREEWAY_GREEN_LONG",
+ "legend": "END FREEWAY",
+ "shape": "rect",
+ "size": [
+  900,
+  450
+ ],
+ "radius": 50,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 110,
+   "top": 80,
+   "expect": 310,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "FREEWAY",
+   "series": "E",
+   "height": 110,
+   "top": 260,
+   "expect": 770,
+   "colour": "white"
+  }
+ ],
+ "notes": "R6-21A illustrated. R50, 10 green edge, 10 white border. Stack 80/110E/70/110E/80."
+}

@@ -1,0 +1,36 @@
+{
+ "code": "T1-1",
+ "name": "ROADWORK_AHEAD_YELLOW_WIDE",
+ "legend": "ROADWORK AHEAD",
+ "shape": "rect",
+ "size": [
+  1800,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "colour": "black",
+   "expect": 1312
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 160,
+   "top": 340,
+   "colour": "black",
+   "expect": 818
+  }
+ ],
+ "notes": "T1-1B 2400x900 is not proportional to the drawing (1800x600); layout not given, so not generated."
+}

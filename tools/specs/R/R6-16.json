@@ -1,0 +1,55 @@
+{
+ "code": "R6-16",
+ "name": "LOW_CLEARANCE_3.6_m_WHITE_WIDE_SKINNY",
+ "legend": "LOW CLEARANCE 3.6 m",
+ "shape": "rect",
+ "size": [
+  1950,
+  180
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "LOW",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "CLEARANCE",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "3.6",
+     "series": "D",
+     "height": 120,
+     "slot": 315
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "top": 30,
+   "gap": [
+    90,
+    83,
+    50
+   ],
+   "expect": [
+    297,
+    906,
+    null,
+    115
+   ],
+   "align": "left",
+   "x": 47
+  }
+ ],
+ "notes": "1950 x 180, R25, no border. Left-anchored layout 47|LOW 297|90|CLEARANCE 906|83|numerals 315|50|m 115|47. Numerals variable (3.6 shown; varies), series not stated separately - 120 D assumed from the line note; drawing shows a 315 block for the variable numerals (font 3.6 D120 = 219, E120 = 246) - used as a 315 slot with the numerals centred in it. m 105 Emod on the shared baseline."
+}

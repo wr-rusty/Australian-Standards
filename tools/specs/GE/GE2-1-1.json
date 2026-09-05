@@ -1,0 +1,106 @@
+{
+ "code": "GE2-1-1",
+ "name": "GREENS_ROAD_A69_MONASH_HAWKER_EXIT_GREEN_LONG",
+ "legend": "GREENS ROAD A69 Monash Hawker EXIT",
+ "shape": "rect",
+ "size": [
+  5700,
+  3450
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 1107,
+   "y": 365,
+   "w": 3485,
+   "h": 600,
+   "radius": 100,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 300,
+   "top": 515,
+   "colour": "black",
+   "words": [
+    "GREENS",
+    "ROAD"
+   ],
+   "gap": 264.8
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_diag_up_left_660",
+   "x": 395,
+   "y": 1485,
+   "w": 660,
+   "h": 660,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "A69",
+   "series": "E",
+   "height": 400,
+   "top": 1615,
+   "colour": "yellow",
+   "align": "left",
+   "x": 1420,
+   "expect": 1179
+  },
+  {
+   "type": "text",
+   "text": "Monash",
+   "series": "Emod",
+   "height": 400,
+   "top": 1265,
+   "colour": "white",
+   "align": "left",
+   "x": 2999,
+   "expect": 2282
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 400,
+   "top": 1965,
+   "colour": "white",
+   "align": "left",
+   "x": 3011,
+   "expect": 2259
+  },
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 350,
+   "top": 2665,
+   "colour": "white",
+   "align": "left",
+   "x": 3604,
+   "expect": 1072
+  }
+ ],
+ "symbols": {
+  "arrow_diag_up_left_660": {
+   "source": "GE2-1-1",
+   "desc": "Straight block arrow pointing up-left at 45 degrees, 660x660 box (285 grid): head 550 across, barbs 357 long, notch 125, head tip corners R19, shaft 170 wide, 476 long from the head base, 47 offset; R19 at the tail.",
+   "grid_mm": 285,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "5700x3450 R300; green 70 / white 70. Left chain 365 | 600 panel | 520 | 660 arrow | 1305; A69 baseline 1435 from the bottom (2015). Right chain to baselines: 1665 Monash | 700 Hawker | 650 EXIT | 435. Top: 395 | 660 arrow | 365 | 1179 A69 | 400 | 2282 column | 419; panel 1107 | 3485 | 1108, GREENS ROAD 300 E black, 150 margins (ink 3185), equal above/below. Bottom: Hawker 3011 | 2259 | 430; EXIT 3604 | 1072 | 1024. GREENS ROAD word gap not stated; 264.8 makes the line 3185."
+}

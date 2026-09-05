@@ -1,0 +1,88 @@
+{
+ "code": "R6-31",
+ "name": "BUS_GIVE_WAY_DECAL_WHITE_SQUARE",
+ "legend": "GIVE WAY",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "green",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r6-31_bus_arrow",
+   "x": 26,
+   "y": 26,
+   "w": 356,
+   "h": 364,
+   "colour": "green"
+  },
+  {
+   "type": "symbol",
+   "id": "r6-31_car",
+   "x": 277,
+   "y": 315,
+   "w": 139,
+   "h": 84,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "GIVE",
+   "series": "E",
+   "height": 40,
+   "top": 193,
+   "expect": 130,
+   "colour": "red",
+   "cx": 346.5
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "E",
+   "height": 40,
+   "top": 248,
+   "expect": 131,
+   "colour": "red",
+   "cx": 346.5
+  }
+ ],
+ "symbols": {
+  "r6-31_bus_arrow": {
+   "source": "R6-31",
+   "desc": "green bus rear view with yellow flashing light and ring, and green curved merge arrow; traced as green + yellow layers; box = pixel extent of the green artwork in the drawing (undimensioned)",
+   "grid_mm": 22.5,
+   "panel_px": [
+    115,
+    132,
+    512,
+    530
+   ],
+   "colours": [
+    "green",
+    "yellow"
+   ]
+  },
+  "r6-31_car": {
+   "source": "R6-31",
+   "desc": "red car rear view; traced as the red layer; box = pixel extent of the car in the drawing (undimensioned)",
+   "grid_mm": 22.5,
+   "panel_px": [
+    115,
+    132,
+    512,
+    530
+   ],
+   "colours": [
+    "red"
+   ]
+  }
+ },
+ "notes": "R6-31A (450 x 450) sticker/decal illustrated. 10 green border; corner radius NOT stated on the drawing but drawn rounded - R32 applied, measured from the drawing's pixels (all four corners fit R 31.7-32.2 at 0.884 px/mm). GIVE / WAY 40 E red, 15 between lines, WAY baseline 162 above the bottom edge (WAY top 248, GIVE top 193), widths 130/131, '*centred on car graphic'. Bus, arrow and car carry no dimensions: their boxes were measured from the drawing's pixels (panel = green border bbox 115,132-512,530 px = 450 mm): bus+arrow x 26-382, y 26-390; car x 277-416, y 315-399, so the car centre (and the GIVE/WAY cx) is 346.5 - the drawing's own GIVE/WAY ink is centred at x 346 (was read as 339 from the grid inset previously). Two symbols (green+yellow, red) so the red text is not traced twice.",
+ "radius": 32
+}

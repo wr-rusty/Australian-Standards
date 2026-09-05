@@ -1,0 +1,48 @@
+{
+ "code": "R1-3",
+ "name": "ROUNDABOUT_GIVE_WAY",
+ "legend": "(roundabout symbol)",
+ "shape": "triangle",
+ "size": [
+  866,
+  750
+ ],
+ "radius": 40,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "red",
+  "width": 75
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r1-3_roundabout_arrows",
+   "x": 308.6,
+   "y": 126.4,
+   "w": 267.73,
+   "h": 252.31,
+   "colour": "black"
+  }
+ ],
+ "notes": "As R1-2 panel (866 x 750, R40, 20 white edge, 75 red border). Symbol centre 155 below border inner edge -> (433, 250). Bbox = square of half-side 140.5 (88 band inner R + 37 band + 15.5 head overhang) about the centre; symbol file should use that square as its viewBox so the centre lands on (433,250). Tracer: automatic panel detection fails (red border on white); panel_px is the full 866 x 750 outline derived from the red border's pixel bbox (inset 0).",
+ "symbols": {
+  "r1-3_roundabout_arrows": {
+   "source": "R1-3",
+   "desc": "three curved arrows around a circle: band inner R88, band width 37, heads 64 long x 68 wide (34+34), R5 tips; head angles 7/42/78/90 deg",
+   "grid_mm": 25,
+   "panel_px": [
+    85,
+    111,
+    589,
+    548
+   ],
+   "inset": 0,
+   "open": 9,
+   "threshold": 60
+  }
+ }
+}

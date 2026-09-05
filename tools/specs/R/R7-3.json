@@ -1,0 +1,54 @@
+{
+ "code": "R7-3",
+ "name": "{dir}_LANE_WHITE_LONG",
+ "legend": "{dir} LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "{dir}",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "expect": null
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 100,
+   "top": 225,
+   "expect": 384
+  }
+ ],
+ "notes": "R7-3C(L,R) (600 x 400) illustrated; one drawing shows both hands. Stack 75/100E/50/100E/75. (L) = LEFT LANE (drawing width 344), (R) = RIGHT LANE (418); nothing mirrors.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT",
+   "w": 344
+  },
+  "R": {
+   "dir": "RIGHT",
+   "w": 418
+  }
+ }
+}

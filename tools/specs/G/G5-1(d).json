@@ -1,0 +1,4 @@
+{"code":"G5-1(d)","name":"PIT_ST_WHITE_BLADE","legend":"PIT ST",
+ "shape":"rect","size":[500,150],"radius":0,"ground":"white","keyline":true,
+ "elements":[{"type":"text","text":"PIT ST","series":"D","height":100,"top":25,"colour":"black"}],
+ "notes":"Short street-name blade: minimum length 500, 150 high, PIT ST 100 D black on white, centred (no margins stated). Keyline only to show the outline."}

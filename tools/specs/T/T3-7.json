@@ -1,0 +1,5 @@
+{"code":"T3-7","name":"ROUGH_SURFACE_YELLOW_LONG","legend":"ROUGH SURFACE","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"ROUGH","series":"E","height":120,"top":128,"expect":593},
+             {"type":"text","text":"SURFACE","series":"D","height":120,"top":352,"expect":698}],
+ "notes":"T3-7A 900x600 illustrated."}

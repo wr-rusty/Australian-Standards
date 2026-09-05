@@ -1,0 +1,41 @@
+{
+ "code": "G9-20",
+ "name": "ROAD_CLOSED_WHITE_LONG",
+ "legend": "ROAD CLOSED",
+ "shape": "rect",
+ "size": [
+  900,
+  550
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 100,
+   "colour": "black",
+   "text": "ROAD",
+   "expect": 469
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 310,
+   "colour": "black",
+   "text": "CLOSED",
+   "expect": 677
+  }
+ ],
+ "notes": "10 white edge + 20 black border (30). Stack 100|140D|70|140D|100. ROAD 215|469|216, CLOSED 111|677|112."
+}

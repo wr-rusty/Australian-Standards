@@ -1,0 +1,43 @@
+{
+ "code": "TM4-3C",
+ "name": "END_BLASTING_AREA_RED_LONG",
+ "legend": "END BLASTING AREA",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "red",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 160,
+   "top": 110,
+   "expect": 383,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "BLASTING",
+    "AREA"
+   ],
+   "series": "C",
+   "height": 130,
+   "top": 360,
+   "gap": 67,
+   "expect": [
+    651,
+    358
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "White letters, black border on red. Stack 110 | 160 D | 90 | 130 C | 110."
+}

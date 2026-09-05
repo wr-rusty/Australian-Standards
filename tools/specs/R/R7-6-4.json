@@ -1,0 +1,70 @@
+{
+ "code": "R7-6-4",
+ "name": "THIS_LANE_DOWN_ARROW_WHITE_LONG_SKINNY",
+ "legend": "THIS LANE",
+ "shape": "rect",
+ "size": [
+  1600,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "text": "THIS",
+   "series": "C",
+   "height": 200,
+   "top": 100,
+   "expect": 460,
+   "align": "left",
+   "x": 86
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     732,
+     75
+    ],
+    [
+     800,
+     75
+    ],
+    [
+     791,
+     201
+    ],
+    [
+     876,
+     184
+    ],
+    [
+     766,
+     325
+    ],
+    [
+     656,
+     184
+    ],
+    [
+     741,
+     201
+    ]
+   ],
+   "radius": 0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 200,
+   "top": 100,
+   "expect": 528,
+   "align": "left",
+   "x": 986
+  }
+ ],
+ "notes": "1600 x 400, R25, no border. 86|THIS 460|110|arrow 220|110|LANE 528|86; THIS/LANE 200 C top 100. Arrow 220 x 250 centred on the line (y 75-325): stem tapers from 68 at the top to 50 at the junction; barb outer corners 141 above the tip (y 184), junction 17 below the corner level (y 201); tip y 325. Grid 80."
+}

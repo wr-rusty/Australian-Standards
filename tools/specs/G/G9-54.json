@@ -1,0 +1,33 @@
+{
+ "code": "G9-54",
+ "name": "TAKE_TICKET_WHITE_LONG",
+ "legend": "TAKE TICKET",
+ "shape": "rect",
+ "size": [
+  600,
+  350
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "colour": "black",
+   "text": "TAKE",
+   "expect": 316
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 200,
+   "colour": "black",
+   "text": "TICKET",
+   "expect": 424
+  }
+ ],
+ "notes": "No border. Stack 50|100D|50|100D|50. 142|316|142, 88|424|88."
+}

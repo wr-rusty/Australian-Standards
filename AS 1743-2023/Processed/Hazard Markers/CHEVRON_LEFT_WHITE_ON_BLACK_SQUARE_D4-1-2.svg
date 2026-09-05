@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15.88mm" height="15.88mm" viewBox="0 0 45 45">
+<g transform="scale(0.1)">
+  <g id="panel">
+    <path id="ground" fill="#000" d="M50 0h350a50 50 0 0 1 50 50v350a50 50 0 0 1 -50 50h-350a50 50 0 0 1 -50 -50v-350a50 50 0 0 1 50 -50Z"/>
+  </g>
+  <g id="legend">
+    <path fill="#fff" d="M19 225L225 19L431 19L225 225L431 431L225 431L19 225Z"/>
+  </g>
+</g>
+</svg>

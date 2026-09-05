@@ -1,0 +1,63 @@
+{
+ "code": "W7-14-5",
+ "name": "LOOK_FOR_TRAINS_WHITE_TALL",
+ "legend": "LOOK FOR TRAINS",
+ "shape": "rect",
+ "size": [
+  300,
+  450
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-14_train",
+   "x": 50.0,
+   "y": 40.0,
+   "w": 200.0,
+   "h": 200.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LOOK",
+   "series": "D",
+   "height": 30,
+   "top": 290.0,
+   "expect": 99,
+   "cx": 150.5
+  },
+  {
+   "type": "text",
+   "words": [
+    "FOR",
+    "TRAINS"
+   ],
+   "series": "D",
+   "height": 30,
+   "top": 350.0,
+   "gap": 27.3,
+   "expect": [
+    null,
+    null
+   ]
+  }
+ ],
+ "symbols": {
+  "w7-14_train": {
+   "source": "W7-14-4",
+   "desc": "small steam locomotive, ~200 x 195 (inset 99/164/89 dims, wheels R21/R15)",
+   "grid_mm": 22.5
+  }
+ },
+ "notes": "300 x 450 white plate, R25, 5 white edge, 10 black border (15 total). Train in the 200 x 200 zone as W7-14-4. LOOK baseline 320 from the top (top 290), 60 pitch -> FOR TRAINS top 350, 70 below the last baseline. LOOK 101 | 99 | 100 -> cx 150.5; FOR TRAINS 34 | 232 | 34, gap derived from the 232 total."
+}

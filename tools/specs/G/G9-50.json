@@ -1,0 +1,72 @@
+{
+ "code": "G9-50",
+ "name": "SLOW_VEHICLE_TURNOUT_300_m_WHITE_SQUARE",
+ "legend": "SLOW VEHICLE TURNOUT 300 m",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 105,
+   "colour": "black",
+   "text": "SLOW",
+   "expect": 400
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 295,
+   "colour": "black",
+   "text": "VEHICLE",
+   "expect": 635
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 485,
+   "colour": "black",
+   "text": "TURNOUT",
+   "expect": 698
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": 60.0,
+   "top": 675,
+   "colour": "black",
+   "expect": [
+    null,
+    115
+   ]
+  }
+ ],
+ "notes": "G9-50A illustrated 900 x 900 (B 1200 ignored). 15 white edge + 30 black border. Stack 105|120D|70|120D|70|120D|70|120|105. SLOW 250|400|250, VEHICLE 132|635|133, TURNOUT 101|698|101. Numeral line centred as a group (=|Varies|60|115|=): 300 taken as 120 D (series not labelled; other lines D), gap 60, m 105 Emod baseline-aligned (top 690); x from the font width of 300 (300) - not stated. QA: the 300 m line is built as one runs group (gap [60.0]) so the generator centres it as the drawing's = margins require."
+}

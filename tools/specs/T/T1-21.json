@@ -1,0 +1,4 @@
+{"code":"T1-21","name":"NEW_ROUNDABOUT_YELLOW_WIDE","legend":"NEW ROUNDABOUT","shape":"rect","size":[1800,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"NEW","series":"E","height":160,"top":100,"expect":478},
+             {"type":"text","text":"ROUNDABOUT","series":"D","height":160,"top":340,"expect":1379}]}

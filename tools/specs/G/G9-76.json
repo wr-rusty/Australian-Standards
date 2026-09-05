@@ -1,0 +1,163 @@
+{
+ "code": "G9-76",
+ "name": "NARROW_BRIDGE_AHEAD_3.6_m_DETOUR_WHITE_LONG",
+ "legend": "NARROW BRIDGE AHEAD 3.6 m WIDE VEHICLES DETOUR",
+ "shape": "rect",
+ "size": [
+  1700,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 45,
+   "w": 1610,
+   "h": 388,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 463,
+   "w": 1610,
+   "h": 392,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 85,
+   "colour": "black",
+   "text": "NARROW",
+   "align": "left",
+   "x": 210,
+   "expect": 628
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 85,
+   "colour": "black",
+   "text": "BRIDGE",
+   "align": "left",
+   "x": 948,
+   "expect": 541
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "AHEAD",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "3",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": ".",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "6",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": [
+    110.0,
+    21.7,
+    21.7,
+    50.0
+   ],
+   "top": 265,
+   "colour": "black",
+   "expect": [
+    515,
+    null,
+    null,
+    null,
+    115
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 510,
+   "colour": "black",
+   "text": "WIDE",
+   "align": "left",
+   "x": 350,
+   "expect": 356
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 510,
+   "colour": "black",
+   "text": "VEHICLES",
+   "align": "left",
+   "x": 816,
+   "expect": 729
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 690,
+   "colour": "black",
+   "text": "DETOUR",
+   "align": "left",
+   "x": 858,
+   "expect": 687,
+   "mirror": true
+  },
+  {
+   "type": "symbol",
+   "id": "g9-3_arrow_left",
+   "x": 155,
+   "y": 670,
+   "w": 600,
+   "h": 160,
+   "colour": "black"
+  }
+ ],
+ "notes": "One PNG shows G9-76(L) and G9-76(R): hands L/R, drawn L; DETOUR mirrors (R: 155|687|103|600|155). 15 white edge + 30 black border; two white R40 sub-panels either side of the 30 black bar at y 433-463 (stack as G9-75). NARROW BRIDGE 210|628|110|541|211. Line 2 centred as a group (=|515|110|Varies|65|Varies|50|115|=): AHEAD 120 D, numerals 3.6 (120 D, vary; decimal pitch 65 honoured by splitting the numerals into runs 3 | . | 6 with gaps 21.7 each (decimal point 21.6 wide in 120 D; the font's own pitch would be 55)), m 105 Emod baseline-aligned; x from font widths - not stated. * clear width on the bridge. WIDE VEHICLES 350|356|110|729|155. Arrow 155|600|103|687|155, top 670 (same arrow as G9-3). QA: the AHEAD 3.6 m line is one runs group so the generator centres it as the drawing's = margins require.",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "g9-3_arrow_left": {
+   "source": "G9-3(L)",
+   "desc": "block arrow pointing left, overall 600 x 160: head length 104, shaft length 496, shaft width 50, head width 160, head base to shaft (notch) 37, barb step 13, R8 tip and R8 barb corners; grid 85 (105 on G9-75)",
+   "grid_mm": 85
+  }
+ }
+}

@@ -1,0 +1,4 @@
+{"code":"T1-4","name":"GRADER_AHEAD_YELLOW_LONG","legend":"GRADER AHEAD","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"GRADER","series":"D","height":140,"top":115,"expect":704},
+             {"type":"text","text":"AHEAD","series":"D","height":140,"top":345,"expect":601}]}

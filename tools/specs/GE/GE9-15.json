@@ -1,0 +1,41 @@
+{
+ "code": "GE9-15",
+ "name": "WRONG_WAY_RED_LONG",
+ "legend": "WRONG WAY",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 70,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WRONG",
+   "series": "D",
+   "height": 100,
+   "top": 72,
+   "colour": "white",
+   "expect": 439
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "D",
+   "height": 100,
+   "top": 228,
+   "colour": "white",
+   "expect": 272
+  }
+ ],
+ "notes": "Illust. GE9-15A 600x400 R70; red 10 outside a 10 white border (20/10). 72 | 100 D | 56 | 100 D | 72. WRONG 80 | 439 | 81; WAY 164 | 272 | 164."
+}

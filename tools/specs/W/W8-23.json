@@ -1,0 +1,40 @@
+{
+ "code": "W8-23",
+ "name": "TWO_WAY_ARROW_YELLOW_WIDE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  750,
+  250
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w8-23_double_arrow",
+   "x": 125.0,
+   "y": 50.0,
+   "w": 500.0,
+   "h": 150.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w8-23_double_arrow": {
+   "source": "W8-23",
+   "desc": "two-headed horizontal arrow 500 x 150: heads 138 long, R5 tips, 44/14 shaft and notch dims",
+   "grid_mm": 37.5,
+   "inset": 0
+  }
+ },
+ "notes": "750 x 250 (Illust. B). R50, 10 edge, 30 black border. Arrow 500 x 150 (inset), 125 | 500 | 125 centred. Vertical placement not dimensioned; the illustration shows it centred (y 50). Missing dim: vertical position."
+}

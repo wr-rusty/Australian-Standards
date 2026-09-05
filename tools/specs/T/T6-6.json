@@ -1,0 +1,6 @@
+{"code":"T6-6","name":"PILOT_VEHICLE_IN_USE_YELLOW_LONG","legend":"PILOT VEHICLE IN USE","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"PILOT","series":"E","height":110,"top":80,"expect":443},
+             {"type":"text","text":"VEHICLE","series":"E","height":110,"top":245,"expect":685},
+             {"type":"text","words":["IN","USE"],"gap":83,"series":"E","height":110,"top":410,"expect":[137,304]}],
+ "notes":"T6-6A 900x600 illustrated. Tops: 80; 80+110+55 = 245; 245+110+55 = 410."}

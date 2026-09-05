@@ -1,0 +1,34 @@
+{
+ "code": "TM5-9B",
+ "name": "ON_SIDE_ROAD_YELLOW_LONG_SKINNY",
+ "legend": "ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "SIDE",
+    "ROAD"
+   ],
+   "series": "D",
+   "height": 110,
+   "top": 95,
+   "gap": 65,
+   "expect": [
+    177,
+    305,
+    368
+   ]
+  }
+ ]
+}

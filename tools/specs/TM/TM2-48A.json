@@ -1,0 +1,78 @@
+{
+ "code": "TM2-48A",
+ "name": "TRAFFIC_SIGNALS_NOT_IN_USE_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm1-30a_traffic_signals",
+   "x": 145,
+   "y": 50,
+   "w": 310,
+   "h": 500,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     397.25,
+     69.35
+    ],
+    [
+     373.76,
+     60.8
+    ],
+    [
+     202.75,
+     530.65
+    ],
+    [
+     226.24,
+     539.2
+    ]
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     226.24,
+     60.8
+    ],
+    [
+     202.75,
+     69.35
+    ],
+    [
+     373.76,
+     539.2
+    ],
+    [
+     397.25,
+     530.65
+    ]
+   ],
+   "colour": "red"
+  }
+ ],
+ "symbols": {
+  "tm1-30a_traffic_signals": {
+   "source": "TM1-30A",
+   "desc": "three-aspect traffic signal head with backboard",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Signal symbol as TM1-30A (145|310|145, 50|500|50). Two red bars 500 long x 25 wide at 40 deg included angle (20 deg each side of vertical); the drawing does not dimension the crossing point, taken as the panel centre (300,300) which matches the illustration. Caption says 'black symbol' but the bars are drawn red."
+}

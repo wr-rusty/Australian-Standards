@@ -1,0 +1,51 @@
+{
+ "code": "W7-13",
+ "name": "CROSS_ROAD_RAILWAY_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-13_cross_road_rail",
+   "x": 155.33,
+   "y": 280.33,
+   "w": 750.0,
+   "h": 500.0,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "R",
+ "symbols": {
+  "w7-13_cross_road_rail": {
+   "source": "W7-13(R)",
+   "desc": "cross road (bar 125 x 500, arms 125) with a vertical track 469 tall and a 125 square; 750 wide",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    74,
+    500,
+    523
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. PNG shows (R) on top with dims, (L) below: drawn hand R. Symbol 750 x 500 (inset). No placement dims on the sign; illustration shows it centred on both centrelines (measured), so placed centred."
+}

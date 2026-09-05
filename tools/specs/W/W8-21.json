@@ -1,0 +1,49 @@
+{
+ "code": "W8-21",
+ "name": "BOGGY_WHEN_WET_YELLOW_SQUARE",
+ "legend": "BOGGY WHEN WET",
+ "shape": "rect",
+ "size": [
+  750,
+  750
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BOGGY",
+   "series": "D",
+   "height": 140,
+   "top": 95.0,
+   "expect": 406
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "E",
+   "height": 140,
+   "top": 305.0,
+   "expect": 501,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "WET",
+   "series": "E",
+   "height": 140,
+   "top": 515.0,
+   "expect": 316
+  }
+ ],
+ "notes": "750 x 750 (Illust. B). R50, 10 edge, 30 black border. BOGGY 140 D / 70 / WHEN 140 E / 70 / WET 140 E; 95 top and bottom -> tops 95, 305, 515. BOGGY 172 | 406 | 172 centred; WHEN 124 | 501 | 125 -> cx 374.5; WET 217 | 316 | 217 centred. Drawing inconsistency: the stated widths 406/501/316 match neither the labelled 140 D/140 E/140 E letters at AS 1744 spacing (601/569/398) nor the drawing's own illustration (~593/564/~437 measured, i.e. the illustration agrees with 140 D / 140 E); series/heights kept as labelled, the width mismatches are left as flagged.",
+ "accepted_drawing_discrepancy": "stated widths 406 / 501 / 316 vs 140 D/E/E = 601 / 569 / 398, illustration ~593 / 564 / 437; series kept, width checks fail; intervene set"
+}

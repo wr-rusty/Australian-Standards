@@ -1,0 +1,45 @@
+{
+ "code": "D4-1-2",
+ "name": "CHEVRON_LEFT_WHITE_ON_BLACK_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "black",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     19,
+     225
+    ],
+    [
+     225,
+     19
+    ],
+    [
+     431,
+     19
+    ],
+    [
+     225,
+     225
+    ],
+    [
+     431,
+     431
+    ],
+    [
+     225,
+     431
+    ]
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "Illust. D4-1-2A 450x450 R50. Single white chevron pointing left: tip 19 from left edge at mid-height (19+206=225), arms at 45 degrees reach the 19 top/bottom margins at x=225; stripe 145 perpendicular = 206 horizontal (drawing dims 19|206 at bottom), so flat top/bottom from x=225 to 431 and inner tip at (225,225)."
+}

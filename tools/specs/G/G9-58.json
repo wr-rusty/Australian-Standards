@@ -1,0 +1,48 @@
+{
+ "code": "G9-58",
+ "name": "BICYCLE_DISMOUNT_WHITE_SQUARE",
+ "legend": "DISMOUNT",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "bicycle",
+   "x": 66,
+   "y": 60,
+   "w": 317,
+   "h": 210,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 60,
+   "top": 330,
+   "colour": "black",
+   "text": "DISMOUNT",
+   "expect": 326
+  }
+ ],
+ "notes": "G9-58A illustrated 450 x 450 (B 600 ignored). 10 white edge + 20 black border (30). Bicycle 66|317|67 at 60, 210 tall; DISMOUNT 60 C top 330 (60|210|60|60C|60), 62|326|62.",
+ "symbols": {
+  "bicycle": {
+   "source": "G9-57",
+   "desc": "bicycle pictogram (side view, facing left), 681 x 450 on G9-57 (grid 45); same outline scaled on G9-58 (317x210, grid 22.5), G9-60/64 (278x184, grid 30/37.5), G9-62/65 (454x300, grid 60), G9-63 (400x265, grid 45)",
+   "grid_mm": 45
+  }
+ }
+}

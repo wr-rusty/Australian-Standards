@@ -1,0 +1,83 @@
+{
+ "code": "G9-24-1",
+ "name": "SAFETY_RAMP_8.8_km_WHITE_WIDE",
+ "legend": "SAFETY RAMP 8.8 km",
+ "shape": "rect",
+ "size": [
+  2200,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 140,
+   "colour": "black",
+   "text": "SAFETY",
+   "align": "left",
+   "x": 184,
+   "expect": 954
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 140,
+   "colour": "black",
+   "text": "RAMP",
+   "align": "left",
+   "x": 1324,
+   "expect": 692
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "8",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": ".",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": "8",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 170
+    }
+   ],
+   "gap": [
+    26.0,
+    26.0,
+    100.0
+   ],
+   "top": 460,
+   "colour": "black",
+   "expect": [
+    null,
+    null,
+    null,
+    351
+   ]
+  }
+ ],
+ "notes": "G9-24-1A illustrated 2200 x 800 (B 4400x1600 ignored). 15 white edge + 30 black border. Stack 140|200D|120|200(E numerals)|140. SAFETY RAMP 184|954|186|692|184. Second line centred as a group (=|Varies|88|Varies|100|351|=): numerals 8.8 vary, decimal pitch stated 88 (font gives 80), gap 100, km 351 (170 Emod, baseline-aligned top 490); x from font ink width 404 - not a stated dimension. QA: the 8.8 km line is built as one runs group (gap [100.0]) so the generator centres it as the drawing's = margins require. QA: numerals split into runs 8 | . | 8 with gaps 26.0 each so the stated decimal pitch 88 (numeral ink to numeral ink, decimal point 36 wide in 200 E) is honoured."
+}

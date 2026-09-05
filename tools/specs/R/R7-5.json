@@ -1,0 +1,66 @@
+{
+ "code": "R7-5",
+ "name": "DOWN_ARROW_WHITE_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     256,
+     64
+    ],
+    [
+     344,
+     64
+    ],
+    [
+     344,
+     176
+    ],
+    [
+     498,
+     140
+    ],
+    [
+     300,
+     336
+    ],
+    [
+     102,
+     140
+    ],
+    [
+     256,
+     176
+    ]
+   ],
+   "radius": [
+    0,
+    0,
+    0,
+    10,
+    0,
+    10,
+    0
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "R7-5C (600 x 400) illustrated. Down arrow 396 wide x 272 high, 64 from top, centred (102 margins): stem 88 wide; barb outer corners 196 above the tip (y 140); stem/barb junction 36 below the corner level (y 176); tip at y 336. R10 at the two barb outer corners (per-vertex radius)."
+}

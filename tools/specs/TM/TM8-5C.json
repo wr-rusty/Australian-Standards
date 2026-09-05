@@ -1,0 +1,69 @@
+{
+ "code": "TM8-5C",
+ "name": "LOOK_BOTH_WAYS_TWO_WAY_TRAFFIC_YELLOW_LONG",
+ "legend": "LOOK BOTH WAYS TWO-WAY TRAFFIC",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 65,
+   "top": 70,
+   "words": [
+    "LOOK",
+    "BOTH",
+    "WAYS"
+   ],
+   "gap": [
+    39,
+    37
+   ],
+   "expect": [
+    214,
+    203,
+    225
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-5c_two_way_arrows",
+   "x": 450,
+   "y": 177,
+   "w": 300,
+   "h": 246
+  },
+  {
+   "type": "text",
+   "words": [
+    "TWO-WAY",
+    "TRAFFIC"
+   ],
+   "series": "D",
+   "height": 65,
+   "top": 465,
+   "gap": 32,
+   "expect": [
+    368,
+    334
+   ]
+  }
+ ],
+ "symbols": {
+  "tm8-5c_two_way_arrows": {
+   "source": "TM8-5C",
+   "desc": "pair of opposed horizontal arrows, upper points right, lower points left (300 wide; pair 246 high as drawn, each arrow about 120)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Top line 241 | 214 | 39 | 203 | 37 | 225 | 241: centred group with per-pair gaps 39 / 37. Bottom line 233 | 368 | 32 | 334 | 233, top 465. Arrows 450 | 300 | 450 wide. DRAWING INCONSISTENCY: the right-hand stack 70 | 65 D | 105 | 120 | 105 | 65 D | 70 gives the arrow block 120 high (y 240-360), but the illustration and the grid inset draw the two overlapping arrows about 246 high (each arrow about 120) centred on y 300; the box is therefore y 177, h 246 so the stated 300 width and the drawn proportions are kept and the pair is centred where the stack puts it.",
+ "accepted_drawing_discrepancy": "right-hand stack gives a 120-high arrow block but the illustration and grid draw a 246-high overlapping pair; pair centred on the stated block - needs confirmation (intervene set"
+}

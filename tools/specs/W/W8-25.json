@@ -1,0 +1,40 @@
+{
+ "code": "W8-25",
+ "name": "REFUGE_ISLAND_YELLOWGREEN",
+ "legend": "REFUGE ISLAND",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "REFUGE",
+   "series": "D",
+   "height": 125,
+   "top": 94.0,
+   "expect": 605,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "ISLAND",
+   "series": "D",
+   "height": 125,
+   "top": 281.0,
+   "expect": 558
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 yellow-green edge, 30 black border; fluorescent yellow-green ground. 125 D / 62 / 125 D, tops 94 and 281. REFUGE 72 | 605 | 73 -> cx 374.5; ISLAND 96 | 558 | 96 centred."
+}

@@ -1,0 +1,105 @@
+{
+ "code": "D4-2-2",
+ "name": "CHEVRONS_UP_WHITE_ON_BLACK_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  400,
+  1000
+ ],
+ "radius": 25,
+ "ground": "black",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     200,
+     0
+    ],
+    [
+     400,
+     200
+    ],
+    [
+     400,
+     360
+    ],
+    [
+     200,
+     160
+    ],
+    [
+     0,
+     360
+    ],
+    [
+     0,
+     200
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     200,
+     320
+    ],
+    [
+     400,
+     520
+    ],
+    [
+     400,
+     680
+    ],
+    [
+     200,
+     480
+    ],
+    [
+     0,
+     680
+    ],
+    [
+     0,
+     520
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     200,
+     640
+    ],
+    [
+     400,
+     840
+    ],
+    [
+     400,
+     1000
+    ],
+    [
+     200,
+     800
+    ],
+    [
+     0,
+     1000
+    ],
+    [
+     0,
+     840
+    ]
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "Illust. D4-2-2B 400x1000 R25. Three white chevrons pointing up, apex on centreline (200|200) with the first apex at the top edge, arms 45 degrees; stripe 113 perpendicular = 160 vertical, so apexes at 0, 320, 640 and black chevrons between; bottom black triangle from apex (200,800)."
+}

@@ -1,0 +1,66 @@
+{
+ "code": "T1-29",
+ "name": "BRIDGEWORK_{km}_KM_AHEAD_YELLOW_WIDE",
+ "legend": "BRIDGEWORK {km} km AHEAD",
+ "shape": "rect",
+ "size": [
+  1800,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGEWORK",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "expect": 1514
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 135
+    },
+    {
+     "text": "AHEAD",
+     "series": "E",
+     "height": 160
+    }
+   ],
+   "gap": [
+    80,
+    104
+   ],
+   "top": 340,
+   "expect": [
+    null,
+    279,
+    818
+   ]
+  }
+ ],
+ "notes": "Numeral varies (dashed '1', width 'Varies'): {km} = 1-5. Bottom dims: = | Varies | 80 | 279 km | 104 | 818 AHEAD | =. km lower case E Modified at capital height 135 (ink 279 matches the '135 Emod' label), baseline shared with the 160 E line. Line centred as a whole for every value."
+}

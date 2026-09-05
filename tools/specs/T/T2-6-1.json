@@ -1,0 +1,7 @@
+{"code":"T2-6-1","name":"LANE_STATUS_1_CLOSED_1_OPEN_YELLOW_LONG","legend":"","shape":"rect","size":[1200,900],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"rect","x":230,"y":245,"w":360,"h":120,"colour":"black"},
+             {"type":"rect","x":367,"y":445,"w":86,"h":300,"colour":"black"},
+             {"type":"symbol","id":"t2-6_up_arrow","x":750,"y":150,"w":220,"h":600,"colour":"black"}],
+ "symbols":{"t2-6_up_arrow":{"source":"T2-6-1","desc":"upward lane arrow: head 220 wide x 200 high with R23 tips (barb underside 12 below shoulder line, 64 dim), shaft 86 wide, overall 600 high","grid_mm":45}},
+ "notes":"T2-6-1A 1200x900 illustrated. Closed-lane T: bar 360x120 at (230,245); stem 86x300 at (367,445) (80 below bar). Arrow centred at x 860 (750+110 = 817+43), 150 from top and bottom. Arrow head barb geometry (64/12 with R23) is not unambiguous, so placed as a symbol rather than a polygon."}

@@ -1,0 +1,41 @@
+{
+ "code": "R1-2",
+ "name": "GIVE_WAY",
+ "legend": "GIVE WAY",
+ "shape": "triangle",
+ "size": [
+  866,
+  750
+ ],
+ "radius": 40,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "red",
+  "width": 75
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "GIVE",
+   "series": "E",
+   "height": 100,
+   "top": 135,
+   "colour": "black",
+   "expect": 323
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "D",
+   "height": 80,
+   "top": 270,
+   "colour": "black",
+   "expect": 218
+  }
+ ],
+ "notes": "Equilateral, sizes by height (width = h*2/sqrt3). R40 outer. White edge 20, red border 75. GIVE top 135, WAY top 270."
+}

@@ -1,0 +1,66 @@
+{
+ "code": "R7-11-3",
+ "name": "RIGHT_ARROW_WHITE_WIDE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     480,
+     100
+    ],
+    [
+     413,
+     153
+    ],
+    [
+     422,
+     112.5
+    ],
+    [
+     119,
+     112.5
+    ],
+    [
+     119,
+     87.5
+    ],
+    [
+     422,
+     87.5
+    ],
+    [
+     413,
+     47
+    ]
+   ],
+   "radius": [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "R7-11-3C illustrated. Right arrow 361 x 106, mirror of R7-11-2 within the same 119|361|120 box."
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM2-34A",
+ "name": "SURVEY_WORKS_YELLOW_SQUARE",
+ "legend": "SURVEY WORKS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SURVEY",
+   "series": "D",
+   "height": 100,
+   "top": 160,
+   "expect": 500
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "D",
+   "height": 100,
+   "top": 340,
+   "expect": 430
+  }
+ ]
+}

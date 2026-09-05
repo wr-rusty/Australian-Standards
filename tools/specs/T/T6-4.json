@@ -1,0 +1,4 @@
+{"code":"T6-4","name":"SCHOOL_BUS_YELLOW_WIDE_SKINNY","legend":"SCHOOL BUS","shape":"rect","size":[1200,230],
+ "ground":"yellow",
+ "elements":[{"type":"text","words":["SCHOOL","BUS"],"gap":120,"series":"D","height":120,"top":55,"expect":[611,286]}],
+ "notes":"No border. Drawing note: variable size; drawn at 1200 x 230 as dimensioned. Margins 91/92."}

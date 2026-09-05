@@ -1,0 +1,87 @@
+{
+ "code": "D4-7",
+ "name": "CHEVRON_{speed}_KMH_BLACK_ON_YELLOW_LONG",
+ "legend": "{speed} km/h",
+ "shape": "rect",
+ "size": [
+  1400,
+  750
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "vary": {
+  "key": "speed",
+  "values": [
+   15,
+   25,
+   35,
+   45,
+   55,
+   65,
+   75,
+   85,
+   95
+  ]
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     30,
+     375
+    ],
+    [
+     300,
+     30
+    ],
+    [
+     570,
+     30
+    ],
+    [
+     300,
+     375
+    ],
+    [
+     570,
+     720
+    ],
+    [
+     300,
+     720
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "E",
+   "height": 400,
+   "top": 60,
+   "align": "right",
+   "x": 1365,
+   "colour": "black",
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 140,
+   "top": 540,
+   "align": "left",
+   "x": 692,
+   "expect": 586,
+   "colour": "black",
+   "mirror": true
+  }
+ ],
+ "notes": "Illust. D4-7A 1400x750 R50. Chevron as D4-6 (30|270|270 from the chevron-side edge, 30|345|345|30 vertical). Numerals 400 E dashed 'Varies', box from 692 (30+270+270+122) to 1365 (35 from the far edge), cap top 60; taken as right-aligned at 1365 for (L) (left-aligned at 35 for (R)); '65' in 400 E is 716 wide, wider than the 673 box, so the box is not the ink width. km/h 140 Emod, cap top 540 (60+400+80), bottom 70, ink 586 starting 122 right of the chevron (x=692); text mirrored in position for (R). Speed values: advisory speeds ending in 5."
+}

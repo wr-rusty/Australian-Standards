@@ -1,0 +1,33 @@
+{
+ "code": "TM1-5A",
+ "name": "WORKER_ORANGE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm1-5a_worker",
+   "x": 75,
+   "y": 105,
+   "w": 450,
+   "h": 390,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm1-5a_worker": {
+   "source": "TM1-5A",
+   "desc": "road worker with shovel and heap",
+   "grid_mm": 50
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM2-39A",
+ "name": "MERGE_LEFT_YELLOW_SQUARE",
+ "legend": "MERGE LEFT",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "MERGE",
+   "series": "C",
+   "height": 120,
+   "top": 130,
+   "expect": 424
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "D",
+   "height": 120,
+   "top": 350,
+   "expect": 343
+  }
+ ]
+}

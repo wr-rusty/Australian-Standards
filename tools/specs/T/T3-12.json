@@ -1,0 +1,7 @@
+{"code":"T3-12","name":"NO_LINES_DO_NOT_OVERTAKE_UNLESS_SAFE_YELLOW_LONG","legend":"NO LINES DO NOT OVERTAKE UNLESS SAFE","shape":"rect","size":[1500,900],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","words":["NO","LINES"],"gap":150,"series":"E","height":140,"top":81,"expect":[263,577]},
+             {"type":"text","words":["DO","NOT"],"gap":150,"series":"E","height":140,"top":291,"expect":[258,388]},
+             {"type":"text","text":"OVERTAKE","series":"E","height":140,"top":501,"expect":1079},
+             {"type":"text","words":["UNLESS","SAFE"],"gap":101,"series":"D","height":120,"top":707,"expect":[576,379]}],
+ "notes":"Tops: 81; 81+140+70 = 291; 291+140+70 = 501; 501+140+66 = 707 (707+120+73 = 900)."}

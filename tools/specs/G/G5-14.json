@@ -1,0 +1,66 @@
+{
+ "code": "G5-14",
+ "name": "FOOTBALL_GROUND_BLUE_TWO_LINE",
+ "legend": "FOOTBALL GROUND",
+ "shape": "rect",
+ "size": [
+  967,
+  300
+ ],
+ "radius": 0,
+ "ground": "blue",
+ "elements": [
+  {
+   "type": "text",
+   "text": "FOOTBALL",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "align": "left",
+   "x": 100,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "GROUND",
+   "series": "D",
+   "height": 100,
+   "top": 175,
+   "align": "left",
+   "x": 100,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     782,
+     35
+    ],
+    [
+     867,
+     35
+    ],
+    [
+     947,
+     150
+    ],
+    [
+     867,
+     265
+    ],
+    [
+     782,
+     265
+    ],
+    [
+     862,
+     150
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  }
+ ],
+ "notes": "Two 150-high blue street-name sections butted together (300 high, 500 min to 1200 max long): chain 100|FOOTBALL|40|165|20 = 100+642.3+40+165+20 = 967 (GROUND shorter, left-aligned at 100). Chevron from the 50-grid detail: 165 wide, 230 high (centred, 35 margins), V run 80 (band 85 thick horizontally). The thin white line drawn at the junction of the two sections is the butt joint, not drawn."
+}

@@ -1,0 +1,26 @@
+{
+ "code": "G7-4-3",
+ "name": "RESTAURANT_BED_FUEL_CHEVRON_BLUE_FINGERBOARD",
+ "legend": "symbols chevron",
+ "shape": "rect",
+ "size": [2000, 600],
+ "radius": 0,
+ "ground": "white",
+ "hands": ["L", "R"],
+ "drawn_hand": "R",
+ "symbols": {
+   "g7_cutlery": {"source": "G7-3-4", "desc": "restaurant (spoon and fork) symbol in a 350x350 box (280 wide on G7-4-3/G7-8-2); artwork not dimensioned", "grid_mm": null},
+   "g7_bed": {"source": "G7-4-3", "desc": "accommodation (bed) symbol in a 420x350 box; artwork not dimensioned", "grid_mm": null, "invert": true, "inset": 0, "panel_px": [118, 107, 670, 271]},
+   "g7_fuel": {"source": "G7-3-4", "desc": "fuel (petrol pump) symbol in a 350x350 box; artwork not dimensioned", "grid_mm": null}
+ },
+ "elements": [
+  {"type": "polygon", "points": [[0, 0], [1778, 0], [2000, 300], [1778, 600], [0, 600]], "radius": [100, 50, 20, 50, 100], "colour": "blue"},
+  {"type": "polygon", "points": [[20, 20], [1767.9, 20], [1975.1, 300], [1767.9, 580], [20, 580]], "radius": [80, 30, 0, 30, 80], "colour": "white"},
+  {"type": "polygon", "points": [[40, 40], [1757.8, 40], [1950.2, 300], [1757.8, 560], [40, 560]], "radius": [60, 10, 0, 10, 60], "colour": "blue"},
+  {"type": "symbol", "id": "g7_cutlery", "x": 147.5, "y": 155.5, "w": 225, "h": 293, "colour": "white"},
+  {"type": "symbol", "id": "g7_bed", "x": 542.5, "y": 163.5, "w": 351, "h": 269, "colour": "white"},
+  {"type": "symbol", "id": "g7_fuel", "x": 1049.5, "y": 159.5, "w": 297, "h": 282.5, "colour": "white"},
+  {"type": "polygon", "points": [[1450, 75], [1665.3, 75], [1829.3, 300], [1665.3, 525], [1450, 525], [1614, 300]], "radius": 0, "colour": "white"}
+ ],
+ "notes": "G7-4-3A (R Illust.) 2000x600 fingerboard pointed at the right (point run 222, tip broken R20 per note a), R100 left corners, R50 obtuse corners; blue edge 20 + white border 20 as offset polygons. Symbols 350 high (125 margins) at 120|280|105|420|105|350; 70 gap then a 550 chevron zone. Chevron from the 100-grid detail: 450 high (225+225, i.e. 75 margins), V run 164, band 174 thick perpendicular = 215.3 horizontal, overall 379; flat end at x 1450, tip at 1829. (L) version mirrored. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Cutlery centred in its 280 box at (120,125); bed nominal 420x350 at (505,125); fuel nominal 350 at (1030,125)."
+}

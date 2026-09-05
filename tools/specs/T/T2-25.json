@@ -1,0 +1,5 @@
+{"code":"T2-25","name":"TRUCK_YELLOW_LONG","legend":"","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t2-25_truck","x":126,"y":162,"w":648,"h":283,"colour":"black"}],
+ "symbols":{"t2-25_truck":{"source":"T2-25","desc":"side view of a truck facing right, fully dimensioned in the inset (648 x 283 overall; wheels R59/R73)","grid_mm":45}},
+ "notes":"Symbol box 126 from each side, 162 from top, 155 from bottom: 648 x 283."}

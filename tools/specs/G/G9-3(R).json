@@ -1,0 +1,163 @@
+{
+ "code": "G9-3(R)",
+ "name": "LOW_BRIDGE_AHEAD_DETOUR_WHITE_LONG",
+ "legend": "LOW BRIDGE AHEAD 2.2 m HIGH VEHICLES DETOUR",
+ "shape": "rect",
+ "size": [
+  1700,
+  900
+ ],
+ "radius": 100,
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 45,
+   "w": 1610,
+   "h": 390,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 465,
+   "w": 1610,
+   "h": 390,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 87,
+   "colour": "black",
+   "text": "LOW",
+   "align": "left",
+   "x": 90,
+   "expect": 297
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 87,
+   "colour": "black",
+   "text": "BRIDGE",
+   "align": "left",
+   "x": 474,
+   "expect": 540
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 87,
+   "colour": "black",
+   "text": "AHEAD",
+   "align": "left",
+   "x": 1095,
+   "expect": 515
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": ".",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "2",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": [
+    20.7,
+    20.7,
+    42.0
+   ],
+   "top": 267,
+   "colour": "black",
+   "expect": [
+    null,
+    null,
+    null,
+    115
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 513,
+   "colour": "black",
+   "text": "HIGH",
+   "align": "left",
+   "x": 128,
+   "expect": 346
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 513,
+   "colour": "black",
+   "text": "VEHICLES",
+   "align": "left",
+   "x": 576,
+   "expect": 728
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 693,
+   "colour": "black",
+   "text": "DETOUR",
+   "align": "left",
+   "x": 144,
+   "expect": 686
+  },
+  {
+   "type": "symbol",
+   "id": "g9-3_arrow_right",
+   "x": 956,
+   "y": 673,
+   "w": 600,
+   "h": 160,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "g9-3_arrow_right": {
+   "source": "G9-3(R)",
+   "desc": "block arrow pointing right (G9-3(R) drawing), overall 600 x 160: head length 104, shaft length 496, shaft width 50, head width 160, head base to shaft (notch) 37, barb step 13, R8 tip and R8 barb corners; grid 85",
+   "grid_mm": 85,
+   "invert": false,
+   "inset": 15
+  }
+ },
+ "notes": "15 white edge + 30 black border (45 total). Two white R40 sub-panels separated by the 30 black bar at y 435-465 (drawn as black ground + two panels). Numerals 2.2 are variable (dashed); the 2.2 m line is centred in the panel per the drawing note: x computed from font ink widths (2.2 D120 = 218.6, gap 42, m = 115) - not a stated dimension; m baseline aligned with the numerals (top 282). QA: the 63 dimension (numeral ink to numeral ink across the decimal point) is honoured by splitting the numerals into runs 2 | . | 2 with gaps 20.7 each (decimal point 21.6 wide in 120 D). Drawing labels DETOUR 120 D but its stated width 686 matches 120 E (D gives 586) - E used, as in G9-4. Left-hand stack 215 above the arrow is inconsistent (87+120+60+120+48+30+215+160+67 = 907); arrow placed from the 67 bottom dimension and 160 height (y 673, centred on the DETOUR line, matching G9-4). QA: the 2.2 m line is built as one runs group (gap [42.0]) so the generator centres it as the drawing's = margins require."
+}

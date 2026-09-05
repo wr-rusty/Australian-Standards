@@ -1,0 +1,46 @@
+{
+ "code": "R9-8",
+ "name": "AT_PACIFIC_HIGHWAY_WHITE_SQUARE",
+ "legend": "AT PACIFIC HIGHWAY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "AT",
+   "series": "D",
+   "height": 100,
+   "top": 90,
+   "expect": 148
+  },
+  {
+   "type": "text",
+   "text": "PACIFIC",
+   "series": "D",
+   "height": 100,
+   "top": 250
+  },
+  {
+   "type": "text",
+   "text": "HIGHWAY",
+   "series": "D",
+   "height": 100,
+   "top": 410
+  }
+ ],
+ "notes": "R9-8B (600 x 600) illustrated. R50, 10 white edge, 30 border. Stack 90/100D/60/100/60/100/90. Drawing gives AT = 148 (font 153, 3 pct). Road name lines are 'Varies' width, 'letter series to suit' (not stated) - PACIFIC HIGHWAY as shown in series D (assumed); varies.",
+ "accepted_drawing_discrepancy": "drawing gives AT = 148 at 100 D; font gives 153, 3 % over; road-name lines \"series to suit\" drawn in D as shown \u2014 routed to intervene"
+}

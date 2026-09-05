@@ -1,0 +1,42 @@
+{
+ "code": "TM5-9A",
+ "name": "ON_SIDE_ROAD_YELLOW_SQUARE",
+ "legend": "ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 161
+  },
+  {
+   "type": "text",
+   "text": "SIDE",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 277
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 334
+  }
+ ],
+ "notes": "Stack 80 | 100 D | 70 | 100 D | 70 | 100 D | 80."
+}

@@ -1,0 +1,52 @@
+{
+ "code": "R9-6-2",
+ "name": "NEXT_80_m_WHITE_LONG",
+ "legend": "NEXT 80 m",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "E",
+   "height": 75,
+   "top": 55,
+   "expect": 276
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "80",
+     "series": "E",
+     "height": 75
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 65
+    }
+   ],
+   "top": 170,
+   "gap": 38,
+   "expect": [
+    null,
+    71
+   ]
+  }
+ ],
+ "notes": "R9-6-2A (450 x 300) illustrated. Stack 55/75E/40/75E/55. Line 2: numerals 75 E (80 shown; varies)|38|m 65 Emod 71, group centred (runs, shared baseline)."
+}

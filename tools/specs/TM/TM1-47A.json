@@ -1,0 +1,38 @@
+{
+ "code": "TM1-47A",
+ "name": "QUEUED_TRAFFIC_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm1-47a_queued_cars",
+   "x": 84,
+   "y": 150,
+   "w": 432,
+   "h": 300,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm1-47a_queued_cars": {
+   "source": "TM1-47A",
+   "desc": "three queued cars, black with red tail lights",
+   "grid_mm": 50,
+   "colours": [
+    "black",
+    "red"
+   ]
+  }
+ },
+ "notes": "Symbol is black with red tail lights (colour inside the symbol artwork)."
+}

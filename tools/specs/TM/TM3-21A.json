@@ -1,0 +1,42 @@
+{
+ "code": "TM3-21A",
+ "name": "WATER_OVER_ROAD_YELLOW_SQUARE",
+ "legend": "WATER OVER ROAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WATER",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 409
+  },
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 321
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 334
+  }
+ ],
+ "notes": "Stack 80 | 100 D | 70 | 100 D | 70 | 100 D | 80. Top rows 139|321|140 and 95|409|96: 409 is WATER, 321 is OVER (row order on the drawing is the reverse of TM3-11C's convention)."
+}

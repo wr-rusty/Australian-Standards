@@ -1,0 +1,33 @@
+{
+ "code": "TM9-7A",
+ "name": "CYCLIST_YELLOWGREEN_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm9-7a_cyclist",
+   "x": 51,
+   "y": 142,
+   "w": 498,
+   "h": 315
+  }
+ ],
+ "symbols": {
+  "tm9-7a_cyclist": {
+   "source": "TM9-7A",
+   "desc": "racing cyclist facing left (498 x 315)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol 51 | 498 | 51 wide, 142 | 315 | 143 high."
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM8-8A",
+ "name": "PEDESTRIANS_SYMBOL_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-8a_pedestrians",
+   "x": 114,
+   "y": 57,
+   "w": 372,
+   "h": 485
+  }
+ ],
+ "symbols": {
+  "tm8-8a_pedestrians": {
+   "source": "TM8-8A",
+   "desc": "adult and child pedestrians walking (372 x 485)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol 114 | 372 | 114 wide, 57 | 485 | 58 high. A second horizontal dimension 150 | 300 | 150 is shown below the sign (not used; appears to relate to the lower part of the symbol)."
+}

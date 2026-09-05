@@ -1,0 +1,147 @@
+{
+ "code": "R9-1-2",
+ "name": "7-9_AM_4_30-6_30_PM_MON-FRI_WHITE_SQUARE",
+ "legend": "7 - 9 AM 4.30 - 6.30 PM MON-FRI",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "7",
+   "series": "C",
+   "height": 120,
+   "top": 40,
+   "expect": 67,
+   "align": "left",
+   "x": 48
+  },
+  {
+   "type": "rect",
+   "x": 161,
+   "y": 94,
+   "w": 30,
+   "h": 12,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "C",
+   "height": 120,
+   "top": 40,
+   "expect": 67,
+   "align": "left",
+   "x": 232
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "D",
+   "height": 45,
+   "top": 115,
+   "expect": 80,
+   "align": "right",
+   "x": 402
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "C",
+   "height": 120,
+   "top": 200,
+   "expect": 74,
+   "align": "left",
+   "x": 26
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 60,
+   "top": 200,
+   "expect": 75,
+   "align": "left",
+   "x": 120
+  },
+  {
+   "type": "rect",
+   "x": 210,
+   "y": 254,
+   "w": 30,
+   "h": 12,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "C",
+   "height": 120,
+   "top": 200,
+   "expect": 67,
+   "align": "left",
+   "x": 255
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 60,
+   "top": 200,
+   "expect": 78,
+   "align": "right",
+   "x": 424
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "D",
+   "height": 45,
+   "top": 275,
+   "expect": 73,
+   "align": "right",
+   "x": 424
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 45,
+   "top": 365,
+   "expect": 137,
+   "align": "left",
+   "x": 79
+  },
+  {
+   "type": "rect",
+   "x": 231,
+   "y": 384,
+   "w": 30,
+   "h": 8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 45,
+   "top": 365,
+   "expect": 95,
+   "align": "left",
+   "x": 276
+  }
+ ],
+ "notes": "R9-1-2A (450 x 450) illustrated. R50, 5 white edge, 15 border. Times vary. Line 1: 7/9 120 C top 40 (48|67|46|30|41|67|23|80|48), dash 30 x 12 at y 94, AM 45 D top 115 right at 402. Line 2 top 200: 4 (x 26), 30 60 C (x 120), dash 30 x 12 at x 210 y 254, 6 (x 255); right group 30 (60 C) and PM (45 D, top 275) right-aligned at 424 (73|26 and 78|26). Line-2 horizontal string 26|74|20|75|15|30|15|67|21|78|26 sums to 447 not 450, so the right group is anchored from the right margin. MON-FRI 45 E: left column 40|120|40|120|40|45|40 sums to 445; top taken as 365 so the line is centred on the dimensioned dash (y 384-392) with 40 below. Font widths: 30 at 60 C = 78 vs 75 drawn on the left, PM 72.5 vs 73."
+}

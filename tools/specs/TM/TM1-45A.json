@@ -1,0 +1,42 @@
+{
+ "code": "TM1-45A",
+ "name": "TRAFFIC_INCIDENT_AHEAD_YELLOW_SQUARE",
+ "legend": "TRAFFIC INCIDENT AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 512
+  },
+  {
+   "type": "text",
+   "text": "INCIDENT",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 488
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 430
+  }
+ ],
+ "notes": "Top dims 56|488|56 and 44|512|44: 512 taken as TRAFFIC (100 D) and 488 as INCIDENT (100 C)."
+}

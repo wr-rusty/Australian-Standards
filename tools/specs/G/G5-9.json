@@ -1,0 +1,24 @@
+{
+ "code": "G5-9",
+ "name": "17-43_WHITE_NUMBER_PLATE",
+ "legend": "17 - 43",
+ "shape": "rect",
+ "size": [
+  269,
+  100
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "17 - 43",
+   "series": "C",
+   "height": 50,
+   "top": 25,
+   "colour": "black"
+  }
+ ],
+ "notes": "House-number plate hung below a street-name blade: 100 high (10|15|50 C|15|10, the 10s being the edge strips as on the blades, not drawn). Width not stated: ink 238.5 + 15 each side (UNDIMENSIONED)."
+}

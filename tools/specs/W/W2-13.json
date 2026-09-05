@@ -1,0 +1,51 @@
+{
+ "code": "W2-13",
+ "name": "TWO_SIDE_ROADS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-13_two_side_roads_l",
+   "x": 325.33,
+   "y": 155.33,
+   "w": 350,
+   "h": 690,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-13_two_side_roads_l": {
+   "source": "W2-13",
+   "desc": "two side roads on the left: stem 110 wide, two arms 150 long x 80 thick, upper arm top 75 below barb line, 125 between arms, 110 below lower arm; arrowhead 240 tall x 290 wide (R20 barbs), notch 20. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    111,
+    80,
+    559,
+    528
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: sign chain 295 | 80 | 125 | 80 | 110 (tip 375 above centreline, upper arm bottom on centreline, 690 total); stem centred (55 | 55), arms 150 to the left -> x from -205 to +145 (arrowhead). Inset chain 240+75+80+125+80+110 = 710 vs sign 690 (20 discrepancy as W2-1)."
+}

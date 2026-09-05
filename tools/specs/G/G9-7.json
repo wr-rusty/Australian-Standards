@@ -1,0 +1,20 @@
+{
+ "code": "G9-7",
+ "name": "LIVERPOOL_A30_TURN_LEFT_GREEN_SQUARE",
+ "legend": "A30 Liverpool",
+ "shape": "rect",
+ "size": [2100, 1750],
+ "radius": 180,
+ "ground": "green",
+ "edge": {"colour": "green", "width": 40},
+ "border": {"colour": "white", "width": 40},
+ "elements": [
+  {"type": "text", "series": "E", "height": 240, "top": 260, "colour": "yellow", "text": "A30", "expect": 708},
+  {"type": "text", "series": "Emod", "height": 240, "top": 680, "colour": "white", "text": "Liverpool", "expect": 1700},
+  {"type": "symbol", "id": "g9-7_arrow_turn_left", "x": 840, "y": 1100, "w": 420, "h": 475, "colour": "white"}
+ ],
+ "symbols": {
+   "g9-7_arrow_turn_left": {"source": "G9-7", "desc": "left-turn arrow, overall 420 wide x 475 tall: head 300 across (vertical), head length 193, remaining 227 to the right; shaft width 91 (horizontal and vertical legs), vertical leg 365 from the horizontal-shaft centreline to the bottom, 18 step at the head base, R14 tip, R14 barbs, R16 inner and R33 outer bend radii; grid 105", "grid_mm": 105, "invert": true, "inset": 0}
+ },
+ "notes": "40 green edge outside the 40 white border (80 to the inside of the border). Vertical: 500 top to A30 baseline (top 260), 420 A30 baseline to Liverpool baseline (top 680), 180 to arrow top (1100), arrow 475, 175 bottom. A30 centred (696|708|696), Liverpool centred (=|1700|=), arrow centred (840|420|840)."
+}

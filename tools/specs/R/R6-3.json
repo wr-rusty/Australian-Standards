@@ -1,0 +1,77 @@
+{
+ "code": "R6-3",
+ "name": "BRIDGE_LOAD_LIMIT_80_t_GROSS_WHITE_TALL",
+ "legend": "BRIDGE LOAD LIMIT 80 t GROSS",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 452
+  },
+  {
+   "type": "text",
+   "text": "LOAD",
+   "series": "D",
+   "height": 100,
+   "top": 240,
+   "expect": 327
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 100,
+   "top": 400,
+   "expect": 312
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "80",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "top": 560,
+   "gap": 30,
+   "expect": [
+    null,
+    52
+   ]
+  },
+  {
+   "type": "text",
+   "text": "GROSS",
+   "series": "D",
+   "height": 100,
+   "top": 720,
+   "expect": 406
+  }
+ ],
+ "notes": "R6-3A illustrated. Tonnage numerals 100 E are 'Variable' (80 shown; varies), t 85 Emod, gap 30, t width 52, group centred (runs, shared baseline). Drawing's t width 52 disagrees with Emod 85 (font gives 44; 52 corresponds to Emod 100).",
+ "accepted_drawing_discrepancy": "drawing gives t = 52 wide at 85 Emod; the font gives 44 and 52 corresponds to Emod 100; stated 85 kept \u2014 width check fails, routed to intervene"
+}

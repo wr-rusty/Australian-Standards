@@ -1,0 +1,32 @@
+{
+ "code": "TM2-38B",
+ "name": "ON_RAMP_YELLOW_LONG_SKINNY",
+ "legend": "ON RAMP",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RAMP"
+   ],
+   "series": "D",
+   "height": 130,
+   "top": 85,
+   "gap": 109,
+   "expect": [
+    210,
+    449
+   ]
+  }
+ ]
+}

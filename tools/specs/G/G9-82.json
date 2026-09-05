@@ -1,0 +1,23 @@
+{
+ "code": "G9-82",
+ "name": "STEEP_DESCENT_W5-12B_RED_LONG",
+ "legend": "STEEP DESCENT",
+ "shape": "rect",
+ "size": [3000, 1400],
+ "radius": 180,
+ "ground": "red",
+ "edge": {"colour": "red", "width": 40},
+ "border": {"colour": "white", "width": 40},
+ "elements": [
+  {"type": "text", "series": "D", "height": 240, "top": 375, "colour": "white", "text": "STEEP", "align": "left", "x": 460, "expect": 910},
+  {"type": "text", "series": "D", "height": 240, "top": 785, "colour": "white", "text": "DESCENT", "align": "left", "x": 244, "expect": 1343},
+  {"type": "polygon", "points": [[2335, 195], [2840, 700], [2335, 1205], [1830, 700]], "radius": 47.61, "colour": "yellow"},
+  {"type": "polygon", "points": [[2335, 208.47], [2826.53, 700], [2335, 1191.53], [1843.47, 700]], "radius": 38.09, "colour": "black"},
+  {"type": "polygon", "points": [[2335, 248.87], [2786.13, 700], [2335, 1151.13], [1883.87, 700]], "radius": 9.52, "colour": "yellow"},
+  {"type": "symbol", "id": "w5-12_car_steep_descent", "x": 2044.57, "y": 547.64, "w": 580.86, "h": 304.72, "colour": "black"}
+ ],
+ "notes": "40 red edge + 40 white border (80|40, 40). Stack 375|240D|170|240D|375. STEEP 460|910|460|1010 (W5-12B)|160; DESCENT 244|1343. W5-12B occupies the 1010 wide space at x 1830; its vertical position is NOT dimensioned - centred (y 195). QA: W5-12B inset built as the W5-12 sign scaled to the stated 1010 across (factor 0.952: R47.6, 9.5 yellow edge, 28.6 black border) with the W5-12 car symbol scaled and placed as on W5-12; centred vertically (not dimensioned).",
+ "symbols": {
+   "w5-12_car_steep_descent": {"source": "W5-12", "desc": "car descending the 610 x 278 wedge, as traced for W5-12 (placed as on W5-12, scaled with the diamond)", "grid_mm": null}
+ }
+}

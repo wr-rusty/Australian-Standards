@@ -1,0 +1,55 @@
+{
+ "code": "G9-8",
+ "name": "LIVERPOOL_A30_LEFT_LANE_GREEN_SQUARE",
+ "legend": "A30 Liverpool LEFT LANE",
+ "shape": "rect",
+ "size": [
+  2100,
+  1550
+ ],
+ "radius": 150,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 260,
+   "colour": "yellow",
+   "text": "A30",
+   "expect": 708
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 240,
+   "top": 680,
+   "colour": "white",
+   "text": "Liverpool",
+   "expect": 1700
+  },
+  {
+   "type": "text",
+   "words": [
+    "LEFT",
+    "LANE"
+   ],
+   "gap": 117,
+   "series": "E",
+   "height": 180,
+   "top": 1110,
+   "colour": "white",
+   "expect": 1429,
+   "expect_total": true
+  }
+ ],
+ "notes": "40 green edge + 40 white border. Vertical: 500 top to A30 baseline, 420 to Liverpool baseline, 370 to LEFT LANE baseline (top 1110), 260 bottom. LEFT LANE centred, stated width 1429 (word space as font). LEFT LANE stated 1429 overall: font ink widths 621 + 691 leave a 117 word gap (the font word space would give 1523), so drawn as two words with gap 117."
+}

@@ -1,0 +1,45 @@
+{
+ "code": "G9-40-2",
+ "name": "LOCAL_TRAFFIC_ONLY_ROADWORKS_WHITE_LONG",
+ "legend": "LOCAL TRAFFIC ONLY",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 87,
+   "colour": "black",
+   "text": "LOCAL",
+   "expect": 482
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "text": "TRAFFIC",
+   "expect": 609
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 413,
+   "colour": "black",
+   "text": "ONLY",
+   "expect": 399
+  }
+ ],
+ "notes": "G9-40-2A illustrated 900 x 600 (B 1200x900 ignored). Roadworks version: square corners, 25 black border, no edge. Same legend layout as G9-40-1."
+}

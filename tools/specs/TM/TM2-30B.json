@@ -1,0 +1,25 @@
+{
+ "code": "TM2-30B",
+ "name": "MOWING_YELLOW_LONG_SKINNY",
+ "legend": "MOWING",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "MOWING",
+   "series": "D",
+   "height": 130,
+   "top": 85,
+   "expect": 632
+  }
+ ]
+}

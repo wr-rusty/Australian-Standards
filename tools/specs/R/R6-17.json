@@ -1,0 +1,161 @@
+{
+ "code": "R6-17",
+ "name": "BRIDGE_LOAD_LIMIT_PER_AXLE_GROUP_WHITE_LONG",
+ "legend": "BRIDGE LOAD LIMIT (PER AXLE GROUP) SINGLE AXLE 8 t TANDEM AXLE 10 t TRI-AXLE 15 t",
+ "shape": "rect",
+ "size": [
+  1200,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BRIDGE",
+    "LOAD",
+    "LIMIT"
+   ],
+   "series": "D",
+   "height": 80,
+   "top": 70,
+   "gap": 78.6,
+   "expect": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "(PER",
+    "AXLE",
+    "GROUP)"
+   ],
+   "series": "D",
+   "height": 60,
+   "top": 200,
+   "gap": 26.2,
+   "expect": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "SINGLE",
+    "AXLE"
+   ],
+   "series": "D",
+   "height": 80,
+   "top": 340,
+   "gap": 60.9,
+   "expect": [
+    null,
+    null
+   ],
+   "align": "left",
+   "x": 70
+  },
+  {
+   "type": "text",
+   "words": [
+    "TANDEM",
+    "AXLE"
+   ],
+   "series": "D",
+   "height": 80,
+   "top": 470,
+   "gap": 70.5,
+   "expect": [
+    null,
+    null
+   ],
+   "align": "left",
+   "x": 70
+  },
+  {
+   "type": "text",
+   "text": "TRI-AXLE",
+   "series": "D",
+   "height": 80,
+   "top": 600,
+   "expect": 435,
+   "align": "left",
+   "x": 70
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "8",
+     "series": "D",
+     "height": 80
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 70
+    }
+   ],
+   "top": 340,
+   "gap": 30,
+   "expect": null,
+   "align": "right",
+   "x": 1130
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "10",
+     "series": "D",
+     "height": 80
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 70
+    }
+   ],
+   "top": 470,
+   "gap": 30,
+   "expect": null,
+   "align": "right",
+   "x": 1130
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "15",
+     "series": "D",
+     "height": 80
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 70
+    }
+   ],
+   "top": 600,
+   "gap": 30,
+   "expect": null,
+   "align": "right",
+   "x": 1130
+  }
+ ],
+ "notes": "1200 x 750, R50, 10 white edge, 30 border. Stack 70/80D/50/60D/80/80/50/80/50/80/70. Drawing gives only whole-line widths: BRIDGE LOAD LIMIT 1029 (word gaps derived = (1029-871.8)/2 = 78.6), (PER AXLE GROUP) 690 (derived gaps 26.2 - small; font parentheses may differ from AS 1744), SINGLE AXLE 670 (gap 60.9), TANDEM AXLE 730 (gap 70.5), TRI-AXLE 435 (font 528 - MISMATCH, see report). Tonnage numerals 80 D (8/10/15 shown; vary) with t 70 Emod right-aligned at 1130 (70 margin); numeral-to-t gap is NOT dimensioned on the drawing - 30 used (as R6-3); runs on a shared baseline."
+}

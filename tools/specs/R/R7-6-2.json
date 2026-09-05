@@ -1,0 +1,30 @@
+{
+ "code": "R7-6-2",
+ "name": "KERB_LANE_WHITE_WIDE",
+ "legend": "KERB LANE",
+ "shape": "rect",
+ "size": [
+  1400,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "KERB",
+    "LANE"
+   ],
+   "series": "C",
+   "height": 200,
+   "top": 100,
+   "gap": 115,
+   "expect": [
+    541,
+    528
+   ]
+  }
+ ],
+ "notes": "1400 x 400, R25, no border. 108|541|115|528|108."
+}

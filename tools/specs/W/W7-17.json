@@ -1,0 +1,51 @@
+{
+ "code": "W7-17",
+ "name": "T_JUNCTION_RAILWAY_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-17_t_junction_rail",
+   "x": 190.33,
+   "y": 300.33,
+   "w": 680.0,
+   "h": 490,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "w7-17_t_junction_rail": {
+   "source": "W7-17(L)",
+   "desc": "T junction (bar 125, stem 125 x 380) with a vertical track 475 tall (rails 110/60, sleepers 150 wide at 30/45) and a 100 square; 680 wide",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    73,
+    500,
+    522
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims for (L). Sign dims: left edge 340 left of centre (680 wide, centred), T stem bottom 260 below centre. Height 475 (inset) taken as the overall height with the bottom at 790.33; the illustration measures ~486 tall (top ~301), a 10 mm discrepancy with the inset. QA: box height 490 (illustration: track top 230 above centre, bottom level with the T stem 260 below) so the T keeps its stated size; the inset's 475 (+15 at the bottom) does not match the illustration."
+}

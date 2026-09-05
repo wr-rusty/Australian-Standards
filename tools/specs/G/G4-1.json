@@ -1,0 +1,147 @@
+{
+ "code": "G4-1",
+ "name": "A53_MIDLAND_HWY_HAWKER_TORONTO_MT_MARTIN_GREEN",
+ "legend": "A53 MIDLAND HWY / Hawker 16 / (Toronto 58) / Mt Martin 106",
+ "shape": "rect",
+ "size": [
+  2100,
+  1200
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A53",
+   "series": "E",
+   "height": 140,
+   "top": 150,
+   "align": "left",
+   "x": 167,
+   "colour": "yellow",
+   "expect": 407
+  },
+  {
+   "type": "panel",
+   "x": 754,
+   "y": 100,
+   "w": 1180,
+   "h": 240,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 160,
+   "cx": 1344,
+   "colour": "black",
+   "words": [
+    "MIDLAND",
+    "HWY"
+   ],
+   "gap": 71,
+   "expect_total": 1060
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 140,
+   "top": 415,
+   "align": "left",
+   "x": 220,
+   "colour": "white",
+   "expect": 794
+  },
+  {
+   "type": "text",
+   "text": "16",
+   "series": "Emod",
+   "height": 140,
+   "top": 415,
+   "align": "right",
+   "x": 1880,
+   "colour": "white",
+   "expect": 191
+  },
+  {
+   "type": "text",
+   "text": "(",
+   "series": "Emod",
+   "height": 140,
+   "top": 660,
+   "align": "left",
+   "x": 135,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Toronto",
+   "series": "Emod",
+   "height": 140,
+   "top": 660,
+   "align": "left",
+   "x": 220,
+   "colour": "white",
+   "expect": 828
+  },
+  {
+   "type": "text",
+   "text": "58",
+   "series": "Emod",
+   "height": 140,
+   "top": 660,
+   "align": "right",
+   "x": 1880,
+   "colour": "white",
+   "expect": 258
+  },
+  {
+   "type": "text",
+   "text": ")",
+   "series": "Emod",
+   "height": 140,
+   "top": 660,
+   "align": "right",
+   "x": 1965,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "Mt",
+    "Martin"
+   ],
+   "gap": 110,
+   "series": "Emod",
+   "height": 140,
+   "top": 905,
+   "align": "left",
+   "x": 220,
+   "colour": "white",
+   "expect_total": 1041
+  },
+  {
+   "type": "text",
+   "text": "106",
+   "series": "Emod",
+   "height": 140,
+   "top": 905,
+   "align": "right",
+   "x": 1880,
+   "colour": "white",
+   "expect": 337
+  }
+ ],
+ "notes": "2100x1200 R100, green edge 20 + white border 20. A53 140 E baseline 290 (top 150); road-name panel 240 high at y 100; Hawker/16 baseline 555; (Toronto 58) baseline 800; Mt Martin/106 baseline 1045; 155 bottom margin. Distances right-aligned at x 1880 (220 from the right). Parentheses: chain 135|85|828|574|258|85|135 = 2100, so '(' occupies x 135-220 and ')' 1880-1965; they are placed as separate glyphs because the font's parenthesis spacing does not give the drawing's 85. 'Mt Martin' word gap 110 derived from the 1041 total (Mt 235 + Martin 696). 282* = minimum gap >= destination text height. INCONSISTENCIES: panel width appears as 1233 (detail heading), 1243 (upper chain, which then sums to 2163) and 60|1060|60 = 1180; 1180 satisfies the chain (167+407+180+1180+166 = 2100) and is used; MIDLAND HWY 120 D at AS 1744 letter spacing is MIDLAND 672 + HWY 317; the panel detail's 60|1060|60 is met by deriving the word gap as 71 (1060 total) instead of the font's 120 word space (the drawing's road-name panels consistently use the narrower word gap, cf. G1-4)."
+}

@@ -1,0 +1,51 @@
+{
+ "code": "R4-1",
+ "name": "{speed}_SPEED_SIGN",
+ "legend": "{speed}",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 400,
+   "r_outer": 297,
+   "r_inner": 237,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 240,
+   "top": 280,
+   "colour": "black"
+  }
+ ],
+ "notes": "Annulus R297/R237 centred (300,400). Numerals 240 D for 1-2 digits and 110/115, 240 C for other 3 digits; centred by eye = centred on ink. AS 1744 spacing (plus0)."
+}

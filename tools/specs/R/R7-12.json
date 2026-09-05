@@ -1,0 +1,53 @@
+{
+ "code": "R7-12",
+ "name": "300_m_AHEAD_WHITE_LONG",
+ "legend": "300 m AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "E",
+     "height": 80
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 50
+    }
+   ],
+   "top": 87,
+   "gap": 37,
+   "expect": [
+    null,
+    73
+   ]
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 80,
+   "top": 247,
+   "expect": 409
+  }
+ ],
+ "notes": "R7-12C (600 x 400) illustrated. 8 white edge, 16 border. Stack 87/80E/80/80E/73. Drawing gives m = 73 wide but 50 Emod gives 55 (73 corresponds to about 66 Emod) - stated 50 Emod kept. Distance numerals 80 E 'Various' (300 shown; varies), 37 gap, m 50 Emod width 73, group centred (runs, shared baseline).",
+ "accepted_drawing_discrepancy": "drawing gives m = 73 wide at 50 Emod; font gives 55, 73 corresponds to Emod 66; stated 50 kept \u2014 width check fails, routed to intervene"
+}

@@ -1,0 +1,26 @@
+{
+ "code": "G7-3-4",
+ "name": "FIRST_AID_FUEL_CARAVAN_RESTAURANT_LEFT_ARROW_BLUE_TALL",
+ "legend": "symbols left arrow",
+ "shape": "rect",
+ "size": [1000, 1400],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {"colour": "blue", "width": 20},
+ "border": {"colour": "white", "width": 20},
+ "symbols": {
+   "g7_first_aid": {"source": "G7-3-4", "desc": "first aid / medical cross symbol in a 350x350 box; artwork not dimensioned", "grid_mm": null, "invert": true, "inset": 0},
+   "g7_fuel": {"source": "G7-3-4", "desc": "fuel (petrol pump) symbol in a 350x350 box; artwork not dimensioned", "grid_mm": null, "invert": true, "inset": 0},
+   "g7_caravan": {"source": "G7-3-4", "desc": "caravan park symbol in a 350x350 box; artwork not dimensioned", "grid_mm": null, "invert": true, "inset": 0},
+   "g7_cutlery": {"source": "G7-3-4", "desc": "restaurant (spoon and fork) symbol in a 350x350 box (280 wide on G7-4-3/G7-8-2); artwork not dimensioned", "grid_mm": null, "invert": true, "inset": 0},
+   "g1-2_arrow_left": {"source": "G1-2", "desc": "block arrow pointing left: 251 long (shaft 108 + head 143), head 220, shaft 77/62, barbs 15, R8; scaled to 350 long here", "grid_mm": null}
+ },
+ "elements": [
+  {"type": "symbol", "id": "g7_first_aid", "x": 145, "y": 141, "w": 290, "h": 289.5, "colour": "white"},
+  {"type": "symbol", "id": "g7_fuel", "x": 554.5, "y": 144.5, "w": 297, "h": 282.5, "colour": "white"},
+  {"type": "symbol", "id": "g7_caravan", "x": 137.5, "y": 593.5, "w": 339, "h": 222.5, "colour": "white"},
+  {"type": "symbol", "id": "g7_cutlery", "x": 634, "y": 560.5, "w": 225, "h": 293, "colour": "white"},
+  {"type": "symbol", "id": "g1-2_arrow_left", "x": 325, "y": 966, "w": 350, "h": 308, "colour": "white"}
+ ],
+ "notes": "G7-3-4A (Illust.) 1000x1400 R100, 40/20 border. Symbol boxes 115|350|70|350|115 at y 110 and 530 (right chain 110|350|70|350|240|280). Left arrow 350 long centred (325|350|325) on the centreline y 1120 (240 below the lower boxes, 280 above the bottom); its height is not stated - 308 used, i.e. the 251x220 block arrow scaled to 350 long (UNDIMENSIONED). The upper chain 115|420|70|280|115 could not be tied to the symbols (the 350 boxes match the second chain) and is not used. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal 350 squares at (115,110), (535,110), (115,530), (535,530)."
+}

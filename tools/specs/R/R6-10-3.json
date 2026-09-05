@@ -1,0 +1,70 @@
+{
+ "code": "R6-10-3",
+ "name": "NO_BICYCLES_WHITE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     110.54,
+     75.19
+    ],
+    [
+     524.81,
+     489.46
+    ],
+    [
+     489.46,
+     524.81
+    ],
+    [
+     75.19,
+     110.54
+    ]
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r6-10-3_bicycle",
+   "x": 80,
+   "y": 128,
+   "w": 440,
+   "h": 294,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "r6-10-3_bicycle": {
+   "source": "R6-10-3",
+   "desc": "bicycle, side view, facing left",
+   "grid_mm": 30,
+   "panel_px": [
+    204,
+    99,
+    401,
+    297
+   ],
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "notes": "R6-10-3B (600 x 600) illustrated. Annulus R294/R244, 50 bar at 45 deg. Bicycle 440 wide, 172 above and 122 below the centreline (y 128-422). Tracer: no border ring, panel_px from the red annulus pixel bbox plus its stated margin; only the black layer traced (annulus and bar drawn by the spec)."
+}

@@ -1,0 +1,63 @@
+{
+ "code": "R2-9(R)",
+ "name": "RIGHT_LANE_MUST_TURN_RIGHT_WHITE_TALL",
+ "legend": "RIGHT LANE MUST TURN RIGHT",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "E",
+   "height": 80,
+   "top": 75,
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 80,
+   "top": 205,
+   "expect": 307
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "E",
+   "height": 80,
+   "top": 335,
+   "expect": 310
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 80,
+   "top": 465,
+   "expect": 305
+  },
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "E",
+   "height": 80,
+   "top": 595,
+   "expect": 335
+  }
+ ],
+ "notes": "Both hands in R2-9(L).png; text differs so two specs. Five lines 80 E, 75 top, 50 between, 75 bottom. Drawing left/right dims give centres 220.5-230 (0-5 off centre, varying line to line); treated as drafting rounding, all centred."
+}

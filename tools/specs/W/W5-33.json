@@ -1,0 +1,40 @@
+{
+ "code": "W5-33",
+ "name": "SLOW_POINT_YELLOW_DIAMOND",
+ "legend": "SLOW POINT",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SLOW",
+   "series": "D",
+   "height": 150,
+   "top": 336.33,
+   "expect": 500,
+   "cx": 519.73
+  },
+  {
+   "type": "text",
+   "text": "POINT",
+   "series": "D",
+   "height": 150,
+   "top": 561.33,
+   "expect": 539
+  }
+ ],
+ "notes": "Diamond 750 (Illust. B; only 600 and 750 sizes). Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 150 D / 75 / 150 D; POINT top 31 below the centreline (dim 31, confirmed on the illustration). SLOW bottom dims 249 | 500 | 270 -> cx 519.73; POINT centred (= dims)."
+}

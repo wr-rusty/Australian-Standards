@@ -1,0 +1,46 @@
+{
+ "code": "W5-54",
+ "name": "MOTORCYCLE_SLIPPERY_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-54_motorcycle_slippery",
+   "x": 294.33,
+   "y": 142.33,
+   "w": 472.0,
+   "h": 660.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-54_motorcycle_slippery": {
+   "source": "W5-54",
+   "desc": "skidding motorcycle with skid marks, 472 x 660",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    530,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Symbol 472 x 660 (inset); 236 left/right of centre, top 388 above / bottom 272 below centre."
+}

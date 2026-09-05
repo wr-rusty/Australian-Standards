@@ -1,0 +1,111 @@
+{
+ "code": "G11-7",
+ "name": "HISTORICAL_MARKER_BURKES_TREE_TURN_LEFT_300_m_BROWN_LONG",
+ "legend": "HISTORICAL MARKER BURKES TREE TURN LEFT 300 m",
+ "shape": "rect",
+ "size": [
+  2300,
+  1100
+ ],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 135,
+   "colour": "white",
+   "text": "HISTORICAL",
+   "align": "left",
+   "x": 206,
+   "expect": 1031
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 135,
+   "colour": "white",
+   "text": "MARKER",
+   "align": "left",
+   "x": 1377,
+   "expect": 717
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 365,
+   "colour": "white",
+   "text": "BURKES",
+   "align": "left",
+   "x": 527,
+   "expect": 686
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 365,
+   "colour": "white",
+   "text": "TREE",
+   "align": "left",
+   "x": 1348,
+   "expect": 425
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 595,
+   "colour": "white",
+   "text": "TURN",
+   "align": "left",
+   "x": 653,
+   "expect": 452
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 595,
+   "colour": "white",
+   "text": "LEFT",
+   "align": "left",
+   "x": 1245,
+   "expect": 402
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 825,
+   "colour": "white",
+   "expect": [
+    null,
+    131
+   ]
+  }
+ ],
+ "notes": "20 brown edge + 20 white border (40 | 20). Stack 135|140D|90|140D|90|140D|90|140|135 (the 90 above the numeral line is not labelled but required by the total). HISTORICAL MARKER 206|1031|140|717|206; BURKES TREE 527|(686)|(135)|(425)|527; TURN LEFT 653|452|140|402|653. Numeral line centred as a group (=|Varies|70|131|=): 300 140 D (vary), m 120 Emod baseline-aligned (top 845); x from the font width - not stated. QA: the 300 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require."
+}

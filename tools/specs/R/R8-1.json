@@ -1,0 +1,47 @@
+{
+ "code": "R8-1",
+ "name": "BICYCLES_ONLY_WHITE_TALL",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-4_bicycle",
+   "x": 70,
+   "y": 120,
+   "w": 460,
+   "h": 305,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 160,
+   "top": 520,
+   "expect": 444
+  }
+ ],
+ "notes": "R8-1C (600 x 800) illustrated. Bicycle 460 x 305 at (70,120) (same as R7-1-4); 95 gap; ONLY 160 C top 520; 120 bottom.",
+ "symbols": {
+  "r7-1-4_bicycle": {
+   "source": "R7-1-4",
+   "desc": "bicycle, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

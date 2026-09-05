@@ -1,0 +1,152 @@
+{
+ "code": "R5-1_R5-35_Example_1",
+ "name": "1P_9AM_12NOON_SAT_NO_STANDING_LONG",
+ "legend": "1P 9AM - 12NOON SAT | (no standing)",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 20,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "text": "1",
+   "series": "E",
+   "height": 100,
+   "top": 20,
+   "expect": 30,
+   "colour": "green",
+   "align": "left",
+   "x": 50
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 20,
+   "expect": 80,
+   "colour": "green",
+   "align": "left",
+   "x": 95
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 144,
+   "expect": 41,
+   "colour": "green",
+   "align": "left",
+   "x": 33
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 179,
+   "expect": 32,
+   "colour": "green",
+   "align": "left",
+   "x": 74
+  },
+  {
+   "type": "rect",
+   "x": 116,
+   "y": 164.71,
+   "w": 20,
+   "h": 8.59,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "12",
+   "series": "E",
+   "height": 35,
+   "top": 144,
+   "expect": 48,
+   "colour": "green",
+   "align": "left",
+   "x": 145
+  },
+  {
+   "type": "text",
+   "text": "NOON",
+   "series": "E",
+   "height": 12,
+   "top": 182,
+   "expect": 47,
+   "colour": "green",
+   "align": "left",
+   "x": 145
+  },
+  {
+   "type": "text",
+   "text": "SAT",
+   "series": "D",
+   "height": 27,
+   "top": 204,
+   "expect": 62,
+   "colour": "green",
+   "align": "left",
+   "x": 81
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_left",
+   "x": 50,
+   "y": 255,
+   "w": 125,
+   "h": 32,
+   "colour": "green"
+  },
+  {
+   "type": "rect",
+   "x": 222.5,
+   "y": 0,
+   "w": 5,
+   "h": 300,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r5-35_no_standing_140",
+   "x": 268,
+   "y": 55,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_right",
+   "x": 275,
+   "y": 255,
+   "w": 125,
+   "h": 32,
+   "colour": "red"
+  }
+ ],
+ "notes": "Example assembly R5-1 (L.H panel, green) + R5-35 (R.H panel), 450 x 300 R20, black dividing line 5 at x 225 - fully dimensioned so transcribed. Left: 1P 100 E top 20 at 50|30|15|80; 9AM - 12NOON top 144 (20+100+24), 159 block at 33: 41|42|20|9|47 with AM 32 wide after the 9 and 12 (35 E) / NOON (12 E, baseline 194) 48/47 wide at 145; SAT 27 D top 204 (81|62|82); arrow top 265 (drawing: 24+32+13 after SAT). Right: roundel top 55, 43 from centre; arrow top 255 (60 below roundel).",
+ "symbols": {
+  "r5_arrow_left": {
+   "source": "R5-16",
+   "desc": "open-chevron arrow pointing left 125 long x 32 high, shaft 12, head 42 long, barb thickness 12 (R5-1 grid: 22/21 barb dims)",
+   "grid_mm": 15
+  },
+  "r5-35_no_standing_140": {
+   "source": "R5-36",
+   "desc": "no-standing roundel 140 dia: red annulus R70/R58, black S 95 E, red slash 12 wide at 65 deg from horizontal (upper-right to lower-left) with white halo where it crosses the S",
+   "grid_mm": 25
+  },
+  "r5_arrow_right": {
+   "source": "R5-36",
+   "desc": "open-chevron arrow pointing right 125 long x 32 high, shaft 12, head 42 long, barb thickness 12",
+   "grid_mm": 25
+  }
+ }
+}

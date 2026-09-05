@@ -1,0 +1,63 @@
+{
+ "code": "G9-68",
+ "name": "EMERGENCY_EXIT_PUSH_GATE_WHITE_LONG",
+ "legend": "EMERGENCY EXIT PUSH GATE",
+ "shape": "rect",
+ "size": [
+  400,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "C",
+   "height": 50,
+   "top": 40,
+   "colour": "black",
+   "text": "EMERGENCY",
+   "expect": 325
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 50,
+   "top": 130,
+   "colour": "black",
+   "text": "EXIT",
+   "expect": 106
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 35,
+   "top": 225,
+   "colour": "black",
+   "text": "PUSH",
+   "align": "left",
+   "x": 76,
+   "expect": 113
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 35,
+   "top": 225,
+   "colour": "black",
+   "text": "GATE",
+   "align": "left",
+   "x": 214,
+   "expect": 109
+  }
+ ],
+ "notes": "5 white edge + 10 black border (15). Stack 40|50C|40|50C|45|35D|40. 37|325|38, 147|106|147, 76|113|25|109|77."
+}

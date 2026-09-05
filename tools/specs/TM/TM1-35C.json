@@ -1,0 +1,50 @@
+{
+ "code": "TM1-35C",
+ "name": "STOP_HERE_WHEN_REDIRECTED_WHITE_LONG",
+ "legend": "STOP HERE WHEN REDIRECTED",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "STOP",
+    "HERE"
+   ],
+   "series": "D",
+   "height": 150,
+   "top": 118,
+   "gap": 110,
+   "expect": [
+    468,
+    478
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "REDIRECTED"
+   ],
+   "series": "B",
+   "height": 128,
+   "top": 352,
+   "gap": 69,
+   "expect": [
+    308,
+    670
+   ],
+   "colour": "red"
+  }
+ ],
+ "notes": "Drawing labels STOP HERE 150 C but the widths 468/478 are Series D (150 C = 395/405; STOP 100 D = 312 on TM1-18A); D used."
+}

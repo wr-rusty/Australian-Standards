@@ -1,0 +1,41 @@
+{
+ "code": "W8-8",
+ "name": "WHEN_FROSTY_YELLOW",
+ "legend": "WHEN FROSTY",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "D",
+   "height": 125,
+   "top": 94.0,
+   "expect": 429,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "FROSTY",
+   "series": "D",
+   "height": 125,
+   "top": 281.0,
+   "expect": 595,
+   "cx": 382.5
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. 125 D / 62 / 125 D, tops 94 and 281. WHEN 160 | 429 | 161 -> cx 374.5; FROSTY 85 | 595 | 70 -> cx 382.5."
+}

@@ -1,0 +1,32 @@
+{
+ "code": "W4-5",
+ "name": "ISLAND_YELLOW_DIAMOND",
+ "legend": "ISLAND",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ISLAND",
+   "series": "D",
+   "height": 150,
+   "top": 455.33,
+   "expect": 669,
+   "colour": "black"
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). ISLAND 150 D centred on the horizontal centreline (150 D bracket straddles it), 669 wide (= | 669 | =)."
+}

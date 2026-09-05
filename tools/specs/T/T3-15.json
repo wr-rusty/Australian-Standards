@@ -1,0 +1,51 @@
+{
+ "code": "T3-15",
+ "name": "ROUGH_SURFACE_BICYCLE_YELLOW_LONG",
+ "legend": "ROUGH SURFACE",
+ "shape": "rect",
+ "size": [
+  600,
+  450
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROUGH",
+   "series": "E",
+   "height": 70,
+   "top": 50,
+   "expect": 346
+  },
+  {
+   "type": "text",
+   "text": "SURFACE",
+   "series": "E",
+   "height": 65,
+   "top": 160,
+   "expect": 446
+  },
+  {
+   "type": "symbol",
+   "id": "t3-15_bicycle",
+   "x": 190,
+   "y": 254,
+   "w": 220,
+   "h": 146,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "t3-15_bicycle": {
+   "source": "T3-15",
+   "desc": "bicycle side view",
+   "grid_mm": 30
+  }
+ },
+ "notes": "Top dimension chains: outer 77 | 446 | 77 belongs to SURFACE (65 E = 447), inner 127 | 346 | 127 to ROUGH (70 E = 346). Bicycle: 220 wide (190 each side), bottom 50 above the panel bottom. Its height is not stated; measured from the 30 grid inset as about 4.9 squares = 146 (the trace of the 220-wide box gives 147 high), so y = 400-146 = 254 (gap of ~29 below SURFACE, unstated).",
+ "intervene": "FIXED the swapped expects (ROUGH 346 / SURFACE 446 \u2014 the drawing's outer chain 77|446|77 is SURFACE, inner 127|346|127 is ROUGH); remaining: the bicycle's height is not dimensioned (only its 220 width and 50 bottom margin), taken from the 30 grid as 146 (trace gives 147)."
+}

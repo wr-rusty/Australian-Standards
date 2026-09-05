@@ -1,0 +1,42 @@
+{
+ "code": "RM2-14A(L)",
+ "name": "LEFT_TURN_ONLY_WHITE_SQUARE",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "rm2-14a_curve_arrow_left",
+   "x": 154,
+   "y": 75,
+   "w": 292,
+   "h": 309,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 90,
+   "top": 444,
+   "expect": 358
+  }
+ ],
+ "symbols": {
+  "rm2-14a_curve_arrow_left": {
+   "source": "RM2-14A(L)",
+   "desc": "curved block arrow turning up-left",
+   "grid_mm": 50
+  }
+ },
+ "notes": "RM2-14A(L) 600 x 600, 25 black border, square corners (no radius shown). Arrow 292 x 309 at (154,75); vertical string 75/309/60/90E/75 sums to 609 (not 600) - placed from the top (ONLY top 444), leaving 66 at the bottom. ONLY 121|358|121."
+}

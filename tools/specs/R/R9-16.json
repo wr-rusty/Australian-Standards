@@ -1,0 +1,39 @@
+{
+ "code": "R9-16",
+ "name": "SERVICE_ROAD_WHITE_LONG",
+ "legend": "SERVICE ROAD",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SERVICE",
+   "series": "D",
+   "height": 100,
+   "top": 75,
+   "expect": 521
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 225,
+   "expect": 335
+  }
+ ],
+ "notes": "R9-16B (600 x 400) illustrated. Stack 75/100D/50/100D/75."
+}

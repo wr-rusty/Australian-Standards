@@ -1,0 +1,51 @@
+{
+ "code": "W5-34",
+ "name": "MERGING_TRAFFIC_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-34_merge_arrow",
+   "x": 300.33,
+   "y": 170.33,
+   "w": 367.5,
+   "h": 680.0,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "w5-34_merge_arrow": {
+   "source": "W5-34(L)",
+   "desc": "up arrow (head 275 x 219, shaft 95) with a 45-degree branch joining from the lower left (R252 curve, branch 95 wide, 163 straight)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    68,
+    74,
+    516,
+    522
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims given for (L). Sign dims: shaft right edge 47.5 right of centre (shaft 95 centred), branch left tip 277.5 left of the shaft right edge -> left edge 230 left of centre; bottom 320 below centre. Head 275 wide centred on the shaft -> right extent 137.5 -> w 367.5; h 219 + 461 = 680 (inset)."
+}

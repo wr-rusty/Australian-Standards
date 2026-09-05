@@ -1,0 +1,32 @@
+{
+ "code": "W5-56",
+ "name": "WILDLIFE_YELLOW_DIAMOND",
+ "legend": "WILDLIFE",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WILDLIFE",
+   "series": "C",
+   "height": 150,
+   "top": 455.33,
+   "expect": 669
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. WILDLIFE 150 C centred vertically and horizontally (= dims). Drawing inconsistency: the stated width 669 does not match 150 C at AS 1744 spacing (726) nor the drawing's own illustration (~721 measured); series/height kept as labelled, width mismatch left as flagged.",
+ "accepted_drawing_discrepancy": "stated WILDLIFE width 669 vs 150 C = 726, illustration ~721; series kept, width check fails; intervene set"
+}

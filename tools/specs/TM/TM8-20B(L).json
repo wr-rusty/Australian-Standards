@@ -1,0 +1,57 @@
+{
+ "code": "TM8-20B(L)",
+ "name": "ACCESS_LEFT_YELLOW_LONG_SKINNY",
+ "legend": "ACCESS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 134,
+   "y": 50,
+   "w": 168,
+   "h": 200
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-19c_wheelchair",
+   "x": 357,
+   "y": 0,
+   "w": 188,
+   "h": 300
+  },
+  {
+   "type": "text",
+   "text": "ACCESS",
+   "series": "D",
+   "height": 100,
+   "top": 100,
+   "expect": 494,
+   "align": "left",
+   "x": 576
+  }
+ ],
+ "symbols": {
+  "tm8-2b_arrow": {
+   "source": "TM8-2B(L)",
+   "desc": "horizontal block arrow pointing left (166 wide x 145 high on TM8-2B)",
+   "grid_mm": 50
+  },
+  "tm8-19c_wheelchair": {
+   "source": "TM8-19C(L)",
+   "desc": "wheelchair access symbol facing right (188 x 215)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "DRAWING INCONSISTENCY: ACCESS is labelled 100 C but its stated width 494 is the 100 D width (C = 413) and TM8-19C labels the same 494-wide ACCESS as 100 D; D used. DRAWING INCONSISTENCY: the overall height is labelled 600 but every vertical dimension sums to 300 (150 | 150 and 100 | 100 C | 100) and the drawn proportion is 4:1, so 1200 x 300 is used. Row 134 | arrow 168 | 55 | wheelchair 188 | 31 | ACCESS 494 | 130. Arrow centreline y 150 (150 | 150), height not dimensioned (bbox 200 high so width governs). Wheelchair height/vertical position not dimensioned: bbox full height so its stated width 188 governs and it sits centred vertically as drawn.",
+ "accepted_drawing_discrepancy": "overall height labelled 600 but every vertical dim sums to 300 and the drawing is 4:1; 1200 x 300 used - needs confirmation (intervene set"
+}

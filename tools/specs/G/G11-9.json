@@ -1,0 +1,220 @@
+{
+ "code": "G11-9",
+ "name": "WHITSUNDAY_SERVICES_BROWN_BLUE_TALL",
+ "legend": "TURN RIGHT 500 m FOR WHITSUNDAY GATEWAY TO BARRIER REEF ISLANDS 26 km FISHING COASTAL SCENERY ISLAND RESORTS",
+ "shape": "rect",
+ "size": [
+  2450,
+  3000
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M0 2320H2450V2900A100 100 0 0 1 2350 3000H100A100 100 0 0 1 0 2900Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M20 2320H2430V2900A80 80 0 0 1 2350 2980H100A80 80 0 0 1 20 2900Z",
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 40,
+   "y": 40,
+   "w": 2370,
+   "h": 1500,
+   "radius": 60,
+   "colour": "brown"
+  },
+  {
+   "type": "panel",
+   "x": 40,
+   "y": 1560,
+   "w": 2370,
+   "h": 740,
+   "radius": 60,
+   "colour": "brown"
+  },
+  {
+   "type": "panel",
+   "x": 40,
+   "y": 2320,
+   "w": 2370,
+   "h": 640,
+   "radius": 60,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "TURN RIGHT 500",
+     "series": "E",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 151.2,
+   "top": 140,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 380,
+   "colour": "white",
+   "text": "FOR"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 620,
+   "colour": "white",
+   "text": "WHITSUNDAY"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 920,
+   "colour": "white",
+   "text": "GATEWAY TO"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 1100,
+   "colour": "white",
+   "text": "BARRIER REEF ISLANDS"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "26",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 135
+    }
+   ],
+   "gap": 172.8,
+   "top": 1280,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 1640,
+   "colour": "white",
+   "text": "FISHING"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 1860,
+   "colour": "white",
+   "text": "COASTAL SCENERY"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 2080,
+   "colour": "white",
+   "text": "ISLAND RESORTS"
+  },
+  {
+   "type": "symbol",
+   "id": "fuel_pump",
+   "x": 294,
+   "y": 2452,
+   "w": 407,
+   "h": 390,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "camping_tent_caravan",
+   "x": 1040,
+   "y": 2452,
+   "w": 253,
+   "h": 403,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "boat_ramp",
+   "x": 1627.5,
+   "y": 2474.5,
+   "w": 524.5,
+   "h": 353.5,
+   "colour": "white"
+  }
+ ],
+ "notes": "20 edge (brown above / blue below) + 20 white border (40 | 20); three panels R60 separated by 20 white lines at y 1540-1560 and 2300-2320 (brown, brown, blue), drawn as sub-panels on a white ground with the blue outer strip below 2320 as a path. Stack: 140|140E|100|140E|100|160E|140|100E|80|100E|80|160|100|20|80|140E|80|140E|80|140E|80|20|75|500|105 = 3000. No horizontal text dimensions are given: every line centred; the mixed lines (TURN RIGHT 500 m: 140 E + 120 Emod; 26 km: 160 E + 135 Emod) use the font word space between the numerals and the unit, and the unit is baseline-aligned - not stated. Symbols 255|500|220|400|220|600|255 at y 2395. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal squares 255|500|220|400|220|600|255 at y 2395 kept in the symbol descs. QA: the TURN RIGHT 500 m line is built as one runs group (gap [151.2]) so the generator centres it as the drawing's = margins require. QA: the 26 km line is built as one runs group (gap [172.8]) so the generator centres it as the drawing's = margins require.",
+ "symbols": {
+  "fuel_pump": {
+   "source": "G11-9",
+   "desc": "fuel pump service symbol (bowser with hose) in a 500 square (corner ticks shown), white on blue; nominal box 500 square at x 255, y 2395",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0,
+   "panel_px": [
+    101,
+    86,
+    642,
+    747
+   ]
+  },
+  "camping_tent_caravan": {
+   "source": "G11-9",
+   "desc": "camping symbol (tent above caravan) in a 400 square, white on blue; nominal box 400 square at x 975, y 2395",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0,
+   "panel_px": [
+    101,
+    86,
+    642,
+    747
+   ]
+  },
+  "boat_ramp": {
+   "source": "G11-9",
+   "desc": "boat ramp symbol (boat on trailer on a ramp) in a 600 square, white on blue; nominal box 600 square at x 1595, y 2395",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0,
+   "panel_px": [
+    101,
+    86,
+    642,
+    747
+   ]
+  }
+ }
+}

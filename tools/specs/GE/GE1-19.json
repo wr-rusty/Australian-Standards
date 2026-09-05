@@ -1,0 +1,247 @@
+{
+ "code": "GE1-19",
+ "name": "M80_RING_ROAD_M3_CITY_SEYMOUR_GEELONG_4_ARROWS_GREEN_WIDE",
+ "legend": "M80 RING ROAD M3 City Seymour Geelong",
+ "shape": "rect",
+ "size": [
+  12720,
+  4375
+ ],
+ "radius": 300,
+ "ground": "white",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     140,
+     140
+    ],
+    [
+     7646,
+     140
+    ],
+    [
+     7646,
+     1000
+    ],
+    [
+     140,
+     1000
+    ]
+   ],
+   "radius": [
+    160,
+    100,
+    100,
+    160
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     7716,
+     140
+    ],
+    [
+     12580,
+     140
+    ],
+    [
+     12580,
+     1000
+    ],
+    [
+     7716,
+     1000
+    ]
+   ],
+   "radius": [
+    100,
+    160,
+    100,
+    100
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     140,
+     1070
+    ],
+    [
+     12580,
+     1070
+    ],
+    [
+     12580,
+     4235
+    ],
+    [
+     140,
+     4235
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    160,
+    160
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "M80",
+   "series": "E",
+   "height": 400,
+   "top": 415,
+   "colour": "yellow",
+   "align": "left",
+   "x": 1344,
+   "expect": 1182
+  },
+  {
+   "type": "panel",
+   "x": 2926,
+   "y": 275,
+   "w": 2700,
+   "h": 450,
+   "radius": 100,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "RING ROAD",
+   "series": "E",
+   "height": 300,
+   "top": 350,
+   "colour": "black",
+   "cx": 4276
+  },
+  {
+   "type": "text",
+   "text": "M3",
+   "series": "E",
+   "height": 400,
+   "top": 415,
+   "colour": "yellow",
+   "align": "left",
+   "x": 8881,
+   "expect": 778
+  },
+  {
+   "type": "text",
+   "text": "City",
+   "series": "Emod",
+   "height": 400,
+   "top": 415,
+   "colour": "white",
+   "align": "left",
+   "x": 10059,
+   "expect": 1256
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_straight_up_2500x530",
+   "x": 11451,
+   "y": 1500,
+   "w": 530,
+   "h": 2500,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_up_and_curve_left_2500x1309",
+   "x": 7162,
+   "y": 1500,
+   "w": 1309,
+   "h": 2500,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_double_curve_up_left_1155",
+   "x": 3600,
+   "y": 2845,
+   "w": 1155,
+   "h": 1155,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_curve_up_left_1004x803",
+   "x": 451,
+   "y": 2996,
+   "w": 803,
+   "h": 1004,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Seymour",
+   "series": "Emod",
+   "height": 400,
+   "top": 1800,
+   "colour": "white",
+   "cx": 5958
+  },
+  {
+   "type": "text",
+   "text": "Geelong",
+   "series": "Emod",
+   "height": 400,
+   "top": 2900,
+   "colour": "white",
+   "cx": 2427
+  }
+ ],
+ "symbols": {
+  "arrow_straight_up_2500x530": {
+   "source": "GE1-19/rotated",
+   "desc": "Long straight arrow 2500 long, head 530 across (as the 1000x528 arrow head with a 2500 overall length).",
+   "grid_mm": null,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "GE1-19 is drawn rotated 90 deg (and not to scale: text and arrows are drawn ~6-30% short vertically): traced from the image rotated -90 (panel px 187,84,904,341, invert, box crop), then the svg viewBox stretched to the dimensioned box. 'source' is written GE1-19/rotated so a --force rerun does not overwrite the trace."
+  },
+  "arrow_up_and_curve_left_2500x1309": {
+   "source": "GE1-19/rotated",
+   "desc": "Straight up arrow 2500 long with a branch curving down-left from the shaft to a second head; overall 1309 wide x 2500 long.",
+   "grid_mm": null,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "GE1-19 is drawn rotated 90 deg (and not to scale: text and arrows are drawn ~6-30% short vertically): traced from the image rotated -90 (panel px 187,84,904,341, invert, box crop), then the svg viewBox stretched to the dimensioned box. 'source' is written GE1-19/rotated so a --force rerun does not overwrite the trace."
+  },
+  "arrow_double_curve_up_left_1155": {
+   "source": "GE1-19/rotated",
+   "desc": "Two parallel curved arrows side by side, both curving from lower right to heads pointing upper-left; overall 1155 x 1155.",
+   "grid_mm": null,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "GE1-19 is drawn rotated 90 deg (and not to scale: text and arrows are drawn ~6-30% short vertically): traced from the image rotated -90 (panel px 187,84,904,341, invert, crop 3600,2100,1155,1900 (the drawn arrow is 1116 x 1747, taller than its 1155 box)), then the svg viewBox stretched to the dimensioned box. 'source' is written GE1-19/rotated so a --force rerun does not overwrite the trace."
+  },
+  "arrow_curve_up_left_1004x803": {
+   "source": "GE1-19/rotated",
+   "desc": "Curved arrow from lower right to a head pointing upper-left; overall 803 wide x 1004 high.",
+   "grid_mm": null,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "GE1-19 is drawn rotated 90 deg (and not to scale: text and arrows are drawn ~6-30% short vertically): traced from the image rotated -90 (panel px 187,84,904,341, invert, crop 680,2940,800,960 (the drawn arrow sits 240 right of its dimensioned box)), then the svg viewBox stretched to the dimensioned box. 'source' is written GE1-19/rotated so a --force rerun does not overwrite the trace."
+  }
+ },
+ "notes": "Drawn rotated 90 degrees; transcribed in the sign's frame. Text row 1000 high (M3/M80 cap top 415, RING ROAD panel 275 | 450 | 275, R100), 70 white divider, arrow row 3305 -> 4375 high. FLAG width: text-side chains give 5004 (1165 | M3 778 | 400 | City 1256 | 1405) + 70 + 7646 (1344 | M80 1182 | 400 | RING ROAD panel 2700 | 2020) = 12720, but the arrow-side chain 739 | 530 | 2980 | 1309 | 2407 | 1155 | 2346 | 803 | 733 sums to 13002; 12720 used and the arrows placed from the right end (left margin comes out 451, not 733). RING ROAD panel length not stated ('Varies' in the detail, 75 | 300 E | 75); 2700 from the chain = 75 + 2548 + 75. Arrow-row chain 430 | 300 | 700 | 1215 | 515 does not close (sums 3160 of 3305): arrows top at 1070+430=1500; Seymour cap top 1800 and Geelong 2900 taken as 430 | 300 | 400 | 700 from the divider; the curved arrows' vertical positions (bottom-aligned at 4000 with the 2500 straight arrows) and the Seymour/Geelong x positions (centred in the gaps between arrows) are NOT dimensioned - taken from the picture. Arrow grid: 2500x530 straight, 2500x1309 combo, 1155x1155 double curve, 1004x803 curve. QA: the text-row chain 415 | 450 panel | 275 sums to 1140 from the top edge, not the 1000 used for the row height (the right-hand '1 000' may be the row's green interior inside the 140 border, which would make the sign 1140 + 70 + 3305 = 4515 high; the drawn picture's proportions, 12720 wide, fit 4515 better than 4375). Not changed: with 4515 the arrow-row chain (430 above the 2500 arrows, 515 below) still does not close either way. Needs a decision.",
+ "intervene": "drawing internally inconsistent: width 12720 vs 13002 arrow chain; text row 1000 vs 415|450|275 = 1140 so the height is 4375 or 4515; arrow-row chain does not close; curved arrows and Seymour/Geelong positions undimensioned - intervene set"
+}

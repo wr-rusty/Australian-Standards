@@ -1,0 +1,33 @@
+{
+ "code": "TM3-13B",
+ "name": "GRAVEL_ROAD_YELLOW_LONG_SKINNY",
+ "legend": "GRAVEL ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "GRAVEL",
+    "ROAD"
+   ],
+   "series": "C",
+   "height": 130,
+   "top": 85,
+   "gap": 71,
+   "expect": [
+    527,
+    358
+   ]
+  }
+ ],
+ "notes": "Drawing reads 122|627|71|358|122 (sum 1300). GRAVEL = 1200-122-122-71-358 = 527 used for expect ('627' is a typo); AS 1744 gives 528."
+}

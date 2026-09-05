@@ -1,0 +1,26 @@
+{
+ "code": "G5-1A",
+ "name": "STANDARD_ST_WHITE_BLADE",
+ "legend": "STANDARD ST",
+ "shape": "rect",
+ "size": [
+  1044,
+  150
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "STANDARD ST",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "align": "left",
+   "x": 100,
+   "colour": "black"
+  }
+ ],
+ "notes": "Street-name blade drawn with a 10-wide strip (double line, '10') along the top and bottom edges whose colour is not stated; not drawn. 150 high, 100 D vertically centred (top 25). Length = 100 (for bracket) + ink 923.6 + 20 min = 1044."
+}

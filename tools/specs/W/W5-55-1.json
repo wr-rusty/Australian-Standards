@@ -1,0 +1,39 @@
+{
+ "code": "W5-55-1",
+ "name": "CONCEALED_DRIVEWAY_YELLOW_DIAMOND",
+ "legend": "CONCEALED DRIVEWAY",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CONCEALED",
+   "series": "C",
+   "height": 110,
+   "top": 400.33,
+   "expect": 694
+  },
+  {
+   "type": "text",
+   "text": "DRIVEWAY",
+   "series": "C",
+   "height": 110,
+   "top": 570.33,
+   "expect": 581
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 110 C / 20 + 40 / 110 C: CONCEALED bottom 20 above the centreline, DRIVEWAY top 40 below. Both centred (= dims)."
+}

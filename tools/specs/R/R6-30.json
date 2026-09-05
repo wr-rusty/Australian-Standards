@@ -1,0 +1,77 @@
+{
+ "code": "R6-30",
+ "name": "MEDIAN_TURNING_LANE_WHITE_TALL",
+ "legend": "MEDIAN TURNING LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  1200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "MEDIAN",
+   "series": "E",
+   "height": 80,
+   "top": 87,
+   "expect": 442
+  },
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "D",
+   "height": 80,
+   "top": 224,
+   "expect": 436
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 80,
+   "top": 361,
+   "expect": 308
+  },
+  {
+   "type": "symbol",
+   "id": "r6-30_curve_arrow_down_left",
+   "x": 165,
+   "y": 503,
+   "w": 270,
+   "h": 274,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r6-30_curve_arrow_up_right",
+   "x": 165,
+   "y": 839,
+   "w": 270,
+   "h": 274,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "r6-30_curve_arrow_down_left": {
+   "source": "R6-30",
+   "desc": "curved block arrow turning down-left (upper arrow); inset dims R185/R126, 75 deg, head 181, R11, 142/13/48",
+   "grid_mm": 60
+  },
+  "r6-30_curve_arrow_up_right": {
+   "source": "R6-30",
+   "desc": "curved block arrow turning up-right (lower arrow), same geometry as the upper arrow rotated 180 deg",
+   "grid_mm": 60
+  }
+ },
+ "notes": "R6-30A illustrated. Stack 87/80E/57/80D/57/80E/62/arrow 274/62/arrow 274/87. Arrow heights 274 are dimensioned; arrow widths and horizontal positions are NOT dimensioned - width read from the 60 grid inset (about 4.5 squares = 270) and centred. See report."
+}

@@ -1,0 +1,32 @@
+{
+ "code": "TM4-6B",
+ "name": "SMOKE_HAZARD_YELLOW_LONG_SKINNY",
+ "legend": "SMOKE HAZARD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "SMOKE",
+    "HAZARD"
+   ],
+   "series": "C",
+   "height": 120,
+   "top": 90,
+   "gap": 68,
+   "expect": [
+    433,
+    497
+   ]
+  }
+ ]
+}

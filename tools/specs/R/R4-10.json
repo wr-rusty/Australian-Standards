@@ -1,0 +1,52 @@
+{
+ "code": "R4-10",
+ "name": "{speed}_AREA_SPEED_SIGN",
+ "legend": "{speed} AREA",
+ "folder": "Speed Signs/Area",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 377,
+   "r_outer": 223,
+   "r_inner": 178,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 180,
+   "top": 287,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 120,
+   "top": 570,
+   "colour": "black",
+   "expect": 407
+  }
+ ],
+ "notes": "Annulus R223/R178 centre (225,377). Numerals 180 D top 287 (Varies). AREA 120 D, 60 above bottom edge."
+}

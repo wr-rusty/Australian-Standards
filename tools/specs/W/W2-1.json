@@ -1,0 +1,46 @@
+{
+ "code": "W2-1",
+ "name": "CROSS_ROAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-1_crossroad",
+   "x": 275.33,
+   "y": 155.33,
+   "w": 510,
+   "h": 690,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-1_crossroad": {
+   "source": "W2-1",
+   "desc": "cross-road symbol: vertical stem 110 wide, crossbar 510 wide x 80 thick, 235 below crossbar; arrowhead 240 tall x 290 wide (R20 barbs), notch 20. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    84,
+    104,
+    533,
+    552
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 375 above centreline, crossbar top on centreline (375 | 80 | 235 chain; pixel check crossbar 0..+80), symbol centred (200 | 55 | 55 | 200). Height 690 from the sign chain. FLAG: inset chain 240 + 155 + 80 + 235 = 710 disagrees by 20 with the sign's 690; sign dims used."
+}

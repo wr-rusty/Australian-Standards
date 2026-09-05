@@ -1,0 +1,58 @@
+{
+ "code": "G2-2(b)",
+ "name": "SMITH_RD_GREEN_WIDE_SKINNY",
+ "legend": "SMITH RD",
+ "shape": "rect",
+ "size": [
+  1850,
+  500
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g1-2_arrow_left": {
+   "source": "G1-2",
+   "desc": "block arrow (G2-2(b) repeats it on a 92.5 grid rotated 45 deg to point up-left): overall 251 (shaft 108 + head 143), head 220 wide, tapered shaft 77/62, barbs sweep back 15, R8 at barb tips",
+   "grid_mm": 92.5
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g1-2_arrow_left",
+   "x": 127.5,
+   "y": 128,
+   "w": 251,
+   "h": 220,
+   "rotate": 45,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 529,
+   "y": 130,
+   "w": 1200,
+   "h": 240,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "SMITH RD",
+   "series": "D",
+   "height": 160,
+   "top": 170,
+   "cx": 1129,
+   "colour": "black"
+  }
+ ],
+ "notes": "1850x500 R100, green edge 20 + white border 20. Road-name panel 240 high (130 top/bottom) with SMITH RD 160 D. INCONSISTENCIES: the panel detail says 1200 wide but also 80|932|80 (=1092) and 80|160 D|80 vertically (=320, not 240); the sign chain 162+207+160+1120+161 = 1810, not 1850. Used: panel 1200 wide (stated twice) at x 529 (162+207+160), text vertically centred (40 margins), text width from AS 1744 (1025, i.e. ~88 side margins). Diagonal (up-left) arrow boxed 207x207 in the drawing (x 162-369, y 147-354): this is the bounding box of the G1-2 251x220 arrow rotated 45 deg (about 204-208), so the drawing is self-consistent. The arrow is placed at its detail size (251x220 box in its native left-pointing orientation) rotated 45 deg about the box centre; because the rotated shape's bounding box is not centred on the arrow's own centre, the box centre is set to (253, 238) so that the rotated arrow occupies the drawing's box (checked by measuring the rendered sign)."
+}

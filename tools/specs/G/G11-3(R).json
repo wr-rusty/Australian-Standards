@@ -1,0 +1,62 @@
+{
+ "code": "G11-3(R)",
+ "name": "HISTORICAL_MARKER_ARROW_RIGHT_BROWN_WIDE_SKINNY",
+ "legend": "HISTORICAL MARKER",
+ "shape": "rect",
+ "size": [
+  2300,
+  400
+ ],
+ "radius": 30,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 140,
+   "colour": "white",
+   "text": "HISTORICAL",
+   "align": "left",
+   "x": 199,
+   "expect": 884
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 140,
+   "colour": "white",
+   "text": "MARKER",
+   "align": "left",
+   "x": 1183,
+   "expect": 615
+  },
+  {
+   "type": "symbol",
+   "id": "g9-51_arrow_diag_up_left",
+   "x": 1898,
+   "y": 99,
+   "w": 203,
+   "h": 203,
+   "colour": "white",
+   "flip": "h"
+  }
+ ],
+ "notes": "G11-3A(R) illustrated 2300 x 400 (B 3000x500 ignored). 10 brown edge + 10 white border. 199|884|100|615|100|203 arrow|199; arrow 99|203|98 (mirrored g9-51 arrow).",
+ "symbols": {
+  "g9-51_arrow_diag_up_left": {
+   "source": "G9-51",
+   "desc": "diagonal block arrow pointing up-left at 45 deg in a 203 square: overall length 219 along the axis, head 140 across, barb step 17, head base 109 (dims along the 45 deg axes: 219, 140, 109, 17), shaft 50 wide, shaft end 68, R10 at the tip and shaft-end corners; grid 50 (115.85 on G11-3)",
+   "grid_mm": 50
+  }
+ }
+}

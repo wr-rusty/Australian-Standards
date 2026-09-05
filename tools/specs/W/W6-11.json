@@ -1,0 +1,46 @@
+{
+ "code": "W6-11",
+ "name": "BICYCLE_SLIPPERY_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w6-11_bicycle_slippery",
+   "x": 180.26,
+   "y": 155.26,
+   "w": 483.0,
+   "h": 453.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w6-11_bicycle_slippery": {
+   "source": "W6-11",
+   "desc": "bicycle with skid marks, 483 x 453",
+   "grid_mm": 30,
+   "panel_px": [
+    126,
+    113,
+    485,
+    471
+   ],
+   "inset": 16.57
+  }
+ },
+ "notes": "Diamond 600 side (Illust. C) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26; grid 30. Symbol 483 x 453 (inset); left 244 / right 239 of centre, top 269 above / bottom 184 below centre."
+}

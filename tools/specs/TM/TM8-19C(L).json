@@ -1,0 +1,75 @@
+{
+ "code": "TM8-19C(L)",
+ "name": "PEDESTRIANS_ACCESS_LEFT_YELLOW_LONG",
+ "legend": "PEDESTRIANS ACCESS",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 118,
+   "y": 50,
+   "w": 168,
+   "h": 200
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "expect": 720,
+   "align": "left",
+   "x": 364
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-19c_wheelchair",
+   "x": 130,
+   "y": 291,
+   "w": 188,
+   "h": 215
+  },
+  {
+   "type": "text",
+   "text": "ACCESS",
+   "series": "D",
+   "height": 100,
+   "top": 350,
+   "expect": 494,
+   "align": "left",
+   "x": 349
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 898,
+   "y": 300,
+   "w": 168,
+   "h": 200,
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "tm8-2b_arrow": {
+   "source": "TM8-2B(L)",
+   "desc": "horizontal block arrow pointing left (166 wide x 145 high on TM8-2B)",
+   "grid_mm": 50
+  },
+  "tm8-19c_wheelchair": {
+   "source": "TM8-19C(L)",
+   "desc": "wheelchair access symbol facing right (188 x 215)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Top row 118 | arrow 168 | 78 | PEDESTRIANS 720 | 117; PEDESTRIANS 100 from top. Bottom row 130 | wheelchair 188 | 31 | ACCESS 494 | 55 | arrow 168 | 134. Wheelchair 215 high, 94 above bottom edge (y 291). ACCESS top 350 (right stack 150 | 200 | 100 D | 150; left stack 100 | 100 C | 200 | 200 puts the arrow centrelines at y 150 and y 400). Arrow heights are not dimensioned: each arrow bbox is 200 high centred on its stated centreline so the stated width (168) governs the scale. Both arrows are the TM8-2B(L) arrow (166 wide there, 168 here); the lower one is flipped to point right."
+}

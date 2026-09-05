@@ -1,0 +1,33 @@
+{
+ "code": "TM3-14A",
+ "name": "LOOSE_SURFACE_YELLOW_SQUARE",
+ "legend": "LOOSE SURFACE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LOOSE",
+   "series": "C",
+   "height": 100,
+   "top": 160,
+   "expect": 338
+  },
+  {
+   "type": "text",
+   "text": "SURFACE",
+   "series": "C",
+   "height": 100,
+   "top": 340,
+   "expect": 484
+  }
+ ]
+}

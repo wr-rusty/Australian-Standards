@@ -1,0 +1,83 @@
+{
+ "code": "G11-2",
+ "name": "MUSEUM_{m}_m_ON_RIGHT_BROWN_LONG",
+ "legend": "MUSEUM {m} m ON RIGHT",
+ "shape": "rect",
+ "size": [
+  1120,
+  900
+ ],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "MUSEUM",
+   "series": "D",
+   "height": 140,
+   "top": 140,
+   "colour": "white",
+   "expect": 730
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{m}",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70,
+   "top": 380,
+   "colour": "white",
+   "expect": [
+    null,
+    131
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RIGHT"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 620,
+   "gap": 105,
+   "colour": "white",
+   "expect": [
+    226,
+    503
+   ]
+  }
+ ],
+ "notes": "20 brown edge + 20 white border (40 | 20). Stack 140|140D|100|140|100|140D|140. MUSEUM 195|730|195. Numeral line '= | Varies | 70 | 131 | =': numeral 140 D varies, m 120 Emod on the same baseline; centred as a group. ON RIGHT 143|226|105|503|143 centred as a group.",
+ "vary": {
+  "key": "m",
+  "values": [
+   50,
+   100,
+   150,
+   200,
+   250,
+   300,
+   400,
+   500
+  ]
+ }
+}

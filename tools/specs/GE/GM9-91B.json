@@ -1,0 +1,36 @@
+{
+ "code": "GM9-91B",
+ "name": "AT_INTERSECTION_WHITE_LONG_SKINNY",
+ "legend": "AT INTERSECTION",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "AT",
+    "INTERSECTION"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "gap": 68,
+   "expect": [
+    121,
+    746
+   ],
+   "align": "left",
+   "x": 133,
+   "colour": "black"
+  }
+ ],
+ "notes": "1200x300, 25 black border. 100 | 100 C | 100. 133 | 121 | 68 | 746 | 132."
+}

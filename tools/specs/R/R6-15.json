@@ -1,0 +1,70 @@
+{
+ "code": "R6-15",
+ "name": "NO_PEDESTRIANS_WHITE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 225,
+   "r_outer": 221,
+   "r_inner": 183,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r6-15_pedestrian",
+   "x": 120,
+   "y": 64,
+   "w": 210,
+   "h": 315,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     76.44,
+     63.72
+    ],
+    [
+     386.28,
+     373.56
+    ],
+    [
+     359.41,
+     400.43
+    ],
+    [
+     49.57,
+     90.59
+    ]
+   ],
+   "colour": "red"
+  }
+ ],
+ "symbols": {
+  "r6-15_pedestrian": {
+   "source": "R6-15",
+   "desc": "walking pedestrian, facing left",
+   "grid_mm": 22.5,
+   "panel_px": [
+    204,
+    126,
+    401,
+    323
+   ],
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "notes": "450 x 450 illustrated (table labels it 'R6-14B (Illust.)' - typo for R6-15B). Annulus R221/R183 (4 from edge, 38 wide). Bar 38 wide at 45 deg top-left to bottom-right, OFF-CENTRE as dimensioned in the grid inset: its lower-left edge is 29 from the 45 deg diagonal through the centre (so its edges lie 29 down-left / 9 up-right of the centre; pixel measurement of the illustration confirms 38.6 wide, centreline 10.5 down-left). Bar ends cut square with the corners on R221 (merge into the annulus); bar drawn over the pedestrian as in the drawing. Pedestrian: height 161 above / 154 below the centreline (315) as dimensioned; the drawing's 75 left / 64 right (139) does not match its own illustration, whose ink spans 152..298 (146 wide, centred on the sign's centreline) - the drawn extent is used, height governing. Tracer: no border ring, panel_px from the red annulus pixel bbox plus its stated 4 margin; only the black layer traced (annulus and bar drawn by the spec); box widened to 120..330 (centred on the drawn ink centre 225) so the small forward-hand piece the bar separates is not dropped as an edge speck; the trace's gap where the bar crosses is covered by the bar drawn on top."
+}

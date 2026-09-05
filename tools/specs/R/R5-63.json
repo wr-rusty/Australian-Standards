@@ -1,0 +1,47 @@
+{
+ "code": "R5-63",
+ "name": "END_2P_AREA_WHITE_SQUARE",
+ "legend": "END 2P AREA",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 150,
+   "top": 80,
+   "expect": 423
+  },
+  {
+   "type": "text",
+   "text": "2P",
+   "series": "E",
+   "height": 300,
+   "top": 300,
+   "expect": 543,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 150,
+   "top": 670
+  }
+ ],
+ "notes": "Illustrated R5-63B 900 x 900, R100, 15 edge, 45 border. END 150 E top 80 (423 wide); 2P 300 E green top 300 (543); AREA 150 E top 670; 80 bottom. All centred ('='). The bottom '543' row is the 2P again (AREA at 150 E is 612 wide and the picture shows it wider than 2P), so AREA has no width check."
+}

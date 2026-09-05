@@ -1,0 +1,108 @@
+{
+ "code": "R8-3",
+ "name": "BICYCLES_PEDESTRIANS_ONLY_ONLY_WHITE_SQUARE",
+ "legend": "ONLY ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "rect",
+   "x": 295,
+   "y": 40,
+   "w": 10,
+   "h": 520,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r8-3_bicycle",
+   "x": 45,
+   "y": 144,
+   "w": 230,
+   "h": 152,
+   "colour": "black",
+   "hand": "L"
+  },
+  {
+   "type": "symbol",
+   "id": "r8-3_pedestrian",
+   "x": 382,
+   "y": 90,
+   "w": 116,
+   "h": 260,
+   "colour": "black",
+   "hand": "L"
+  },
+  {
+   "type": "symbol",
+   "id": "r8-3_bicycle",
+   "x": 45,
+   "y": 144,
+   "w": 230,
+   "h": 152,
+   "colour": "black",
+   "hand": "R",
+   "flip": "h"
+  },
+  {
+   "type": "symbol",
+   "id": "r8-3_pedestrian",
+   "x": 382,
+   "y": 90,
+   "w": 116,
+   "h": 260,
+   "colour": "black",
+   "hand": "R",
+   "flip": "h"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 80,
+   "top": 420,
+   "expect": 222,
+   "cx": 158
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 80,
+   "top": 420,
+   "expect": 222,
+   "cx": 442
+  }
+ ],
+ "symbols": {
+  "r8-3_bicycle": {
+   "source": "R8-3",
+   "desc": "bicycle, side view, facing left",
+   "grid_mm": 30
+  },
+  "r8-3_pedestrian": {
+   "source": "R8-3",
+   "desc": "walking pedestrian, facing left",
+   "grid_mm": 30
+  }
+ },
+ "notes": "R8-3C(L,R) (600 x 600) illustrated; one drawing shows both hands. 10 divider from border to border at x 295-305 (295|10|295). (L): bicycle 230 x 152 at (45,144) left, pedestrian 110 x 260 at (385,90) right; (R): pedestrian at (105,90), bicycle at (325,144) = the (L) boxes mirrored. Symbols face left in both hands: the (R) elements use the (L) boxes with the automatic layout mirror plus flip h (which cancels the facing), so the tracer reads both from the (L) panel. ONLY 80 C top 420 (=144+152+124 = 90+260+70), widths 222 at 47|222|62|222|47 (centres 158 and 442) in both hands. Pedestrian drawn 115 wide in the picture vs 110 dimensioned (fitted to 110). QA: pedestrian dimensioned 110 wide (385..495) but drawn 116 wide (382..497); box set to the drawn extent so the dimensioned 260 height governs the scale."
+}

@@ -1,0 +1,41 @@
+{
+ "code": "G8-10-1",
+ "name": "END_A70_GREEN",
+ "legend": "END A70",
+ "shape": "rect",
+ "size": [
+  750,
+  600
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "colour": "white",
+   "expect": 451
+  },
+  {
+   "type": "text",
+   "text": "A70",
+   "series": "E",
+   "height": 160,
+   "top": 340,
+   "colour": "yellow",
+   "expect": 472
+  }
+ ],
+ "notes": "G8-10-1A (Illust.) 750x600 R100, green edge 20 + white border 20. END baseline 260 (160 E, top 100), A70 baseline 500 (top 340), 100 bottom; both centred (= margins)."
+}

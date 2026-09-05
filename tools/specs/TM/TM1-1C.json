@@ -1,0 +1,35 @@
+{
+ "code": "TM1-1C",
+ "name": "ROADWORK_YELLOW_LONG",
+ "legend": "ROADWORK AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "D",
+   "height": 155,
+   "top": 105,
+   "colour": "black",
+   "expect": 1080
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 155,
+   "top": 345,
+   "colour": "black",
+   "expect": 792
+  }
+ ]
+}

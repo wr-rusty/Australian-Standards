@@ -1,0 +1,34 @@
+{
+ "code": "TM10-12A",
+ "name": "CURVE_LEFT_ARROW_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm10-11a_curve_arrow_right",
+   "x": 107,
+   "y": 95,
+   "w": 386,
+   "h": 410,
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "tm10-11a_curve_arrow_right": {
+   "source": "TM10-11A",
+   "desc": "curved block arrow rising from bottom-left and pointing right (386 x 410)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Same dimensions as TM10-11A (107 | 386 | 107, 95 | 410 | 95); the inset is the mirror image of TM10-11A's, so that symbol is reused flipped."
+}

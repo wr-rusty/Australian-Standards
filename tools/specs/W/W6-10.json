@@ -1,0 +1,46 @@
+{
+ "code": "W6-10",
+ "name": "BICYCLE_GRATE_HAZARD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w6-10_cyclist_grate",
+   "x": 122.26,
+   "y": 269.26,
+   "w": 529.0,
+   "h": 312.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w6-10_cyclist_grate": {
+   "source": "W6-10",
+   "desc": "cyclist thrown over handlebars at a grate, 529 x 312",
+   "grid_mm": 30,
+   "panel_px": [
+    126,
+    113,
+    485,
+    471
+   ],
+   "inset": 16.57
+  }
+ },
+ "notes": "Diamond 600 side (Illust. C) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26; grid 30. Symbol 529 x 312 (inset); left 302 / right 227 of centre, top 155 above / bottom 157 below centre."
+}

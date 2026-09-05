@@ -1,0 +1,12 @@
+{"code":"G2-5","name":"GRANGE_ROAD_COCKFOSTERS_A17_GREEN","legend":"GRANGE ROAD / Cockfosters / A17",
+ "shape":"rect","size":[1700,1110],"radius":100,"ground":"green",
+ "edge":{"colour":"green","width":20},"border":{"colour":"white","width":20},
+ "symbols":{"g1-6_arrow_left_334":{"source":"G1-6","desc":"long horizontal block arrow (G2-5 repeats it on an 85 grid, pointing right): overall 334 (shaft 191 + head 143), head 220 wide, shaft 68, 50 across the head notch, barbs sweep back 19, R8 at head corners","grid_mm":85}},
+ "elements":[
+  {"type":"panel","x":222,"y":130,"w":1257,"h":240,"radius":40,"colour":"white"},
+  {"type":"text","text":"GRANGE ROAD","series":"D","height":120,"top":190,"cx":850.5,"colour":"black","expect":1137},
+  {"type":"text","text":"Cockfosters","series":"Emod","height":160,"top":490,"align":"left","x":122,"colour":"white","expect":1456},
+  {"type":"text","text":"A17","series":"E","height":160,"top":790,"align":"left","x":406,"colour":"yellow","expect":393},
+  {"type":"symbol","id":"g1-6_arrow_left_334","x":959,"y":760,"w":335,"h":220,"flip":"h","colour":"white"}
+ ],
+ "notes":"1700x1110 R100, green edge 20 + white border 20. Panel 1257x240 R40 at x 222, y 130 (GRANGE ROAD 120 D, 60|1137|60). Cockfosters baseline 650 (280 below the panel), x 122-1578. A17 baseline 950 (300 lower), x 406-799; right arrow 335 (detail 334) at x 959-1294 centred on y 870 (240 above the bottom), 220 high."}

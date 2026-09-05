@@ -1,0 +1,234 @@
+{
+ "code": "R5-62",
+ "name": "YOU_ARE_WITHIN_A_PARKING_AREA_2P_WHITE_TALL",
+ "legend": "YOU ARE WITHIN A PARKING AREA 2P 7AM - 6.30PM MON - FRI 7AM - 12NOON SAT EXCEPT AS SIGNED",
+ "shape": "rect",
+ "size": [
+  450,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "YOU",
+    "ARE"
+   ],
+   "series": "E",
+   "height": 50,
+   "top": 45,
+   "gap": 33,
+   "expect": [
+    152,
+    147
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "WITHIN",
+    "A"
+   ],
+   "series": "E",
+   "height": 50,
+   "top": 125,
+   "gap": 34,
+   "expect": [
+    240,
+    51
+   ]
+  },
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "E",
+   "height": 50,
+   "top": 205,
+   "expect": 318
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 50,
+   "top": 285,
+   "expect": 204
+  },
+  {
+   "type": "text",
+   "words": [
+    "2",
+    "P"
+   ],
+   "series": "E",
+   "height": 140,
+   "top": 365,
+   "gap": 28,
+   "expect": [
+    113,
+    113
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 50,
+   "top": 530,
+   "align": "left",
+   "x": 84
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 565,
+   "align": "left",
+   "x": 126.5
+  },
+  {
+   "type": "rect",
+   "x": 215,
+   "y": 550.71,
+   "w": 20,
+   "h": 8.59,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 50,
+   "top": 530,
+   "align": "right",
+   "x": 323
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 530,
+   "align": "right",
+   "x": 366
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 565,
+   "align": "right",
+   "x": 366
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 20,
+   "top": 590,
+   "align": "left",
+   "x": 134
+  },
+  {
+   "type": "rect",
+   "x": 219.5,
+   "y": 598.28,
+   "w": 11,
+   "h": 3.44,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 20,
+   "top": 590,
+   "align": "right",
+   "x": 316
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 50,
+   "top": 630,
+   "align": "left",
+   "x": 84
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 665,
+   "align": "left",
+   "x": 126.5
+  },
+  {
+   "type": "rect",
+   "x": 215,
+   "y": 650.71,
+   "w": 20,
+   "h": 8.59,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "12",
+   "series": "E",
+   "height": 35,
+   "top": 630,
+   "align": "right",
+   "x": 366
+  },
+  {
+   "type": "text",
+   "text": "NOON",
+   "series": "E",
+   "height": 12,
+   "top": 668,
+   "align": "right",
+   "x": 366
+  },
+  {
+   "type": "text",
+   "text": "SAT",
+   "series": "E",
+   "height": 20,
+   "top": 690,
+   "expect": 55
+  },
+  {
+   "type": "text",
+   "words": [
+    "EXCEPT",
+    "AS",
+    "SIGNED"
+   ],
+   "series": "D",
+   "height": 27,
+   "top": 730,
+   "gap": 13,
+   "expect": [
+    121,
+    43,
+    119
+   ]
+  }
+ ],
+ "notes": "R5-62A 450 x 800. Stack 45/50E/30/50E/30/50E/30/50E/30/140E/25/50E/10/20E/20/50E/10/20E/20/27D/43 = 800. Rows matched to lines: YOU ARE 59|152|33|147|59; WITHIN A 62|240|34|51|63; PARKING 66|318|66; AREA 123|204|123; 2P 98|113|28|113|98 (green). Time lines only have overall widths (84|282|84 both; MON - FRI 134|182|134; SAT 198|55|197; EXCEPT AS SIGNED 70|121|13|43|13|119|71 - EXCEPT/SIGNED come out 124/122 at 27 D, 2.6 % over the drawing): inside them the 7 is left-aligned at 84, AM 15 E 2 after the 7's AS 1744 width (40.5) at 126.5 (gap as R5-16), 6/12 with 30/PM or NOON right-aligned at 366, dashes 20 long (11 in the 20 E line) centred in the block; NOT DIMENSIONED - flagged. 30 C top-aligned, AM/PM bottom-aligned, 12 (35 E) / NOON (12 E) with 3 between.",
+ "accepted_drawing_discrepancy": "drawing widths EXCEPT 121 / SIGNED 119 vs 124 / 122 at the labelled 27 D - 2.6 % drawing rounding; intervene set"
+}

@@ -1,0 +1,59 @@
+{
+ "code": "W1-5",
+ "name": "{dir}_WINDING_ROAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-5_winding_road_l",
+   "x": 370.33,
+   "y": 105.33,
+   "w": 320,
+   "h": 800,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-5_winding_road_l": {
+   "source": "W1-5",
+   "desc": "winding-road arrow, left hand (first bend to the left): stem 100 wide centred (50 each side of axis), S-curves outer R130 concentric with inner R30 corners which sit 30 off the axis; levels from bottom 85 / 150 / 180; body 595 from bottom to barb line; arrowhead 205 tall x 280 wide (20+120+120+20, R20 barbs), notch 15, 25 shoulder R30. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    47,
+    94,
+    496,
+    542
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: symbol centred on vertical centreline (arrowhead axis = centreline), bottom 375 below horizontal centreline (stated). Height 800 = 595 + 205. Width 320 NOT stated: derived 2 x (30 + R130) = 320.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

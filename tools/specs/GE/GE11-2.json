@@ -1,0 +1,64 @@
+{
+ "code": "GE11-2",
+ "name": "LIZARD_FARM_USE_HOLLEY_EXIT_BROWN_LONG",
+ "legend": "LIZARD FARM USE HOLLEY EXIT",
+ "shape": "rect",
+ "size": [
+  2800,
+  1360
+ ],
+ "radius": 180,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LIZARD",
+    "FARM"
+   ],
+   "series": "D",
+   "height": 240,
+   "top": 180,
+   "gap": 225,
+   "expect": [
+    1052,
+    792
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "USE",
+   "series": "E",
+   "height": 200,
+   "top": 600,
+   "colour": "white",
+   "expect": 552
+  },
+  {
+   "type": "text",
+   "words": [
+    "HOLLEY",
+    "EXIT"
+   ],
+   "series": "E",
+   "height": 200,
+   "top": 980,
+   "gap": 185,
+   "expect": [
+    1163,
+    612
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "2800x1360 R180; brown 40 / white 40. 180 | 240 D | 180 | 200 E | 180 | 200 E | 180 = 1360. LIZARD FARM 366 | 1052 | 225 | 792 | 365; USE 1124 | 552 | 1124; HOLLEY EXIT 420 | 1163 | 185 | 612 | 420."
+}

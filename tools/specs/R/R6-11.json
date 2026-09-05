@@ -1,0 +1,75 @@
+{
+ "code": "R6-11",
+ "name": "LOW_CLEARANCE_8.8_m_WHITE_WIDE",
+ "legend": "LOW CLEARANCE 8.8 m",
+ "shape": "rect",
+ "size": [
+  1950,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LOW",
+    "CLEARANCE"
+   ],
+   "series": "D",
+   "height": 160,
+   "top": 100,
+   "gap": 89,
+   "expect": [
+    397,
+    1208
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "8",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": ".",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "8",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 140
+    }
+   ],
+   "top": 340,
+   "gap": [
+    28,
+    28,
+    80
+   ],
+   "expect": [
+    null,
+    28,
+    null,
+    153
+   ]
+  }
+ ],
+ "notes": "R6-11 1950 x 600. Clearance numerals 160 E 'Variable' (8.8 shown; varies) with decimal point 28 wide and 28 clear each side (84 between numerals), 80 gap, m 140 Emod width 153; whole group centred (runs 8 | . | 8 | m with gaps 28/28/80, shared baseline). Point is the font's full stop (28.8 wide)."
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM2-47A",
+ "name": "HIGH_VEHICLES_YELLOW_SQUARE",
+ "legend": "HIGH VEHICLES",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "HIGH",
+   "series": "C",
+   "height": 110,
+   "top": 140,
+   "expect": 268
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "B",
+   "height": 110,
+   "top": 350,
+   "expect": 459
+  }
+ ]
+}

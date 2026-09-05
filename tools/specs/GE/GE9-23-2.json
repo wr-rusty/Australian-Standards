@@ -1,0 +1,109 @@
+{
+ "code": "GE9-23-2",
+ "name": "WHITE_CROSS_300_M_GREEN_TALL",
+ "legend": "300 m",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "green",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     53.03,
+     0
+    ],
+    [
+     450,
+     396.97
+    ],
+    [
+     450,
+     450
+    ],
+    [
+     396.97,
+     450
+    ],
+    [
+     0,
+     53.03
+    ]
+   ],
+   "radius": [
+    50,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     450,
+     0
+    ],
+    [
+     450,
+     53.03
+    ],
+    [
+     53.03,
+     450
+    ],
+    [
+     0,
+     450
+    ],
+    [
+     0,
+     396.97
+    ],
+    [
+     396.97,
+     0
+    ]
+   ],
+   "radius": [
+    50,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "gap": 40,
+   "top": 475,
+   "colour": "white"
+  }
+ ],
+ "notes": "Illust. GE9-23-2A 450x600 R50. Cross as GE9-23-1 in the upper 450x450 (bars 75 wide, top corners carry R50). Distance: 100 E numerals (Varies, 300 illustrated) and m 85 Emod on the 575 baseline (25 from the bottom), one centred runs line with the 40 gap. FLAG: the bottom chain reads = | Varies | 40 | 400 | = ; the 400 cannot be the m width (85 Emod m is about 90) and is not used."
+}

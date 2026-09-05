@@ -1,0 +1,51 @@
+{
+ "code": "W2-8",
+ "name": "STAGGERED_SIDE_ROADS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-8_staggered_side_roads_l",
+   "x": 325.33,
+   "y": 155.33,
+   "w": 410,
+   "h": 690,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-8_staggered_side_roads_l": {
+   "source": "W2-8",
+   "desc": "staggered side roads, left hand: stem 110 wide; right arm 150 long x 80 thick with top 75 below barb line; left arm 150 x 80 with top 280 below barb line; 110 below left arm; arrowhead 240 tall x 290 wide (R20 barbs), notch 20; body 150 | 110 | 150 = 410 wide. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    82,
+    77,
+    530,
+    526
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 375 above centreline, then 125 | 80 (left arm) | 110 (sign chain, 690 total); width 410 centred (inset 150|110|150; pixel check 410). FLAG: sign bottom row reads '200 | 55 | 55' (copied from W2-4) but the inset and drawn symbol have 150 arms; inset used. Inset chain 240+280+80+110 = 710 vs sign 690 (same 20 discrepancy as W2-1)."
+}

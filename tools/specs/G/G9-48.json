@@ -1,0 +1,50 @@
+{
+ "code": "G9-48",
+ "name": "LOOK_FOR_TRAINS_WHITE_SQUARE",
+ "legend": "LOOK FOR TRAINS",
+ "shape": "rect",
+ "size": [
+  750,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 125,
+   "top": 100,
+   "colour": "black",
+   "text": "LOOK",
+   "expect": 411
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 125,
+   "top": 312,
+   "colour": "black",
+   "text": "FOR",
+   "expect": 296
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 125,
+   "top": 524,
+   "colour": "black",
+   "text": "TRAINS",
+   "expect": 558
+  }
+ ],
+ "notes": "G9-48B illustrated 750 x 750 (A 600, C 900 ignored). 10 white edge + 20 black border (30). Stack 100|125D|87|125D|87|125D|101. 169|411|170, 227|296|227, 96|558|96."
+}

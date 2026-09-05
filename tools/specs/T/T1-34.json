@@ -1,0 +1,5 @@
+{"code":"T1-34","name":"TRAFFIC_CONTROLLER_ORANGE_LONG","legend":"","shape":"rect","size":[900,600],
+ "ground":"orange","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t1-34_traffic_controller","x":250,"y":50,"w":400,"h":500,"colour":"black"}],
+ "symbols":{"t1-34_traffic_controller":{"source":"T1-34","desc":"traffic controller holding a stop/slow bat","grid_mm":45}},
+ "notes":"T1-34A 900x600 illustrated. Symbol box 250 from each side, 50 top/bottom: 400 x 500. Fluorescent orange ground."}

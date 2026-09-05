@@ -1,0 +1,109 @@
+{
+ "code": "G7-2-3",
+ "name": "PICNIC_BBQ_TOILETS_300M_ON_RIGHT_BLUE",
+ "legend": "300 m ON RIGHT",
+ "shape": "rect",
+ "size": [
+  1500,
+  1000
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g7_picnic": {
+   "source": "G7-1-1",
+   "desc": "picnic area symbol (tree and table) in a 350x350 box on the services signs; artwork not dimensioned (see AS 1742.1 / Appendix B)",
+   "grid_mm": null
+  },
+  "g7_bbq": {
+   "source": "G7-2-3",
+   "desc": "barbecue/fire symbol in a 420x350 box; artwork not dimensioned",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0
+  },
+  "g7_toilets": {
+   "source": "G7-1-2",
+   "desc": "toilets (female/male) symbol in a 350x350 box; artwork not dimensioned",
+   "grid_mm": null
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g7_picnic",
+   "x": 148,
+   "y": 132,
+   "w": 298,
+   "h": 306,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g7_bbq",
+   "x": 576.5,
+   "y": 151,
+   "w": 347,
+   "h": 264,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g7_toilets",
+   "x": 1060.5,
+   "y": 133.5,
+   "w": 287,
+   "h": 287.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70,
+   "top": 530,
+   "colour": "white",
+   "expect": [
+    350,
+    131
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RIGHT"
+   ],
+   "gap": 105,
+   "series": "D",
+   "height": 140,
+   "top": 750,
+   "align": "left",
+   "x": 334,
+   "colour": "white",
+   "expect": [
+    226,
+    501
+   ]
+  }
+ ],
+ "notes": "G7-2-3A (Illust.) 1500x1000 R100, 40/20 border. Symbol boxes 120|350|70|420|70|350|120 at y 110. Right chain 110|350|210|220|110: 300 m baseline 670 (120 Emod m, 140 D numerals), ON RIGHT baseline 890. '300 m' block 350|70|131 centred; ON RIGHT 334|226|105|501|334. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal boxes 350 / 420x350 / 350 at (120,110), (540,110), (1030,110). QA: the 300 m line is built as one runs group (gap 70, the drawing's figure; 300 in 140 D computes 350 against the drawing's 350) so the generator centres it as the drawing's = margins require."
+}

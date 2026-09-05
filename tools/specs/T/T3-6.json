@@ -1,0 +1,4 @@
+{"code":"T3-6","name":"SOFT_EDGES_YELLOW_LONG","legend":"SOFT EDGES","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"SOFT","series":"D","height":160,"top":100,"expect":490},
+             {"type":"text","text":"EDGES","series":"D","height":160,"top":340,"expect":636}]}

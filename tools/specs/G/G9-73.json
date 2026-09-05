@@ -1,0 +1,57 @@
+{
+ "code": "G9-73",
+ "name": "MERGE_RIGHT_ARROW_WHITE_SQUARE",
+ "legend": "MERGE RIGHT",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 150,
+   "top": 130,
+   "colour": "black",
+   "text": "MERGE",
+   "expect": 738
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 150,
+   "top": 390,
+   "colour": "black",
+   "text": "RIGHT",
+   "expect": 629
+  },
+  {
+   "type": "symbol",
+   "id": "g9-73_arrow_right",
+   "x": 195,
+   "y": 660,
+   "w": 510,
+   "h": 150,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing G9-73(R); G9-73A(R) illustrated 900 x 900 (B 1200 ignored). 15 white edge + 30 black border. Stack 130|150E|110|150E|120|150 arrow|90. Width rows 135|629|136 and 81|738|81: 738 belongs to MERGE and 629 to RIGHT (rows drawn in the other order; both centred). Arrow 510 x 150: horizontal position NOT dimensioned - centred (x 195), pixel check agrees.",
+ "symbols": {
+  "g9-73_arrow_right": {
+   "source": "G9-73(R)",
+   "desc": "block arrow pointing right 510 x 150: shaft 369 long x 58 wide, head 141 long x 150 across, barb return 14, notch (head base to shaft) 44, R8 tip and barbs; grid 45",
+   "grid_mm": 45
+  }
+ }
+}

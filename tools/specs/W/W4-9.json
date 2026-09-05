@@ -1,0 +1,50 @@
+{
+ "code": "W4-9",
+ "name": "LEFT_LANE_ENDS_YELLOW_DIAMOND",
+ "legend": "LEFT LANE ENDS",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 120,
+   "top": 285.33,
+   "expect": 413,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 120,
+   "top": 460.33,
+   "expect": 460,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ENDS",
+   "series": "E",
+   "height": 120,
+   "top": 635.33,
+   "expect": 455,
+   "colour": "black"
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Three lines 120 E with 55 gaps; LANE baseline 50 below the horizontal centreline (stated 50) -> tops -245 / -70 / +105. Widths 413 / 460 / 455 (centred)."
+}

@@ -1,0 +1,6 @@
+{"code":"T1-35","name":"STOP_HERE_WHEN_DIRECTED_WHITE_LONG","legend":"STOP HERE WHEN DIRECTED","shape":"rect","size":[900,600],
+ "ground":"white","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","words":["STOP","HERE"],"gap":62.5,"series":"D","height":110,"top":70,"colour":"red"},
+             {"type":"text","text":"WHEN","series":"D","height":110,"top":245,"colour":"red","expect":378},
+             {"type":"text","text":"DIRECTED","series":"D","height":110,"top":420,"colour":"red","expect":657}],
+ "notes":"T1-35A 900x600 illustrated. Red letters, black border, white ground as drawn; the drawing's caption ('Black symbol and border on retroreflective fluorescent orange ground') is a copy-paste error and does not match the drawing. STOP HERE is dimensioned only as a whole (72 | 756 | 72): word gap 62.5 chosen so 110 D STOP (343) + gap + HERE (350) = 756."}

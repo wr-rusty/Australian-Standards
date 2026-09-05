@@ -1,0 +1,49 @@
+{
+ "code": "G9-16",
+ "name": "FORM_2_LANES_WHITE_TALL",
+ "legend": "FORM 2 LANES",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 93,
+   "colour": "black",
+   "text": "FORM",
+   "expect": 398
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 280,
+   "colour": "black",
+   "text": "2"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 587,
+   "colour": "black",
+   "text": "LANES",
+   "expect": 480
+  }
+ ],
+ "notes": "G9-16A illustrated 600 x 800. 10 white edge + 20 black border. Stack 93|120D|67|240E|67|120D|93. Numeral varies (drawn 2), centred (=|Varies|=). LANES 60|480|60."
+}

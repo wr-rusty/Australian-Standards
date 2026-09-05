@@ -1,0 +1,45 @@
+{
+ "code": "GE2-6-2",
+ "name": "EXIT_47_GREEN_ON_WHITE_LONG",
+ "legend": "EXIT 47",
+ "shape": "rect",
+ "size": [
+  2000,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "green",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "EXIT",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": "47",
+     "series": "Emod",
+     "height": 400
+    }
+   ],
+   "gap": 180,
+   "top": 250,
+   "colour": "green",
+   "expect": [
+    612,
+    null
+   ]
+  }
+ ],
+ "notes": "2000x900 R100; white 15 edge outside a 30 green border (15/45). EXIT 200 E baseline 650 (450 | 200 | 250); numerals 400 Emod 250 | 400 | 250 on the same baseline. Horizontal: Varies | EXIT | 180 | numerals | Varies -> one centred runs line (EXIT 612 + 180 + numerals). Numerals vary (47 illustrated)."
+}

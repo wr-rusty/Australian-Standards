@@ -1,0 +1,46 @@
+{
+ "code": "W2-7",
+ "name": "ROUNDABOUT_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-7_roundabout",
+   "x": 212.33,
+   "y": 226.33,
+   "w": 604,
+   "h": 590,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-7_roundabout": {
+   "source": "W2-7",
+   "desc": "roundabout: three clockwise curved arrows on construction circles R312 (outer), R285, R215, R189 (inner); arrowheads with R10 barbs, dims 64 / 55 / 42 / 40 / 57 at the left arrowhead, 2.5 deg offset at the bottom. Symbol viewBox must be the full 624 square about the rotation centre (the artwork does not fill it symmetrically: measured extents -318..+288 x, -304..+286 y).",
+   "grid_mm": 37.5,
+   "panel_px": [
+    58,
+    124,
+    506,
+    572
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Symbol centred on both centrelines (drawing). Box = the R312 construction circle square (624) centred; tracer must use that square as the viewBox so the centre lands on the sign centre. QA: box set to the drawn ink extent about the sign centre (318 left, 286 right, 304 above, 286 below; measured on the illustration) because the tracer's viewBox is the ink extent, not the R312 construction square; the arrows' extents are not dimensioned."
+}

@@ -1,0 +1,41 @@
+{
+ "code": "W8-9",
+ "name": "UNDER_SNOW_YELLOW",
+ "legend": "UNDER SNOW",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "UNDER",
+   "series": "D",
+   "height": 125,
+   "top": 94.0,
+   "expect": 527,
+   "cx": 377.5
+  },
+  {
+   "type": "text",
+   "text": "SNOW",
+   "series": "D",
+   "height": 125,
+   "top": 281.0,
+   "expect": 435,
+   "cx": 374.5
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. 125 D / 62 / 125 D, tops 94 and 281. UNDER 114 | 527 | 109 -> cx 377.5; SNOW 157 | 435 | 158 -> cx 374.5."
+}

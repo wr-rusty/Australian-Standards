@@ -1,0 +1,53 @@
+{
+ "code": "G9-60",
+ "name": "BICYCLE_ARROW_UP_LEFT_WHITE_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g9-60_arrow_diag_up_left",
+   "x": 113,
+   "y": 76,
+   "w": 225,
+   "h": 225,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "bicycle",
+   "x": 86,
+   "y": 347,
+   "w": 278,
+   "h": 184,
+   "colour": "black"
+  }
+ ],
+ "notes": "G9-60A illustrated 450 x 600 (B 600x800 ignored). 10 white edge + 20 black border. Arrow 113|225|112 at 76; bicycle 86|278|86 at 347 (76|225|46|184|69).",
+ "symbols": {
+  "g9-60_arrow_diag_up_left": {
+   "source": "G9-60",
+   "desc": "diagonal block arrow pointing up-left at 45 deg in a 225 square: length 188 along the axis, head 121 across, head length 165 (along the axis from the tip), barb step 15, shaft 43 wide, shaft end 58, R9 tip and shaft-end corners; grid 30",
+   "grid_mm": 30
+  },
+  "bicycle": {
+   "source": "G9-57",
+   "desc": "bicycle pictogram (side view, facing left), 681 x 450 on G9-57 (grid 45); same outline scaled on G9-58 (317x210, grid 22.5), G9-60/64 (278x184, grid 30/37.5), G9-62/65 (454x300, grid 60), G9-63 (400x265, grid 45)",
+   "grid_mm": 45
+  }
+ }
+}

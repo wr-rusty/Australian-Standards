@@ -1,0 +1,38 @@
+{
+ "code": "R9-3D",
+ "name": "BICYCLES_EXCEPTED_WHITE_WIDE_SKINNY",
+ "legend": "BICYCLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  1500,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BICYCLES",
+    "EXCEPTED"
+   ],
+   "series": "D",
+   "height": 100,
+   "top": 100,
+   "gap": 75,
+   "expect": [
+    610,
+    623
+   ]
+  }
+ ],
+ "notes": "1500 x 300, R25, 5 white edge, 15 border. 96|610|75|623|96, 100 D centred (100 top)."
+}

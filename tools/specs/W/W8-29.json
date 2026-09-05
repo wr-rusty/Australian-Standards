@@ -1,0 +1,59 @@
+{
+ "code": "W8-29",
+ "name": "ON_BRIDGE_WHEN_FROSTY_YELLOW_TALL",
+ "legend": "ON BRIDGE WHEN FROSTY",
+ "shape": "rect",
+ "size": [
+  750,
+  900
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 125,
+   "top": 95.0,
+   "expect": 201,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 125,
+   "top": 290.0,
+   "expect": 563,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "D",
+   "height": 125,
+   "top": 485.0,
+   "expect": 429,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "FROSTY",
+   "series": "D",
+   "height": 125,
+   "top": 680.0,
+   "expect": 595,
+   "cx": 374.5
+  }
+ ],
+ "notes": "750 x 900 (Illust. B). R50, 10 edge, 30 black border. Four lines 125 D: first baseline 220 from the top, 195 pitch, 95 below the last baseline -> tops 95, 290, 485, 680. ON 274 | 201 | 275, BRIDGE 93 | 563 | 94, WHEN 160 | 429 | 161, FROSTY 77 | 595 | 78 -> all cx 374.5."
+}

@@ -1,0 +1,46 @@
+{
+ "code": "W5-38",
+ "name": "CATTLE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-38_cattle",
+   "x": 183.33,
+   "y": 316.33,
+   "w": 715.0,
+   "h": 377.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-38_cattle": {
+   "source": "W5-38",
+   "desc": "cow and calf, 715 x 377",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Cattle 715 x 377 (inset); left edge 347 left of centre, bottom 163 below centre."
+}

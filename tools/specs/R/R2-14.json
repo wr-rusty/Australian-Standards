@@ -1,0 +1,52 @@
+{
+ "code": "R2-14",
+ "name": "LEFT_TURN_ONLY_WHITE_TALL",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r2-14_curve_arrow_left",
+   "x": 107,
+   "y": 92,
+   "w": 386,
+   "h": 408,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 120,
+   "top": 580,
+   "expect": 478
+  }
+ ],
+ "notes": "Drawing file R2-14(L).png shows both hands. Arrow 92 from top, 408 high, 107|386|107. ONLY 120 E top 580 (92+408+80), 100 bottom; drawing 66|478|56 implies centre 305 (5 right) - centred.",
+ "symbols": {
+  "r2-14_curve_arrow_left": {
+   "source": "R2-14(L)",
+   "desc": "curved block arrow turning left: 386 wide x 408 high on sign; stem 88 wide, inner R188, 75 deg sweep, head 176 long x 200 wide (100+100), R16, 12/16/72/188 dims",
+   "grid_mm": 40
+  }
+ }
+}

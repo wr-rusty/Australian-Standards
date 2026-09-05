@@ -1,0 +1,55 @@
+{
+ "code": "R5-64",
+ "name": "AREA_PARKING_CONTROL_AHEAD_WHITE_SQUARE",
+ "legend": "AREA PARKING CONTROL AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 80,
+   "top": 65,
+   "expect": 272
+  },
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "D",
+   "height": 80,
+   "top": 195,
+   "expect": 435
+  },
+  {
+   "type": "text",
+   "text": "CONTROL",
+   "series": "D",
+   "height": 80,
+   "top": 325,
+   "expect": 464
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 80,
+   "top": 455,
+   "expect": 344
+  }
+ ],
+ "notes": "R5-64A 600 x 600. Four lines 80 D, 65 top, 50 between, 65 bottom."
+}

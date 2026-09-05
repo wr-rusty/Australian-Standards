@@ -1,0 +1,46 @@
+{
+ "code": "W5-51",
+ "name": "DEER_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-51_deer",
+   "x": 299.33,
+   "y": 215.33,
+   "w": 480.0,
+   "h": 650.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-51_deer": {
+   "source": "W5-51",
+   "desc": "leaping deer, 480 x 650",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    530,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Deer 480 x 650 (inset); left 231 / right 249 of centre, top 315 above / bottom 335 below centre (sums match)."
+}

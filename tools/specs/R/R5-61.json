@@ -1,0 +1,150 @@
+{
+ "code": "R5-61",
+ "name": "PARKING_AREA_P_TICKET_630AM_7PM_NOV_MAR",
+ "legend": "PARKING AREA P TICKET 6.30AM - 7PM NOV - MAR EXCEPT AS SIGNED",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "E",
+   "height": 60,
+   "top": 60,
+   "expect": 382
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 60,
+   "top": 155,
+   "expect": 245
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 200,
+   "top": 265,
+   "expect": 162,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "TICKET",
+   "series": "D",
+   "height": 60,
+   "top": 500,
+   "expect": 254
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 100,
+   "top": 595,
+   "align": "left",
+   "x": 78
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 60,
+   "top": 595,
+   "align": "right",
+   "x": 240
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 30,
+   "top": 665,
+   "align": "right",
+   "x": 240
+  },
+  {
+   "type": "rect",
+   "x": 277,
+   "y": 640,
+   "w": 37,
+   "h": 10
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 100,
+   "top": 595,
+   "align": "left",
+   "x": 351
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 30,
+   "top": 665,
+   "align": "right",
+   "x": 521
+  },
+  {
+   "type": "text",
+   "text": "NOV",
+   "series": "E",
+   "height": 55,
+   "top": 725,
+   "align": "left",
+   "x": 65
+  },
+  {
+   "type": "rect",
+   "x": 281.5,
+   "y": 749,
+   "w": 37,
+   "h": 8
+  },
+  {
+   "type": "text",
+   "text": "MAR",
+   "series": "E",
+   "height": 55,
+   "top": 725,
+   "align": "right",
+   "x": 535
+  },
+  {
+   "type": "text",
+   "words": [
+    "EXCEPT",
+    "AS",
+    "SIGNED"
+   ],
+   "series": "D",
+   "height": 40,
+   "top": 810,
+   "gap": 20.5,
+   "expect": [
+    184,
+    64,
+    181
+   ]
+  }
+ ],
+ "notes": "R5-61A 600 x 900. PARKING 60 E top 60; AREA top 155; P 200 E green top 265 (219|162|219); TICKET 60 D top 500; 6.30AM - 7PM 100 E top 595: 78|162|37|37|37|170|79 -> '6' from 78 with '30' (60 C, top-aligned) and AM (30 E, bottom-aligned, 10 between) right-aligned at 240; dash 37 long, 10 thick (45|10|45) at 277; '7' from 351, PM right-aligned at 521. NOV - MAR 55 E top 725 spans 65|470|65 (NOV left at 65, MAR right-aligned at 535); its dash is 8 thick at 24|8|23 but its LENGTH is not dimensioned - drawn 37 long (as the line above) centred; flagged. EXCEPT AS SIGNED 40 D top 810: 65|184|21|64|20|181|65 (the width check identifies this row as EXCEPT/AS/SIGNED; single gap 20.5 used for 21/20); 50 bottom. Positions inside the 162/170 blocks are not sub-dimensioned (left/right-aligned to the block edges)."
+}

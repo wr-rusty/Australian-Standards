@@ -1,0 +1,36 @@
+{
+ "code": "TM2-4C",
+ "name": "ROAD_CLOSED_WHITE_LONG",
+ "legend": "ROAD CLOSED",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "colour": "black",
+   "expect": 632
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "E",
+   "height": 160,
+   "top": 340,
+   "colour": "black",
+   "expect": 912
+  }
+ ],
+ "notes": "Drawing labels CLOSED as 792 but its side margins 144/145 give 911; 160 E CLOSED = 913. 792 is a copy of TM1-1C's AHEAD dimension (typo in the standard)."
+}

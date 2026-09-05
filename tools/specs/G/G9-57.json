@@ -1,0 +1,61 @@
+{
+ "code": "G9-57",
+ "name": "WATCH_FOR_BICYCLES_WHITE_LONG",
+ "legend": "WATCH FOR",
+ "shape": "rect",
+ "size": [
+  900,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 105,
+   "colour": "black",
+   "text": "WATCH",
+   "align": "left",
+   "x": 86,
+   "expect": 418
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 105,
+   "colour": "black",
+   "text": "FOR",
+   "align": "left",
+   "x": 578,
+   "expect": 236
+  },
+  {
+   "type": "symbol",
+   "id": "bicycle",
+   "x": 110,
+   "y": 245,
+   "w": 681,
+   "h": 450,
+   "colour": "black"
+  }
+ ],
+ "notes": "G9-57A illustrated 900 x 800 (B 1200x1100 ignored). 15 white edge + 30 black border. WATCH FOR 86|418|74|236|86, top 105; bicycle 110|681|109, 245 to 695 (105|100D|40|450|105).",
+ "symbols": {
+  "bicycle": {
+   "source": "G9-57",
+   "desc": "bicycle pictogram (side view, facing left), 681 x 450 on G9-57 (grid 45); same outline scaled on G9-58 (317x210, grid 22.5), G9-60/64 (278x184, grid 30/37.5), G9-62/65 (454x300, grid 60), G9-63 (400x265, grid 45)",
+   "grid_mm": 45
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "code": "W5-10",
+ "name": "HUMP_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "path",
+   "colour": "black",
+   "d": "M161.33 502.33H312.33A250 250 0 0 1 748.33 502.33H899.33V558.33H161.33Z"
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Hump symbol drawn from the grid inset dims: 738 wide, 184 high, bar 56 high, arc R250 starting 151 in from each end (arc centre 250 below the arc top; chord check 218^2+122^2=250^2). Bar centred on the horizontal centreline (drawing dim 28 = half of 56); symbol centred horizontally (x 161.33..899.33)."
+}

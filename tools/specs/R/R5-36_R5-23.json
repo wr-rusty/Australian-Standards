@@ -1,0 +1,244 @@
+{
+ "code": "R5-36_R5-23",
+ "name": "NO_STANDING_4_6PM_LOADING_ZONE_9AM_4PM",
+ "legend": "(no standing) 4 - 6PM MON - FRI | LOADING ZONE 9AM - 4PM MON - FRI",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 20,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-35_no_standing_140",
+   "x": 42,
+   "y": 20,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "E",
+   "height": 50,
+   "top": 70,
+   "expect": 47,
+   "colour": "red",
+   "align": "left",
+   "x": 259
+  },
+  {
+   "type": "rect",
+   "x": 313,
+   "y": 90.7,
+   "w": 20,
+   "h": 8.59,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 50,
+   "top": 70,
+   "expect": 41,
+   "colour": "red",
+   "align": "left",
+   "x": 344
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 105,
+   "expect": 29,
+   "colour": "red",
+   "align": "left",
+   "x": 390
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 20,
+   "top": 130,
+   "expect": 61,
+   "colour": "red",
+   "align": "left",
+   "x": 267
+  },
+  {
+   "type": "rect",
+   "x": 341,
+   "y": 138.28,
+   "w": 11,
+   "h": 3.44,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 20,
+   "top": 130,
+   "expect": 42,
+   "colour": "red",
+   "align": "left",
+   "x": 366
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_left",
+   "x": 50,
+   "y": 180,
+   "w": 125,
+   "h": 32,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 222.5,
+   "w": 450,
+   "h": 5,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 15,
+   "y": 240,
+   "w": 200,
+   "h": 140,
+   "radius": 10,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "LOADING",
+   "series": "B",
+   "height": 45,
+   "top": 253,
+   "expect": 170,
+   "colour": "white",
+   "cx": 115
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "C",
+   "height": 45,
+   "top": 322,
+   "expect": 126,
+   "colour": "white",
+   "cx": 115
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 295,
+   "expect": 41,
+   "colour": "red",
+   "align": "left",
+   "x": 244
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 330,
+   "expect": 32,
+   "colour": "red",
+   "align": "left",
+   "x": 285
+  },
+  {
+   "type": "rect",
+   "x": 326,
+   "y": 315.7,
+   "w": 20,
+   "h": 8.59,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "E",
+   "height": 50,
+   "top": 295,
+   "expect": 47,
+   "colour": "red",
+   "align": "left",
+   "x": 355
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 330,
+   "expect": 29,
+   "colour": "red",
+   "align": "left",
+   "x": 408
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 20,
+   "top": 355,
+   "expect": 61,
+   "colour": "red",
+   "align": "left",
+   "x": 267
+  },
+  {
+   "type": "rect",
+   "x": 341,
+   "y": 363.28,
+   "w": 11,
+   "h": 3.44,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 20,
+   "top": 355,
+   "expect": 42,
+   "colour": "red",
+   "align": "left",
+   "x": 366
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_left",
+   "x": 50,
+   "y": 405,
+   "w": 125,
+   "h": 32,
+   "colour": "red"
+  }
+ ],
+ "notes": "Upper panel R5-36 (variant) + lower panel R5-23, 450 x 450 R20, black dividing line 5 wide at y 225. Upper: roundel 140 at 42, 20; 4 - 6PM 50 E top 70, 160 block at 259: 47|7|20|11|41|5|29; MON - FRI 20 E top 130, 141 block at 267 (450-42-141): 61|13|11|14|42 (dash 11); arrow 50|125 top 180. Lower: red panel 200 x 140 R10 at 15, 240 with LOADING 45 B (15|170|15) top 253 and ZONE 45 C (37|126|37) top 322 in white; 9AM - 4PM 50 E top 295, 193 block at 244: 41|32|9|20|9|47|6|29; MON - FRI as above top 355; arrow top 405, 13 bottom. AM/PM 15 E bottom-aligned. Dash thickness from the font hyphen.",
+ "symbols": {
+  "r5-35_no_standing_140": {
+   "source": "R5-36",
+   "desc": "no-standing roundel 140 dia: red annulus R70/R58, black S 95 E, red slash 12 wide at 65 deg from horizontal (upper-right to lower-left) with white halo where it crosses the S",
+   "grid_mm": 25
+  },
+  "r5_arrow_left": {
+   "source": "R5-16",
+   "desc": "open-chevron arrow pointing left 125 long x 32 high, shaft 12, head 42 long, barb thickness 12 (R5-1 grid: 22/21 barb dims)",
+   "grid_mm": 15
+  }
+ }
+}

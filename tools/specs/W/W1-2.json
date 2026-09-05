@@ -1,0 +1,59 @@
+{
+ "code": "W1-2",
+ "name": "{dir}_REVERSE_TURN_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-2_reverse_turn_arrow_l",
+   "x": 300.33,
+   "y": 160.33,
+   "w": 425,
+   "h": 630,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-2_reverse_turn_arrow_l": {
+   "source": "W1-2",
+   "desc": "reverse-turn (Z) arrow, left hand: lower stem 110 wide, jog 225 (stem edge to upper stem far edge), corners R25 outer / R15 inner, upper stem into arrowhead; arrowhead 220 tall x 290 wide (20+125+125+20, R20 barbs), notch 15; vertical 315 (tip to arm top) + 315 (arm top to bottom) = 630; tip axis 280 from lower stem outer edge. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    55,
+    84,
+    503,
+    532
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 85 from centreline (stated), bottom 260 below centreline (stated). Width 425 = 280 (stem outer edge to tip axis) + 125 + 20; height 630 = 315 + 315.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

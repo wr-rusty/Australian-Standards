@@ -1,0 +1,58 @@
+{
+ "code": "GM9-79D",
+ "name": "{speed}_AHEAD_WHITE_TALL",
+ "legend": "{speed} AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 330,
+   "r_outer": 265,
+   "r_inner": 215,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 220,
+   "top": 220,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 720,
+   "colour": "black",
+   "expect": 430
+  }
+ ],
+ "notes": "600x900, 25 black border. Annulus centred at 330 from the top (300 across), inner radius 215 (85 | 430 | 85 = inner diameter), outer radius 265; chain 330 | 265 | 125 | 100 D | 80 = 900. Numerals 220 D (dashed, vary) centred on the ring centre (cap top 220); AHEAD 100 D top 720, 85 | 430 | 85."
+}

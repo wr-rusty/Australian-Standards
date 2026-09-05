@@ -1,0 +1,42 @@
+{
+ "code": "GM9-58A",
+ "name": "BICYCLE_DISMOUNT_WHITE_SQUARE",
+ "legend": "DISMOUNT",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "gm9-58a_bicycle",
+   "x": 88,
+   "y": 80,
+   "w": 424,
+   "h": 280,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DISMOUNT",
+   "series": "C",
+   "height": 85,
+   "top": 435,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "gm9-58a_bicycle": {
+   "source": "GM9-58A",
+   "desc": "Bicycle symbol (side view, facing left), 424 x 280 box on a 50 grid; the bottom chain 117 | 366 | 117 gives a second (wheel-to-wheel?) extent of 366.",
+   "grid_mm": 50
+  }
+ },
+ "notes": "600x600, 25 black border. 80 | 280 bicycle | 75 | 85 C | 80 = 600. Bicycle box 88 | 424 | 88 (top chain); DISMOUNT centred, 85 C. FLAG: DISMOUNT is dimensioned 68 | 483 | 69, which sums to 620 for a 600 sign; 85 C gives 463 and 68 + 463 + 69 = 600 closes the chain, so the drawn 483 is a drawing typo (not width-checked). The 117 | 366 | 117 chain is not explained by the drawing (taken as a secondary extent of the symbol)."
+}

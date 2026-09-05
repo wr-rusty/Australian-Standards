@@ -1,0 +1,69 @@
+{
+ "code": "R9-11-1",
+ "name": "VEHICLES_OVER_5.1_m_LONG_WHITE_LONG",
+ "legend": "VEHICLES OVER 5.1 m LONG",
+ "shape": "rect",
+ "size": [
+  600,
+  500
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "C",
+   "height": 100,
+   "top": 60,
+   "expect": 514
+  },
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "E",
+   "height": 100,
+   "top": 210,
+   "expect": 383
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "5.1",
+     "series": "E",
+     "height": 80
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 70
+    },
+    {
+     "text": "LONG",
+     "series": "C",
+     "height": 80
+    }
+   ],
+   "top": 370,
+   "gap": [
+    35,
+    40
+   ],
+   "expect": [
+    null,
+    77,
+    219
+   ]
+  }
+ ],
+ "notes": "R9-11-1B (600 x 500) illustrated. As R9-10-1 (vertical string sums to 510; tops 60/210/370 used). Line 3: numerals 80 E (5.1 shown; varies)|35|m 70 Emod 77|40|LONG 80 C 219, group centred (runs, shared baseline)."
+}

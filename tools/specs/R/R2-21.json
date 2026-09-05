@@ -1,0 +1,131 @@
+{
+ "code": "R2-21",
+ "name": "RIGHT_TURN_FROM_LEFT_ONLY_WHITE_TALL",
+ "legend": "RIGHT TURN FROM LEFT ONLY",
+ "shape": "rect",
+ "size": [
+  800,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r2-21_hook_turn_panel",
+   "x": 34,
+   "y": 34,
+   "w": 732,
+   "h": 657,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 765.5,
+   "y": 428.2,
+   "w": 4.5,
+   "h": 259.9,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 430.7,
+   "w": 4.5,
+   "h": 255.4,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 765.5,
+   "y": 49,
+   "w": 4.5,
+   "h": 28.4,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 602.3,
+   "y": 30,
+   "w": 148.7,
+   "h": 4.5,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 49,
+   "w": 4.5,
+   "h": 26.4,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 49,
+   "y": 30,
+   "w": 143.7,
+   "h": 4.5,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "RIGHT",
+    "TURN"
+   ],
+   "series": "E",
+   "height": 80,
+   "top": 715,
+   "gap": 46,
+   "expect": [
+    333,
+    303
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "FROM",
+    "LEFT"
+   ],
+   "series": "E",
+   "height": 80,
+   "top": 840,
+   "gap": 62,
+   "expect": [
+    310,
+    274
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 80,
+   "top": 965,
+   "expect": 317
+  }
+ ],
+ "notes": "15 white edge and 15 black border (the top-left callouts read 15 to the border's outer face and 30 to its inner face; the drawn border is ~15 thick; the top-of-sign 25|750|25 white-area dims disagree - drawing inconsistency). R100 outer. The upper 715 carries the black hook-turn road symbol on the white ground: two corner blocks hanging from the top border, two kerb blocks against the side borders and the hook-turn arrow; the white road runs between them into the text area (no black band above the text). Symbol traced from the region inside the tracer's fixed 4 mm mask margin (34..766 wide, from 34 down to the drawn kerb bottoms at about 691 - the drawing's 644+16 chain would put them at 699); the 4 mm strips between the border's inner face (30) and the blocks are drawn as black rects whose extents (block edges 192.7/602.3 along the top, 75.4/77.4 down the sides, kerb tops 430.7/428.2) were read from the traced artwork; the top strips start at 49 so the border's rounded outer corner stays clear. Text 80 E: RIGHT TURN 59|333|46|303|59, FROM LEFT 77|310|62|274|77, ONLY 242|317|241; pitches 125 (80 E + 45): tops 715, 840, 965; 55 bottom.",
+ "symbols": {
+  "r2-21_hook_turn_panel": {
+   "source": "R2-21",
+   "desc": "hook-turn road symbol: on the white ground, two black corner blocks hanging from the top border (white R30 inner corners, 73 x 50 dims), two black kerb blocks 307 high against the side borders, and the black hook-turn arrow 406 wide x 644 high (stem 100, R100/R25 elbow, 135 deg head, R38, 45 deg notch, 94/75/41 dims); the white road runs between the corner blocks, across, and down between the kerbs into the text area. Traced from the interior inside the tracer's 4 mm mask margin (34..766 x 34..690); the 4 mm strips between the border and the blocks are drawn by the spec as rects.",
+   "grid_mm": 55,
+   "panel_px": [
+    270,
+    104,
+    482,
+    400
+   ]
+  }
+ }
+}

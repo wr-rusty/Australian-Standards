@@ -1,0 +1,71 @@
+{
+ "code": "G6-5",
+ "name": "CITY_OF_ALBURY_SHIRE_OF_HUME_WHITE",
+ "legend": "CITY OF ALBURY / SHIRE OF HUME",
+ "shape": "rect",
+ "size": [
+  1350,
+  250
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 25,
+   "cx": 337.5,
+   "colour": "black",
+   "words": [
+    "CITY",
+    "OF"
+   ],
+   "gap": 62,
+   "expect_total": 406
+  },
+  {
+   "type": "text",
+   "text": "ALBURY",
+   "series": "D",
+   "height": 80,
+   "top": 145,
+   "cx": 337.5,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 670,
+   "y": 0,
+   "w": 10,
+   "h": 250,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 25,
+   "cx": 1012.5,
+   "colour": "black",
+   "words": [
+    "SHIRE",
+    "OF"
+   ],
+   "gap": 67,
+   "expect_total": 482
+  },
+  {
+   "type": "text",
+   "text": "HUME",
+   "series": "D",
+   "height": 80,
+   "top": 145,
+   "cx": 1012.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "Two 675 (min) x 250 panels side by side: 25|80 D|40|80 D|25; each pair of lines centred in its panel (40 min side margins). CITY OF 406 and SHIRE OF 482 are met with AS 1744 letter widths (CITY 220, OF 124, SHIRE 291) and derived word gaps of 62 / 67 (the font's 80 word space would give 435 / 508). A 10-wide double line is drawn between the panels (dimensioned 10, colour not stated): drawn black here, but it may be the joint/gap between two separate panels.",
+ "intervene": "CITY OF / SHIRE OF word gaps derived from 406/482; the 10 divider between the panels is drawn black but is probably a gap between separate panels - colour not stated; intervene set"
+}

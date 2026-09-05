@@ -1,0 +1,26 @@
+{
+ "code": "R6-7",
+ "name": "STOP_ORANGE_ROUND",
+ "legend": "STOP",
+ "shape": "circle",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 140,
+   "top": 155,
+   "expect": 368
+  }
+ ],
+ "notes": "R6-7A illustrated, 450 dia. 12 black border. STOP 140 C centred (225 to centreline -> top 155). Fluorescent orange ground."
+}

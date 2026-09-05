@@ -1,0 +1,46 @@
+{
+ "code": "W2-11(R)",
+ "name": "STAGGERED_SIDE_ROADS_RIGHT_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-11_r",
+   "x": 311.43,
+   "y": 288.53,
+   "w": 514.9,
+   "h": 511.8,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-11_r": {
+   "source": "W2-11(R)",
+   "desc": "right curve: stem 110, straight 90, arc inner R233, sweep 20 + 25 + 30 = 75 deg; inner side arm (80 x 150 inside inner edge) radial at 20 deg from the arc start, outer side arm (80 x 150 beyond outer edge) at 45 deg; arrowhead 220 long x 296 wide (20+128+128+20, R20 barbs), notch 20. Not a mirror of W2-11(L): the arm order differs. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    108,
+    115,
+    556,
+    563
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right-hand drawing: stem near (right) edge 75 left of centreline, bottom 270 below (stated). Box derived from inset geometry: tip 371 right of stem near edge (= 296 from centreline), outer arm end 143.9 left of it -> width 514.9, height 511.8. Measured on drawing: tip +300, arm end -216."
+}

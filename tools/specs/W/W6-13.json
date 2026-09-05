@@ -1,0 +1,46 @@
+{
+ "code": "W6-13",
+ "name": "BICYCLE_STEEP_ASCENT_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w6-13_bicycle_ascent",
+   "x": 224.26,
+   "y": 252.26,
+   "w": 408.0,
+   "h": 322.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w6-13_bicycle_ascent": {
+   "source": "W6-13",
+   "desc": "bicycle ascending a wedge, 408 x 322",
+   "grid_mm": 30,
+   "panel_px": [
+    126,
+    113,
+    485,
+    471
+   ],
+   "inset": 16.57
+  }
+ },
+ "notes": "Diamond 600 side (Illust. C) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26; grid 30. Symbol 408 x 322 (inset); left 200 / right 208 of centre, top 172 above / bottom 150 below centre."
+}

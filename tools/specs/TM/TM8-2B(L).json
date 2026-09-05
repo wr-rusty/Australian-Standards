@@ -1,0 +1,43 @@
+{
+ "code": "TM8-2B(L)",
+ "name": "PEDESTRIANS_LEFT_YELLOW_LONG_SKINNY",
+ "legend": "PEDESTRIANS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 75,
+   "y": 78,
+   "w": 166,
+   "h": 145
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "C",
+   "height": 100,
+   "top": 85,
+   "expect": 721,
+   "align": "left",
+   "x": 359
+  }
+ ],
+ "symbols": {
+  "tm8-2b_arrow": {
+   "source": "TM8-2B(L)",
+   "desc": "horizontal block arrow pointing left (166 wide x 145 high on TM8-2B)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Arrow 75 from left, 166 wide, 78 from top, 145 high. Text left edge at 75+166+118=359 (right margin 120)."
+}

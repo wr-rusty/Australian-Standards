@@ -1,0 +1,47 @@
+{
+ "code": "TM4-8A",
+ "name": "UHF_CHANNEL_{ch}_YELLOW_SQUARE",
+ "legend": "UHF CHANNEL {ch}",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "UHF",
+   "series": "C",
+   "height": 100,
+   "top": 75,
+   "expect": 207
+  },
+  {
+   "type": "text",
+   "text": "CHANNEL",
+   "series": "C",
+   "height": 100,
+   "top": 245,
+   "expect": 498
+  },
+  {
+   "type": "text",
+   "text": "{ch}",
+   "series": "D",
+   "height": 110,
+   "top": 415
+  }
+ ],
+ "notes": "Channel number varies: drawing shows a dashed four-digit '8888' placeholder, 110 D, width 'Varies', centred; transcribed literally. Stack 75 | 100 | 70 | 100 | 70 | 110 | 75. Drawing labels UHF and CHANNEL '100 D' but the stated widths 207 and 498 are Series C widths (D would be 246 and 598, as in TM4-8B which is labelled 100 C with the same widths); Series C used. Channel number varies (dashed '8888' placeholder 110 D, 'Varies' centred); generated for channel 40 only; add values to 'vary' as needed.",
+ "vary": {
+  "key": "ch",
+  "values": [
+   40
+  ]
+ }
+}

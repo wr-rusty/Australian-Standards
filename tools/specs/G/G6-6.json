@@ -1,0 +1,57 @@
+{
+ "code": "G6-6",
+ "name": "MOONBI_RANGE_914_M_WHITE",
+ "legend": "MOONBI RANGE 914 m",
+ "shape": "rect",
+ "size": [
+  1525,
+  400
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "MOONBI",
+    "RANGE"
+   ],
+   "gap": 93,
+   "series": "D",
+   "height": 140,
+   "top": 25,
+   "align": "left",
+   "x": 70,
+   "colour": "black",
+   "expect": [
+    687,
+    605
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "914",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 235,
+   "colour": "black",
+   "expect": [
+    283,
+    131
+   ]
+  }
+ ],
+ "notes": "1525x400: 25|140 D|70|140 D|25; 70 min|687|93|605|70 min. Second line '914 m' centred as a block (283|70|131 with = margins): 914 in 140 D on baseline 375, 'm' 120 Emod (lower case) on the same baseline. MOONBI/RANGE stated 687/605 vs AS 1744 668/586 (about 3%) - drawing figures kept. QA: the 914 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require.",
+ "accepted_drawing_discrepancy": "MOONBI/RANGE 140 D compute 668/586 vs 687/605, ~3%, no series matches; intervene set"
+}

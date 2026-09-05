@@ -1,0 +1,57 @@
+{
+ "code": "R7-8",
+ "name": "BUS_ONLY_WHITE_TALL",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-1_bus",
+   "x": 50,
+   "y": 130,
+   "w": 500,
+   "h": 180,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 50,
+   "y": 440,
+   "w": 500,
+   "h": 230,
+   "radius": 35,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 160,
+   "top": 475,
+   "expect": 445,
+   "colour": "white"
+  }
+ ],
+ "notes": "R7-8C (600 x 800) illustrated. Bus 500 x 180 at y 130; 130 gap; red panel R35 230 high (y 440-670) with ONLY 160 C white 35 below its top; 130 bottom. Panel width: drawing gives 50|515|50 (sums to 615, inconsistent with the 600 width) - 500 used (50 margins, matching the bus dimension line 50|500|50). ONLY 27|445|28 within the panel.",
+ "symbols": {
+  "r7-1-1_bus": {
+   "source": "R7-1-1",
+   "desc": "bus, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

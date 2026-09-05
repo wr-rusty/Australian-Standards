@@ -1,0 +1,72 @@
+{
+ "code": "R7-7-2",
+ "name": "T3_TRANSIT_LANE_WHITE_TALL",
+ "legend": "TRANSIT T3 LANE",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRANSIT",
+   "series": "C",
+   "height": 170,
+   "top": 135,
+   "expect": 736
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7-2_t3_badge",
+   "x": 112,
+   "y": 461,
+   "w": 308,
+   "h": 210,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7_car_3",
+   "x": 507,
+   "y": 445,
+   "w": 280,
+   "h": 240,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 240,
+   "top": 825,
+   "expect": 632
+  }
+ ],
+ "notes": "As R7-7-1 with T3 badge and three-occupant car. QA: badge height is not dimensioned on this drawing; drawn badge measures 207 high, vertically centred on the 240 car band (top 462) - box set to y 461 / h 210 so the 308 width governs the scale.",
+ "symbols": {
+  "r7-7-2_t3_badge": {
+   "source": "R7-7-2",
+   "desc": "red badge with white T3 legend, as R7-7-1",
+   "grid_mm": 60,
+   "colours": [
+    "red"
+   ]
+  },
+  "r7-7_car_3": {
+   "source": "R7-7-2",
+   "desc": "black car, front view, three occupants",
+   "grid_mm": 60
+  }
+ }
+}

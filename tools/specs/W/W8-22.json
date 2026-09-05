@@ -1,0 +1,39 @@
+{
+ "code": "W8-22",
+ "name": "CROSSING_AHEAD_YELLOWGREEN",
+ "legend": "CROSSING AHEAD",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 120,
+   "top": 97.0,
+   "expect": 634
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 120,
+   "top": 283.0,
+   "expect": 514
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 yellow-green edge, 30 black border; fluorescent yellow-green ground. CROSSING 120 C top 97, 58 | 634 | 58 centred; AHEAD 120 D top 283 (97+120+66), 118 | 514 | 118 centred."
+}

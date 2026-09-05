@@ -1,0 +1,96 @@
+{
+ "code": "G11-8",
+ "name": "SUNRISE_TURN_RIGHT_300_m_GRAPES_BROWN_LONG",
+ "legend": "SUNRISE TURN RIGHT 300 m",
+ "shape": "rect",
+ "size": [
+  1350,
+  900
+ ],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "grapes",
+   "x": 150.5,
+   "y": 93.5,
+   "w": 233,
+   "h": 297,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 130,
+   "top": 190,
+   "colour": "white",
+   "text": "SUNRISE",
+   "align": "left",
+   "x": 478,
+   "expect": 692
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 130,
+   "top": 480,
+   "colour": "white",
+   "text": "TURN",
+   "align": "left",
+   "x": 161,
+   "expect": 420
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 130,
+   "top": 480,
+   "colour": "white",
+   "text": "RIGHT",
+   "align": "left",
+   "x": 723,
+   "expect": 466
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 130
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 108
+    }
+   ],
+   "gap": 70.0,
+   "top": 680,
+   "colour": "white",
+   "expect": [
+    null,
+    118
+   ]
+  }
+ ],
+ "notes": "20 brown edge + 20 white border (40 | 20). Grapes symbol box 410 square at x 60 (60|410|8|692|180), 30 from the top edge (as dimensioned - the box overlaps the border band; the artwork is smaller than its box). Stack 190|130D|160|130D|70|130|90. SUNRISE 130 D at 478; TURN RIGHT 161|420|142|466|161. Numeral line centred as a group (=|318|70|118|=): 300 130 D (stated 318, font 325), m 108 Emod baseline-aligned (top 702). QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal 410 square at (60,30) (its dashed frame otherwise traces as a bar). QA: the 300 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require.",
+ "symbols": {
+  "grapes": {
+   "source": "G11-8",
+   "desc": "bunch of grapes pictogram (10 circles with stalk) in a 410 (G11-8) / 350 (G11-11) square box; grid 70",
+   "grid_mm": 70,
+   "invert": true,
+   "inset": 0
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "code": "D4-6",
+ "name": "CHEVRON_LEFT_BLACK_ON_YELLOW_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  750
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     30,
+     375
+    ],
+    [
+     300,
+     30
+    ],
+    [
+     570,
+     30
+    ],
+    [
+     300,
+     375
+    ],
+    [
+     570,
+     720
+    ],
+    [
+     300,
+     720
+    ]
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "Illust. D4-6A 600x750 R50. Black chevron pointing left: bottom 30|270|270|30 -> tip x=30, inner tip x=300, right end 570; right 30|345|345|30 -> flat top/bottom at y=30/720, tips at y=375. Arms are 270 across by 345 down (not 45 degrees; the 37.5 grid detail is not used)."
+}

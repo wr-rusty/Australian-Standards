@@ -1,0 +1,62 @@
+{
+ "code": "TM1-36B",
+ "name": "{m}_M_AHEAD_YELLOW_LONG_SKINNY",
+ "legend": "{m} m AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{m}",
+     "series": "E",
+     "height": 120
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 100
+    },
+    {
+     "text": "AHEAD",
+     "series": "D",
+     "height": 120
+    }
+   ],
+   "gap": [
+    65,
+    63
+   ],
+   "top": 90,
+   "expect": [
+    null,
+    109,
+    516
+   ]
+  }
+ ],
+ "notes": "Numeral varies; generated for 50-500 m. DRAWING INCONSISTENT: vertical dims 115 | 120 D | 100 sum to 335 not 300 (115 and 100 copied from TM1-28B); the 120 letters are drawn centred, so top 90, baseline 210; m 100 Emod on the same baseline. Top dims '= | Varies | 65 | 109 | 63 | 516 | ='. Line centred as a whole.",
+ "vary": {
+  "key": "m",
+  "values": [
+   50,
+   100,
+   150,
+   200,
+   250,
+   300,
+   400,
+   500
+  ]
+ },
+ "accepted_drawing_discrepancy": "vertical dims 115 | 120 D | 100 sum to 335 not 300; line placed centred - needs confirmation (intervene set"
+}

@@ -1,0 +1,88 @@
+{
+ "code": "R5-58",
+ "name": "EMERGENCY_STOPPING_LANE_ONLY_WHITE_LONG",
+ "legend": "EMERGENCY STOPPING LANE ONLY",
+ "shape": "rect",
+ "size": [
+  1500,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "D",
+   "height": 160,
+   "top": 110,
+   "expect": 1230,
+   "align": "right",
+   "x": 1365,
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "text": "STOPPING",
+   "series": "D",
+   "height": 160,
+   "top": 350,
+   "expect": 974,
+   "align": "right",
+   "x": 1365,
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 160,
+   "top": 590,
+   "expect": 515,
+   "align": "right",
+   "x": 1365,
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "D",
+   "height": 160,
+   "top": 830,
+   "expect": 542,
+   "align": "right",
+   "x": 1365,
+   "mirror": true
+  },
+  {
+   "type": "symbol",
+   "id": "r5-58_arrow_down_left",
+   "x": 180,
+   "y": 645,
+   "w": 345,
+   "h": 345,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing file R5-58(L-R).png. R100, 15 white edge, 45 black border. (L): text 160 D right-aligned 135 from the right edge, tops 110/350/590/830 (80 between, 110 bottom); arrow 345 square at 180 from left, 645 from top. (R) mirrors: text left-aligned at 135, arrow at right (text elements carry mirror:true). QA: widths re-read from the drawing: 135|1230|135 = EMERGENCY, 391|974 = STOPPING, 850|515 = LANE, 180|345|298|542 = ONLY (the earlier expects were shifted one row).",
+ "symbols": {
+  "r5-58_arrow_down_left": {
+   "source": "R5-58(L)",
+   "desc": "block arrow pointing down-left at 45 deg, bounding box 345 x 345 (grid: 450 long, head 180, shaft 76, R9, 210/15 dims)",
+   "grid_mm": 75
+  }
+ }
+}

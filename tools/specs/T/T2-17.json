@@ -1,0 +1,5 @@
+{"code":"T2-17","name":"END_ROAD_WORK_YELLOW_TALL","legend":"END ROAD WORK","shape":"rect","size":[900,1200],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"END","series":"E","height":160,"top":180,"expect":451},
+             {"type":"text","text":"ROAD","series":"E","height":160,"top":520,"expect":632},
+             {"type":"text","text":"WORK","series":"E","height":160,"top":860,"expect":657}]}

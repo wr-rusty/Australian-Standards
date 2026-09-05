@@ -1,0 +1,51 @@
+{
+ "code": "W9-3",
+ "name": "ROUTE_TURN_CROSSROAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w9-3_l",
+   "x": 195.33,
+   "y": 255.33,
+   "w": 675,
+   "h": 570,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w9-3_l": {
+   "source": "W9-3",
+   "desc": "left hand: as W9-2 plus a vertical bar 60 wide rising 200 above the horizontal bar, flush with the stem's right edge; 675 wide x 570 tall (200 + 60 + 310). Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    76,
+    500,
+    525
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: bar right end 340 right of centreline (stated), bottom 295 below (stated); 675 x 570 from inset."
+}

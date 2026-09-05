@@ -1,0 +1,62 @@
+{
+ "code": "G7-14-1",
+ "name": "PICNIC_3KM_BLUE",
+ "legend": "3 km",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g7_picnic": {
+   "source": "G7-1-1",
+   "desc": "picnic area symbol (tree and table) in a 350x350 box on the services signs; artwork not dimensioned (see AS 1742.1 / Appendix B)",
+   "grid_mm": null
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g7_picnic",
+   "x": 142.5,
+   "y": 123.5,
+   "w": 319.5,
+   "h": 328,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "3",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 100
+    }
+   ],
+   "gap": 50.0,
+   "top": 560,
+   "colour": "white",
+   "expect": [
+    null,
+    203
+   ]
+  }
+ ],
+ "notes": "G7-14-1A (Illust.) 600x800 R100, 40/20 border. Picnic box 375 high (100|375|85|140 D|100), width 'Varies' - taken as 375 square, centred. '3 km' block Varies|50|203 centred (95.3+50+203 = 348.3, x 125.9); 3 (140 D, drawn dashed = varies) and km (100 Emod) share the baseline 700. km 100 Emod computes 207 vs the drawing's 203 (2%). QA: picnic box = G7-1-1 ink extent scaled to the 375 square at (112.5,100). QA: the 3 km line is built as one runs group (gap [50.0]) so the generator centres it as the drawing's = margins require.",
+ "accepted_drawing_discrepancy": "km 100 Emod = 207.1 vs 203, 2.0%, just outside tolerance; intervene set; layout verified"
+}

@@ -1,0 +1,42 @@
+{
+ "code": "TM8-3A",
+ "name": "USE_OTHER_FOOTPATH_YELLOW_SQUARE",
+ "legend": "USE OTHER FOOTPATH",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "USE",
+   "series": "B",
+   "height": 100,
+   "top": 80,
+   "expect": 156
+  },
+  {
+   "type": "text",
+   "text": "OTHER",
+   "series": "B",
+   "height": 100,
+   "top": 250,
+   "expect": 271
+  },
+  {
+   "type": "text",
+   "text": "FOOTPATH",
+   "series": "B",
+   "height": 100,
+   "top": 420,
+   "expect": 424
+  }
+ ],
+ "notes": "DRAWING INCONSISTENCY: all three lines are labelled 100 D, but the stated widths 156 / 271 / 424 are exactly the 100 B widths (D would be 232 / 400 / 637 and would not fit the 600 panel); series B used."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "RM6-6C",
+ "name": "STOP_HERE_ON_RED_SIGNAL_RED_LETTERS_WHITE_LONG",
+ "legend": "STOP HERE ON RED SIGNAL",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "STOP",
+    "HERE"
+   ],
+   "series": "E",
+   "height": 110,
+   "top": 75,
+   "gap": 73,
+   "expect": [
+    405,
+    415
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "series": "E",
+   "height": 110,
+   "top": 245,
+   "gap": 84,
+   "expect": [
+    206,
+    303
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "SIGNAL",
+   "series": "E",
+   "height": 110,
+   "top": 415,
+   "expect": 591,
+   "colour": "red"
+  }
+ ],
+ "notes": "RM6-6C 1200 x 600, 25 black border, square corners, red letters. Stack 75/110E/60/110E/60/110E/75. 153|405|73|415|154; 303|206|84|303|304; 304|591|305."
+}

@@ -1,0 +1,35 @@
+{
+ "code": "TM2-24A",
+ "name": "TWO_WAY_ARROWS_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm2-24a_two_way_arrows",
+   "x": 100,
+   "y": 100,
+   "w": 400,
+   "h": 400,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm2-24a_two_way_arrows": {
+   "source": "TM2-24A",
+   "desc": "up arrow (left, centreline x 175) and down arrow (right, centreline x 425), heads 150 wide, 400 high",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Arrows 100 from top and bottom (400 high). DRAWING INCONSISTENCY: the top dimensions read 175 | 310 | 175 (sum 660, not 600); the ticks sit on the two arrow centrelines at 175 and 425 (i.e. 175 | 250 | 175), and each head is 3 grid squares = 150 wide, so the pair spans x 100-500; box x 100, y 100, 400 x 400.",
+ "accepted_drawing_discrepancy": "top dims 175 | 310 | 175 sum to 660; arrows placed on the drawn centrelines 175/425 with 150 heads from the grid - needs confirmation (intervene set"
+}

@@ -1,0 +1,45 @@
+{
+ "code": "G5-3",
+ "name": "STANDARD_ST_1-43_WHITE_BLADE",
+ "legend": "STANDARD ST 1-43",
+ "shape": "rect",
+ "size": [
+  1138,
+  150
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "STANDARD",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "align": "left",
+   "x": 100,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ST",
+   "series": "D",
+   "height": 50,
+   "top": 20,
+   "colour": "black",
+   "cx": 1006.7
+  },
+  {
+   "type": "text",
+   "text": "1 - 43",
+   "series": "D",
+   "height": 50,
+   "top": 80,
+   "align": "right",
+   "x": 1118,
+   "colour": "black"
+  }
+ ],
+ "notes": "Street-name blade drawn with a 10-wide strip (double line, '10') along the top and bottom edges whose colour is not stated; not drawn. 150 high: STANDARD 100 D vertically centred (top 25); the right-hand chain is read as 10 strip | 10 | ST 50 D | 10 | 1 - 43 50 D | 10 | 10 strip = 150, so ST top 20 and 1 - 43 top 80 (baseline 130). As drawn, ST is centred over 1 - 43 and 1 - 43 ends 20 from the right end (the 20 min of G5-1A); neither horizontal position is dimensioned. Length not stated: 100 + STANDARD 670.5 + 125 (the gap to the number stack as drawn, measured on the drawing) + 1 - 43 222.6 + 20 = 1138."
+}

@@ -1,0 +1,55 @@
+{
+ "code": "R6-2",
+ "name": "NO_OVERTAKING_ON_BRIDGE_WHITE_TALL",
+ "legend": "NO OVERTAKING ON BRIDGE",
+ "shape": "rect",
+ "size": [
+  750,
+  900
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 140,
+   "top": 90,
+   "expect": 263
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKING",
+   "series": "B",
+   "height": 115,
+   "top": 305,
+   "expect": 616
+  },
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 120,
+   "top": 495,
+   "expect": 193
+  },
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "C",
+   "height": 120,
+   "top": 690,
+   "expect": 459
+  }
+ ],
+ "notes": "R6-2A illustrated. Same layout as R6-1. Drawing gives ON = 193 (same figure as OR on R6-1)."
+}

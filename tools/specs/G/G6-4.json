@@ -1,0 +1,43 @@
+{
+ "code": "G6-4",
+ "name": "AUSTRALIAN_CAPITAL_TERRITORY_WHITE",
+ "legend": "AUSTRALIAN CAPITAL TERRITORY",
+ "shape": "rect",
+ "size": [
+  2137,
+  500
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "AUSTRALIAN",
+   "series": "C",
+   "height": 180,
+   "top": 25,
+   "colour": "black",
+   "expect": 1171
+  },
+  {
+   "type": "text",
+   "words": [
+    "CAPITAL",
+    "TERRITORY"
+   ],
+   "gap": 135,
+   "series": "C",
+   "height": 180,
+   "top": 295,
+   "align": "left",
+   "x": 90,
+   "colour": "black",
+   "expect": [
+    783,
+    1039
+   ]
+  }
+ ],
+ "notes": "2137x500: 25|180 C|90|180 C|25. AUSTRALIAN centred (= margins); CAPITAL TERRITORY 90 min|783|135|1039|90 min. Corners drawn rounded, radius not stated."
+}

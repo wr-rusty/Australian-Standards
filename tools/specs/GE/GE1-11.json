@@ -1,0 +1,110 @@
+{
+ "code": "GE1-11",
+ "name": "MONASH_HAWKER_A25_M10_2KM_GREEN_LONG",
+ "legend": "Monash Hawker A25 M10 2 km",
+ "shape": "rect",
+ "size": [
+  5200,
+  3700
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "Monash",
+   "series": "Emod",
+   "height": 400,
+   "top": 440,
+   "colour": "white",
+   "align": "left",
+   "x": 580,
+   "expect": 2278
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 400,
+   "top": 1140,
+   "colour": "white",
+   "align": "left",
+   "x": 580,
+   "expect": 2255
+  },
+  {
+   "type": "text",
+   "text": "A25",
+   "series": "E",
+   "height": 400,
+   "top": 1840,
+   "colour": "yellow",
+   "align": "left",
+   "x": 580,
+   "expect": 1153
+  },
+  {
+   "type": "text",
+   "text": "M10",
+   "series": "E",
+   "height": 400,
+   "top": 755,
+   "colour": "yellow",
+   "align": "right",
+   "x": 4820,
+   "expect": 1014
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2",
+     "series": "E",
+     "height": 350
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 300
+    }
+   ],
+   "gap": 175,
+   "top": 2895,
+   "colour": "white",
+   "align": "left",
+   "x": 2454,
+   "expect": [
+    283,
+    618
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_up_exit_diag_left_1870x2050",
+   "x": 2260,
+   "y": 1355,
+   "w": 1870,
+   "h": 2050,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_up_exit_diag_left_1870x2050": {
+   "source": "GE1-11/masked",
+   "desc": "Vertical up-arrow with a diagonal exit branch to the upper left. Overall 1870 wide x 2050 high; vertical shaft 300 wide, straight stub 530 below the junction; diagonal shaft 1900 long at 60 degrees to the vertical shaft; R75 fillets at the junction; both heads per the 260 grid detail.",
+   "grid_mm": 260,
+   "invert": true,
+   "inset": 0,
+   "trace_note": "traced from GE1-11.png with the drawing's own legend that falls inside the arrow's 1870x2050 box painted in the ground colour first (sign-mm rects: Hawker 'er' 2240,1120-2860,1545; '2' 2430,2875-2760,3265; 'km' 2890,2890-3550,3265), otherwise exactly as tools/trace_symbol.py; 'source' is written GE1-11/masked so a --force rerun of the tracer does not overwrite the trace with the text glyphs included"
+  }
+ },
+ "notes": "5200x3700 R300; green 70 outside a 70 white border (70/140). Vertical chain is to baselines: 840 (Monash) | 700 | 700 | 1005 (2 km) | 455 = 3700, and M10 baseline 1155 | 200 | arrow 2050 | 295 = 3700; cap tops = baseline - height. Horizontal: 580 left margin; widths (1153) A25, (2255) Hawker, (2278) Monash; M10 (1014) 380 from the right edge; arrow box 2260 | 1870 | 1070; 2 km: 2454 | (283) 2 | 175 | 618 km | 1670. '2' is 350 E (left label) and 'km' 300 Emod (right label, 300 Emod = 621 vs 618 drawn); both on baseline 3245."
+}

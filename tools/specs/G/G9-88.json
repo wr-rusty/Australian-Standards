@@ -1,0 +1,197 @@
+{
+ "code": "G9-88",
+ "name": "PACIFIC_MWY_M1_KEMPSEY_PORT_MACQUARIE_WAUCHOPE_GREEN_TALL",
+ "legend": "PACIFIC MWY M1 Kempsey Port Macquarie B56 Wauchope PACIFIC MWY M1 Taree Sydney",
+ "shape": "rect",
+ "size": [
+  2750,
+  4390
+ ],
+ "radius": 250,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 919,
+   "y": 286,
+   "w": 271,
+   "h": 1249,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 839,
+   "y": 2913,
+   "w": 271,
+   "h": 1249,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 180,
+   "top": 1706,
+   "cx": 282,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Wauchope",
+   "expect": 1384
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 2799,
+   "cx": 282,
+   "rotate": -90,
+   "colour": "yellow",
+   "text": "B56",
+   "expect": 548
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 135,
+   "top": 843,
+   "cx": 1054.5,
+   "rotate": -90,
+   "colour": "black",
+   "words": [
+    "PACIFIC",
+    "MWY"
+   ],
+   "gap": 88,
+   "expect": 1113,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 811.5,
+   "cx": 1410,
+   "rotate": -90,
+   "colour": "yellow",
+   "text": "M1",
+   "expect": 295
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 180,
+   "top": 821.5,
+   "cx": 1690,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Kempsey",
+   "expect": 1231
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 180,
+   "top": 1030.5,
+   "cx": 2240,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Port",
+   "expect": 555
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 180,
+   "top": 1029.5,
+   "cx": 2480,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Macquarie",
+   "expect": 1441
+  },
+  {
+   "type": "symbol",
+   "id": "g9-88_roundabout_diagrammatic",
+   "x": 489,
+   "y": 1210,
+   "w": 2061,
+   "h": 1999,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 135,
+   "top": 3470,
+   "cx": 974.5,
+   "rotate": -90,
+   "colour": "black",
+   "words": [
+    "PACIFIC",
+    "MWY"
+   ],
+   "gap": 88,
+   "expect": 1113,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 3438.5,
+   "cx": 1350,
+   "rotate": -90,
+   "colour": "yellow",
+   "text": "M1",
+   "expect": 295
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 180,
+   "top": 3448.5,
+   "cx": 1650,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Taree",
+   "expect": 743
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 180,
+   "top": 3447.5,
+   "cx": 1920,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Sydney",
+   "expect": 1037
+  }
+ ],
+ "symbols": {
+  "g9-88_roundabout_diagrammatic": {
+   "source": "G9-88",
+   "desc": "roundabout diagrammatic symbol, white, one traced group filling the box 489..2550 x 1210..3209 (2061 x 1999): three shafts entering from the right edge, a roundabout ring, exits up (Kempsey), up-right (Port Macquarie), left (Wauchope) and down-left (Taree/Sydney) with arrow heads; grid 250; the top of the lower PACIFIC MWY panel lies inside the box and is pruned from the trace; tracer panel_px = the green ground inside the 60 edge+border (the thin edge strip is not merged by the automatic detection)",
+   "grid_mm": 250,
+   "invert": true,
+   "inset": 60,
+   "panel_px": [
+    222,
+    114,
+    612,
+    746
+   ]
+  }
+ },
+ "notes": "All legend lines read bottom-to-top (rotate -90 about each line's centre: cap tops on the left, baseline on the right); each line is centred on its stated extent. Horizontal (from the left edge): top chains 1310|200 E|640|180 Emod|420 (M1 1310..1510, Port 2150..2330) and 919|271|410|180 Emod|610|180 Emod|180 (upper PACIFIC MWY panel 919..1190, Kempsey 1600..1780, Macquarie 2390..2570); bottom chains 192|180|933|1245|200 (Wauchope 192..372, symbol right edge 2550), 489|2061|200 (symbol 489..2550), 182|200 E|457|271|720|180 Emod|740 (B56 182..382, lower panel 839..1110, Sydney 1830..2010), 1250|200 E|1300 (lower M1 1250..1450), 1560|180 Emod|1010 (Taree 1560..1740); all close to 2750. Vertical (from the top): left chains 2625|548|1217 (B56), 1104|1384|1902 (Wauchope), 1210|1399|304|1249|228 (symbol top 1210, lower panel 2913..4162), 764|295|1333|817|182|295|704 (upper M1 764..1059, symbol bottom 3209, lower M1 3391..3686), 286|1249|2855 (upper panel 286..1535); right chains 296|1231|1640|743|480 (Kempsey 296..1527, Taree 3167..3910), 3019|1037|334 (Sydney), 843|555|2992 (Port), 399|1441|2550 (Macquarie). Panels 271 x 1249 (68|135|68 across, 68|1113|68 along); the panel text is labelled 135 E but Series E cannot fit 1113 (PACIFIC + MWY alone = 1208 in E 135); the drawn letters measure PACIFIC 652, MWY 367 = Series D 135 with an 88 word gap (655 + 88 + 370 = 1113), so D 135 with gap 88 is used. Wauchope is labelled 180 E in the bottom chain but is lower case (Emod). Every stated text length agrees with the fonts within 0.5 percent. Roundabout symbol box 489..2550 x 1210..3209 from the chains (pixel check agrees). Undimensioned: edge/border widths, sign corner radius, panel corner radius - see intervene.",
+ "accepted_drawing_discrepancy": "was skipped: implemented with rotated text for all nine legend lines, two PACIFIC MWY panels (Series D 135 with 88 word gap \u2014 the \"135 E\" label cannot fit the stated 1113, artwork confirms D) and a traced white roundabout symbol pruned of panel/letter fragments; remains: edge/border widths, sign cor"
+}

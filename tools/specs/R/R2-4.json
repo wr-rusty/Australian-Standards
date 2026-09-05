@@ -1,0 +1,49 @@
+{
+ "code": "R2-4",
+ "name": "NO_ENTRY",
+ "legend": "NO ENTRY",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "circle",
+   "cx": 225,
+   "cy": 225,
+   "r": 220,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 37.5,
+   "y": 187.5,
+   "w": 375,
+   "h": 75,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 75,
+   "top": 82.5,
+   "colour": "white",
+   "expect": 116
+  },
+  {
+   "type": "text",
+   "text": "ENTRY",
+   "series": "D",
+   "height": 75,
+   "top": 292.5,
+   "colour": "white",
+   "expect": 301
+  }
+ ],
+ "notes": "Red circle dia 440 (5 margin). Bar 375x75 centred. NO baseline 30 above bar, ENTRY top 30 below bar. Drawing width for NO (116) is ~4% narrower than AS 1744 spacing gives (121).",
+ "accepted_drawing_discrepancy": "drawing width NO 116 vs 120.8 at 75 D; ENTRY matches 75 D exactly - drawing dimension discrepancy; intervene set"
+}

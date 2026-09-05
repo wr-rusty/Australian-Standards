@@ -1,0 +1,41 @@
+{
+ "code": "TM8-9A",
+ "name": "FOOTPATH_CLOSED_AHEAD_YELLOW_SQUARE",
+ "legend": "FOOTPATH CLOSED AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "FOOTPATH",
+   "series": "B",
+   "height": 100,
+   "top": 80,
+   "expect": 424
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 408
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "expect": 350
+  }
+ ]
+}

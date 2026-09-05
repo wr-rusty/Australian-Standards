@@ -1,0 +1,62 @@
+{
+ "code": "R4-13",
+ "name": "END_{speed}_AREA_PLATE_SPEED_SIGN",
+ "legend": "END {speed} AREA",
+ "folder": "Speed Signs/End",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 55,
+   "top": 75,
+   "expect": 131,
+   "align": "left",
+   "x": 25
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 100,
+   "r_outer": 90,
+   "r_inner": 75,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 80,
+   "top": 60
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 55,
+   "top": 75,
+   "expect": 187,
+   "align": "left",
+   "x": 388
+  }
+ ],
+ "notes": "Illustrated R4-13B 600 x 200, no border. END/AREA 55 D (right-hand column: 75 above, baseline 130, 70 below), 25|131|26|180|26|187|25 - the generator's width check confirms 55 D (80 D would give 191/272). Numerals 80 D centred (left column 60|80D|60, top 60). Annulus outer dia 180 centred (300,100); band 15 (grid shows inner dia 150)."
+}

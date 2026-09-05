@@ -1,0 +1,46 @@
+{
+ "code": "W5-44",
+ "name": "CAMELS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-44_camel",
+   "x": 277.33,
+   "y": 309.33,
+   "w": 526.0,
+   "h": 432.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-44_camel": {
+   "source": "W5-44",
+   "desc": "camel, 526 x 432",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    530,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Camel 526 x 432 (inset); left 253 / right 273 of centre (sum 526), top 221 above centre. Drawing inconsistency: it also shows 221 below the centreline, but 221+221 = 442 != 432; the illustration measures the bottom ~211 below, so the top dim is used."
+}

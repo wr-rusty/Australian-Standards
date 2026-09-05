@@ -1,0 +1,72 @@
+{
+ "code": "G9-74",
+ "name": "RAILWAY_CROSSING_NOT_IN_USE_WHITE_LONG",
+ "legend": "RAILWAY CROSSING NOT IN USE",
+ "shape": "rect",
+ "size": [
+  750,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 80,
+   "colour": "black",
+   "text": "RAILWAY",
+   "expect": 444
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 200,
+   "colour": "black",
+   "text": "CROSSING",
+   "expect": 497
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 320,
+   "colour": "black",
+   "text": "NOT",
+   "expect": 189
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 440,
+   "colour": "black",
+   "text": "IN",
+   "align": "left",
+   "x": 208,
+   "expect": 87
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 440,
+   "colour": "black",
+   "text": "USE",
+   "align": "left",
+   "x": 355,
+   "expect": 186
+  }
+ ],
+ "notes": "10 white edge + 20 black border. Stack 80|80D|40|80D|40|80D|40|80D|80. Width rows 126|497|127 and 153|444|153: 497 belongs to CROSSING and 444 to RAILWAY (rows drawn in the other order; both centred); 280|189|281, 208|87|60|186|209."
+}

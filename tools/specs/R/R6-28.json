@@ -1,0 +1,55 @@
+{
+ "code": "R6-28",
+ "name": "TRUCKS_USE_LEFT_LANE_WHITE_SQUARE",
+ "legend": "TRUCKS USE LEFT LANE",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "E",
+   "height": 120,
+   "top": 105,
+   "expect": 690
+  },
+  {
+   "type": "text",
+   "text": "USE",
+   "series": "E",
+   "height": 120,
+   "top": 295,
+   "expect": 332
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 120,
+   "top": 485,
+   "expect": 414
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 120,
+   "top": 675,
+   "expect": 460
+  }
+ ],
+ "notes": "R6-28A illustrated. R100, 15 white edge, 45 border. Stack 105/120E/70/120E/70/120E/70/120E/105."
+}

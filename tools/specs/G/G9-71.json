@@ -1,0 +1,66 @@
+{
+ "code": "G9-71",
+ "name": "SERVICE_ROAD_ENTRY_ARROW_WHITE_TALL",
+ "legend": "SERVICE ROAD ENTRY",
+ "shape": "rect",
+ "size": [
+  600,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 75,
+   "colour": "black",
+   "text": "SERVICE",
+   "expect": 442
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 225,
+   "colour": "black",
+   "text": "ROAD",
+   "expect": 276
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 375,
+   "colour": "black",
+   "text": "ENTRY",
+   "expect": 332
+  },
+  {
+   "type": "symbol",
+   "id": "g9-71_arrow_diag_up_left",
+   "x": 220,
+   "y": 520,
+   "w": 160,
+   "h": 160,
+   "colour": "black"
+  }
+ ],
+ "notes": "10 white edge + 20 black border. Stack 75|100C|50|100C|50|100C|45|160 arrow|70. 79|442|79, 162|276|162, 134|332|134. The arrow horizontal position is NOT dimensioned: centred (x 220) - pixel check gives x 221-379.",
+ "symbols": {
+  "g9-71_arrow_diag_up_left": {
+   "source": "G9-71",
+   "desc": "diagonal block arrow pointing up-left at 45 deg in a 160 square: length 202 along the axis, head 130 across, barb step 12, shaft 38 wide, head base 120 (along the axis), shaft end 43, R7 tip and corners; grid 37.5",
+   "grid_mm": 37.5
+  }
+ }
+}

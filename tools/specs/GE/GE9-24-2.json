@@ -1,0 +1,47 @@
+{
+ "code": "GE9-24-2",
+ "name": "E_ARROW_GREEN_SQUARE",
+ "legend": "E",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "green",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "E",
+   "series": "E",
+   "height": 240,
+   "top": 45,
+   "colour": "white",
+   "expect": 180
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_left_300x87",
+   "x": 75,
+   "y": 329,
+   "w": 300,
+   "h": 87,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_left_300x87": {
+   "source": "GE9-24-2",
+   "desc": "Horizontal arrow pointing left, 300 long x 87 high (50 grid), narrow shaft with an open barbed head.",
+   "grid_mm": 50,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "Illust. GE9-24-2A(L)/(R) 450x450 R50. 45 | 240 E | 44 | 87 arrow | 34 = 450; E = | 180 | =; arrow = | 300 | = (centred). (R) is the mirror (arrow pointing right)."
+}

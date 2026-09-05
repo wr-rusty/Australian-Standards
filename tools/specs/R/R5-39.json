@@ -1,0 +1,39 @@
+{
+ "code": "R5-39",
+ "name": "TOW_AWAY_AREA_WHITE_LONG",
+ "legend": "(tow truck symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  225
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-39_tow_truck",
+   "x": 90,
+   "y": 39,
+   "w": 414,
+   "h": 129,
+   "colour": "black"
+  }
+ ],
+ "notes": "R5-39A 600 x 225, R25, 5 white edge, 15 black border. Symbol 414 x 129 at 90 from left, 39 from top (96 right, 57 bottom).",
+ "symbols": {
+  "r5-39_tow_truck": {
+   "source": "R5-39",
+   "desc": "tow truck towing a car, 414 wide x 129 high",
+   "grid_mm": 30
+  }
+ }
+}

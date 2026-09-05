@@ -1,0 +1,76 @@
+{
+ "code": "R6-22",
+ "name": "TRUCKS_AND_BUSES_MUST_USE_LOW_GEAR_WHITE",
+ "legend": "TRUCKS & BUSES MUST USE LOW GEAR",
+ "shape": "rect",
+ "size": [
+  1200,
+  1000
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "D",
+   "height": 140,
+   "top": 115,
+   "expect": 686
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUSES"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 325,
+   "gap": 75,
+   "expect": [
+    125,
+    553
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "MUST",
+    "USE"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 535,
+   "gap": 80,
+   "expect": [
+    454,
+    325
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "LOW",
+    "GEAR"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 745,
+   "gap": 78,
+   "expect": [
+    346,
+    458
+   ]
+  }
+ ],
+ "notes": "R6-22A illustrated. R100, 15 white edge, 45 border. Stack 115/140/70/140/70/140/70/140/115."
+}

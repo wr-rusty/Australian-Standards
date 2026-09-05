@@ -1,0 +1,30 @@
+{
+ "code": "R7-6-3",
+ "name": "CENTRE_LANE_WHITE_LONG_SKINNY",
+ "legend": "CENTRE LANE",
+ "shape": "rect",
+ "size": [
+  1600,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "CENTRE",
+    "LANE"
+   ],
+   "series": "C",
+   "height": 200,
+   "top": 100,
+   "gap": 116,
+   "expect": [
+    806,
+    528
+   ]
+  }
+ ],
+ "notes": "1600 x 400, R25, no border. 75|806|116|528|75."
+}

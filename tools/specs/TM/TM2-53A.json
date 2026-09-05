@@ -1,0 +1,41 @@
+{
+ "code": "TM2-53A",
+ "name": "KEEP_TRACKS_CLEAR_YELLOW_SQUARE",
+ "legend": "KEEP TRACKS CLEAR",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "KEEP",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 313
+  },
+  {
+   "type": "text",
+   "text": "TRACKS",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 489
+  },
+  {
+   "type": "text",
+   "text": "CLEAR",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 405
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "code": "W2-14",
+ "name": "T_INTERSECTION_ON_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "R",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-14_t_on_curve_r",
+   "x": 405.33,
+   "y": 136.13,
+   "w": 525,
+   "h": 734.2,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-14_t_on_curve_r": {
+   "source": "W2-14",
+   "desc": "right hand as drawn: stem 110 wide, arc inner R290 / outer R400 sweeping 45 deg, straight tube at 45 deg into a crossbar 600 long x 110 thick perpendicular to it, crossbar overhanging 245 beyond the tube's outer edge (and 245 beyond the inner edge: 600-245-110); overall 525 wide, crossbar's lowest corner 310 above the stem bottom. Fully dimensioned (straight stem 199 and tube 112 derive from 525 and 310).",
+   "grid_mm": 37.5,
+   "which": 1,
+   "panel_px": [
+    51,
+    609,
+    500,
+    1057
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Dimensions are on the (R) drawing: stem far (left) edge 125 left of centreline and crossbar right extreme 400 right (125 | 400 = 525 overall), bottom 340 below centreline, crossbar lowest corner 30 below centreline (340-30 = 310 as inset). Height 734.2 NOT stated: derived from the inset geometry (top-left crossbar corner); measured 737 on drawing. QA: symbol traced from the lower (R) panel of the drawing (which 1)."
+}

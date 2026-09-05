@@ -1,0 +1,5 @@
+{"code":"T3-16-1","name":"50_KMH_YELLOW_SQUARE","legend":"50 km/h","shape":"rect","size":[600,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"50","series":"E","height":150,"top":135,"expect":273},
+             {"type":"text","text":"km/h","series":"Emod","height":100,"top":365,"expect":418}],
+ "notes":"T3-16-1A 600x600 illustrated. Numerals drawn solid (not dashed / 'Varies'), so fixed at 50 as shown. km/h lower case E Modified at capital height 100; top 365 = 135+150+80."}

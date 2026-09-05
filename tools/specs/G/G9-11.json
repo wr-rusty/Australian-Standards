@@ -1,0 +1,81 @@
+{
+ "code": "G9-11",
+ "name": "SLOW_VEHICLE_LANE_2_km_AHEAD_WHITE_TALL",
+ "legend": "SLOW VEHICLE LANE 2 km AHEAD",
+ "shape": "rect",
+ "size": [
+  900,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 110,
+   "colour": "black",
+   "text": "SLOW",
+   "expect": 472
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 300,
+   "colour": "black",
+   "text": "VEHICLE",
+   "expect": 635
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 490,
+   "colour": "black",
+   "text": "LANE",
+   "expect": 460
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2",
+     "series": "E",
+     "height": 120
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": 60.0,
+   "top": 680,
+   "colour": "black",
+   "expect": [
+    null,
+    216
+   ]
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 870,
+   "colour": "black",
+   "text": "AHEAD",
+   "expect": 613
+  }
+ ],
+ "notes": "15 white edge + 30 black border. Stack 110|120E|70|120D|70|120E|70|120(numeral line)|70|120E|110. Numeral (Varies, drawn 2) 120 E, gap 60, km 216 (105 Emod) centred as a group: x from font ink width of 2 (97.3) - not a stated dimension; km baseline-aligned (top 695). QA: the 2 km line is built as one runs group (gap [60.0]) so the generator centres it as the drawing's = margins require."
+}

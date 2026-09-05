@@ -1,0 +1,33 @@
+{
+ "code": "TM2-55A",
+ "name": "TRAM_WORKS_YELLOW_SQUARE",
+ "legend": "TRAM WORKS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAM",
+   "series": "E",
+   "height": 100,
+   "top": 160,
+   "expect": 397
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "E",
+   "height": 100,
+   "top": 340,
+   "expect": 501
+  }
+ ]
+}

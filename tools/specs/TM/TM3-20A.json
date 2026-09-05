@@ -1,0 +1,34 @@
+{
+ "code": "TM3-20A",
+ "name": "WET_BITUMEN_YELLOW_SQUARE",
+ "legend": "WET BITUMEN",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WET",
+   "series": "D",
+   "height": 160,
+   "top": 110,
+   "expect": 377
+  },
+  {
+   "type": "text",
+   "text": "BITUMEN",
+   "series": "B",
+   "height": 120,
+   "top": 370,
+   "expect": 446
+  }
+ ],
+ "notes": "Stack 110 | 160 | 100 | 120 B | 110. Drawing labels WET '160 C' but its stated width 111|377|112 is the Series D width (AS 1744: D 378, C 322); Series D used."
+}

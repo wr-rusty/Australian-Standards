@@ -1,0 +1,67 @@
+{
+ "code": "G9-25-1",
+ "name": "SAFETY_RAMP_80_m_WHITE_WIDE",
+ "legend": "SAFETY RAMP 80 m",
+ "shape": "rect",
+ "size": [
+  2200,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 140,
+   "colour": "black",
+   "text": "SAFETY",
+   "align": "left",
+   "x": 184,
+   "expect": 954
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 140,
+   "colour": "black",
+   "text": "RAMP",
+   "align": "left",
+   "x": 1324,
+   "expect": 692
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "80",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 170
+    }
+   ],
+   "gap": 100.0,
+   "top": 460,
+   "colour": "black",
+   "expect": [
+    null,
+    186
+   ]
+  }
+ ],
+ "notes": "G9-25-1A illustrated 2200 x 800. As G9-24-1; second line (=|Varies|100|186|=): numerals 80 (200 E, vary), gap 100, m 186 (170 Emod, top 490); group centred using font ink width 364 - not stated. QA: the 80 m line is built as one runs group (gap [100.0]) so the generator centres it as the drawing's = margins require."
+}

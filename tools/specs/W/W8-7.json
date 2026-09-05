@@ -1,0 +1,40 @@
+{
+ "code": "W8-7",
+ "name": "WHEN_WET_YELLOW",
+ "legend": "WHEN WET",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "E",
+   "height": 125,
+   "top": 94.0,
+   "expect": 508,
+   "cx": 369
+  },
+  {
+   "type": "text",
+   "text": "WET",
+   "series": "E",
+   "height": 125,
+   "top": 281.0,
+   "expect": 355
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. 125 E / 62 / 125 E, tops 94 and 281. WHEN 115 | 508 | 127 -> cx 369; WET centred (= dims)."
+}

@@ -1,0 +1,39 @@
+{
+ "code": "R9-5",
+ "name": "ON_FREEWAY_WHITE_LONG",
+ "legend": "ON FREEWAY",
+ "shape": "rect",
+ "size": [
+  750,
+  375
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 100,
+   "top": 62,
+   "expect": 161
+  },
+  {
+   "type": "text",
+   "text": "FREEWAY",
+   "series": "D",
+   "height": 100,
+   "top": 212,
+   "expect": 582
+  }
+ ],
+ "notes": "R9-5C (750 x 375) illustrated. Stack 62/100D/50/100D/63."
+}

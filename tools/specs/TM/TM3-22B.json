@@ -1,0 +1,38 @@
+{
+ "code": "TM3-22B",
+ "name": "DUE_TO_FLOODING_YELLOW_LONG_SKINNY",
+ "legend": "DUE TO FLOODING",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "DUE",
+    "TO",
+    "FLOODING"
+   ],
+   "series": "C",
+   "height": 110,
+   "top": 95,
+   "gap": [
+    54,
+    66
+   ],
+   "expect": [
+    225,
+    134,
+    580
+   ]
+  }
+ ],
+ "notes": "Across: 70 | 225 | 54 | 134 | 66 | 580 | 71 (centred group with gaps 54 and 66)."
+}

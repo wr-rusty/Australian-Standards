@@ -1,0 +1,45 @@
+{
+ "code": "G8-10-2",
+ "name": "END_A70_GREEN_WIDE",
+ "legend": "END A70",
+ "shape": "rect",
+ "size": [
+  1300,
+  400
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 120,
+   "align": "left",
+   "x": 128.5,
+   "colour": "white",
+   "expect": 451
+  },
+  {
+   "type": "text",
+   "text": "A70",
+   "series": "E",
+   "height": 160,
+   "top": 120,
+   "align": "left",
+   "x": 699.5,
+   "colour": "yellow",
+   "expect": 472
+  }
+ ],
+ "notes": "1300x400 R100, 40/20 border. END A70 160 E on baseline 280 (top 120), block = |451|120|472| = centred (1043, x 128.5)."
+}

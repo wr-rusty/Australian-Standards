@@ -1,0 +1,5 @@
+{"code":"T5-6","name":"LEFT_ARROW_YELLOW_SQUARE","legend":"","shape":"rect","size":[600,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t5-6_arrow_left","x":73,"y":100,"w":454,"h":400,"colour":"black"}],
+ "symbols":{"t5-6_arrow_left":{"source":"T5-6","desc":"large arrow pointing left, 454 long x 400 high: head 262 long, shaft 192 long x 125 wide, R18 tips, 92 and 35 barb dims","grid_mm":30}},
+ "notes":"Arrow 73 from each side, 100 top/bottom: 454 x 400. Points left as drawn. Barb geometry (92/35/R18) not fully determinable for a polygon, so a symbol."}

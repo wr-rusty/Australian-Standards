@@ -1,0 +1,54 @@
+{
+ "code": "R6-9",
+ "name": "STOP_ON_RED_SIGNAL_WHITE_TALL",
+ "legend": "STOP ON RED SIGNAL",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 120,
+   "top": 80,
+   "expect": 316
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "series": "C",
+   "height": 85,
+   "top": 275,
+   "gap": 53,
+   "expect": [
+    115,
+    168
+   ]
+  },
+  {
+   "type": "text",
+   "text": "SIGNAL",
+   "series": "C",
+   "height": 85,
+   "top": 435,
+   "expect": 324
+  }
+ ],
+ "notes": "Stack 80/120C/75/85C/75/85C/80. Drawing gives STOP = 316 here (324 on R6-6)."
+}

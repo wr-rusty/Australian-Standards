@@ -1,0 +1,41 @@
+{
+ "code": "TM8-7A",
+ "name": "WATCH_YOUR_STEP_YELLOW_SQUARE",
+ "legend": "WATCH YOUR STEP",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WATCH",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 419
+  },
+  {
+   "type": "text",
+   "text": "YOUR",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 352
+  },
+  {
+   "type": "text",
+   "text": "STEP",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 300
+  }
+ ]
+}

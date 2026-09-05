@@ -1,0 +1,44 @@
+{
+ "code": "TM4-8B",
+ "name": "UHF_CHANNEL_{ch}_YELLOW_LONG_SKINNY",
+ "legend": "UHF CHANNEL {ch}",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "UHF",
+    "CHANNEL",
+    "{ch}"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "gap": [
+    52,
+    75
+   ],
+   "expect": [
+    207,
+    498,
+    null
+   ]
+  }
+ ],
+ "notes": "Channel number varies (drawing shows a dashed '888' placeholder, 100 C). Across: = | 207 | 52 | 498 | 75 | Varies | =, centred as a group. Generated for channel 40 only; add values to 'vary' as needed.",
+ "vary": {
+  "key": "ch",
+  "values": [
+   40
+  ]
+ }
+}

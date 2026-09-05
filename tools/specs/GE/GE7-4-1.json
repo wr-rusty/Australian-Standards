@@ -1,0 +1,88 @@
+{
+ "code": "GE7-4-1",
+ "name": "PICNIC_1_KM_LEFT_LANE_BLUE_LONG",
+ "legend": "1 km LEFT LANE",
+ "shape": "rect",
+ "size": [
+  3350,
+  1800
+ ],
+ "radius": 240,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 50
+ },
+ "border": {
+  "colour": "white",
+  "width": 50
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "service_picnic_area",
+   "x": 576.0,
+   "y": 306.0,
+   "w": 695,
+   "h": 708,
+   "colour": "white",
+   "nominal_box": [
+    523.5,
+    260,
+    800,
+    800
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "1",
+     "series": "E",
+     "height": 400,
+     "slot": 389
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 340
+    }
+   ],
+   "gap": 200,
+   "top": 460,
+   "colour": "white",
+   "align": "left",
+   "x": 1537.5,
+   "expect": [
+    null,
+    700
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "LEFT",
+    "LANE"
+   ],
+   "series": "E",
+   "height": 320,
+   "top": 1220,
+   "gap": 240,
+   "expect": [
+    1101,
+    1225
+   ],
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "service_picnic_area": {
+   "source": "GE7-3-2",
+   "desc": "Picnic area symbol (tree with picnic table), 800x800 box; drawn 695x708 ink centred in its 800x800 box (element box = ink extent, since the generator fits the symbol to its box).",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "3350x1800 R240; blue 50 / white 50. Symbol 260 | 800; right chain 460 | 400 E (numeral) | 360 | 320 E | 260 = 1800, km 340 Emod on the 860 baseline. Bottom: = | 800 | 214 | 389 (dashed numeral box) | 200 | 700 | = group centred; the numeral varies (1 illustrated) and is centred in its 389 slot; '1 km' is one runs line starting at the slot (523.5 + 800 + 214 = 1537.5). LEFT LANE 392 | 1101 | 240 | 1225 | 392. Service symbols: the drawing dimensions the symbol boxes (service_picnic_area 800x800 at 523.5,260); the pictograms do not fill them, so each element box is the pictogram's ink extent measured from the drawing, centred in the dimensioned box (nominal_box)."
+}

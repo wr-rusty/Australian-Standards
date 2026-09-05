@@ -1,0 +1,52 @@
+{
+ "code": "G9-15",
+ "name": "FORM_1_LANE_WHITE_TALL",
+ "legend": "FORM 1 LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 93,
+   "colour": "black",
+   "text": "FORM",
+   "expect": 398
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 280,
+   "colour": "black",
+   "text": "1",
+   "align": "left",
+   "x": 263,
+   "expect": 73
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 587,
+   "colour": "black",
+   "text": "LANE",
+   "expect": 387
+  }
+ ],
+ "notes": "G9-15A illustrated 600 x 800 (B 900x1200, C 1200x1600 ignored). 10 white edge + 20 black border (30). Stack 93|120D|67|240E|67|120D|93. FORM 101|398|101; numeral 1 at 263|73|264; LANE 106|387|107."
+}

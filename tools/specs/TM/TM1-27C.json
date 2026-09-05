@@ -1,0 +1,54 @@
+{
+ "code": "TM1-27C",
+ "name": "ROAD_PLANT_ON_SIDE_ROAD_YELLOW_LONG",
+ "legend": "ROAD PLANT ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "PLANT"
+   ],
+   "series": "C",
+   "height": 150,
+   "top": 100,
+   "gap": 90,
+   "expect": [
+    414,
+    497
+   ]
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 140,
+   "top": 360,
+   "words": [
+    "ON",
+    "SIDE",
+    "ROAD"
+   ],
+   "gap": [
+    79,
+    78
+   ],
+   "expect": [
+    185,
+    324,
+    379
+   ]
+  }
+ ],
+ "notes": "Second line 78 | 185 | 79 | 324 | 78 | 379 | 77: centred group with per-pair gaps 79 / 78. AS 1744 spacing gives ON 189 and SIDE 331 (140 C) against the drawing's 185/324 (about 2 %); drawing widths kept, so the width check reports ON and SIDE.",
+ "accepted_drawing_discrepancy": "width check: ON/SIDE 140 C are 189/331 by AS 1744, drawing says 185/324 (~2 %); drawing inconsistency, output goes to intervene/"
+}

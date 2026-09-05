@@ -1,0 +1,183 @@
+{
+ "code": "R5-17",
+ "name": "1HALF_P_9AM_9PM_AMBULANCES_EXCEPTED_LONG",
+ "legend": "1 1/2 P 9AM - 9PM | AMBULANCES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 20,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "text": "1",
+   "series": "E",
+   "height": 100,
+   "top": 35,
+   "expect": 30,
+   "colour": "green",
+   "align": "left",
+   "x": 12
+  },
+  {
+   "type": "symbol",
+   "id": "r5_half_fraction",
+   "x": 54,
+   "y": 35,
+   "w": 68,
+   "h": 100,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 35,
+   "expect": 80,
+   "colour": "green",
+   "align": "left",
+   "x": 132
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 170,
+   "expect": 41,
+   "colour": "green",
+   "align": "left",
+   "x": 21
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 205,
+   "expect": 32,
+   "colour": "green",
+   "align": "left",
+   "x": 62
+  },
+  {
+   "type": "rect",
+   "x": 104,
+   "y": 190.71,
+   "w": 12,
+   "h": 8.59,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 170,
+   "expect": 41,
+   "colour": "green",
+   "align": "left",
+   "x": 124
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 205,
+   "expect": 29,
+   "colour": "green",
+   "align": "right",
+   "x": 204
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_left",
+   "x": 50,
+   "y": 255,
+   "w": 125,
+   "h": 32,
+   "colour": "green"
+  },
+  {
+   "type": "rect",
+   "x": 222.5,
+   "y": 0,
+   "w": 5,
+   "h": 300,
+   "colour": "red"
+  },
+  {
+   "type": "annulus",
+   "cx": 338,
+   "cy": 85,
+   "r_outer": 70,
+   "r_inner": 58,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 80,
+   "top": 45,
+   "expect": 64,
+   "colour": "black",
+   "align": "left",
+   "x": 313
+  },
+  {
+   "type": "path",
+   "d": "M292.93 31.44L391.56 130.07A70 70 0 0 1 383.07 138.56L284.44 39.93A70 70 0 0 1 292.93 31.44Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "AMBULANCES",
+   "series": "B",
+   "height": 35,
+   "top": 165,
+   "colour": "red",
+   "cx": 337.5
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 35,
+   "top": 210,
+   "colour": "red",
+   "cx": 337.5
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_right",
+   "x": 275,
+   "y": 255,
+   "w": 125,
+   "h": 32,
+   "colour": "red"
+  }
+ ],
+ "notes": "One drawing = two panels: R5-17 (left, green) + R5-40 (right, black P roundel, red text). 450 x 300 R20, dividing line 5 wide at x 225 ('red or black' - red used). Left: 1 1/2 P 100 E top 35 at 12|30|12|68|10|80. 9AM - 9PM 50 E top 170, 21|183|21: inset gives 41|38|20|41 then PM 29 (9 = 37 wide + 4, AM 32 + 6, dash 12 long in a 20 region, second 9 at 124); these chain to 169, 14 short of the stated 183 -> PM right-aligned at 204 (drawing inconsistency). AM/PM 15 E bottom-aligned at 220. Right: roundel 140 at 43 from centre, top 15; AMBULANCES 35 B top 165, EXCEPTED 35 C top 210, both centred in the panel within '195 max' (no ink width given); arrow 32 high top 255, 50|125|50 in the panel. Tracer: no border ring, panel_px = pixel bbox of the sign's white interior (both panels); roundel traced as red + black layers. QA: the R5-40 roundel is now drawn from its dimensions instead of traced (the drawing's centre lines cut hairline holes through the traced ring and P): red annulus R70/R58 centred at (338, 85) (43 from the panel centreline, 15 from top); P 80 E black, left edge 45 from the annulus left (x 313), 64 wide, vertically centred on the roundel (top 45 - the 80 E dimension is drawn centred on the 140); red slash 12 wide at 45 deg from upper-left to lower-right through the centre, ends clipped to R70, no white halo (none drawn at this size). QA: the inset's upper row gives the 9 as 41 (50 E = 40.5); its lower row's 37 (over 32 for AM) cannot be the 9's width at 50 E and is left unexplained - expect set to 41.",
+ "symbols": {
+  "r5_half_fraction": {
+   "source": "R5-16",
+   "desc": "fraction 1/2: '1' 50 E (15 wide, top of box) over '2' 50 E (40 wide, bottom of box, right-aligned) with a diagonal slash; box 68 x 100",
+   "grid_mm": 15
+  },
+  "r5_arrow_left": {
+   "source": "R5-16",
+   "desc": "open-chevron arrow pointing left 125 long x 32 high, shaft 12, head 42 long, barb thickness 12 (R5-1 grid: 22/21 barb dims)",
+   "grid_mm": 15
+  },
+  "r5_arrow_right": {
+   "source": "R5-36",
+   "desc": "open-chevron arrow pointing right 125 long x 32 high, shaft 12, head 42 long, barb thickness 12",
+   "grid_mm": 25
+  }
+ }
+}

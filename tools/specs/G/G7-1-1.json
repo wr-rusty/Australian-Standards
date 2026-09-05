@@ -1,0 +1,85 @@
+{
+ "code": "G7-1-1",
+ "name": "PICNIC_300M_ON_LEFT_BLUE_TALL",
+ "legend": "300 m ON LEFT",
+ "shape": "rect",
+ "size": [
+  800,
+  1200
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g7_picnic": {
+   "source": "G7-1-1",
+   "desc": "picnic area symbol (tree and table) in a 350x350 box on the services signs; artwork not dimensioned (see AS 1742.1 / Appendix B)",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g7_picnic",
+   "x": 253,
+   "y": 132,
+   "w": 298,
+   "h": 306,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 530,
+   "colour": "white",
+   "expect": [
+    null,
+    131
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 140,
+   "top": 740,
+   "align": "left",
+   "x": 287,
+   "colour": "white",
+   "expect": 226
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "D",
+   "height": 140,
+   "top": 950,
+   "align": "left",
+   "x": 199,
+   "colour": "white",
+   "expect": 402
+  }
+ ],
+ "notes": "G7-1-1A (Illust.) 800x1200 R100, blue edge 20 + white border 20 (40/20). Picnic symbol 350 box at x 225, y 110. Right chain 110|350|70|140|70|140 D|70|140 D|110. '300 m' = 300 (140 D, 'Varies') + 70 + m (120 Emod, 131) centred as a block (551 with AS 1744 width 350 for 300); m on the same baseline (670). ON x 287 (226), LEFT x 199 (402). QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal 350 square at (225,110). QA: the 300 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require."
+}

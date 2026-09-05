@@ -1,0 +1,71 @@
+{
+ "code": "G9-69",
+ "name": "WRONG_WAY_GO_BACK_RED_LONG",
+ "legend": "WRONG WAY GO BACK",
+ "shape": "rect",
+ "size": [
+  2300,
+  1500
+ ],
+ "radius": 180,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 215,
+   "colour": "white",
+   "text": "WRONG",
+   "expect": 1228
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 595,
+   "colour": "white",
+   "text": "WAY",
+   "expect": 782
+  },
+  {
+   "type": "rect",
+   "x": 712.5,
+   "y": 925,
+   "w": 875,
+   "h": 30,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 1045,
+   "colour": "white",
+   "text": "GO",
+   "align": "left",
+   "x": 365,
+   "expect": 444
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 240,
+   "top": 1045,
+   "colour": "white",
+   "text": "BACK",
+   "align": "left",
+   "x": 989,
+   "expect": 946
+  }
+ ],
+ "notes": "Formerly R2-12. 40 red edge + 40 white border (80|40, 40). Stack 215|240E|140|240E|90|30 line|90|240E|215. Width rows: 1228 belongs to WRONG and 782 to WAY (rows drawn in the other order; both centred). White line 875 long x 30, centred. GO BACK 365|444|180|946|365."
+}

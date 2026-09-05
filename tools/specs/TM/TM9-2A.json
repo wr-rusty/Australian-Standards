@@ -1,0 +1,33 @@
+{
+ "code": "TM9-2A",
+ "name": "END_EVENT_YELLOWGREEN_SQUARE",
+ "legend": "END EVENT",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 100,
+   "top": 160,
+   "expect": 239
+  },
+  {
+   "type": "text",
+   "text": "EVENT",
+   "series": "D",
+   "height": 100,
+   "top": 340,
+   "expect": 385
+  }
+ ]
+}

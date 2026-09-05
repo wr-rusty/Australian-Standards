@@ -1,0 +1,40 @@
+{
+ "code": "W7-2-2",
+ "name": "{tracks}_TRACKS_WHITE_WIDE_SKINNY",
+ "legend": "{tracks} TRACKS",
+ "shape": "rect",
+ "size": [
+  1000,
+  150
+ ],
+ "radius": 0,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "{tracks}",
+    "TRACKS"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 25.0,
+   "gap": 75.0,
+   "expect": [
+    null,
+    578
+   ]
+  }
+ ],
+ "vary": {
+  "key": "tracks",
+  "values": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "notes": "1000 x 150 white plate, no border shown (drawing: black letters and numeral on white ground). Numeral (Varies) 100 E, gap 75, TRACKS 100 E 578 wide, group centred (= dims); caps top 25 (150 - 25 - 100). Numeral values 2-6 chosen as plausible track counts."
+}

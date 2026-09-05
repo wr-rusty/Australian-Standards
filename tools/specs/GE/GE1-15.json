@@ -1,0 +1,64 @@
+{
+ "code": "GE1-15",
+ "name": "A1_MURRAY_CURVED_EXIT_GREEN_LONG",
+ "legend": "A1 Murray",
+ "shape": "rect",
+ "size": [
+  5500,
+  3950
+ ],
+ "radius": 240,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 50
+ },
+ "border": {
+  "colour": "white",
+  "width": 50
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A1",
+   "series": "E",
+   "height": 320,
+   "top": 297,
+   "colour": "yellow",
+   "align": "left",
+   "x": 655
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_curve_left_flyover_4805x3245",
+   "x": 335,
+   "y": 465,
+   "w": 4805,
+   "h": 3245,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Murray",
+   "series": "Emod",
+   "height": 320,
+   "colour": "white",
+   "cx": 2687,
+   "top": 1462,
+   "rotate": -90
+  }
+ ],
+ "symbols": {
+  "arrow_curve_left_flyover_4805x3245": {
+   "source": "GE1-15/masked",
+   "desc": "Complex directional diagram: a wide curved arrow (R2800, 130 wide stroke, head at upper left with 175 barbs) sweeping from lower right up to the left, a straight bar with an angled stem (98 degrees, 160 degree head, R300 bend, 130 stroke, 283/526/697/565/511 bottom chain, 342/350/239/55/1023/130/1051 right chain, 837/1106/130/2009/2409 left chain) and a white-bordered vertical label box (55 line, 630 inner width, 2002 from the grid left, 2063 from the right) (the 'Murray' legend is a separate rotated text element, not part of the symbol). Grid 275. Overall 4805 x 3245.",
+   "grid_mm": 275,
+   "colours": [
+    "white"
+   ],
+   "inset": 0,
+   "trace_note": "traced from GE1-15.png with colours=[white] and the 'Murray' legend inside the label box painted in the ground colour first (sign-mm rect 2500,715-2960,2515, inside the box's 630 inner width), otherwise exactly as tools/trace_symbol.py; the label box outline stays in the symbol and 'Murray' is the separate rotated text element; 'source' is written GE1-15/masked so a --force rerun does not overwrite the trace with the glyphs included"
+  }
+ },
+ "notes": "5500x3950 R240; green 50 / white border 50 (50/100 dims). Symbol box 335 | 4805 | 360 horizontally, 465 | 3245 | 240 vertically. A1 320 E yellow: baseline 617 (617 | 473 | 2860 = 3950), left ink 655. 'Murray' 320 Emod white reads upward (rotated -90) inside the symbol's label box: the top chain 655 | 2192 | 2653 puts its baseline at x = 2847 (the traced glyphs confirm: cap tops at 2526); centred on the box's vertical extent (box top at the grid top 465, outer height 55 + 1051 + 130 + 1023 + 55 = 2314 -> centre y 1622, not separately dimensioned). Symbol traced with colours=[white] (excludes the yellow A1 that falls inside the box) and the Murray glyphs removed from the trace."
+}

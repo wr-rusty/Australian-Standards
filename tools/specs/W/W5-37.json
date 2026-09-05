@@ -1,0 +1,39 @@
+{
+ "code": "W5-37",
+ "name": "AMBULANCE_STATION_YELLOW_DIAMOND",
+ "legend": "AMBULANCE STATION",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "AMBULANCE",
+   "series": "B",
+   "height": 125,
+   "top": 405.33,
+   "expect": 673
+  },
+  {
+   "type": "text",
+   "text": "STATION",
+   "series": "C",
+   "height": 125,
+   "top": 605.33,
+   "expect": 532
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. AMBULANCE 125 B / 75 / STATION 125 C; no offset dim, but the drawing shows the 75 gap starting on the horizontal centreline (AMBULANCE bottom on the centreline; illustration confirms). Both centred (= dims)."
+}

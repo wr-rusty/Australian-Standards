@@ -1,0 +1,40 @@
+{
+ "code": "W8-28",
+ "name": "CROSSING_RAMP_YELLOW",
+ "legend": "CROSSING RAMP",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 120,
+   "top": 95.0,
+   "expect": 636
+  },
+  {
+   "type": "text",
+   "text": "RAMP",
+   "series": "D",
+   "height": 120,
+   "top": 285.0,
+   "expect": 415,
+   "cx": 380.5
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. CROSSING 120 C top 95, 57 | 636 | 57 centred; RAMP 120 D top 285 (95+120+70), 173 | 415 | 162 -> cx 380.5."
+}

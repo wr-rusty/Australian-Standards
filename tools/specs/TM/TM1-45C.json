@@ -1,0 +1,42 @@
+{
+ "code": "TM1-45C",
+ "name": "TRAFFIC_INCIDENT_AHEAD_YELLOW_LONG",
+ "legend": "TRAFFIC INCIDENT AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "E",
+   "height": 110,
+   "top": 75,
+   "expect": 669
+  },
+  {
+   "type": "text",
+   "text": "INCIDENT",
+   "series": "E",
+   "height": 110,
+   "top": 245,
+   "expect": 733
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 110,
+   "top": 415,
+   "expect": 562
+  }
+ ],
+ "notes": "Top dims 233|733|234 and 265|669|266: 669 taken as TRAFFIC and 733 as INCIDENT (110 E)."
+}

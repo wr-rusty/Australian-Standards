@@ -1,0 +1,13 @@
+{"code":"G2-1","name":"SALTASH_HWY_A75_HAWKER_GREEN_FINGERBOARD","legend":"SALTASH HWY / A75 Hawker",
+ "shape":"rect","size":[2485,780],"radius":0,"ground":"white",
+ "elements":[
+  {"type":"polygon","points":[[305,0],[2485,0],[2485,780],[305,780],[0,390]],"radius":[0,100,100,0,0],"colour":"green"},
+  {"type":"polygon","points":[[314.7,20],[2465,20],[2465,760],[314.7,760],[25.4,390]],"radius":[0,80,80,0,0],"colour":"white"},
+  {"type":"polygon","points":[[324.5,40],[2445,40],[2445,740],[324.5,740],[50.8,390]],"radius":[0,60,60,0,0],"colour":"green"},
+  {"type":"polygon","points":[[405,60],[710,60],[452,390],[710,720],[405,720],[147,390]],"radius":0,"colour":"white"},
+  {"type":"panel","x":932,"y":100,"w":1256,"h":240,"radius":40,"colour":"white"},
+  {"type":"text","text":"SALTASH HWY","series":"D","height":120,"top":160,"cx":1560,"colour":"black"},
+  {"type":"text","text":"A75","series":"E","height":160,"top":460,"align":"left","x":795,"colour":"yellow"},
+  {"type":"text","text":"Hawker","series":"Emod","height":160,"top":460,"align":"left","x":1418,"colour":"white"}
+ ],
+ "notes":"Fingerboard with a pointed left end; the drawing gives 'Total width' and 'Varies' for the legend widths, so the width is built from AS 1744 ink widths: 305+405+85+A75(463)+160+Hawker(908)+160 = 2485 (rounded). Height 780. Outline: point at (0,390), sloped edges reach the top/bottom 305 from the tip, R100 at the two right-hand corners (no radius stated for the tip or the obtuse corners; drawn sharp). Green edge 20 + white border 20 built as inward-offset polygons (ground white underneath). Chevron: white band 60 from the top and bottom (660 high), flat right end at x 710 (305+405), sloped edges parallel to the sign point; its top edge is taken as 305 long (405 to 710) which puts the tip at x 147 and the notch at 452 - the 405 position is only confirmed by measuring the drawing (the chevron's tip is not dimensioned). Road-name panel 240 high at y 100, 60 margins around 120 D text (width 1136+120 = 1256), centred between the '=' marks i.e. on the A75 Hawker line (x 795 to 2325). A75 and Hawker baseline 620 (top 460), 160 bottom margin. The diagonal '236' dimension near the top-left corner could not be tied to any feature and is not used."}

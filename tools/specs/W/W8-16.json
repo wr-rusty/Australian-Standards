@@ -1,0 +1,40 @@
+{
+ "code": "W8-16",
+ "name": "ONE_LANE_YELLOW",
+ "legend": "ONE LANE",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ONE",
+   "series": "E",
+   "height": 125,
+   "top": 94.0,
+   "expect": 361,
+   "cx": 374.5
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 125,
+   "top": 281.0,
+   "expect": 480
+  }
+ ],
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. 125 E / 62 / 125 E, tops 94 and 281. ONE 194 | 361 | 195 -> cx 374.5; LANE 135 | 480 | 135 centred."
+}

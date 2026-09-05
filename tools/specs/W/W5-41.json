@@ -1,0 +1,46 @@
+{
+ "code": "W5-41",
+ "name": "TRAM_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-41_tram",
+   "x": 217.33,
+   "y": 331.33,
+   "w": 625.0,
+   "h": 338,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-41_tram": {
+   "source": "W5-41",
+   "desc": "tram with pantograph, 625 wide (inset), ~330 high incl. pole",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    530,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 313 left of centre (625 wide -> symmetric), bottom 139 below centre. Overall height not stated as one dim (100 pole + 38 + 129 + 20 + ... do not close); 330 taken from the grid inset (pole top to wheel bottom), illustration agrees. Missing dim: overall height. QA: height 338 measured on the illustration (bottom kept 139 below centre), replacing the 330 grid estimate."
+}

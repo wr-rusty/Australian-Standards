@@ -1,0 +1,19 @@
+{
+ "code": "G8-11-1",
+ "name": "C253_UP_ARROW_GREEN",
+ "legend": "C253",
+ "shape": "rect",
+ "size": [600, 450],
+ "radius": 70,
+ "ground": "green",
+ "edge": {"colour": "green", "width": 10},
+ "border": {"colour": "white", "width": 10},
+ "symbols": {
+   "g8-11-1_arrow_up": {"source": "G8-11-1", "desc": "small straight arrow pointing up on 30 grid: 120 wide, head 78 + shaft 59 = 137 (135 on the sign), shaft 42, 34 across the notch, barbs 8, R4 at tip and barbs", "grid_mm": 30, "invert": true, "inset": 0}
+ },
+ "elements": [
+  {"type": "symbol", "id": "g8-11-1_arrow_up", "x": 240, "y": 65, "w": 120, "h": 135, "colour": "white"},
+  {"type": "text", "text": "C253", "series": "E", "height": 120, "top": 250, "colour": "yellow", "expect": 442}
+ ],
+ "notes": "600x450 R70, green edge 10 + white border 10 (20/10). Up arrow 120 wide (240|120|240), y 65-200 (135; detail 78+59); C253 120 E yellow baseline 370 (170 below the arrow, 80 above the bottom), centred 442. Note: arrow can be vertical, angled or horizontal."
+}

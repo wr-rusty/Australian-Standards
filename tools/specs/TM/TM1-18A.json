@@ -1,0 +1,45 @@
+{
+ "code": "TM1-18A",
+ "name": "PREPARE_TO_STOP_RED_SQUARE",
+ "legend": "PREPARE TO STOP",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "red",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 487,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "TO",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 146,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 312,
+   "colour": "white"
+  }
+ ],
+ "notes": "Caption says 'red letters on red ground' but the drawing shows white letters; white used."
+}

@@ -1,0 +1,6 @@
+{"code":"G3-4","name":"NEWELL_HIGHWAY_WHITE","legend":"NEWELL HIGHWAY",
+ "shape":"rect","size":[1590,200],"radius":40,"ground":"white","keyline":true,
+ "elements":[
+  {"type":"text","text":"NEWELL HIGHWAY","series":"D","height":120,"top":40,"colour":"black"}
+ ],
+ "notes":"Road-name sign, single line: 200 high (40|120 D|40), width 'Varies' = 90 + ink + 90 = 1590 with AS 1744 spacing (1409.5). No corner radius stated on this variant (R40 on the two-line variant in the same drawing, used). Black letters on white; keyline added only to show the white panel outline. The same drawing also shows a two-line variant (POLICE / ROAD) - see the second G3-4 spec file."}

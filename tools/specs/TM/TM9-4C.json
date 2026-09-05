@@ -1,0 +1,49 @@
+{
+ "code": "TM9-4C",
+ "name": "EVENT_ON_SIDE_OF_ROAD_YELLOWGREEN_LONG",
+ "legend": "EVENT ON SIDE OF ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "EVENT",
+   "series": "D",
+   "height": 160,
+   "top": 110,
+   "expect": 616
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 115,
+   "top": 375,
+   "words": [
+    "ON",
+    "SIDE",
+    "OF",
+    "ROAD"
+   ],
+   "gap": [
+    65,
+    63,
+    62
+   ],
+   "expect": [
+    155,
+    270,
+    149,
+    317
+   ]
+  }
+ ],
+ "notes": "Stack 110 | 160 D | 105 | 115 C | 110. Bottom line 60 | 155 | 65 | 270 | 63 | 149 | 62 | 317 | 59: centred group with per-pair gaps 65 / 63 / 62."
+}

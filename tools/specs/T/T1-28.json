@@ -1,0 +1,57 @@
+{
+ "code": "T1-28",
+ "name": "NEXT_{km}_KM_YELLOW_SQUARE",
+ "legend": "NEXT {km} km",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "D",
+   "height": 150,
+   "top": 110,
+   "expect": 453
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "D",
+     "height": 150
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 150
+    }
+   ],
+   "gap": 75,
+   "top": 340,
+   "expect": [
+    null,
+    309
+   ]
+  }
+ ],
+ "notes": "T1-28A 600x600 illustrated. Numeral varies (dashed '2', width 'Varies'): {km} = 1-5. Bottom dims: = | Varies | 75 | 309 km | =. km is lower case E Modified at capital height 150 (ink 309 matches; the drawing's '130 Emod' label matches neither x-height 112 nor ascender 152 of that size). Line centred as a whole for every value."
+}

@@ -1,0 +1,35 @@
+{
+ "code": "T1-6",
+ "name": "DETOUR_AHEAD_YELLOW_LONG",
+ "legend": "DETOUR AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "colour": "black",
+   "expect": 916
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 160,
+   "top": 340,
+   "colour": "black",
+   "expect": 818
+  }
+ ]
+}

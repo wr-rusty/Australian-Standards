@@ -1,0 +1,61 @@
+{
+ "code": "R2-2",
+ "name": "ONE_WAY_ARROW_WHITE_TALL",
+ "legend": "ONE WAY",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "ONE",
+   "series": "D",
+   "height": 120,
+   "top": 68,
+   "expect": 296
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "D",
+   "height": 120,
+   "top": 248,
+   "expect": 326
+  },
+  {
+   "type": "symbol",
+   "id": "r2-2_arrow_left",
+   "x": 65,
+   "y": 412,
+   "w": 320,
+   "h": 120,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing file R2-2(L).png shows both hands. The stated vertical stack 68+120+40+120+44+120+68 = 580 is 20 short of 600; the drawn sign has ONE top 68, WAY top 250 and the arrow 412..531 (measured from the drawing's pixels), i.e. the ONE-WAY gap is 60 not 40: 68+120+60+120+44+120+68 = 600 exactly, so the 40 is a drawing typo for 60. Used: ONE top 68, WAY top 248, arrow 412..532 (120 high). Widths: WAY 62|326|62, arrow 65|320|65. The drawn arrow head is 106 high in the picture against the grid's 120 - the traced symbol keeps the drawn shape, fitted 320 wide and centred in the 120 box. QA: the tracer's automatic white-panel detection picked the (R) panel first (the two panels sort by top edge); which 1 selects the (L) panel so the traced arrow points left.",
+ "symbols": {
+  "r2-2_arrow_left": {
+   "source": "R2-2(L)",
+   "desc": "straight block arrow pointing left: 320 long x 120 high, head 110 long, shaft 46, R6 tips, 35/11 barb dims",
+   "grid_mm": 30,
+   "which": 1
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "code": "GE1-8-3",
+ "name": "GOSFORD_NEXT_2_EXITS_GREEN_LONG",
+ "legend": "Gosford NEXT 2 EXITS",
+ "shape": "rect",
+ "size": [
+  3500,
+  1550
+ ],
+ "radius": 240,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 50
+ },
+ "border": {
+  "colour": "white",
+  "width": 50
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "Gosford",
+   "series": "Emod",
+   "height": 320,
+   "top": 340,
+   "colour": "white",
+   "expect": 1822
+  },
+  {
+   "type": "text",
+   "words": [
+    "NEXT",
+    "2",
+    "EXITS"
+   ],
+   "series": "E",
+   "height": 280,
+   "top": 940,
+   "gap": 210,
+   "expect": [
+    1032,
+    227,
+    1113
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "3500x1550 R240; green 50 / white 50. Baselines 660 | 560 | 330. Gosford 839 | 1822 | 839; NEXT 2 EXITS 354 | 1032 | 210 | 227 | 210 | 1113 | 354."
+}

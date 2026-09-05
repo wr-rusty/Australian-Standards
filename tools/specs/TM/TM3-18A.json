@@ -1,0 +1,34 @@
+{
+ "code": "TM3-18A",
+ "name": "LINE_MARKING_YELLOW_SQUARE",
+ "legend": "LINE MARKING",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LINE",
+   "series": "C",
+   "height": 120,
+   "top": 130,
+   "expect": 276
+  },
+  {
+   "type": "text",
+   "text": "MARKING",
+   "series": "B",
+   "height": 120,
+   "top": 350,
+   "expect": 469
+  }
+ ],
+ "notes": "LINE 120 C, MARKING 120 B as drawn."
+}

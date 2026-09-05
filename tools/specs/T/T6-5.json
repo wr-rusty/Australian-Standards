@@ -1,0 +1,63 @@
+{
+ "code": "T6-5",
+ "name": "PILOT_VEHICLE_DO_NOT_OVERTAKE_YELLOW_WHITE_LONG",
+ "legend": "PILOT VEHICLE DO NOT OVERTAKE",
+ "shape": "rect",
+ "size": [
+  1200,
+  500
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M30 250V50a20 20 0 0 1 20 -20H1150a20 20 0 0 1 20 20V250Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "words": [
+    "PILOT",
+    "VEHICLE"
+   ],
+   "gap": 48,
+   "series": "D",
+   "height": 100,
+   "top": 90,
+   "expect": [
+    344,
+    526
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT",
+    "OVERTAKE"
+   ],
+   "gap": [
+    60,
+    52
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 310,
+   "expect": [
+    132,
+    198,
+    538
+   ]
+  }
+ ],
+ "notes": "Drawn as dimensioned at 1200 x 500 (= T6-5B); the size table marks T6-5A 1000 x 350 as 'Illust.', which contradicts the dimensioned drawing (flagged). R50 corners, 10 white edge, 20 black border (30 to the inner face). Upper half (to y 250 = 90+100+60) yellow, lower half white; the yellow area is a hand path with R20 inner top corners. PILOT VEHICLE is labelled '100 C' but its widths 344/526 are Series D (100 C would be 297/448), so drawn in D; DO NOT OVERTAKE matches 100 C. Lower line has unequal gaps (60 / 52) and is centred as a whole: 110 | 132 | 60 | 198 | 52 | 538 | 110."
+}

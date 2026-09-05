@@ -1,0 +1,48 @@
+{
+ "code": "TM2-49A",
+ "name": "SIGNALS_NOT_IN_USE_YELLOW_SQUARE",
+ "legend": "SIGNALS NOT IN USE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SIGNALS",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 445
+  },
+  {
+   "type": "text",
+   "text": "NOT",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 197
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "USE"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "gap": 62,
+   "expect": [
+    92,
+    196
+   ]
+  }
+ ]
+}

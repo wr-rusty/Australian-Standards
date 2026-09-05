@@ -1,0 +1,50 @@
+{
+ "code": "TM8-15A",
+ "name": "BICYCLE_LANE_CLOSED_AHEAD_YELLOW_SQUARE",
+ "legend": "BICYCLE LANE CLOSED AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BICYCLE",
+   "series": "D",
+   "height": 90,
+   "top": 63,
+   "expect": 479
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 90,
+   "top": 191,
+   "expect": 290
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "D",
+   "height": 90,
+   "top": 319,
+   "expect": 435
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 90,
+   "top": 447,
+   "expect": 386
+  }
+ ],
+ "notes": "Stack 63 | 90 D | 38 | 90 D | 38 | 90 D | 38 | 90 D | 63."
+}

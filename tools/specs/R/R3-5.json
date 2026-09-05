@@ -1,0 +1,89 @@
+{
+ "code": "R3-5",
+ "name": "PEDESTRIAN_TRAFFIC_LIGHT_ARROWS_WHITE",
+ "legend": "(pedestrian + arrows)",
+ "shape": "rect",
+ "size": [
+  90,
+  110
+ ],
+ "radius": 10,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 1
+ },
+ "border": {
+  "colour": "black",
+  "width": 3
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "R",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r3-5_arrow_up",
+   "x": 13,
+   "y": 8,
+   "w": 26,
+   "h": 30,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r3-5_arrow_diag_up_right",
+   "x": 52,
+   "y": 25,
+   "w": 24,
+   "h": 24,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r3-5_arrow_right",
+   "x": 52,
+   "y": 64,
+   "w": 30,
+   "h": 26,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r3-5_pedestrian",
+   "x": 9,
+   "y": 52,
+   "w": 33,
+   "h": 50,
+   "colour": "green"
+  }
+ ],
+ "notes": "R3-5A 90 x 110 (DCAL), R10, 1 white edge, 3 black border (read from the 1/3 callouts). Dimensions given for (R): up arrow 13|26 from left, 8 from top, 30 high; diagonal arrow 24 x 24 at 52 from left, 25 from top; right arrow 30 x 26 at 52, 64; pedestrian 35 x 50 at 8, 52 (8 bottom). (L) is the mirror. Separate arrow ids per orientation because the generator fits the symbol to the bbox before rotating. QA: pedestrian dimensioned 35 wide (8..43) but drawn 33 wide (9..42); box set to the drawn extent so the dimensioned 50 height governs the scale.",
+ "symbols": {
+  "r3-5_arrow_up": {
+   "source": "R3-5(R)",
+   "desc": "small block arrow pointing up, 26 wide x 30 long (grid: head 31 long, shaft 8, notch 6/12/15, R1)",
+   "grid_mm": 5.5
+  },
+  "r3-5_arrow_diag_up_right": {
+   "source": "R3-5(R)",
+   "desc": "same arrow at 45 deg pointing up-right, bounding box 24 x 24",
+   "grid_mm": 5.5
+  },
+  "r3-5_arrow_right": {
+   "source": "R3-5(R)",
+   "desc": "same arrow pointing right, 30 long x 26 wide",
+   "grid_mm": 5.5
+  },
+  "r3-5_pedestrian": {
+   "source": "R3-5(R)",
+   "desc": "walking pedestrian (green), 35 wide x 50 high, facing left",
+   "grid_mm": 5.5,
+   "colours": [
+    "green"
+   ]
+  }
+ }
+}

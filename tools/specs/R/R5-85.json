@@ -1,0 +1,78 @@
+{
+ "code": "R5-85",
+ "name": "EMERGENCY_STOPPING_BAY_WHITE_LONG",
+ "legend": "EMERGENCY STOPPING BAY",
+ "shape": "rect",
+ "size": [
+  1500,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "D",
+   "height": 160,
+   "top": 110,
+   "expect": 1230,
+   "align": "left",
+   "x": 135,
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "text": "STOPPING",
+   "series": "D",
+   "height": 160,
+   "top": 350,
+   "expect": 974,
+   "align": "left",
+   "x": 135,
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "text": "BAY",
+   "series": "D",
+   "height": 160,
+   "top": 590,
+   "expect": 405,
+   "align": "left",
+   "x": 135,
+   "mirror": true
+  },
+  {
+   "type": "symbol",
+   "id": "r5-85_arrow_up_right",
+   "x": 1068,
+   "y": 590,
+   "w": 252,
+   "h": 400,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing file R5-85(L-R).png. As R5-58 panel. (L): text 160 D left-aligned at 135, tops 110/350/590; EMERGENCY 1230 (135|1230|135), STOPPING 974, BAY 405; arrow 252 x 400 at 180 from right, 590 from top (110 bottom); telephone box 225 square at 135 from left, 775 from top (25 below BAY, 85+15 to the bottom). (R) mirrors (text right-aligned at 1365). ISSUE: the telephone symbol (225 square at 135, 775) is shown only as a dashed placeholder box with a dashed handset outline - no solid artwork to trace, so nothing is placed there.",
+ "symbols": {
+  "r5-85_arrow_up_right": {
+   "source": "R5-85(L)",
+   "desc": "block arrow curving up-right, bounding box 252 x 400",
+   "grid_mm": 75
+  }
+ },
+ "intervene": "telephone symbol is drawn only as a dashed placeholder outline at 135, 775 (225 square) - nothing to trace, nothing placed; intervene set"
+}

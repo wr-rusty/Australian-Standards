@@ -1,0 +1,39 @@
+{
+ "code": "T3-16-2",
+ "name": "50_KMH_YELLOW_LONG",
+ "legend": "50 km/h",
+ "shape": "rect",
+ "size": [
+  900,
+  400
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "50",
+     "series": "D",
+     "height": 150
+    },
+    {
+     "text": "km/h",
+     "series": "Emod",
+     "height": 100
+    }
+   ],
+   "gap": 100,
+   "top": 125,
+   "expect": [
+    239,
+    418
+   ]
+  }
+ ],
+ "notes": "T3-16-2A 900x400 illustrated. Numerals drawn solid, fixed at 50. Horizontal chain 72 | 239 | 100 | 418 | 71 (centred): numerals 150 D and km/h 100 Emod as one line with a 100 gap, sharing the baseline at 275 (125+150; km/h 175 from top, 125 below)."
+}

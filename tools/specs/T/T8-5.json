@@ -1,0 +1,93 @@
+{
+ "code": "T8-5",
+ "name": "LOOK_BOTH_WAYS_TWO_WAY_TRAFFIC_YELLOW_LONG",
+ "legend": "LOOK BOTH WAYS TWO-WAY TRAFFIC",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LOOK",
+    "BOTH",
+    "WAYS"
+   ],
+   "gap": 45,
+   "series": "D",
+   "height": 60,
+   "top": 70,
+   "expect": [
+    197,
+    187,
+    209
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "t2-24_arrow",
+   "x": 385.25,
+   "y": 93.5,
+   "w": 122.5,
+   "h": 263,
+   "rotate": 90,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "t2-24_arrow",
+   "x": 385.25,
+   "y": 243.5,
+   "w": 122.5,
+   "h": 263,
+   "rotate": -90,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "TWO"
+    },
+    {
+     "text": "-"
+    },
+    {
+     "text": "WAY"
+    },
+    {
+     "text": "TRAFFIC"
+    }
+   ],
+   "gap": [
+    22,
+    22,
+    45
+   ],
+   "series": "D",
+   "height": 60,
+   "top": 470,
+   "expect": [
+    145,
+    null,
+    163,
+    308
+   ]
+  }
+ ],
+ "symbols": {
+  "t2-24_arrow": {
+   "source": "T2-24",
+   "desc": "upward arrow 175 wide x 376 high: head 160 high with R10 tips (barb offset 16), tapered shaft 50 at head to 66 at foot",
+   "grid_mm": 45
+  }
+ },
+ "notes": "Arrows are 'T2-24 @70%' (175x376 -> 122.5x263; inset shows 263 long, 123 high, shaft 35/46, R7) laid horizontally: right-pointing arrow centred on y 225 (130 baseline + 95), left-pointing arrow 150 below on y 375; both span x 315 to 580 per the top dims (315 | 265 | 320 - the 265 disagrees with the 263 of 70% scaling by 2). The symbol is the T2-24 up arrow rotated +/-90 about its centre, so the bbox is given unrotated (122.5 wide x 263 high, centred at x 447.5). Text: LOOK BOTH WAYS 60 D top 70 (130 to baseline), TWO-WAY TRAFFIC 60 D top 470 (530 baseline, 70 below). Bottom line dims 87 | 145 TWO | 65 | 163 WAY | 45 | 308 TRAFFIC | 87, centred as a whole: the hyphen (AS 1744 width 35 at 100 = 21 at 60) sits centred in the 65 zone, i.e. gaps 22 | 21 | 22 (the hyphen's own side spaces are not dimensioned)."
+}

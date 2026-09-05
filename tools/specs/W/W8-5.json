@@ -1,0 +1,57 @@
+{
+ "code": "W8-5",
+ "name": "{dist}_M_YELLOW_WIDE",
+ "legend": "{dist} m",
+ "shape": "rect",
+ "size": [
+  750,
+  250
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{dist}",
+     "series": "E",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70,
+   "top": 55.0,
+   "expect": [
+    null,
+    131
+   ]
+  }
+ ],
+ "vary": {
+  "key": "dist",
+  "values": [
+   50,
+   100,
+   150,
+   200,
+   250,
+   300,
+   400,
+   500
+  ]
+ },
+ "notes": "750 x 250 (Illust. B). R50, 10 edge, 30 black border. Numerals 140 E (Varies) top 55, gap 70, m 120 Emod 131 wide, group centred (= dims). The m is set with capital height 120 on the numerals' baseline (top 195-120 = 75). Numeral and m as runs on one baseline (195): numeral 140 E | 70 | m 120 Emod (131), centred as a group (= | Varies | 70 | 131 | =), so every vary value stays centred."
+}

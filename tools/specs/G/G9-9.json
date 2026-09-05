@@ -1,0 +1,41 @@
+{
+ "code": "G9-9",
+ "name": "REDUCE_SPEED_RED_LONG",
+ "legend": "REDUCE SPEED",
+ "shape": "rect",
+ "size": [
+  1500,
+  750
+ ],
+ "radius": 130,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 130,
+   "colour": "white",
+   "text": "REDUCE",
+   "expect": 1163
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 420,
+   "colour": "white",
+   "text": "SPEED",
+   "expect": 936
+  }
+ ],
+ "notes": "G9-9A illustrated 1500 x 750 (G9-9B 1800 x 900 ignored). 30 red edge + 30 white border (60 total). REDUCE 168|1163|169 centred; SPEED 282|936|282."
+}

@@ -1,0 +1,63 @@
+{
+ "code": "GE2-2",
+ "name": "M1_LAMBERTON_UP_ARROW_GREEN_WIDE",
+ "legend": "M1 Lamberton",
+ "shape": "rect",
+ "size": [
+  5000,
+  1900
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "M1",
+   "series": "E",
+   "height": 400,
+   "top": 400,
+   "colour": "yellow",
+   "align": "left",
+   "x": 1808,
+   "expect": 587
+  },
+  {
+   "type": "text",
+   "text": "Lamberton",
+   "series": "Emod",
+   "height": 400,
+   "top": 1100,
+   "colour": "white",
+   "align": "left",
+   "x": 447,
+   "expect": 3310
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_straight_up_835x547",
+   "x": 4066.5,
+   "y": 535,
+   "w": 547,
+   "h": 835,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_straight_up_835x547": {
+   "source": "GE2-2",
+   "desc": "Straight up arrow, 250 grid: head 547 across and 356 high with R19 tip and R19 barb ends, barb depth 46, notch 125; shaft 170 wide, 477 long; overall 833 (drawn 835) high.",
+   "grid_mm": 250,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "5000x1900 R300; green 70 / white 70. Left chain to baselines 800 M1 | 700 Lamberton | 400; right 535 | 835 arrow | 530. Top 1808 | 587 M1 | 1945 | 660: the 4340 line is the arrow centreline (660 to the right edge), arrow 547 wide centred there. Lamberton 447 | 3310 | 1243."
+}

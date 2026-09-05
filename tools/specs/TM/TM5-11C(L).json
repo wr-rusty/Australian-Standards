@@ -1,0 +1,85 @@
+{
+ "code": "TM5-11C(L)",
+ "name": "DETOUR_FOR_HEAVY_VEHICLES_LEFT_YELLOW_LONG",
+ "legend": "DETOUR FOR HEAVY VEHICLES",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     75,
+     300
+    ],
+    [
+     329,
+     47
+    ],
+    [
+     329,
+     161.55
+    ],
+    [
+     190,
+     300
+    ],
+    [
+     329,
+     438.45
+    ],
+    [
+     329,
+     553
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "C",
+   "height": 110,
+   "top": 140,
+   "expect": 453,
+   "align": "left",
+   "x": 354
+  },
+  {
+   "type": "text",
+   "text": "FOR",
+   "series": "C",
+   "height": 80,
+   "top": 170,
+   "expect": 157,
+   "align": "left",
+   "x": 979
+  },
+  {
+   "type": "text",
+   "words": [
+    "HEAVY",
+    "VEHICLES"
+   ],
+   "series": "B",
+   "height": 110,
+   "top": 350,
+   "gap": 42,
+   "expect": [
+    306,
+    459
+   ],
+   "align": "left",
+   "x": 329
+  }
+ ],
+ "notes": "Across (top) 75 | 115 | 139 | 25 | 453 DETOUR | 172 | 157 FOR | 64; (bottom) 329 | 306 HEAVY | 42 | 459 VEHICLES | 64. Down 140 | 110 C | 100 | 110 B | 140; FOR 80 C shares DETOUR's baseline (top 140+110-80 = 170). Chevron: tip 75 from the panel edge, notch 115 further in (x 190), arm ends 139 further (x 329), vertically 47 | 253 | 253 | 47 (tip on the centreline at y 300). Arm ends are vertical cuts at x 329; the inner end y (161.55 / 438.45) is not stated and is computed assuming the inner edges are parallel to the outer edges (139 x 253/254 from the notch). Change to a symbol if that assumption is not accepted. "
+}

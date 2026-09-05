@@ -1,0 +1,166 @@
+{
+ "code": "R5-36",
+ "name": "NO_STANDING_830_930AM_3_4PM_SCHOOL_DAYS",
+ "legend": "(no standing) 8.30 - 9.30AM 3 - 4PM SCHOOL DAYS",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "radius": 20,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-35_no_standing_140",
+   "x": 42.5,
+   "y": 15,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "8",
+   "series": "E",
+   "height": 50,
+   "top": 200,
+   "colour": "red",
+   "align": "left",
+   "x": 12
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 200,
+   "colour": "red",
+   "align": "left",
+   "x": 57
+  },
+  {
+   "type": "rect",
+   "x": 101,
+   "y": 220.71,
+   "w": 20,
+   "h": 8.59,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 200,
+   "colour": "red",
+   "align": "left",
+   "x": 129
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 200,
+   "colour": "red",
+   "align": "left",
+   "x": 173
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 235,
+   "colour": "red",
+   "align": "left",
+   "x": 173
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "E",
+   "height": 50,
+   "top": 260,
+   "colour": "red",
+   "align": "left",
+   "x": 56
+  },
+  {
+   "type": "rect",
+   "x": 101,
+   "y": 280.7,
+   "w": 20,
+   "h": 8.59,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "E",
+   "height": 50,
+   "top": 260,
+   "colour": "red",
+   "align": "left",
+   "x": 129
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 295,
+   "colour": "red",
+   "align": "left",
+   "x": 173
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL DAYS",
+   "series": "C",
+   "height": 27,
+   "top": 330,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_right",
+   "x": 50,
+   "y": 405,
+   "w": 125,
+   "h": 32,
+   "colour": "red"
+  }
+ ],
+ "notes": "Roundel 140 top 15. Vertical: 8.30-9.30AM 50 E top 200 (30 in 30 C top-aligned, AM 15 E bottom-aligned at 250), 10, 3-4PM top 260, 20, SCHOOL DAYS 27 C top 330, 48, arrow top 405, 13. HORIZONTAL LAYOUT OF THE TIME LINES IS NOT DIMENSIONED on this drawing: x positions taken from the R5-46_R5-2 '6.30 - 9.30AM' inset (numeral 40, gap 5, '30' 39, gap 5, dash 20, gap 8, numeral 40, gap 4, '30' 39 = 200) laid out from x 12 (centred in 225); the 3 - 4 line aligned to the same dash. SCHOOL DAYS centred, width not given. Dash thickness from the font hyphen. QA: the 140 roundel and the right arrow are traced from this drawing (R5-36) because the R5-35 drawing overlays its centre lines and a dashed reference box on them (hairline holes / specks in the trace); same 140 dia, 95 E, 125 x 32 dims. panel_px = the sign's outline pixels (225 x 450 at 0.889 px/mm).",
+ "symbols": {
+  "r5-35_no_standing_140": {
+   "source": "R5-36",
+   "desc": "no-standing roundel 140 dia: red annulus R70/R58, black S 95 E, red slash 12 wide at 65 deg from horizontal (upper-right to lower-left) with white halo where it crosses the S",
+   "grid_mm": 25,
+   "panel_px": [
+    237,
+    84,
+    436,
+    483
+   ],
+   "colours": [
+    "red",
+    "black"
+   ]
+  },
+  "r5_arrow_right": {
+   "source": "R5-36",
+   "desc": "open-chevron arrow pointing right 125 long x 32 high, shaft 12, head 42 long, barb thickness 12",
+   "grid_mm": 25,
+   "panel_px": [
+    237,
+    84,
+    436,
+    483
+   ],
+   "open": 9
+  }
+ }
+}

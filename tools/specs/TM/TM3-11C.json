@@ -1,0 +1,56 @@
+{
+ "code": "TM3-11C",
+ "name": "NEW_WORK_NO_LINES_MARKED_YELLOW_LONG",
+ "legend": "NEW WORK NO LINES MARKED",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NEW",
+    "WORK"
+   ],
+   "series": "E",
+   "height": 110,
+   "top": 75,
+   "gap": 64,
+   "expect": [
+    328,
+    452
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "series": "E",
+   "height": 110,
+   "top": 245,
+   "gap": 80,
+   "expect": [
+    206,
+    454
+   ]
+  },
+  {
+   "type": "text",
+   "text": "MARKED",
+   "series": "E",
+   "height": 110,
+   "top": 415,
+   "expect": 665
+  }
+ ],
+ "notes": "Stack 75 | 110 E | 60 | 110 E | 60 | 110 E | 75 -> tops 75, 245, 415. Top rows: 158|328|64|452|158 is NEW WORK (inner row = first line; AS 1744 gives NEW 329, WORK 452) and 230|206|80|454|230 is NO LINES (NO 207, LINES 454). The NEW WORK row sums to 1160, not 1200: its margins should be 178 each."
+}

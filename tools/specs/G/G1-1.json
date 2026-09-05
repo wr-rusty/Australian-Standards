@@ -1,0 +1,28 @@
+{
+ "code": "G1-1",
+ "name": "A30_SYDNEY_A85_PLUMPTON_HAWKER_GREEN",
+ "legend": "A30 Sydney / A85 SALTASH HWY Plumpton Hawker",
+ "shape": "rect",
+ "size": [2600, 1510],
+ "radius": 100,
+ "ground": "white",
+ "edge": {"colour": "green", "width": 20},
+ "border": {"colour": "white", "width": 20},
+ "symbols": {
+   "g1-1_arrow_straight": {"source": "G1-1", "desc": "straight block arrow on 130 grid: overall length 250, head width 220, head length 141 (tip to barb line), shaft width 68, tip flat 50 wide, 17 from barb line to shaft junction, R10 at barb tips; traced pointing up from the A85 arrow as it appears on the rotated drawing (virtual panel box maps the upright spec onto the rotated page)", "grid_mm": 130, "invert": true, "inset": 0, "panel_px": [235, 210, 809, 543]}
+ },
+ "elements": [
+  {"type": "polygon", "points": [[40, 40], [2560, 40], [2560, 440], [40, 440]], "radius": [60, 60, 40, 40], "colour": "green"},
+  {"type": "polygon", "points": [[40, 460], [2560, 460], [2560, 1470], [40, 1470]], "radius": [40, 40, 60, 60], "colour": "green"},
+  {"type": "symbol", "id": "g1-1_arrow_straight", "x": 345, "y": 115, "w": 220, "h": 250, "colour": "white"},
+  {"type": "text", "text": "A30", "series": "E", "height": 160, "top": 160, "align": "left", "x": 728, "colour": "yellow", "expect": 473},
+  {"type": "text", "text": "Sydney", "series": "Emod", "height": 160, "top": 160, "align": "left", "x": 1361, "colour": "white", "expect": 914},
+  {"type": "symbol", "id": "g1-1_arrow_straight", "x": 2230, "y": 890, "w": 220, "h": 250, "rotate": 90, "colour": "white"},
+  {"type": "text", "text": "A85", "series": "E", "height": 160, "top": 935, "align": "left", "x": 1596, "colour": "yellow", "expect": 459},
+  {"type": "panel", "x": 157, "y": 550, "w": 1239, "h": 240, "radius": 40, "colour": "white"},
+  {"type": "text", "text": "SALTASH HWY", "series": "D", "height": 120, "top": 610, "cx": 776.5, "colour": "black", "expect": 1119},
+  {"type": "text", "text": "Plumpton", "series": "Emod", "height": 160, "top": 910, "align": "left", "x": 199, "colour": "white", "expect": 1192},
+  {"type": "text", "text": "Hawker", "series": "Emod", "height": 160, "top": 1190, "align": "left", "x": 345, "colour": "white", "expect": 903}
+ ],
+ "notes": "Drawing is rotated 90 deg on the page (text reads bottom-to-top); transcribed in true orientation 2600 wide x 1510 high. Green edge 20 + white border 20 (the 40/20 dims), R100. Two stacked green panels R40 at the 20 white divider (y 440-460), outer corners concentric R60. Top panel: up arrow (250 long, 220 wide) centred on x 455 (the 273 gap is dimensioned to the arrow centreline) between y 115 and 365; A30 160 E and Sydney 160 Emod on baseline 320 (top 160). Bottom panel: A85 160 E centred on y 1015 (the 555 from the divider is to the arrow/route-number centreline), right arrow 250x220 at x 2215-2465; road-name panel 1239x240 R40 at x 157, y 550 with SALTASH HWY 120 D (60 margins); Plumpton baseline 1070 (280 below panel), Hawker baseline 1350 (280 lower), 160 bottom margin. INCONSISTENCIES: the right-hand chain reads 135+250+160+459+200+1279+157 = 2640 (sign is 2600) and the road-name panel detail says 1239, so 1279 is taken as a misprint for 1239. The top chain 320+900+290 = 1510: the line at 1220 from the top does not correspond to any element I can identify (not used). Straight arrow on the top panel is the drawn (up) orientation; the same arrow rotated 90 deg clockwise for the right arrow. QA: right arrow box given in the arrow's native (up) orientation 220x250 centred on (2340,1015) then rotated 90."
+}

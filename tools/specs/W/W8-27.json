@@ -1,0 +1,41 @@
+{
+ "code": "W8-27",
+ "name": "PREPARE_TO_STOP_RED_LONG",
+ "legend": "PREPARE TO STOP",
+ "shape": "rect",
+ "size": [
+  900,
+  450
+ ],
+ "radius": 50,
+ "ground": "red",
+ "elements": [
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "D",
+   "height": 120,
+   "top": 70.0,
+   "expect": 682,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "STOP"
+   ],
+   "series": "D",
+   "height": 120,
+   "top": 260.0,
+   "gap": 90.0,
+   "expect": [
+    175,
+    374
+   ],
+   "colour": "white",
+   "cx": 449.5
+  }
+ ],
+ "notes": "900 x 450 (Illust. C), R50, red ground, white letters, no border. PREPARE 120 D top 70, 109 | 682 | 109 centred; TO STOP 120 D top 260 (70+120+70), 130 | 175 | 90 | 374 | 131 -> cx 449.5."
+}

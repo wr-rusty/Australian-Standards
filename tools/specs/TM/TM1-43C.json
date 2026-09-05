@@ -1,0 +1,40 @@
+{
+ "code": "TM1-43C",
+ "name": "ROAD_CLOSED_AHEAD_YELLOW_LONG",
+ "legend": "ROAD CLOSED AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "CLOSED"
+   ],
+   "series": "C",
+   "height": 140,
+   "top": 105,
+   "gap": 81,
+   "expect": [
+    386,
+    573
+   ]
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 155,
+   "top": 345,
+   "expect": 665
+  }
+ ]
+}

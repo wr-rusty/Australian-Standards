@@ -1,0 +1,51 @@
+{
+ "code": "W5-35",
+ "name": "LANE_MERGE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 36
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-35_lane_merge",
+   "x": 247.0,
+   "y": 178.4,
+   "w": 698.0,
+   "h": 980.0,
+   "colour": "black"
+  }
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "w5-35_lane_merge": {
+   "source": "W5-35(L)",
+   "desc": "left lane merging right: median bar 37 wide with 45-degree wedge (bar 980 = 116+210+337+317), right up arrow (head 205 x 210, shaft 96 x 337), left curved arrow (head 337 x 198, R349/R384/R288 curve, shaft 96)",
+   "grid_mm": 45,
+   "panel_px": [
+    51,
+    74,
+    500,
+    522
+   ],
+   "inset": 24.85
+  }
+ },
+ "notes": "Diamond 900 side (Illust. C) drawn as bounding square 1272.79; R60 outer, 12 yellow edge, 36 black border; centre 636.4. One PNG shows (L) and (R); dims for (L). Sign dims: median bar top 458 above the centreline, bar 37 wide centred (18 = half). Bar height 980 from the inset (116+210+337+317). The symbol's horizontal extent is not stated (left curved-arrow end not dimensioned relative to the bar): left edge 247 / width 698 measured from the illustration. Missing dims: symbol left extent/width."
+}

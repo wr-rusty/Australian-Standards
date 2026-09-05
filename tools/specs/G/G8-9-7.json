@@ -1,0 +1,21 @@
+{
+ "code": "G8-9-7",
+ "name": "ROUTE_6_LEFT_ARROW_BROWN_TALL",
+ "legend": "6 left arrow",
+ "shape": "rect",
+ "size": [450, 800],
+ "radius": 50,
+ "ground": "brown",
+ "edge": {"colour": "brown", "width": 10},
+ "border": {"colour": "white", "width": 10},
+ "symbols": {
+   "g8-9-7_arrow_left": {"source": "G8-9-7", "desc": "block arrow pointing left on 40 grid: 310 long (head 108 + shaft 202), head 166 high, shaft 58, 47 across the notch, barbs 12, R6 at the tip and barbs", "grid_mm": 40, "invert": true, "inset": 0}
+ },
+ "elements": [
+  {"type": "polygon", "points": [[45, 45], [405, 45], [405, 156], [325, 405], [125, 405], [45, 156]], "radius": [100, 100, 50, 50, 50, 50], "colour": "white"},
+  {"type": "polygon", "points": [[57, 57], [393, 57], [393, 154.1], [316.3, 393], [133.7, 393], [57, 154.1]], "radius": [88, 88, 38, 38, 38, 38], "colour": "brown"},
+  {"type": "text", "text": "6", "series": "E", "height": 180, "top": 145, "cx": 225, "colour": "white"},
+  {"type": "symbol", "id": "g8-9-7_arrow_left", "x": 70, "y": 507, "w": 310, "h": 166, "colour": "white"}
+ ],
+ "notes": "450x800 R50, brown edge 10 + white border 10 (20/10). Shield 360 at 45|360|45, y 45-405 (numeral 6 180 E: 280 to its baseline from the shield top, 80 below); left arrow 310x166 at x 70, y 507 (102 below the shield), 127 bottom margin. Emblem drawn from the G8-9-5 detail."
+}

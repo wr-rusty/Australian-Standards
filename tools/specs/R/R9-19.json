@@ -1,0 +1,152 @@
+{
+ "code": "R9-19",
+ "name": "GIVE_WAY_IF_GOING_STRAIGHT_AHEAD_WHITE_LONG",
+ "legend": "GIVE WAY IF GOING STRAIGHT AHEAD",
+ "shape": "rect",
+ "size": [
+  900,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 72,
+   "y": 60,
+   "w": 756,
+   "h": 192,
+   "radius": 24,
+   "colour": "red"
+  },
+  {
+   "type": "panel",
+   "x": 90,
+   "y": 78,
+   "w": 720,
+   "h": 156,
+   "radius": 6,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "GIVE",
+    "WAY"
+   ],
+   "series": "D",
+   "height": 100,
+   "top": 106,
+   "gap": 81,
+   "expect": [
+    271,
+    272
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "IF",
+    "GOING"
+   ],
+   "series": "D",
+   "height": 90,
+   "top": 310,
+   "gap": 75,
+   "expect": [
+    92,
+    341
+   ],
+   "align": "left",
+   "x": 106
+  },
+  {
+   "type": "text",
+   "text": "STRAIGHT",
+   "series": "D",
+   "height": 90,
+   "top": 450,
+   "expect": 541,
+   "align": "left",
+   "x": 90
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 90,
+   "top": 590,
+   "expect": 386,
+   "align": "left",
+   "x": 163
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     744,
+     312
+    ],
+    [
+     810,
+     419
+    ],
+    [
+     768,
+     425
+    ],
+    [
+     768,
+     498
+    ],
+    [
+     720,
+     498
+    ],
+    [
+     720,
+     425
+    ],
+    [
+     678,
+     419
+    ]
+   ],
+   "radius": [
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 720,
+   "y": 528,
+   "w": 48,
+   "h": 60,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 720,
+   "y": 618,
+   "w": 48,
+   "h": 60,
+   "colour": "black"
+  }
+ ],
+ "notes": "R9-19B (900 x 750) illustrated. R50, 10 white edge, 30 border. GIVE WAY panel 756 x 192 at (72,60), R24, 18 red border (inner white panel radius 24-18 = 6), GIVE WAY 100 D centred in it (top 60+46 = 106; 66|271|81|272|66). Text block 90 D: IF GOING top 310 (106|92|75|341), STRAIGHT top 450 (90|541), AHEAD top 590 (163|386|129|arrow 132|90); the right-hand chain 60/192/60 puts the block top at 312 - the left chain (310, summing to 750) used. Broken arrow: head 132 wide x 107 high with tip at (744,312), barb back edges drop 6 to the 48-wide stem, stem to y 498 (186 from the tip); dashes 48 x 60 at y 528 and 618 (30 gaps) - bottom at 678 vs the dimensioned 312+368 = 680. R9 at the arrow tip (per-vertex radius)."
+}

@@ -1,0 +1,51 @@
+{
+ "code": "G2-2(a)",
+ "name": "DELORAINE_GREEN_WIDE_SKINNY",
+ "legend": "Deloraine",
+ "shape": "rect",
+ "size": [
+  1897,
+  470
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g1-1_arrow_straight": {
+   "source": "G1-1",
+   "desc": "straight block arrow (G2-2(a) repeats it on a 95 grid, rotated 45 deg to point up-right): overall length 250, head width 220, head length 141, shaft 68 wide, tip flat 50, 17 barb-to-shaft, R10 at barb tips",
+   "grid_mm": 95
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "Deloraine",
+   "series": "Emod",
+   "height": 160,
+   "top": 155,
+   "align": "left",
+   "x": 200,
+   "colour": "white",
+   "expect": 1184
+  },
+  {
+   "type": "symbol",
+   "id": "g1-1_arrow_straight",
+   "x": 1515.5,
+   "y": 95,
+   "w": 220,
+   "h": 250,
+   "rotate": 45,
+   "colour": "white"
+  }
+ ],
+ "notes": "1897x470 R100, green edge 20 + white border 20. Deloraine 160 Emod, 155 top/bottom margins, x 200-1384. Diagonal (up-right) arrow: the drawing boxes it at 203 wide (x 1514-1717) x 203 high (y 134-337); this is the bounding box of the detail's 250x220 arrow rotated 45 deg (tip at the top-right corner, barb tips at the top-left and bottom-right, i.e. (250+220)/2/sqrt2 + tail = about 201-203), so the drawing is self-consistent. The arrow is placed at its detail size (220x250 box in its native up orientation) and rotated 45 deg about the box centre; because the rotated shape's bounding box is not centred on the arrow's own centre, the box centre is set to (1625.5, 220) so that the rotated arrow occupies the drawing's box (checked by measuring the rendered sign: 1514-1717 x 134-337)."
+}

@@ -1,0 +1,54 @@
+{
+ "code": "R6-29",
+ "name": "KEEP_LEFT_UNLESS_OVERTAKING_WHITE_LONG",
+ "legend": "KEEP LEFT UNLESS OVERTAKING",
+ "shape": "rect",
+ "size": [
+  2400,
+  1200
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "KEEP",
+    "LEFT"
+   ],
+   "series": "E",
+   "height": 200,
+   "top": 175,
+   "gap": 134,
+   "expect": [
+    737,
+    689
+   ]
+  },
+  {
+   "type": "text",
+   "text": "UNLESS",
+   "series": "E",
+   "height": 200,
+   "top": 500,
+   "expect": 1138
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKING",
+   "series": "E",
+   "height": 200,
+   "top": 825,
+   "expect": 1848
+  }
+ ],
+ "notes": "R6-29C (2400 x 1200) illustrated. R100, 15 white edge, 45 border. Stack 175/200E/125/200E/125/200E/175."
+}

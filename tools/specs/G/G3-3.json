@@ -1,0 +1,107 @@
+{
+ "code": "G3-3",
+ "name": "18_NARRABRI_A39_GREEN_FINGERBOARD",
+ "legend": "18 Narrabri A39",
+ "shape": "rect",
+ "size": [
+  2215,
+  300
+ ],
+ "radius": 0,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     105,
+     0
+    ],
+    [
+     2215,
+     0
+    ],
+    [
+     2215,
+     300
+    ],
+    [
+     105,
+     300
+    ],
+    [
+     0,
+     150
+    ]
+   ],
+   "radius": 0,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     59,
+     150
+    ],
+    [
+     153,
+     30
+    ],
+    [
+     270,
+     30
+    ],
+    [
+     176,
+     150
+    ],
+    [
+     270,
+     270
+    ],
+    [
+     153,
+     270
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "18",
+   "series": "E",
+   "height": 140,
+   "top": 80,
+   "align": "left",
+   "x": 380,
+   "colour": "white",
+   "expect": 189
+  },
+  {
+   "type": "text",
+   "text": "Narrabri",
+   "series": "Emod",
+   "height": 140,
+   "top": 80,
+   "align": "left",
+   "x": 669,
+   "colour": "white",
+   "expect": 902
+  },
+  {
+   "type": "text",
+   "text": "A39",
+   "series": "E",
+   "height": 140,
+   "top": 80,
+   "align": "left",
+   "x": 1691,
+   "colour": "yellow",
+   "expect": 404
+  }
+ ],
+ "notes": "2215x300 fingerboard, no border, pointed left end (tip at mid-height, slope run 105), square right corners. Chain 105|165|110|189|100|902|120|404|120: the 165 runs from the sign corner to the chevron's flat end at x 270. Chevron from the (110.8) grid detail: 240 high (30 to 270), V run 94, band 92 thick perpendicular = 117 horizontal, so overall 211 wide with its tip at x 59 (this matches the drawing's chevron, which sits well inside the sign point). Text 140 high vertically centred (top 80; no top margin is stated). '18' in 140 E computes to 183.5 vs the drawing's 189 (2.9%).",
+ "accepted_drawing_discrepancy": "'18' 140 E = 183.5 vs drawing 189, 2.9%; no series matches; intervene set. Chevron/positions verified"
+}

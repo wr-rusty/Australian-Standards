@@ -1,0 +1,252 @@
+{
+ "code": "G8-9-5(L)",
+ "name": "CHEVRON_ROUTE_6_TOURIST_DRIVE_BROWN_FINGERBOARD",
+ "legend": "6 TOURIST DRIVE",
+ "shape": "rect",
+ "size": [
+  2010,
+  600
+ ],
+ "radius": 0,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     233,
+     0
+    ],
+    [
+     2010,
+     0
+    ],
+    [
+     2010,
+     600
+    ],
+    [
+     233,
+     600
+    ],
+    [
+     0,
+     300
+    ]
+   ],
+   "radius": [
+    50,
+    100,
+    100,
+    50,
+    20
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     242.8,
+     20
+    ],
+    [
+     1990,
+     20
+    ],
+    [
+     1990,
+     580
+    ],
+    [
+     242.8,
+     580
+    ],
+    [
+     25.3,
+     300
+    ]
+   ],
+   "radius": [
+    30,
+    80,
+    80,
+    30,
+    0
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     252.6,
+     40
+    ],
+    [
+     1970,
+     40
+    ],
+    [
+     1970,
+     560
+    ],
+    [
+     252.6,
+     560
+    ],
+    [
+     50.6,
+     300
+    ]
+   ],
+   "radius": [
+    10,
+    60,
+    60,
+    10,
+    0
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     155,
+     300
+    ],
+    [
+     319,
+     75
+    ],
+    [
+     534.3,
+     75
+    ],
+    [
+     370.3,
+     300
+    ],
+    [
+     534.3,
+     525
+    ],
+    [
+     319,
+     525
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     615,
+     120
+    ],
+    [
+     975,
+     120
+    ],
+    [
+     975,
+     231
+    ],
+    [
+     895,
+     480
+    ],
+    [
+     695,
+     480
+    ],
+    [
+     615,
+     231
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    50,
+    50,
+    50,
+    50
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     627,
+     132
+    ],
+    [
+     963,
+     132
+    ],
+    [
+     963,
+     229.1
+    ],
+    [
+     886.3,
+     468
+    ],
+    [
+     703.7,
+     468
+    ],
+    [
+     627,
+     229.1
+    ]
+   ],
+   "radius": [
+    88,
+    88,
+    38,
+    38,
+    38,
+    38
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 180,
+   "top": 220,
+   "cx": 795,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "TOURIST",
+   "series": "D",
+   "height": 140,
+   "top": 120,
+   "align": "left",
+   "x": 1113,
+   "colour": "white",
+   "expect": 722
+  },
+  {
+   "type": "text",
+   "text": "DRIVE",
+   "series": "D",
+   "height": 140,
+   "top": 340,
+   "align": "left",
+   "x": 1223,
+   "colour": "white",
+   "expect": 503
+  }
+ ],
+ "notes": "G8-9-5(L) 2010x600 fingerboard pointed at the left (point run 233), R100 right corners, R50 at the obtuse corners (tip not stated, drawn with 20 as on G7-4-3), brown edge 20 + white border 20 as offset polygons. Chain 233|382|360|138|722|175: shield x 615-975 (y 120-480), TOURIST x 1113 (722), DRIVE x 1223 (503, 284 from the right, centred under TOURIST); tops 120 and 340 (40|120|140 D|80|140 D|120|20). Chevron per note a = G7-4-3 chevron (450 high, run 164, 174 thick perpendicular = 215 horizontal) with its tip 155 from the sign tip (155|385 chain; detail geometry gives 379 overall). Route emblem from the detail: 360 shield (R100 top, R50 others) with a 12 white line and 6 in 180 E (100|180|80, centred)."
+}

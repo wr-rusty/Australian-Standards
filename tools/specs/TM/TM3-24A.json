@@ -1,0 +1,34 @@
+{
+ "code": "TM3-24A",
+ "name": "ROAD_FLOODED_YELLOW_SQUARE",
+ "legend": "ROAD FLOODED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "C",
+   "height": 120,
+   "top": 130,
+   "expect": 331
+  },
+  {
+   "type": "text",
+   "text": "FLOODED",
+   "series": "B",
+   "height": 120,
+   "top": 350,
+   "expect": 466
+  }
+ ],
+ "notes": "Drawing labels both lines '120 D' but the stated widths 134|331|135 and 67|466|67 are Series C (ROAD 331) and Series B (FLOODED 465) widths; 120 D would give 402 and 573. Series C / B used, matching the TM3-18A (LINE 120 C / MARKING 120 B) pattern."
+}

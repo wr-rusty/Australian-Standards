@@ -1,0 +1,178 @@
+{
+ "code": "GE1-9",
+ "name": "CITY_EXITS_A1_MONASH_DR_B15_FREEMAN_WAY_GREEN_LONG",
+ "legend": "City EXITS A1 MONASH DR 1.0 ROBERT ST 1.8 B15 FREEMAN WAY 2.4",
+ "shape": "rect",
+ "size": [
+  3750,
+  2170
+ ],
+ "radius": 180,
+ "ground": "white",
+ "edge": {
+  "colour": "green",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     80,
+     80
+    ],
+    [
+     3670,
+     80
+    ],
+    [
+     3670,
+     590
+    ],
+    [
+     80,
+     590
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    60,
+    60
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     80,
+     630
+    ],
+    [
+     3670,
+     630
+    ],
+    [
+     3670,
+     2090
+    ],
+    [
+     80,
+     2090
+    ]
+   ],
+   "radius": [
+    60,
+    60,
+    100,
+    100
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "City",
+     "series": "Emod",
+     "height": 240
+    },
+    {
+     "text": "EXITS",
+     "series": "D",
+     "height": 210
+    }
+   ],
+   "gap": 160,
+   "top": 215,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "A1",
+   "series": "E",
+   "height": 240,
+   "top": 810,
+   "colour": "yellow",
+   "align": "left",
+   "x": 200
+  },
+  {
+   "type": "text",
+   "text": "MONASH DR",
+   "series": "D",
+   "height": 210,
+   "top": 840,
+   "colour": "white",
+   "align": "left",
+   "x": 950
+  },
+  {
+   "type": "text",
+   "text": "1.0",
+   "series": "Emod",
+   "height": 240,
+   "top": 810,
+   "colour": "white",
+   "align": "right",
+   "x": 3550
+  },
+  {
+   "type": "text",
+   "text": "ROBERT ST",
+   "series": "D",
+   "height": 210,
+   "top": 1260,
+   "colour": "white",
+   "align": "left",
+   "x": 950
+  },
+  {
+   "type": "text",
+   "text": "1.8",
+   "series": "Emod",
+   "height": 240,
+   "top": 1230,
+   "colour": "white",
+   "align": "right",
+   "x": 3550
+  },
+  {
+   "type": "text",
+   "text": "B15",
+   "series": "E",
+   "height": 240,
+   "top": 1650,
+   "colour": "yellow",
+   "align": "left",
+   "x": 200
+  },
+  {
+   "type": "text",
+   "text": "FREEMAN WAY",
+   "series": "D",
+   "height": 210,
+   "top": 1680,
+   "colour": "white",
+   "align": "left",
+   "x": 950
+  },
+  {
+   "type": "text",
+   "text": "2.4",
+   "series": "Emod",
+   "height": 240,
+   "top": 1650,
+   "colour": "white",
+   "align": "right",
+   "x": 3550
+  }
+ ],
+ "notes": "3750x2170 R180; green 40 / white 40 (80/40). Header row separated by a 40 white divider (215 | 240 Emod | 135 | 40 | 180 | 240 E | 420 | 180 | 240 E | 280 = 2170), sub-panel corners R60 -> green polygons on white. Header 'City' 240 Emod + 160 gap + 'EXITS' 210 D, centred as a group (runs) on a common baseline (455). Rows: route numbers 240 E yellow at 200 from the left; names 210 D 200 after B15 (x=950); distances 240 Emod right-aligned 200 from the right edge; names and distances share the row baseline (1050, 1470, 1890 - middle row at the 420 chain point). FLAG: 200 | B15 550 | 200 | FREEMAN WAY 2034 | 172 | 2.4 519 | 200 sums to 3875 for a 3750 sign; the 172 gap is not honoured. Row 2 vertical position is inferred from the 420 chain point (not separately dimensioned). QA: drawn FREEMAN WAY measures about 1900 in the picture (chain implies 1909) against 2034 for 210 D / 1718 for 210 C; kept 210 D as labelled and flagged for intervention.",
+ "accepted_drawing_discrepancy": "bottom-row chain sums 3875 for a 3750 sign with FREEMAN WAY at the labelled 210 D (2034; the picture shows ~1900); the 172 gap before 2.4 cannot be honoured - intervene set"
+}

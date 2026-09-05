@@ -1,0 +1,48 @@
+{
+ "code": "TM2-36A",
+ "name": "ROAD_PLATES_IN_USE_YELLOW_SQUARE",
+ "legend": "ROAD PLATES IN USE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "expect": 276
+  },
+  {
+   "type": "text",
+   "text": "PLATES",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "expect": 387
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "USE"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "gap": 62,
+   "expect": [
+    92,
+    196
+   ]
+  }
+ ]
+}

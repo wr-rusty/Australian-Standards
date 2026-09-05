@@ -1,0 +1,51 @@
+{
+ "code": "W9-1",
+ "name": "ROUTE_TURN_AT_T_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w9-1_l",
+   "x": 195.33,
+   "y": 255.33,
+   "w": 475,
+   "h": 570,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w9-1_l": {
+   "source": "W9-1",
+   "desc": "left hand: arrowhead pointing left 220 long x 290 wide (20+125+125+20, R20 barbs), notch 20, arm 100 thick to a vertical bar: 60 wide above the arm (200 tall), 100 wide below (270 tall, R50 fillet on the arrow side); 375 + 100 = 475 wide, 200 + 100 + 270 = 570 tall. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    76,
+    500,
+    525
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: bar right edge 140 right of centreline (stated), bottom 295 below centreline (stated); 475 x 570 from inset."
+}

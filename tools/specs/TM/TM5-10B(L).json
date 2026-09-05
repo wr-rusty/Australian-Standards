@@ -1,0 +1,53 @@
+{
+ "code": "TM5-10B(L)",
+ "name": "ON_SIDE_ROAD_LEFT_YELLOW_LONG_SKINNY",
+ "legend": "ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm5-10b_arrow_left",
+   "x": 75,
+   "y": 78,
+   "w": 166,
+   "h": 145,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "SIDE",
+    "ROAD"
+   ],
+   "series": "C",
+   "height": 110,
+   "top": 85,
+   "gap": 63,
+   "expect": [
+    148,
+    259,
+    303
+   ],
+   "align": "left",
+   "x": 291
+  }
+ ],
+ "symbols": {
+  "tm5-10b_arrow_left": {
+   "source": "TM5-10B(L)",
+   "desc": "short block arrow pointing left (166 x 145 box)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Across 75 | 166 arrow | 50 | 148 | 63 | 259 | 63 | 303 | 73; arrow 78|145|77 down."
+}

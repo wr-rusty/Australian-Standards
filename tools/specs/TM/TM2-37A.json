@@ -1,0 +1,42 @@
+{
+ "code": "TM2-37A",
+ "name": "POWER_LINE_WORKS_YELLOW_SQUARE",
+ "legend": "POWER LINE WORKS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "POWER",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 415
+  },
+  {
+   "type": "text",
+   "text": "LINE",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 271
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 430
+  }
+ ],
+ "notes": "Drawing labels POWER and LINE 100 C but their widths 415/271 are Series D (100 C = 359/230); D used."
+}

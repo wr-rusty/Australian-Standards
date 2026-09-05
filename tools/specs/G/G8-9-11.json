@@ -1,0 +1,120 @@
+{
+ "code": "G8-9-11",
+ "name": "END_ROUTE_2_BROWN_TALL",
+ "legend": "END 2",
+ "shape": "rect",
+ "size": [
+  450,
+  800
+ ],
+ "radius": 50,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "symbols": {},
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 140,
+   "top": 105,
+   "align": "left",
+   "x": 57,
+   "colour": "white",
+   "expect": 335
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     45,
+     355
+    ],
+    [
+     405,
+     355
+    ],
+    [
+     405,
+     466
+    ],
+    [
+     325,
+     715
+    ],
+    [
+     125,
+     715
+    ],
+    [
+     45,
+     466
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    50,
+    50,
+    50,
+    50
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     57,
+     367
+    ],
+    [
+     393,
+     367
+    ],
+    [
+     393,
+     464.1
+    ],
+    [
+     316.3,
+     703
+    ],
+    [
+     133.7,
+     703
+    ],
+    [
+     57,
+     464.1
+    ]
+   ],
+   "radius": [
+    88,
+    88,
+    38,
+    38,
+    38,
+    38
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "series": "E",
+   "height": 180,
+   "top": 455,
+   "cx": 225,
+   "colour": "white"
+  }
+ ],
+ "notes": "450x800 R50, 20/10 border. END 140 D with baseline 245 (top 105), 57|335|58; shield 360 at y 355-715 (110 below END, 85 above the bottom), numeral 2 in 180 E (280 to baseline from the shield top; '180 E, symbol or logo')."
+}

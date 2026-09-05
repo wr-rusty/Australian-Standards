@@ -1,0 +1,53 @@
+{
+ "code": "R9-18",
+ "name": "TO_TRAFFIC_FROM_LEFT_WHITE_LONG",
+ "legend": "TO TRAFFIC FROM LEFT",
+ "shape": "rect",
+ "size": [
+  900,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "TRAFFIC"
+   ],
+   "series": "D",
+   "height": 100,
+   "top": 60,
+   "gap": 83,
+   "expect": [
+    145,
+    512
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "FROM",
+    "LEFT"
+   ],
+   "series": "D",
+   "height": 100,
+   "top": 240,
+   "gap": 94,
+   "expect": [
+    330,
+    286
+   ]
+  }
+ ],
+ "notes": "900 x 400, R25, 5 white edge, 15 border. Stack 60/100D/80/100D/60. 80|145|83|512|80 and 95|330|94|286|95."
+}

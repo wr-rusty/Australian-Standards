@@ -1,0 +1,85 @@
+{
+ "code": "G9-72",
+ "name": "LEFT_TURN_FROM_SERVICE_ROAD_ONLY_WHITE_LONG",
+ "legend": "LEFT TURN FROM SERVICE ROAD ONLY",
+ "shape": "rect",
+ "size": [
+  1200,
+  1000
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 120,
+   "colour": "black",
+   "text": "LEFT",
+   "align": "left",
+   "x": 121,
+   "expect": 401
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 120,
+   "colour": "black",
+   "text": "TURN",
+   "align": "left",
+   "x": 627,
+   "expect": 451
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 340,
+   "colour": "black",
+   "text": "FROM",
+   "expect": 464
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 120,
+   "top": 560,
+   "colour": "black",
+   "text": "SERVICE",
+   "align": "left",
+   "x": 124,
+   "expect": 530
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 120,
+   "top": 560,
+   "colour": "black",
+   "text": "ROAD",
+   "align": "left",
+   "x": 744,
+   "expect": 331
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 740,
+   "colour": "black",
+   "text": "ONLY",
+   "expect": 475
+  }
+ ],
+ "notes": "15 white edge + 30 black border. Stack 120|140D|80|140D|80|120C|60|140D|120. LEFT TURN 121|401|105|451|122; FROM 368|464|368; SERVICE ROAD 124|530|90|331|125; ONLY 362|475|363."
+}

@@ -1,0 +1,68 @@
+{
+ "code": "R6-12",
+ "name": "CLEARANCE_3.3_m_WHITE_WIDE",
+ "legend": "CLEARANCE 3.3 m",
+ "shape": "rect",
+ "size": [
+  1500,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CLEARANCE",
+   "series": "D",
+   "height": 160,
+   "top": 100,
+   "expect": 1208
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "3",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": ".",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "3",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 140
+    }
+   ],
+   "top": 340,
+   "gap": [
+    28,
+    28,
+    80
+   ],
+   "expect": [
+    null,
+    28,
+    null,
+    153
+   ]
+  }
+ ],
+ "notes": "R6-12 1500 x 600. As R6-11: numerals 160 E variable (3.3 shown; varies), 84 between numerals incl. 28 point, 80 gap, m 140 Emod 153; group centred (runs, shared baseline)."
+}

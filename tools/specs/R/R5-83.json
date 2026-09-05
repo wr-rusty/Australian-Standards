@@ -1,0 +1,55 @@
+{
+ "code": "R5-83",
+ "name": "END_NO_PARKING_AREA_WHITE_TALL",
+ "legend": "END (no parking) AREA",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 80,
+   "top": 45,
+   "expect": 226
+  },
+  {
+   "type": "symbol",
+   "id": "r5-82_no_parking_290",
+   "x": 80,
+   "y": 155,
+   "w": 290,
+   "h": 290,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 80,
+   "top": 475,
+   "expect": 326
+  }
+ ],
+ "notes": "R5-83A 450 x 600. END 80 E top 45 (112|226|112); roundel 290 at 80, 155 (45+80+30); AREA 80 E top 475 (62|326|62); 45 bottom. Roundel as R5-82 (290).",
+ "symbols": {
+  "r5-82_no_parking_290": {
+   "source": "R5-82",
+   "desc": "no-parking roundel 290 dia: red annulus R145/R120, black P 180 E (50 left / 85 right of centre), red slash 25 wide at 45 deg, white halo",
+   "grid_mm": 40
+  }
+ }
+}

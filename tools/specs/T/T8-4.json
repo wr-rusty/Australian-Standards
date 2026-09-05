@@ -1,0 +1,5 @@
+{"code":"T8-4","name":"FOOTPATH_CLOSED_WHITE_LONG","legend":"FOOTPATH CLOSED","shape":"rect","size":[900,600],
+ "ground":"white","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"FOOTPATH","series":"D","height":100,"top":140,"expect":637},
+             {"type":"text","text":"CLOSED","series":"D","height":100,"top":360,"expect":483}],
+ "notes":"Vertical dims 240 (top to baseline 1), 220 (baseline to baseline), 140: tops 140 and 360."}

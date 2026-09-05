@@ -1,0 +1,60 @@
+{
+ "code": "G9-89",
+ "name": "NO_LINES_DO_NOT_OVERTAKE_WHITE_LONG",
+ "legend": "NO LINES DO NOT OVERTAKE",
+ "shape": "rect",
+ "size": [
+  1500,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "gap": 114,
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "colour": "black",
+   "expect": [
+    294,
+    645
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT"
+   ],
+   "gap": 114,
+   "series": "E",
+   "height": 160,
+   "top": 370,
+   "colour": "black",
+   "expect": [
+    288,
+    434
+   ]
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 640,
+   "colour": "black",
+   "text": "OVERTAKE",
+   "expect": 1208
+  }
+ ],
+ "notes": "Square corners, 25 black border, no edge. Stack 100|160E|110|160E|110|160E|100. NO LINES =|294|114|645|=; DO NOT =|288|114|434|=; OVERTAKE =|1208|=. All stated widths (294/645, 288/434, 1208) are 2-3 percent below AS 1744 Series E at 160 (301/661, 296/443, 1232) - consistent across the sign, unexplained; E 160 kept as labelled.",
+ "accepted_drawing_discrepancy": "all five stated widths are consistently 2-3 percent below E 160; labelled series kept, marked intervene"
+}

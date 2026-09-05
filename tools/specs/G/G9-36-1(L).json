@@ -1,0 +1,61 @@
+{
+ "code": "G9-36-1(L)",
+ "name": "SAFETY_RAMP_ARROW_LEFT_WHITE_WIDE_SKINNY",
+ "legend": "SAFETY RAMP",
+ "shape": "rect",
+ "size": [
+  4500,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g9-36_arrow_diag_up_left",
+   "x": 480,
+   "y": 172,
+   "w": 406,
+   "h": 406,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 320,
+   "top": 215,
+   "colour": "black",
+   "text": "SAFETY",
+   "align": "left",
+   "x": 1148,
+   "expect": 1522
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 320,
+   "top": 215,
+   "colour": "black",
+   "text": "RAMP",
+   "align": "left",
+   "x": 2910,
+   "expect": 1104
+  }
+ ],
+ "notes": "10 white edge + 20 black border (30). 480|406 arrow|262|1522|240|1104|486; arrow 172|406|172 vertical; text 215|320D|215.",
+ "symbols": {
+  "g9-36_arrow_diag_up_left": {
+   "source": "G9-36-1(L)",
+   "desc": "diagonal block arrow pointing up-left at 45 deg, bounding square 406 x 406: overall length along the axis 438, head width 281 across, head length 217, shaft width 100, shaft end 136 wide (square-cut, perpendicular), barb step 34, R20 at the tip and at the shaft-end corners; grid 225 (G9-36-1) / 110 (G9-36-2)",
+   "grid_mm": 225
+  }
+ }
+}

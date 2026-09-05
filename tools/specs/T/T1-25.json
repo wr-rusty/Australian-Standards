@@ -1,0 +1,5 @@
+{"code":"T1-25","name":"ROADWORK_ON_SIDE_ROAD_YELLOW_WIDE","legend":"ROADWORK ON SIDE ROAD","shape":"rect","size":[1800,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"ROADWORK","series":"E","height":160,"top":100,"expect":1312},
+             {"type":"text","words":["ON","SIDE","ROAD"],"gap":120,"series":"D","height":160,"top":340,"expect":[258,445,536]}],
+ "notes":"Second line margins 160 / 161; words centred."}

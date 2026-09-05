@@ -1,0 +1,41 @@
+{
+ "code": "TM1-44C",
+ "name": "BURNING_OFF_AHEAD_YELLOW_LONG",
+ "legend": "BURNING OFF AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BURNING",
+    "OFF"
+   ],
+   "series": "C",
+   "height": 150,
+   "top": 105,
+   "gap": 87,
+   "expect": [
+    705,
+    291
+   ]
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 155,
+   "top": 345,
+   "expect": 792
+  }
+ ],
+ "notes": "Drawing labels the lines 150 D and 155 D, but the widths are Series C (BURNING OFF 705/291; 150 D would be 829/348) and Series E (AHEAD 792, the same 155 E AHEAD as TM1-1C etc.; 155 D = 667); C and E used."
+}

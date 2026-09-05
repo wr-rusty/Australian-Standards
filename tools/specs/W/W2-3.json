@@ -1,0 +1,62 @@
+{
+ "code": "W2-3",
+ "name": "T_INTERSECTION_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     217.33,
+     404.33
+    ],
+    [
+     843.33,
+     404.33
+    ],
+    [
+     843.33,
+     530.33
+    ],
+    [
+     593.33,
+     530.33
+    ],
+    [
+     593.33,
+     842.33
+    ],
+    [
+     467.33,
+     842.33
+    ],
+    [
+     467.33,
+     530.33
+    ],
+    [
+     217.33,
+     530.33
+    ]
+   ],
+   "radius": 0,
+   "colour": "black"
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). T symbol drawn as polygon (fully dimensioned): crossbar 626 (250+126+250) x 126, stem 126 x 312 centred; crossbar bottom on the horizontal centreline (126 above / 312 below; pixel check), centred horizontally (63 | 63). Square corners as drawn."
+}

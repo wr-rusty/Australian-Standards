@@ -1,0 +1,9 @@
+{"code":"G3-8-2","name":"SMITH_ST_BOTH_ARROWS_WHITE","legend":"SMITH ST",
+ "shape":"rect","size":[1354,200],"radius":25,"ground":"white","keyline":true,
+ "symbols":{"g3-8-1_arrow_left":{"source":"G3-8-1","desc":"small street-name arrow pointing left on 50 grid: overall 156 (head 88 + shaft 68), head 137 high, shaft 42, 31 across the notch, barbs sweep back 11, R6","grid_mm":50}},
+ "elements":[
+  {"type":"symbol","id":"g3-8-1_arrow_left","x":75,"y":31.5,"w":156,"h":137,"colour":"black"},
+  {"type":"text","text":"SMITH ST","series":"D","height":120,"top":40,"align":"left","x":306,"colour":"black"},
+  {"type":"symbol","id":"g3-8-1_arrow_left","x":1123,"y":31.5,"w":156,"h":137,"flip":"h","colour":"black"}
+ ],
+ "notes":"As G3-8-1 with an arrow at each end: width = 75+156+75+742+75+156+75 = 1354. Arrows vertically centred (not stated)."}

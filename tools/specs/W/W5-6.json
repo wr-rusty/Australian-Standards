@@ -1,0 +1,32 @@
+{
+ "code": "W5-6",
+ "name": "FORD_YELLOW_DIAMOND",
+ "legend": "FORD",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "FORD",
+   "series": "E",
+   "height": 200,
+   "top": 430.33,
+   "expect": 753,
+   "cx": 554.23
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. FORD 200 E centred vertically (100 above/below centre). Bottom dims 157 | 753 | 109 (measured between the rounded tips, sum 1019) put the word 24 mm right of centre: cx 554.23 honours the drawing."
+}

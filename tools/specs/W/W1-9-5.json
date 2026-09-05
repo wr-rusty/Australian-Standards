@@ -1,0 +1,94 @@
+{
+ "code": "W1-9-5",
+ "name": "EXIT_SPEED_HAIRPIN_{speed}_YELLOW_TALL",
+ "legend": "EXIT SPEED {speed} km/h",
+ "shape": "rect",
+ "size": [
+  1400,
+  2400
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "vary": {
+  "key": "speed",
+  "values": [
+   15,
+   25,
+   35,
+   45,
+   55,
+   65,
+   75,
+   85,
+   95
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 200,
+   "top": 185,
+   "expect": 612,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 200,
+   "top": 535,
+   "expect": 940,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "w1-9-5_hairpin_arrow_l",
+   "x": 454,
+   "y": 845,
+   "w": 491,
+   "h": 655,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "E",
+   "height": 400,
+   "top": 1610,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 130,
+   "top": 2080,
+   "expect": 544,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-9-5_hairpin_arrow_l": {
+   "source": "W1-9-5",
+   "desc": "hairpin arrow, left hand (120 grid): stem 119 wide, 180 deg arc outer R210 / inner R91, 421 from stem outer edge to arc outer left; arrowhead points down 205 tall x 259 wide (R22 barbs), 22 offset, 429 from arc top to tip; 655 tall overall, 491 wide. Fully dimensioned.",
+   "grid_mm": 120,
+   "inset": 0
+  }
+ },
+ "notes": "1400 x 2400, R200; drawing shows 20 and 60 at the corner: taken as 20 yellow edge + 40 black border (pixel check ~40 black, as W1-8-1). Right-hand chain 385 | 350 | 110 | 655 | 110 | 400 E | 200 | 190 = 2400: EXIT baseline 385 (top 185), SPEED baseline 735 (top 535), arrow 845..1500, numerals top 1610 / baseline 2010, km/h baseline 2210 (top 2080, 130 Emod). Left-hand 310 | 125 at bottom does not reconcile with 200 | 190 (slash descender?) - right chain used. Widths: EXIT 612 (394|612|394), SPEED 940 (230|940|230), km/h 544 (428|544|428), numerals 'varies' centred. Vary values 15-95 chosen (advisory speeds), not stated. Arrow box 454..945 (454 | 491 | 455)."
+}

@@ -1,0 +1,210 @@
+{
+ "code": "G9-52(R)",
+ "name": "ALTERNATIVE_ROUTE_FOR_TRUCKS_AND_BUSES_WHITE_POINTED",
+ "legend": "ALTERNATIVE ROUTE FOR TRUCKS AND BUSES",
+ "shape": "rect",
+ "size": [
+  2100,
+  350
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2100.0,
+     175.0
+    ],
+    [
+     1962.0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     350
+    ],
+    [
+     1962.0,
+     350
+    ]
+   ],
+   "radius": [
+    50,
+    25,
+    25,
+    25,
+    25
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2093.63,
+     175.0
+    ],
+    [
+     1959.58,
+     5
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     5,
+     345
+    ],
+    [
+     1959.58,
+     345
+    ]
+   ],
+   "radius": [
+    45,
+    20,
+    20,
+    20,
+    20
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2080.9,
+     175.0
+    ],
+    [
+     1954.73,
+     15
+    ],
+    [
+     15,
+     15
+    ],
+    [
+     15,
+     335
+    ],
+    [
+     1954.73,
+     335
+    ]
+   ],
+   "radius": [
+    35,
+    10,
+    10,
+    10,
+    10
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1971,
+     175
+    ],
+    [
+     1868,
+     45
+    ],
+    [
+     1761,
+     45
+    ],
+    [
+     1863.8,
+     175
+    ],
+    [
+     1761,
+     305
+    ],
+    [
+     1868,
+     305
+    ]
+   ],
+   "radius": 0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 60,
+   "colour": "black",
+   "text": "ALTERNATIVE",
+   "align": "left",
+   "x": 100,
+   "expect": 1010
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 60,
+   "colour": "black",
+   "text": "ROUTE",
+   "align": "left",
+   "x": 1210,
+   "expect": 470
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 210,
+   "colour": "black",
+   "text": "FOR",
+   "align": "left",
+   "x": 244,
+   "expect": 189
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 210,
+   "colour": "black",
+   "text": "TRUCKS",
+   "align": "left",
+   "x": 493,
+   "expect": 392
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 210,
+   "colour": "black",
+   "text": "AND",
+   "align": "left",
+   "x": 945,
+   "expect": 208
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 210,
+   "colour": "black",
+   "text": "BUSES",
+   "align": "left",
+   "x": 1219,
+   "expect": 317
+  }
+ ],
+ "notes": "Pointed sign drawn as polygons on a white panel: R25 corners, 5 white edge + 10 black border (15), point at mid-height (175|175). The tip inset is NOT dimensioned; 138 used as on G9-5 (pixel check about 139), tip radius taken as R50 as on G9-5 (not stated). Chevron from the detail: horizontal arm extent 103, arm thickness 84 measured perpendicular (dimension drawn normal to the arm) giving a horizontal offset of 107 and an overall 210 x 260 (2 x 1 grid squares of 105 wide); centred vertically; right edge at the 339 dimension from the tip (339 + 81 = ALTERNATIVE x on the L sign). Stack 60|100E|50|80D|60. L: 339|81|1010|100|470|100 and 339|225|189|60|392|60|208|66|317|244; R mirrored."
+}

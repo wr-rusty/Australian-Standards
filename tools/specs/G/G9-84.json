@@ -1,0 +1,41 @@
+{
+ "code": "G9-84",
+ "name": "AFTER_SIGNALS_WHITE_LONG",
+ "legend": "AFTER SIGNALS",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "C",
+   "height": 150,
+   "top": 105,
+   "colour": "black",
+   "text": "AFTER",
+   "expect": 486
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 150,
+   "top": 345,
+   "colour": "black",
+   "text": "SIGNALS",
+   "expect": 670
+  }
+ ],
+ "notes": "G9-84B illustrated 900 x 600 (A 600x400, C 1200x800 ignored). 15 white edge + 30 black border. 105|150C|90|150C|105; 207|486|207, 115|670|115."
+}

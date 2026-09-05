@@ -1,0 +1,35 @@
+{
+ "code": "TM2-51A",
+ "name": "SPEED_HUMP_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm2-51a_speed_hump",
+   "x": 85,
+   "y": 246.5,
+   "w": 430,
+   "h": 107,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm2-51a_speed_hump": {
+   "source": "TM2-51A",
+   "desc": "speed hump (bar with dome)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "DRAWING INCONSISTENT: vertical dims 50|107|50 sum to 207 not 600; the illustration shows the 107-high hump centred, so y = (600-107)/2 = 246.5 used.",
+ "accepted_drawing_discrepancy": "vertical dims 50 | 107 | 50 sum to 207 not 600; hump centred - needs confirmation (intervene set"
+}

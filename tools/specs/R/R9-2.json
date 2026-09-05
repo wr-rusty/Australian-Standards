@@ -1,0 +1,39 @@
+{
+ "code": "R9-2",
+ "name": "BUSES_EXCEPTED_WHITE_LONG",
+ "legend": "BUSES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 60,
+   "top": 65,
+   "expect": 237
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 60,
+   "top": 175,
+   "expect": 373
+  }
+ ],
+ "notes": "R9-2A (450 x 300) illustrated. R25, 5 white edge, 15 border. Stack 65/60D/50/60D/65."
+}

@@ -1,0 +1,66 @@
+{
+ "code": "R6-14",
+ "name": "STOP_HERE_ON_RED_ARROW_RED_TALL",
+ "legend": "STOP HERE ON RED ARROW",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "red",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 120,
+   "top": 71,
+   "expect": 316,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "HERE",
+   "series": "C",
+   "height": 120,
+   "top": 257,
+   "expect": 324,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "series": "C",
+   "height": 85,
+   "top": 443,
+   "gap": 53,
+   "expect": [
+    115,
+    168
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "ARROW",
+   "series": "C",
+   "height": 85,
+   "top": 594,
+   "expect": 314,
+   "colour": "red"
+  }
+ ],
+ "notes": "R6-14A illustrated. Red letters, 30 red border, 10 white edge. Stack 71/120/66/120/66/85/66/85/71. STOP 316 / HERE 324 as on R6-6."
+}

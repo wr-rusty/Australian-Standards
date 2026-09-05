@@ -1,0 +1,40 @@
+{
+ "code": "W5-49",
+ "name": "WILD_ANIMALS_YELLOW_DIAMOND",
+ "legend": "WILD ANIMALS",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WILD",
+   "series": "D",
+   "height": 125,
+   "top": 325.33,
+   "expect": 362
+  },
+  {
+   "type": "text",
+   "text": "ANIMALS",
+   "series": "D",
+   "height": 125,
+   "top": 510.33,
+   "expect": 704,
+   "cx": 536.33
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 125 D / 60 / 125 D; ANIMALS top 20 above the centreline (dim 20; illustration confirms ANIMALS top at 510). Top dims 182 | 362 -> WILD centred; bottom dims 346 | 704 (from the vertical centreline) -> ANIMALS cx 536.33."
+}

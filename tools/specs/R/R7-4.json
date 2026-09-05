@@ -1,0 +1,31 @@
+{
+ "code": "R7-4",
+ "name": "END_WHITE_WIDE",
+ "legend": "END",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 100,
+   "top": 50,
+   "expect": 282
+  }
+ ],
+ "notes": "R7-4C (600 x 200) illustrated."
+}

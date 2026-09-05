@@ -1,0 +1,46 @@
+{
+ "code": "W5-20",
+ "name": "SLIPPERY_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-20_slippery_car",
+   "x": 212.33,
+   "y": 205.33,
+   "w": 605.0,
+   "h": 553.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-20_slippery_car": {
+   "source": "W5-20",
+   "desc": "skidding car with skid marks (grid inset: car 337 wide across the roofline, 19 deg tilt, skid 295/244/35)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: symbol left edge 318 left of the vertical centreline, bottom 228 below the horizontal centreline. Overall bbox w/h are not stated (inset dims are partial); w 605 x h 553 measured from the illustration at the 37.5 grid scale. Missing dims: overall symbol width/height."
+}

@@ -1,0 +1,42 @@
+{
+ "code": "TM3-25A",
+ "name": "DEEP_EDGE_DROP_YELLOW_SQUARE",
+ "legend": "DEEP EDGE DROP",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DEEP",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 319
+  },
+  {
+   "type": "text",
+   "text": "EDGE",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 316
+  },
+  {
+   "type": "text",
+   "text": "DROP",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 334
+  }
+ ],
+ "notes": "Stack 80 | 100 D | 70 | 100 D | 70 | 100 D | 80."
+}

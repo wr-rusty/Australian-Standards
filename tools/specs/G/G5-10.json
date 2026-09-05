@@ -1,0 +1,45 @@
+{
+ "code": "G5-10",
+ "name": "NO_THROUGH_ROAD_YELLOW_PLATE",
+ "legend": "NO THROUGH ROAD",
+ "shape": "rect",
+ "size": [
+  850,
+  200
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 120,
+   "top": 40,
+   "align": "left",
+   "x": 113,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "THROUGH",
+   "series": "E",
+   "height": 60,
+   "top": 25,
+   "align": "left",
+   "x": 387,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 60,
+   "top": 115,
+   "cx": 591.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "850x200 yellow plate below a street-name blade; 10 edge strips top and bottom (not drawn, colour not stated). NO 120 E vertically centred (top 40); THROUGH / ROAD 60 E at 15|60|30|60|15 inside the strips (tops 25 and 115). UNDIMENSIONED: horizontal positions of NO, THROUGH and ROAD are pixel estimates from the drawing (NO left 113, THROUGH left 387, ROAD centred under THROUGH)."
+}

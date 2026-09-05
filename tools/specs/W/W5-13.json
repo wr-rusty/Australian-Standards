@@ -1,0 +1,46 @@
+{
+ "code": "W5-13",
+ "name": "STEEP_ASCENT_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-13_car_steep_ascent",
+   "x": 225.33,
+   "y": 376.33,
+   "w": 610.0,
+   "h": 303.5,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-13_car_steep_ascent": {
+   "source": "W5-13",
+   "desc": "car ascending a 610 x 278 wedge (grid inset; mirror-image layout of W5-12)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    110,
+    500,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. As W5-12: symbol placement not dimensioned on the sign; placed centred (illustration shows it centred on both centrelines). Missing dims: symbol offset from the sign centre. QA: box height 303.5 and top 376.33 from the illustration (car top 154 above centre, wedge bottom 150 below), replacing the earlier 320 centred estimate."
+}

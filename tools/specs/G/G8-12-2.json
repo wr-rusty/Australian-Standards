@@ -1,0 +1,162 @@
+{
+ "code": "G8-12-2",
+ "name": "CHEVRON_OD1_BLUE_FINGERBOARD",
+ "legend": "OD 1",
+ "shape": "rect",
+ "size": [
+  1000,
+  300
+ ],
+ "radius": 0,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     117,
+     0
+    ],
+    [
+     1000,
+     0
+    ],
+    [
+     1000,
+     300
+    ],
+    [
+     117,
+     300
+    ],
+    [
+     0,
+     150
+    ]
+   ],
+   "radius": [
+    0,
+    70,
+    70,
+    0,
+    0
+   ],
+   "colour": "blue"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     121.9,
+     10
+    ],
+    [
+     990,
+     10
+    ],
+    [
+     990,
+     290
+    ],
+    [
+     121.9,
+     290
+    ],
+    [
+     12.7,
+     150
+    ]
+   ],
+   "radius": [
+    0,
+    60,
+    60,
+    0,
+    0
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     126.8,
+     20
+    ],
+    [
+     980,
+     20
+    ],
+    [
+     980,
+     280
+    ],
+    [
+     126.8,
+     280
+    ],
+    [
+     25.4,
+     150
+    ]
+   ],
+   "radius": [
+    0,
+    50,
+    50,
+    0,
+    0
+   ],
+   "colour": "blue"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     95,
+     150
+    ],
+    [
+     181,
+     40
+    ],
+    [
+     276,
+     40
+    ],
+    [
+     190,
+     150
+    ],
+    [
+     276,
+     260
+    ],
+    [
+     181,
+     260
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "OD",
+    "1"
+   ],
+   "gap": 80,
+   "series": "E",
+   "height": 135,
+   "top": 82.5,
+   "cx": 618,
+   "colour": "white",
+   "expect": [
+    252,
+    null
+   ]
+  }
+ ],
+ "notes": "1000x300 fingerboard pointed at the left (point run 117), R70 right corners (point and obtuse corners not stated), blue edge 10 + white border 10 as offset polygons. Chevron from the 50-grid detail: 220 high (110+110, 40 margins), V run 86, horizontal thickness 95 (75 perpendicular), overall 181; its flat end at x 276 (117+159) so the tip is at 95. OD 1 135 E vertically centred (= margins), block = |252|80|Varies| = centred between the chevron (276) and the border (960)."
+}

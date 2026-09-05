@@ -1,0 +1,137 @@
+{
+ "code": "G8-9-12",
+ "name": "END_ROUTE_2_WINERY_BROWN_TALL",
+ "legend": "END 2 winery",
+ "shape": "rect",
+ "size": [
+  450,
+  1200
+ ],
+ "radius": 50,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "symbols": {
+  "g8_grapes": {
+   "source": "G8-9-10",
+   "desc": "winery (bunch of grapes) tourist emblem; traced from G8-9-10, where it stands alone in a 350x350 box (ink extent 206 x 258 measured inside the box); on G8-9-8 it sits inside the 360 shield, whose outline is drawn by the spec's polygons; artwork not dimensioned",
+   "grid_mm": 60,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 140,
+   "top": 105,
+   "align": "left",
+   "x": 57,
+   "colour": "white",
+   "expect": 335
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     45,
+     355
+    ],
+    [
+     405,
+     355
+    ],
+    [
+     405,
+     466
+    ],
+    [
+     325,
+     715
+    ],
+    [
+     125,
+     715
+    ],
+    [
+     45,
+     466
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    50,
+    50,
+    50,
+    50
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     57,
+     367
+    ],
+    [
+     393,
+     367
+    ],
+    [
+     393,
+     464.1
+    ],
+    [
+     316.3,
+     703
+    ],
+    [
+     133.7,
+     703
+    ],
+    [
+     57,
+     464.1
+    ]
+   ],
+   "radius": [
+    88,
+    88,
+    38,
+    38,
+    38,
+    38
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "series": "E",
+   "height": 180,
+   "top": 455,
+   "cx": 225,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g8_grapes",
+   "x": 124,
+   "y": 828,
+   "w": 206,
+   "h": 258,
+   "colour": "white"
+  }
+ ],
+ "notes": "450x1200 R50, 20/10 border. Left chain 245 (END baseline)|110|360|65|350|70: END top 105 (57|335|58), shield y 355-715 (numeral 2 180 E), grapes box 350 at y 780 (50|350|50). QA: grapes box set to the ink extent measured inside the drawn 350 box (x 124-330, 48 below the box top, 206 x 258) so the generator's fit-to-box does not enlarge the emblem; symbol traced from G8-9-10 (bare grapes, no shield outline)."
+}

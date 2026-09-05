@@ -1,0 +1,207 @@
+{
+ "code": "R5-80",
+ "name": "NO_PARKING_AREA_7AM_630PM_MON_FRI_WHITE_LONG",
+ "legend": "(no parking) AREA 7AM - 6.30PM MON - FRI 7AM - 12NOON SAT EXCEPT AS SIGNED",
+ "shape": "rect",
+ "size": [
+  2000,
+  1000
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-80_no_parking_500",
+   "x": 220,
+   "y": 135,
+   "w": 500,
+   "h": 500,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 125,
+   "top": 660,
+   "expect": 510,
+   "cx": 470
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 160,
+   "top": 135,
+   "expect": 130,
+   "align": "left",
+   "x": 885
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 45,
+   "top": 250,
+   "expect": 96,
+   "align": "left",
+   "x": 1050
+  },
+  {
+   "type": "rect",
+   "x": 1295,
+   "y": 205,
+   "w": 130,
+   "h": 20
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 160,
+   "top": 135,
+   "expect": 130,
+   "align": "left",
+   "x": 1555
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 95,
+   "top": 135,
+   "expect": 120,
+   "align": "left",
+   "x": 1750
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 45,
+   "top": 250,
+   "align": "left",
+   "x": 1750
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 65,
+   "top": 345,
+   "expect": 197,
+   "align": "left",
+   "x": 1050
+  },
+  {
+   "type": "rect",
+   "x": 1335,
+   "y": 370,
+   "w": 65,
+   "h": 15
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 65,
+   "top": 345,
+   "expect": 137,
+   "align": "left",
+   "x": 1503
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 160,
+   "top": 480,
+   "expect": 130,
+   "align": "left",
+   "x": 885
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 45,
+   "top": 595,
+   "expect": 96,
+   "align": "left",
+   "x": 1050
+  },
+  {
+   "type": "rect",
+   "x": 1295,
+   "y": 550,
+   "w": 130,
+   "h": 20
+  },
+  {
+   "type": "text",
+   "text": "12",
+   "series": "E",
+   "height": 112,
+   "top": 480,
+   "expect": 146,
+   "align": "right",
+   "x": 1701
+  },
+  {
+   "type": "text",
+   "text": "NOON",
+   "series": "E",
+   "height": 38,
+   "top": 602,
+   "expect": 151,
+   "align": "right",
+   "x": 1701
+  },
+  {
+   "type": "text",
+   "text": "SAT",
+   "series": "E",
+   "height": 65,
+   "top": 685,
+   "expect": 185,
+   "align": "left",
+   "x": 1275
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 850,
+   "expect": 705,
+   "words": [
+    "EXCEPT",
+    "AS",
+    "SIGNED"
+   ],
+   "gap": 30.4,
+   "expect_total": true
+  }
+ ],
+ "notes": "R5-80A 2000 x 1000, R100, 15 white edge, 30 black border. Roundel 500 at 220, 135; AREA 125 E top 660 (25 below), 215|510 (centred on the roundel). Right stack 135/160E/50/65E/70/160E/45/65E/100/60D/90. Line 1 (7AM - 6.30PM) top 135: 7 at 885 (130 wide), 35, AM 96 (45 E, bottom-aligned at 295), 149, dash 130 x 20 (top 205), 130, 6 at 1555, 65, 30 (95 C top 135) / PM (45 E top 250) 120 wide at 1750, 130 to edge. MON - FRI 65 E top 345: MON 197 at 1050, 88, dash 65 x 15 (top 370), 103, FRI 137, 360 to edge. Line 3 (7AM - 12NOON) top 480: as line 1 to the dash (top 550), 130, 12 (112 E) 146 wide / NOON (38 E, top 602, 151 wide) right-aligned at 1701, 299 to edge. SAT 65 E top 685, 1275..1460 (215|510|550|185|540 row; the '85' = gap to the 12). EXCEPT AS SIGNED 60 D top 850, 647|705|648 (word gaps not given: 30.4 each, derived from the 705 whole-line width minus the AS 1744 word widths [276, 97, 271]). QA: the 95 C '30' (drawing 120, font 123.5) and 65 E SAT (drawing 185, font 180) are 3 % off the AS 1744 widths with the labelled series; left as drawn (flagged).",
+ "symbols": {
+  "r5-80_no_parking_500": {
+   "source": "R5-80",
+   "desc": "no-parking roundel 500 dia: red annulus R250/R210, black P 310 E (87 left / 148 right of centre), red slash 40 wide at 45 deg upper-left to lower-right, white halo across the P",
+   "grid_mm": 100,
+   "colours": [
+    "red",
+    "black"
+   ]
+  }
+ },
+ "accepted_drawing_discrepancy": "as R5-70: EXCEPT AS SIGNED fixed to 705; '30' 120 vs 123.5 and SAT 185 vs 180 remain 3 % off; intervene set"
+}

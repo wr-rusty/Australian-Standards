@@ -1,0 +1,66 @@
+{
+ "code": "R6-6",
+ "name": "STOP_HERE_ON_RED_SIGNAL_RED_TALL",
+ "legend": "STOP HERE ON RED SIGNAL",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "red",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 120,
+   "top": 72,
+   "expect": 316,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "HERE",
+   "series": "C",
+   "height": 120,
+   "top": 257,
+   "expect": 324,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "series": "C",
+   "height": 85,
+   "top": 442,
+   "gap": 53,
+   "expect": [
+    115,
+    168
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "SIGNAL",
+   "series": "C",
+   "height": 85,
+   "top": 592,
+   "expect": 324,
+   "colour": "red"
+  }
+ ],
+ "notes": "R6-6A illustrated. Red letters and 30 red border, 10 white edge. Stack 72/120/65/120/65/85/65/85/73. Top dimension lines read nearest-first: 67|316|67 = STOP, 63|324|63 = HERE (AS 1744 widths confirm)."
+}

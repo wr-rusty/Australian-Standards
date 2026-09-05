@@ -1,0 +1,44 @@
+{
+ "code": "TM5-1B(S)",
+ "name": "DETOUR_STRAIGHT_YELLOW_LONG_SKINNY",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "E",
+   "height": 120,
+   "top": 90,
+   "expect": 686,
+   "align": "left",
+   "x": 118
+  },
+  {
+   "type": "symbol",
+   "id": "tm5-1b_arrow_up",
+   "x": 916,
+   "y": 59,
+   "w": 160,
+   "h": 182,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm5-1b_arrow_up": {
+   "source": "TM5-1B(S)",
+   "desc": "short block arrow pointing up (160 x 182 box)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Across 118 | 686 DETOUR | 112 | 160 arrow | 124; arrow 59|182|59 down."
+}

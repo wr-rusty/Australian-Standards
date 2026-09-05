@@ -1,0 +1,94 @@
+{
+ "code": "G9-21-2",
+ "name": "ROAD_SUBJECT_TO_FLOODING_INDICATORS_WHITE_SQUARE",
+ "legend": "ROAD SUBJECT TO FLOODING INDICATORS SHOW DEPTH",
+ "shape": "rect",
+ "size": [
+  1400,
+  1400
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 165,
+   "colour": "black",
+   "text": "ROAD",
+   "expect": 469
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 375,
+   "colour": "black",
+   "text": "SUBJECT",
+   "align": "left",
+   "x": 153,
+   "expect": 785
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 375,
+   "colour": "black",
+   "text": "TO",
+   "align": "left",
+   "x": 1043,
+   "expect": 204
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 620,
+   "colour": "black",
+   "text": "FLOODING",
+   "expect": 1124
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 920,
+   "colour": "black",
+   "text": "INDICATORS",
+   "expect": 896
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 1100,
+   "colour": "black",
+   "text": "SHOW",
+   "align": "left",
+   "x": 208,
+   "expect": 418
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 1100,
+   "colour": "black",
+   "text": "DEPTH",
+   "align": "left",
+   "x": 726,
+   "expect": 466
+  }
+ ],
+ "notes": "20 white edge + 40 black border (60). Vertical chain of baselines: 305 (ROAD), +210 (SUBJECT TO 515), +285 (FLOODING 800), +240 (INDICATORS 1040), +180 (SHOW DEPTH 1220), +180 bottom = 1400. ROAD 465|469|466 centred; SUBJECT TO 153|785|105|204|153; FLOODING 138|1124|138; INDICATORS 252|896|252; SHOW DEPTH 208|418|100|466|208."
+}

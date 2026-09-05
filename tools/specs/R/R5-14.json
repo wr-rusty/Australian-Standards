@@ -1,0 +1,116 @@
+{
+ "code": "R5-14",
+ "name": "P10_MINUTE_12NOON_MIDNIGHT_GREEN_TALL",
+ "legend": "P 10 MINUTE 12 NOON - MIDNIGHT",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 35,
+   "expect": 80,
+   "colour": "green",
+   "align": "left",
+   "x": 20
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "series": "E",
+   "height": 60,
+   "top": 35,
+   "expect": 82,
+   "colour": "green",
+   "align": "left",
+   "x": 119
+  },
+  {
+   "type": "text",
+   "text": "MINUTE",
+   "series": "D",
+   "height": 20,
+   "top": 115,
+   "expect": 91,
+   "colour": "green",
+   "align": "left",
+   "x": 114
+  },
+  {
+   "type": "text",
+   "text": "12",
+   "series": "E",
+   "height": 35,
+   "top": 170,
+   "expect": 46,
+   "colour": "green",
+   "align": "left",
+   "x": 40
+  },
+  {
+   "type": "rect",
+   "x": 96,
+   "y": 184.49,
+   "w": 20,
+   "h": 6.02,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "MID",
+   "series": "C",
+   "height": 33,
+   "top": 170,
+   "expect": 60,
+   "colour": "green",
+   "align": "left",
+   "x": 126
+  },
+  {
+   "type": "text",
+   "text": "NOON",
+   "series": "E",
+   "height": 12,
+   "top": 208,
+   "expect": 48,
+   "colour": "green",
+   "align": "left",
+   "x": 40
+  },
+  {
+   "type": "text",
+   "text": "NIGHT",
+   "series": "E",
+   "height": 14,
+   "top": 206,
+   "expect": 60,
+   "colour": "green",
+   "align": "left",
+   "x": 126
+  },
+  {
+   "type": "symbol",
+   "id": "r5_double_arrow",
+   "x": 35,
+   "y": 255,
+   "w": 155,
+   "h": 32,
+   "colour": "green"
+  }
+ ],
+ "notes": "All green, no border. P 100 E top 35 x 20; '10' 60 E x 119 (20+80+14+5), 82 wide; MINUTE 20 D top 115 x 114 (20+80+14), 91 wide - the 91 row (from the 14 gap) is MINUTE and the 82 row (5 further in) is the 10: the picture shows MINUTE starting left of the 10, and 60 E '10' = 82 / 20 D MINUTE = 91 confirm it. Line '12 - MID' top 170 (35+100+35): 12 is 35 E (left column) and MID 33 C (right column) per the drawing; 40|46|40|60|39 with the dash 20 long at 56..76 of the 146 block (x 96..116). NOON 12 E / NIGHT 14 E (as labelled) baselines at 220 (3 below the 35 E line). Dash thickness not dimensioned: taken from the FHWA hyphen stroke of the same series/height, centred on the cap height. Arrow 35|155|35 top 255, 13 bottom.",
+ "symbols": {
+  "r5_double_arrow": {
+   "source": "R5-10",
+   "desc": "double-headed open-chevron arrow 155 long x 32 high, shaft 12, heads 42 long, barb thickness 12",
+   "grid_mm": 22.5
+  }
+ }
+}

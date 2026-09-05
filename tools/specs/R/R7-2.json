@@ -1,0 +1,32 @@
+{
+ "code": "R7-2",
+ "name": "AHEAD_WHITE_WIDE",
+ "legend": "AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "expect": 410
+  }
+ ],
+ "notes": "R7-2C (600 x 200) illustrated. R50, 10 white edge, 30 border. Drawing labels the line 100 E, but AHEAD at 100 E is 512 wide (would leave 4 each side of the 520 inner width); the drawn width 410 (95|410|95) is closest to series D (430, 5 pct over) - D used; see report.",
+ "accepted_drawing_discrepancy": "drawing labels AHEAD 100 E but dimensions it 410; E gives 512, D 430, C 350 \u2014 D used, 5 % over; routed to intervene"
+}

@@ -1,0 +1,53 @@
+{
+ "code": "R8-2(b)",
+ "name": "PEDESTRIANS_AND_BICYCLES_WHITE_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r8-2_pedestrian",
+   "x": 221,
+   "y": 75,
+   "w": 156,
+   "h": 350,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r8-2_bicycle",
+   "x": 114,
+   "y": 475,
+   "w": 370,
+   "h": 245,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing titled R8-2 (file R8-2(b)); R8-2C (600 x 800) illustrated. Pedestrian 148 x 350 at (226,75); 50 gap; bicycle 370 x 245 at (114,475) (114|370|116); 80 bottom. QA: pedestrian dimensioned 148 wide (226..374) but drawn 156 wide (221..377); box set to the drawn extent so the dimensioned 350 height governs the scale.",
+ "symbols": {
+  "r8-2_pedestrian": {
+   "source": "R8-2",
+   "desc": "walking pedestrian, facing left",
+   "grid_mm": 40
+  },
+  "r8-2_bicycle": {
+   "source": "R8-2",
+   "desc": "bicycle, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

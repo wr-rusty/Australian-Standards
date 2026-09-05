@@ -1,0 +1,32 @@
+{
+ "code": "TM10-2A",
+ "name": "LANE_CLOSED_BAR_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 180,
+   "y": 165,
+   "w": 240,
+   "h": 80
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 295,
+   "w": 58,
+   "h": 200
+  }
+ ],
+ "notes": "T symbol drawn as two rectangles: bar 180 | 240 | 180, 165 from top, 80 high; stem 271 | 58 | 271, 50 below bar, 200 high, 105 above bottom."
+}

@@ -1,0 +1,47 @@
+{
+ "code": "R2-15",
+ "name": "U_TURN_PERMITTED_WHITE_TALL",
+ "legend": "U TURN PERMITTED",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "U",
+   "series": "E",
+   "height": 180,
+   "top": 79,
+   "expect": 146
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 90,
+   "top": 315,
+   "expect": 342
+  },
+  {
+   "type": "text",
+   "text": "PERMITTED",
+   "series": "C",
+   "height": 60,
+   "top": 461,
+   "expect": 347
+  }
+ ],
+ "notes": "U 180 E top 79; TURN 90 E top 315 (53|342|55); PERMITTED 60 C top 461 (52|347|51); 79 bottom."
+}

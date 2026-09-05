@@ -1,0 +1,56 @@
+{
+ "code": "G5-13",
+ "name": "ZOO_BROWN_FINGERBOARD",
+ "legend": "ZOO",
+ "shape": "rect",
+ "size": [
+  525,
+  150
+ ],
+ "radius": 0,
+ "ground": "brown",
+ "elements": [
+  {
+   "type": "text",
+   "text": "ZOO",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "align": "left",
+   "x": 100,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     415,
+     25
+    ],
+    [
+     470,
+     25
+    ],
+    [
+     505,
+     75
+    ],
+    [
+     470,
+     125
+    ],
+    [
+     415,
+     125
+    ],
+    [
+     450,
+     75
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  }
+ ],
+ "notes": "Brown tourist fingerboard 150 high (500 min to 1200 max long): chain 100|ZOO|70|90|20 = 100+245.2+70+90+20 = 525. ZOO 100 D white vertically centred. Chevron from the 25-grid detail: 90 wide, 100 high (centred, 25 margins), V run 35 (so the band is 55 thick horizontally)."
+}

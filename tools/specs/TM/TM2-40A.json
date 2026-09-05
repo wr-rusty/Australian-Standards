@@ -1,0 +1,33 @@
+{
+ "code": "TM2-40A",
+ "name": "MERGE_RIGHT_YELLOW_SQUARE",
+ "legend": "MERGE RIGHT",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "MERGE",
+   "series": "C",
+   "height": 120,
+   "top": 130,
+   "expect": 424
+  },
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "D",
+   "height": 120,
+   "top": 350,
+   "expect": 430
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "code": "G7-12",
+ "name": "PENRITH_PARK_AND_RIDE_BLUE",
+ "legend": "P PENRITH PARK & RIDE",
+ "shape": "rect",
+ "size": [
+  800,
+  850
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g1-1_arrow_straight": {
+   "source": "G1-1",
+   "desc": "straight block arrow: overall 250 long, head 220 wide, head 141 long, shaft 68, tip flat 50, 17 barb-to-shaft, R10 (G7-12 repeats it as 109+141, 68, 50, 17, R10 on a 42.5 grid)",
+   "grid_mm": 42.5
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 320,
+   "top": 110,
+   "align": "left",
+   "x": 140,
+   "colour": "white",
+   "expect": 250
+  },
+  {
+   "type": "symbol",
+   "id": "g1-1_arrow_straight",
+   "x": 480,
+   "y": 275,
+   "w": 220,
+   "h": 250,
+   "colour": "white",
+   "rotate": 90
+  },
+  {
+   "type": "text",
+   "text": "PENRITH",
+   "series": "D",
+   "height": 70,
+   "top": 570,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "PARK",
+    "&",
+    "RIDE"
+   ],
+   "gap": 50,
+   "series": "D",
+   "height": 70,
+   "top": 695,
+   "align": "left",
+   "x": 106.5,
+   "colour": "white",
+   "expect": [
+    230,
+    63,
+    194
+   ]
+  }
+ ],
+ "notes": "800x850 R100, 40/20 border. P 320 E at x 140 (250 wide stated; AS 1744 gives 259), top 110. Right arrow 250 long x 220 (detail 109+141, 68 shaft, 50, 17, R10 on 42.5 grid = the G1-1 arrow rotated) at x 465 (140+250+75), centred on y 400 (the 400 from the top). PENRITH 70 D centred (= Varies =), top 570 (400+170); PARK & RIDE = |230|50|63|50|194| = centred (587 block, x 106.5), top 695 (55 below PENRITH baseline), 85 bottom margin. QA: arrow box given in the native (up) orientation 220x250 centred on (590,400) then rotated 90.",
+ "accepted_drawing_discrepancy": "P 320 E = 259 vs 250, 3.6%; no series fits; intervene set. Arrow/text positions verified"
+}

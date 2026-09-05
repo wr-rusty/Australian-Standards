@@ -1,0 +1,54 @@
+{
+ "code": "GE1-18",
+ "name": "EXIT_1_KM_GREEN_WIDE",
+ "legend": "EXIT 1 km",
+ "shape": "rect",
+ "size": [
+  3258,
+  1150
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "EXIT",
+     "series": "E",
+     "height": 400
+    },
+    {
+     "text": "1",
+     "series": "E",
+     "height": 400
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 320
+    }
+   ],
+   "gap": [
+    256,
+    160
+   ],
+   "top": 360,
+   "colour": "white",
+   "expect": [
+    1222,
+    null,
+    660
+   ]
+  }
+ ],
+ "notes": "1150 high, width 'Varies' with the numeral: 420 | EXIT 1222 | 256 | numeral | 160 | km 660 | 420 -> one centred runs line. Written for the illustrated '1' (400 E, ink 120 -> width 3258); the generator cannot vary the panel size with the legend, so other distances are not generated. FLAG: 360 | 400 E | 360 sums to 1120 for the 1150 height; cap top 360 used as drawn. km 320 Emod on the same baseline (760). Border widths not dimensioned on this drawing; green 70 / white 70 as the rest of the GE series."
+}

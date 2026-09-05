@@ -1,0 +1,66 @@
+{
+ "code": "W4-10",
+ "name": "THREE_LANE_TWO_WAY_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w4-10_arrow_up",
+   "x": 209.83,
+   "y": 340.33,
+   "w": 175,
+   "h": 375,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "w4-10_arrow_up",
+   "x": 465.83,
+   "y": 340.33,
+   "w": 175,
+   "h": 375,
+   "colour": "black",
+   "rotate": 180
+  },
+  {
+   "type": "symbol",
+   "id": "w4-10_arrow_up",
+   "x": 671.83,
+   "y": 340.33,
+   "w": 175,
+   "h": 375,
+   "colour": "black",
+   "rotate": 180
+  }
+ ],
+ "symbols": {
+  "w4-10_arrow_up": {
+   "source": "W4-10",
+   "desc": "arrow 375 long x 175 wide: head 160 long, stem 66 wide, barb 50 / 16, R10. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    98,
+    110,
+    547,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Three arrows (left up, middle and right down = same arrow rotated 180 about its box centre). Axes: middle arrow axis 23 right of centreline; bottom row 256 | 206 is measured from that axis -> left axis -233, right axis +229 (pixel check -232 / +23 / +231). Vertical: 185 from centreline to arrow bottoms (stated) -> all arrows y -190..+185."
+}

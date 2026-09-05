@@ -1,0 +1,51 @@
+{
+ "code": "T5-1",
+ "name": "DETOUR_ARROW_YELLOW_LONG_SKINNY",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "t5-1_arrow_left",
+   "x": 115,
+   "y": 70,
+   "w": 182,
+   "h": 160,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "E",
+   "height": 120,
+   "top": 90,
+   "align": "left",
+   "x": 397,
+   "mirror": true,
+   "expect": 687
+  }
+ ],
+ "symbols": {
+  "t5-1_arrow_left": {
+   "source": "T5-1(L,R)",
+   "desc": "horizontal arrow pointing left, 182 long x 160 high: head 105 long with R7 tips, shaft 50 wide, barb overhang 13, 37 dim at apex",
+   "grid_mm": 60
+  }
+ },
+ "notes": "T5-1A(L,R) 1200x300 illustrated; one PNG shows both hands, dimensions identical mirrored. (L): arrow 115 from left, 70 top/bottom; DETOUR starts 100 after the arrow (x 397), 116 right margin. (R) is the exact mirror (text element carries mirror:true so it is re-positioned at x 116). Drawn as yellow ground with black legend as shown; the drawing's caption says 'white retroreflective ground', which contradicts the drawing (flagged). Arrow head geometry (13/37/R7) not unambiguous for a polygon, so a symbol.",
+ "accepted_drawing_discrepancy": "horizontal chain 116|687|106|160|121 sums to 1190 on a 1200 sign (drawing inconsistency); placed from the left, leaving 131 right instead of 121."
+}

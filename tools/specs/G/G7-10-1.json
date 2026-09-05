@@ -1,0 +1,83 @@
+{
+ "code": "G7-10-1",
+ "name": "NO_FUEL_NEXT_144KM_BLUE_TALL",
+ "legend": "NO fuel NEXT 144 km",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g7_fuel": {
+   "source": "G7-3-4",
+   "desc": "fuel (petrol pump) symbol in a 350x350 box; artwork not dimensioned",
+   "grid_mm": null
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 140,
+   "top": 110,
+   "align": "left",
+   "x": 318,
+   "colour": "white",
+   "expect": 263
+  },
+  {
+   "type": "symbol",
+   "id": "g7_fuel",
+   "x": 294.5,
+   "y": 354.5,
+   "w": 297,
+   "h": 282.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "E",
+   "height": 140,
+   "top": 740,
+   "align": "left",
+   "x": 192,
+   "colour": "white",
+   "expect": 516
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "144",
+     "series": "E",
+     "height": 140
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 950,
+   "colour": "white",
+   "expect": [
+    null,
+    null
+   ]
+  }
+ ],
+ "notes": "G7-10-1A (Illust.) 900x1200 R100, 40/20 border. Right chain 110|140 E|70|350|70|140 E|70|140|110. NO 318|263|319; fuel box 275|350|275 at y 320; NEXT 192|516|192; '144 km' block Varies|70|km centred. INCONSISTENCY: km is labelled 120 Emod but the chain gives it 289, which is the 140 Emod width (120 Emod = 249); the drawn artwork measures the same as G7-9-1's 120 Emod km (k 113 high, 241 wide), so 120 Emod is used on the 144 baseline (1090) and the 289 is treated as a misprint (no expect). QA: fuel box = G7-3-4 ink extent within the nominal 350 square at (275,320). QA: the 144 km line is built as one runs group (gap 70) so the generator centres it as the drawing's = margins require."
+}

@@ -1,0 +1,34 @@
+{
+ "code": "TM3-9A",
+ "name": "LOOSE_STONES_SYMBOL_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm3-9a_loose_stones",
+   "x": 75,
+   "y": 196,
+   "w": 450,
+   "h": 207,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm3-9a_loose_stones": {
+   "source": "TM3-9A",
+   "desc": "two cars with stones thrown up from the road, windscreen shatter star",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol box 75|450|75 across, 196|207|197 down."
+}

@@ -1,0 +1,52 @@
+{
+ "code": "TM3-16-1A",
+ "name": "{speed}_KM_H_YELLOW_SQUARE",
+ "legend": "{speed} km/h",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "E",
+   "height": 160,
+   "top": 115
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 110,
+   "top": 375,
+   "expect": 460
+  }
+ ],
+ "notes": "Numerals 160 E (drawing states E, not the R4-1 D/C rule), width 'Varies', centred (= margins). km/h 110 Emod: 110 is the capital/ascender height, top at 115+160+100 = 375, width 70|460|70."
+}

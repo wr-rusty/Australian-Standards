@@ -1,0 +1,50 @@
+{
+ "code": "G9-40-1",
+ "name": "LOCAL_TRAFFIC_ONLY_WHITE_LONG",
+ "legend": "LOCAL TRAFFIC ONLY",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 87,
+   "colour": "black",
+   "text": "LOCAL",
+   "expect": 482
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "text": "TRAFFIC",
+   "expect": 609
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 413,
+   "colour": "black",
+   "text": "ONLY",
+   "expect": 399
+  }
+ ],
+ "notes": "10 white edge + 20 black border (30). Stack 87|100E|63|100E|63|100E|87; LOCAL 209|482|209, TRAFFIC 145|609|146, ONLY 250|399|251."
+}

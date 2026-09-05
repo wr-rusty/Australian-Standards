@@ -1,0 +1,50 @@
+{
+ "code": "RM4-1A",
+ "name": "{speed}_SPEED_WHITE_SQUARE",
+ "legend": "{speed}",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 265,
+   "r_inner": 215,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 220,
+   "top": 190
+  }
+ ],
+ "notes": "RM4-1A 600 x 600, 25 black border, square corners. Red annulus R265/R215 centred (300 to centre, 265/215 radii); numerals 220 D 'Varies' centred (60 shown), top 190. Drawing states series D."
+}

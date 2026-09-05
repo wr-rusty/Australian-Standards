@@ -1,0 +1,39 @@
+{
+ "code": "R9-9",
+ "name": "ONE_LANE_WHITE_LONG",
+ "legend": "ONE LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ONE",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "expect": 289
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 100,
+   "top": 225,
+   "expect": 384
+  }
+ ],
+ "notes": "R9-9A (600 x 400) illustrated. R50, 5 white edge, 10 border. Stack 75/100E/50/100E/75."
+}

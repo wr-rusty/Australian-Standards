@@ -1,0 +1,33 @@
+{
+ "code": "TM1-37C",
+ "name": "SURVEYORS_AHEAD_ORANGE_LONG",
+ "legend": "SURVEYORS AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SURVEYORS",
+   "series": "C",
+   "height": 155,
+   "top": 105,
+   "expect": 976
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 155,
+   "top": 345,
+   "expect": 792
+  }
+ ]
+}

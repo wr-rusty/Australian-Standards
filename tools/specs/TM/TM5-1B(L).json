@@ -1,0 +1,44 @@
+{
+ "code": "TM5-1B(L)",
+ "name": "DETOUR_LEFT_YELLOW_LONG_SKINNY",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm5-1b_arrow_left",
+   "x": 124,
+   "y": 59,
+   "w": 182,
+   "h": 182,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "E",
+   "height": 120,
+   "top": 90,
+   "expect": 686,
+   "align": "left",
+   "x": 406
+  }
+ ],
+ "symbols": {
+  "tm5-1b_arrow_left": {
+   "source": "TM5-1B(L)",
+   "desc": "short block arrow pointing left (182 x 182 box)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Across 124 | 182 arrow | 100 | 686 DETOUR | 108; arrow 59|182|59 down. The 182-high arrow zone (59 | 182 | 59) holds an arrow drawn about 160 high (grid inset), centred in it; the box keeps the stated 182 so the tracer reports the smaller extent."
+}

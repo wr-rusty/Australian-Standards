@@ -1,0 +1,48 @@
+{
+ "code": "TM10-8A",
+ "name": "RIGHT_TURN_ARROW_LANE_CLOSED_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 50,
+   "y": 174,
+   "w": 240,
+   "h": 80
+  },
+  {
+   "type": "rect",
+   "x": 143,
+   "y": 300,
+   "w": 53,
+   "h": 183
+  },
+  {
+   "type": "symbol",
+   "id": "tm10-7a_left_turn_arrow",
+   "x": 345,
+   "y": 174,
+   "w": 205,
+   "h": 309,
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "tm10-7a_left_turn_arrow": {
+   "source": "TM10-7A",
+   "desc": "left-turn block arrow: vertical stem 53 wide curving into leftward head (205 x 309)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Mirror of TM10-7A (50 | 240 | 55 | 205 | 50; bottom 143 | 53 | 149 | 53 | 202): bar x 50 w 240; stem x 143 w 53; arrow bbox x 345 w 205, y 174 h 309, flipped to turn right."
+}

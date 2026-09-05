@@ -1,0 +1,33 @@
+{
+ "code": "TM1-34A",
+ "name": "TRAFFIC_CONTROLLER_ORANGE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm1-34a_traffic_controller",
+   "x": 100,
+   "y": 50,
+   "w": 400,
+   "h": 500,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm1-34a_traffic_controller": {
+   "source": "TM1-34A",
+   "desc": "traffic controller holding stop bat",
+   "grid_mm": 50
+  }
+ }
+}

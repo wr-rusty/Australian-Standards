@@ -1,0 +1,33 @@
+{
+ "code": "TM1-10C",
+ "name": "TRAFFIC_HAZARD_YELLOW_LONG",
+ "legend": "TRAFFIC HAZARD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "E",
+   "height": 155,
+   "top": 105,
+   "expect": 942
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "E",
+   "height": 155,
+   "top": 345,
+   "expect": 930
+  }
+ ]
+}

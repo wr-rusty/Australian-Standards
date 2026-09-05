@@ -1,0 +1,18 @@
+{
+ "code": "G9-55(R)",
+ "name": "WAY_OUT_ARROW_RIGHT_GREEN_WIDE_SKINNY",
+ "legend": "WAY OUT",
+ "shape": "rect",
+ "size": [875, 150],
+ "radius": 10,
+ "ground": "green",
+ "elements": [
+  {"type": "text", "series": "D", "height": 100, "top": 25, "colour": "white", "text": "WAY", "align": "left", "x": 35, "expect": 271},
+  {"type": "text", "series": "D", "height": 100, "top": 25, "colour": "white", "text": "OUT", "align": "left", "x": 382, "expect": 238},
+  {"type": "symbol", "id": "g9-55_arrow_right", "x": 695, "y": 13, "w": 140, "h": 123, "colour": "white"}
+ ],
+ "notes": "No border; white on green, R10. 35|271|76|238|75|140 arrow|40; arrow 13|123|14 (mirrored g9-55_arrow_left).",
+ "symbols": {
+   "g9-55_arrow_right": {"source": "G9-55(R)", "desc": "block arrow pointing right (G9-55(R) drawing) 140 x 123: head 80 long, shaft 60 long x 38 wide, head 123 across, barb return 10, notch depth 28 (head base to shaft), R6 tip and barbs; grid 43.75", "grid_mm": 43.75, "invert": true, "inset": 0}
+ }
+}

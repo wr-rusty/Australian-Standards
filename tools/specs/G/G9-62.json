@@ -1,0 +1,73 @@
+{
+ "code": "G9-62",
+ "name": "BICYCLES_USE_RAMP_ARROW_WHITE_TALL",
+ "legend": "USE RAMP",
+ "shape": "rect",
+ "size": [
+  600,
+  1200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "bicycle",
+   "x": 73,
+   "y": 94,
+   "w": 454,
+   "h": 300,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 459,
+   "colour": "black",
+   "text": "USE",
+   "expect": 326
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 669,
+   "colour": "black",
+   "text": "RAMP",
+   "align": "left",
+   "x": 62,
+   "expect": 484
+  },
+  {
+   "type": "symbol",
+   "id": "g9-62_arrow_diag_up_left",
+   "x": 182,
+   "y": 869,
+   "w": 236,
+   "h": 236,
+   "colour": "black"
+  }
+ ],
+ "notes": "10 white edge + 20 black border. Bicycle 73|454|73 at 94 (300 tall); USE 137|326|137 top 459; RAMP 62|484|54 (as drawn, not centred) top 669; arrow 182|236|182 at 869 (94|300|65|140D|70|140D|60|236|95).",
+ "symbols": {
+  "g9-62_arrow_diag_up_left": {
+   "source": "G9-62",
+   "desc": "diagonal block arrow pointing up-left at 45 deg in a 236 square: length 255 along the axis, head 163 across, head length 126 along the axis, barb step 20, shaft 58 wide, shaft end 79, R12 tip and shaft-end corners; grid 60",
+   "grid_mm": 60
+  },
+  "bicycle": {
+   "source": "G9-57",
+   "desc": "bicycle pictogram (side view, facing left), 681 x 450 on G9-57 (grid 45); same outline scaled on G9-58 (317x210, grid 22.5), G9-60/64 (278x184, grid 30/37.5), G9-62/65 (454x300, grid 60), G9-63 (400x265, grid 45)",
+   "grid_mm": 45
+  }
+ }
+}

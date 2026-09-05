@@ -1,0 +1,98 @@
+{
+ "code": "G9-77",
+ "name": "SLOWER_VEHICLES_USE_TURNOUTS_NEXT_60_km_WHITE_LONG",
+ "legend": "SLOWER VEHICLES USE TURNOUTS NEXT 60 km",
+ "shape": "rect",
+ "size": [
+  1800,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 100,
+   "colour": "black",
+   "text": "SLOWER",
+   "align": "left",
+   "x": 188,
+   "expect": 594
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 100,
+   "colour": "black",
+   "text": "VEHICLES",
+   "align": "left",
+   "x": 882,
+   "expect": 729
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 315,
+   "colour": "black",
+   "text": "USE",
+   "align": "left",
+   "x": 316,
+   "expect": 279
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 315,
+   "colour": "black",
+   "text": "TURNOUTS",
+   "align": "left",
+   "x": 695,
+   "expect": 789
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "60",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": [
+    100.0,
+    50.0
+   ],
+   "top": 530,
+   "colour": "black",
+   "expect": [
+    363,
+    null,
+    216
+   ]
+  }
+ ],
+ "notes": "10 white edge + 20 black border (30). Stack 100|120D|95|120D|95|120D|100. 188|594|100|729|189; 316|279|100|789|316. Line 3 centred as a group (=|363|100|Varies|50|216|=): numerals 60 (120 D, vary), km 105 Emod baseline-aligned (top 545); x from the font width of 60 (191) - not stated. QA: the NEXT 60 km line is built as one runs group (gap [100.0, 50.0]) so the generator centres it as the drawing's = margins require."
+}

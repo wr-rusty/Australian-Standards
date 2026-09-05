@@ -1,0 +1,46 @@
+{
+ "code": "W7-4",
+ "name": "RAILWAY_CROSSING_LIGHTS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w7-4_crossbuck_lights",
+   "x": 330.33,
+   "y": 304.33,
+   "w": 400.0,
+   "h": 546,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w7-4_crossbuck_lights": {
+   "source": "W7-4",
+   "desc": "crossbuck (two 430 x 55 arms at 60 deg) on a 40 post with two R81/R43 flashing lights at 240 centres",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dim: post bottom 320 below centre; symbol symmetric about the vertical centreline. Width 400 from the arms (430 cos30 + 55 sin30). Height: inset 480 is from the post top, the arm tips rise above it; overall ~540 measured from the illustration. Missing dim: overall height. QA: height 546 measured on the illustration (post bottom kept 320 below centre), replacing the 540 estimate."
+}

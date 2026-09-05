@@ -1,0 +1,46 @@
+{
+ "code": "W6-1",
+ "name": "PEDESTRIANS_YELLOWGREEN_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w6-1_pedestrians",
+   "x": 310.33,
+   "y": 163.33,
+   "w": 464.0,
+   "h": 606.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w6-1_pedestrians": {
+   "source": "W6-1",
+   "desc": "two pedestrians (adult and child), 464 x 606",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow-green edge, 30 black border; centre 530.33. Fluorescent yellow-green ground. Symbol 464 x 606 (inset); left edge 220 left of centre, bottom 239 below centre."
+}

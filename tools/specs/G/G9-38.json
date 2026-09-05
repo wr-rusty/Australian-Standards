@@ -1,0 +1,72 @@
+{
+ "code": "G9-38",
+ "name": "OVERTAKING_LANE_6_km_AHEAD_WHITE_LONG",
+ "legend": "OVERTAKING LANE 6 km AHEAD",
+ "shape": "rect",
+ "size": [
+  2600,
+  1300
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 200,
+   "colour": "black",
+   "text": "OVERTAKING",
+   "expect": 1850
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 550,
+   "colour": "black",
+   "text": "LANE",
+   "expect": 768
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "6",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 170
+    },
+    {
+     "text": "AHEAD",
+     "series": "E",
+     "height": 200
+    }
+   ],
+   "gap": [
+    100.0,
+    200.0
+   ],
+   "top": 900,
+   "colour": "black",
+   "expect": [
+    null,
+    351,
+    1022
+   ]
+  }
+ ],
+ "notes": "20 white edge + 40 black border (60). Stack 200|200E|150|200E|150|200E|200. OVERTAKING 375|1850|375, LANE 916|768|916. Third line centred as a group (=|Varies|100|351|200|1022|=): numeral 6 (200 E, varies), km 170 Emod baseline-aligned (top 930), AHEAD 200 E; x from font ink width of 6 (162) - not stated. QA: the 6 km AHEAD line is built as one runs group (gap [100.0, 200.0]) so the generator centres it as the drawing's = margins require."
+}

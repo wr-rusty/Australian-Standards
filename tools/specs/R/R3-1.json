@@ -1,0 +1,46 @@
+{
+ "code": "R3-1",
+ "name": "PEDESTRIAN_CROSSING_YELLOWGREEN_ROUND",
+ "legend": "(walking legs)",
+ "shape": "circle",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r3-1_pedestrian_legs",
+   "x": 74,
+   "y": 124,
+   "w": 455,
+   "h": 327,
+   "colour": "black"
+  }
+ ],
+ "notes": "600 dia, fluorescent yellow-green ground, 30 black ring inside a 15 yellow-green edge. Legs top 176 above centre (y 124); top corners 100 left / 67 right of centreline. Bbox extents (456 x 332) counted from the 30 grid / sign picture - not stated dims. Tracer: panel_px = outer edge of the black ring (inset 15) so the circle mask excludes the ring; open 9 removes the drawing's centre lines. QA: rim re-read - the drawing's '30' runs from the outer edge to the inner edge of the black ring and the '15' is the yellow-green edge strip (drawn ring is 15 wide): edge 15 + ring 15, not 30. Tracer panel_px corrected to the sign's outer edge (600 dia = 437 px, inset 0); the earlier panel was 9% too large. Legs box re-measured from the drawing with that mapping: x 74..529, y 124..451 (top 176 above centre and top corners 102 L / 69 R of centre agree with the stated 176/100/67).",
+ "symbols": {
+  "r3-1_pedestrian_legs": {
+   "source": "R3-1",
+   "desc": "walking legs symbol, legs at 25 deg each side of vertical; top of legs 176 above centre, top corners 100 left / 67 right of centreline",
+   "grid_mm": 30,
+   "panel_px": [
+    158,
+    117,
+    594,
+    553
+   ],
+   "inset": 0,
+   "open": 13
+  }
+ }
+}

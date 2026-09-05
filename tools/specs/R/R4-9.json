@@ -1,0 +1,47 @@
+{
+ "code": "R4-9",
+ "name": "END_SCHOOL_ZONE_WHITE_SQUARE",
+ "legend": "END SCHOOL ZONE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 100,
+   "top": 87,
+   "expect": 282
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 510
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 100,
+   "top": 413,
+   "expect": 330
+  }
+ ],
+ "notes": "Illustrated R4-9B 600 x 600. END 100 E top 87; SCHOOL 100 D top 250; ZONE 100 D top 413; 87 bottom."
+}

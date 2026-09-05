@@ -1,0 +1,46 @@
+{
+ "code": "W5-45",
+ "name": "EMUS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-45_emu",
+   "x": 255.33,
+   "y": 225.33,
+   "w": 427.0,
+   "h": 593.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-45_emu": {
+   "source": "W5-45",
+   "desc": "emu, 427 x 593",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Emu 427 x 593 (inset); left edge 275 left of centre, bottom 288 below centre."
+}

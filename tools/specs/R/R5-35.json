@@ -1,0 +1,45 @@
+{
+ "code": "R5-35",
+ "name": "NO_STANDING_WHITE_TALL",
+ "legend": "(no standing) ->",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "radius": 20,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-35_no_standing_140",
+   "x": 42.5,
+   "y": 60,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r5_arrow_right",
+   "x": 50,
+   "y": 255,
+   "w": 125,
+   "h": 32,
+   "colour": "red"
+  }
+ ],
+ "notes": "R5-35A 225 x 300. Corner radius not stated on this drawing; R20 taken from R5-36 (same family). Roundel 140 dia top 60, centred; arrow 125 x 32 top 255 (60+140+55), 13 bottom. The drawing's 'white C' = white halo where the slash crosses the S (in the symbol). Tracer: no border ring, panel_px = pixel bbox of the sign's white interior; roundel traced as red + black layers, arrow with open 9. QA: roundel and arrow now traced from R5-36 (clean copy of the same symbols; this drawing's centre lines and dashed box left hairline holes and specks).",
+ "symbols": {
+  "r5-35_no_standing_140": {
+   "source": "R5-36",
+   "desc": "no-standing roundel 140 dia: red annulus R70/R58, black S 95 E, red slash 12 wide at 65 deg from horizontal (upper-right to lower-left) with white halo where it crosses the S",
+   "grid_mm": 25
+  },
+  "r5_arrow_right": {
+   "source": "R5-36",
+   "desc": "open-chevron arrow pointing right 125 long x 32 high, shaft 12, head 42 long, barb thickness 12",
+   "grid_mm": 25
+  }
+ }
+}

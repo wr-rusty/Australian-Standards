@@ -1,0 +1,34 @@
+{
+ "code": "G5-4",
+ "name": "CITY_OF_PRIDE_STANDARD_ST_WHITE_BLADE",
+ "legend": "CITY OF PRIDE STANDARD ST",
+ "shape": "rect",
+ "size": [
+  1044,
+  200
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "CITY OF PRIDE",
+   "series": "D",
+   "height": 25,
+   "top": 25,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "STANDARD ST",
+   "series": "D",
+   "height": 100,
+   "top": 75,
+   "align": "left",
+   "x": 100,
+   "colour": "black"
+  }
+ ],
+ "notes": "Street-name blade drawn with a 10-wide strip (double line, '10') along the top and bottom edges whose colour is not stated; not drawn. 200 high: 10|15|25 D|25|100 D|15|10. CITY OF PRIDE 25 D centred (horizontal position not stated). Length not stated: 100 + 923.6 + 20 as G5-1A. The drawing shows a wider gap before ST than AS 1744 spacing."
+}

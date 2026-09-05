@@ -1,0 +1,168 @@
+{
+ "code": "G9-4(L)",
+ "name": "LOAD_LIMIT_ON_BRIDGE_DETOUR_WHITE_LONG",
+ "legend": "LOAD LIMIT ON BRIDGE 22 t GROSS HEAVY VEHICLES DETOUR",
+ "shape": "rect",
+ "size": [
+  1700,
+  900
+ ],
+ "radius": 100,
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 45,
+   "w": 1610,
+   "h": 390,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 465,
+   "w": 1610,
+   "h": 390,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 87,
+   "colour": "black",
+   "text": "LOAD",
+   "align": "left",
+   "x": 97,
+   "expect": 457
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 87,
+   "colour": "black",
+   "text": "LIMIT",
+   "align": "left",
+   "x": 650,
+   "expect": 438
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 267,
+   "colour": "black",
+   "text": "ON",
+   "align": "left",
+   "x": 115,
+   "expect": 225
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 267,
+   "colour": "black",
+   "text": "BRIDGE",
+   "align": "left",
+   "x": 446,
+   "expect": 629
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "22",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 135
+    }
+   ],
+   "gap": 56.0,
+   "top": 87,
+   "colour": "black",
+   "expect": [
+    null,
+    70
+   ],
+   "cx": 1408.5
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 80,
+   "top": 307,
+   "colour": "black",
+   "text": "GROSS",
+   "align": "left",
+   "x": 1217,
+   "expect": 383
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 513,
+   "colour": "black",
+   "text": "HEAVY",
+   "align": "left",
+   "x": 298,
+   "expect": 504
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 513,
+   "colour": "black",
+   "text": "VEHICLES",
+   "align": "left",
+   "x": 882,
+   "expect": 728
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 693,
+   "colour": "black",
+   "text": "DETOUR",
+   "align": "left",
+   "x": 870,
+   "expect": 686
+  },
+  {
+   "type": "symbol",
+   "id": "g9-3_arrow_left",
+   "x": 144,
+   "y": 673,
+   "w": 600,
+   "h": 160,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "g9-3_arrow_left": {
+   "source": "G9-3(L)",
+   "desc": "block arrow pointing left, overall 600 x 160: head length 104, shaft length 496, shaft width 50, head width 160, head base to shaft (notch) 37, barb step 13, R8 tip and R8 barb corners; grid 85",
+   "grid_mm": 85
+  }
+ },
+ "notes": "15 white edge + 30 black border. Two white R40 sub-panels either side of the 30 black bar at y 435-465. Numerals 22 (160 E) are variable; \"Centre numerals and letter above GROSS\": x computed from font ink widths (22 = 281.8, gap 56, t = 70) about the GROSS centre 1408.5 - not a stated dimension; t (135 Emod) baseline aligned with the numerals. Same arrow as G9-3. QA: the 22 t line is built as one runs group (gap [56.0]) so the generator centres it as the drawing's = margins require."
+}

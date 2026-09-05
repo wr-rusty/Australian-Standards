@@ -1,0 +1,59 @@
+{
+ "code": "G8-12-1",
+ "name": "OD1_RIGHT_ARROW_BLUE",
+ "legend": "OD 1",
+ "shape": "rect",
+ "size": [
+  1000,
+  300
+ ],
+ "radius": 70,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "symbols": {
+  "g8-12-1_arrow_up": {
+   "source": "G8-12-1",
+   "desc": "straight arrow pointing up on 50 grid: 160 wide, head 104 + shaft 79 = 183 (180 on the sign), shaft 56, 45 across the notch, barbs 11, R6 at tip and barbs",
+   "grid_mm": 50,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "OD",
+    "1"
+   ],
+   "gap": 80,
+   "series": "E",
+   "height": 135,
+   "top": 82,
+   "cx": 372.5,
+   "colour": "white",
+   "expect": [
+    252,
+    null
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "g8-12-1_arrow_up",
+   "x": 715,
+   "y": 60,
+   "w": 160,
+   "h": 180,
+   "colour": "white",
+   "rotate": 90
+  }
+ ],
+ "notes": "G8-12-1 (second variant, right arrow) 1000x300 R70, 20/10 border. OD 1 as the first variant, centred between 40 and the arrow (x 705); right arrow 180 long x 160 high (70 margins), 115 from the right (x 705-885) = the up arrow rotated 90 deg clockwise. QA: arrow box given in the native (up) orientation 160x180 centred on (795,150) then rotated 90, which puts the rotated arrow at x 705-885, y 70-230."
+}

@@ -1,0 +1,56 @@
+{
+ "code": "W4-11",
+ "name": "TWO_WAY_TRAFFIC_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w4-11_arrow_up",
+   "x": 267.83,
+   "y": 295.33,
+   "w": 219,
+   "h": 470,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "w4-11_arrow_up",
+   "x": 573.83,
+   "y": 295.33,
+   "w": 219,
+   "h": 470,
+   "colour": "black",
+   "rotate": 180
+  }
+ ],
+ "symbols": {
+  "w4-11_arrow_up": {
+   "source": "W4-11",
+   "desc": "arrow 470 long x 219 wide: head 200 long, stem 82 wide, barb 62 / 20, R12. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    83,
+    110,
+    531,
+    558
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Arrow axes 153 each side of centreline (153 | 153; overall 525 = 2 x 153 + 219). No vertical dimension on the sign: centred as drawn (measured y -234..238). Right arrow = the same arrow rotated 180."
+}

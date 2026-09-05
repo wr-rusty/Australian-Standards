@@ -1,0 +1,64 @@
+{
+ "code": "TM1-28A",
+ "name": "NEXT_{km}_KM_YELLOW_SQUARE",
+ "legend": "NEXT {km} km",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "E",
+   "height": 100,
+   "top": 165,
+   "expect": 368
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "gap": 45,
+   "top": 335,
+   "expect": [
+    null,
+    175
+   ]
+  }
+ ],
+ "notes": "Numeral varies (dashed placeholder: '= | Varies | 45 | 175 | ='); generated for 1-20 km. Numeral 100 E and km 85 Emod share a baseline (km top 350 = 165+100+85, baseline 435); the drawing does not dimension the numeral's vertical position separately. Line centred as a whole.",
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   15,
+   20
+  ]
+ }
+}

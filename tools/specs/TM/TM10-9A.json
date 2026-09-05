@@ -1,0 +1,47 @@
+{
+ "code": "TM10-9A",
+ "name": "LEFT_TURN_WEDGE_LANE_CLOSED_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm10-9a_left_turn_arrow_wedge",
+   "x": 62,
+   "y": 176,
+   "w": 201,
+   "h": 320
+  },
+  {
+   "type": "rect",
+   "x": 310,
+   "y": 165,
+   "w": 240,
+   "h": 80
+  },
+  {
+   "type": "rect",
+   "x": 401,
+   "y": 295,
+   "w": 58,
+   "h": 200
+  }
+ ],
+ "symbols": {
+  "tm10-9a_left_turn_arrow_wedge": {
+   "source": "TM10-9A",
+   "desc": "short left-turn arrow above a tapered wedge block (combined 201 x 320)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Arrow+wedge group: 62 from left, arrow 198 wide (top dims) / wedge 201 wide (bottom dims) -> bbox w 201; 176 from top, 320 high. DRAWING INCONSISTENCY: left stack 176 | 320 | 105 sums to 601. Bar 310 | 240 | 50, y 165 h 80; stem x 401 w 58 (bottom dims 62 | 201 | 138 | 58 | 141), y 295 h 200."
+}

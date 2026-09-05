@@ -1,0 +1,57 @@
+{
+ "code": "T3-11",
+ "name": "NEW_WORK_NO_LINES_MARKED_YELLOW_LONG",
+ "legend": "NEW WORK NO LINES MARKED",
+ "shape": "rect",
+ "size": [
+  1500,
+  900
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NEW",
+    "WORK"
+   ],
+   "gap": 150,
+   "series": "D",
+   "height": 150,
+   "top": 130,
+   "expect": [
+    392,
+    546
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "gap": 150,
+   "series": "E",
+   "height": 150,
+   "top": 375,
+   "expect": [
+    292,
+    642
+   ]
+  },
+  {
+   "type": "text",
+   "text": "MARKED",
+   "series": "E",
+   "height": 150,
+   "top": 620,
+   "expect": 942
+  }
+ ],
+ "notes": "Tops: 130; 130+150+95 = 375; 375+150+95 = 620. Every stated width (392, 546, 292, 642, 942) is 3.5-4% larger than AS 1744 spacing at the stated 150 height (377, 525, 282, 620, 909); they all correspond to a letter height of about 156. Kept at the stated 150 D / 150 E.",
+ "accepted_drawing_discrepancy": "all five stated widths are 3.5\u20134 % over AS 1744 spacing at the labelled 150 D / 150 E (they fit a cap height of ~156). Kept at 150 as labelled; drawing inconsistency."
+}

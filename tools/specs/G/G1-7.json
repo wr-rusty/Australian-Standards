@@ -1,0 +1,21 @@
+{
+ "code": "G1-7",
+ "name": "BIRDVILLE_A95_THOMAS_WAY_PLUMPTON_B269_DIAGRAM_GREEN",
+ "legend": "Birdville A95 / THOMAS WAY Plumpton B269",
+ "shape": "rect",
+ "size": [1870, 2190],
+ "radius": 100,
+ "ground": "green",
+ "edge": {"colour": "green", "width": 20},
+ "border": {"colour": "white", "width": 20},
+ "elements": [
+  {"type": "polygon", "points": [[1620, 345], [1670, 400], [1670, 2090], [1570, 2090], [1570, 1887.8], [952.3, 1531.1], [934, 1462.8], [1002.3, 1444.5], [1570, 1772.3], [1570, 400]], "radius": [0, 0, 0, 0, 0, 0, 0, 0, 30, 0], "colour": "white"},
+  {"type": "text", "text": "Birdville", "series": "Emod", "height": 160, "top": 130, "align": "right", "x": 1710, "colour": "white"},
+  {"type": "text", "text": "A95", "series": "E", "height": 160, "top": 400, "align": "right", "x": 1410, "colour": "yellow"},
+  {"type": "panel", "x": 217, "y": 910, "w": 1193, "h": 240, "radius": 40, "colour": "white"},
+  {"type": "text", "text": "THOMAS WAY", "series": "D", "height": 120, "top": 970, "cx": 813.5, "colour": "black"},
+  {"type": "text", "text": "Plumpton", "series": "Emod", "height": 160, "top": 1210, "align": "left", "x": 260, "colour": "white"},
+  {"type": "text", "text": "B269", "series": "E", "height": 160, "top": 1480, "align": "left", "x": 260, "colour": "yellow"}
+ ],
+ "notes": "1870x2190 R100, green edge 20 + white border 20. Vertical chain: Birdville top 130 (160 Emod), 110 gap, A95 top 400 (160 E); THOMAS WAY panel 240 high, 60 gap, Plumpton 160 Emod, 110 gap, B269 160 E, 550 to the bottom -> B269 top 1480, Plumpton top 1210, panel y 910-1150. Stated horizontals: Birdville right edge 160 from the right (x 1710); Plumpton/B269 left edge 260 (the 260 is drawn under B269; Plumpton is drawn flush with it); diagram right edge 200 from the right, bottom 100 from the bottom. No ink widths are given for any word. UNDIMENSIONED (values are pixel estimates from the drawing, not stated): A95 horizontal position (drawn with its right edge about 1410, flush with the road-name panel's right edge); THOMAS WAY panel x (panel width taken as 120 D ink 1073 + 2x60 = 1193 with its right edge at about 1410; the drawn panel scales to only about 1120 wide); the diagram's width and height (750 x 1750 read off the 100 grid of the detail). QA: diagram drawn as a polygon measured against the detail's 100 grid (not traced): through stem 100 wide x 1745 high (x 1570-1670, y 345-2090) with a 55 pointed tip; exit arm 100 wide at 30 deg from horizontal leaving the stem's left edge between y 1772 and 1888 (R30 at the upper junction) to a 45 deg pointed tip at (934,1463); overall 736 x 1745."
+}

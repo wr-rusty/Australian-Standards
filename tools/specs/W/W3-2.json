@@ -1,0 +1,82 @@
+{
+ "code": "W3-2",
+ "name": "GIVE_WAY_SIGN_AHEAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w3-1_up_arrow",
+   "x": 405.33,
+   "y": 140.33,
+   "w": 250,
+   "h": 219,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     260.03,
+     447.33
+    ],
+    [
+     800.63,
+     447.33
+    ],
+    [
+     530.33,
+     915.53
+    ]
+   ],
+   "radius": 25,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "w3-2_give_way_red",
+   "x": 290.33,
+   "y": 459.33,
+   "w": 480,
+   "h": 420,
+   "colour": "red"
+  }
+ ],
+ "symbols": {
+  "w3-1_up_arrow": {
+   "source": "W3-1",
+   "desc": "upward arrow: 250 wide x 219 tall, head 125 tall, stem 81 wide, barb 16 thick at the ends, R8 corners. Fully dimensioned.",
+   "grid_mm": 37.5
+  },
+  "w3-2_give_way_red": {
+   "source": "W3-2",
+   "desc": "give-way emblem red band: rounded triangle 12 inside the white outline (480 wide, R12/R13 corners), band width and centre triangle not dimensioned - traced as the red layer; the white outline and centre are the white polygon underneath.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    95,
+    100,
+    544,
+    548
+   ],
+   "inset": 20.71,
+   "colours": [
+    "red"
+   ]
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Left chain 219 arrow | 88 | 83 | 444 triangle: triangle top 83 above centreline, arrow bottom 171 above, arrow top 390 above; centred. Arrow taken as the W3-1 arrow (only the triangle is in this inset). QA: emblem drawn as a white rounded triangle polygon (sharp side 540.6 = 504 - 50 + 2*25*sqrt3, R25, apex 915.53; bbox 504 x 443.2 vs stated 444) with the traced red band (box 480 x 420, 12 inside) on top; the white centre is the polygon showing through the band's hole. A combined red+white trace picked up the diamond corners/paper in the box's empty bottom corners as white."
+}

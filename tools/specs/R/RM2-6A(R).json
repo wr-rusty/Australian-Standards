@@ -1,0 +1,39 @@
+{
+ "code": "RM2-6A(R)",
+ "name": "NO_RIGHT_TURN_WHITE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "rm2-6a_no_left_turn",
+   "x": 30.5,
+   "y": 30.5,
+   "w": 539,
+   "h": 539,
+   "colour": "black",
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "rm2-6a_no_left_turn": {
+   "source": "RM2-6A(L)",
+   "desc": "red annulus, bar and black left-turn arrow (flipped horizontally for RM2-6A(R))",
+   "grid_mm": 50,
+   "colours": [
+    "red",
+    "black"
+   ]
+  }
+ },
+ "notes": "RM2-6A(R): mirror of RM2-6A(L) (bar bottom-left to top-right, right-turn arrow)."
+}

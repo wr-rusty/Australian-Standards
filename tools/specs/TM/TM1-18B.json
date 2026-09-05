@@ -1,0 +1,39 @@
+{
+ "code": "TM1-18B",
+ "name": "PREPARE_TO_STOP_RED_LONG_SKINNY",
+ "legend": "PREPARE TO STOP",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "red",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "colour": "white",
+   "words": [
+    "PREPARE",
+    "TO",
+    "STOP"
+   ],
+   "gap": [
+    70,
+    75
+   ],
+   "expect": [
+    490,
+    122,
+    258
+   ]
+  }
+ ],
+ "notes": "Caption says 'red letters' but drawing shows white; white used. Across 92 | 490 | 70 | 122 | 75 | 258 | 93. Line now a centred group with per-pair gaps 70 / 75 (margins 92 / 93 in the drawing)."
+}

@@ -1,0 +1,23 @@
+{
+ "code": "G9-32",
+ "name": "RAILWAY_WHITE_WIDE_SKINNY",
+ "legend": "RAILWAY",
+ "shape": "rect",
+ "size": [
+  2100,
+  450
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 320,
+   "top": 65,
+   "colour": "black",
+   "text": "RAILWAY",
+   "expect": 1774
+  }
+ ],
+ "notes": "No border. RAILWAY 320 D, 65 above/below, 163|1774|163."
+}

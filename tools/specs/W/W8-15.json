@@ -1,0 +1,57 @@
+{
+ "code": "W8-15",
+ "name": "MERGE_RIGHT_YELLOW",
+ "legend": "MERGE RIGHT",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "MERGE",
+   "series": "E",
+   "height": 100,
+   "top": 70.0,
+   "expect": 492
+  },
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "E",
+   "height": 100,
+   "top": 214.0,
+   "expect": 419,
+   "cx": 374.5
+  },
+  {
+   "type": "symbol",
+   "id": "w8-3_arrow",
+   "x": 175.0,
+   "y": 345.0,
+   "w": 400.0,
+   "h": 100.0,
+   "colour": "black",
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "w8-3_arrow": {
+   "source": "W8-3(L)",
+   "desc": "horizontal arrow 400 x 100 (same geometry as W8-3: head 92, R5, shaft 39, 29/9 notch); flipped to point right",
+   "grid_mm": 37.5
+  }
+ },
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. MERGE 100 E top 70, 129 | 492 | 129 centred; RIGHT 100 E top 214, 165 | 419 | 166 -> cx 374.5; arrow 400 x 100 top 345, 175 | 400 | 175, pointing right (W8-3 arrow geometry, flipped)."
+}

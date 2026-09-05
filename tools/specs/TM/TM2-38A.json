@@ -1,0 +1,33 @@
+{
+ "code": "TM2-38A",
+ "name": "ON_RAMP_YELLOW_SQUARE",
+ "legend": "ON RAMP",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 120,
+   "top": 130,
+   "expect": 193
+  },
+  {
+   "type": "text",
+   "text": "RAMP",
+   "series": "D",
+   "height": 120,
+   "top": 350,
+   "expect": 414
+  }
+ ]
+}

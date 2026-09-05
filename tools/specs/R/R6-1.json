@@ -1,0 +1,55 @@
+{
+ "code": "R6-1",
+ "name": "NO_OVERTAKING_OR_PASSING_WHITE_TALL",
+ "legend": "NO OVERTAKING OR PASSING",
+ "shape": "rect",
+ "size": [
+  750,
+  900
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 140,
+   "top": 90,
+   "expect": 263
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKING",
+   "series": "B",
+   "height": 115,
+   "top": 305,
+   "expect": 616
+  },
+  {
+   "type": "text",
+   "text": "OR",
+   "series": "D",
+   "height": 120,
+   "top": 495,
+   "expect": 193
+  },
+  {
+   "type": "text",
+   "text": "PASSING",
+   "series": "C",
+   "height": 120,
+   "top": 690,
+   "expect": 540
+  }
+ ],
+ "notes": "R6-1A illustrated. R50, 10 white edge, 30 black border. Stack 90/140E/75/115B/75/120D/75/120C/90."
+}

@@ -1,0 +1,46 @@
+{
+ "code": "W5-47",
+ "name": "KOALAS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-47_koala",
+   "x": 221.33,
+   "y": 321.33,
+   "w": 583.0,
+   "h": 437.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-47_koala": {
+   "source": "W5-47",
+   "desc": "koala, 583 x 437",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    529,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Koala 583 x 437 (inset); left edge 309 left of centre, bottom 228 below centre."
+}

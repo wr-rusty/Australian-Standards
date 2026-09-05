@@ -1,0 +1,84 @@
+{
+ "code": "R5-10",
+ "name": "DISABLED_PARKING_ONLY_WHITE_LONG",
+ "legend": "P (disabled) ONLY",
+ "shape": "rect",
+ "size": [
+  450,
+  225
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 40,
+   "expect": 80,
+   "colour": "green",
+   "align": "left",
+   "x": 72
+  },
+  {
+   "type": "symbol",
+   "id": "r5-10_wheelchair",
+   "x": 275,
+   "y": 20,
+   "w": 125,
+   "h": 125,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "D",
+   "height": 35,
+   "top": 165,
+   "expect": 118,
+   "colour": "blue",
+   "align": "left",
+   "x": 278
+  },
+  {
+   "type": "symbol",
+   "id": "r5_double_arrow",
+   "x": 35,
+   "y": 180,
+   "w": 155,
+   "h": 32,
+   "colour": "green"
+  }
+ ],
+ "notes": "No border, R25. P 100 E green top 40, 72 from left (80 wide). Blue 125 square at 275,20. ONLY 35 D blue top 165 (145+20), 35+155+88 = 278 from left, 118 wide, 25 bottom. Green double arrow 155 x 32 at 35,180, 13 bottom. Tracer: no border ring, panel_px = pixel bbox of the sign's white interior. Wheelchair traced as the blue layer (figure = hole); arrow traced with open 9 (dimension hairlines) and keeps the element colour.",
+ "symbols": {
+  "r5-10_wheelchair": {
+   "source": "R5-10",
+   "desc": "blue 125 square with the wheelchair figure as a cut-out (white ground shows through); traced as the blue layer only",
+   "grid_mm": 22.5,
+   "panel_px": [
+    178,
+    100,
+    574,
+    296
+   ],
+   "colours": [
+    "blue"
+   ]
+  },
+  "r5_double_arrow": {
+   "source": "R5-10",
+   "desc": "double-headed open-chevron arrow 155 long x 32 high, shaft 12, heads 42 long, barb thickness 12",
+   "grid_mm": 22.5,
+   "panel_px": [
+    178,
+    100,
+    574,
+    296
+   ],
+   "open": 9,
+   "threshold": 150
+  }
+ }
+}

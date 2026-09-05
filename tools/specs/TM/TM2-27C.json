@@ -1,0 +1,25 @@
+{
+ "code": "TM2-27C",
+ "name": "BRIDGEWORK_YELLOW_LONG",
+ "legend": "BRIDGEWORK",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGEWORK",
+   "series": "C",
+   "height": 150,
+   "top": 225,
+   "expect": 1030
+  }
+ ]
+}

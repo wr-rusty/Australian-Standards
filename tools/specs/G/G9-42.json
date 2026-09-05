@@ -1,0 +1,173 @@
+{
+ "code": "G9-42",
+ "name": "SUNNYSIDE_MARTINS_CREEK_GRANGE_HAWKER_GREEN_TALL",
+ "legend": "Sunnyside Martins Creek A13 Grange BOUNDARY ROAD Hawker B40 PLUMPTON ROAD",
+ "shape": "rect",
+ "size": [
+  3400,
+  4550
+ ],
+ "radius": 130,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 2301,
+   "y": 276,
+   "w": 490,
+   "h": 1123,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 2220,
+   "y": 3183,
+   "w": 490,
+   "h": 1069,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 200,
+   "top": 1595,
+   "cx": 310,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Sunnyside",
+   "expect": 1656
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 200,
+   "top": 1595.5,
+   "cx": 660,
+   "rotate": -90,
+   "colour": "white",
+   "words": [
+    "Martins",
+    "Creek"
+   ],
+   "gap": 147,
+   "expect": 2181,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 925.5,
+   "cx": 1010,
+   "rotate": -90,
+   "colour": "yellow",
+   "text": "A13",
+   "expect": 495
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 200,
+   "top": 715.5,
+   "cx": 2051,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Grange"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 767.5,
+   "cx": 2441,
+   "rotate": -90,
+   "colour": "black",
+   "text": "BOUNDARY",
+   "expect": 983
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 768,
+   "cx": 2651,
+   "rotate": -90,
+   "colour": "black",
+   "text": "ROAD",
+   "expect": 468
+  },
+  {
+   "type": "symbol",
+   "id": "g9-42_arrows_diagrammatic",
+   "x": 926,
+   "y": 1566,
+   "w": 2279,
+   "h": 1682,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 3657,
+   "cx": 1620,
+   "rotate": -90,
+   "colour": "yellow",
+   "text": "B40",
+   "expect": 574
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 200,
+   "top": 3657,
+   "cx": 1970,
+   "rotate": -90,
+   "colour": "white",
+   "text": "Hawker",
+   "expect": 1128
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 3647.5,
+   "cx": 2360,
+   "rotate": -90,
+   "colour": "black",
+   "text": "PLUMPTON",
+   "expect": 929
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 3648,
+   "cx": 2570,
+   "rotate": -90,
+   "colour": "black",
+   "text": "ROAD",
+   "expect": 468
+  }
+ ],
+ "symbols": {
+  "g9-42_arrows_diagrammatic": {
+   "source": "G9-42",
+   "desc": "diagrammatic lane arrows, white, one traced group filling the box 926..3205 x 1566..3248 (2279 x 1682): three shafts 100 wide entering from the right edge; upper shaft bends up-left to the Grange exit (head at the top) and continues curving to the Sunnyside/Martins Creek exit (two heads), middle shaft curves up-left below it, lower shaft bends down-left to Hawker; arrow head 250 wide x 230 long, barb return 20, R13 typical; grid 227.5",
+   "grid_mm": 227.5,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "All legend lines read bottom-to-top (rotate -90 about each line's centre: cap tops on the left, baseline on the right). 30 green edge + 30 white border (60). Horizontal (from the left edge, top chain 410|350|350|1041|150|490|679): Sunnyside 200 Emod baseline x 410, Martins Creek baseline 760, A13 200 E yellow baseline 1110, Grange baseline 2151, BOUNDARY ROAD panel x 2301..2791 (490 = 70|140 D|70|140 D|70, BOUNDARY on the left); bottom chain 1720|350|150|490|760: B40 200 E yellow baseline 1720, Hawker baseline 2070, PLUMPTON ROAD panel x 2220..2710. Both chains close 70 long (3470 not 3400; the 679 / 760 remainders are drawing errors, the left-hand chains are used). Vertical: Sunnyside 867|1656, Martins Creek 605|2181, A13 778|495 (left chains); BOUNDARY panel top 276, arrows 276+1080+210 = 1566 to 3248 (1682), B40 3470|574, Grange 220|1191, Hawker 3193|1128 (right chains); PLUMPTON panel top 3183. Each rotated line is centred on its stated extent. Arrow box 926..3205 (2279 wide, 195 from the right edge) matches the top chain and the artwork. INCONSISTENT: (a) panel lengths 1080 (BOUNDARY) / 1147 (PLUMPTON) in the vertical chains versus the along-panel text chains 70|983|70 = 328|468|327 = 1123 and 70|929|70 = 301|468|300 = 1069; pixel measurement of the artwork gives 1123 and 1070, so the text-chain lengths are used with the stated panel tops (bottom margin of PLUMPTON becomes 298 not 220); (b) Grange stated 1191 long but 200 Emod gives 1084 and the artwork measures about 1085, so 1191 is a drawing typo (expect not checked); the line is centred on the stated extent 220..1411; (c) Martins Creek stated 2181 total = Martins 1184 + Creek 850 + 147 word gap (font word space would give 2277) - gap 147 derived from the drawing total; (d) the 30/60 callouts at the bottom left are read as the 30 white border 30 in from the edge. QA: the traced arrow group is pruned of the drawing's annotation fragments (R50 label, the 70 callout and the top of Hawker's r inside the box) and its extent re-fitted."
+}

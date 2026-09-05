@@ -1,0 +1,17 @@
+{"code":"G1-3","name":"A30_SYDNEY_A85_HAWKER_PLUMPTON_DIAGRAM_GREEN","legend":"A30 Sydney / A85 SALTASH HWY Hawker / A85 SALTASH HWY Plumpton",
+ "shape":"rect","size":[3550,2060],"radius":100,"ground":"green",
+ "edge":{"colour":"green","width":20},"border":{"colour":"white","width":20},
+ "elements":[
+  {"type":"text","text":"A30","series":"E","height":160,"top":160,"align":"left","x":1010,"colour":"yellow","expect":465},
+  {"type":"text","text":"Sydney","series":"Emod","height":160,"top":160,"align":"left","x":1635,"colour":"white","expect":914},
+  {"type":"polygon","points":[[1770,400],[1830,460],[1830,760],[2350,760],[2410,820],[2350,880],[1830,880],[1830,1940],[1710,1940],[1710,1240],[1205,1240],[1145,1180],[1205,1120],[1710,1120],[1710,460]],"radius":[0,0,30,0,0,0,30,0,0,30,0,0,0,30,0],"colour":"white"},
+  {"type":"text","text":"A85","series":"E","height":160,"top":740,"align":"left","x":2531,"colour":"yellow","expect":459},
+  {"type":"panel","x":2130,"y":1020,"w":1262,"h":240,"radius":40,"colour":"white"},
+  {"type":"text","text":"SALTASH HWY","series":"D","height":120,"top":1080,"cx":2761,"colour":"black","expect":1142},
+  {"type":"text","text":"Hawker","series":"Emod","height":160,"top":1380,"align":"left","x":2307,"colour":"white","expect":903},
+  {"type":"text","text":"A85","series":"E","height":160,"top":1100,"align":"left","x":565,"colour":"yellow","expect":459},
+  {"type":"panel","x":164,"y":1380,"w":1262,"h":240,"radius":40,"colour":"white"},
+  {"type":"text","text":"SALTASH HWY","series":"D","height":120,"top":1440,"cx":795,"colour":"black","expect":1142},
+  {"type":"text","text":"Plumpton","series":"Emod","height":160,"top":1740,"align":"left","x":199,"colour":"white","expect":1190}
+ ],
+ "notes":"Drawing rotated 90 deg on the page; transcribed in true orientation 3550 wide x 2060 high. Green edge 20 + white border 20, R100. Intersection diagram drawn as a polygon from the 1540-grid detail: through bar 120 wide x 1540 long (y 400-1940, x 1710-1830, i.e. 1145+565 from the left per the 1145/1265/1145 chain) with a 60-long point at the top; right arm 580 long at 360 below the bar tip (y 760-880) and left arm 565 long at 720 below the tip (y 1120-1240), both with 60-long points; R30 (typ.) applied at the four concave corners only. Text: A30/Sydney baseline 320; upper A85 baseline 900 (centred on the right arm), upper road-name panel 1262x240 R40 at y 1020, Hawker baseline 1540; lower A85 baseline 1260 (centred on the left arm), lower panel at y 1380, Plumpton baseline 1900. Horizontal positions from the right-hand chains (560/459/1507/459/565, 158/1262/704/1262/163, 340/903/918/1190/199). INCONSISTENCY: chain 158+1262+704+1262+163 = 3549, not 3550 (1 mm; lower panel taken at x 164 so that 704 and the 1262 lengths hold). Diagram centreline x 1770 is 5 mm left of the sign centre as dimensioned."}

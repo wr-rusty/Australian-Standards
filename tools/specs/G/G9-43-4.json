@@ -1,0 +1,334 @@
+{
+ "code": "G9-43-4",
+ "name": "HIGH_ST_WSONS_RD_DCASTER_RD_AT_SIGNALS_GREEN_LONG",
+ "legend": "HIGH ST W'SONS RD D'CASTER RD AT SIGNALS",
+ "shape": "rect",
+ "size": [
+  2100,
+  1735
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 40,
+   "y": 40,
+   "w": 2020,
+   "h": 1360,
+   "radius": 40,
+   "colour": "green"
+  },
+  {
+   "type": "panel",
+   "x": 40,
+   "y": 1420,
+   "w": 2020,
+   "h": 275,
+   "radius": 40,
+   "colour": "green"
+  },
+  {
+   "type": "panel",
+   "x": 183,
+   "y": 95,
+   "w": 344,
+   "h": 350,
+   "radius": 30,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 750,
+   "y": 95,
+   "w": 498,
+   "h": 350,
+   "radius": 30,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 1394,
+   "y": 95,
+   "w": 604,
+   "h": 350,
+   "radius": 30,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 145,
+   "colour": "black",
+   "text": "HIGH",
+   "align": "left",
+   "x": 233,
+   "expect": 244
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 295,
+   "colour": "black",
+   "text": "ST",
+   "cx": 355,
+   "expect": 116
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 145,
+   "colour": "black",
+   "text": "W'SONS",
+   "align": "left",
+   "x": 800,
+   "expect": 398
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 295,
+   "colour": "black",
+   "text": "RD",
+   "cx": 999,
+   "expect": 130
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 145,
+   "colour": "black",
+   "text": "D'CASTER",
+   "align": "left",
+   "x": 1444,
+   "expect": 504
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 295,
+   "colour": "black",
+   "text": "RD",
+   "cx": 1696,
+   "expect": 130
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     55,
+     905
+    ],
+    [
+     696,
+     1225
+    ],
+    [
+     696,
+     1385
+    ],
+    [
+     55,
+     1385
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g9-43-4_arrow_left_turn",
+   "x": 228,
+   "y": 495,
+   "w": 254,
+   "h": 550,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g9-43_arrow_straight_offset",
+   "x": 857,
+   "y": 495,
+   "w": 285,
+   "h": 700,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g9-43-4_arrow_right_turn",
+   "x": 1606,
+   "y": 495,
+   "w": 254,
+   "h": 700,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 666,
+   "y": 95,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 666,
+   "y": 440,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 666,
+   "y": 785,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 666,
+   "y": 1130,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1303,
+   "y": 95,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1303,
+   "y": 440,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1303,
+   "y": 785,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1303,
+   "y": 1130,
+   "w": 30,
+   "h": 210,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 1485,
+   "colour": "white",
+   "text": "AT",
+   "align": "left",
+   "x": 403,
+   "expect": 259
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 1485,
+   "colour": "white",
+   "text": "SIGNALS",
+   "align": "left",
+   "x": 818,
+   "expect": 880
+  }
+ ],
+ "notes": "20 green edge + 20 white border (40); the 20 white separator at y 1400-1420 with R40 fillets is drawn as two green R40 sub-panels on a white ground. Road-name panels white R30: 183|344|223|498|146|604|102, y 95 to 445 (50|100C|50|100C|50); HIGH at 50 in, ST centred (=|116|=); W SONS 398, RD 130; D CASTER 504, RD 130 (font gives 388 and 493 for the apostrophe words). Arrows 228|254|184|30|161|285|161|30|273|254|240, top at 495 (445 + 50), 700 tall (left-turn arrow 550, top-aligned - the drawing does not state its vertical position); 205 to the separator. Dashed lines 30 wide, dashes 210 with 135 gaps from 95 (95|210|135|210|135|210|135|210|395). Patch: 15 in from the border (x 55) and 15 above the separator (bottom 1385), 480 tall on the left, right edge at x 696 (696|1404) 160 tall. AT SIGNALS 140 E white: 110 bottom, 65 below the separator (top 1485); 403|259|156|880|402. Left chain 95..110 sums check: 95+350+50+700+205+20+65+140+110 = 1735. QA: tracer panel_px = the upper green sub-panel's left/top/right edges with the bottom extended so the box spans 1655 mm (1735 - 2 x 40) at the same px/mm as its 2020 mm width (the tracer scales height by the full sign height); the 550 and 700 tall turn arrows are traced from this drawing rather than scaled from G9-43-2 / G9-43-1.",
+ "symbols": {
+  "g9-43_arrow_straight": {
+   "source": "G9-43-1",
+   "desc": "straight-ahead lane arrow 176 wide x 700 tall (600 tall on G9-43-3, same head): head 176 wide, head length 114, barb return 16, shaft 40 wide, R8 tip and barb corners; grid 75",
+   "grid_mm": 75
+  },
+  "g9-43_arrow_straight_and_right": {
+   "source": "G9-43-1",
+   "desc": "straight-ahead arrow with a right-turn branch, overall 322 wide x 700 tall (600 on G9-43-3): straight arrow as g9-43_arrow_straight (176 wide, head 114/16, shaft 40, R8); branch leaves the shaft 475 above the bottom (bend R100 inner), branch head 176 tall x 114 long with 16 barb return, R8; branch head top 225 below the arrow top; grid 75",
+   "grid_mm": 75
+  },
+  "g9-43_arrow_right_turn": {
+   "source": "G9-43-1",
+   "desc": "right-turn arrow 254 wide x 565 tall (730 on G9-43-2, 700 on G9-43-4): vertical shaft 40 wide on the left (357 straight below the bend on G9-43-1, 492 on G9-43-4, 522 on G9-43-2), bend R100 (inner), horizontal head 176 tall x 114 long with 16 barb return, head top 208 below the arrow top, R8 tip and barbs; grid 75",
+   "grid_mm": 75
+  },
+  "g9-43_arrow_left_turn": {
+   "source": "G9-43-2",
+   "desc": "left-turn arrow 254 wide x 630 tall (550 on G9-43-4): mirror of g9-43_arrow_right_turn - shaft 40 wide on the right (422 below the bend on G9-43-2, 342 on G9-43-4), bend R100, head 176 tall x 114 long, 16 barb return, head top 208 below the top, R8 typ.; grid 82.5 (G9-43-2) / 105 (G9-43-4)",
+   "grid_mm": 82.5
+  },
+  "g9-43_arrow_left_and_right": {
+   "source": "G9-43-2",
+   "desc": "double (left and right) turn arrow 468 wide x 730 tall: single vertical shaft 40 wide centred, 522 below the bends, bends R100 both sides, heads 176 tall x 114 long with 16 barb return, R8 typ.; grid 82.5",
+   "grid_mm": 82.5
+  },
+  "g9-43_arrow_straight_offset": {
+   "source": "G9-43-4",
+   "desc": "straight-ahead arrow with an S-jog, overall 285 wide x 700 tall: head 176 wide x 114 long with 16 barb return at the top right (head axis 88 from the right edge), R8; shaft 40 wide, upper leg 285 tall, jog at 40 deg (R90 upper bend, R50 lower bend) over 149 tall shifting 177 to the left, lower leg 266 tall ending 20 from the left edge; grid 105",
+   "grid_mm": 105,
+   "invert": true,
+   "inset": 40,
+   "panel_px": [
+    181,
+    167,
+    627,
+    532
+   ]
+  },
+  "g9-43-4_arrow_left_turn": {
+   "source": "G9-43-4",
+   "desc": "left-turn arrow 254 wide x 550 tall: shaft 40 wide on the right, 342 straight below the bend, bend R100, head 176 tall x 114 long with 16 barb return, head top 208 below the top, R8 typ.; grid 105",
+   "grid_mm": 105,
+   "invert": true,
+   "inset": 40,
+   "panel_px": [
+    181,
+    167,
+    627,
+    532
+   ]
+  },
+  "g9-43-4_arrow_right_turn": {
+   "source": "G9-43-4",
+   "desc": "right-turn arrow 254 wide x 700 tall: shaft 40 wide on the left, 492 straight below the bend, bend R100, head 176 tall x 114 long with 16 barb return, head top 208 below the top, R8 typ.; grid 105",
+   "grid_mm": 105,
+   "invert": true,
+   "inset": 40,
+   "panel_px": [
+    181,
+    167,
+    627,
+    532
+   ]
+  }
+ },
+ "accepted_drawing_discrepancy": "fixed: 550/700-tall turn arrows traced from this drawing, tracer panel_px height corrected so the S-jog arrow is no longer squashed (was 619 tall), patch fragment pruned; remains: W'SONS/D'CASTER stated 398/504 vs Series C 100 = 388/493 (apostrophe spacing), marked intervene"
+}

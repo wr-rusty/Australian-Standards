@@ -1,0 +1,5 @@
+{"code":"T1-32","name":"SIDE_ROAD_CLOSED_YELLOW_WIDE","legend":"SIDE ROAD CLOSED","shape":"rect","size":[1500,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","words":["SIDE","ROAD"],"gap":120,"series":"E","height":160,"top":100,"expect":[518,634]},
+             {"type":"text","text":"CLOSED","series":"E","height":160,"top":340,"expect":914}],
+ "notes":"Vertical dims given as 260 (top to baseline 1), 240 (baseline to baseline), 100: tops 100 and 340."}

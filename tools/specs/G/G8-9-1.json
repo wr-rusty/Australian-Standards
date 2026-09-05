@@ -1,0 +1,19 @@
+{
+ "code": "G8-9-1",
+ "name": "ROUTE_SHIELD_UP_ARROW_BROWN",
+ "legend": "arrow",
+ "shape": "rect",
+ "size": [360, 360],
+ "radius": 0,
+ "ground": "white",
+ "symbols": {
+   "g8-9-1_arrow_up": {"source": "G8-9-1", "desc": "small straight arrow pointing up on an 18 grid, 106 wide x 160 high on the shield; no other dimensions", "grid_mm": 18, "invert": true, "inset": 0, "panel_px": [307, 192, 459, 344]}
+ },
+ "elements": [
+  {"type": "polygon", "points": [[0, 0], [360, 0], [360, 111], [280, 360], [80, 360], [0, 111]], "radius": [100, 100, 50, 50, 50, 50], "colour": "brown"},
+  {"type": "polygon", "points": [[10, 10], [350, 10], [350, 109.4], [272.7, 350], [87.3, 350], [10, 109.4]], "radius": [90, 90, 40, 40, 40, 40], "colour": "white"},
+  {"type": "polygon", "points": [[20, 20], [340, 20], [340, 107.9], [265.4, 340], [94.6, 340], [20, 107.9]], "radius": [80, 80, 30, 30, 30, 30], "colour": "brown"},
+  {"type": "symbol", "id": "g8-9-1_arrow_up", "x": 127, "y": 111, "w": 106, "h": 160, "colour": "white"}
+ ],
+ "notes": "Free-standing tourist route shield 360x360: flat top 360 wide, shoulders 111 below the top, bottom 200 wide (80 in each side), R100 top corners, R50 (typ.) elsewhere; brown edge 10 + white border 10 (20/10) as offset polygons. Up arrow 106 wide (127|106|127) between 111 and 271 from the top."
+}

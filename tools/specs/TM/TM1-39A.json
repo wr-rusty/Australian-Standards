@@ -1,0 +1,42 @@
+{
+ "code": "TM1-39A",
+ "name": "SIGNAL_WORKS_AHEAD_YELLOW_SQUARE",
+ "legend": "SIGNAL WORKS AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SIGNAL",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 458
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 427
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 430
+  }
+ ],
+ "notes": "Top dims 86|427|87 and 71|458|71: 458 taken as SIGNAL and 427 as WORKS (WORKS 100 D = 427 on TM1-42A)."
+}

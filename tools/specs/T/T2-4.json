@@ -1,0 +1,33 @@
+{
+ "code": "T2-4",
+ "name": "ROAD_CLOSED_WHITE_WIDE_SKINNY",
+ "legend": "ROAD CLOSED",
+ "shape": "rect",
+ "size": [
+  1800,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "CLOSED"
+   ],
+   "series": "E",
+   "height": 140,
+   "top": 80,
+   "gap": 130,
+   "expect": [
+    553,
+    797
+   ],
+   "colour": "black"
+  }
+ ]
+}

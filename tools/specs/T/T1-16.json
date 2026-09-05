@@ -1,0 +1,67 @@
+{
+ "code": "T1-16",
+ "name": "ROADWORK_{km}_KM_AHEAD_YELLOW_WIDE",
+ "legend": "ROADWORK {km} km AHEAD",
+ "shape": "rect",
+ "size": [
+  1800,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "expect": 1312
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 160,
+     "slot": 160
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 160
+    },
+    {
+     "text": "AHEAD",
+     "series": "E",
+     "height": 160
+    }
+   ],
+   "gap": [
+    80,
+    129
+   ],
+   "top": 340,
+   "expect": [
+    null,
+    330,
+    818
+   ]
+  }
+ ],
+ "notes": "T1-16A 1800x600 illustrated. Numeral varies (dashed 160-wide box, numeral centred in it): {km} = 1-5. Bottom dims: = | 160 | 80 | 330 | 129 | 818 | = (total 1517, equal margins). km is lower case E Modified at capital height 160 (ink 330 matches); the drawing's '135 Emod' label matches neither the x-height nor ascender of that size - unexplained. Line centred as a whole."
+}

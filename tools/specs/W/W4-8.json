@@ -1,0 +1,79 @@
+{
+ "code": "W4-8",
+ "name": "LOW_CLEARANCE_{clearance}_M_YELLOW_DIAMOND",
+ "legend": "LOW CLEARANCE {clearance} m",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LOW",
+   "series": "D",
+   "height": 80,
+   "top": 240.33,
+   "expect": 198,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "CLEARANCE",
+   "series": "C",
+   "height": 80,
+   "top": 360.33,
+   "expect": 500,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{clearance}",
+     "series": "D",
+     "height": 200
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 160
+    }
+   ],
+   "gap": 60,
+   "top": 530.33,
+   "expect": [
+    null,
+    175
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right chain 80 D | 40 | 80 C | 90 | (34 | 160 Emod) = 200 D: numerals 200 D with top on the horizontal centreline (200 D bracket starts at the centreline), baseline +200; CLEARANCE 80 C baseline -90 (top -170); LOW 80 D baseline -210 (top -290). 'm' 160 Emod on the same baseline as runs (drawing shows its top 34 below the numeral top, i.e. 194 not 200 - 6 mm drawing inconsistency; common baseline used). Bottom rows: LOW 198, CLEARANCE 500, numerals Varies | 60 | m 175, group centred. Vary values chosen (not stated). QA: the drawing gives the 80/40/80/90/200 chain but no dimension from the sign edge or centreline to it; the illustration measures LOW top ~204, CLEARANCE 324-408, numeral baseline ~698 (numeral top ~498, i.e. ~30 above the centreline), so the centreline anchor used here is not confirmed - needs a decision.",
+ "vary": {
+  "key": "clearance",
+  "values": [
+   "2.2",
+   "2.5",
+   "2.8",
+   "3.0",
+   "3.2",
+   "3.5",
+   "3.8",
+   "4.0",
+   "4.2",
+   "4.5"
+  ]
+ },
+ "intervene": "vertical datum of the LOW / CLEARANCE / numeral block is not dimensioned: spec anchors the 200 D numeral top on the centreline, illustration shows the block ~30 mm higher - LOW top ~204 vs 240; intervene set"
+}

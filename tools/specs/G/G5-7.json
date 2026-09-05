@@ -1,0 +1,185 @@
+{
+ "code": "G5-7",
+ "name": "PEDESTRIAN_WHEELCHAIR_PARKING_BLUE_FINGERBOARD",
+ "legend": "pedestrians wheelchair P chevron",
+ "shape": "rect",
+ "size": [
+  825,
+  250
+ ],
+ "radius": 0,
+ "ground": "white",
+ "symbols": {
+  "w6-1_pedestrians": {
+   "source": "W6-1",
+   "desc": "adult and child pedestrians symbol from W6-1; 98 wide x 128 high here",
+   "grid_mm": null
+  },
+  "s22_wheelchair": {
+   "source": "G5-7",
+   "desc": "wheelchair symbol (No. S22) as drawn on G5-7; 112 wide x 128 high",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0,
+   "panel_px": [
+    114,
+    126,
+    621,
+    280
+   ]
+  },
+  "g5-7_chevron": {
+   "source": "G5-7",
+   "desc": "white chevron (>) band at the pointed end: 170 high (40 from top and bottom), flat end at x 600, horizontal band thickness 90 (the only stated width); the V notch, arm angle and tip position are not dimensioned - traced from the drawing (tip about 162 from the flat end)",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0,
+   "panel_px": [
+    114,
+    126,
+    621,
+    280
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     727,
+     0
+    ],
+    [
+     825,
+     125
+    ],
+    [
+     727,
+     250
+    ],
+    [
+     0,
+     250
+    ]
+   ],
+   "radius": [
+    20,
+    25,
+    20,
+    25,
+    20
+   ],
+   "colour": "blue"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     10,
+     10
+    ],
+    [
+     722.1,
+     10
+    ],
+    [
+     812.3,
+     125
+    ],
+    [
+     722.1,
+     240
+    ],
+    [
+     10,
+     240
+    ]
+   ],
+   "radius": [
+    10,
+    15,
+    10,
+    15,
+    10
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     20,
+     20
+    ],
+    [
+     717.3,
+     20
+    ],
+    [
+     799.6,
+     125
+    ],
+    [
+     717.3,
+     230
+    ],
+    [
+     20,
+     230
+    ]
+   ],
+   "radius": [
+    0,
+    5,
+    0,
+    5,
+    0
+   ],
+   "colour": "blue"
+  },
+  {
+   "type": "symbol",
+   "id": "w6-1_pedestrians",
+   "x": 95,
+   "y": 61,
+   "w": 98,
+   "h": 128,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "s22_wheelchair",
+   "x": 273,
+   "y": 61,
+   "w": 112,
+   "h": 128,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "align": "left",
+   "x": 465,
+   "colour": "white",
+   "expect": 80
+  },
+  {
+   "type": "symbol",
+   "id": "g5-7_chevron",
+   "x": 600,
+   "y": 40,
+   "w": 158,
+   "h": 170,
+   "colour": "white"
+  }
+ ],
+ "notes": "825x250 blue fingerboard with a pointed right end (point run 98, tip at mid-height broken with R20 per note a), R20 left corners, R25 obtuse corners; blue edge 10 + white border 10 (the 10/20 dims) built as offset polygons. Chain 95|98|80|112|80|80|55|225: pedestrians at x 95 (98 wide), wheelchair at 273 (112), P (100 E, drawn as the letter; the note refers to symbol S14) at 465 (80 wide), chevron flat end at 600 with 90 to its ... (the 90 is dimensioned inside the 225 tip zone; taken as the chevron width). Symbols 128 high between 61 and 189; chevron 170 high (40 margins); P 100 E between 75 and 175."
+}

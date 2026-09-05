@@ -1,0 +1,5 @@
+{"code":"T8-3","name":"USE_OTHER_FOOTPATH_YELLOW_LONG","legend":"USE OTHER FOOTPATH","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","words":["USE","OTHER"],"gap":70,"series":"D","height":100,"top":141,"expect":[233,401]},
+             {"type":"text","text":"FOOTPATH","series":"D","height":100,"top":359,"expect":637}],
+ "notes":"Tops: 141; 141+100+118 = 359."}

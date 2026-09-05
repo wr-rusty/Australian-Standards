@@ -1,0 +1,5 @@
+{"code":"T1-30","name":"TRAFFIC_SIGNALS_YELLOW_LONG","legend":"","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t1-30_traffic_signals","x":284,"y":50,"w":332,"h":500,"colour":"black"}],
+ "symbols":{"t1-30_traffic_signals":{"source":"T1-30","desc":"three-lens traffic signal head, fully dimensioned in the grid inset (500 high, 166 each side of centreline, lenses dia 89, R12/R9/R24)","grid_mm":45}},
+ "notes":"Symbol 500 high, 50 from top and bottom; no horizontal position given on the sign, so centred (width 2 x 166 = 332 from the inset)."}

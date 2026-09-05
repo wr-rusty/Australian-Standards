@@ -1,0 +1,53 @@
+{
+ "code": "R9-6-1",
+ "name": "NEXT_300_m_WHITE_WIDE",
+ "legend": "NEXT 300 m",
+ "shape": "rect",
+ "size": [
+  1000,
+  200
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "300",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "top": 50,
+   "gap": [
+    75,
+    50
+   ],
+   "expect": [
+    369,
+    null,
+    93
+   ]
+  }
+ ],
+ "notes": "R9-6-1B (1000 x 200) illustrated. R25, 5 white edge, 15 border. One line 100 E centred vertically (top 50): = |NEXT 369|75|numerals Varies|50|m 93| = ; distance numerals 100 E (300 shown; varies), m 85 Emod; group centred (runs, shared baseline)."
+}

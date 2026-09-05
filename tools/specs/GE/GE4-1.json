@@ -1,0 +1,97 @@
+{
+ "code": "GE4-1",
+ "name": "M14_ROWE_FWY_MONASH_53_AUGUSTA_276_GREEN_LONG",
+ "legend": "M14 ROWE FWY Monash 53 Augusta 276",
+ "shape": "rect",
+ "size": [
+  3000,
+  2140
+ ],
+ "radius": 180,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "M14",
+   "series": "E",
+   "height": 240,
+   "top": 260,
+   "colour": "yellow",
+   "expect": 620
+  },
+  {
+   "type": "panel",
+   "x": 706,
+   "y": 680,
+   "w": 1588,
+   "h": 360,
+   "radius": 60,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 770,
+   "colour": "black",
+   "words": [
+    "ROWE",
+    "FWY"
+   ],
+   "gap": 160.0
+  },
+  {
+   "type": "text",
+   "text": "Monash",
+   "series": "Emod",
+   "height": 240,
+   "top": 1220,
+   "colour": "white",
+   "align": "left",
+   "x": 225,
+   "expect": 1370
+  },
+  {
+   "type": "text",
+   "text": "53",
+   "series": "Emod",
+   "height": 240,
+   "top": 1220,
+   "colour": "white",
+   "align": "right",
+   "x": 2775,
+   "expect": 427
+  },
+  {
+   "type": "text",
+   "text": "Augusta",
+   "series": "Emod",
+   "height": 240,
+   "top": 1640,
+   "colour": "white",
+   "align": "left",
+   "x": 225,
+   "expect": 1556
+  },
+  {
+   "type": "text",
+   "text": "276",
+   "series": "Emod",
+   "height": 240,
+   "top": 1640,
+   "colour": "white",
+   "align": "right",
+   "x": 2775,
+   "expect": 671
+  }
+ ],
+ "notes": "3000x2140 R180; green 40 / white 40 (80/40). Chain to baselines 500 M14 (240 E) | 180 | 360 panel (680-1040) | 420 Monash (1460) | 420 Augusta (1880) | 260. M14 1190 | 620 | 1190; panel 706 | 1588 | 706, ROWE FWY 180 E black with 90 margins (ink 1408), 90 above/below. Monash 225 | 1370 | 753 | 53 427 | 225; Augusta 225 | 1556 | 323* | 276 671 | 225 (* minimum gap = destination text height); distances 240 Emod right-aligned at 2775. ROWE FWY word gap not stated; 160.0 makes the line 1408."
+}

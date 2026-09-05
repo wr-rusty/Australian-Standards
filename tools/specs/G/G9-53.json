@@ -1,0 +1,182 @@
+{
+ "code": "G9-53",
+ "name": "VERY_STEEP_DESCENT_8_km_AHEAD_NOT_SUITABLE_WHITE_LONG",
+ "legend": "VERY STEEP DESCENT 8 km AHEAD NOT SUITABLE FOR TRUCKS BUSES CARAVANS TRAILERS",
+ "shape": "rect",
+ "size": [
+  2800,
+  1800
+ ],
+ "radius": 200,
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 60,
+   "y": 60,
+   "w": 2680,
+   "h": 820,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 60,
+   "y": 920,
+   "w": 2680,
+   "h": 820,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 205,
+   "colour": "black",
+   "text": "VERY",
+   "align": "left",
+   "x": 127,
+   "expect": 596
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 205,
+   "colour": "black",
+   "text": "STEEP",
+   "align": "left",
+   "x": 853,
+   "expect": 682
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 205,
+   "colour": "black",
+   "text": "DESCENT",
+   "align": "left",
+   "x": 1665,
+   "expect": 1007
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "8",
+     "series": "D",
+     "height": 200
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 170
+    },
+    {
+     "text": "AHEAD",
+     "series": "D",
+     "height": 200
+    }
+   ],
+   "gap": [
+    100.0,
+    150.0
+   ],
+   "top": 545,
+   "colour": "black",
+   "expect": [
+    null,
+    351,
+    860
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1015,
+   "colour": "black",
+   "text": "NOT",
+   "align": "left",
+   "x": 530,
+   "expect": 330
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1015,
+   "colour": "black",
+   "text": "SUITABLE",
+   "align": "left",
+   "x": 980,
+   "expect": 840
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1015,
+   "colour": "black",
+   "text": "FOR",
+   "align": "left",
+   "x": 1940,
+   "expect": 330
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1260,
+   "colour": "black",
+   "text": "TRUCKS",
+   "align": "left",
+   "x": 721,
+   "expect": 685
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1260,
+   "colour": "black",
+   "text": "BUSES",
+   "align": "left",
+   "x": 1526,
+   "expect": 553
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1505,
+   "colour": "black",
+   "text": "CARAVANS",
+   "align": "left",
+   "x": 446,
+   "expect": 954
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1505,
+   "colour": "black",
+   "text": "TRAILERS",
+   "align": "left",
+   "x": 1521,
+   "expect": 833
+  }
+ ],
+ "notes": "20 white edge + 40 black border (60); two white R50 panels either side of the 40 black bar at y 880-920 (745 top edge to the AHEAD baseline, 135, bar 40, 880 to the bottom). Baselines: 385 (VERY STEEP DESCENT 180 D), 360 to the AHEAD line baseline 745 (200 D numerals / 170 Emod km), 410 to NOT SUITABLE FOR (1155), 245, 245, 155 bottom. Line 2 centred as a group (=|Varies|100|351|150|860|=): numeral 8 (200 D, varies) - x from its font ink width 136, not stated. NOT SUITABLE FOR 530|330|120|840|120|330|530; TRUCKS BUSES 721|685|120|553|721; CARAVANS TRAILERS 446|954|121|833|446. QA: the 8 km AHEAD line is built as one runs group (gap [100.0, 150.0]) so the generator centres it as the drawing's = margins require."
+}

@@ -1,0 +1,62 @@
+{
+ "code": "R2-22",
+ "name": "NO_HOOK_TURN_BY_BICYCLES_WHITE_SQUARE",
+ "legend": "NO HOOK TURN BY BICYCLES",
+ "shape": "rect",
+ "size": [
+  750,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 150,
+   "top": 100,
+   "expect": 281
+  },
+  {
+   "type": "text",
+   "words": [
+    "HOOK",
+    "TURN"
+   ],
+   "series": "C",
+   "height": 90,
+   "top": 310,
+   "gap": 81,
+   "expect": [
+    258,
+    245
+   ]
+  },
+  {
+   "type": "text",
+   "text": "BY",
+   "series": "D",
+   "height": 90,
+   "top": 445,
+   "expect": 146
+  },
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "D",
+   "height": 90,
+   "top": 580,
+   "expect": 549
+  }
+ ],
+ "notes": "Right-hand dims are baseline-to-baseline: NO baseline 250 (top 100); HOOK TURN baseline 400 (top 310); BY 535 (445); BICYCLES 670 (580); 80 bottom. NO 232|281|237 -> centred."
+}

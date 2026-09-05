@@ -1,0 +1,173 @@
+{
+ "code": "G9-83",
+ "name": "LONG_STEEP_DESCENT_NEXT_3.8_km_W5-12B_RED_LONG",
+ "legend": "LONG STEEP DESCENT NEXT 3.8 km",
+ "shape": "rect",
+ "size": [
+  3000,
+  1800
+ ],
+ "radius": 180,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 240,
+   "top": 200,
+   "colour": "white",
+   "text": "LONG",
+   "align": "left",
+   "x": 180,
+   "expect": 784
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 240,
+   "top": 200,
+   "colour": "white",
+   "text": "STEEP",
+   "align": "left",
+   "x": 1144,
+   "expect": 910
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 240,
+   "top": 610,
+   "colour": "white",
+   "text": "DESCENT",
+   "align": "left",
+   "x": 445,
+   "expect": 1343
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "3.8",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 155
+    }
+   ],
+   "gap": [
+    135.0,
+    90.0
+   ],
+   "top": 1420,
+   "colour": "white",
+   "expect": [
+    663,
+    null,
+    319
+   ],
+   "cx": 1117.0
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2315,
+     395
+    ],
+    [
+     2820,
+     900
+    ],
+    [
+     2315,
+     1405
+    ],
+    [
+     1810,
+     900
+    ]
+   ],
+   "radius": 47.61,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2315,
+     408.47
+    ],
+    [
+     2806.53,
+     900
+    ],
+    [
+     2315,
+     1391.53
+    ],
+    [
+     1823.47,
+     900
+    ]
+   ],
+   "radius": 38.09,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2315,
+     448.87
+    ],
+    [
+     2766.13,
+     900
+    ],
+    [
+     2315,
+     1351.13
+    ],
+    [
+     1863.87,
+     900
+    ]
+   ],
+   "radius": 9.52,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w5-12_car_steep_descent",
+   "x": 2024.57,
+   "y": 747.64,
+   "w": 580.86,
+   "h": 304.72,
+   "colour": "black"
+  }
+ ],
+ "notes": "40 red edge + 40 white border. Stack 200|240D|170|240D|570|180E|200. LONG STEEP 180|784|180|910; DESCENT 445|1343. NEXT line centred as a group within the 1874 wide area starting 180 from the left (=|663|135|Varies|90|319|=): numerals 3.8 (180 E, vary), km 155 Emod baseline-aligned (top 1445); x from font widths - not stated. W5-12B: only 180 from its right point to the right edge is given; size taken as G9-82 (1010 across) and vertical position NOT dimensioned - centred (y 395). QA: W5-12B inset built as on G9-82 (1010 across, scaled W5-12 sign + car symbol), right point 180 from the edge; vertical position not dimensioned - centred (the drawing's pixel position suggests a centre nearer 1030 than 900). QA: the NEXT 3.8 km line is built as one runs group (gap [135.0, 90.0]) so the generator centres it as the drawing's = margins require.",
+ "symbols": {
+  "w5-12_car_steep_descent": {
+   "source": "W5-12",
+   "desc": "car descending the 610 x 278 wedge, as traced for W5-12 (placed as on W5-12, scaled with the diamond)",
+   "grid_mm": null
+  }
+ }
+}

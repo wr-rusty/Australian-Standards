@@ -1,0 +1,33 @@
+{
+ "code": "TM2-46A",
+ "name": "HEAVY_VEHICLES_YELLOW_SQUARE",
+ "legend": "HEAVY VEHICLES",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "HEAVY",
+   "series": "C",
+   "height": 110,
+   "top": 140,
+   "expect": 369
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "B",
+   "height": 110,
+   "top": 350,
+   "expect": 459
+  }
+ ]
+}

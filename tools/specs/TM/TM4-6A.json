@@ -1,0 +1,33 @@
+{
+ "code": "TM4-6A",
+ "name": "SMOKE_HAZARD_YELLOW_SQUARE",
+ "legend": "SMOKE HAZARD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SMOKE",
+   "series": "C",
+   "height": 100,
+   "top": 160,
+   "expect": 362
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "C",
+   "height": 100,
+   "top": 340,
+   "expect": 415
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "code": "G9-5-3(R)",
+ "name": "DETOUR_FOR_LONG_VEHICLES_WHITE_POINTED",
+ "legend": "DETOUR FOR LONG VEHICLES",
+ "shape": "rect",
+ "size": [
+  1400,
+  350
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1400.0,
+     175.0
+    ],
+    [
+     1262.0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     350
+    ],
+    [
+     1262.0,
+     350
+    ]
+   ],
+   "radius": [
+    50,
+    25,
+    25,
+    25,
+    25
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1393.63,
+     175.0
+    ],
+    [
+     1259.58,
+     5
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     5,
+     345
+    ],
+    [
+     1259.58,
+     345
+    ]
+   ],
+   "radius": [
+    45,
+    20,
+    20,
+    20,
+    20
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1380.9,
+     175.0
+    ],
+    [
+     1254.73,
+     15
+    ],
+    [
+     15,
+     15
+    ],
+    [
+     15,
+     335
+    ],
+    [
+     1254.73,
+     335
+    ]
+   ],
+   "radius": [
+    35,
+    10,
+    10,
+    10,
+    10
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1300,
+     175
+    ],
+    [
+     1199,
+     44
+    ],
+    [
+     1075,
+     44
+    ],
+    [
+     1176,
+     175
+    ],
+    [
+     1075,
+     306
+    ],
+    [
+     1199,
+     306
+    ]
+   ],
+   "radius": 0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 64,
+   "colour": "black",
+   "text": "DETOUR",
+   "align": "left",
+   "x": 154,
+   "expect": 573
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 84,
+   "colour": "black",
+   "text": "FOR",
+   "align": "left",
+   "x": 802,
+   "expect": 189
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 209,
+   "colour": "black",
+   "text": "LONG",
+   "align": "left",
+   "x": 167,
+   "expect": 262
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 209,
+   "colour": "black",
+   "text": "VEHICLES",
+   "align": "left",
+   "x": 492,
+   "expect": 486
+  }
+ ],
+ "notes": "Pointed sign drawn as polygons on a white panel: outline R50 tip / R25 corners, 5 white edge, 10 black border (15 total), point 138 in from the right end at mid-height. Chevron from the detail: 225 x 262, arms parallel (horizontal arm extent 101, offset 124), centred vertically; its right edge taken at the 325 dimension from the tip (325 + gap = DETOUR x). FOR (80 D) baseline-aligned with DETOUR (100 E)."
+}

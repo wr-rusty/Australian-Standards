@@ -1,0 +1,33 @@
+{
+ "code": "TM3-23B",
+ "name": "FALLEN_ROCKS_YELLOW_LONG_SKINNY",
+ "legend": "FALLEN ROCKS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "FALLEN",
+    "ROCKS"
+   ],
+   "series": "C",
+   "height": 130,
+   "top": 85,
+   "gap": 81,
+   "expect": [
+    496,
+    452
+   ]
+  }
+ ],
+ "notes": "Drawing reads 85|406|81|452|86 (sum 1110). FALLEN = 1200-85-86-81-452 = 496 used for expect ('406' is a typo); AS 1744 gives 506 (2 % out, within the drawing's own uncertainty)."
+}

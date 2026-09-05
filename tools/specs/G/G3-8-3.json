@@ -1,0 +1,20 @@
+{
+ "code": "G3-8-3",
+ "name": "VICTORIA_ST_ARROW_WHITE",
+ "legend": "VICTORIA ST",
+ "shape": "rect",
+ "size": [1151, 450],
+ "radius": 40,
+ "ground": "white",
+ "keyline": true,
+ "hands": ["L", "R"],
+ "drawn_hand": "L",
+ "symbols": {
+   "g3-8-3_arrow_left": {"source": "G3-8-3", "desc": "long thin arrow pointing left on 50 grid: 640 long, head 150 high; shaft width and head length not dimensioned (about 1 and 2 grid squares)", "grid_mm": 50, "panel_px": [165, 130, 673, 327]}
+ },
+ "elements": [
+  {"type": "text", "text": "VICTORIA ST", "series": "D", "height": 120, "top": 50, "colour": "black"},
+  {"type": "symbol", "id": "g3-8-3_arrow_left", "x": 255.5, "y": 250, "w": 640, "h": 150, "colour": "black"}
+ ],
+ "notes": "Drawing G3-8-3 (L,R): 450 high (50|120 D|80|150 arrow|50), R40; width 'Varies' = 80 + ink 990.5 + 80 = 1151; arrow 640x150 centred ('=' margins) at y 250-400. Right-hand version = arrow mirrored."
+}

@@ -1,0 +1,47 @@
+{
+ "code": "R7-1-1",
+ "name": "BUS_LANE_WHITE_TALL",
+ "legend": "LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-1_bus",
+   "x": 50,
+   "y": 125,
+   "w": 500,
+   "h": 260,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 160,
+   "top": 475,
+   "expect": 422
+  }
+ ],
+ "notes": "R7-1-1C (600 x 800) illustrated. Bus 500 x 180 at y 165 (50 margins); 130 gap; LANE 160 C top 475; 165 bottom. QA: bus box given as 50/165/500/180 in the drawing; the tracer drops the wheels (small separate components near the crop edge) when cropped to that box, so the symbol element's box is enlarged vertically to y 125 / h 260. Width (500) governs the scale and the ink is centred in the box, so the bus is still placed at y 165, 180 high.",
+ "symbols": {
+  "r7-1-1_bus": {
+   "source": "R7-1-1",
+   "desc": "bus, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

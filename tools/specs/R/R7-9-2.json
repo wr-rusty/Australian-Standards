@@ -1,0 +1,79 @@
+{
+ "code": "R7-9-2",
+ "name": "END_T3_TRANSIT_LANE_WHITE_SQUARE",
+ "legend": "END T3 TRANSIT LANE",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 200,
+   "top": 83,
+   "expect": 564
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7-2_t3_badge",
+   "x": 112,
+   "y": 386.5,
+   "w": 308,
+   "h": 207,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7_car_3",
+   "x": 507,
+   "y": 370,
+   "w": 280,
+   "h": 240,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TRANSIT",
+    "LANE"
+   ],
+   "series": "B",
+   "height": 120,
+   "top": 697,
+   "gap": 56,
+   "expect": [
+    425,
+    259
+   ]
+  }
+ ],
+ "symbols": {
+  "r7-7-2_t3_badge": {
+   "source": "R7-7-2",
+   "desc": "red badge with white T3 legend",
+   "grid_mm": 60,
+   "colours": [
+    "red"
+   ]
+  },
+  "r7-7_car_3": {
+   "source": "R7-7-2",
+   "desc": "black car, front view, three occupants",
+   "grid_mm": 60
+  }
+ },
+ "notes": "As R7-9-1 with T3 badge and three-occupant car."
+}

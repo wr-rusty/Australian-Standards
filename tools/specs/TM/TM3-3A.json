@@ -1,0 +1,34 @@
+{
+ "code": "TM3-3A",
+ "name": "SLIPPERY_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm3-3a_slippery_car",
+   "x": 85,
+   "y": 112,
+   "w": 430,
+   "h": 375,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm3-3a_slippery_car": {
+   "source": "TM3-3A",
+   "desc": "skidding car with wavy skid marks (slippery surface)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol box 85|430|85 across, 112|375|113 down."
+}

@@ -1,0 +1,23 @@
+{
+ "code": "G9-33",
+ "name": "CROSSING_WHITE_WIDE_SKINNY",
+ "legend": "CROSSING",
+ "shape": "rect",
+ "size": [
+  2100,
+  450
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 320,
+   "top": 65,
+   "colour": "black",
+   "text": "CROSSING",
+   "expect": 1984
+  }
+ ],
+ "notes": "No border. CROSSING 320 D, 65 above/below, 58|1984|58."
+}

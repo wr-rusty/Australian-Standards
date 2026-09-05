@@ -1,0 +1,84 @@
+{
+ "code": "W1-8-1",
+ "name": "TRUCK_ROLLOVER_{speed}_KMH_YELLOW_TALL",
+ "legend": "{speed} km/h",
+ "shape": "rect",
+ "size": [
+  1500,
+  3000
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "vary": {
+  "key": "speed",
+  "values": [
+   15,
+   25,
+   35,
+   45,
+   55,
+   65,
+   75,
+   85,
+   95
+  ]
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-8_truck_rollover_l",
+   "x": 200,
+   "y": 148,
+   "w": 1100,
+   "h": 1300,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 185,
+   "y": 1466,
+   "w": 1130,
+   "h": 69,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "E",
+   "height": 400,
+   "top": 2050,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 200,
+   "top": 2600,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-8_truck_rollover_l": {
+   "source": "W1-8-1",
+   "desc": "truck tipping (rollover) pictogram, left hand: box 850 x 680 rotated 30 deg, two wheel pairs 250 x 100 R20 on a 50 axle (69 between), 100/280/100/100 spacing along the base line; on the sign 1100 wide x 1336 tall (200 | 1100 | 200; top 130). Dimensions from the W1-8(alt) sheet; artwork traced from the W1-8-1 drawing (box 200..1300 x 130..1466).",
+   "grid_mm": 150,
+   "inset": 0,
+   "open": 19
+  }
+ },
+ "notes": "1500 x 3000, R200; 20 yellow edge + 40 black border (drawing: 20 and 60 = edge+border; pixel check). Chain 130 | 1336 truck | 69 bar | 175 | 740 | 350 | 200: numerals 400 E baseline 1535+175+740 = 2450 (top 2050); km/h 200 Emod baseline 2800 (top 2600); bar 1130 x 69 at top 1466 (185|1130|185). FLAG: bottom row '185 | Varies | 220 | 220 | 185' is the W1-8-2..5 layout (numerals left, stem right) and does not apply here; km/h is drawn centred (ink measured 327..1168) and the dashed 25 is drawn ~45 right of centre with no horizontal dimension - both centred in spec. Vary values 15-95 chosen (advisory speeds), not stated. QA: truck symbol box set to y 148 h 1300 (same centre as the stated 130/1336) so the tracer's crop stops above the 69 ground bar; the drawn truck is ~1328 tall x ~1150 wide (127..1455) and is fitted to the stated 1100 width. QA: truck traced with open 19 to drop the 30-degree annotation next to the wheels."
+}

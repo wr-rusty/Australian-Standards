@@ -1,0 +1,46 @@
+{
+ "code": "W4-3",
+ "name": "ROAD_NARROWS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w4-3_road_narrows",
+   "x": 355.33,
+   "y": 236.33,
+   "w": 350,
+   "h": 537,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w4-3_road_narrows": {
+   "source": "W4-3",
+   "desc": "two bars 86 wide: straight 201 at the top (90 apart), taper 149, straight 187 at the bottom (178 apart); 537 tall, 350 wide (178 + 2 x 86). Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    50,
+    99,
+    498,
+    547
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Top 294 above centreline (stated), centred horizontally."
+}

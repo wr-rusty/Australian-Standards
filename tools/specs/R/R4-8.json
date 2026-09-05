@@ -1,0 +1,40 @@
+{
+ "code": "R4-8",
+ "name": "SCHOOL_ZONE_WHITE",
+ "legend": "SCHOOL ZONE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 100,
+   "top": 75,
+   "colour": "black",
+   "expect": 510
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 100,
+   "top": 225,
+   "colour": "black",
+   "expect": 330
+  }
+ ]
+}

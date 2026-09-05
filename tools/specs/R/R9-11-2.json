@@ -1,0 +1,61 @@
+{
+ "code": "R9-11-2",
+ "name": "OVER_5.1_m_LONG_WHITE_LONG",
+ "legend": "OVER 5.1 m LONG",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "E",
+   "height": 100,
+   "top": 80,
+   "expect": 383
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "5.1",
+     "series": "E",
+     "height": 80
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 70
+    },
+    {
+     "text": "LONG",
+     "series": "C",
+     "height": 80
+    }
+   ],
+   "top": 240,
+   "gap": [
+    35,
+    40
+   ],
+   "expect": [
+    null,
+    77,
+    219
+   ]
+  }
+ ],
+ "notes": "R9-11-2A (600 x 400) illustrated. OVER 100 E top 80, numerals line top 240, 80 below. Line 2 as R9-11-1."
+}

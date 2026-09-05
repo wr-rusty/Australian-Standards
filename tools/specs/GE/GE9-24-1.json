@@ -1,0 +1,24 @@
+{
+ "code": "GE9-24-1",
+ "name": "E_GREEN_SQUARE",
+ "legend": "E",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "green",
+ "elements": [
+  {
+   "type": "text",
+   "text": "E",
+   "series": "E",
+   "height": 320,
+   "top": 65,
+   "colour": "white",
+   "expect": 240
+  }
+ ],
+ "notes": "Illust. GE9-24-1A 450x450 R50. E 320 E white: 65 | 320 | 65, 105 | 240 | 105."
+}

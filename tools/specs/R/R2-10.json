@@ -1,0 +1,54 @@
+{
+ "code": "R2-10",
+ "name": "GIVE_WAY_TO_PEDESTRIANS_WHITE_SQUARE",
+ "legend": "GIVE WAY TO PEDESTRIANS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "GIVE",
+    "WAY"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 85,
+   "gap": 49,
+   "expect": [
+    230,
+    215
+   ]
+  },
+  {
+   "type": "text",
+   "text": "TO",
+   "series": "C",
+   "height": 100,
+   "top": 258,
+   "expect": 122
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "B",
+   "height": 85,
+   "top": 430,
+   "expect": 495
+  }
+ ],
+ "notes": "Illustrated size R2-10B 600 x 600. GIVE WAY 100 C top 85 (53|230|49|215|53); TO 100 C top 258; PEDESTRIANS 85 B top 430 (53|495|52); 85 bottom."
+}

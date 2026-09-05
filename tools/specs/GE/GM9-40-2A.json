@@ -1,0 +1,45 @@
+{
+ "code": "GM9-40-2A",
+ "name": "LOCAL_TRAFFIC_ONLY_WHITE_SQUARE",
+ "legend": "LOCAL TRAFFIC ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LOCAL",
+   "series": "C",
+   "height": 100,
+   "top": 80,
+   "colour": "black",
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "expect": 427
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 100,
+   "top": 420,
+   "colour": "black",
+   "expect": 277
+  }
+ ],
+ "notes": "600x600, 25 black border, square corners. 80 | 100 C | 70 | 100 C | 70 | 100 C | 80. LOCAL 132 | 335 | 133; TRAFFIC 86 | 427 | 87; ONLY 161 | 277 | 162."
+}

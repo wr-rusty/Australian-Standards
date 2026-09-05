@@ -1,0 +1,72 @@
+{
+ "code": "TM3-12C",
+ "name": "NO_LINES_DO_NOT_OVERTAKE_UNLESS_SAFE_YELLOW_LONG",
+ "legend": "NO LINES DO NOT OVERTAKE UNLESS SAFE",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "series": "E",
+   "height": 95,
+   "top": 57,
+   "gap": 69,
+   "expect": [
+    178,
+    392
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT"
+   ],
+   "series": "E",
+   "height": 95,
+   "top": 187,
+   "gap": 69,
+   "expect": [
+    176,
+    262
+   ]
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKE",
+   "series": "E",
+   "height": 95,
+   "top": 317,
+   "expect": 665
+  },
+  {
+   "type": "text",
+   "words": [
+    "UNLESS",
+    "SAFE"
+   ],
+   "series": "E",
+   "height": 95,
+   "top": 447,
+   "gap": 61,
+   "expect": [
+    542,
+    357
+   ]
+  }
+ ],
+ "notes": "DRAWING INCONSISTENT. Vertical: 57 | 95 E | (no gap stated) | 95 E | 60 | 95 E | 60 | 95 E | 58 sums to 615 even without the missing gap; the drawn gaps measure ~35 and 600-57-58-4*95 = 105 = 3 x 35, so tops 57/187/317/447 use 35 gaps (the two '60' labels are wrong). Horizontal: DO NOT row reads 346|507|69|262|347 (sum 1531); DO = 1200-346-347-69-262 = 176 used for expect (the '507' is a typo). UNLESS SAFE row reads 267|542|61|357|268 (sum 1495); 542/61/357 are consistent with the drawn letters and with AS 1744, the margins should be 120 each (267/268 copied from the OVERTAKE row). OVERTAKE row 267|665|268 is identical to TM3-11C's MARKED row and is wrong for OVERTAKE 95 E, which AS 1744 makes 732 wide (margins 234); expect left at the drawing's 665, so the generator reports a width mismatch here by design.",
+ "accepted_drawing_discrepancy": "width check: OVERTAKE row 267 | 665 | 268 is TM3-11C's MARKED row; 95 E OVERTAKE is 732 and is drawn so; several other dims wrong (see notes); output goes to intervene/"
+}

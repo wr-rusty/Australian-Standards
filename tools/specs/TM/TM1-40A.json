@@ -1,0 +1,42 @@
+{
+ "code": "TM1-40A",
+ "name": "LINE_MARKING_AHEAD_YELLOW_SQUARE",
+ "legend": "LINE MARKING AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LINE",
+   "series": "C",
+   "height": 110,
+   "top": 70,
+   "expect": 253
+  },
+  {
+   "type": "text",
+   "text": "MARKING",
+   "series": "B",
+   "height": 110,
+   "top": 245,
+   "expect": 430
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 110,
+   "top": 420,
+   "expect": 385
+  }
+ ],
+ "notes": "Caption says 'orange retroreflective ground' but the drawing is coloured yellow; yellow used."
+}

@@ -1,0 +1,51 @@
+{
+ "code": "W2-15",
+ "name": "CROSS_ROAD_ON_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-15_crossroad_on_curve_l",
+   "x": 232.93,
+   "y": 289.43,
+   "w": 578.4,
+   "h": 510.9,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-15_crossroad_on_curve_l": {
+   "source": "W2-15",
+   "desc": "curve arrow (stem 110, straight 90, arc inner R235, sweep 32 + 43 = 75 deg, arrowhead 290 wide R20 barbs, 20 notch, 240 to notch line) crossed by a straight road 80 wide radial at 32 deg from the arc start, extending 150 beyond the outer edge and 150 inside the inner edge. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    67,
+    89,
+    515,
+    538
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Curve family: stem near edge 75 right of centreline and bottom 270 below centreline (stated); no overall width/height is stated on the sign. Box derived from the inset geometry with the arrowhead 220 from barb line to tip (the inset's 240 runs to the 20 notch line) and inner R235 as W1-3: tip 372.4 from stem near edge (=297.4 from centreline; W1-3 states 300), height 510.9. Outer arm end = -235 + 495 cos32 + 40 sin32 = 206 right of stem near edge -> width 578.4 (measured tip -297, arm end +279)."
+}

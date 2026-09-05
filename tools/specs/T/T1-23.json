@@ -1,0 +1,5 @@
+{"code":"T1-23","name":"CHANGED_TRAFFIC_CONDITIONS_YELLOW_LONG","legend":"CHANGED TRAFFIC CONDITIONS","shape":"rect","size":[1800,900],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"CHANGED","series":"E","height":180,"top":90,"expect":1266},
+             {"type":"text","text":"TRAFFIC","series":"E","height":180,"top":360,"expect":1094},
+             {"type":"text","text":"CONDITIONS","series":"E","height":180,"top":630,"expect":1572}]}

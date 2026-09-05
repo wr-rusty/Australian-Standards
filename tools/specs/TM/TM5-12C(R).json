@@ -1,0 +1,85 @@
+{
+ "code": "TM5-12C(R)",
+ "name": "DETOUR_FOR_HIGH_VEHICLES_RIGHT_YELLOW_LONG",
+ "legend": "DETOUR FOR HIGH VEHICLES",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "C",
+   "height": 110,
+   "top": 140,
+   "expect": 453,
+   "align": "left",
+   "x": 102
+  },
+  {
+   "type": "text",
+   "text": "FOR",
+   "series": "C",
+   "height": 80,
+   "top": 170,
+   "expect": 157,
+   "align": "left",
+   "x": 677
+  },
+  {
+   "type": "text",
+   "words": [
+    "HIGH",
+    "VEHICLES"
+   ],
+   "series": "B",
+   "height": 110,
+   "top": 350,
+   "gap": 51,
+   "expect": [
+    222,
+    459
+   ],
+   "align": "left",
+   "x": 102
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1125,
+     300
+    ],
+    [
+     871,
+     47
+    ],
+    [
+     871,
+     161.55
+    ],
+    [
+     1010,
+     300
+    ],
+    [
+     871,
+     438.45
+    ],
+    [
+     871,
+     553
+    ]
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "Across (top) 102 | 453 DETOUR | 122 | 157 FOR | 37 | 139 | 115 | 75; (bottom) 102 | 222 HIGH | 51 | 459 VEHICLES | 366. Down 140 | 110 C | 100 | 110 B | 140; FOR 80 C shares DETOUR's baseline (top 170). Chevron: tip 75 from the panel edge, notch 115 further in (x 190), arm ends 139 further (x 329), vertically 47 | 253 | 253 | 47 (tip on the centreline at y 300). Arm ends are vertical cuts at x 329; the inner end y (161.55 / 438.45) is not stated and is computed assuming the inner edges are parallel to the outer edges (139 x 253/254 from the notch). Change to a symbol if that assumption is not accepted. "
+}

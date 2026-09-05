@@ -1,0 +1,46 @@
+{
+ "code": "W5-46",
+ "name": "HORSES_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-46_horse",
+   "x": 157.33,
+   "y": 326.33,
+   "w": 683.0,
+   "h": 408.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-46_horse": {
+   "source": "W5-46",
+   "desc": "galloping horse, 683 x 408",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    112,
+    530,
+    561
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Horse 683 x 408 (inset); left edge 373 left of centre, bottom 204 below centre."
+}

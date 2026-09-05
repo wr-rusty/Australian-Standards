@@ -1,0 +1,47 @@
+{
+ "code": "R9-4",
+ "name": "AUTHORISED_VEHICLES_EXCEPTED_WHITE_LONG",
+ "legend": "AUTHORISED VEHICLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "AUTHORISED",
+   "series": "C",
+   "height": 50,
+   "top": 45,
+   "expect": 334
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "D",
+   "height": 50,
+   "top": 125,
+   "expect": 304
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 50,
+   "top": 205,
+   "expect": 311
+  }
+ ],
+ "notes": "R9-4A (450 x 300) illustrated. Stack 45/50C/30/50D/30/50D/45."
+}

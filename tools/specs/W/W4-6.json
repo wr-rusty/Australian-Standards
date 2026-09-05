@@ -1,0 +1,40 @@
+{
+ "code": "W4-6",
+ "name": "DIVIDED_ROAD_ENDS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w4-4_divided_road",
+   "x": 377.33,
+   "y": 249.33,
+   "w": 306,
+   "h": 562,
+   "colour": "black",
+   "flip": "v"
+  }
+ ],
+ "symbols": {
+  "w4-4_divided_road": {
+   "source": "W4-4",
+   "desc": "Y (divided road) symbol as W4-4; W4-6 is the same symbol inverted.",
+   "grid_mm": 37.5
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). From the W4-4 drawing (lower diamond 'W4-6 (W4-4 INVERTED)'); no separate PNG. Symbol centred and flipped vertically (flip v mirrors about the sign centreline; box is centred so position is exact)."
+}

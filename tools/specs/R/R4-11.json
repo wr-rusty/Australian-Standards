@@ -1,0 +1,58 @@
+{
+ "code": "R4-11",
+ "name": "END_{speed}_AREA_SPEED_SIGN",
+ "legend": "END {speed} AREA",
+ "folder": "Speed Signs/End",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 120,
+   "top": 55,
+   "expect": 287
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 390,
+   "r_outer": 160,
+   "r_inner": 135,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 140,
+   "top": 320
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 100,
+   "top": 600,
+   "expect": 340
+  }
+ ],
+ "notes": "No border. END 120 D top 55 (81|287|82). Black annulus R160/R135 centre (225,390) [55+120+215]; numerals 140 D centred on it (top 320, 290 to bottom). AREA 100 D top 600 (55|340|55), 50 bottom."
+}

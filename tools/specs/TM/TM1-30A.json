@@ -1,0 +1,33 @@
+{
+ "code": "TM1-30A",
+ "name": "TRAFFIC_SIGNALS_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm1-30a_traffic_signals",
+   "x": 145,
+   "y": 50,
+   "w": 310,
+   "h": 500,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm1-30a_traffic_signals": {
+   "source": "TM1-30A",
+   "desc": "three-aspect traffic signal head with backboard",
+   "grid_mm": 50
+  }
+ }
+}

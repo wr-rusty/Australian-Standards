@@ -1,0 +1,6 @@
+{"code":"T1-31","name":"ROAD_WORK_AHEAD_YELLOW_TALL","legend":"ROAD WORK AHEAD","shape":"rect","size":[900,1200],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"ROAD","series":"E","height":160,"top":200,"expect":632},
+             {"type":"text","text":"WORK","series":"E","height":160,"top":520,"expect":658},
+             {"type":"text","text":"AHEAD","series":"D","height":160,"top":840,"expect":686}],
+ "notes":"Drawing labels WORK as '160 D' but its stated width 658 is Series E (160 D would be 560; 160 E = 658, as on T2-17), so WORK is drawn in E. AHEAD 160 D = 686 matches."}

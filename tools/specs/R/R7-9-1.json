@@ -1,0 +1,79 @@
+{
+ "code": "R7-9-1",
+ "name": "END_T2_TRANSIT_LANE_WHITE_SQUARE",
+ "legend": "END T2 TRANSIT LANE",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 200,
+   "top": 83,
+   "expect": 564
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7-1_t2_badge",
+   "x": 112,
+   "y": 386.5,
+   "w": 308,
+   "h": 207,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r7-7_car_2",
+   "x": 507,
+   "y": 370,
+   "w": 280,
+   "h": 240,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TRANSIT",
+    "LANE"
+   ],
+   "series": "B",
+   "height": 120,
+   "top": 697,
+   "gap": 56,
+   "expect": [
+    425,
+    259
+   ]
+  }
+ ],
+ "symbols": {
+  "r7-7-1_t2_badge": {
+   "source": "R7-7-1",
+   "desc": "red badge with white T2 legend",
+   "grid_mm": 60,
+   "colours": [
+    "red"
+   ]
+  },
+  "r7-7_car_2": {
+   "source": "R7-7-1",
+   "desc": "black car, front view, two occupants",
+   "grid_mm": 60
+  }
+ },
+ "notes": "R7-9-1D (900 x 900) illustrated. R100, 15 white edge, 45 border. Stack 83/200E/87/240 symbols/87/120B/83. Badge 308 x 207 (207 dimensioned on the left) centred in the 240 row; car 280 x 240; row 112|308|87|280|113. TRANSIT LANE 80|425|56|259|80."
+}

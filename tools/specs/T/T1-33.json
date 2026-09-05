@@ -1,0 +1,4 @@
+{"code":"T1-33","name":"CHANGED_INTERSECTION_YELLOW_WIDE","legend":"CHANGED INTERSECTION","shape":"rect","size":[1800,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"CHANGED","series":"E","height":160,"top":100,"expect":1126},
+             {"type":"text","text":"INTERSECTION","series":"D","height":160,"top":340,"expect":1403}]}

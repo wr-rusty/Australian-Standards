@@ -1,0 +1,41 @@
+{
+ "code": "TM1-32A",
+ "name": "SIDE_ROAD_CLOSED_YELLOW_SQUARE",
+ "legend": "SIDE ROAD CLOSED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SIDE",
+   "series": "D",
+   "height": 100,
+   "top": 85,
+   "expect": 277
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "D",
+   "height": 100,
+   "top": 415,
+   "expect": 483
+  }
+ ]
+}

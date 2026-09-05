@@ -1,0 +1,64 @@
+{
+ "code": "W3-4-3",
+ "name": "SPEED_HUMP_SIDE_ROAD_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w3-1_up_arrow",
+   "x": 383.83,
+   "y": 159.83,
+   "w": 250,
+   "h": 219,
+   "colour": "black",
+   "rotate": -90,
+   "hand": "L",
+   "mirror": false
+  },
+  {
+   "type": "symbol",
+   "id": "w3-1_up_arrow",
+   "x": 426.83,
+   "y": 159.83,
+   "w": 250,
+   "h": 219,
+   "colour": "black",
+   "rotate": 90,
+   "hand": "R",
+   "mirror": false
+  },
+  {
+   "type": "path",
+   "d": "M226.33 651.33H834.33V595.33H748.33A250 250 0 0 0 312.33 595.33H226.33Z",
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w3-1_up_arrow": {
+   "source": "W3-1",
+   "desc": "upward arrow: 250 wide x 219 tall, head 125 tall, stem 81 wide, barb 16 thick at the ends, R8 corners. Fully dimensioned.",
+   "grid_mm": 37.5
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Hump drawn as path (fully dimensioned): base 608 x 56, shoulders 86, R250 arc rising to 184 above the base bottom (chord 436, sagitta 128 -> R250 consistent); hump top 63 above centreline, bottom 121 below (63 | 121), centred. Arrow = W3-1 arrow rotated 90 deg (points left for L): axis 382 above hump bottom (inset) = 261 above centreline; stem end 216 left of hump right edge (x = +88), tip at +88 - 219 = -131 -> rotated arrow spans x -131..+88, y -386..-136; box is the unrotated 250 x 219 arrow centred at (-21.5, -261). Per-hand elements with mirror:false (generator mirrors inside the rotation). Measured on drawing: x -128..90, y -385..-134."
+}

@@ -1,0 +1,32 @@
+{
+ "code": "TM2-33B",
+ "name": "EMERGENCY_WORKS_YELLOW_LONG_SKINNY",
+ "legend": "EMERGENCY WORKS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "EMERGENCY",
+    "WORKS"
+   ],
+   "series": "B",
+   "height": 100,
+   "top": 100,
+   "gap": 73,
+   "expect": [
+    521,
+    298
+   ]
+  }
+ ]
+}

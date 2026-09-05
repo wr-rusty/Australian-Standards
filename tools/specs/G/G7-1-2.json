@@ -1,0 +1,95 @@
+{
+ "code": "G7-1-2",
+ "name": "PICNIC_TOILETS_300M_ON_LEFT_BLUE",
+ "legend": "300 m ON LEFT",
+ "shape": "rect",
+ "size": [
+  990,
+  1000
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g7_picnic": {
+   "source": "G7-1-1",
+   "desc": "picnic area symbol (tree and table) in a 350x350 box on the services signs; artwork not dimensioned (see AS 1742.1 / Appendix B)",
+   "grid_mm": null
+  },
+  "g7_toilets": {
+   "source": "G7-1-2",
+   "desc": "toilets (female/male) symbol in a 350x350 box; artwork not dimensioned",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g7_picnic",
+   "x": 138,
+   "y": 132,
+   "w": 298,
+   "h": 306,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g7_toilets",
+   "x": 560.5,
+   "y": 133.5,
+   "w": 287,
+   "h": 287.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 72,
+   "top": 540,
+   "colour": "white",
+   "expect": [
+    345,
+    131
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "LEFT"
+   ],
+   "gap": 93,
+   "series": "D",
+   "height": 140,
+   "top": 750,
+   "align": "left",
+   "x": 135,
+   "colour": "white",
+   "expect": [
+    226,
+    401
+   ]
+  }
+ ],
+ "notes": "G7-1-2A (Illust.) 990x1000 R100, 40/20 border. Two 350 symbol boxes 70 apart centred (x 110 and 530), y 110. Left chain 110|350|80|140 D|70|140 D|110. '300 m' block 345|72|131 centred (x 221); 300 is drawn dashed (varies). ON LEFT 135|226|93|401|135. QA: pictogram box set to the ink extent measured on the drawing inside its nominal square (the generator fits the traced ink to the box). Nominal 350 squares at (110,110) and (530,110). QA: the 300 m line is built as one runs group (gap 72, the drawing's figure; 300 in 140 D computes 350 against the drawing's 345) so the generator centres it as the drawing's = margins require."
+}

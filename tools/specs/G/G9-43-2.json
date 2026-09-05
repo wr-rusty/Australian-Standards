@@ -1,0 +1,164 @@
+{
+ "code": "G9-43-2",
+ "name": "LANE_ARROWS_LEFT_LEFT_RIGHT_RIGHT_GREEN_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1650,
+  1100
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50,
+     650
+    ],
+    [
+     530,
+     890
+    ],
+    [
+     530,
+     1050
+    ],
+    [
+     50,
+     1050
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g9-43_arrow_left_turn",
+   "x": 145,
+   "y": 120,
+   "w": 254,
+   "h": 630,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g9-43_arrow_left_and_right",
+   "x": 591,
+   "y": 120,
+   "w": 468,
+   "h": 730,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g9-43-2_arrow_right_turn",
+   "x": 1251,
+   "y": 120,
+   "w": 254,
+   "h": 730,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 500,
+   "y": 100,
+   "w": 30,
+   "h": 200,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 500,
+   "y": 450,
+   "w": 30,
+   "h": 200,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 500,
+   "y": 800,
+   "w": 30,
+   "h": 200,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1120,
+   "y": 100,
+   "w": 30,
+   "h": 200,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1120,
+   "y": 450,
+   "w": 30,
+   "h": 200,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1120,
+   "y": 800,
+   "w": 30,
+   "h": 200,
+   "colour": "white"
+  }
+ ],
+ "notes": "20 green edge + 20 white border (40). Arrows: 145|254|101|30|61|468|61|30|101|254|145 (the 61 is the gap between the lane line and the centre arrow). Left arrow 120|630|350; centre and right arrows 120|730|250. Dashed lines 30 wide: 100|200|150|200|150|200|100. White patch (kerb/nose): 50 in from the left and bottom edges, 480 wide, 400 tall on the left (top at 650), 160 tall on the right, straight sloping top. QA: the left-turn arrow's crop includes part of the white patch; the symbol file keeps only the arrow subpath (re-tracing brings the patch back unless pruned again). QA: the right-turn arrow is traced from this drawing (730 tall) instead of scaling the 565-tall G9-43-1 arrow, which would shrink the head.",
+ "symbols": {
+  "g9-43_arrow_straight": {
+   "source": "G9-43-1",
+   "desc": "straight-ahead lane arrow 176 wide x 700 tall (600 tall on G9-43-3, same head): head 176 wide, head length 114, barb return 16, shaft 40 wide, R8 tip and barb corners; grid 75",
+   "grid_mm": 75
+  },
+  "g9-43_arrow_straight_and_right": {
+   "source": "G9-43-1",
+   "desc": "straight-ahead arrow with a right-turn branch, overall 322 wide x 700 tall (600 on G9-43-3): straight arrow as g9-43_arrow_straight (176 wide, head 114/16, shaft 40, R8); branch leaves the shaft 475 above the bottom (bend R100 inner), branch head 176 tall x 114 long with 16 barb return, R8; branch head top 225 below the arrow top; grid 75",
+   "grid_mm": 75
+  },
+  "g9-43_arrow_right_turn": {
+   "source": "G9-43-1",
+   "desc": "right-turn arrow 254 wide x 565 tall (730 on G9-43-2, 700 on G9-43-4): vertical shaft 40 wide on the left (357 straight below the bend on G9-43-1, 492 on G9-43-4, 522 on G9-43-2), bend R100 (inner), horizontal head 176 tall x 114 long with 16 barb return, head top 208 below the arrow top, R8 tip and barbs; grid 75",
+   "grid_mm": 75
+  },
+  "g9-43_arrow_left_turn": {
+   "source": "G9-43-2",
+   "desc": "left-turn arrow 254 wide x 630 tall (550 on G9-43-4): mirror of g9-43_arrow_right_turn - shaft 40 wide on the right (422 below the bend on G9-43-2, 342 on G9-43-4), bend R100, head 176 tall x 114 long, 16 barb return, head top 208 below the top, R8 typ.; grid 82.5 (G9-43-2) / 105 (G9-43-4); the white patch at the bottom left of G9-43-2 intrudes into the arrow's crop, so the traced file is pruned to the arrow subpath after tracing",
+   "grid_mm": 82.5,
+   "invert": true,
+   "inset": 0
+  },
+  "g9-43_arrow_left_and_right": {
+   "source": "G9-43-2",
+   "desc": "double (left and right) turn arrow 468 wide x 730 tall: single vertical shaft 40 wide centred, 522 below the bends, bends R100 both sides, heads 176 tall x 114 long with 16 barb return, R8 typ.; grid 82.5",
+   "grid_mm": 82.5,
+   "invert": true,
+   "inset": 0
+  },
+  "g9-43_arrow_straight_offset": {
+   "source": "G9-43-4",
+   "desc": "straight-ahead arrow with an S-jog, overall 285 wide x 700 tall: head 176 wide x 114 long with 16 barb return at the top right (head axis 88 from the right edge), R8; shaft 40 wide, upper leg 285 tall, jog at 40 deg (R90 upper bend, R50 lower bend) over 149 tall shifting 177 to the left, lower leg 266 tall ending 20 from the left edge; grid 105",
+   "grid_mm": 105
+  },
+  "g9-43-2_arrow_right_turn": {
+   "source": "G9-43-2",
+   "desc": "right-turn arrow 254 wide x 730 tall (this drawing's own length): vertical shaft 40 wide on the left, 522 straight below the bend, bend R100 (inner), horizontal head 176 tall x 114 long with 16 barb return, head top 208 below the arrow top, R8 typ.; grid 82.5",
+   "grid_mm": 82.5,
+   "invert": true,
+   "inset": 0
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "code": "R7-1-6",
+ "name": "BUS_AND_OTHER_VEHICLE_LANE_WHITE_TALL",
+ "legend": "LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-1_bus",
+   "x": 50,
+   "y": 80,
+   "w": 500,
+   "h": 180,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 160,
+   "top": 540,
+   "expect": 422
+  }
+ ],
+ "notes": "R7-1-6C illustrated. Bus 500 x 180 at y 80 (same symbol as R7-1-1); 50 gap; a dashed 180-high box of 'Variable' width at y 310-490 marks the 'symbol for other vehicle type' - not drawn on the drawing so nothing placed there; 50 gap; LANE 160 C top 540; 100 bottom.",
+ "symbols": {
+  "r7-1-1_bus": {
+   "source": "R7-1-1",
+   "desc": "bus, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "code": "T2-24",
+ "name": "TWO_WAY_ARROWS_YELLOW_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "t2-24_arrow",
+   "x": 205,
+   "y": 112,
+   "w": 175,
+   "h": 376,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "t2-24_arrow_down",
+   "x": 520,
+   "y": 112,
+   "w": 175,
+   "h": 376,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "t2-24_arrow": {
+   "source": "T2-24",
+   "desc": "upward arrow 175 wide x 376 high: head 160 high with R10 tips (barb offset 16), tapered shaft 50 at head to 66 at foot",
+   "grid_mm": 45
+  },
+  "t2-24_arrow_down": {
+   "source": "T2-24",
+   "desc": "downward arrow 175 wide x 376 high (the up arrow inverted), traced from its own box on the drawing",
+   "grid_mm": 45
+  }
+ },
+ "notes": "Up arrow at x 205, down arrow at x 520 (205+175+140); both 112 from top and bottom. Shaft is tapered (50/66) so not drawn as a polygon. The down arrow is traced from its own box (a second element with the same id would re-trace and overwrite the up arrow)."
+}

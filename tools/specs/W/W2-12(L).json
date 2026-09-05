@@ -1,0 +1,46 @@
+{
+ "code": "W2-12(L)",
+ "name": "STAGGERED_SIDE_ROADS_LEFT_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w2-12_l",
+   "x": 234.33,
+   "y": 288.53,
+   "w": 514.9,
+   "h": 511.8,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w2-12_l": {
+   "source": "W2-12(L)",
+   "desc": "left curve: stem 110, straight 90, arc inner R233, sweep 20 + 25 + 30 = 75 deg; inner side arm (80 x 150) radial at 20 deg from arc start, outer side arm (80 x 150) at 45 deg; arrowhead 220 x 296 (20+128+128+20, R20), notch 20. Mirror of W2-11(R). Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    108,
+    115,
+    556,
+    563
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Curve family: stem near edge 75 right of centreline and bottom 270 below centreline (stated); no overall width/height is stated on the sign. Box derived from the inset geometry with the arrowhead 220 from barb line to tip (the inset's 240 runs to the 20 notch line) and inner R233 as stated: tip 372.4 from stem near edge (=297.4 from centreline; W1-3 states 300), height 510.9. Tip 371 from stem near edge (296 from centreline; measured 297), arm end 143.9 -> width 514.9, height 511.8."
+}

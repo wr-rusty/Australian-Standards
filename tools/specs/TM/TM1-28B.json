@@ -1,0 +1,65 @@
+{
+ "code": "TM1-28B",
+ "name": "NEXT_{km}_KM_YELLOW_LONG_SKINNY",
+ "legend": "NEXT {km} km",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 85
+    }
+   ],
+   "gap": [
+    75,
+    45
+   ],
+   "top": 100,
+   "expect": [
+    368,
+    null,
+    175
+   ]
+  }
+ ],
+ "notes": "Numeral varies; generated for 1-20 km. Top dims '= | 368 | 75 | Varies | 175 | =': numeral-to-km gap not dimensioned, 45 taken from TM1-28A. NEXT and numeral 100 E, km 85 Emod, one baseline at 200. Line centred as a whole.",
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   15,
+   20
+  ]
+ }
+}

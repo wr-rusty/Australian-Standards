@@ -1,0 +1,81 @@
+{
+ "code": "G8-9-4(L)",
+ "name": "TOURIST_DRIVE_TURN_LEFT_300M_BROWN",
+ "legend": "TOURIST DRIVE TURN LEFT 300 m",
+ "shape": "rect",
+ "size": [
+  1730,
+  900
+ ],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "TOURIST",
+    "DRIVE"
+   ],
+   "gap": 105,
+   "series": "D",
+   "height": 140,
+   "top": 140,
+   "align": "left",
+   "x": 200,
+   "colour": "white",
+   "expect": [
+    722,
+    503
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "TURN",
+    "LEFT"
+   ],
+   "gap": 105,
+   "series": "D",
+   "height": 140,
+   "top": 380,
+   "align": "left",
+   "x": 387,
+   "colour": "white",
+   "expect": [
+    451,
+    400
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 70.0,
+   "top": 620,
+   "colour": "white",
+   "expect": [
+    null,
+    131
+   ]
+  }
+ ],
+ "notes": "1730x900 R100, brown edge 20 + white border 20. Right chain 140|140 D|100|140 D|100|140|140. TOURIST DRIVE 200|722|105|503|200; TURN LEFT 387|451|105|400|387; '300 m' block Varies|70|131 centred (350.2+70+131 = 551.2, x 589.4), m 120 Emod on the 300 baseline (760). QA: the 300 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require."
+}

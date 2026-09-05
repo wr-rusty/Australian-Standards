@@ -1,0 +1,167 @@
+{
+ "code": "R6-25",
+ "name": "RAILWAY_CROSSING_CROSSBUCK_RED_LONG",
+ "legend": "RAILWAY CROSSING",
+ "shape": "rect",
+ "size": [
+  1350,
+  900
+ ],
+ "radius": 100,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     74.24,
+     674.45
+    ],
+    [
+     1169.76,
+     41.95
+    ],
+    [
+     1275.76,
+     225.55
+    ],
+    [
+     180.24,
+     858.05
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     180.24,
+     41.95
+    ],
+    [
+     1275.76,
+     674.45
+    ],
+    [
+     1169.76,
+     858.05
+    ],
+    [
+     74.24,
+     225.55
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     108.39,
+     683.6
+    ],
+    [
+     1160.61,
+     76.1
+    ],
+    [
+     1241.61,
+     216.4
+    ],
+    [
+     189.39,
+     823.9
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     189.39,
+     76.1
+    ],
+    [
+     1241.61,
+     683.6
+    ],
+    [
+     1160.61,
+     823.9
+    ],
+    [
+     108.39,
+     216.4
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "R",
+    "A",
+    "I",
+    "L",
+    "W",
+    "A",
+    "Y"
+   ],
+   "series": "D",
+   "height": 108,
+   "top": 396,
+   "cx": 675,
+   "gap": [
+    48.12,
+    48.12,
+    48.12,
+    263,
+    48.52,
+    48.52
+   ],
+   "rotate": 30,
+   "expect": 1035,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "C",
+    "R",
+    "O",
+    "S",
+    "S",
+    "I",
+    "N",
+    "G"
+   ],
+   "series": "D",
+   "height": 108,
+   "top": 396,
+   "cx": 675,
+   "gap": [
+    71.41,
+    71.41,
+    71.41,
+    71.41,
+    71.41,
+    71.41,
+    71.41
+   ],
+   "rotate": -30,
+   "expect": 1035,
+   "expect_total": true
+  }
+ ],
+ "notes": "1350 x 900, R100, 20 red edge, 20 white border (inner face 40 from the edge). Crossbuck built from the drawing: two arms 1265 long x 212 wide crossing at the panel centre (675,450) at 30 deg to the horizontal (end cut spans 106 horizontally = 212 sin 30; corners check: 74/180 and 1170/1276 from the sides, 40/226 and 674/860 from the top = 1350-74-106-990-180 and 40+186/448/226 chains), white with a 25 black border (white core 1215 x 162), square corners. Letters 108 D, non-standard spacing: along the falling arm RAIL 394 then WAY 378 with 25+90 clear at each end (gap between RAIL and WAY = 1265-50-180-394-378 = 263); along the rising arm CROSSING 1035 (25+90 clear each end). Each word is set letter-by-letter with equal ink gaps (RAIL 48.12, WAY 48.52, CROSSING 71.41) to the stated lengths; each line is centred on its arm and rotated +/-30 about the panel centre. Interior arm borders are hidden by the overlapping white cores as drawn."
+}

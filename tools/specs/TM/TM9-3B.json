@@ -1,0 +1,38 @@
+{
+ "code": "TM9-3B",
+ "name": "EVENT_IN_PROGRESS_YELLOWGREEN_LONG_SKINNY",
+ "legend": "EVENT IN PROGRESS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "B",
+   "height": 100,
+   "top": 100,
+   "words": [
+    "EVENT",
+    "IN",
+    "PROGRESS"
+   ],
+   "gap": [
+    60,
+    68
+   ],
+   "expect": [
+    256,
+    78,
+    440
+   ]
+  }
+ ],
+ "notes": "DRAWING INCONSISTENCY: labelled 100 E, but the stated widths 256 / 78 / 440 are exactly the 100 B widths (E would be 463 / 125 / 770, far wider than the panel) and the drawn letters are condensed; B used. Across 148 | 256 | 60 | 78 | 68 | 440 | 149 (sums to 1199): centred group with per-pair gaps 60 / 68."
+}

@@ -1,0 +1,32 @@
+{
+ "code": "G10-4",
+ "name": "NATIONAL_ROUTE_PLATE_GREEN_LONG_SKINNY",
+ "legend": "NATIONAL",
+ "shape": "rect",
+ "size": [
+  450,
+  120
+ ],
+ "radius": 20,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 50,
+   "top": 35,
+   "colour": "yellow",
+   "text": "NATIONAL",
+   "expect": 314
+  }
+ ],
+ "notes": "10 green edge + 10 white border (20 total, bottom callout 10). NATIONAL 50 D yellow, 35|50D|35, 68|314|68. Mounted under G10-3 (example layout)."
+}

@@ -1,0 +1,53 @@
+{
+ "code": "R5-65",
+ "name": "PARK_IN_BAYS_ONLY_WHITE_LONG",
+ "legend": "PARK IN BAYS ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "PARK",
+    "IN"
+   ],
+   "series": "D",
+   "height": 80,
+   "top": 85,
+   "gap": 47,
+   "expect": [
+    262,
+    87
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "BAYS",
+    "ONLY"
+   ],
+   "series": "C",
+   "height": 80,
+   "top": 235,
+   "gap": 43,
+   "expect": [
+    211,
+    222
+   ]
+  }
+ ],
+ "notes": "Illustrated R5-65B 600 x 400. PARK IN 80 D top 85 (102|262|47|87|102); BAYS ONLY 80 C top 235 (62|211|43|222|62); 85 bottom."
+}

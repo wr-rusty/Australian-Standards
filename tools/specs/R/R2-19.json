@@ -1,0 +1,55 @@
+{
+ "code": "R2-19",
+ "name": "LEFT_LANE_MUST_EXIT_WHITE_TALL",
+ "legend": "LEFT LANE MUST EXIT",
+ "shape": "rect",
+ "size": [
+  800,
+  1200
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 160,
+   "top": 130,
+   "expect": 552
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 160,
+   "top": 390,
+   "expect": 614
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "E",
+   "height": 160,
+   "top": 650,
+   "expect": 621
+  },
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 160,
+   "top": 910,
+   "expect": 490
+  }
+ ],
+ "notes": "R100, 15 white edge, 45 black border. Four lines 160 E, 130 top, 100 between, 130 bottom. MUST 90|621|89 -> centred."
+}

@@ -1,0 +1,50 @@
+{
+ "code": "R5-51",
+ "name": "END_CLEARWAY_WHITE_SQUARE",
+ "legend": "END (C symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 120,
+   "top": 53,
+   "expect": 340
+  },
+  {
+   "type": "symbol",
+   "id": "r5_clearway_c",
+   "x": 130,
+   "y": 207,
+   "w": 340,
+   "h": 340,
+   "colour": "red"
+  }
+ ],
+ "notes": "R5-51A 600 x 600. END 120 E top 53 (130|340|130); C symbol 340 square (R340, white C 265 D) at 130, 207 (53+120+34); 53 bottom.",
+ "symbols": {
+  "r5_clearway_c": {
+   "source": "R5-50",
+   "desc": "clearway symbol: red rounded square (sides are arcs, R = side length) with white C in Series D as a cut-out (C height 110 at 140 square; 180 at 230; 265 at 340); traced from R5-50 (230 square) as the red layer",
+   "grid_mm": 22.5,
+   "colours": [
+    "red"
+   ]
+  }
+ }
+}

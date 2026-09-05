@@ -1,0 +1,38 @@
+{
+ "code": "R3-2",
+ "name": "SAFETY_ZONE_YELLOWGREEN_ROUND",
+ "legend": "SAFETY ZONE",
+ "shape": "circle",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SAFETY",
+   "series": "B",
+   "height": 100,
+   "top": 119,
+   "expect": 315
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "B",
+   "height": 100,
+   "top": 269,
+   "expect": 225
+  }
+ ],
+ "notes": "450 dia. Drawing gives '20' at the top and '10' at the bottom of the rim: read as 10 yellow-green edge + 20 black ring (proportional to R3-1's 15+30); the alternative reading (ring 10 inside a 10 edge) is noted. Text: SAFETY baseline 6 above the centreline (top 119), 50 gap, ZONE top 269 - block sits 6 low. QA: as R3-1, the '20' is outer edge to ring inner edge and the '10' is the edge strip: edge 10 + ring 10 (drawn ring is 10 wide, 4.4 px at 0.44 px/mm). Border corrected from 20 to 10."
+}

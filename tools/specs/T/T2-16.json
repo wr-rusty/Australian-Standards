@@ -1,0 +1,4 @@
+{"code":"T2-16","name":"END_ROADWORK_YELLOW_WIDE","legend":"END ROADWORK","shape":"rect","size":[1800,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"END","series":"E","height":160,"top":100,"expect":451},
+             {"type":"text","text":"ROADWORK","series":"E","height":160,"top":340,"expect":1312}]}

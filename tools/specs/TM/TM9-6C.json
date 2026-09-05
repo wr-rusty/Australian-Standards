@@ -1,0 +1,41 @@
+{
+ "code": "TM9-6C",
+ "name": "COMMUNITY_EVENT_AHEAD_YELLOWGREEN_LONG",
+ "legend": "COMMUNITY EVENT AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "COMMUNITY",
+   "series": "C",
+   "height": 160,
+   "top": 110,
+   "expect": 1014
+  },
+  {
+   "type": "text",
+   "words": [
+    "EVENT",
+    "AHEAD"
+   ],
+   "series": "C",
+   "height": 120,
+   "top": 365,
+   "gap": 72,
+   "expect": [
+    389,
+    420
+   ]
+  }
+ ],
+ "notes": "Stack 110 | 160 C | 95 | 120 C | 115. Bottom line 159 | 389 | 72 | 420 | 160."
+}

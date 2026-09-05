@@ -1,0 +1,160 @@
+{
+ "code": "G9-75",
+ "name": "LENGTH_LIMIT_AHEAD_80_m_OVERALL_DETOUR_WHITE_LONG",
+ "legend": "LENGTH LIMIT AHEAD 80 m OVERALL LONG VEHICLES DETOUR",
+ "shape": "rect",
+ "size": [
+  2100,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 45,
+   "w": 2010,
+   "h": 388,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 45,
+   "y": 463,
+   "w": 2010,
+   "h": 392,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 85,
+   "colour": "black",
+   "text": "LENGTH",
+   "align": "left",
+   "x": 221,
+   "expect": 567
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 85,
+   "colour": "black",
+   "text": "LIMIT",
+   "align": "left",
+   "x": 898,
+   "expect": 375
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 85,
+   "colour": "black",
+   "text": "AHEAD",
+   "align": "left",
+   "x": 1363,
+   "expect": 515
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "80",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    },
+    {
+     "text": "OVERALL",
+     "series": "D",
+     "height": 120
+    }
+   ],
+   "gap": [
+    50.0,
+    110.0
+   ],
+   "top": 265,
+   "colour": "black",
+   "expect": [
+    null,
+    115,
+    682
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 510,
+   "colour": "black",
+   "text": "LONG",
+   "align": "left",
+   "x": 434,
+   "expect": 392
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 510,
+   "colour": "black",
+   "text": "VEHICLES",
+   "align": "left",
+   "x": 936,
+   "expect": 729
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 690,
+   "colour": "black",
+   "text": "DETOUR",
+   "align": "left",
+   "x": 1103,
+   "expect": 687,
+   "mirror": true
+  },
+  {
+   "type": "symbol",
+   "id": "g9-3_arrow_left",
+   "x": 310,
+   "y": 670,
+   "w": 600,
+   "h": 160,
+   "colour": "black"
+  }
+ ],
+ "notes": "One PNG shows G9-75(L) and G9-75(R): hands L/R, drawn L; DETOUR mirrors (R: 310|687|193|600|310). 15 white edge + 30 black border; two white R40 sub-panels either side of the 30 black bar at y 433-463 (85|120D|60|120D|48|30|47|120D|40|160|70; right 30|47|120D|60|120E|90). Line 1 221|567|110|375|90|515|222. Line 2 centred as a group (=|Varies|50|115|110|682|=): numerals 80 (120 D, vary), m 105 Emod baseline-aligned (top 280), OVERALL 120 D; x from the font width of 80 (191) - not stated. LONG VEHICLES 434|392|110|729|435. Arrow 600 x 160 at 310, top 670 (same arrow as G9-3, grid 105 here). QA: the 80 m OVERALL line is built as one runs group (gap [50.0, 110.0]) so the generator centres it as the drawing's = margins require.",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "g9-3_arrow_left": {
+   "source": "G9-3(L)",
+   "desc": "block arrow pointing left, overall 600 x 160: head length 104, shaft length 496, shaft width 50, head width 160, head base to shaft (notch) 37, barb step 13, R8 tip and R8 barb corners; grid 85 (105 on G9-75)",
+   "grid_mm": 85
+  }
+ }
+}

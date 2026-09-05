@@ -1,0 +1,42 @@
+{
+ "code": "TM1-2A",
+ "name": "BRIDGE_WORK_AHEAD_YELLOW_SQUARE",
+ "legend": "BRIDGE WORK AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 450
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 350
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 430
+  }
+ ],
+ "notes": "Top dims 125|350|125 and 75|450|75: 450 taken as BRIDGE, 350 as WORK (WORK 100 D = 350 on TM1-1A)."
+}

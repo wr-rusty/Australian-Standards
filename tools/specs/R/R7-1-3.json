@@ -1,0 +1,47 @@
+{
+ "code": "R7-1-3",
+ "name": "TRUCK_LANE_WHITE_TALL",
+ "legend": "LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-3_truck",
+   "x": 75,
+   "y": 156,
+   "w": 455,
+   "h": 198,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 160,
+   "top": 484,
+   "expect": 422
+  }
+ ],
+ "notes": "R7-1-3C illustrated. Truck 455 x 198 at x 75 (75|455|70), y 156; 130 gap; LANE 160 C top 484; 156 bottom.",
+ "symbols": {
+  "r7-1-3_truck": {
+   "source": "R7-1-3",
+   "desc": "truck, side view, facing left",
+   "grid_mm": 40
+  }
+ }
+}

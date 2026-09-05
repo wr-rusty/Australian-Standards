@@ -1,0 +1,46 @@
+{
+ "code": "G5-2",
+ "name": "STANDARD_ST_1-5_17-43_WHITE_BLADE",
+ "legend": "STANDARD ST 1-5 17-43",
+ "shape": "rect",
+ "size": [
+  1044,
+  200
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "STANDARD ST",
+   "series": "D",
+   "height": 100,
+   "top": 20,
+   "align": "left",
+   "x": 100,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "1 - 5",
+   "series": "D",
+   "height": 50,
+   "top": 130,
+   "align": "left",
+   "x": 100,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "17 - 43",
+   "series": "D",
+   "height": 50,
+   "top": 130,
+   "align": "right",
+   "x": 944,
+   "colour": "black"
+  }
+ ],
+ "notes": "Street-name blade drawn with a 10-wide strip (double line, '10') along the top and bottom edges whose colour is not stated; not drawn. 200 high, read as 10 strip | 10 | 100 D | 10 | 50 D | 10 | 10 strip = 200: STANDARD ST top 20 (baseline 120), house-number ranges 50 D top 130 (baseline 180, 10 above the bottom strip). Horizontal positions of the ranges are not dimensioned; as drawn, '1 - 5' starts flush with STANDARD ST (x 100) and '17 - 43' ends about 100 from the right end (measured on the drawing), so it is right-aligned at 944. Length not stated: 100 + 923.6 + 20 as G5-1A."
+}

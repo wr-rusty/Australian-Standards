@@ -1,0 +1,48 @@
+{
+ "code": "TM8-1C",
+ "name": "PEDESTRIANS_WATCH_YOUR_STEP_YELLOW_LONG",
+ "legend": "PEDESTRIANS WATCH YOUR STEP",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "E",
+   "height": 100,
+   "top": 80,
+   "expect": 1005
+  },
+  {
+   "type": "text",
+   "words": [
+    "WATCH",
+    "YOUR"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 250,
+   "gap": 67,
+   "expect": [
+    498,
+    411
+   ]
+  },
+  {
+   "type": "text",
+   "text": "STEP",
+   "series": "E",
+   "height": 100,
+   "top": 420,
+   "expect": 359
+  }
+ ]
+}

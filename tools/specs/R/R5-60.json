@@ -1,0 +1,4 @@
+{
+ "code": "R5-60",
+ "skip": "area parking sign with variable name panel ('BRISBANE', width 'Varies'); drawing rotated, text positions given as chained dims contradicting the '=' centring marks; not reproducible from the drawing"
+}

@@ -1,0 +1,41 @@
+{
+ "code": "TM1-49A",
+ "name": "ROAD_SIDE_HAZARD_YELLOW_SQUARE",
+ "legend": "ROAD SIDE HAZARD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 80,
+   "expect": 334
+  },
+  {
+   "type": "text",
+   "text": "SIDE",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "expect": 277
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "D",
+   "height": 100,
+   "top": 420,
+   "expect": 504
+  }
+ ]
+}

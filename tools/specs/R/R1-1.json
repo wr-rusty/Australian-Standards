@@ -1,0 +1,27 @@
+{
+ "code": "R1-1",
+ "name": "STOP_SIGN",
+ "legend": "STOP",
+ "shape": "octagon",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "red",
+ "edge": {
+  "colour": "white",
+  "width": 16
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 200,
+   "top": 200,
+   "colour": "white",
+   "expect": 526
+  }
+ ],
+ "notes": "Regular octagon, corner cut 176 at 600. White edge strip 16 outside red. STOP 200 C white, cap top 200."
+}

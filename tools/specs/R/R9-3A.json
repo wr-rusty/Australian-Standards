@@ -1,0 +1,39 @@
+{
+ "code": "R9-3A",
+ "name": "BICYCLES_EXCEPTED_WHITE_LONG",
+ "legend": "BICYCLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "D",
+   "height": 60,
+   "top": 65,
+   "expect": 366
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 60,
+   "top": 175,
+   "expect": 373
+  }
+ ],
+ "notes": "Drawing R9-3(A, B, C); R9-3A (450 x 300) illustrated. Stack 65/60D/50/60D/65."
+}

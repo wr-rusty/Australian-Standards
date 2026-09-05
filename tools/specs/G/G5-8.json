@@ -1,0 +1,22 @@
+{
+ "code": "G5-8",
+ "name": "TOWN_HALL_PEDESTRIAN_BLUE",
+ "legend": "Town Hall",
+ "shape": "rect",
+ "size": [670, 250],
+ "radius": 20,
+ "ground": "blue",
+ "edge": {"colour": "blue", "width": 10},
+ "border": {"colour": "white", "width": 10},
+ "symbols": {
+   "w6-1_pedestrians": {"source": "W6-1", "desc": "adult and child pedestrians symbol from W6-1; 98 wide x 128 high here", "grid_mm": null},
+   "g5-8_arrow_diag_up_right": {"source": "G5-8", "desc": "diagonal block arrow pointing up-right, boxed 115x115 on the sign; no arrow detail given", "grid_mm": null, "invert": true, "inset": 0}
+ },
+ "elements": [
+  {"type": "symbol", "id": "w6-1_pedestrians", "x": 75, "y": 61, "w": 98, "h": 128, "colour": "white"},
+  {"type": "text", "text": "Town", "series": "Emod", "height": 50, "top": 63, "cx": 326.5, "colour": "white", "expect": 187},
+  {"type": "text", "text": "Hall", "series": "Emod", "height": 50, "top": 138, "cx": 326.5, "colour": "white"},
+  {"type": "symbol", "id": "g5-8_arrow_diag_up_right", "x": 480, "y": 68, "w": 115, "h": 115, "colour": "white"}
+ ],
+ "notes": "670x250 R20, blue edge 10 + white border 10 (10/20 dims). Chain 75|98|60|187|60|115|75. Pedestrians 128 high (61 margins). Town/Hall 50 Emod: 63|50|25|50|62; the 187 is the width of the text block (Town = 187), Hall centred on it (alignment of the shorter line not stated). Arrow 115x115 between 68 and 183."
+}

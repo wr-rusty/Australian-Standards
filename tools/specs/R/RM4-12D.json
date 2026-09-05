@@ -1,0 +1,58 @@
+{
+ "code": "RM4-12D",
+ "name": "END_{speed}_SPEED_WHITE_TALL",
+ "legend": "END {speed}",
+ "folder": "Speed Signs/End",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 100,
+   "expect": 451
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 575,
+   "r_outer": 265,
+   "r_inner": 215,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 220,
+   "top": 465
+  }
+ ],
+ "notes": "RM4-12D 600 x 900, 25 black border, square corners. END 160 E top 100 (74|451|75); black annulus R265/R215 centred at (300,575) (100+160+315 to centre, 265 to the outer edge, 60 to the bottom); numerals 220 D 'Varies' centred on the annulus (60 shown), top 465. Drawing states series D for the numerals (not the R4-1 speed rule)."
+}

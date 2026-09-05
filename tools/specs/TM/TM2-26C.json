@@ -1,0 +1,25 @@
+{
+ "code": "TM2-26C",
+ "name": "ROADWORK_YELLOW_LONG",
+ "legend": "ROADWORK",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "E",
+   "height": 120,
+   "top": 240,
+   "expect": 985
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "code": "G10-5",
+ "name": "W_4_NATIONAL_ROUTE_MARKER_GREEN_SHIELD",
+ "legend": "W 4 NATIONAL",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     100,
+     0
+    ],
+    [
+     350,
+     0
+    ],
+    [
+     450,
+     450
+    ],
+    [
+     0,
+     450
+    ]
+   ],
+   "radius": [
+    25,
+    25,
+    50,
+    50
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     108.02,
+     10.0
+    ],
+    [
+     341.98,
+     10.0
+    ],
+    [
+     437.53,
+     440.0
+    ],
+    [
+     12.47,
+     440.0
+    ]
+   ],
+   "radius": [
+    15,
+    15,
+    40,
+    40
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     116.04,
+     20.0
+    ],
+    [
+     333.96,
+     20.0
+    ],
+    [
+     425.07,
+     430.0
+    ],
+    [
+     24.93,
+     430.0
+    ]
+   ],
+   "radius": [
+    5,
+    5,
+    30,
+    30
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     42.71,
+     350
+    ],
+    [
+     407.29,
+     350
+    ],
+    [
+     411.29,
+     368
+    ],
+    [
+     38.71,
+     368
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 110,
+   "top": 38,
+   "colour": "white",
+   "text": "W"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 110,
+   "top": 188,
+   "colour": "white",
+   "text": "4"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 50,
+   "top": 368,
+   "colour": "yellow",
+   "text": "NATIONAL",
+   "expect": 314
+  }
+ ],
+ "notes": "Shield as G10-3 (250/450 x 450, R25/R50, 10 green edge + 10 white border). Six variants on the one drawing; first (W over 4) written. Stack 38|110E|40|110E|40|12|18|50D|32: the 18 is read as the white separator band across the shield (y 350-368) above the NATIONAL panel, NATIONAL 50 D yellow tight under it (top 368), 314 wide centred. WW is 110 C, 444 is 110 C."
+}

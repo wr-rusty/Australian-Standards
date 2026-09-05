@@ -1,0 +1,39 @@
+{
+ "code": "R9-15",
+ "name": "ON_BRIDGE_WHITE_LONG",
+ "legend": "ON BRIDGE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "expect": 188
+  },
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 100,
+   "top": 225,
+   "expect": 450
+  }
+ ],
+ "notes": "R9-15B (600 x 400) illustrated. R25, 5 white edge, 15 border. Stack 75/100E/50/100D/75."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "W1-4",
+ "name": "{dir}_REVERSE_CURVE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-4_reverse_curve_arrow_l",
+   "x": 285.33,
+   "y": 175.33,
+   "w": 435,
+   "h": 615,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-4_reverse_curve_arrow_l": {
+   "source": "W1-4",
+   "desc": "reverse-curve (S) arrow, left hand: lower stem 110 wide, straight 95, S-bend R50/R160/R50 with a 235 jog (lower stem far edge to upper stem far edge), 25 straight under the arrowhead; arrowhead 220 tall x 290 wide (20+125+125+20, R20 barbs), notch 15; overall 520 above the 95 straight = 615 tall; tip axis 290 from lower stem outer edge. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    50,
+    106,
+    499,
+    555
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 80 from centreline (stated), tip axis 100 from centreline (stated, consistent: 190-290), bottom 260 below centreline (stated). Width 435 = 290 + 125 + 20; height 615 = 520 + 95.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "code": "G7-13",
+ "name": "HELP_PHONE_BLUE_SQUARE",
+ "legend": "HELP PHONE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 10
+ },
+ "symbols": {
+  "g7_phone": {
+   "source": "G7-13",
+   "desc": "telephone handset symbol in a 400x500 box; artwork not dimensioned; box = handset ink extent (the HELP/PHONE legend intrudes into the drawn 400 x 500 frame, so the traced file is pruned to the handset subpath after tracing)",
+   "grid_mm": null,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "g7_phone",
+   "x": 61,
+   "y": 72,
+   "w": 282,
+   "h": 456,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "HELP",
+   "series": "C",
+   "height": 80,
+   "top": 100,
+   "align": "left",
+   "x": 304,
+   "colour": "white",
+   "expect": 230
+  },
+  {
+   "type": "text",
+   "text": "PHONE",
+   "series": "B",
+   "height": 80,
+   "top": 230,
+   "align": "left",
+   "x": 301,
+   "colour": "white",
+   "expect": 237
+  }
+ ],
+ "notes": "G7-13B (Illust.) 600x600 R50, blue edge 10 + white border 10 (20/10 dims). Handset symbol box 400 wide x 500 high (50 top/bottom); the 400|200 chain starts at the sign edge so the box x is 0-400 as chained (the '10' at the bottom left may instead mean x 10). HELP 80 C 304|230|66 (AS 1744 width 214, 7% narrower - drawing figure kept), PHONE 80 B 301|237|62 (AS 1744 230). Vertical 100|80 C|50|80 B|290. QA: handset box taken as x 10 to 400 (the 10 at the bottom left read as the box's inset from the edge, the 400 chained from the edge). QA: handset box set to its ink extent (61,72 / 282 x 456) measured within the drawn frame; the legend overlaps the frame, so the symbol file keeps only the handset subpath (re-tracing brings the H and P back unless pruned again).",
+ "accepted_drawing_discrepancy": "HELP 80 C = 214 vs 230, PHONE 80 B = 230 vs 237; drawn wider than AS 1744, no series fits; intervene set"
+}

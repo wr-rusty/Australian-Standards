@@ -1,0 +1,67 @@
+{
+ "code": "W1-10",
+ "name": "TRAM_{speed}_YELLOW_TALL",
+ "legend": "{speed}",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ]
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-10_tram",
+   "x": 75,
+   "y": 40,
+   "w": 300,
+   "h": 160,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 400,
+   "r_outer": 160,
+   "r_inner": 140,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "C",
+   "height": 160,
+   "top": 320,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-10_tram": {
+   "source": "W1-10",
+   "desc": "tram (light rail vehicle) side view with pantograph, 300 wide x 160 tall on the sign (75 | 300 | 75; top 40); not otherwise dimensioned (25 grid).",
+   "grid_mm": 25,
+   "inset": 0
+  }
+ },
+ "notes": "450 x 600, R50, 10 yellow edge + 30 black border (stated). Right chain 40 | 160 tram | 40 | 320 ring | 40. Ring: outer dia 320 (top 240), 20 thick (stated; pixel check 20) -> r 160/140 centred x 225, cy 400. Left chain inside ring 20 | 220 | 60 | 20: numerals 160 C baseline 260+220 = 480, top 320; 'Varies' centred (65 | = | Varies | = | 65). Vary values 10-60 chosen, not stated."
+}

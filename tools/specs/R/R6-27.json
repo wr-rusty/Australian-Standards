@@ -1,0 +1,47 @@
+{
+ "code": "R6-27",
+ "name": "TRUCKS_MUST_ENTER_WHITE_TALL",
+ "legend": "TRUCKS MUST ENTER",
+ "shape": "rect",
+ "size": [
+  900,
+  1050
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "C",
+   "height": 180,
+   "top": 135,
+   "expect": 745
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "D",
+   "height": 180,
+   "top": 435,
+   "expect": 585
+  },
+  {
+   "type": "text",
+   "text": "ENTER",
+   "series": "D",
+   "height": 180,
+   "top": 735,
+   "expect": 695
+  }
+ ],
+ "notes": "R6-27B (900 x 1050) illustrated. R100, 15 white edge, 45 border. Stack 135/180C/120/180D/120/180D/135."
+}

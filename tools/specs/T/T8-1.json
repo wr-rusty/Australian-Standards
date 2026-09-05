@@ -1,0 +1,6 @@
+{"code":"T8-1","name":"PEDESTRIANS_WATCH_YOUR_STEP_YELLOW_LONG","legend":"PEDESTRIANS WATCH YOUR STEP","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"PEDESTRIANS","series":"C","height":100,"top":90,"expect":721},
+             {"type":"text","words":["WATCH","YOUR"],"gap":100,"series":"C","height":100,"top":250,"expect":[347,289]},
+             {"type":"text","text":"STEP","series":"C","height":100,"top":410,"expect":254}],
+ "notes":"Tops: 90; 90+100+60 = 250; 250+100+60 = 410."}

@@ -1,0 +1,27 @@
+{
+ "code": "R6-8",
+ "name": "STOP_RED_ROUND",
+ "legend": "STOP",
+ "shape": "circle",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "red",
+ "border": {
+  "colour": "white",
+  "width": 12
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 140,
+   "top": 155,
+   "expect": 368,
+   "colour": "white"
+  }
+ ],
+ "notes": "R6-8A illustrated, 450 dia. 12 white border, white letters on red."
+}

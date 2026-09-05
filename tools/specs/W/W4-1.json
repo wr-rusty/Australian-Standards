@@ -1,0 +1,46 @@
+{
+ "code": "W4-1",
+ "name": "NARROW_BRIDGE_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w4-1_narrow_bridge",
+   "x": 342.83,
+   "y": 246.33,
+   "w": 375,
+   "h": 568,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w4-1_narrow_bridge": {
+   "source": "W4-1",
+   "desc": "two vertical bars 84 wide, 568 tall, straight middle 335 with the ends flared outward (inner edges 116 apart in the middle, 218 apart at the ends; end caps slanted); overall width from the 37.5 grid: outer corners 10 squares = 375 apart (not dimensioned).",
+   "grid_mm": 37.5,
+   "panel_px": [
+    50,
+    99,
+    499,
+    548
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). No position dimensions on the sign: centred on both centrelines as drawn (measured x -185..187, y -282..284). Height 568 stated; width 375 from the grid (outer corners on grid lines), flag."
+}

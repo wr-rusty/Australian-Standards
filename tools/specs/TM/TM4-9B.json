@@ -1,0 +1,33 @@
+{
+ "code": "TM4-9B",
+ "name": "BUSH_FIRE_YELLOW_LONG_SKINNY",
+ "legend": "BUSH FIRE",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BUSH",
+    "FIRE"
+   ],
+   "series": "D",
+   "height": 130,
+   "top": 85,
+   "gap": 86,
+   "expect": [
+    421,
+    344
+   ]
+  }
+ ],
+ "notes": "Drawing labels the line '130 C' but the stated widths 174|421|86|344|175 are Series D widths (AS 1744: D 420/343, C 358/293; TM4-9A is 120 D at 388/317); Series D used."
+}

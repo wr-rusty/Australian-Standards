@@ -1,0 +1,33 @@
+{
+ "code": "TM3-17A",
+ "name": "NO_LINES_YELLOW_SQUARE",
+ "legend": "NO LINES",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 120,
+   "top": 130,
+   "expect": 193
+  },
+  {
+   "type": "text",
+   "text": "LINES",
+   "series": "D",
+   "height": 120,
+   "top": 350,
+   "expect": 419
+  }
+ ]
+}

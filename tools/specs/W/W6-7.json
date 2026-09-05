@@ -1,0 +1,46 @@
+{
+ "code": "W6-7",
+ "name": "BICYCLES_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w6-7_bicycle",
+   "x": 210.33,
+   "y": 283.33,
+   "w": 650.0,
+   "h": 428.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w6-7_bicycle": {
+   "source": "W6-7",
+   "desc": "bicycle (inset: wheels R120 at 413 centres, frame angles 46/70/38 deg, R217 handlebar)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    101,
+    530,
+    550
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 320 left of centre, bottom 181 below centre. Overall bbox not stated (inset chains 455/264/413 are construction dims, not the outline): 650 x 428 measured from the illustration. Missing dims: overall width/height."
+}

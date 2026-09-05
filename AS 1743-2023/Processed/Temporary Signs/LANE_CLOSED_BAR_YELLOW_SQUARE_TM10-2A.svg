@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="21.17mm" height="21.17mm" viewBox="0 0 60 60">
+<g transform="scale(0.1)">
+  <g id="panel">
+    <path id="border" fill="#000" d="M0 0h600v600h-600Z"/>
+    <path id="ground" fill="#ffe40d" d="M25 25h550v550h-550Z"/>
+  </g>
+  <g id="legend">
+    <rect fill="#000" x="180" y="165" width="240" height="80"/>
+    <rect fill="#000" x="271" y="295" width="58" height="200"/>
+  </g>
+</g>
+</svg>

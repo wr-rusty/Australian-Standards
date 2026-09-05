@@ -1,0 +1,118 @@
+{
+ "code": "G7-5-2",
+ "name": "CHEVRON_500M_FUEL_BLUE_FINGERBOARD",
+ "legend": "500 m fuel",
+ "shape": "rect",
+ "size": [
+  2000,
+  500
+ ],
+ "radius": 0,
+ "ground": "white",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "g7_fuel": {
+   "source": "G7-3-4",
+   "desc": "fuel (petrol pump) symbol in a 350x350 box; artwork not dimensioned",
+   "grid_mm": null
+  }
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     195,
+     0
+    ],
+    [
+     2000,
+     0
+    ],
+    [
+     2000,
+     500
+    ],
+    [
+     195,
+     500
+    ],
+    [
+     0,
+     250
+    ]
+   ],
+   "radius": 0,
+   "colour": "blue"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     110,
+     250
+    ],
+    [
+     266,
+     50
+    ],
+    [
+     460,
+     50
+    ],
+    [
+     304,
+     250
+    ],
+    [
+     460,
+     450
+    ],
+    [
+     266,
+     450
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "500",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 140
+    }
+   ],
+   "gap": 90,
+   "top": 160,
+   "align": "right",
+   "x": 1400,
+   "colour": "white",
+   "expect": [
+    null,
+    153
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "g7_fuel",
+   "x": 1569.5,
+   "y": 109.5,
+   "w": 297,
+   "h": 282.5,
+   "colour": "white"
+  }
+ ],
+ "notes": "G7-5-2(L) 2000x500, pointed left end (point run 195), no border, no corner radii stated. Chain 110|Varies|Varies|90|153|150|350|100: fuel box x 1550 (350, 75 margins), m (140 Emod, 153) at x 1247 on the 500 baseline (340), 90 gap so the numerals (180 E, drawn dashed = varies, 160 top/bottom) end at x 1157; the two 'Varies' absorb the rest. Chevron from the 100-grid detail: 400 high (200+200, 50 margins), V run 156, band 153 perpendicular = 194 horizontal, overall 350; its tip taken at x 110 (the first chain figure). (R) version mirrored. QA: fuel box = G7-3-4 ink extent within the nominal 350 square at (1550,75). QA: the 500 m line is one runs group (gap 90) right-aligned at x 1400 (m ends 150 before the fuel box), as chained."
+}

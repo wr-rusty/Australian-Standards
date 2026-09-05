@@ -1,0 +1,45 @@
+{
+ "code": "GE7-9",
+ "name": "600_M_BLUE_LONG",
+ "legend": "600 m",
+ "shape": "rect",
+ "size": [
+  200,
+  100
+ ],
+ "radius": 25,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 5
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "600",
+     "series": "C",
+     "height": 40
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 35
+    }
+   ],
+   "gap": 20,
+   "top": 30,
+   "colour": "white",
+   "expect": [
+    84,
+    38
+   ]
+  }
+ ],
+ "notes": "200x100 R25 blue; white border 5 with inner edge 15 from the sign edge. 30 | 40 C | 30; '600 m': = | 84 | 38 | = with 20 shown beneath the join, read as the gap (one centred runs line); m 35 Emod on the 70 baseline. Distance varies."
+}

@@ -1,0 +1,74 @@
+{
+ "code": "GE1-17",
+ "name": "A77_AIRPORT_DR_LANCEFIELD_GREEN_SQUARE",
+ "legend": "A77 AIRPORT DR Lancefield",
+ "shape": "rect",
+ "size": [
+  4025,
+  3850
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A77",
+   "series": "E",
+   "height": 400,
+   "top": 320,
+   "colour": "yellow"
+  },
+  {
+   "type": "panel",
+   "x": 646.75,
+   "y": 970,
+   "w": 2731.5,
+   "h": 600,
+   "radius": 100,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "AIRPORT DR",
+   "series": "D",
+   "height": 300,
+   "top": 1120,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "Lancefield",
+   "series": "Emod",
+   "height": 400,
+   "top": 1870,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_curve_up_left_800",
+   "x": 1613,
+   "y": 2510,
+   "w": 800,
+   "h": 1000,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_curve_up_left_800": {
+   "source": "GE1-17",
+   "desc": "Curved arrow, stem vertical at lower right curving to a head pointing upper-left. Overall 800 wide x 1000 high (100 grid): stem 165 wide, 100 from the right, straight 100 at the bottom, centreline bend R600, head 528 across at 60 degrees, barbs 317/176/24, R24 (typ.); head tip 660 left of the stem, 900 above the stem foot.",
+   "grid_mm": 100,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "4025x3850 R300; green 70 / white border 70. Vertical chain 320 | 400 E A77 | 250 | 600 panel | 300 | 400 Emod Lancefield | 240 | 1000 arrow | 340 = 3850. Arrow box 400 | 1213 | 800 | 1212 | 400. Road-name panel: 600 high, R100, AIRPORT DR 300 D black with 150 margins all round; its width is not stated - 150 + ink 2431.5 + 150 = 2731.5, centred. A77 and Lancefield centred (no horizontal dims)."
+}

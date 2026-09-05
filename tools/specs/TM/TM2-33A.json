@@ -1,0 +1,33 @@
+{
+ "code": "TM2-33A",
+ "name": "EMERGENCY_WORKS_YELLOW_SQUARE",
+ "legend": "EMERGENCY WORKS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "B",
+   "height": 90,
+   "top": 170,
+   "expect": 469
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "C",
+   "height": 100,
+   "top": 330,
+   "expect": 364
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "code": "TM2-4A",
+ "name": "ROAD_CLOSED_WHITE_SQUARE",
+ "legend": "ROAD CLOSED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "C",
+   "height": 110,
+   "top": 130,
+   "colour": "black",
+   "expect": 303
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "C",
+   "height": 110,
+   "top": 360,
+   "colour": "black",
+   "expect": 450
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "code": "TM1-10A",
+ "name": "TRAFFIC_HAZARD_YELLOW_SQUARE",
+ "legend": "TRAFFIC HAZARD",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 165,
+   "expect": 412
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "C",
+   "height": 100,
+   "top": 335,
+   "expect": 415
+  }
+ ],
+ "notes": "Drawing gives TRAFFIC 100 C as 412 (86|412|86) but AS 1744 spacing gives 428, and TM1-46A dimensions the same word as 426; 412 appears to be copied from DETOUR on TM1-6A.",
+ "accepted_drawing_discrepancy": "width check: TRAFFIC 100 C is 428 by AS 1744 (and 426 on TM1-46A) but the drawing says 412; drawing inconsistency, explained in notes, output goes to intervene/"
+}

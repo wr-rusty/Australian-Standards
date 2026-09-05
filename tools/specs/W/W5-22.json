@@ -1,0 +1,46 @@
+{
+ "code": "W5-22",
+ "name": "TRUCKS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-22_truck",
+   "x": 212.33,
+   "y": 393.33,
+   "w": 652.0,
+   "h": 285,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-22_truck": {
+   "source": "W5-22",
+   "desc": "truck side view (inset: 135+368+149 = 652 long, body 195, wheels R53 centred 15 below the chassis, cab roof R275)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 318 left of centre, bottom 148 below centre. Width 652 = 135+368+149 (inset). Height not stated as one dim: body 195 + 15 + wheel R53 = 263 plus the cab roof rising ~17 above the body (from the grid) -> 280; illustration measures ~281. Missing dim: overall symbol height. QA: height 285 measured on the illustration (bottom kept at the stated position), replacing the 280 grid estimate."
+}

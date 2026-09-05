@@ -1,0 +1,47 @@
+{
+ "code": "G6-3",
+ "name": "STATE_BORDER_SOUTH_AUSTRALIA_WHITE",
+ "legend": "STATE BORDER SOUTH AUSTRALIA",
+ "shape": "rect",
+ "size": [
+  1973,
+  400
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 30,
+   "colour": "black",
+   "words": [
+    "STATE",
+    "BORDER"
+   ],
+   "gap": 66,
+   "expect_total": 764
+  },
+  {
+   "type": "text",
+   "words": [
+    "SOUTH",
+    "AUSTRALIA"
+   ],
+   "gap": 135,
+   "series": "C",
+   "height": 180,
+   "top": 190,
+   "align": "left",
+   "x": 90,
+   "colour": "black",
+   "expect": [
+    614,
+    1044
+   ]
+  }
+ ],
+ "notes": "1973x400: 30|80 D|80|180 C|30. STATE BORDER centred (= margins): the drawing's 764 is met with STATE 299 + BORDER 399 at AS 1744 letter spacing and a derived word gap of 66 (the font's 80 word space would give 792). SOUTH AUSTRALIA 90|614|135|1044|90. Corners drawn rounded, radius not stated."
+}

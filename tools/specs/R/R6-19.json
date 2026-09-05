@@ -1,0 +1,41 @@
+{
+ "code": "R6-19",
+ "name": "START_FREEWAY_GREEN_LONG",
+ "legend": "START FREEWAY",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "START",
+   "series": "E",
+   "height": 140,
+   "top": 120,
+   "expect": 645,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "FREEWAY",
+   "series": "E",
+   "height": 140,
+   "top": 340,
+   "expect": 978,
+   "colour": "white"
+  }
+ ],
+ "notes": "R6-19A illustrated. R100, 20 green edge, 20 white border. Stack 120/140E/80/140E/120. White letters."
+}

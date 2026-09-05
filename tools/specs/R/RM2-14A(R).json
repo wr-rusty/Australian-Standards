@@ -1,0 +1,43 @@
+{
+ "code": "RM2-14A(R)",
+ "name": "RIGHT_TURN_ONLY_WHITE_SQUARE",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "rm2-14a_curve_arrow_left",
+   "x": 154,
+   "y": 75,
+   "w": 292,
+   "h": 309,
+   "colour": "black",
+   "flip": "h"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 90,
+   "top": 444,
+   "expect": 358
+  }
+ ],
+ "symbols": {
+  "rm2-14a_curve_arrow_left": {
+   "source": "RM2-14A(L)",
+   "desc": "curved block arrow turning up-left (flipped for RM2-14A(R); the (R) drawing's grid inset shows the same left-turn arrow)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "RM2-14A(R): mirror of RM2-14A(L) (arrow flipped horizontally, ONLY unchanged). Same 609 vertical-string inconsistency."
+}

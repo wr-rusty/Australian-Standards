@@ -1,0 +1,33 @@
+{
+ "code": "TM10-17A",
+ "name": "MERGE_RIGHT_ARROW_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm10-17a_merge_arrow",
+   "x": 120,
+   "y": 67,
+   "w": 360,
+   "h": 465
+  }
+ ],
+ "symbols": {
+  "tm10-17a_merge_arrow": {
+   "source": "TM10-17A",
+   "desc": "arrow merging from left lane to right lane with two island blocks (360 x 465)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol 120 | 360 | 120 wide, 67 | 465 | 68 high."
+}

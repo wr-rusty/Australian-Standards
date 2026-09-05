@@ -1,0 +1,5 @@
+{"code":"T3-14","name":"LOOSE_SURFACE_YELLOW_LONG","legend":"LOOSE SURFACE","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"LOOSE","series":"D","height":140,"top":107,"expect":559},
+             {"type":"text","text":"SURFACE","series":"C","height":140,"top":353,"expect":677}],
+ "notes":"T3-14A 900x600 illustrated."}

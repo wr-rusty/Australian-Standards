@@ -1,0 +1,78 @@
+{
+ "code": "R3-4",
+ "name": "CHILDREN_CROSSING_{speed}_WHEN_LIGHTS_FLASHING",
+ "legend": "CHILDREN CROSSING {speed} WHEN LIGHTS FLASHING",
+ "shape": "rect",
+ "size": [
+  600,
+  1600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   25,
+   40,
+   60
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CHILDREN",
+   "series": "C",
+   "height": 100,
+   "top": 60,
+   "expect": 529
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 100,
+   "top": 240,
+   "expect": 530
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 800,
+   "r_outer": 297,
+   "r_inner": 237,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 240,
+   "top": 680
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "D",
+   "height": 80,
+   "top": 1240,
+   "expect": 275
+  },
+  {
+   "type": "text",
+   "text": "LIGHTS",
+   "series": "D",
+   "height": 80,
+   "top": 1360,
+   "expect": 342
+  },
+  {
+   "type": "text",
+   "text": "FLASHING",
+   "series": "D",
+   "height": 80,
+   "top": 1480,
+   "expect": 492
+  }
+ ],
+ "notes": "Illustrated R3-4B 600 x 1600, no border. Three 400/800/400 sections (the section lines at 400 and 1200 are panel joins, not drawn). Annulus as R4-1 (R297/R237) centred (300,800); numerals 240 top 680 ('Varies', refer R4-1). Vary values 25/40/60 chosen for school-zone limits (drawing shows 40)."
+}

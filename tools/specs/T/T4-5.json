@@ -1,0 +1,6 @@
+{"code":"T4-5","name":"POWER_LINE_WORKS_IN_PROGRESS_YELLOW_LONG","legend":"POWER LINE WORKS IN PROGRESS","shape":"rect","size":[1800,900],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","words":["POWER","LINE"],"gap":171,"series":"E","height":140,"top":130,"expect":[687,444]},
+             {"type":"text","text":"WORKS","series":"E","height":140,"top":380,"expect":702},
+             {"type":"text","words":["IN","PROGRESS"],"gap":176,"series":"E","height":140,"top":630,"expect":[175,1075]}],
+ "notes":"Tops: 130; 130+140+110 = 380; 380+140+110 = 630."}

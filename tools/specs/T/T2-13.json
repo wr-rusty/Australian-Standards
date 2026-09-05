@@ -1,0 +1,6 @@
+{"code":"T2-13","name":"WATER_OVER_ROAD_YELLOW_LONG","legend":"WATER OVER ROAD","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"text","text":"WATER","series":"E","height":120,"top":80,"expect":590},
+             {"type":"text","text":"OVER","series":"E","height":100,"top":260,"expect":384},
+             {"type":"text","text":"ROAD","series":"E","height":100,"top":420,"expect":396}],
+ "notes":"T2-13A 900x600 illustrated."}

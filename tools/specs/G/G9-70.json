@@ -1,0 +1,59 @@
+{
+ "code": "G9-70",
+ "name": "NO_STOPPING_ON_FREEWAY_WHITE_SQUARE",
+ "legend": "NO STOPPING ON FREEWAY",
+ "shape": "rect",
+ "size": [
+  1400,
+  1400
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 180,
+   "colour": "black",
+   "text": "NO",
+   "expect": 338
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 500,
+   "colour": "black",
+   "text": "STOPPING",
+   "expect": 1138
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 780,
+   "colour": "black",
+   "text": "ON",
+   "expect": 301
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 1060,
+   "colour": "black",
+   "text": "FREEWAY",
+   "expect": 1120
+  }
+ ],
+ "notes": "20 white edge + 40 black border (60). Stack 180|180E|140|160E|120|160E|120|160E|180. 531|338|531, 131|1138|131, 549|301|550, 140|1120|140."
+}

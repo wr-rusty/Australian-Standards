@@ -1,0 +1,121 @@
+{
+ "shape": "rect",
+ "size": [
+  240,
+  240
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     120,
+     0
+    ],
+    [
+     240,
+     50
+    ],
+    [
+     186.5,
+     240
+    ],
+    [
+     53.5,
+     240
+    ],
+    [
+     0,
+     50
+    ]
+   ],
+   "radius": [
+    66,
+    33,
+    33,
+    33,
+    33
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     120,
+     8.67
+    ],
+    [
+     230.38,
+     54.66
+    ],
+    [
+     180.44,
+     232
+    ],
+    [
+     59.56,
+     232
+    ],
+    [
+     9.62,
+     54.66
+    ]
+   ],
+   "radius": [
+    58,
+    25,
+    25,
+    25,
+    25
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "symbol",
+   "id": "tra_arrow_up",
+   "x": 87,
+   "y": 74,
+   "w": 66,
+   "h": 107,
+   "colour": "white"
+  }
+ ],
+ "code": "TRA",
+ "name": "TOURIST_DRIVE_ROUTE_MARKER_BROWN",
+ "legend": "",
+ "symbols": {
+  "tra_arrow_up": {
+   "source": "TRA",
+   "desc": "Upward arrow with a narrow shaft and a triangular head, 66 wide x 107 high on a 12 grid.",
+   "grid_mm": 12,
+   "ground": "brown",
+   "invert": true,
+   "panel_px": [
+    132,
+    186,
+    236,
+    291
+   ],
+   "inset": 0
+  },
+  "trb_arrow_up": {
+   "source": "TRA",
+   "desc": "Upward arrow with a narrow shaft and a triangular head, 50 wide x 74 high on a 12 grid.",
+   "grid_mm": 12,
+   "ground": "brown",
+   "invert": true,
+   "which": 1,
+   "panel_px": [
+    554,
+    186,
+    658,
+    292
+   ],
+   "inset": 0,
+   "trace_note": "used by TRB.json only (see there)"
+  }
+ },
+ "notes": "TRA-1 (size 1) 240x240: brown pentagon with an 8 white border on a white 240 square ground (the ground is only the pentagon). Outer pentagon: apex (120,0) R66, shoulders (0,50)/(240,50) R33, base 133 wide at 240 R33; inner brown pentagon offset 8 inward (radii reduced by 8). Arrow 66 wide (87 | 66 | 87), 107 high, top at 74 (50 | [24] | 107 | 59 = 240; the 24 is by subtraction). The '8' is read as the white border width. Generator draws the square ground behind the pentagon (no non-rectangular sheet outline)."
+}

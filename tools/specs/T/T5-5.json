@@ -1,0 +1,4 @@
+{"code":"T5-5","name":"CHEVRON_ALIGNMENT_1_YELLOW_SQUARE","legend":"","shape":"rect","size":[600,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"polygon","points":[[25,25],[300,25],[575,300],[300,575],[25,575],[300,300]],"colour":"black"}],
+ "notes":"One black 45-degree chevron band on yellow, 275 wide horizontally (194 perpendicular): 25 | 275 | 275 | 25 both ways; apex at (300,300) on the inner edge side, outer apex touching the right border at (575,300). Points right as drawn."}

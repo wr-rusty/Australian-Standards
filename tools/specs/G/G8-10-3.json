@@ -1,0 +1,59 @@
+{
+ "code": "G8-10-3",
+ "name": "END_M79_START_A79_GREEN_TALL",
+ "legend": "END M79 START A79",
+ "shape": "rect",
+ "size": [
+  950,
+  1200
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 120,
+   "colour": "white",
+   "expect": 451
+  },
+  {
+   "type": "text",
+   "text": "M79",
+   "series": "E",
+   "height": 160,
+   "top": 360,
+   "colour": "yellow",
+   "expect": 464
+  },
+  {
+   "type": "text",
+   "text": "START",
+   "series": "E",
+   "height": 160,
+   "top": 680,
+   "colour": "white",
+   "expect": 737
+  },
+  {
+   "type": "text",
+   "text": "A79",
+   "series": "E",
+   "height": 160,
+   "top": 920,
+   "colour": "yellow",
+   "expect": 462
+  }
+ ],
+ "notes": "G8-10-3A (Illust.) 950x1200 R100, 40/20 border. Baselines 280, 520, 840, 1080 (chain 280|240|320|240|120), all 160 E centred."
+}

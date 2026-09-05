@@ -1,0 +1,70 @@
+{
+ "code": "G9-64",
+ "name": "BICYCLES_USE_LEFT_SHOULDER_WHITE_LONG",
+ "legend": "USE LEFT SHOULDER",
+ "shape": "rect",
+ "size": [
+  750,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "bicycle",
+   "x": 236,
+   "y": 86,
+   "w": 278,
+   "h": 184,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 330,
+   "colour": "black",
+   "text": "USE",
+   "align": "left",
+   "x": 137,
+   "expect": 186
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 330,
+   "colour": "black",
+   "text": "LEFT",
+   "align": "left",
+   "x": 383,
+   "expect": 229
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 80,
+   "top": 450,
+   "colour": "black",
+   "text": "SHOULDER",
+   "expect": 540
+  }
+ ],
+ "notes": "10 white edge + 20 black border. Bicycle 236|278|236 at 86 (184 tall); USE LEFT 137|186|60|229|138 top 330; SHOULDER 105|540|105 top 450 (86|184|60|80D|40|80D|70).",
+ "symbols": {
+  "bicycle": {
+   "source": "G9-57",
+   "desc": "bicycle pictogram (side view, facing left), 681 x 450 on G9-57 (grid 45); same outline scaled on G9-58 (317x210, grid 22.5), G9-60/64 (278x184, grid 30/37.5), G9-62/65 (454x300, grid 60), G9-63 (400x265, grid 45)",
+   "grid_mm": 45
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "code": "G9-80-2",
+ "name": "ON_RIGHT_WHITE_LONG",
+ "legend": "ON RIGHT",
+ "shape": "rect",
+ "size": [
+  1500,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 220,
+   "top": 125,
+   "colour": "black",
+   "text": "ON",
+   "expect": 412
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 220,
+   "top": 455,
+   "colour": "black",
+   "text": "RIGHT",
+   "expect": 920
+  }
+ ],
+ "notes": "G9-80-2A illustrated 1500 x 800 (B 3000x1600 ignored). 15 white edge + 30 black border. 125|220E|110|220E|125; 544|412|544, 290|920|290."
+}

@@ -1,0 +1,206 @@
+# TM family QA report (AS 1743-2023 TM1-TM10)
+
+Checked every generated sign against its drawing (contact sheets, symbol crops, width check, lint). One line per spec.
+Width-check mismatches and specs carrying an `intervene` field are written to `Processed/intervene/Temporary Signs/` by the generator.
+
+- TM1-10A — ISSUE (width check: TRAFFIC 100 C is 428 by AS 1744 (and 426 on TM1-46A) but the drawing says 412; drawing inconsistency, explained in notes, output goes to intervene/)
+- TM1-10C — OK
+- TM1-18A — OK
+- TM1-18B — FIXED (PREPARE TO STOP made one centred group with per-pair gaps 70/75 (was three left-aligned words))
+- TM1-1A — OK
+- TM1-1B — OK
+- TM1-1C — OK
+- TM1-25C — FIXED (ON SIDE ROAD made one centred group with per-pair gaps 90/93)
+- TM1-27C — FIXED (ON SIDE ROAD made one centred group with per-pair gaps 79/78); ISSUE (width check: ON/SIDE 140 C are 189/331 by AS 1744, drawing says 185/324 (~2 %); drawing inconsistency, output goes to intervene/)
+- TM1-28A — OK
+- TM1-28B — OK
+- TM1-2A — OK
+- TM1-2C — OK
+- TM1-3-1A — OK
+- TM1-3-1C — OK
+- TM1-30A — OK
+- TM1-32A — OK
+- TM1-34A — OK
+- TM1-35C — OK
+- TM1-36B — ISSUE (vertical dims 115 | 120 D | 100 sum to 335 not 300; line placed centred - needs confirmation (intervene set))
+- TM1-37C — OK
+- TM1-38A — OK
+- TM1-39A — OK
+- TM1-40A — OK
+- TM1-41A — OK
+- TM1-42A — OK
+- TM1-43A — OK
+- TM1-43C — OK
+- TM1-44A — OK
+- TM1-44C — OK
+- TM1-45A — OK
+- TM1-45C — OK
+- TM1-46A — OK
+- TM1-47A — FIXED (symbol traced with colours black+red so the red tail lights appear)
+- TM1-49A — OK
+- TM1-4A — OK
+- TM1-4C — OK
+- TM1-50A — ISSUE (vertical dims sum to 580 not 600; tops taken from the top edge - needs confirmation (intervene set))
+- TM1-51B — OK
+- TM1-5A — OK
+- TM1-5C — OK
+- TM1-6A — OK
+- TM1-6B — OK
+- TM10-10A — OK
+- TM10-11A — OK
+- TM10-12A — OK
+- TM10-13A — OK
+- TM10-14A — OK
+- TM10-15A — OK
+- TM10-16A — OK
+- TM10-17A — OK
+- TM10-1A — FIXED (arrow box width 100 -> 150 (head is 3 grid squares; the old box clipped the head), x 225)
+- TM10-2A — OK
+- TM10-3A — FIXED (arrow box width 150, x 375 (centreline 450))
+- TM10-4A — FIXED (arrow box width 150, x 75 (centreline 150))
+- TM10-5A — FIXED (arrow boxes width 150 at x 105 and 345 (centrelines 180/420))
+- TM10-6A — OK
+- TM10-7A — OK
+- TM10-8A — OK
+- TM10-9A — OK
+- TM2-17A — OK
+- TM2-17C — OK
+- TM2-23A — OK
+- TM2-23C — OK
+- TM2-24A — FIXED (symbol box 175,100 310x400 -> 100,100 400x400 (old box clipped both heads)); ISSUE (top dims 175 | 310 | 175 sum to 660; arrows placed on the drawn centrelines 175/425 with 150 heads from the grid - needs confirmation (intervene set))
+- TM2-25A — OK
+- TM2-26A — OK
+- TM2-26B — OK
+- TM2-26C — OK
+- TM2-27A — OK
+- TM2-27B — OK
+- TM2-27C — OK
+- TM2-28A — OK
+- TM2-29A — OK
+- TM2-29B — OK
+- TM2-30B — OK
+- TM2-31A — OK
+- TM2-31B — OK
+- TM2-32A — OK
+- TM2-32B — OK
+- TM2-33A — OK
+- TM2-33B — OK
+- TM2-34A — OK
+- TM2-35B — OK
+- TM2-36A — OK
+- TM2-36C — OK
+- TM2-37A — OK
+- TM2-37C — OK
+- TM2-38A — OK
+- TM2-38B — OK
+- TM2-39A — OK
+- TM2-39B — OK
+- TM2-40A — OK
+- TM2-40B — OK
+- TM2-41A — OK
+- TM2-42A — OK
+- TM2-43A — OK
+- TM2-44A — OK
+- TM2-45A — OK
+- TM2-46A — OK
+- TM2-47A — OK
+- TM2-48A — OK
+- TM2-49A — OK
+- TM2-4A — OK
+- TM2-4B — OK
+- TM2-4C — OK
+- TM2-50A — OK
+- TM2-51A — ISSUE (vertical dims 50 | 107 | 50 sum to 207 not 600; hump centred - needs confirmation (intervene set))
+- TM2-52A — FIXED (symbol traced with colours black+red so the red disc appears)
+- TM2-53A — OK
+- TM2-54A — OK
+- TM2-55A — OK
+- TM2-56A — OK
+- TM2-57C — OK
+- TM3-11C — OK
+- TM3-12C — ISSUE (width check: OVERTAKE row 267 | 665 | 268 is TM3-11C's MARKED row; 95 E OVERTAKE is 732 and is drawn so; several other dims wrong (see notes); output goes to intervene/)
+- TM3-13A — OK
+- TM3-13B — OK
+- TM3-14A — OK
+- TM3-14B — OK
+- TM3-16-1A — OK
+- TM3-17A — OK
+- TM3-18A — OK
+- TM3-18B — OK
+- TM3-19B — OK
+- TM3-20A — OK
+- TM3-21A — OK
+- TM3-22B — OK
+- TM3-23B — OK
+- TM3-24A — OK
+- TM3-25A — OK
+- TM3-3A — OK
+- TM3-6A — OK
+- TM3-6B — OK
+- TM3-7A — OK
+- TM3-7B — OK
+- TM3-9A — OK (spray lines are hairline-thin but trace cleanly)
+- TM4-10A — OK
+- TM4-3C — OK
+- TM4-5C — OK
+- TM4-6A — OK
+- TM4-6B — OK
+- TM4-8A — OK
+- TM4-8B — OK
+- TM4-9A — OK
+- TM4-9B — OK
+- TM5-10B(L) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM5-10B(R) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM5-11C(L) — OK
+- TM5-11C(R) — OK
+- TM5-12C(L) — OK
+- TM5-12C(R) — OK
+- TM5-1B(L) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM5-1B(R) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM5-1B(S) — OK
+- TM5-6A — OK
+- TM5-7A — OK
+- TM5-7B — OK
+- TM5-8B — OK
+- TM5-9A — OK
+- TM5-9B — OK
+- TM8-10A — OK
+- TM8-11A — OK
+- TM8-12A — OK
+- TM8-13A — OK
+- TM8-13B — OK
+- TM8-14A — OK
+- TM8-14B — OK
+- TM8-15A — OK
+- TM8-16A — OK
+- TM8-17A — OK
+- TM8-18A — OK
+- TM8-19C(L) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM8-19C(R) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM8-1C — OK
+- TM8-20B(L) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer); ISSUE (overall height labelled 600 but every vertical dim sums to 300 and the drawing is 4:1; 1200 x 300 used - needs confirmation (intervene set))
+- TM8-20B(R) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer); ISSUE (as TM8-20B(L) (intervene set))
+- TM8-2B(L) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM8-2B(R) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM8-3A — OK
+- TM8-4A — OK
+- TM8-5C — FIXED (LOOK BOTH WAYS made a centred group (gaps 39/37); arrow box changed to y 177 h 246 (was 240/120, which clipped and squashed the pair)); ISSUE (right-hand stack gives a 120-high arrow block but the illustration and grid draw a 246-high overlapping pair; pair centred on the stated block - needs confirmation (intervene set))
+- TM8-6A — FIXED (arrow box changed to y 328 h 206 (was 381/101, which clipped and squashed the pair)); ISSUE (LOOK width 322 matches neither 100 C (275) nor 100 D (329; used); stack gives one 101-high arrow block but two arrows (206 high) are drawn - needs confirmation (intervene set))
+- TM8-7A — OK
+- TM8-8A — OK
+- TM8-9A — OK
+- TM9-1A — OK
+- TM9-1B — OK
+- TM9-2A — OK
+- TM9-2B — OK
+- TM9-3A — OK
+- TM9-3B — FIXED (EVENT IN PROGRESS made one centred group with per-pair gaps 60/68)
+- TM9-4B — FIXED (EVENT ON SIDE ROAD made one centred group with per-pair gaps 57/62/62)
+- TM9-4C — FIXED (ON SIDE OF ROAD made one centred group with per-pair gaps 65/63/62)
+- TM9-5B(L) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM9-5B(R) — FIXED (symbol re-traced: the earlier run let the (R) spec's box re-trace the shared id over the (L) drawing, giving a garbled arrow/wheelchair; the tracer now keeps the first definer)
+- TM9-6C — OK
+- TM9-7A — OK
+- TM9-8A — OK
+
+Totals: OK 167, FIXED 21, ISSUE 11 (specs counted once; a spec that is both fixed and has an open issue counts as ISSUE).

@@ -1,0 +1,140 @@
+{
+ "code": "G8-9-3",
+ "name": "ROUTE_SHIELD_END_BROWN",
+ "legend": "END",
+ "shape": "rect",
+ "size": [
+  360,
+  360
+ ],
+ "radius": 0,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     360,
+     0
+    ],
+    [
+     360,
+     111
+    ],
+    [
+     280,
+     360
+    ],
+    [
+     80,
+     360
+    ],
+    [
+     0,
+     111
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    50,
+    50,
+    50,
+    50
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     10,
+     10
+    ],
+    [
+     350,
+     10
+    ],
+    [
+     350,
+     109.4
+    ],
+    [
+     272.7,
+     350
+    ],
+    [
+     87.3,
+     350
+    ],
+    [
+     10,
+     109.4
+    ]
+   ],
+   "radius": [
+    90,
+    90,
+    40,
+    40,
+    40,
+    40
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     20,
+     20
+    ],
+    [
+     340,
+     20
+    ],
+    [
+     340,
+     107.9
+    ],
+    [
+     265.4,
+     340
+    ],
+    [
+     94.6,
+     340
+    ],
+    [
+     20,
+     107.9
+    ]
+   ],
+   "radius": [
+    80,
+    80,
+    30,
+    30,
+    30,
+    30
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 80,
+   "top": 75,
+   "align": "left",
+   "x": 84,
+   "colour": "white",
+   "expect": 192
+  }
+ ],
+ "notes": "Free-standing shield as G8-9-1 with END 80 D, 84|192|84, top 75 (left chain 75|285). INCONSISTENCY: the right chain 165|195 puts the baseline at 165 (top 85); left chain used."
+}

@@ -1,0 +1,41 @@
+{
+ "code": "G9-85",
+ "name": "AFTER_ROUNDABOUT_WHITE_LONG",
+ "legend": "AFTER ROUNDABOUT",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "C",
+   "height": 150,
+   "top": 105,
+   "colour": "black",
+   "text": "AFTER",
+   "expect": 486
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 105,
+   "top": 375,
+   "colour": "black",
+   "text": "ROUNDABOUT",
+   "expect": 750
+  }
+ ],
+ "notes": "G9-85B illustrated 900 x 600 (A 600x400, C 1200x800 ignored). 15 white edge + 30 black border. 105|150C|120|105C|120; 207|486|207, 75|750|75."
+}

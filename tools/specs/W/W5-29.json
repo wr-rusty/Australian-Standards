@@ -1,0 +1,46 @@
+{
+ "code": "W5-29",
+ "name": "KANGAROOS_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-29_kangaroo",
+   "x": 130.33,
+   "y": 303.33,
+   "w": 721.0,
+   "h": 443.0,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-29_kangaroo": {
+   "source": "W5-29",
+   "desc": "kangaroo, 721 x 443",
+   "grid_mm": 37.5,
+   "panel_px": [
+    81,
+    110,
+    530,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Kangaroo 721 x 443 (inset); left edge 400 left of centre, bottom 216 below centre."
+}

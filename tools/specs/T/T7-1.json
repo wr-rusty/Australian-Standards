@@ -1,0 +1,27 @@
+{
+ "code": "T7-1",
+ "name": "SLOW_YELLOW_ROUND",
+ "legend": "SLOW",
+ "shape": "circle",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SLOW",
+   "series": "C",
+   "height": 135,
+   "top": 157.5,
+   "expect": 370
+  }
+ ],
+ "notes": "T7-1A 450 diameter illustrated (hand-held Stop/Slow bat face, used with R6-8). 12 black border. SLOW 135 C centred vertically (225 above/below centre): top 157.5. Drawing width 370 vs 135 C computed 382 (3%) - drawing figure does not match AS 1744 spacing.",
+ "accepted_drawing_discrepancy": "SLOW 135 C computes 382 vs drawing 370 (130 C would give 368); drawing inconsistency, kept at 135 C as labelled."
+}

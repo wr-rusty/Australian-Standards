@@ -1,0 +1,106 @@
+# R6–R9 / RM QA report (AS 1743-2023 regulatory signs)
+
+Checked each generated sign against its drawing (contact sheets, symbol crops, width checks, lint). One line per spec, appended as each is finished.
+
+- R6-1 — OK
+- R6-10-1 — OK (bus traced clean, annulus/bar drawn from R294/R244/50)
+- R6-10-2 — OK (truck traced clean)
+- R6-10-3 — OK (bicycle traced clean)
+- R6-11 — OK (runs 8 . 8 m centred, as drawn)
+- R6-12 — OK
+- R6-13 — OK
+- R6-14 — OK
+- R6-15 — FIXED (bar was drawn centred: the grid inset dimensions it off-centre, lower-left edge 29 from the 45° diagonal, 38 wide — polygon rebuilt from 29/38/R221 and drawn over the figure; pedestrian retraced with a widened box so the forward-hand piece the bar separates is kept; symbol drawn under the bar so the trace gap is covered)
+- R6-16 — OK (left-anchored chain 47|297|90|906|83|315|50|115|47 sums to 1950; lint margin flag is the chain, not a typo)
+- R6-17 — OK
+- R6-18 — OK
+- R6-19 — OK
+- R6-2 — OK
+- R6-20 — OK
+- R6-21 — OK
+- R6-22 — OK
+- R6-23 — ISSUE (drawing gives & = 100 wide at 115 C; the FHWA Series C ampersand is 115 and no series/height gives 100; drawn as labelled — width check fails, routed to intervene)
+- R6-25 — OK (crossbuck polygons verified against the drawing pixels: end cuts, corner chain 74/180/1170/1276 and 40/226/674/858, arm 212 with 25 border; letters set letter-by-letter to the stated 394/378/1035 non-standard lengths)
+- R6-26 — OK (as R6-25)
+- R6-27 — OK
+- R6-28 — OK
+- R6-29 — OK
+- R6-3 — ISSUE (drawing gives t = 52 wide at 85 Emod; the font gives 44 and 52 corresponds to Emod 100; stated 85 kept — width check fails, routed to intervene)
+- R6-30 — OK (arrow heights 274 as dimensioned; widths/x from the grid inset as noted)
+- R6-31 — FIXED (sticker drawn with rounded corners but no radius stated: R32 applied, measured from the drawing's pixels at all four corners; symbols and GIVE/WAY position as previously pixel-measured)
+- R6-32 — OK
+- R6-33 — OK
+- R6-4 — OK
+- R6-6 — OK
+- R6-7 — OK
+- R6-8 — OK
+- R6-9 — OK
+- R7-1-1 — OK (bus box deliberately taller than the 180 chain so the wheels are not dropped; width governs, ink centred at y 255 = 165+90)
+- R7-1-3 — OK
+- R7-1-4 — OK
+- R7-1-5 — OK
+- R7-1-6 — OK (placeholder box for the other vehicle symbol is not drawn on the drawing; nothing placed)
+- R7-10 — OK (red panel 500 wide: the drawing's 50|515|50 chain sums to 615 on a 600 sign, but its ONLY chain 27|445|28 = 500 confirms the panel width)
+- R7-11-1 — OK (per-vertex R5 on the barb tips)
+- R7-11-2 — OK
+- R7-11-3 — OK
+- R7-12 — ISSUE (drawing gives m = 73 wide at 50 Emod; font gives 55, 73 corresponds to Emod 66; stated 50 kept — width check fails, routed to intervene)
+- R7-2 — ISSUE (drawing labels AHEAD 100 E but dimensions it 410; E gives 512, D 430, C 350 — D used, 5 % over; routed to intervene)
+- R7-3 — OK (both hands generated with LEFT/RIGHT via hand_values)
+- R7-4 — OK
+- R7-5 — OK (per-vertex R10 on the barb corners)
+- R7-6-1(L) — OK
+- R7-6-1(R) — OK
+- R7-6-2 — OK
+- R7-6-3 — OK
+- R7-6-4 — OK
+- R7-7-1 — OK (badge 308 wide governs; drawn height 207 as R7-9-1)
+- R7-7-2 — OK
+- R7-8 — OK (panel 500 as R7-10)
+- R7-9-1 — OK
+- R7-9-2 — OK
+- R8-1 — OK
+- R8-2(b) — OK
+- R8-3 — OK (both hands; symbols face left in both as drawn)
+- R9-1-1 — ISSUE (drawing gives AM = 75 at 45 D; font/AS 1744 gives 80, as R9-1-2 dimensions it; drawn as labelled — width check fails, routed to intervene)
+- R9-1-2 — OK (right group anchored from the right margin; MON-FRI centred on its dimensioned dash, as noted)
+- R9-1-3 — OK
+- R9-10-1 — OK (tops from the top edge; drawing's vertical string sums to 510)
+- R9-10-2 — OK
+- R9-11-1 — OK
+- R9-11-2 — OK
+- R9-12-1 — ISSUE (4.2 m HIGH at the drawing's chain is 522 wide on a 520 inner width — the line touches the border; nothing on the drawing allows a narrower layout; routed to intervene)
+- R9-12-2 — ISSUE (as R9-12-1)
+- R9-13-1 — OK (2.5 m WIDE line 516 wide, 2 clear of the border)
+- R9-13-2 — OK
+- R9-15 — OK
+- R9-16 — OK
+- R9-17 — OK
+- R9-18 — OK
+- R9-19 — OK (per-vertex R9 on the arrow tip; block top 310 per the left chain)
+- R9-2 — OK
+- R9-3D — OK
+- R9-4 — OK
+- R9-5 — OK
+- R9-6-1 — OK (runs NEXT | numerals | m centred as one group)
+- R9-6-2 — OK
+- R9-7-1 — OK (drawing's numeral box is empty; 5 used as on R9-7-2, varies)
+- R9-7-2 — OK
+- R9-8 — ISSUE (drawing gives AT = 148 at 100 D; font gives 153, 3 % over; road-name lines "series to suit" drawn in D as shown — routed to intervene)
+- R9-9 — OK
+- RM2-14A(L) — OK (arrow traced clean; vertical string 609 on 600 placed from the top, as noted)
+- RM2-14A(R) — OK (same arrow flipped, as the (R) drawing's own grid inset shows the left-turn arrow)
+- RM2-4A — ISSUE (drawing gives NO = 141 at 92 D; font gives 148, 5 % over, as on R2-4 — routed to intervene)
+- RM4-12D — OK
+- RM4-1A — OK
+- RM6-1C — OK
+- RM6-6C — OK
+- R9-3A — OK (drawing R9-3(A, B, C), A illustrated)
+- RM2-6A(L) — OK (whole device traced as one red/black symbol; bar top-left to bottom-right, left-turn arrow as drawn)
+- RM2-6A(R) — OK (mirror of (L); the (R) drawing shows the bar bottom-left to top-right with a right-turn arrow)
+
+## Summary
+96 specs: 85 OK, 2 FIXED (R6-15, R6-31), 9 ISSUE (R6-23, R6-3, R7-12, R7-2, R9-1-1, R9-12-1, R9-12-2, R9-8, RM2-4A) — all ISSUE specs carry "intervene" and are written under Processed/intervene/Regulatory Signs/.
+Every ISSUE is a drawing figure the AS 1744 fonts cannot reproduce (no series/height gives the stated width) or a drawing chain that does not fit the sign (R9-12-x); nothing was estimated.
+Lint flags (R6-16, R9-1-1, R9-19) are dimensioned left-/right-anchored chains, not typos. R7-1-1 and R6-15 tracer warnings are deliberately widened symbol boxes (width/height governs, ink centred).
+Note: the generator does not remove earlier output, so the pre-QA copies of R9-12-1 and R9-12-2 remain in Processed/Regulatory Signs/ beside the new intervene copies (not deleted here).

@@ -1,0 +1,59 @@
+{
+ "code": "W1-7",
+ "name": "{dir}_HAIRPIN_BEND_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w1-7_hairpin_arrow_l",
+   "x": 250.33,
+   "y": 195.33,
+   "w": 455,
+   "h": 610,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w1-7_hairpin_arrow_l": {
+   "source": "W1-7",
+   "desc": "hairpin arrow, left hand: stem 110 wide, 415 from bottom to arc centre level; 180 deg arc inner R85 (outer R195); arrowhead points down: 205 tall (barb top extreme to tip) x 240 wide (20+100+100+20, R20 barbs), barb line 35 below arc centre level, notch 20; arrowhead axis 335 from stem outer edge. Fully dimensioned.",
+   "grid_mm": 37.5,
+   "panel_px": [
+    52,
+    79,
+    501,
+    527
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 65 from centreline (stated), bottom 275 below centreline (stated). Width 455 = 335 + 100 + 20; height 610 = 415 + outer radius 195 (85+110) - derived from the inset, not stated as a total.",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

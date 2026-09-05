@@ -1,0 +1,46 @@
+{
+ "code": "W5-12",
+ "name": "STEEP_DESCENT_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "w5-12_car_steep_descent",
+   "x": 225.33,
+   "y": 365,
+   "w": 610.0,
+   "h": 315,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "w5-12_car_steep_descent": {
+   "source": "W5-12",
+   "desc": "car descending a 610 x 278 wedge (car above the slope; grid inset)",
+   "grid_mm": 37.5,
+   "panel_px": [
+    51,
+    110,
+    500,
+    559
+   ],
+   "inset": 20.71
+  }
+ },
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Symbol placement is NOT dimensioned on the sign drawing (only the inset gives the wedge 610 x 278); the whole symbol incl. car measures ~610 x 320 on the illustration and sits centred on both centrelines, so it is placed centred (x 225.33, y 370.33). Missing dims: symbol offset from the sign centre. QA: box height 315 and top 365 from the illustration (car top 165 above centre, wedge bottom 150 below), replacing the earlier 320 centred estimate."
+}

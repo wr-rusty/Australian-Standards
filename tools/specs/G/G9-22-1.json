@@ -1,0 +1,218 @@
+{
+ "code": "G9-22-1",
+ "name": "FLOOD_DEPTH_GAUGE_2m_WHITE_TALL",
+ "legend": "m 2 ... 0.2",
+ "shape": "rect",
+ "size": [
+  200,
+  2350
+ ],
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 125,
+   "top": 15,
+   "colour": "black",
+   "text": "m",
+   "align": "left",
+   "x": 31.2
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 330,
+   "w": 25,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 175,
+   "y": 330,
+   "w": 25,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 190,
+   "colour": "black",
+   "text": "2",
+   "cx": 100
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 530,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 490,
+   "colour": "black",
+   "text": "1.8",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 730,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 690,
+   "colour": "black",
+   "text": "1.6",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 930,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 890,
+   "colour": "black",
+   "text": "1.4",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 1130,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 1090,
+   "colour": "black",
+   "text": "1.2",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 1330,
+   "w": 25,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 175,
+   "y": 1330,
+   "w": 25,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 1190,
+   "colour": "black",
+   "text": "1",
+   "cx": 100
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 1530,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 1490,
+   "colour": "black",
+   "text": "0.8",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 1730,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 1690,
+   "colour": "black",
+   "text": "0.6",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 1930,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 1890,
+   "colour": "black",
+   "text": "0.4",
+   "align": "left",
+   "x": 37
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 2130,
+   "w": 50,
+   "h": 20,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 2090,
+   "colour": "black",
+   "text": "0.2",
+   "align": "left",
+   "x": 37
+  }
+ ],
+ "notes": "Flood depth indicator, no border, black on white; three variants (G9-22-1 m 2/1, G9-22-2 m 4/3, G9-22-3 m 6/5) are drawn on the one PNG G9-22-1.png. Marks every 200 (0.2 m): 350 from the top to the first mark, 200 to the bottom below the last (0.2-step numeral baseline). Numeral baselines on the marks: whole metres 160 D centred with a 25 x 20 tick at each edge; intermediate values 60 D at the construction line x=37 (lines at 37/75/112/150 from the left) with a 50 x 20 tick at x 150-200. Tick 20 thick placed with its bottom on the mark (tick/baseline relation read from the drawing, not stated). m 125 Emod centred, baseline 140 (the 140 dimension); the 125 Emod bracket is drawn from the top edge but the chain 140+50+160 = 350 puts the cap top at 15 (15 mm drawing inconsistency). The \"25 | 140\" callout at the top right and the 37/38 construction lines are ambiguous - tick lengths taken as 25 (whole metre) and 50 (0.2 step)."
+}

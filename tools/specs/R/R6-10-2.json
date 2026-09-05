@@ -1,0 +1,70 @@
+{
+ "code": "R6-10-2",
+ "name": "NO_TRUCKS_WHITE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     110.54,
+     75.19
+    ],
+    [
+     524.81,
+     489.46
+    ],
+    [
+     489.46,
+     524.81
+    ],
+    [
+     75.19,
+     110.54
+    ]
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r6-10-2_truck",
+   "x": 90,
+   "y": 192,
+   "w": 420,
+   "h": 198,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "r6-10-2_truck": {
+   "source": "R6-10-2",
+   "desc": "truck, side view, facing left",
+   "grid_mm": 30,
+   "panel_px": [
+    204,
+    99,
+    401,
+    297
+   ],
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "notes": "R6-10-2A illustrated. Annulus R294/R244, 50 bar at 45 deg. Truck 420 wide (210 each side of centre), 108 above and 90 below the centreline (y 192-390). Tracer: no border ring, panel_px from the red annulus pixel bbox plus its stated margin; only the black layer traced (annulus and bar drawn by the spec)."
+}

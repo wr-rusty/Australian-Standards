@@ -1,0 +1,91 @@
+{
+ "code": "GE9-23-1",
+ "name": "WHITE_CROSS_GREEN_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 50,
+ "ground": "green",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     53.03,
+     0
+    ],
+    [
+     450,
+     396.97
+    ],
+    [
+     450,
+     450
+    ],
+    [
+     396.97,
+     450
+    ],
+    [
+     0,
+     53.03
+    ]
+   ],
+   "radius": [
+    50,
+    0,
+    0,
+    50,
+    0,
+    0
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     450,
+     0
+    ],
+    [
+     450,
+     53.03
+    ],
+    [
+     53.03,
+     450
+    ],
+    [
+     0,
+     450
+    ],
+    [
+     0,
+     396.97
+    ],
+    [
+     396.97,
+     0
+    ]
+   ],
+   "radius": [
+    50,
+    0,
+    0,
+    50,
+    0,
+    0
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "Illust. GE9-23-1A 450x450 R50. Two corner-to-corner diagonal white bars 75 wide (37.5 each side of the diagonal, 53.03 along an edge). The bars run into the rounded corners: the corner vertices carry the R50 panel radius so nothing pokes outside the panel."
+}

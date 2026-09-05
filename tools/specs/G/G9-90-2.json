@@ -1,0 +1,81 @@
+{
+ "code": "G9-90-2",
+ "name": "EMERGENCY_STOPPING_BAY_3_km_AHEAD_WHITE_LONG",
+ "legend": "EMERGENCY STOPPING BAY 3 km AHEAD",
+ "shape": "rect",
+ "size": [
+  1500,
+  1340
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 110,
+   "colour": "black",
+   "text": "EMERGENCY",
+   "expect": 1230
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 350,
+   "colour": "black",
+   "text": "STOPPING",
+   "expect": 974
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 590,
+   "colour": "black",
+   "text": "BAY",
+   "expect": 404
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "3",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 130
+    }
+   ],
+   "gap": 70.0,
+   "top": 830,
+   "colour": "black",
+   "expect": [
+    null,
+    268
+   ]
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 1070,
+   "colour": "black",
+   "text": "AHEAD",
+   "expect": 818
+  }
+ ],
+ "notes": "15 white edge + 30 black border. Stack 110|160D|80|160D|80|160D|80|160|80|160E|110. EMERGENCY =|1230|=, STOPPING =|974|=, BAY =|404|=, AHEAD =|818|=. Numeral line centred as a group (=|Varies|70|268|=): numerals 3 160 E (vary), km 130 Emod baseline-aligned (top 860); x from the font width of 3 (130) - not stated. QA: the 3 km line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require."
+}

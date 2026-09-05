@@ -1,0 +1,45 @@
+{
+ "code": "G8-12-4",
+ "name": "END_OD1_BLUE",
+ "legend": "END OD1",
+ "shape": "rect",
+ "size": [
+  750,
+  600
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 160,
+   "top": 100,
+   "align": "left",
+   "x": 183,
+   "colour": "white",
+   "expect": 383
+  },
+  {
+   "type": "text",
+   "text": "OD1",
+   "series": "D",
+   "height": 160,
+   "top": 340,
+   "align": "left",
+   "x": 210,
+   "colour": "white",
+   "expect": 330
+  }
+ ],
+ "notes": "750x600 R100, 40/20 border. END 160 D 183|383|184, top 100; OD1 210|330|210, top 340."
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM8-4A",
+ "name": "FOOTPATH_CLOSED_WHITE_SQUARE",
+ "legend": "FOOTPATH CLOSED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "FOOTPATH",
+   "series": "B",
+   "height": 100,
+   "top": 160,
+   "expect": 424
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "B",
+   "height": 100,
+   "top": 340,
+   "expect": 326
+  }
+ ]
+}

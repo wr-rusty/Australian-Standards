@@ -1,0 +1,33 @@
+{
+ "code": "TM1-2C",
+ "name": "BRIDGEWORK_AHEAD_YELLOW_LONG",
+ "legend": "BRIDGEWORK AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGEWORK",
+   "series": "C",
+   "height": 155,
+   "top": 105,
+   "expect": 1065
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 155,
+   "top": 345,
+   "expect": 792
+  }
+ ]
+}

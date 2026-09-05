@@ -1,0 +1,78 @@
+{
+ "code": "R2-20",
+ "name": "LEFT_TURN_ON_RED_PERMITTED_WHITE_TALL",
+ "legend": "LEFT TURN ON RED PERMITTED AFTER STOPPING",
+ "shape": "rect",
+ "size": [
+  450,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "D",
+   "height": 100,
+   "top": 60,
+   "expect": 286
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "D",
+   "height": 100,
+   "top": 210,
+   "expect": 322
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "series": "B",
+   "height": 100,
+   "top": 360,
+   "gap": 54,
+   "expect": [
+    109,
+    157
+   ]
+  },
+  {
+   "type": "text",
+   "text": "PERMITTED",
+   "series": "C",
+   "height": 60,
+   "top": 510,
+   "expect": 347
+  },
+  {
+   "type": "text",
+   "text": "AFTER",
+   "series": "D",
+   "height": 60,
+   "top": 600,
+   "expect": 235
+  },
+  {
+   "type": "text",
+   "text": "STOPPING",
+   "series": "D",
+   "height": 60,
+   "top": 690,
+   "expect": 365
+  }
+ ],
+ "notes": "Stack 60/100D/50/100D/50/100B/50/60C/30/60D/30/60D/50 = 800. ON RED 65|109|54|157|65."
+}

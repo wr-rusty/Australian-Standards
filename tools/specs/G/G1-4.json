@@ -1,0 +1,124 @@
+{
+ "code": "G1-4",
+ "name": "A40_MT_MARTIN_HWY_SUNNYSIDE_MARY_HILL_HAWKER_GREEN",
+ "legend": "A40 MT MARTIN HWY / Sunnyside / Mary Hill / Hawker",
+ "shape": "rect",
+ "size": [
+  2400,
+  1460
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "g1-2_arrow_left": {
+   "source": "G1-2",
+   "desc": "horizontal block arrow pointing left (G1-4 repeats it on a 120 grid): overall 251 long (shaft 108 + head 143), head 220 wide, tapered shaft 77 at tail / 62 at head, barbs sweep back 15, R8 at barb tips",
+   "grid_mm": 120
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A40",
+   "series": "E",
+   "height": 160,
+   "top": 170,
+   "align": "left",
+   "x": 184,
+   "colour": "yellow",
+   "expect": 491
+  },
+  {
+   "type": "panel",
+   "x": 835,
+   "y": 130,
+   "w": 1380,
+   "h": 240,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 190,
+   "cx": 1525,
+   "colour": "black",
+   "words": [
+    "MT",
+    "MARTIN",
+    "HWY"
+   ],
+   "gap": [
+    106,
+    106
+   ],
+   "expect_total": 1260
+  },
+  {
+   "type": "text",
+   "text": "Sunnyside",
+   "series": "Emod",
+   "height": 160,
+   "top": 490,
+   "align": "left",
+   "x": 535,
+   "colour": "white",
+   "expect": 1320
+  },
+  {
+   "type": "symbol",
+   "id": "g1-2_arrow_left",
+   "x": 2015,
+   "y": 460,
+   "w": 250,
+   "h": 220,
+   "flip": "h",
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "g1-2_arrow_left",
+   "x": 135,
+   "y": 970,
+   "w": 250,
+   "h": 220,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "Mary",
+    "Hill"
+   ],
+   "gap": 112,
+   "series": "Emod",
+   "height": 160,
+   "top": 860,
+   "align": "left",
+   "x": 545,
+   "colour": "white",
+   "expect_total": 1116
+  },
+  {
+   "type": "text",
+   "text": "Hawker",
+   "series": "Emod",
+   "height": 160,
+   "top": 1140,
+   "align": "left",
+   "x": 661,
+   "colour": "white",
+   "expect": 903
+  }
+ ],
+ "notes": "2400x1460 R100, green edge 20 + white border 20. A40 baseline 330 (top 170); road-name panel 1380x240 R40 at x 835, y 130 (MT MARTIN HWY 120 D, 60|1260|60); Sunnyside baseline 650, right arrow centred y 570 (200 below the panel); Mary Hill baseline 1020 (450 below 570), Hawker baseline 1300 (280 lower), 160 bottom margin; left arrow centred y 1080 (430 below the Sunnyside baseline / 380 from the bottom). INCONSISTENCY: right-hand chain 130+180+200+450+280+160 = 1400 (sign 1460): the 180 must be the 240 road-name panel height (120 D + 2x60), used as 240. 'Mary Hill' word gap 112 derived from the stated 1116 total (Mary 595 + Hill 408). MT MARTIN HWY 120 D: panel detail gives 60|1260|60 = 1380; at AS 1744 letter spacing the three words are 186+545+317, so the two word gaps are derived as 106 each (1260 total) rather than the font's 120 word space."
+}

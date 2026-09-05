@@ -1,0 +1,5 @@
+{"code":"T3-3","name":"SLIPPERY_YELLOW_LONG","legend":"","shape":"rect","size":[900,600],
+ "ground":"yellow","border":{"colour":"black","width":25},
+ "elements":[{"type":"symbol","id":"t3-3_slippery_car","x":175,"y":65,"w":540,"h":470,"colour":"black"}],
+ "symbols":{"t3-3_slippery_car":{"source":"T3-3","desc":"skidding car with wavy tyre tracks","grid_mm":45}},
+ "notes":"T3-3A 900x600 illustrated. Symbol box 175 from left, 185 from right, 65 top/bottom: 540 x 470."}

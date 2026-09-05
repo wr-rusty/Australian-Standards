@@ -1,0 +1,82 @@
+{
+ "code": "T4-7",
+ "name": "BLASTING_AREA_SWITCH_OFF_RADIO_RED_LONG",
+ "legend": "BLASTING AREA SWITCH OFF RADIO TRANSMITTERS & MOBILE PHONES",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "ground": "red",
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BLASTING",
+    "AREA"
+   ],
+   "gap": 81,
+   "series": "C",
+   "height": 120,
+   "top": 100,
+   "colour": "white",
+   "expect": [
+    602,
+    335
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "SWITCH",
+    "OFF",
+    "RADIO"
+   ],
+   "gap": [
+    79,
+    77
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 340,
+   "colour": "white",
+   "expect": [
+    378,
+    195,
+    312
+   ]
+  },
+  {
+   "type": "text",
+   "text": "TRANSMITTERS",
+   "series": "C",
+   "height": 100,
+   "top": 520,
+   "colour": "white",
+   "expect": 784
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "MOBILE",
+    "PHONES"
+   ],
+   "gap": [
+    65,
+    76
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 700,
+   "colour": "white",
+   "expect": [
+    87,
+    390,
+    428
+   ]
+  }
+ ],
+ "notes": "No border. Tops: 100; 100+120+120 = 340; 340+100+80 = 520; 520+100+80 = 700. Lines 2 and 4 have unequal word gaps (79/77 and 65/76) and are centred as a whole (drawing chains 80 | 378 | 79 | 195 | 77 | 312 | 79 and 77 | 87 | 65 | 390 | 76 | 428 | 77). The '&' is dimensioned 87 wide; the Series C font ampersand at 100 is 100 wide (Series D would be 89) - drawing/font disagreement, kept in C as labelled.",
+ "accepted_drawing_discrepancy": "FIXED lines 2 and 4 (SWITCH OFF RADIO, & MOBILE PHONES) from left-aligned words at drawn x to centred word groups with per-pair gaps (79/77 and 65/76); remaining: \"&\" dimensioned 87 wide but the Series C ampersand at 100 is 100 wide (D would be 89) \u2014 drawing/font disagreement, kept in C as labelled."
+}

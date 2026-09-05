@@ -1,0 +1,50 @@
+{
+ "code": "GE9-3",
+ "name": "REDUCE_SPEED_NOW_RED_LONG",
+ "legend": "REDUCE SPEED NOW",
+ "shape": "rect",
+ "size": [
+  2600,
+  2000
+ ],
+ "radius": 240,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 50
+ },
+ "border": {
+  "colour": "white",
+  "width": 50
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "REDUCE",
+   "series": "E",
+   "height": 320,
+   "top": 280,
+   "colour": "white",
+   "expect": 1857
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 320,
+   "top": 840,
+   "colour": "white",
+   "expect": 1494
+  },
+  {
+   "type": "text",
+   "text": "NOW",
+   "series": "E",
+   "height": 320,
+   "top": 1400,
+   "colour": "white",
+   "expect": 983
+  }
+ ],
+ "notes": "2600x2000 R240; red 50 outside a 50 white border (100/50). 280 | 320 E | 240 | 320 E | 240 | 320 E | 280 = 2000. REDUCE 371 | 1857 | 372; SPEED 553 | 1494 | 553; NOW 808 | 983 | 809."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "G9-41",
+ "name": "UNSUITABLE_FOR_LARGE_VEHICLES_WHITE_LONG",
+ "legend": "UNSUITABLE FOR LARGE VEHICLES",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 40,
+   "top": 40,
+   "colour": "black",
+   "text": "UNSUITABLE",
+   "expect": 368
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 40,
+   "top": 100,
+   "colour": "black",
+   "text": "FOR",
+   "expect": 111
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 40,
+   "top": 160,
+   "colour": "black",
+   "text": "LARGE",
+   "expect": 192
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 40,
+   "top": 220,
+   "colour": "black",
+   "text": "VEHICLES",
+   "expect": 288
+  }
+ ],
+ "notes": "G9-41A illustrated 450 x 300 (B 600x400 ignored). 5 white edge + 10 black border (15). Stack 40|40E|20|40E|20|40E|20|40E|40; 41|368|41, 169|111|170, 129|192|129, 81|288|81."
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM2-32A",
+ "name": "UTILITY_REPAIRS_YELLOW_SQUARE",
+ "legend": "UTILITY REPAIRS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "UTILITY",
+   "series": "C",
+   "height": 100,
+   "top": 160,
+   "expect": 385
+  },
+  {
+   "type": "text",
+   "text": "REPAIRS",
+   "series": "C",
+   "height": 100,
+   "top": 340,
+   "expect": 447
+  }
+ ]
+}

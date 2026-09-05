@@ -1,0 +1,57 @@
+{
+ "code": "TM8-6A",
+ "name": "LOOK_BOTH_WAYS_YELLOW_SQUARE",
+ "legend": "LOOK BOTH WAYS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LOOK",
+   "series": "D",
+   "height": 100,
+   "top": 66,
+   "expect": 322
+  },
+  {
+   "type": "text",
+   "words": [
+    "BOTH",
+    "WAYS"
+   ],
+   "series": "C",
+   "height": 80,
+   "top": 215,
+   "gap": 43,
+   "expect": [
+    210,
+    225
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-6a_two_way_arrows",
+   "x": 115,
+   "y": 328,
+   "w": 370,
+   "h": 206
+  }
+ ],
+ "symbols": {
+  "tm8-6a_two_way_arrows": {
+   "source": "TM8-6A",
+   "desc": "pair of opposed horizontal arrows, upper points left, lower points right (370 wide; pair 206 high as drawn, each arrow about 103)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "DRAWING INCONSISTENCY: LOOK is labelled 100 C with width 322 (139 | 322 | 139), but 100 C is 275 and 100 D is 329; D (2.2 % off) is used as the nearer match, so the width check reports LOOK. BOTH WAYS 80 C matches (210 / 225). Stack 66 | 100 C | 49 | 80 C | 86 | 101 | 118 = 600 gives a single 101-high arrow block (y 381-482), but the illustration and the grid inset draw two stacked arrows each about 103 high (the left-hand '105' dimension), 206 high in all and centred on y 431 (the centre of the stated block); box y 328, h 206, arrows 115 | 370 | 115.",
+ "accepted_drawing_discrepancy": "LOOK width 322 matches neither 100 C (275) nor 100 D (329; used); stack gives one 101-high arrow block but two arrows (206 high) are drawn - needs confirmation (intervene set"
+}

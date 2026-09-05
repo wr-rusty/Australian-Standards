@@ -1,0 +1,45 @@
+{
+ "code": "TM5-1B(R)",
+ "name": "DETOUR_RIGHT_YELLOW_LONG_SKINNY",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "E",
+   "height": 120,
+   "top": 90,
+   "expect": 686,
+   "align": "left",
+   "x": 108
+  },
+  {
+   "type": "symbol",
+   "id": "tm5-1b_arrow_left",
+   "flip": "h",
+   "x": 894,
+   "y": 59,
+   "w": 182,
+   "h": 182,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "tm5-1b_arrow_left": {
+   "source": "TM5-1B(L)",
+   "desc": "short block arrow pointing left (182 x 182 box)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Mirror of TM5-1B(L): 108 | 686 DETOUR | 100 | 182 arrow | 124. Same arrow artwork flipped horizontally. Arrow drawn about 160 high inside the 182 zone, as on TM5-1B(L)."
+}

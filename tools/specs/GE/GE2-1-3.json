@@ -1,0 +1,79 @@
+{
+ "code": "GE2-1-3",
+ "name": "A93_TAMBALANGA_HONEYFORD_EXIT_GREEN_LONG",
+ "legend": "A93 Tambalanga Honeyford EXIT",
+ "shape": "rect",
+ "size": [
+  4500,
+  3300
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "A93",
+   "series": "E",
+   "height": 400,
+   "top": 440,
+   "colour": "yellow",
+   "expect": 1153
+  },
+  {
+   "type": "text",
+   "text": "Tambalanga",
+   "series": "Emod",
+   "height": 400,
+   "top": 1140,
+   "colour": "white",
+   "expect": 3809
+  },
+  {
+   "type": "text",
+   "text": "Honeyford",
+   "series": "Emod",
+   "height": 400,
+   "top": 1840,
+   "colour": "white",
+   "expect": 3125
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_diag_up_left_505",
+   "x": 1261,
+   "y": 2470,
+   "w": 505,
+   "h": 505,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "EXIT",
+   "series": "E",
+   "height": 350,
+   "top": 2550,
+   "colour": "white",
+   "align": "left",
+   "x": 2166,
+   "expect": 1072
+  }
+ ],
+ "symbols": {
+  "arrow_diag_up_left_505": {
+   "source": "GE2-1-2",
+   "desc": "Straight block arrow pointing up-left at 45 degrees, 505x505 box: head 550 across (as drawn), barbs 357, 270, notch 154, 39 offset, shaft 193 wide, R19 head and tail corners.",
+   "grid_mm": 225,
+   "invert": true,
+   "inset": 0
+  }
+ },
+ "notes": "4500x3300 R300; green 70 / white 70. Left chain 840 (A93 baseline) | 1630 | 505 arrow | 325; right chain to baselines 1540 Tambalanga | 700 Honeyford | 660 EXIT (350 E) | 400. A93 1673 | 1153 | 1674; Tambalanga 345 | 3809 | 346; Honeyford 687 | 3125 | 688; arrow/EXIT 1261 | 505 | 400 | 1072 | 1262. Arrow detail as GE2-1-2 (225 grid)."
+}

@@ -1,0 +1,78 @@
+{
+ "code": "R6-13",
+ "name": "NO_PEDESTRIANS_BICYCLES_ANIMALS_WHITE_TALL",
+ "legend": "NO PEDESTRIANS BICYCLES ANIMALS BEYOND THIS POINT",
+ "shape": "rect",
+ "size": [
+  1200,
+  1500
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 160,
+   "top": 145,
+   "expect": 301
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "D",
+   "height": 120,
+   "top": 395,
+   "expect": 1015
+  },
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "D",
+   "height": 120,
+   "top": 605,
+   "expect": 732
+  },
+  {
+   "type": "text",
+   "text": "ANIMALS",
+   "series": "D",
+   "height": 120,
+   "top": 815,
+   "expect": 676
+  },
+  {
+   "type": "text",
+   "words": [
+    "BEYOND",
+    "THIS"
+   ],
+   "series": "D",
+   "height": 120,
+   "top": 1025,
+   "gap": 94,
+   "expect": [
+    608,
+    324
+   ]
+  },
+  {
+   "type": "text",
+   "text": "POINT",
+   "series": "D",
+   "height": 120,
+   "top": 1235,
+   "expect": 431
+  }
+ ],
+ "notes": "R100, 15 white edge, 45 black border. Stack 145/160E/90/120D/90/120D/90/120D/90/120D/90/120D/145."
+}

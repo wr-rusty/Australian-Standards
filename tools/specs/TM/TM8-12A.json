@@ -1,0 +1,34 @@
+{
+ "code": "TM8-12A",
+ "name": "PATH_CLOSED_WHITE_SQUARE",
+ "legend": "PATH CLOSED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "PATH",
+   "series": "D",
+   "height": 110,
+   "top": 140,
+   "expect": 340
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "C",
+   "height": 110,
+   "top": 350,
+   "expect": 450
+  }
+ ],
+ "notes": "Stack 140 | 110 D | 100 | 110 C | 140."
+}

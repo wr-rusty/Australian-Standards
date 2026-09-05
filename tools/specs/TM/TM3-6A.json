@@ -1,0 +1,33 @@
+{
+ "code": "TM3-6A",
+ "name": "SOFT_EDGES_YELLOW_SQUARE",
+ "legend": "SOFT EDGES",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SOFT",
+   "series": "D",
+   "height": 100,
+   "top": 160,
+   "expect": 306
+  },
+  {
+   "type": "text",
+   "text": "EDGES",
+   "series": "D",
+   "height": 100,
+   "top": 340,
+   "expect": 397
+  }
+ ]
+}

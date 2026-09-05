@@ -1,0 +1,79 @@
+{
+ "code": "GE1-16",
+ "name": "M3_CITY_2_ARROWS_GREEN_LONG",
+ "legend": "M3 City",
+ "shape": "rect",
+ "size": [
+  4420,
+  3155
+ ],
+ "radius": 300,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 70
+ },
+ "border": {
+  "colour": "white",
+  "width": 70
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "M3",
+   "series": "E",
+   "height": 400,
+   "top": 440,
+   "colour": "yellow",
+   "align": "left",
+   "x": 987.6
+  },
+  {
+   "type": "text",
+   "text": "City",
+   "series": "Emod",
+   "height": 400,
+   "top": 440,
+   "colour": "white",
+   "align": "left",
+   "x": 2168
+  },
+  {
+   "type": "rect",
+   "x": 140,
+   "y": 1140,
+   "w": 4140,
+   "h": 70,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_straight_up_1000x528",
+   "x": 460,
+   "y": 1640,
+   "w": 528,
+   "h": 1000,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "arrow_straight_up_1000x528",
+   "x": 3432,
+   "y": 1640,
+   "w": 528,
+   "h": 1000,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "arrow_straight_up_1000x528": {
+   "source": "GE1-14/rotated",
+   "desc": "Straight arrow, 1000 long: head 317 long and 528 across, shaft 683 long tapering from 120 at the head to 140 at the tail (per detail), R24 (typ.) on all corners. Grid 500.",
+   "grid_mm": 500,
+   "inset": 0,
+   "invert": true,
+   "trace_note": "traced from GE1-14 (rotated drawing), see GE1-14"
+  }
+ },
+ "notes": "Drawing shows two signs drawn rotated 90 degrees (legend reads upward); transcribed in the sign's own frame. Upper sign (fully dimensioned): 4420 x 3155 R300, green 70 / white 70. Vertical chain 440 | 400 E | 300 | 70 white divider | 430 | 1000 arrow | 515 = 3155. Along the sign: 460 | 3500 | 460 = 4420 for the two arrows, read as edge-to-outer-edge of each 528-wide arrow. 'M3 City' is drawn centred on the sign (the picture; the 460 dims belong to the arrows) with the 400 gap from the top chain: M3 780.4 + 400 + City 1264.5 = 2444.9 centred -> M3 x 987.6, City x 2168. FLAG: the lower sign (M80 RING RD Geelong / Seymour with three arrows) has 'Varies' for its width and text positions and is not transcribed; its RING RD panel detail: 600 high, R100, 300 E black, 150 margins. The drawing is rotated, so the arrow symbol is traced from the rotated image (see the symbols entry)."
+}

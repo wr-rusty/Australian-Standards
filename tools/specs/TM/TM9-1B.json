@@ -1,0 +1,33 @@
+{
+ "code": "TM9-1B",
+ "name": "EVENT_AHEAD_YELLOWGREEN_LONG_SKINNY",
+ "legend": "EVENT AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "EVENT",
+    "AHEAD"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 100,
+   "gap": 72,
+   "expect": [
+    463,
+    510
+   ]
+  }
+ ],
+ "notes": "DRAWING INCONSISTENCY: horizontal dimensions 84 | 463 | 72 | 510 | 85 sum to 1214, not 1200. Words centred with the stated 72 gap."
+}

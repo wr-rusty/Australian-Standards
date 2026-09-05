@@ -1,0 +1,39 @@
+{
+ "code": "W8-26",
+ "name": "ADDED_LANE_YELLOW",
+ "legend": "ADDED LANE",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 45
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ADDED",
+   "series": "D",
+   "height": 165,
+   "top": 95.0,
+   "expect": 704
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 165,
+   "top": 340.0,
+   "expect": 530
+  }
+ ],
+ "notes": "900 x 600 (Illust. C). R60, 15 yellow edge, 45 black border. ADDED 165 D top 95, 98 | 704 | 98 centred; LANE 165 D top 340 (95+165+80), 185 | 530 | 185 centred."
+}

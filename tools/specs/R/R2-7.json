@@ -1,0 +1,47 @@
+{
+ "code": "R2-7",
+ "name": "STRAIGHT_AHEAD_ONLY_WHITE_TALL",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r2-7_arrow_up",
+   "x": 138,
+   "y": 69,
+   "w": 174,
+   "h": 306,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 90,
+   "top": 435,
+   "expect": 359
+  }
+ ],
+ "notes": "Arrow 69 from top, 306 high, 138|174|138 (75+75 to the R12 tip centres + 2x12). ONLY 90 E top 435 (69+306+60), 75 to bottom. Drawing's ONLY dims 49|359|42 imply centre 228.5 (3.5 right); treated as rounding, centred.",
+ "symbols": {
+  "r2-7_arrow_up": {
+   "source": "R2-7",
+   "desc": "straight block arrow pointing up: 306 high, head 174 wide overall (75+75 to R12 tip centres), head 132 long, shaft 66, R12, barb dims 12/9",
+   "grid_mm": 30
+  }
+ }
+}

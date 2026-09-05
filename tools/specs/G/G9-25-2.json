@@ -1,0 +1,63 @@
+{
+ "code": "G9-25-2",
+ "name": "SAFETY_RAMP_60_m_WHITE_TALL",
+ "legend": "SAFETY RAMP 60 m",
+ "shape": "rect",
+ "size": [
+  1500,
+  1200
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 195,
+   "colour": "black",
+   "text": "SAFETY",
+   "expect": 950
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 520,
+   "colour": "black",
+   "text": "RAMP",
+   "expect": 690
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "60",
+     "series": "E",
+     "height": 200
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 170
+    }
+   ],
+   "gap": 70.0,
+   "top": 845,
+   "colour": "black",
+   "expect": [
+    null,
+    186
+   ]
+  }
+ ],
+ "notes": "G9-25-2A illustrated 1500 x 1200. As G9-24-2; third line (=|Varies|70|186|=): numerals 60 (200 E), gap 70, m 186 (170 Emod); group centred using font ink width 370 - not stated. QA: the 60 m line is built as one runs group (gap [70.0]) so the generator centres it as the drawing's = margins require."
+}

@@ -1,0 +1,53 @@
+{
+ "code": "TM9-5B(R)",
+ "name": "ON_SIDE_ROAD_RIGHT_YELLOWGREEN_LONG_SKINNY",
+ "legend": "ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "SIDE",
+    "ROAD"
+   ],
+   "series": "C",
+   "height": 110,
+   "top": 85,
+   "gap": 63,
+   "expect": [
+    148,
+    259,
+    303
+   ],
+   "align": "left",
+   "x": 73
+  },
+  {
+   "type": "symbol",
+   "id": "tm8-2b_arrow",
+   "x": 959,
+   "y": 78,
+   "w": 166,
+   "h": 145,
+   "flip": "h"
+  }
+ ],
+ "symbols": {
+  "tm8-2b_arrow": {
+   "source": "TM8-2B(L)",
+   "desc": "horizontal block arrow pointing left (166 wide x 145 high on TM8-2B)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "73 | ON 148 | 63 | SIDE 259 | 63 | ROAD 303 | 50 | arrow 166 | 75. Arrow is the TM8-2B(L) arrow flipped to point right."
+}

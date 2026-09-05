@@ -1,0 +1,47 @@
+{
+ "code": "W5-8",
+ "name": "LOW_LEVEL_BRIDGE_YELLOW_DIAMOND",
+ "legend": "LOW LEVEL BRIDGE",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LOW",
+   "series": "C",
+   "height": 125,
+   "top": 230.33,
+   "expect": 262
+  },
+  {
+   "type": "text",
+   "text": "LEVEL",
+   "series": "C",
+   "height": 125,
+   "top": 418.33,
+   "expect": 399
+  },
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "C",
+   "height": 125,
+   "top": 606.33,
+   "expect": 479
+  }
+ ],
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Three lines 125 C with 63 gaps; LEVEL bottom is 13 below the horizontal centreline (drawing dim 13, confirmed against the illustration). All words centred (= dims)."
+}

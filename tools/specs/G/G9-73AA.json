@@ -1,0 +1,57 @@
+{
+ "code": "G9-73AA",
+ "name": "MERGE_LEFT_ARROW_WHITE_SQUARE",
+ "legend": "MERGE LEFT",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 90,
+   "colour": "black",
+   "text": "MERGE",
+   "expect": 416
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 250,
+   "colour": "black",
+   "text": "LEFT",
+   "expect": 286
+  },
+  {
+   "type": "symbol",
+   "id": "g9-73aa_arrow_left",
+   "x": 100,
+   "y": 410,
+   "w": 400,
+   "h": 100,
+   "colour": "black"
+  }
+ ],
+ "notes": "Drawing G9-73AA(L); G9-73AA(L) illustrated 600 x 600 (G9-73A(L) 900, G9-73B(L) 1200 ignored). 10 white edge + 20 black border. Stack 90|100D|60|100D|60|100 arrow|90. MERGE =|416|=, LEFT =|286|=; arrow 400 wide centred (400 under the sign), 100 tall.",
+ "symbols": {
+  "g9-73aa_arrow_left": {
+   "source": "G9-73AA",
+   "desc": "block arrow pointing left 400 x 100: head 94 long x 100 across, shaft 306 long x 38 wide, barb return 29 (head base to shaft), 315 from the barb line to the shaft end, R at tip/barbs not stated; grid 50",
+   "grid_mm": 50
+  }
+ }
+}

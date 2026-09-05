@@ -1,0 +1,27 @@
+{
+ "code": "G6-1",
+ "name": "ECHUCA_WHITE",
+ "legend": "ECHUCA",
+ "shape": "rect",
+ "size": [
+  1107,
+  250
+ ],
+ "radius": 0,
+ "ground": "white",
+ "keyline": true,
+ "elements": [
+  {
+   "type": "text",
+   "text": "ECHUCA",
+   "series": "D",
+   "height": 180,
+   "top": 35,
+   "align": "left",
+   "x": 90,
+   "colour": "black",
+   "expect": 927
+  }
+ ],
+ "notes": "Town name sign 1107x250: 35|180 D|35, 90 min margins each side (927 ink). Corners drawn rounded but no radius stated."
+}

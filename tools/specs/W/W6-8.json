@@ -1,0 +1,39 @@
+{
+ "code": "W6-8",
+ "name": "ROAD_AHEAD_YELLOW_DIAMOND",
+ "legend": "ROAD AHEAD",
+ "shape": "diamond",
+ "size": [
+  636.4,
+  636.4
+ ],
+ "radius": 30,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 23
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "C",
+   "height": 90,
+   "top": 183.2,
+   "expect": 249
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 90,
+   "top": 330.2,
+   "expect": 316
+  }
+ ],
+ "notes": "Diamond 450 side (Illust. B) drawn as bounding square 636.4; R30 outer, 8 yellow edge, 23 black border; centre 318.2. 90 C / 57 / 90 C; AHEAD top 12 below the centreline (dim 12). Both centred (= dims)."
+}

@@ -1,0 +1,33 @@
+{
+ "code": "TM9-8A",
+ "name": "RUNNER_YELLOWGREEN_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tm9-8a_runner",
+   "x": 78,
+   "y": 45,
+   "w": 443,
+   "h": 510
+  }
+ ],
+ "symbols": {
+  "tm9-8a_runner": {
+   "source": "TM9-8A",
+   "desc": "runner facing left (443 x 510)",
+   "grid_mm": 50
+  }
+ },
+ "notes": "Symbol 78 | 443 | 79 wide, 45 | 510 | 45 high."
+}

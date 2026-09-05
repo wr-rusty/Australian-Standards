@@ -1,0 +1,45 @@
+{
+ "code": "G9-80-1",
+ "name": "ON_RIGHT_WHITE_LONG_SKINNY",
+ "legend": "ON RIGHT",
+ "shape": "rect",
+ "size": [
+  1800,
+  450
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 125,
+   "colour": "black",
+   "text": "ON",
+   "align": "left",
+   "x": 218,
+   "expect": 376
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 125,
+   "colour": "black",
+   "text": "RIGHT",
+   "align": "left",
+   "x": 744,
+   "expect": 838
+  }
+ ],
+ "notes": "G9-80-1A illustrated 1800 x 450 (B 3600x900 ignored). 10 white edge + 20 black border. 125|200E|125; 218|376|150|838|218."
+}

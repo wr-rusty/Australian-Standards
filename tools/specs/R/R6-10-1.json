@@ -1,0 +1,70 @@
+{
+ "code": "R6-10-1",
+ "name": "NO_BUSES_WHITE_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     110.54,
+     75.19
+    ],
+    [
+     524.81,
+     489.46
+    ],
+    [
+     489.46,
+     524.81
+    ],
+    [
+     75.19,
+     110.54
+    ]
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r6-10-1_bus",
+   "x": 80,
+   "y": 230,
+   "w": 440,
+   "h": 140,
+   "colour": "black"
+  }
+ ],
+ "symbols": {
+  "r6-10-1_bus": {
+   "source": "R6-10-1",
+   "desc": "bus, side view, facing left",
+   "grid_mm": 30,
+   "panel_px": [
+    203,
+    99,
+    401,
+    297
+   ],
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "notes": "R6-10-1A illustrated. Annulus R294/R244 (6 from edge, 50 wide) centred; 50 bar at 45 deg top-left to bottom-right, corners on R294. Bus 440 x 140 centred (220 each side of centre, 70 above/below centreline). Tracer: no border ring, panel_px from the red annulus pixel bbox plus its stated margin; only the black layer traced (annulus and bar drawn by the spec)."
+}

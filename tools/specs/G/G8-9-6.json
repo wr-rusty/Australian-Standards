@@ -1,0 +1,168 @@
+{
+ "code": "G8-9-6",
+ "name": "TOURIST_DRIVE_LENGTH_6KM_START_6_BROWN",
+ "legend": "TOURIST DRIVE LENGTH 6 km START 6",
+ "shape": "rect",
+ "size": [
+  1730,
+  1100
+ ],
+ "radius": 100,
+ "ground": "brown",
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "TOURIST",
+    "DRIVE"
+   ],
+   "gap": 105,
+   "series": "D",
+   "height": 140,
+   "top": 140,
+   "align": "left",
+   "x": 200,
+   "colour": "white",
+   "expect": [
+    722,
+    503
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "LENGTH",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "6",
+     "series": "D",
+     "height": 120
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": [
+    90,
+    60
+   ],
+   "top": 380,
+   "colour": "white",
+   "expect": [
+    567,
+    null,
+    216
+   ]
+  },
+  {
+   "type": "text",
+   "text": "START",
+   "series": "D",
+   "height": 120,
+   "top": 740,
+   "align": "left",
+   "x": 368,
+   "colour": "white",
+   "expect": 458
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1103,
+     600
+    ],
+    [
+     1463,
+     600
+    ],
+    [
+     1463,
+     711
+    ],
+    [
+     1383,
+     960
+    ],
+    [
+     1183,
+     960
+    ],
+    [
+     1103,
+     711
+    ]
+   ],
+   "radius": [
+    100,
+    100,
+    50,
+    50,
+    50,
+    50
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1115,
+     612
+    ],
+    [
+     1451,
+     612
+    ],
+    [
+     1451,
+     709.1
+    ],
+    [
+     1374.3,
+     948
+    ],
+    [
+     1191.7,
+     948
+    ],
+    [
+     1115,
+     709.1
+    ]
+   ],
+   "radius": [
+    88,
+    88,
+    38,
+    38,
+    38,
+    38
+   ],
+   "colour": "brown"
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 180,
+   "top": 700,
+   "cx": 1283,
+   "colour": "white"
+  }
+ ],
+ "notes": "1730x1100 R100, brown edge 20 + white border 20. Left chain 140|140 D|100|120 D|240|120 D|240. TOURIST DRIVE 200|722|105|503|200 (top 140); 'LENGTH 6 km' block = |567|90|Varies|60|216| = centred (567+90+81.7+60+216 = 1014.7, x 357.7), km 105 Emod on the LENGTH baseline (500); START 368|458|277|shield 360*|267, top 740; shield y 600-960 (100 below the LENGTH baseline, 140 above the bottom). Emblem as G8-9-5 (360 shield, 12 white line, 6 in 180 E). QA: the LENGTH 6 km line is built as one runs group (gaps 90 and 60, the drawing's figures) so the generator centres it as the drawing's = margins require."
+}

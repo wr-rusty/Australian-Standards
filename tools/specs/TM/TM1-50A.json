@@ -1,0 +1,50 @@
+{
+ "code": "TM1-50A",
+ "name": "WATCH_FOR_WANDERING_ANIMALS_YELLOW_SQUARE",
+ "legend": "WATCH FOR WANDERING ANIMALS",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "WATCH",
+    "FOR"
+   ],
+   "series": "C",
+   "height": 80,
+   "top": 80,
+   "gap": 50,
+   "expect": [
+    275,
+    160
+   ]
+  },
+  {
+   "type": "text",
+   "text": "WANDERING",
+   "series": "C",
+   "height": 80,
+   "top": 240,
+   "expect": 498
+  },
+  {
+   "type": "text",
+   "text": "ANIMALS",
+   "series": "D",
+   "height": 80,
+   "top": 400,
+   "expect": 450
+  }
+ ],
+ "notes": "DRAWING INCONSISTENT: vertical dims 80|80|80|80|80|80|100 sum to 580 not 600. Tops measured down from the top edge (80, 240, 400); bottom margin then 120.",
+ "accepted_drawing_discrepancy": "vertical dims sum to 580 not 600; tops taken from the top edge - needs confirmation (intervene set"
+}

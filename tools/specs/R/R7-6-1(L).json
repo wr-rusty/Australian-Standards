@@ -1,0 +1,30 @@
+{
+ "code": "R7-6-1(L)",
+ "name": "LEFT_LANE_WHITE_WIDE",
+ "legend": "LEFT LANE",
+ "shape": "rect",
+ "size": [
+  1400,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LEFT",
+    "LANE"
+   ],
+   "series": "C",
+   "height": 200,
+   "top": 100,
+   "gap": 108,
+   "expect": [
+    482,
+    528
+   ]
+  }
+ ],
+ "notes": "1400 x 400, R25, no border. 141|482|108|528|141."
+}
