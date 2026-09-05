@@ -29,3 +29,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — MITS-14 Road signs (July 2019, 37 pages) downloaded to `Australia/ACT/Original PDFs/`: it is a construction specification referencing AS 1742/1743 codes, with no ACT-specific sign drawings. ACT likely adopts the national pack; check MIS-12 Guide signs and TCCS sign blocks before closing.

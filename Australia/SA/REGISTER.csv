@@ -1,0 +1,1214 @@
+id,series,name,codes,sizes,pdf,hidden,local
+60,R5 PARKING SERIES,Parking Signs - Refer to Australian Standards for sign sizes and design detail,,,N,False,
+1023,OTHER,"State Government and Federal Government funded Project Sign Guidelines - Black Spot
+",,,Y,False,Original PDFs/1023.pdf
+1281,OTHER,Red Stop Disc Signal (Operational Tram Sign),332-A3-11-2423,230x230,Y,False,Original PDFs/1281.pdf
+711,W7 RAILWAY LEVEL CROSSING SERIES,TES13699 or RX-11,13699,1200x1650,N,False,
+1484,R6 MISCELLANEOUS SERIES,Railway Crossing Position With Target Board 2 Tracks Stop Look For Trains,13908(2),750x1800,Y,False,Original PDFs/1484.pdf
+1125,OTHER,Event Parking restrictions,19086,1200x1650,N,False,
+1121,OTHER,Stadium Parking,19120,1200x1650,N,False,
+1267,OTHER,Compulsary Stop (Operational Tram Sign),CS2-DRG-352357,450x300,Y,False,Original PDFs/1267.pdf
+1268,OTHER,Stopping Place (Operational Tram Sign),CS2-DRG-352358,450x300,Y,False,Original PDFs/1268.pdf
+1269,OTHER,Start Single Line Working (Operational Tram Sign),CS2-DRG-352359,550x450,Y,False,Original PDFs/1269.pdf
+1270,OTHER,End Single Line Working (Operational Tram Sign),CS2-DRG-352360,550x450,Y,False,Original PDFs/1270.pdf
+1271,OTHER,Induction Loop (Operational Tram Sign),CS2-DRG-352361,300x450,Y,False,Original PDFs/1271.pdf
+1272,OTHER,Sound Bell (Operational Tram Sign),CS2-DRG-352362,450x400,Y,False,Original PDFs/1272.pdf
+1273,OTHER,Fouling Point (Operational Tram Sign),CS2-DRG-352363,450x300,Y,False,Original PDFs/1273.pdf
+1274,OTHER,Shunt Limit (Operational Tram Sign),CS2-DRG-352364,450x300,Y,False,Original PDFs/1274.pdf
+349,D4 HAZARD MARKERS SERIES,Unidirectional Hazard Marker,D4-1-1A | D4-1-1B,1600x400 | 3200x800,N,False,
+351,D4 HAZARD MARKERS SERIES,Unidirectional Hazard Marker,D4-1-2A | D4-1-2B,450x450 | 600x600,N,False,
+356,D4 HAZARD MARKERS SERIES,Bidirectional Hazard Marker,D4-2-2A | D4-2-2B,300x750 | 400x1000,N,False,
+1480,D4 HAZARD MARKERS SERIES,Bidirectional Hazard Marker (for larger size use D4-SA2-1),D4-2-3A | D4-2-3B,1600x400 | 3200x800,Y,False,Original PDFs/1480.pdf
+357,D4 HAZARD MARKERS SERIES,Width Marker (L or R) (left shown),D4-3A | D4-3B,225x450 | 450x900,N,False,
+359,D4 HAZARD MARKERS SERIES,Obstruction Marker,D4-5-1,1800x400,N,False,
+360,D4 HAZARD MARKERS SERIES,Obstruction Board,D4-5 | D4-SA5,1800x400 | 2400x400,Y,False,Original PDFs/360.pdf
+361,D4 HAZARD MARKERS SERIES,Chevron Alignment Marker,D4-6A | D4-6B | D4-6C | D4-6S,600x750 | 750x900 | 900x1125 | 450x600,Y,False,Original PDFs/361.pdf
+350,D4 HAZARD MARKERS SERIES,Unidirectional Hazard Board,D4-SA1-1,2400x400,Y,False,Original PDFs/350.pdf
+353,D4 HAZARD MARKERS SERIES,Hazard Marker For Convex Nose Assembly on a Low Maintenance Attenuator ONLY,D4-SA1-4,1000x450,Y,False,Original PDFs/353.pdf
+355,D4 HAZARD MARKERS SERIES,Bidirectional Hazard Board,D4-SA2-1,2400x400,Y,False,Original PDFs/355.pdf
+922,D4 HAZARD MARKERS SERIES,BidirectionalHazard Marker (Smaller),D4-SA2-S,400x600,Y,False,Original PDFs/922.pdf
+362,D4 HAZARD MARKERS SERIES,Hazard Marker For Type F Concrete Safety Barrier ONLY,D4-SA50-1,240x445,Y,False,Original PDFs/362.pdf
+723,D4 HAZARD MARKERS SERIES,Hazard Marker for VCB Concrete Safety Barrier or Temporary Bollard,D4-SA50-2,150x450,N,False,
+668,D4 HAZARD MARKERS SERIES,Width Marker for ET2000 Terminal Ends (L or R) (right shown),D4-SA51-1,350x700,Y,False,Original PDFs/668.pdf
+862,D4 HAZARD MARKERS SERIES,Width Marker for SKT Terminal (LorR) (right shown),D4-SA51-2,490x490,Y,False,Original PDFs/862.pdf
+1180,D4 HAZARD MARKERS SERIES,Chevron Median Marker,D4-SA100A | D4-SA100B | D4-SA100C,100x1200 | 150x1200 | 200x1200,Y,False,Original PDFs/1180.pdf
+1300,D4 HAZARD MARKERS SERIES,Vertical Chevron Marker,D4-SA101,150x900,Y,False,Original PDFs/1300.pdf
+824,OTHER,Disability Access Arrow Symbol,DA-1,250x250,Y,False,Original PDFs/824.pdf
+825,OTHER,Disability Access Bus Symbol,DA-2,250x250,Y,False,Original PDFs/825.pdf
+826,OTHER,Disability Access Parking Symbol,DA-3,250x250,Y,False,Original PDFs/826.pdf
+827,OTHER,Disability Access Tram Symbol,DA-4,250x250,Y,False,Original PDFs/827.pdf
+828,OTHER,Disability Access Disabled Symbol,DA-5,250x250,Y,False,Original PDFs/828.pdf
+829,OTHER,Disability Access Train Symbol,DA-101,250x250,Y,False,Original PDFs/829.pdf
+865,SYMBOL SERIES,Disability Access Zone X Symbol,DA-102,600x450,Y,False,Original PDFs/865.pdf
+776,G1-G6 DIRECTION SERIES ,"Finger with Distance , Destination and Route No.",G3-3,0x0,N,False,
+724,G1-G6 DIRECTION SERIES ,Rural Road Name Sign,G3-5,0x0,N,False,
+725,G1-G6 DIRECTION SERIES ,Finger Board Guide Sign (Refer to G3-SA6),G3-6,1350x200,N,False,
+726,G1-G6 DIRECTION SERIES ,Finger Board Guide Sign,G3-SA6-1,1350x200,Y,False,Original PDFs/726.pdf
+994,G1-G6 DIRECTION SERIES ,Fingerboard Guide Sign Double Ended,G3-SA6-2,2700x200,Y,False,Original PDFs/994.pdf
+1091,G1-G6 DIRECTION SERIES ,Town Name,G6-1,1350x250,N,False,
+365,G1-G6 DIRECTION SERIES ,Stream/River/Creek Name,G6-2,1350x200,N,False,
+368,G1-G6 DIRECTION SERIES ,Passable to Off-Road Vehicles Only,G6-SA50,1200x600,Y,False,Original PDFs/368.pdf
+727,G1-G6 DIRECTION SERIES ,"Controlled Access Road (L,R or L&R) (Approval required for use - refer to Manager, Traffic Services Section of DIT)",G6-SA80,600x450,Y,False,Original PDFs/727.pdf
+237,G1-G6 DIRECTION SERIES ,Gate x,G6-SA101A | G6-SA101AA,450x150 | 300x100,Y,False,Original PDFs/237.pdf
+372,G7 SERVICE SERIES,Advance - Service Symbol 'xxx' m on Left (1 symbol) Formerly G7-SA107-1,G7-1-1A MOD | G7-1-1B,900x1200 | 1200x1800,Y,False,Original PDFs/372.pdf
+373,G7 SERVICE SERIES,Advance - Service Symbol 'xxx' m on Left (2 symbols) Formerly G7-SA107-2,G7-1-2A MOD | G7-1-2B,1200x1050 | 1485x1485,Y,False,Original PDFs/373.pdf
+374,G7 SERVICE SERIES,Advance Sign - Service Symbol 'xxx' m on Left (3)   Formerly G7-SA107-3,G7-1-3A MOD | G7-1-3B,1200x1500 | 2220x1485,Y,False,Original PDFs/374.pdf
+375,G7 SERVICE SERIES,Advance Sign - Service Symbol 'xxx' m on Left (4)  Formerly G7-SA107-4,G7-1-4A MOD | G7-1-4B,1200x1500 | 1485x2052,Y,False,Original PDFs/375.pdf
+376,G7 SERVICE SERIES,Advance Sign - Service Symbol  'xxx' m on Right (1)  Formerly G7-SA107-1,G7-2-1A MOD | G7-2-1B,900x1200 | 1200x1800,Y,False,Original PDFs/376.pdf
+377,G7 SERVICE SERIES,Advance Sign - Service Symbol 'xxx' m on Right (2) Formerly G7-SA107-2,G7-2-2A MOD | G7-2-2B,1200x1050 | 1485x1485,Y,False,Original PDFs/377.pdf
+378,G7 SERVICE SERIES,Advance- Service Symbol 'xxx' m on Right (3 symbols) Formerly G7-SA107-3,G7-2-3A MOD | G7-2-3B,1200x1500 | 2220x1485,Y,False,Original PDFs/378.pdf
+379,G7 SERVICE SERIES,Advance Sign - Service Symbol  'xxx' m on Right (4)    Formerly G7-SA107-4,G7-2-4A MOD | G7-2-4B,1200x1500 | 1485x2052,Y,False,Original PDFs/379.pdf
+380,G7 SERVICE SERIES,Position Sign - Service Symbol (1)   L or R Formerly G7-SA106-1,G7-3-1A MOD | G7-3-1B,800x900 | 975x1350,Y,False,Original PDFs/380.pdf
+381,G7 SERVICE SERIES,Position Sign - Service Symbol (2)   L or R Formerly G7-SA106-2,G7-3-2A MOD | G7-3-2B,1200x900 | 1695x1485,Y,False,Original PDFs/381.pdf
+382,G7 SERVICE SERIES,Position Sign - Service Symbol (3)   L or R Formerly G7-SA106-3,G7-3-3A MOD | G7-3-3B,1200x1350 | 1695x2050,Y,False,Original PDFs/382.pdf
+383,G7 SERVICE SERIES,Position - Service Symbol (4 symbols)   L or R Formerly G7-SA106-4,G7-3-4A MOD | G7-3-4B,1200x1350 | 1695x2050,Y,False,Original PDFs/383.pdf
+384,G7 SERVICE SERIES,Position - Service Symbol (2 symbols) intersection style (L or R) Formerly G7- SA115-2,G7-4-2A MOD | G7-4-2B,1650x600 | 2565x855,Y,False,Original PDFs/384.pdf
+385,G7 SERVICE SERIES,Position - Service Symbol (3 symbols) intersection style (L or R) Formerly G7-SA115-3,G7-4-3A MOD | G7-4-3B,2100x600 | 3195x855,Y,False,Original PDFs/385.pdf
+386,G7 SERVICE SERIES,Position Sign - Service Symbol (4) intersection style   (L or R)   Formerly G7- SA115-4,G7-4-4A MOD | G7-4-4B,2550x600 | 3825x855,Y,False,Original PDFs/386.pdf
+387,G7 SERVICE SERIES,Location - Service Symbols (1 symbol) with no direction Formerly G7-SA111-1,G7-6-1A MOD | G7-6-1B,600x600 | 1035x900,Y,False,Original PDFs/387.pdf
+388,G7 SERVICE SERIES,Location Sign - Service Symbols (2) with no direction Formerly G7-SA111-2,G7-6-2A MOD | G7-6-2B,1200x600 | 1695x855,Y,False,Original PDFs/388.pdf
+389,G7 SERVICE SERIES,Location Sign - Service Symbols (3) with no direction Formerly G7-SA111-3,G7-6-3A MOD | G7-6-3B,1200x1050 | 1695x1485,Y,False,Original PDFs/389.pdf
+390,G7 SERVICE SERIES,Location Sign - Service Symbols (4) with no direction Formerly G7-SA111-4,G7-6-4A MOD | G7-6-4B,1200x1050 | 1620x1420,Y,False,Original PDFs/390.pdf
+391,G7 SERVICE SERIES,Advance - Service Symbol Turn Left 'xxx' m (1 symbol) Formerly G7-SA108-1,G7-7-1A MOD | G7-7-1B,900x1200 | 1200x1800,Y,False,Original PDFs/391.pdf
+392,G7 SERVICE SERIES,Advance Sign - Service Symbol Turn Left 'xxx' m (2)    Formerly G7-SA108-2,G7-7-2A MOD | G7-7-2B,1200x1050 | 1890x1485,Y,False,Original PDFs/392.pdf
+393,G7 SERVICE SERIES,Advance Sign - Service Symbol Turn Left 'xxx' m (3)    Formerly G7-SA108-3,G7-7-3A MOD | G7-7-3B,1200x1500 | 2220x1485,Y,False,Original PDFs/393.pdf
+394,G7 SERVICE SERIES,Advance Sign - Service Symbol Turn Left 'xxx' m (4)    Formerly G7-SA108-4,G7-7-4A MOD | G7-7-4B,1200x1500 | 1890x2115,Y,False,Original PDFs/394.pdf
+395,G7 SERVICE SERIES,Advance Sign - Service Symbol Turn Right 'xxx' m (1) Formerly G7-SA108-1,G7-8-1A MOD | G7-8-1B,900x1200 | 1200x1800,Y,False,Original PDFs/395.pdf
+396,G7 SERVICE SERIES,Advance - Service Symbol Turn Right 'xxx' m (2 symbols) Formerly G7-SA108-2,G7-8-2A MOD | G7-8-2B,1200x1050 | 1965x1485,Y,False,Original PDFs/396.pdf
+397,G7 SERVICE SERIES,Advance Sign - Service Symbol Turn Right 'xxx' m (3) Formerly G7-SA108-3,G7-8-3A MOD | G7-8-3B,1200x1500 | 1965x1485,Y,False,Original PDFs/397.pdf
+398,G7 SERVICE SERIES,Advance Sign - Service Symbol Turn Right 'xxx' m (4) Formerly G7-SA108-4,G7-8-4A MOD | G7-8-4B,1200x1500 | 1965x2115,Y,False,Original PDFs/398.pdf
+422,G7 SERVICE SERIES,Advance - Next (symbol) 'x' km,G7-9-1A | G7-9-1B,780x990 | 1200x1485,N,False,
+423,G7 SERVICE SERIES,Advance - No (symbol) Next  'xxx' km,G7-10-1A | G7-10-1B,900x1200 | 1350x1800,N,False,
+728,G7 SERVICE SERIES,Parking Direction (L or R),G7-11,870x150,N,False,
+729,G7 SERVICE SERIES,Parking Direction with Name,G7-12,800x850,N,False,
+749,G1-G6 DIRECTION SERIES ,Help Phone,G7-13A | G7-13B,400x400 | 600x600,N,False,
+869,G7 SERVICE SERIES,XXX Rest Area 'x' km On Left,G7-SA1,2100x1350,Y,False,Original PDFs/869.pdf
+870,G7 SERVICE SERIES,XXX Rest Area  'x' km On Right,G7-SA2,2100x1350,Y,False,Original PDFs/870.pdf
+871,G7 SERVICE SERIES,XXX Rest Area,G7-SA3,2100x1350,Y,False,Original PDFs/871.pdf
+873,G7 SERVICE SERIES,XXX Rest Area,G7-SA4,2850x900,Y,False,Original PDFs/873.pdf
+399,G7 SERVICE SERIES,Advance Sign - Service Symbol 'x' km Left/Right -1,G7-SA109-1,900x1050,Y,False,Original PDFs/399.pdf
+400,G7 SERVICE SERIES,Advance Sign - Service Symbol 'x' km Left/Right -2,G7-SA109-2,1200x900,Y,False,Original PDFs/400.pdf
+401,G7 SERVICE SERIES,Advance Sign - Service Symbol 'x' km Left/Right -3,G7-SA109-3,1200x1350,Y,False,Original PDFs/401.pdf
+402,G7 SERVICE SERIES,Advance Sign - Service Symbol 'x' km Left/Right -4,G7-SA109-4,1200x1350,Y,False,Original PDFs/402.pdf
+403,G7 SERVICE SERIES,Position Sign - Service Symbol (1),G7-SA110-1,800x900,Y,False,Original PDFs/403.pdf
+404,G7 SERVICE SERIES,Position Sign - Service Symbol (2),G7-SA110-2,1200x900,Y,False,Original PDFs/404.pdf
+405,G7 SERVICE SERIES,Position Sign - Service Symbol (3),G7-SA110-3,1200x1350,Y,False,Original PDFs/405.pdf
+406,G7 SERVICE SERIES,Position Sign - Service Symbol (4),G7-SA110-4,1200x1350,Y,False,Original PDFs/406.pdf
+1240,G7 SERVICE SERIES,Position Sign - Services Left and Right,G7-SA116,900x1050,Y,False,Original PDFs/1240.pdf
+407,G7 SERVICE SERIES,Position Sign - Blank Services Left and Right (L and R),G7-SA117,1200x1350,Y,False,Original PDFs/407.pdf
+408,G7 SERVICE SERIES,Supplementary Plate - 'x' km (mounted under service plates),G7-SA120-1A | G7-SA120-1B | G7-SA120-1C | G7-SA120-1D,600x240 | 800x300 | 900x360 | 1200x420,Y,False,Original PDFs/408.pdf
+409,G7 SERVICE SERIES,Supplementary Plate - 'xxx' m (mounted under service plates),G7-SA120-2A | G7-SA120-2B | G7-SA120-2C | G7-SA120-2D,600x240 | 800x300 | 900x360 | 1200x420,Y,False,Original PDFs/409.pdf
+410,G7 SERVICE SERIES,Position Sign - \ or / Service Sign with (1) symbol,G7-SA121-1A | G7-SA121-1B,600x900 | 1200x1800,Y,False,Original PDFs/410.pdf
+411,G7 SERVICE SERIES,Position Sign - \ or / Service Sign with (2) symbols,G7-SA121-2,1200x900,Y,False,Original PDFs/411.pdf
+412,G7 SERVICE SERIES,Position Sign - \ or / Service Sign with (3) symbols,G7-SA121-3,1200x1350,Y,False,Original PDFs/412.pdf
+413,G7 SERVICE SERIES,Position Sign - \ or / Service Sign with (4) symbols,G7-SA121-4,1200x1350,Y,False,Original PDFs/413.pdf
+414,G7 SERVICE SERIES,Location/Advance Sign - Rest Area Facilities Sign,G7-SA122-1,600x300,Y,False,Original PDFs/414.pdf
+737,G7 SERVICE SERIES,Rest Area with next Township Directions,G7-SA122-2,600x300,Y,False,Original PDFs/737.pdf
+416,G7 SERVICE SERIES,Advance Sign - Rest Area 1 km ON LEFT - STOP REVIVE SURVIVE,G7-SA123-2,2400x1800,Y,False,Original PDFs/416.pdf
+417,G7 SERVICE SERIES,Advance Sign - Rest Area 1 km ON LEFT - DROWSY DRIVERS DIE,G7-SA123-4,2400x1800,Y,False,Original PDFs/417.pdf
+418,G7 SERVICE SERIES,Advance Sign - Rest Area 1 km ON LEFT - SURVIVE THIS DRIVE,G7-SA123-5,2400x1800,Y,False,Original PDFs/418.pdf
+419,G7 SERVICE SERIES,Advance Sign - Rest Area 1 km ON LEFT - FATIGUE IS FATAL,G7-SA123-6,2400x1800,Y,False,Original PDFs/419.pdf
+812,G7 SERVICE SERIES,Advance Sign - Rest Area 1 km ON LEFT - REST IF TIRED,G7-SA123-3,2400x1800,Y,False,Original PDFs/812.pdf
+930,G7 SERVICE SERIES,Advance Sign - Rest Area - 1km ON LEFT - TAKE A BREAK,G7-SA123-1,2400x1800,Y,False,Original PDFs/930.pdf
+420,G7 SERVICE SERIES,Location/Position Sign - Car Parking / \Truck Parking Rest Area Complex,G7-SA124-1,900x1050,Y,False,Original PDFs/420.pdf
+421,G7 SERVICE SERIES,Location/Position Sign - Truck Parking / \Car Parking Rest Area Complex,G7-SA124-2,900x1050,Y,False,Original PDFs/421.pdf
+830,G7 SERVICE SERIES,Disability Access Direction Sign - Service Symbol (1),G7-SA126-1,300x600,Y,False,Original PDFs/830.pdf
+831,G7 SERVICE SERIES,Disability Access Direction Sign - Service Symbol (2),G7-SA126-2,300x750,Y,False,Original PDFs/831.pdf
+832,G7 SERVICE SERIES,Disability Access Position Sign - Service Symbol (1),G7-SA126-7,300x300,Y,False,Original PDFs/832.pdf
+872,G7 SERVICE SERIES,Advance Sign - Next Rest Area - XXXX xx,G7-SA127,2700x1200,Y,False,Original PDFs/872.pdf
+874,G7 SERVICE SERIES,Advance Sign - Truck Parking 1km ON LEFT - TAKE A BREAK,G7-SA128-1,2400x1800,Y,False,Original PDFs/874.pdf
+875,G7 SERVICE SERIES,Advance Sign - Truck Parking 1km ON LEFT - STOP REVIVE SURVIVE,G7-SA128-2,2400x1800,Y,False,Original PDFs/875.pdf
+876,G7 SERVICE SERIES,Advance Sign - Truck Parking 1km ON LEFT - REST IF TIRED,G7-SA128-3,2400x1800,Y,False,Original PDFs/876.pdf
+877,G7 SERVICE SERIES,Advance Sign - Truck Parking 1km ON LEFT - DROWSY DRIVERS DIE,G7-SA128-4,2400x1800,Y,False,Original PDFs/877.pdf
+878,G7 SERVICE SERIES,Advance Sign - Truck Parking 1km ON LEFT - SURVIVE THIS DRIVE,G7-SA128-5,2400x1800,Y,False,Original PDFs/878.pdf
+879,G7 SERVICE SERIES,Advance Sign - Truck Parking 1km ON LEFT - FATIGUE IS FATAL,G7-SA128-6,2400x1800,Y,False,Original PDFs/879.pdf
+931,G7 SERVICE SERIES,Advance Sign - Truck Parking 400m ON LEFT - TAKE A BREAK,G7-SA129-1,2550x1800,Y,False,Original PDFs/931.pdf
+932,G7 SERVICE SERIES,Advance Sign - Truck Parking 400m ON LEFT - STOP REVIVE SURVIVE,G7-SA129-2,2550x1800,Y,False,Original PDFs/932.pdf
+933,G7 SERVICE SERIES,Advance Sign - Truck Parking 400m ON LEFT - REST IF TIRED,G7-SA129-3,2550x1800,Y,False,Original PDFs/933.pdf
+934,G7 SERVICE SERIES,Advance Sign - Truck Parking 400m ON LEFT - DROWSY DRIVERS DIE,G7-SA129-4,2550x1800,Y,False,Original PDFs/934.pdf
+935,G7 SERVICE SERIES,Advance Sign - Truck Parking 400m ON LEFT - SURVIVE THIS DRIVE,G7-SA129-5,2550x1800,Y,False,Original PDFs/935.pdf
+936,G7 SERVICE SERIES,Advance Sign - Truck Parking 400m ON LEFT - FATIGUE IS FATAL,G7-SA129-6,2550x1800,Y,False,Original PDFs/936.pdf
+937,G7 SERVICE SERIES,Advance Sign - Rest Area - 400m ON LEFT - TAKE A BREAK,G7-SA130-1,2400x1800,Y,False,Original PDFs/937.pdf
+938,G1-G6 DIRECTION SERIES ,Advance Sign - Rest Area - 400m ON LEFT - STOP REVIVE SURVIVE,G7-SA130-2,2400x1800,Y,False,Original PDFs/938.pdf
+939,G7 SERVICE SERIES,Advance Sign - Rest Area - 400m ON LEFT - REST IF TIRED,G7-SA130-3,2400x1800,Y,False,Original PDFs/939.pdf
+940,G7 SERVICE SERIES,Advance Sign - Rest Area - 400m ON LEFT - DROWSY DRIVERS DIE,G7-SA130-4,2400x1800,Y,False,Original PDFs/940.pdf
+941,G7 SERVICE SERIES,Advance Sign - Rest Area - 400m ON LEFT - SURVIVE THIS DRIVE,G7-SA130-5,2400x1800,Y,False,Original PDFs/941.pdf
+942,G7 SERVICE SERIES,Advance Sign - Rest Area - 400m ON LEFT - FATIGUE IS FATAL,G7-SA130-6,2400x1800,Y,False,Original PDFs/942.pdf
+1087,G7 SERVICE SERIES,EV Electric Vehicle Parking,G7-SA131,450x900,Y,False,Original PDFs/1087.pdf
+1222,G7 SERVICE SERIES,Accessible Parking Spaces,G7-SA132,450x900,Y,False,Original PDFs/1222.pdf
+1223,G7 SERVICE SERIES,Accessible Parking,G7-SA133,450x600,Y,False,Original PDFs/1223.pdf
+1470,G7 SERVICE SERIES,Position Sign - < or > Service Sign with (2) symbols,G7-SA134A | G7-SA134B,450x900 | 600x900,Y,False,Original PDFs/1470.pdf
+1499,G7 SERVICE SERIES,Hospital Precinct - Use under R4-1A/B,G7-SA135-A | G7-SA135-B,450x250 | 600x300,Y,False,Original PDFs/1499.pdf
+739,G7 SERVICE SERIES,Tourist Drive Route Marker (with arrow),G8-9-1,360x360,N,False,
+741,G7 SERVICE SERIES,Tourist Drive Route Marker - End,G8-9-3,360x360,N,False,
+911,G7 SERVICE SERIES,Tourist Drive Route Marker (LorR),G8-9-7,450x800,N,False,
+912,G7 SERVICE SERIES,Tourist Drive Route Marker (straight ahead),G8-9-8,450x800,N,False,
+913,G7 SERVICE SERIES,Tourist Drive Route Marker (route number and end),G8-9-11,450x800,N,False,
+425,G9-G11 TRAFFIC INSTRUCTION SERIES,Low Bridge Ahead 'x.x' m High Vehicles Detour  (L or R),G9-3,1700x900,N,False,
+426,G9-G11 TRAFFIC INSTRUCTION SERIES,Load Limit on Bridge 'xx' t Heavy Vehicles Detour (L or R),G9-4,1700x900,N,False,
+427,G9-G11 TRAFFIC INSTRUCTION SERIES,Detour for High Vehicles (L or R),G9-5-1,1300x350,N,False,
+428,G9-G11 TRAFFIC INSTRUCTION SERIES,Detour for Heavy Vechicles   (L or R),G9-5-2,1400x350,N,False,
+1117,G9-G11 TRAFFIC INSTRUCTION SERIES,Detour for Long Vehicles (L or R),G9-5-3,1300x350,N,False,
+1118,G9-G11 TRAFFIC INSTRUCTION SERIES,Detour for Wide Vehicles (L or R),G9-5-4,1300x350,N,False,
+429,G9-G11 TRAFFIC INSTRUCTION SERIES,Reduce Speed,G9-9A | G9-9AA | G9-9B,1500x750 | 450x225 | 1800x900,Y,False,Original PDFs/429.pdf
+430,G9-G11 TRAFFIC INSTRUCTION SERIES,"Slow Vehicle Lane Ahead (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-10,900x900,N,False,
+431,G9-G11 TRAFFIC INSTRUCTION SERIES,"Slow Vehicle Lane 'x' km Ahead (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-11,900x1100,N,False,
+432,G9-G11 TRAFFIC INSTRUCTION SERIES,"Slow Vehicles Use Left Lane (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-12,950x1100,N,False,
+433,G9-G11 TRAFFIC INSTRUCTION SERIES,Form 1 Lane,G9-15A | G9-15B | G9-15C,600x800 | 900x1200 | 1200x1600,N,False,
+434,G9-G11 TRAFFIC INSTRUCTION SERIES,Form x Lanes,G9-16A | G9-16B | G9-16C,600x800 | 900x1200 | 1200x1600,N,False,
+743,G9-G11 TRAFFIC INSTRUCTION SERIES,"Winding Road Ends 'x' km (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-17,1100x400,N,False,
+435,G9-G11 TRAFFIC INSTRUCTION SERIES,No Through Road,G9-18A | G9-18B,600x400 | 900x600,N,False,
+436,G9-G11 TRAFFIC INSTRUCTION SERIES,Road Closed,G9-20,900x550,N,False,
+437,G9-G11 TRAFFIC INSTRUCTION SERIES,Road Subject to Flooding Indicators Show Depth,G9-21-1,2150x800,N,False,
+771,G9-G11 TRAFFIC INSTRUCTION SERIES,Road Subject to Flooding Indicators Show Depth,G9-21-2,1400x1400,N,False,
+438,G9-G11 TRAFFIC INSTRUCTION SERIES,"Depth Indicators  0 to 2m, 2 to 4m, 4 to 6m",G9-22-1 | G9-22-2 | G9-22-3,200x2350 | 200x2350 | 200x2350,N,False,
+1258,G9-G11 TRAFFIC INSTRUCTION SERIES,Safety Ramp 'x.x' km,G9-24-1A | G9-24-1B,2200x800 | 4400x1600,N,False,
+1259,G9-G11 TRAFFIC INSTRUCTION SERIES,Safety Ramp 'x.x' km,G9-24-2A | G9-24-2B,1500x1200 | 3000x2400,N,False,
+1260,G9-G11 TRAFFIC INSTRUCTION SERIES,Safety Ramp 'xx' m,G9-25-1A | G9-25-1B,2200x800 | 4400x1600,N,False,
+1261,G9-G11 TRAFFIC INSTRUCTION SERIES,Safety Ramp 'xx' m,G9-25-2A | G9-25-2B,1500x1200 | 3000x2400,N,False,
+1262,G9-G11 TRAFFIC INSTRUCTION SERIES,Safety,G9-27A | G9-27B,2000x750 | 3000x1125,N,False,
+1263,G9-G11 TRAFFIC INSTRUCTION SERIES,Ramp,G9-28A | G9-28B,1600x750 | 2400x1125,N,False,
+440,G9-G11 TRAFFIC INSTRUCTION SERIES,Railway,G9-32,2100x450,N,False,
+441,G9-G11 TRAFFIC INSTRUCTION SERIES,Crossing,G9-33,2100x450,N,False,
+442,G9-G11 TRAFFIC INSTRUCTION SERIES,Overtaking Lane 'xxx' m Ahead,G9-37,2600x1300,N,False,
+443,G9-G11 TRAFFIC INSTRUCTION SERIES,Overtaking Lane 'x' km Ahead,G9-38,2600x1300,N,False,
+444,G9-G11 TRAFFIC INSTRUCTION SERIES,Local Traffic Only,G9-40-1,900x600,N,False,
+445,G9-G11 TRAFFIC INSTRUCTION SERIES,Local Traffic Only (Roadworks ONLY),G9-40-2A | G9-40-2B,900x600 | 1200x900,N,False,
+446,G9-G11 TRAFFIC INSTRUCTION SERIES,Unsuitable For Large Vehicles,G9-41A | G9-41B,450x300 | 600x400,N,False,
+744,G9-G11 TRAFFIC INSTRUCTION SERIES,"Very Steep Climb 'x' km Not Suitable for T, B, C,& T (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-46,2800x1800,N,False,
+449,G9-G11 TRAFFIC INSTRUCTION SERIES,"Very Steep Climb Next  'x' km (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-47,3000x1800,N,False,
+450,G9-G11 TRAFFIC INSTRUCTION SERIES,Look for Trains,G9-48A | G9-48B | G9-48C,600x600 | 750x750 | 900x900,N,False,
+451,G9-G11 TRAFFIC INSTRUCTION SERIES,On Bridge,G9-49A | G9-49B | G9-49C,450x300 | 600x400 | 900x600,N,False,
+452,G9-G11 TRAFFIC INSTRUCTION SERIES,Slow Vehicle Turnout 'xxx' m,G9-50A | G9-50B,900x900 | 1200x1200,N,False,
+453,G9-G11 TRAFFIC INSTRUCTION SERIES,Slow Vehicle Turnout (ARR-130),G9-51A | G9-51B,900x1000 | 1200x1330,N,False,
+454,G9-G11 TRAFFIC INSTRUCTION SERIES,Alternative Route For Trucks and Buses,G9-52,2400x400,N,False,
+455,G9-G11 TRAFFIC INSTRUCTION SERIES,Very Steep Descent 'x' km Ahead Not Suitable For Trucks Buses Caravans and Trailers,G9-53,2800x1800,N,False,
+456,G9-G11 TRAFFIC INSTRUCTION SERIES,Take Ticket,G9-54,600x350,N,False,
+457,G9-G11 TRAFFIC INSTRUCTION SERIES,Way Out (L or R),G9-55,875x150,N,False,
+458,G9-G11 TRAFFIC INSTRUCTION SERIES,Way Out to (Street Name),G9-56,950x450,N,False,
+459,G9-G11 TRAFFIC INSTRUCTION SERIES,Watch For Bicycles,G9-57A | G9-57B,900x800 | 1200x1067,N,False,
+460,G9-G11 TRAFFIC INSTRUCTION SERIES,Cyclists Dismount,G9-58A | G9-58B,450x450 | 600x600,N,False,
+461,G9-G11 TRAFFIC INSTRUCTION SERIES,All Bicycles,G9-60A | G9-60B,450x600 | 600x800,N,False,
+462,G9-G11 TRAFFIC INSTRUCTION SERIES,Bicycle Symbol  Use Ramp,G9-62,600x1200,N,False,
+463,G9-G11 TRAFFIC INSTRUCTION SERIES,Bicycles Cross Here With Care (L or R),G9-63,900x900,N,False,
+464,G9-G11 TRAFFIC INSTRUCTION SERIES,Bicycles Use Left Shoulder,G9-64,750x600,N,False,
+465,G9-G11 TRAFFIC INSTRUCTION SERIES,Bicycles Must Exit,G9-65,600x1200,N,False,
+1153,G9-G11 TRAFFIC INSTRUCTION SERIES,Supplementary Distance Plate,G9-66,0x0,N,False,
+650,G9-G11 TRAFFIC INSTRUCTION SERIES,Keep Tracks Clear (Box Marking) (Formerly W7-16-2),G9-67-2,600x1200,N,False,
+652,G9-G11 TRAFFIC INSTRUCTION SERIES,Keep Tracks Clear (Formerly W7-16-1),G9-67-1A | G9-67-1B,600x600 | 750x750,N,False,
+1243,G9-G11 TRAFFIC INSTRUCTION SERIES,"Keep Tracks Clear (Approval required for use - refer to Manager, Traffic Services, DPTI)",G9-67-2AA,300x600,Y,False,Original PDFs/1243.pdf
+745,G9-G11 TRAFFIC INSTRUCTION SERIES,Emergency Exit Push Gate,G9-68,400x300,N,False,
+15,G9-G11 TRAFFIC INSTRUCTION SERIES,Wrong Way Go Back (Formerly R2-12),G9-69,2300x1470,N,False,
+687,G9-G11 TRAFFIC INSTRUCTION SERIES,No Stopping on Freeway (Formerly R2-18),G9-70,1400x1400,N,False,
+1136,G9-G11 TRAFFIC INSTRUCTION SERIES,Service Road Entry,G9-71,600x750,N,False,
+1137,G9-G11 TRAFFIC INSTRUCTION SERIES,Left Turn From Service Road Only,G9-72,1200x1000,N,False,
+909,G9-G11 TRAFFIC INSTRUCTION SERIES,Merge Left or Right,G9-73A | G9-73AA | G9-73B,900x900 | 600x600 | 1200x1200,N,False,
+823,G9-G11 TRAFFIC INSTRUCTION SERIES,Railway Crossing Not In Use,G9-74,750x600,N,False,
+905,G9-G11 TRAFFIC INSTRUCTION SERIES,Length Limit Ahead 'x.x' m Long Vehicles Detour,G9-75,2100x900,N,False,
+906,G9-G11 TRAFFIC INSTRUCTION SERIES,Narrow Bridge Ahead 'x.x' m Wide Vehicles Detour,G9-76,1700x900,N,False,
+1154,G9-G11 TRAFFIC INSTRUCTION SERIES,Slower Vehicles Use Turnouts Next 'x' km,G9-77,1800x750,N,False,
+1138,G9-G11 TRAFFIC INSTRUCTION SERIES,'xxx' m,G9-78A | G9-78B | G9-78C,600x200 | 900x300 | 1200x400,N,False,
+1287,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit AHEAD (Approval required for use - refer to Manager, Traffic Services Section of DIT)",G9-79B | G9-79C,600x1000 | 800x1350,N,False,
+1156,G9-G11 TRAFFIC INSTRUCTION SERIES,On Right (1 Line),G9-80-1A | G9-80-1B,1800x450 | 3600x900,N,False,
+1157,G9-G11 TRAFFIC INSTRUCTION SERIES,On Right (2 Line),G9-80-2A | G9-80-2B,1500x800 | 3000x1600,N,False,
+1158,G9-G11 TRAFFIC INSTRUCTION SERIES,Service Road,G9-81,600x400,N,False,
+1159,G9-G11 TRAFFIC INSTRUCTION SERIES,Steep Descent,G9-82,3000x1400,N,False,
+1123,G9-G11 TRAFFIC INSTRUCTION SERIES,Long Steep Descent Next 'x' km,G9-83 | G9-83AA,3000x1800 | 2400x1500,Y,False,Original PDFs/1123.pdf
+1251,G9-G11 TRAFFIC INSTRUCTION SERIES,After Signals (May be used with G9-15 or G9-16),G9-84A | G9-84B | G9-84C,600x400 | 900x600 | 1200x800,N,False,
+1252,G9-G11 TRAFFIC INSTRUCTION SERIES,After Roundabout (May be used with G9-15 or G9-16),G9-85A | G9-85B | G9-85C,600x400 | 900x600 | 1200x800,N,False,
+1253,G9-G11 TRAFFIC INSTRUCTION SERIES,Advance Buses Prohibited,G9-87-1A | G9-87-1B | G9-87-1C,600x600 | 900x900 | 1200x1200,N,False,
+1254,G9-G11 TRAFFIC INSTRUCTION SERIES,Advance Trucks Prohibited,G9-87-2A | G9-87-2B | G9-87-2C,600x600 | 900x900 | 1200x1200,N,False,
+1321,G9-G11 TRAFFIC INSTRUCTION SERIES,No Lines Do Not Overtake,G9-89,1500x900,N,False,
+1226,G9-G11 TRAFFIC INSTRUCTION SERIES,"Watch for Bicycles (only to be used in 40, 50 or 60 km/h speed zones where standard size will not fit) ",G9-SA57,350x550,Y,False,Original PDFs/1226.pdf
+1553,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit AHEAD (Approval required for use - refer to Manager, Traffic Services Section of DIT). See G9-79 B and C for smaller sizes. G9-79A not used in SA.",G9-SA79D | G9-SA79E,900x1500 | 1200x2000,Y,False,Original PDFs/1553.pdf
+469,G9-G11 TRAFFIC INSTRUCTION SERIES,No Green Arrows 1 Time Period,G9-SA101-1A | G9-SA101-1B | G9-SA101-1C,450x540 | 600x720 | 900x1080,Y,False,Original PDFs/469.pdf
+470,G9-G11 TRAFFIC INSTRUCTION SERIES,No Green Arrows 2 Time Periods,G9-SA101-2A | G9-SA101-2B | G9-SA101-2C,450x680 | 600x920 | 900x1380,Y,False,Original PDFs/470.pdf
+471,G9-G11 TRAFFIC INSTRUCTION SERIES,Stop Press Button And Wait For Walk Signal,G9-SA102,150x215,Y,False,Original PDFs/471.pdf
+472,G9-G11 TRAFFIC INSTRUCTION SERIES,Cyclists Press Button And Wait For Green Bicycle Symbol,G9-SA103,150x250,Y,False,Original PDFs/472.pdf
+473,G9-G11 TRAFFIC INSTRUCTION SERIES,Heavy Vehicle Route (L or R),G9-SA104,1950x600,Y,False,Original PDFs/473.pdf
+474,G9-G11 TRAFFIC INSTRUCTION SERIES,Heavy Vehicle Route (L or R),G9-SA105,2100x600,Y,False,Original PDFs/474.pdf
+475,G9-G11 TRAFFIC INSTRUCTION SERIES,Diagonal Crossing May Be Permitted Cross Only in Direction of Walk Signal,G9-SA106,150x300,Y,False,Original PDFs/475.pdf
+1554,G9-G11 TRAFFIC INSTRUCTION SERIES,Open Pit,G9-SA107A | G9-SA107B | G9-SA107C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/1554.pdf
+477,G9-G11 TRAFFIC INSTRUCTION SERIES,High Vehicles Use Left Lane,G9-SA108,950x1100,Y,False,Original PDFs/477.pdf
+478,G9-G11 TRAFFIC INSTRUCTION SERIES,High Vehicles Must Use Left / Right Lane,G9-SA109,950x1100,Y,False,Original PDFs/478.pdf
+1482,G9-G11 TRAFFIC INSTRUCTION SERIES,Remember Give Way to Peds Bicycles When Turning - (Temporary Signage Only),G9-SA110,800x1120,Y,False,Original PDFs/1482.pdf
+479,G9-G11 TRAFFIC INSTRUCTION SERIES,Divided Road 'x' km Ahead ,G9-SA111A | G9-SA111B,1000x1000 | 1400x1400,Y,False,Original PDFs/479.pdf
+480,G9-G11 TRAFFIC INSTRUCTION SERIES,Distorted Image,G9-SA112A | G9-SA112B,450x250 | 750x400,Y,False,Original PDFs/480.pdf
+481,G9-G11 TRAFFIC INSTRUCTION SERIES,In Case of Breakdown Use Emergency Phone,G9-SA113,1500x450,Y,False,Original PDFs/481.pdf
+1292,G9-G11 TRAFFIC INSTRUCTION SERIES,Road Hazard (ONLY to be used under R4-1),G9-SA114A | G9-SA114B,450x300 | 600x400,Y,False,Original PDFs/1292.pdf
+482,G9-G11 TRAFFIC INSTRUCTION SERIES,No Parking,G9-SA115A | G9-SA115B,900x200 | 1200x300,Y,False,Original PDFs/482.pdf
+483,G9-G11 TRAFFIC INSTRUCTION SERIES,Do Not Queue Over,G9-SA120A | G9-SA120B,600x750 | 750x900,Y,False,Original PDFs/483.pdf
+747,G9-G11 TRAFFIC INSTRUCTION SERIES,Pedestrians Look Both Ways (Use with W8-SA103 only),G9-SA121,300x400,Y,False,Original PDFs/747.pdf
+860,G9-G11 TRAFFIC INSTRUCTION SERIES,Sealed Road 'x' km Ahead,G9-SA122,1400x1400,Y,False,Original PDFs/860.pdf
+861,G9-G11 TRAFFIC INSTRUCTION SERIES,Sealed Road Next 'x' km,G9-SA123,1400x1400,Y,False,Original PDFs/861.pdf
+466,G9-G11 TRAFFIC INSTRUCTION SERIES,High Vehicles Use Centre Lane,G9-SA125,1350x750,Y,False,Original PDFs/466.pdf
+467,G9-G11 TRAFFIC INSTRUCTION SERIES,Overhead Signals 'x.x' m ,G9-SA126,1800x600,Y,False,Original PDFs/467.pdf
+468,G9-G11 TRAFFIC INSTRUCTION SERIES,Pedestrians Push Button And Stand On Yellow Tile,G9-SA127,150x225,Y,False,Original PDFs/468.pdf
+1188,G9-G11 TRAFFIC INSTRUCTION SERIES,Please Allow Vehicles to Pass (Install under G9-50),G9-SA128A | G9-SA128B,900x900 | 1200x1200,Y,False,Original PDFs/1188.pdf
+1191,G9-G11 TRAFFIC INSTRUCTION SERIES,Speed Limit AHEAD  (Use on Vehicle Mounted Frames only for Mobile Work Sites),G9-SA129,1200x450,Y,False,Original PDFs/1191.pdf
+1203,G9-G11 TRAFFIC INSTRUCTION SERIES,Speed Limit AHEAD - Time Based,G9-SA131,450x750,Y,False,Original PDFs/1203.pdf
+1204,G9-G11 TRAFFIC INSTRUCTION SERIES,Speed Limit On Side Road - Time Based,G9-SA132,450x750,Y,False,Original PDFs/1204.pdf
+1205,G9-G11 TRAFFIC INSTRUCTION SERIES,Speed Limit On Side Road - Time Based,G9-SA133,450x750,Y,False,Original PDFs/1205.pdf
+1286,G9-G11 TRAFFIC INSTRUCTION SERIES,Children Crossing on Side Road (L or R),G9-SA134A | G9-SA134B,450x1050 | 600x1400,Y,False,Original PDFs/1286.pdf
+1455,G9-G11 TRAFFIC INSTRUCTION SERIES,U Turn Facility xxx m Ahead,G9-SA135A | G9-SA135B,450x600 | 900x1200,Y,False,Original PDFs/1455.pdf
+1456,G9-G11 TRAFFIC INSTRUCTION SERIES,U Turn Facility - (L or R),G9-SA136A,450x600,Y,False,Original PDFs/1456.pdf
+1489,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 60 on Side Road, School Days - Timed Based",G9-SA138A | G9-SA138B,450x1050 | 600x1400,Y,False,Original PDFs/1489.pdf
+1488,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 50 on Side Road, School Days - Timed Based",G9-SA139A | G9-SA139B,450x1050 | 600x1400,Y,False,Original PDFs/1488.pdf
+1497,G9-G11 TRAFFIC INSTRUCTION SERIES,Remember Keep Intersection Clear - (Temporary Signage Only),G9-SA140 | G9-SA140C,600x750 | 900x1200,Y,False,Original PDFs/1497.pdf
+1495,G9-G11 TRAFFIC INSTRUCTION SERIES,All Pedestrians,G9-SA141A,450x600,Y,False,Original PDFs/1495.pdf
+1541,G9-G11 TRAFFIC INSTRUCTION SERIES,'One Vehicle Per Green Each Lane',G9-SA142,1050x750,Y,False,Original PDFs/1541.pdf
+1509,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 60 Ahead, School Days - Timed Based",G9-SA143A | G9-SA143B,450x1050 | 600x1400,Y,False,Original PDFs/1509.pdf
+1510,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 60 on Side Road, School Days - Timed Based",G9-SA144A | G9-SA144B,450x1050 | 600x1400,Y,False,Original PDFs/1510.pdf
+1503,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 40 Ahead, School Days - Timed Based",G9-SA145A | G9-SA145B,450x1200 | 600x1600,Y,False,Original PDFs/1503.pdf
+1505,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 40 on Side Road, School Days - Timed Based",G9-SA146A | G9-SA146B,450x1200 | 600x1600,Y,False,Original PDFs/1505.pdf
+1506,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 40 on Side Road, School Days - Timed Based (Left or Right)",G9-SA147A | G9-SA147B,450x1200 | 600x1600,Y,False,Original PDFs/1506.pdf
+1507,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 50 Ahead, School Days - Timed Based",G9-SA148A | G9-SA148B,450x1050 | 600x1400,Y,False,Original PDFs/1507.pdf
+1508,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 50 on Side Road, School Days - Timed Based",G9-SA149A | G9-SA149B,450x1050 | 600x1400,Y,False,Original PDFs/1508.pdf
+1544,G9-G11 TRAFFIC INSTRUCTION SERIES,One Vehicle Per Green,G9-SA150,1050x550,Y,False,Original PDFs/1544.pdf
+1557,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed Limit 60 Ahead, School Days - Time Based",G9-SA151A | G9-SA151B,450x1200 | 600x1600,Y,False,Original PDFs/1557.pdf
+1558,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed limit 60 On Side Road, School Days - Time Based (Left and Right)",G9-SA152A | G9-SA152B,450x1200 | 600x1600,Y,False,Original PDFs/1558.pdf
+1559,G9-G11 TRAFFIC INSTRUCTION SERIES,"Speed limit 60 On Side Road, School Days - Time Based (Left or Right)",G9-SA153A | G9-SA153B,450x1200 | 600x1600,Y,False,Original PDFs/1559.pdf
+484,G9-G11 TRAFFIC INSTRUCTION SERIES,Kilometre Plate,G10-3,450x450,N,False,
+486,GE1-GE4 FREEWAY DIRECTION SERIES,"Exit Sign (Approval required for use - refer to Manager, Traffic Services, DPTI)",GE2-3,1800x1600,N,False,
+1162,GE6-GE7 FREEWAY INFORMATION SERIES,"Prohibited On Freeway (refer to GE6-SA2-1 or GE6-SA2-2) (Approval required for use - refer to Manager, Traffic Services Section of DIT)",GE6-2,1200x1300,N,False,
+1161,GE6-GE7 FREEWAY INFORMATION SERIES,Next Service 'x' km,GE6-8,0x0,N,False,
+748,GE6-GE7 FREEWAY INFORMATION SERIES,"End Freeway 'x' km (Approval required for use - refer to Manager, Traffic Services, DPTI)",GE6-9,2300x1500,N,False,
+1160,GE6-GE7 FREEWAY INFORMATION SERIES,"End Freeway 1 km (Approval required for use - refer to Manager, Traffic Services, DPTI)",GE6-10,2300x1500,N,False,
+488,GE6-GE7 FREEWAY INFORMATION SERIES,"Prohibited on Freeway Pedestrians Bicycles Animals Animal Drawn Vehicles Agricultural Vehicles (Approval required for use - refer to Manager, Traffic Services Section of DIT)",GE6-SA2-1,1200x1560,Y,False,Original PDFs/488.pdf
+489,GE6-GE7 FREEWAY INFORMATION SERIES,"Prohibited on Expressway Pedestrians Bicycles Animals Animal Drawn Vehicles Agricultural Vehicles (Approval required for use - refer to Manager, Traffic Services Section of DIT)",GE6-SA2-2,1200x1560,Y,False,Original PDFs/489.pdf
+490,GE6-GE7 FREEWAY INFORMATION SERIES,End Expressway  'x' km,GE6-SA112,3000x1500,Y,False,Original PDFs/490.pdf
+491,GE6-GE7 FREEWAY INFORMATION SERIES,Ramp X   Use with R6-SA108,GE6-SA114,1200x300,Y,False,Original PDFs/491.pdf
+492,GE6-GE7 FREEWAY INFORMATION SERIES,Ramp X   (Use with GE2-3),GE6-SA115,1800x450,Y,False,Original PDFs/492.pdf
+993,GE6-GE7 FREEWAY INFORMATION SERIES,Help Phone Pedestrian Indicator (L or R),GE7-8,200x350,N,False,
+917,GE6-GE7 FREEWAY INFORMATION SERIES,Help Phone Distance Plate for Pedestrian Indicator 'xxx' m,GE7-9,200x100,N,False,
+495,GE9 FREEWAY TRAFFIC INSTRUCTION SERIES,"Reduce Speed Now (Approval required for use - refer to Manager, Traffic Services, DPTI)",GE9-3,2600x2000,N,False,
+496,GE9 FREEWAY TRAFFIC INSTRUCTION SERIES,Wrong Way,GE9-15A | GE9-15AA | GE9-15B,600x400 | 450x300 | 750x500,N,False,
+631,GE9 FREEWAY TRAFFIC INSTRUCTION SERIES,Merge Right  ( Right Only ),GE9-22-2A  | GE9-22-2B ,1750x1500 | 2350x2015,N,False,
+1531,GE9 FREEWAY TRAFFIC INSTRUCTION SERIES,Emergency Median Crossing,GE9-23-1A | GE9-23-1B,450x450 | 600x600,N,False,
+1532,GE9 FREEWAY TRAFFIC INSTRUCTION SERIES,Emergency Median Crossing - Distance,GE9-23-2A | GE9-23-2B,450x600 | 600x800,N,False,
+957,GM9 TRAFFIC INSTRUCTION SERIES,Local Traffic Only (Multi-Message Sign ONLY),GM9-40-2A,600x600,Y,False,Original PDFs/957.pdf
+1407,GM9 TRAFFIC INSTRUCTION SERIES,Cyclists Dismount (Multi-Message Sign ONLY),GM9-58A,600x600,N,False,
+1019,GM9 TRAFFIC INSTRUCTION SERIES,Speed Limit AHEAD (Multi-Message Sign ONLY),GM9-79D,600x900,Y,False,Original PDFs/1019.pdf
+1322,GM9 TRAFFIC INSTRUCTION SERIES,No Lines Do Not Overtake (Multi-Message Sign ONLY),GM9-89C,1200x600,N,False,
+958,GM9 TRAFFIC INSTRUCTION SERIES,Do Not Overtake (Multi-Message Sign ONLY) (Replaces G9-SA124M),GM9-90B,1200x300,Y,False,Original PDFs/958.pdf
+997,GM9 TRAFFIC INSTRUCTION SERIES,Reduce Speed (Multi-Message Sign ONLY),GM9-SA9B,1200x300,Y,False,Original PDFs/997.pdf
+998,GM9 TRAFFIC INSTRUCTION SERIES,Reduce Speed (Multi-Message Sign ONLY),GM9-SA9A,600x600,Y,False,Original PDFs/998.pdf
+1424,GM9 TRAFFIC INSTRUCTION SERIES,No Through Road (Multi-Message Sign ONLY),GM9-SA18A,600x600,Y,False,Original PDFs/1424.pdf
+1278,GM9 TRAFFIC INSTRUCTION SERIES,Watch for Bicycles (Multi-Message Sign ONLY),GM9-SA57A,600x600,Y,False,Original PDFs/1278.pdf
+1535,GM9 TRAFFIC INSTRUCTION SERIES,Speed Limit AHEAD (Multi-Message Sign ONLY),GM9-SA79A,600x600,Y,False,Original PDFs/1535.pdf
+1197,GM9 TRAFFIC INSTRUCTION SERIES,Car Park Access Only (Multi-Message Sign ONLY),GM9-SA130A,600x600,Y,False,Original PDFs/1197.pdf
+1372,GM9 TRAFFIC INSTRUCTION SERIES,At Intersection (Multi-Message Sign ONLY),GM-91B,1200x300,N,False,
+1373,GM9 TRAFFIC INSTRUCTION SERIES,At Signals (Multi-Message Sign ONLY),GM-92B,1200x300,N,False,
+780,SYMBOL SERIES,Bandicoot Symbol (Refer to Traffic Operations Section  of DPTI),IS123,420x350,Y,False,Original PDFs/780.pdf
+781,SYMBOL SERIES,Duck Symbol (Refer to Traffic Operations Section of DPTI),IS134,350x350,Y,False,Original PDFs/781.pdf
+782,SYMBOL SERIES,Mallee Fowl Symbol (Refer to Traffic Operations Section  of DPTI),IS135,350x350,Y,False,Original PDFs/782.pdf
+881,SYMBOL SERIES,Swan Symbol (Refer to Traffic Operations Section of DPTI),IS147,280x350,Y,False,Original PDFs/881.pdf
+644,R1 MOVEMENT SERIES,Stop (ARR-56),R1-1A | R1-1B,600x600 | 750x750,Y,False,Original PDFs/644.pdf
+3,R1 MOVEMENT SERIES,"Give Way (ARR-67,70,71,122)",R1-2A | R1-2AA | R1-2B | R1-2C,750x750 | 375x375 | 900x900 | 1200x1200,Y,False,Original PDFs/3.pdf
+4,R1 MOVEMENT SERIES,Roundabout (ARR-109),R1-3A | R1-3B,750x750 | 900x900,Y,False,Original PDFs/4.pdf
+7,R2 DIRECTION SERIES,One Way (L or R),R2-2A      | R2-2B      | R2-2S     ,450x600 | 600x800 | 300x400,N,False,
+654,R1 MOVEMENT SERIES,One Way (L or R) (ARR-98),R2-2A | R2-2B,450x600 | 600x800,Y,False,Original PDFs/654.pdf
+680,R2 DIRECTION SERIES,"Keep Left or Keep Right (ARR-99,135)",R2-3A | R2-3AA | R2-3B,450x600 | 300x400 | 600x800,N,False,
+8,R2 DIRECTION SERIES,No Entry,R2-4A | R2-4B | R2-4C | R2-4D | R2-4S,450x450 | 600x600 | 750x750 | 900x900 | 300x300,N,False,
+683,R2 DIRECTION SERIES,No entry (ARR-100),R2-4A | R2-4AA | R2-4B | R2-4C | R2-4D,450x450 | 300x300 | 600x600 | 750x750 | 900x900,N,False,
+9,R2 DIRECTION SERIES,No U Turn (ARR-39),R2-5A | R2-5AA | R2-5B | R2-5C | R2-5D,450x450 | 300x300 | 600x600 | 750x750 | 900x900,Y,False,Original PDFs/9.pdf
+10,R2 DIRECTION SERIES,No Right Turn and No Left Turn (L or R),R2-6A | R2-6B | R2-6C | R2-6D | R2-6S,450x450 | 600x600 | 750x750 | 900x900 | 300x300,N,False,
+684,R2 DIRECTION SERIES,No Right Turn or No Left Turn (ARR-91),R2-6A | R2-6AA | R2-6B | R2-6C | R2-6D,450x450 | 300x300 | 600x600 | 750x750 | 900x900,Y,False,Original PDFs/684.pdf
+11,R2 DIRECTION SERIES,No Turns,R2-7A | R2-7B | R2-7S,450x600 | 600x800 | 300x400,N,False,
+685,R2 DIRECTION SERIES,No Turns (ARR-98),R2-7A | R2-7AA | R2-7B,450x600 | 300x400 | 600x800,Y,False,Original PDFs/685.pdf
+12,R2 DIRECTION SERIES,Left Lane Must Turn Left and Right Lane Must Turn Right (L or R) (ARR-88),R2-9A | R2-9AA | R2-9B | R2-9C,450x750 | 300x500 | 600x1000 | 900x1500,Y,False,Original PDFs/12.pdf
+14,R2 DIRECTION SERIES,"Two Way (ARR-98,132,136)",R2-11A | R2-11B,450x600 | 600x800,N,False,
+17,R2 DIRECTION SERIES,All Traffic Turn (L or R) (ARR-88 or 89),R2-14A | R2-14B,600x800 | 900x1200,N,False,
+18,R2 DIRECTION SERIES,"U Turn Permitted (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-40)",R2-15A | R2-15AA | R2-15B,450x600 | 300x400 | 600x800,Y,False,Original PDFs/18.pdf
+20,R2 DIRECTION SERIES,One Way (Repeater),R2-17A | R2-17B | R2-17C,450x800 | 600x1050 | 900x1600,N,False,
+22,R2 DIRECTION SERIES,Left Lane Must Exit,R2-19,800x1200,N,False,
+688,R2 DIRECTION SERIES,"Left Turn on Red Permitted After Stopping (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-59)",R2-20,450x800,N,False,
+690,R2 DIRECTION SERIES,"Right Turn From Left Only (Used in R2-SA62) (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-34)",R2-21 | R2-21AA,800x1100 | 300x400,Y,False,Original PDFs/690.pdf
+26,R2 DIRECTION SERIES,"No Hook Turn by Bicycles (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-36)",R2-22,750x750,N,False,
+1301,R2 DIRECTION SERIES,Keep Left (used ONLY where back to back median is installed) ,R2-SA3,150x1150,Y,False,Original PDFs/1301.pdf
+673,R2 DIRECTION SERIES,Left Lane Must Turn Left Buses & Bicycles Excepted,R2-SA50A | R2-SA50B,450x1050 | 600x1400,Y,False,Original PDFs/673.pdf
+27,R2 DIRECTION SERIES,No Right Turn with single time period Mon - Frid,R2-SA51-1A | R2-SA51-1B | R2-SA51-1C | R2-SA51-1S,450x750 | 600x1000 | 900x1500 | 300x500,Y,False,Original PDFs/27.pdf
+28,R2 DIRECTION SERIES,No Right Turn with two time periods Mon - Fri,R2-SA51-2A | R2-SA51-2B | R2-SA51-2C | R2-SA51-2S,450x900 | 600x1200 | 900x1800 | 300x600,Y,False,Original PDFs/28.pdf
+31,R2 DIRECTION SERIES,Right Lane Buses Only,R2-SA57,600x750,Y,False,Original PDFs/31.pdf
+32,R2 DIRECTION SERIES,No U Turn with single time period Mon - Fri,R2-SA60-1A | R2-SA60-1AA | R2-SA60-1B | R2-SA60-1C,450x750 | 300x500 | 600x1000 | 900x1500,Y,False,Original PDFs/32.pdf
+33,R2 DIRECTION SERIES,No U Turn with two time periods Mon - Fri,R2-SA60-2A | R2-SA60-2AA | R2-SA60-2B | R2-SA60-2C,450x900 | 300x600 | 600x1200 | 900x1800,Y,False,Original PDFs/33.pdf
+691,R2 DIRECTION SERIES,"Right Turn From Left Only Adelaide Metro Buses Only without Times (Approval required for use - refer to Manager, Traffic Services, DPTI)",R2-SA61,300x700,Y,False,Original PDFs/691.pdf
+34,R2 DIRECTION SERIES,"Right Turn From Left Only Adelaide Metro Buses Only with Times (Approval required for use - refer to Manager, Traffic Services, DPTI)",R2-SA62,300x1000,Y,False,Original PDFs/34.pdf
+35,R2 DIRECTION SERIES,No Entry-Emergency & Maintenance Vehicles Excepted Gate X,R2-SA101,900x600,Y,False,Original PDFs/35.pdf
+636,R2 DIRECTION SERIES,Left Turn (Right Turn) Give Way To Pedestrians & Cyclists (Replaces R2-10) ,R2-SA102,750x750,Y,False,Original PDFs/636.pdf
+37,R2 DIRECTION SERIES,No Entry To Busway,R2-SA103A | R2-SA103B | R2-SA103C,600x960 | 750x1200 | 900x1440,Y,False,Original PDFs/37.pdf
+39,R3 PEDESTRIAN SERIES,Pedestrian Crossing ,R3-1A | R3-1B | R3-1C,600x600 | 750x750 | 900x900,N,False,
+40,R3 PEDESTRIAN SERIES,"Safety Zone (ARR-162,190)(Approval required for use - refer to Manager, Traffic Services, DPTI)",R3-2A | R3-2B,450x450 | 600x600,N,False,
+41,R3 PEDESTRIAN SERIES,Children crossing (flag) (ARR-80),R3-3,600x600,N,False,
+43,R3 PEDESTRIAN SERIES,"Pedestrians May Cross Diagonally (L or R) (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-230,234)",R3-5A | R3-5B,90x110 | 300x400,N,False,
+44,R3 PEDESTRIAN SERIES,Koala Pedestrian Crossing . Formerly R4-SA56 (ARR-80),R3-SA56A | R3-SA56B,450x1200 | 600x1600,Y,False,Original PDFs/44.pdf
+1527,R3 PEDESTRIAN SERIES,Children Crossing - 25 When Lights Flashing,R3-SA57A | R3-SA57B,650x1400 | 800x1800,Y,False,Original PDFs/1527.pdf
+45,R3 PEDESTRIAN SERIES,School Zone Speed Limit. Formerly R4-SA58 (ARR-23),R3-SA58A | R3-SA58B,450x1555 | 600x2070,Y,False,Original PDFs/45.pdf
+47,R4 SPEED SERIES,"Speed Restriction (Approval required for use - refer to Manager, Traffic Services Section DIT) (ARR-21,316)",R4-1A | R4-1B | R4-1C | R4-1D,450x600 | 600x800 | 900x1200 | 1200x1600,Y,False,Original PDFs/47.pdf
+49,R4 SPEED SERIES,Roadwork,R4-3A | R4-3B | R4-3C,450x300 | 600x400 | 900x600,N,False,
+50,R4 SPEED SERIES,"Shared Zone (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-24)",R4-4,450x750,N,False,
+51,R4 SPEED SERIES,"End Shared Zone (Approval required for use - refer to Manager, Traffic Services Section of DIT) (ARR-24)",R4-5,450x750,N,False,
+54,R4 SPEED SERIES,"Speed Limit Area  (Approval required for use - refer to Manager, Traffic Services Section of DIT) (ARR-22)",R4-10A | R4-10B,450x750 | 600x1000,N,False,
+55,R4 SPEED SERIES,"End Speed Limit Area (Approval required for use - refer to Manager, Traffic Services Section of DIT) (ARR-22)",R4-11A | R4-11B,450x750 | 600x1000,N,False,
+56,R4 SPEED SERIES,"End Speed Restriction (Approval required for use - refer to Manager, Traffic Services Section of DIT) (ARR-21)",R4-12B | R4-12C,600x1000 | 800x1334,Y,False,Original PDFs/56.pdf
+1472,R4 SPEED SERIES,End Speed Limit Area,R4-13A | R4-13B,450x150 | 600x200,N,False,
+1459,R4 SPEED SERIES,You Are Within A 40 Area,R4-14(Illus.),450x750,Y,False,Original PDFs/1459.pdf
+57,R4 SPEED SERIES,End School Zone Speed Limit (ARR-23),R4-SA59A | R4-SA59B,450x900 | 600x1200,Y,False,Original PDFs/57.pdf
+58,R4 SPEED SERIES,End School Zone (km/h) Area,R4-SA60A | R4-SA60B,450x900 | 600x1200,Y,False,Original PDFs/58.pdf
+1196,R4 SPEED SERIES,"End School Zone - End (km/h) Area (Approval required for use - refer to Manager, Traffic Services, DPTI)",R4-SA61A | R4-SA61B,450x1050 | 600x1400,Y,False,Original PDFs/1196.pdf
+1189,R4 SPEED SERIES,Speed Limit - Line Marking (Use on Vehicle Mounted Frames only for Mobile Work Sites),R4-SA100,1200x450,Y,False,Original PDFs/1189.pdf
+1190,R4 SPEED SERIES,End Speed Limit  (Use on Vehicle Mounted Frames only for Mobile Work Sites),R4-SA101,1200x450,Y,False,Original PDFs/1190.pdf
+1202,R4 SPEED SERIES,Speed Limit - Time Based,R4-SA102,450x650,Y,False,Original PDFs/1202.pdf
+1526,R4 SPEED SERIES,School Speed Limit 40 - Time Based School Days.,R4-SA105A | R4-SA105B,450x1350 | 600x1800,Y,False,Original PDFs/1526.pdf
+1550,R4 SPEED SERIES,End 30 Area - Refer to R4-13,R4-SA109,600x200,Y,False,Original PDFs/1550.pdf
+1556,R4 SPEED SERIES,"R4-SA110 - School Speed Limit, School Days - Time Based",R4-SA110A | R4-SA110B,450x1350 | 600x1800,Y,False,Original PDFs/1556.pdf
+693,R5 PARKING SERIES,"Parking Signs (Refer to Australian Standards for designs) (R5-39 requires approval from Manager, Traffic Services, DPTI)",R5-1,0x0,N,False,
+1151,R5 PARKING SERIES,Event Parking (Generic sign code only),R5-2,225x450,Y,False,Original PDFs/1151.pdf
+1221,R5 PARKING SERIES,Accessible Parking (Generic sign code only),R5-10,225x450,Y,False,Original PDFs/1221.pdf
+1094,R5 PARKING SERIES,Bus Zone,R5-20,225x300,N,False,
+1171,R5 PARKING SERIES,No Standing (with Times) School Days (Generic sign code only),R5-36,225x400,N,False,
+1451,R5 PARKING SERIES,Tow Away Zone (Requires approval from Manager Traffic Services DIT),R5-39A | R5-39B,600x225 | 900x337,Y,False,Original PDFs/1451.pdf
+1152,R5 PARKING SERIES,No Parking - During Stadium Events (Generic sign code only),R5-41,225x450,Y,False,Original PDFs/1152.pdf
+61,R5 PARKING SERIES,"Clearway with one or two time periods periods/days or At All Times (Approval required for use - refer to Manager, Traffic Services, DPTI (ARR-176)",R5-50A | R5-50B,600x800 | 900x1200,N,False,
+62,R5 PARKING SERIES,"End Clearway (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-176) ",R5-51A | R5-51B,600x600 | 900x900,N,False,
+65,R5 PARKING SERIES,"Emergency Stopping Lane Only (L or R) (Approval required for use  - refer to Manager, Traffic Services, DPTI) (ARR-95)",R5-58,1500x1100,N,False,
+66,R5 PARKING SERIES,Parking Area One or two time/day periods (not used on DPTI maintained Rd's),R5-60A | R5-60B,2000x1000 | 3000x1500,N,False,
+67,R5 PARKING SERIES,Parking Area requiring ticket Time and date period (not used on DPTI maintained Rd's),R5-61A | R5-61B,600x900 | 900x1350,N,False,
+68,R5 PARKING SERIES,Parking Area Two time/day periods (not used on DPTI maintained Rd's),R5-62A | R5-62B,450x800 | 600x1065,N,False,
+69,R5 PARKING SERIES,End of Parking Area (not used on DPTI maintained roads) (ARR-335),R5-63A | R5-63B,600x600 | 900x900,N,False,
+633,R5 PARKING SERIES,Area Parking Control Ahead (not used on DPTI maintained Rd's),R5-64A | R5-64B,600x600 | 800x800,N,False,
+634,R5 PARKING SERIES,Park in Bays Only (not used on DPTI maintained Rd's) (ARR-211),R5-65A | R5-65B,450x300 | 600x400,N,False,
+70,R5 PARKING SERIES,No Stopping Area - 2 Times (not used on DPTI maintained Rd's),R5-70A | R5-70B,2000x1000 | 3000x1500,N,False,
+71,R5 PARKING SERIES,No Stopping Area - 1 Time (not used on DPTI maintained Rd's) (ARR-167),R5-71A | R5-71AA | R5-71B,600x800 | 450x600 | 900x1200,Y,False,Original PDFs/71.pdf
+635,R5 PARKING SERIES,No Stopping Area - Internal (not used on DPTI maintained Rd's),R5-72A | R5-72B,450x800 | 600x1065,N,False,
+72,R5 PARKING SERIES,No Stopping Area - End (not used on DPTI maintained Rd's) (ARR-335),R5-73A | R5-73B,450x600 | 600x800,N,False,
+637,R5 PARKING SERIES,No Parking Area - 2 Times (not used on DPTI maintained Rd's),R5-80,2000x1000,N,False,
+73,R5 PARKING SERIES,No Parking Area - 1 Time (not used on DPTI maintained Rd's) (ARR-168),R5-81A | R5-81B | R5-81C,450x600 | 600x800 | 900x1200,N,False,
+638,R5 PARKING SERIES,No Parking - Internal (not used on DPTI maintained Rd's),R5-82A | R5-82B,450x800 | 600x1065,N,False,
+639,R5 PARKING SERIES,End No Parking Area (not used on DPTI maintained Rd's) (ARR-335),R5-83,450x600,N,False,
+1560,R5 PARKING SERIES,R5-SA40L,R5-SA40L,225x300,Y,False,Original PDFs/1560.pdf
+1561,R5 PARKING SERIES,R5-SA40R,R5-SA40R,225x300,Y,False,Original PDFs/1561.pdf
+1562,R5 PARKING SERIES,R5-SA40,R5-SA40,225x300,Y,False,Original PDFs/1562.pdf
+1208,R5 PARKING SERIES,Clearway - One Time Period,R5-SA46-1,225x300,Y,False,Original PDFs/1208.pdf
+1209,R5 PARKING SERIES,Clearway - Two Time Periods,R5-SA46-2,225x450,Y,False,Original PDFs/1209.pdf
+74,R5 PARKING SERIES,Part Time Bus Lane / Parking - One Time Period,R5-SA100-1N,225x600,Y,False,Original PDFs/74.pdf
+75,R5 PARKING SERIES,Part Time Bus Lane / Parking - Two Time Periods,R5-SA100-2N,225x800,Y,False,Original PDFs/75.pdf
+920,R5 PARKING SERIES,Part Time Bus Lane / Parking - One Time Period,R5-SA100-1W,450x450,Y,False,Original PDFs/920.pdf
+1109,R5 PARKING SERIES,Part Time Bus Lane / Parking - Two Time Periods,R5-SA100-2W,450x450,Y,False,Original PDFs/1109.pdf
+77,R5 PARKING SERIES,Part Time Bicycle Lane / Parking - One Time Period,R5-SA101-1N,225x600,Y,False,Original PDFs/77.pdf
+78,R5 PARKING SERIES,Part Time Bicycle Lane / Parking - Two Time Periods,R5-SA101-2N,225x800,Y,False,Original PDFs/78.pdf
+921,R5 PARKING SERIES,Part Time Bicycle Lane / Parking - One Time Period,R5-SA101-1W,450x450,Y,False,Original PDFs/921.pdf
+1110,R5 PARKING SERIES,Part Time Bicycle Lane / Parking - Two Time Periods,R5-SA101-2W,450x450,Y,False,Original PDFs/1110.pdf
+1444,R5 PARKING SERIES,Bicycle Lane - Two time periods,R5-SA102,225x450,Y,False,Original PDFs/1444.pdf
+80,R5 PARKING SERIES,Parking Permitted In This Bay During Clearway Period,R5-SA163,225x300,Y,False,Original PDFs/80.pdf
+81,R5 PARKING SERIES,Parking (any time period) Permitted In This Bay At All Times,R5-SA164,225x300,Y,False,Original PDFs/81.pdf
+82,R5 PARKING SERIES,No Stopping When Lights Flashing,R5-SA165,225x450,Y,False,Original PDFs/82.pdf
+83,R5 PARKING SERIES,X P Trucks Only Times,R5-SA166,225x300,Y,False,Original PDFs/83.pdf
+1085,R5 PARKING SERIES,No Parking / No Stopping - EV Electric Vehicles Excepted,R5-SA167,225x450,Y,False,Original PDFs/1085.pdf
+1548,R5 PARKING SERIES,No Stopping Maintenance Vehicles Excepted,R5-SA168,225x450,Y,False,Original PDFs/1548.pdf
+85,R6 MISCELLANEOUS SERIES,No Overtaking Or Passing (ARR-93),R6-1A | R6-1B,750x900 | 1200x1440,N,False,
+86,R6 MISCELLANEOUS SERIES,No Overtaking On Bridge (ARR-94),R6-2A | R6-2B,750x900 | 1200x1440,N,False,
+87,R6 MISCELLANEOUS SERIES,Bridge Load Limit (t) Gross (ARR-103),R6-3A | R6-3B,600x900 | 900x1350,N,False,
+88,R6 MISCELLANEOUS SERIES,Gross Load Limit (t) (ARR-103),R6-4A | R6-4B,600x900 | 900x1350,N,False,
+90,R6 MISCELLANEOUS SERIES,Stop Here On Red Signal (ARR-56),R6-6A | R6-6B,450x750 | 675x1125,N,False,
+91,R6 MISCELLANEOUS SERIES,"Hand Stop Banner Koala Pedestrian Crossing (double sided) ('AA' size used only at crossings)(ARR-80,101)",R6-7A | R6-7AA | R6-7B,450x450 | 375x375 | 600x600,Y,False,Original PDFs/91.pdf
+92,R6 MISCELLANEOUS SERIES,Stop/Slow Bat (Stop Face) and Stop Railway Gate sign,R6-8A | R6-8B,450x450 | 600x600,N,False,
+93,R6 MISCELLANEOUS SERIES,Stop On Red Signal (ARR-56),R6-9,450x600,N,False,
+94,R6 MISCELLANEOUS SERIES,Buses Prohibited (to enter or travel on a road) (ARR-106),R6-10-1A | R6-10-1B | R6-10-1C,600x600 | 900x900 | 1200x1200,N,False,
+95,R6 MISCELLANEOUS SERIES,Trucks Prohibited (to enter or travel on a road) (ARR-104),R6-10-2A | R6-10-2B | R6-10-2C,600x600 | 900x900 | 1200x1200,N,False,
+96,R6 MISCELLANEOUS SERIES,"The riding of bicycles is prohibited beyond this sign (ARR-239,242,252)",R6-10-3A | R6-10-3B | R6-10-3C | R6-10-3D,450x450 | 600x600 | 750x750 | 900x900,N,False,
+97,R6 MISCELLANEOUS SERIES,Low Clearance (m) (ARR-102),R6-11,1950x600,N,False,
+98,R6 MISCELLANEOUS SERIES,Clearance (m) (ARR-102),R6-12,1500x600,N,False,
+99,R6 MISCELLANEOUS SERIES,"No Pedestrians Bicycles Animals Beyond This Point. Also refer to R6-SA101 (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-97,229)",R6-13,1200x1500,N,False,
+100,R6 MISCELLANEOUS SERIES,Stop Here On Red Arrow (ARR-56),R6-14A | R6-14B,450x750 | 675x1125,N,False,
+101,R6 MISCELLANEOUS SERIES,Pedestrians Prohibited (ARR-228),R6-15A | R6-15B | R6-15M,300x300 | 450x450 | 600x600,N,False,
+102,R6 MISCELLANEOUS SERIES,Low Clearance (m) (Narrow Format),R6-16,1950x180,N,False,
+103,R6 MISCELLANEOUS SERIES,Bridge Load Limit (Per Axle Group) (t) (ARR-103),R6-17,1200x750,N,False,
+104,R6 MISCELLANEOUS SERIES,"Buses Must Enter (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-107)",R6-18A | R6-18B | R6-18C,600x700 | 900x1050 | 1200x1400,N,False,
+105,R6 MISCELLANEOUS SERIES,"Start Freeway Formerly GE6-13 Refer R6-SA108 (Approval required for use - refer to Manager, Traffic Services, DPTI)(ARR-177)",R6-19A | R6-19B,1200x600 | 1800x900,N,False,
+1111,R6 MISCELLANEOUS SERIES,"Freeway Entrance (Approval required for use - refer to Manager, Traffic Services, DPTI)",R6-20A | R6-20B,1200x600 | 1800x900,N,False,
+107,R6 MISCELLANEOUS SERIES,"End Freeway Formerly GE6-11 Refer R6-SA107 (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-97,177)",R6-21A | R6-21B,900x450 | 1800x900,N,False,
+108,R6 MISCELLANEOUS SERIES,"Trucks & Buses Must Use Low Gear (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-108)",R6-22A | R6-22B | R6-22C,1200x1000 | 1400x1200 | 1800x1500,N,False,
+109,R6 MISCELLANEOUS SERIES,"End Truck & Bus Low Gear Area (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-108)",R6-23A | R6-23B,1000x800 | 1500x1200,N,False,
+111,R6 MISCELLANEOUS SERIES,Railway Crossing Position With Target Board Formerly W7-6 Replaced by Rail Auth. ONLY (ARR-120),R6-25 | R6-25C,1350x900 | 1500x1000,Y,False,Original PDFs/111.pdf
+112,R6 MISCELLANEOUS SERIES,Tramway Crossing Position (ARR-120),R6-26,1350x900,N,False,
+113,R6 MISCELLANEOUS SERIES,"Trucks Must Enter (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-105)",R6-27A | R6-27B | R6-27C,600x700 | 900x1050 | 1200x1400,N,False,
+114,R6 MISCELLANEOUS SERIES,"Trucks Use Left Lane (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-159)",R6-28A | R6-28B | R6-28C,900x900 | 1200x1200 | 1800x1800,N,False,
+115,R6 MISCELLANEOUS SERIES,"Keep Left Unless Overtaking Formerly G9-39 (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-130)",R6-29A | R6-29B | R6-29C,1200x600 | 1800x900 | 2400x1200,N,False,
+116,R6 MISCELLANEOUS SERIES,"Median Turning Lane (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-86)",R6-30A | R6-30B,600x1200 | 900x1800,N,False,
+117,R6 MISCELLANEOUS SERIES,Give way to Buses Attached to rear of bus only,R6-31,450x450,N,False,
+118,R6 MISCELLANEOUS SERIES,"End Keep Left Unless Overtaking (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-130)",R6-32,1200x800,N,False,
+1112,R6 MISCELLANEOUS SERIES,Overall Length Limit 'x'm,R6-33,1200x1350,N,False,
+1442,R6 MISCELLANEOUS SERIES,Clearance x.x m,R6-SA12,2100x450,Y,False,Original PDFs/1442.pdf
+1564,R6 MISCELLANEOUS SERIES,"No Pedestrians Bicycles Animals Agricultural Vehicles Beyond This Point. Also refer to R6-SA101 (Approval required for use - refer to Manager, Traffic Services Section of DIT) (ARR-97,229)",R6-SA13,1200x1950,Y,False,Original PDFs/1564.pdf
+119,R6 MISCELLANEOUS SERIES,Fishing From Bridge Prohibited,R6-SA66,900x600,Y,False,Original PDFs/119.pdf
+120,R6 MISCELLANEOUS SERIES,Adelaide Metro Buses Only,R6-SA67,300x300,Y,False,Original PDFs/120.pdf
+677,R6 MISCELLANEOUS SERIES,Adelaide Metro Buses Excepted,R6-SA68,300x300,Y,False,Original PDFs/677.pdf
+121,R6 MISCELLANEOUS SERIES,"No Peds Bicycles Animals Small Wheeled Vehicles Beyond This Point Except In Emergency (ARR-97,229) At Gates only",R6-SA101,300x600,Y,False,Original PDFs/121.pdf
+122,R6 MISCELLANEOUS SERIES,Fishing From Causeway Prohibited,R6-SA102,900x600,Y,False,Original PDFs/122.pdf
+123,R6 MISCELLANEOUS SERIES,"Skaters Permitted (Approval required for use - refer to Manager, Traffic Services, DPTI)",R6-SA103,225x300,Y,False,Original PDFs/123.pdf
+124,R6 MISCELLANEOUS SERIES,"All Skaters Prohibited (Approval required for use - refer to Manager, Traffic Services, DPTI)",R6-SA104,225x300,Y,False,Original PDFs/124.pdf
+125,R6 MISCELLANEOUS SERIES,Next 'x'km (mounted under R6-22),R6-SA105A | R6-SA105AA | R6-SA105B | R6-SA105C,1200x370 | 900x280 | 1440x450 | 1800x560,Y,False,Original PDFs/125.pdf
+641,R6 MISCELLANEOUS SERIES,Next XXXm (mounted under R6-22),R6-SA106A | R6-SA106B | R6-SA106C,1200x370 | 1440x450 | 1800x560,Y,False,Original PDFs/641.pdf
+642,R6 MISCELLANEOUS SERIES,"End Expressway/Freeway (ARR-97,177)",R6-SA107A | R6-SA107B,900x450 | 1800x900,Y,False,Original PDFs/642.pdf
+126,R6 MISCELLANEOUS SERIES,Start Expressway/Freeway (ARR-177),R6-SA108A | R6-SA108B,1200x600 | 1800x900,Y,False,Original PDFs/126.pdf
+1542,R6 MISCELLANEOUS SERIES,End - Wheeled Recreational Devices Not Permitted,R6-SA109A | R6-SA109AA,450x520 | 225x260,Y,False,Original PDFs/1542.pdf
+1543,R6 MISCELLANEOUS SERIES,Wheeled Recreational Devices Not Permitted,R6-SA110A | R6-SA110AA,450x450 | 225x210,Y,False,Original PDFs/1543.pdf
+1555,R6 MISCELLANEOUS SERIES,'Wheeled Recreational Devices Not Permitted On Footpath',R6-SA111A | R6-SA111AA,450x520 | 225x260,Y,False,Original PDFs/1555.pdf
+128,R7 EXCLUSIVE USE LANE SERIES,"Bus Lane (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-154)",R7-1-1C | R7-1-1D | R7-1-1E,600x800 | 900x1200 | 1200x1600,N,False,
+129,R7 EXCLUSIVE USE LANE SERIES,"Truck Lane (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-157)",R7-1-3C | R7-1-3D | R7-1-3E,600x800 | 900x1200 | 1200x1600,N,False,
+130,R7 EXCLUSIVE USE LANE SERIES,"Bicycle Lane (ARR-153,252)",R7-1-4B | R7-1-4C | R7-1-4D,450x600 | 600x800 | 900x1200,N,False,
+131,R7 EXCLUSIVE USE LANE SERIES,"Tram Lane (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-155)",R7-1-5B | R7-1-5C | R7-1-5D,450x600 | 600x800 | 900x1200,Y,False,Original PDFs/131.pdf
+132,R7 EXCLUSIVE USE LANE SERIES,"Bus/Bicycle Lane (Approval required for use - refer to Manager, Traffic Services, DPTI)",R7-1-6C | R7-1-6D | R7-1-6E,600x800 | 900x1200 | 1200x1600,N,False,
+133,R7 EXCLUSIVE USE LANE SERIES,Ahead use with R7-1 only  (Also See R7-SA2),R7-2B | R7-2C | R7-2D | R7-2E,450x150 | 600x200 | 900x300 | 1200x400,N,False,
+630,R7 EXCLUSIVE USE LANE SERIES,Left Lane / Right Lane (L or R) (Use with R7-1 series only),R7-3B | R7-3C | R7-3D | R7-3E,450x300 | 600x400 | 900x600 | 1200x800,N,False,
+134,R7 EXCLUSIVE USE LANE SERIES,End,R7-4A | R7-4B | R7-4C | R7-4D | R7-4E,300x100 | 450x150 | 600x200 | 900x300 | 1200x400,N,False,
+135,R7 EXCLUSIVE USE LANE SERIES,Overhead Arrow  (Use with R7-1 series only),R7-5B | R7-5C | R7-5D | R7-5E,450x300 | 600x400 | 900x600 | 1200x800,N,False,
+136,R7 EXCLUSIVE USE LANE SERIES,Left Lane (Used with R6-11 or R6-12),R7-6-1,1400x400,N,False,
+1133,R7 EXCLUSIVE USE LANE SERIES,Kerb Lane (Used with R6-11 or R6-12),R7-6-2,1400x400,N,False,
+1134,R7 EXCLUSIVE USE LANE SERIES,Centre Lane (Used with R6-11 or R6-12),R7-6-3,1600x400,N,False,
+1135,R7 EXCLUSIVE USE LANE SERIES,This Lane (Used with R6-11 of R6-12),R7-6-4,1600x400,N,False,
+137,R7 EXCLUSIVE USE LANE SERIES,"Transit Lane (T2) (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-156)",R7-7-1C | R7-7-1D | R7-7-1E,600x800 | 900x1200 | 1200x1600,N,False,
+138,R7 EXCLUSIVE USE LANE SERIES,"Transit Lane (T3) (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-156)",R7-7-2C | R7-7-2D | R7-7-2E,600x800 | 900x1200 | 1200x1600,N,False,
+139,R7 EXCLUSIVE USE LANE SERIES,"Bus Only (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-154)",R7-8C | R7-8D | R7-8E,600x800 | 900x1200 | 1200x1600,N,False,
+140,R7 EXCLUSIVE USE LANE SERIES,"End Transit Lane (T2) (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-156)",R7-9-1C | R7-9-1D | R7-9-1E,600x600 | 900x900 | 1200x1200,N,False,
+141,R7 EXCLUSIVE USE LANE SERIES,"End Transit Lane (T3) (Approval required for use - refer to Manager, Traffic Services, DPTI) (ARR-157)",R7-9-2C | R7-9-2D | R7-9-2E,600x600 | 900x900 | 1200x1200,N,False,
+1248,R7 EXCLUSIVE USE LANE SERIES,Tram Only,R7-10C | R7-10D | R7-10E,600x800 | 900x1200 | 1200x1600,N,False,
+1255,R7 EXCLUSIVE USE LANE SERIES,Crossing Arrow - both ways (Use with G9-87-1 & G9-87-2),R7-11-1C | R7-11-1D | R7-11-1E,600x200 | 900x300 | 1200x400,N,False,
+1256,R7 EXCLUSIVE USE LANE SERIES,Crossing Arrow - one way left (Use with G9-87-1 & G9-87-2),R7-11-2C | R7-11-2D | R7-11-2E,600x200 | 900x300 | 1200x400,N,False,
+1257,R7 EXCLUSIVE USE LANE SERIES,Crossing Arrow - one way right (Use with G9-87-1 & G9-87-2),R7-11-3C | R7-11-3D | R7-11-3E,600x200 | 900x300 | 1200x400,N,False,
+695,R7 EXCLUSIVE USE LANE SERIES,Ahead (Also see R7-2),R7-SA2A | R7-SA2B,1650x550 | 1800x600,Y,False,Original PDFs/695.pdf
+1113,R7 EXCLUSIVE USE LANE SERIES,End,R7-SA4,1650x600,Y,False,Original PDFs/1113.pdf
+1149,R7 EXCLUSIVE USE LANE SERIES,'xxx' m Ahead  (For use with R6-22),R7-SA100A | R7-SA100B | R7-SA100C,1200x800 | 1440x960 | 1800x1200,Y,False,Original PDFs/1149.pdf
+143,R8 BICYCLE/PEDESTRIAN SERIES,"Bicycle Path Only (ARR-239,242,252)",R8-1A | R8-1B | R8-1C,300x400 | 450x600 | 600x800,N,False,
+144,R8 BICYCLE/PEDESTRIAN SERIES,"Shared Path (ARR-242,252)",R8-2A | R8-2B | R8-2C,300x400 | 450x600 | 600x800,N,False,
+145,R8 BICYCLE/PEDESTRIAN SERIES,"Separated Path (L or R) (left shown) (ARR-239,252)",R8-3A | R8-3B | R8-3C,300x300 | 450x450 | 600x600,N,False,
+947,R8 BICYCLE/PEDESTRIAN SERIES,Pedestrian Cyclist and Horses,R8-SA100,300x675,Y,False,Original PDFs/947.pdf
+147,R9 AUXILIARY REGULATORY SERIES,Times of operation module - single time period,R9-1-1A | R9-1-1AA | R9-1-1B | R9-1-1C | R9-1-1D,450x300 | 300x200 | 600x450 | 900x600 | 1200x800,Y,False,Original PDFs/147.pdf
+148,R9 AUXILIARY REGULATORY SERIES,Times of operation Module - two time periods,R9-1-2A | R9-1-2AA | R9-1-2B | R9-1-2C | R9-1-2D,450x450 | 300x300 | 600x600 | 900x900 | 1200x1200,Y,False,Original PDFs/148.pdf
+149,R9 AUXILIARY REGULATORY SERIES,At All Times (Use of this sign is restricted see AS1742.12),R9-1-3B | R9-1-3C | R9-1-3D,600x400 | 900x600 | 1200x800,N,False,
+150,R9 AUXILIARY REGULATORY SERIES,Buses Excepted (Use with R2-9),R9-2A | R9-2AA | R9-2B | R9-2C,450x300 | 300x200 | 600x400 | 750x500,Y,False,Original PDFs/150.pdf
+151,R9 AUXILIARY REGULATORY SERIES,Bicycles Excepted (Use with R2-9),R9-3A | R9-3AA | R9-3B | R9-3C | R9-3D,450x300 | 300x200 | 600x400 | 750x500 | 1500x300,Y,False,Original PDFs/151.pdf
+152,R9 AUXILIARY REGULATORY SERIES,Authorised Authorized Vehicles Excepted (application Road Traffic Act Regulations ONLY),R9-4A | R9-4B | R9-4C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/152.pdf
+153,R9 AUXILIARY REGULATORY SERIES,On Freeway,R9-5C | R9-5D,750x375 | 900x450,N,False,
+154,R9 AUXILIARY REGULATORY SERIES,Next 'x' m (One Line),R9-6-1A | R9-6-1B | R9-6-1C,750x150 | 1000x200 | 1200x240,N,False,
+1114,R9 AUXILIARY REGULATORY SERIES,Next 'x' m (Two Lines),R9-6-2A | R9-6-2B | R9-6-2C,450x300 | 600x400 | 750x500,N,False,
+948,R9 AUXILIARY REGULATORY SERIES,Next 'x' km (One Line),R9-7-1A | R9-7-1B | R9-7-1C,750x150 | 1000x200 | 1200x240,N,False,
+1115,R9 AUXILIARY REGULATORY SERIES,Next 'x' km (Two Lines),R9-7-2A | R9-7-2B | R9-7-2C,450x300 | 600x400 | 750x500,N,False,
+1116,R9 AUXILIARY REGULATORY SERIES,AT (Street Name) (formerly R9-SA53-1),R9-8A | R9-8B | R9-8C,450x450 | 600x600 | 750x750,N,False,
+1018,R9 AUXILIARY REGULATORY SERIES,One Lane,R9-9A | R9-9B,600x400 | 750x500,N,False,
+1249,R9 AUXILIARY REGULATORY SERIES,Over 'xx' t GVM,R9-10A | R9-10B | R9-10C,600x400 | 900x600 | 1200x800,N,False,
+1533,R9 AUXILIARY REGULATORY SERIES,Over xxm Long,R9-11-2A | R9-11-2AA | R9-11-2B | R9-11-2C,600x400 | 450x300 | 900x600 | 1200x800,N,False,
+1534,R9 AUXILIARY REGULATORY SERIES,Vehicles Over xxm Long,R9-11-1A | R9-11-1B(Illust.) | R9-11-1C | R9-11-1D,450x375 | 600x500 | 900x750 | 1200x1000,N,False,
+1445,R9 AUXILIARY REGULATORY SERIES,On Ramp,R9-17B | R9-17C,600x400 | 900x600,N,False,
+1520,R9 AUXILIARY REGULATORY SERIES,Regulatory,R9-19A | R9-19B | R9-19C,750x625 | 900x750 | 1050x875,N,False,
+155,R9 AUXILIARY REGULATORY SERIES,Police Vehicles Excepted,R9-SA50A | R9-SA50B | R9-SA50C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/155.pdf
+156,R9 AUXILIARY REGULATORY SERIES,Ambulances Excepted,R9-SA51A | R9-SA51B | R9-SA51C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/156.pdf
+157,R9 AUXILIARY REGULATORY SERIES,High Vehicles Excepted,R9-SA52A | R9-SA52B | R9-SA52C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/157.pdf
+159,R9 AUXILIARY REGULATORY SERIES,"AT - (Three lines-name of road ) install in advance of intersection with R2-5, R2-6, R2-7, R2-9 only",R9-SA53-2A | R9-SA53-2B | R9-SA53-2C,450x450 | 600x600 | 750x750,Y,False,Original PDFs/159.pdf
+160,R9 AUXILIARY REGULATORY SERIES,Emergency and Maintenance Vehicles Excepted (application Road Traffic Act Regulations ONLY),R9-SA54A | R9-SA54B | R9-SA54C,450x450 | 600x600 | 750x750,Y,False,Original PDFs/160.pdf
+161,R9 AUXILIARY REGULATORY SERIES,"TO - (Three lines-name of road) installed at intersection with R2-5,R2-6, R2-7, R2-9 only",R9-SA55-2A | R9-SA55-2B | R9-SA55-2C,450x450 | 600x600 | 750x750,Y,False,Original PDFs/161.pdf
+640,R9 AUXILIARY REGULATORY SERIES,"TO - (Two lines - name of road) installed at intersection with R2-5, R2-6, R2-7, R2-9 only",R9-SA55-1A | R9-SA55-1B | R9-SA55-1C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/640.pdf
+162,R9 AUXILIARY REGULATORY SERIES,Sat - Sun,R9-SA56,450x150,Y,False,Original PDFs/162.pdf
+696,R9 AUXILIARY REGULATORY SERIES,Dual Times School Days,R9-SA57A | R9-SA57B | R9-SA57C | R9-SA57D,450x450 | 600x600 | 900x900 | 1200x1200,Y,False,Original PDFs/696.pdf
+163,R9 AUXILIARY REGULATORY SERIES,Busway Buses Excepted,R9-SA101A | R9-SA101B | R9-SA101C | R9-SA101D,450x300 | 600x400 | 750x500 | 900x600,Y,False,Original PDFs/163.pdf
+164,R9 AUXILIARY REGULATORY SERIES,Emergency Vehicles Excepted,R9-SA102A | R9-SA102B | R9-SA102C,450x300 | 600x400 | 900x600,Y,False,Original PDFs/164.pdf
+165,R9 AUXILIARY REGULATORY SERIES,Fuel Tankers Excepted,R9-SA103A | R9-SA103B,450x300 | 600x400,Y,False,Original PDFs/165.pdf
+166,R9 AUXILIARY REGULATORY SERIES,Trams Excepted,R9-SA104A | R9-SA104B | R9-SA104C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/166.pdf
+167,R9 AUXILIARY REGULATORY SERIES,Local Delivery or Pickup Excepted (Use only with R6-10-2) (Refer to Manger Traffic Services Section of DIT before use),R9-SA105A | R9-SA105B | R9-SA105C,600x500 | 900x750 | 1200x1000,Y,False,Original PDFs/167.pdf
+676,R9 AUXILIARY REGULATORY SERIES,"Over XX.X t (Only use with R6-28) (Approval required for use - refer to Manager, Traffic Services, DPTI)",R9-SA106B | R9-SA106C,1200x700 | 1800x1050,Y,False,Original PDFs/676.pdf
+655,R9 AUXILIARY REGULATORY SERIES,"On green arrow (only to be used with R2-15)(Approval required for use - refer to Manager, Traffic Services, DPTI)",R9-SA107A | R9-SA107B,450x600 | 600x800,Y,False,Original PDFs/655.pdf
+1175,R9 AUXILIARY REGULATORY SERIES,Bus Lane Vehicles Excepted (Refer to Manager Traffic Services Section of DIT before use) (ARR-154),R9-SA108A | R9-SA108B,450x450 | 600x600,Y,False,Original PDFs/1175.pdf
+1288,R9 AUXILIARY REGULATORY SERIES,Heavy Vehicles Excepted,R9-SA109A | R9-SA109B | R9-SA109C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/1288.pdf
+1185,R9 AUXILIARY REGULATORY SERIES,Hook Turn Excepted,R9-SA110A | R9-SA110B,450x300 | 600x400,Y,False,Original PDFs/1185.pdf
+1210,R9 AUXILIARY REGULATORY SERIES,Garbage Trucks Excepted,R9-SA111A | R9-SA111B | R9-SA111C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/1210.pdf
+1441,R9 AUXILIARY REGULATORY SERIES,Trucks Excepted,R9-SA113A | R9-SA113B | R9-SA113C,450x300 | 600x400 | 750x500,Y,False,Original PDFs/1441.pdf
+1563,R9 AUXILIARY REGULATORY SERIES,"At All Times - (Approval required for use - refer to Manager, Traffic Services Section of DIT)",R9-SA114-A,450x300,Y,False,Original PDFs/1563.pdf
+1104,RM2 DIRECTION SERIES,Give Way (Multi-Message Sign ONLY),RM1-2A,600x600,Y,False,Original PDFs/1104.pdf
+962,RM2 DIRECTION SERIES,No Entry (Multi-Message Sign ONLY),RM2-4A,600x600,Y,False,Original PDFs/962.pdf
+963,RM2 DIRECTION SERIES,No Left Turn / No Right Turn (Multi-Message Sign ONLY),RM2-6A,600x600,Y,False,Original PDFs/963.pdf
+1313,RM2 DIRECTION SERIES,All Traffic Turn (Multi-Message Sign ONLY),RM2-14A,600x600,N,False,
+959,RM4 SPEED SERIES,Speed Restriction (Multi-Message Sign ONLY),RM4-1A,600x600,Y,False,Original PDFs/959.pdf
+960,RM4 SPEED SERIES,End Speed Limit (Multi-Message Sign ONLY),RM4-12D,600x900,Y,False,Original PDFs/960.pdf
+1536,RM4 SPEED SERIES,End Speed Limit (Multi-Message Sign ONLY),RM4-SA12A,600x600,Y,False,Original PDFs/1536.pdf
+1102,RM6 MISCELLANEOUS SERIES,No Overtaking Or Passing (Multi-Message Sign ONLY),RM6-1C,1200x600,Y,False,Original PDFs/1102.pdf
+1311,RM6 MISCELLANEOUS SERIES,Stop Here On Red Signal (Multi-Message Sign ONLY),RM6-6C,1200x600,N,False,
+1103,RM9 AUXILLARY REGULATORY SERIES,One Lane (Multi-Message Sign ONLY),RM9-9A,600x600,Y,False,Original PDFs/1103.pdf
+1279,RM9 AUXILLARY REGULATORY SERIES,Buses Excepted (Multi-Message Sign ONLY),RM9-SA2A,600x600,Y,False,Original PDFs/1279.pdf
+1179,RM9 AUXILLARY REGULATORY SERIES,Heavy Vehicles Excepted (Multi-Message Sign ONLY),RM9-SA109A,600x600,Y,False,Original PDFs/1179.pdf
+1549,RM9 AUXILLARY REGULATORY SERIES,Construction Vehicles Excepted (Multi-Message Sign ONLY),RM9-SA110A,600x600,Y,False,Original PDFs/1549.pdf
+1523,OTHER,Railway Crossing Width Marker Assembly - G9-32 G9-33 D4-3(L) D4-3(R),RX-9,2550x900,N,False,
+596,SYMBOL SERIES,12 hour Casualty Service Symbol (Hospital),S1-H,350x350,Y,False,Original PDFs/596.pdf
+1126,SYMBOL SERIES,12 hour Casualty Service Symbol (First Aid),S1-F,350x350,Y,False,Original PDFs/1126.pdf
+1127,SYMBOL SERIES,12 hour Casualty Service Symbol (Clinic),S1-C,350x350,Y,False,Original PDFs/1127.pdf
+597,SYMBOL SERIES,Phone (Public) Symbol,S2,280x350,N,False,
+598,SYMBOL SERIES,Petrol Symbol - open for at least 12 hrs (Refer to S126 for 24 hr fuel),S3,350x350,N,False,
+599,SYMBOL SERIES,Information Symbol (White I)- Not for accredited Visitor Information Centres. (Refer to Traffic Operations Section of DPTI),S4,280x350,N,False,
+600,SYMBOL SERIES,Restaurant Symbol,S5,280x350,N,False,
+601,SYMBOL SERIES,Accommodation Symbol,S6,420x350,N,False,
+602,SYMBOL SERIES,Refreshment Symbol,S7,420x350,N,False,
+603,SYMBOL SERIES,Camping Area Symbol,S8,420x350,N,False,
+604,SYMBOL SERIES,Caravan Park Symbol,S9,420x350,N,False,
+606,SYMBOL SERIES,Airfield Symbol (L or R or through),S11,350x350,N,False,
+607,SYMBOL SERIES,Rest Area Symbol,S12,350x350,N,False,
+608,SYMBOL SERIES,Truck Parking Area Symbol,S13,420x350,N,False,
+609,SYMBOL SERIES,Parking Symbol,S14,350x350,N,False,
+611,SYMBOL SERIES,Toilet Symbol,S16,350x350,N,False,
+612,SYMBOL SERIES,Fireplace Symbol (see S113 barbecue symbol),S18,420x350,N,False,
+614,SYMBOL SERIES,Drinking Water Symbol,S20,280x350,N,False,
+615,SYMBOL SERIES,Boat Ramp Symbol,S21,420x350,N,False,
+616,SYMBOL SERIES,Disabled Access Symbol,S22,280x350,N,False,
+617,SYMBOL SERIES,No Truck Parking Symbol (Formerly S108),S23,350x350,N,False,
+618,SYMBOL SERIES,Police Symbol (Formerly S101),S24,350x350,N,False,
+619,SYMBOL SERIES,Help Phone Symbol (Formerly S127),S25,420x350,N,False,
+792,SYMBOL SERIES,Caravan Dump Point Symbol (Refer to Traffic Operations Section  of DPTI) (Formerly S142),S26,350x350,Y,False,Original PDFs/792.pdf
+624,SYMBOL SERIES,Information Bay Symbol  (Formerly S124),S27,350x350,Y,False,Original PDFs/624.pdf
+798,SYMBOL SERIES,Public Golf Course Symbol (Refer to Traffic Operations Section of DPTI) (Formerly TS145),S28,350x350,Y,False,Original PDFs/798.pdf
+620,SYMBOL SERIES,Airport / Name Symbol(L or R or Through),S109,350x350,Y,False,Original PDFs/620.pdf
+672,SYMBOL SERIES,24 Hr Emergency Service Symbol (Hospital),S110,350x350,Y,False,Original PDFs/672.pdf
+621,SYMBOL SERIES,Accommodation Symbol (B&B),S112-B,420x350,Y,False,Original PDFs/621.pdf
+1129,SYMBOL SERIES,Accommodation Symbol (Motel),S112-M,420x350,Y,False,Original PDFs/1129.pdf
+1130,SYMBOL SERIES,Accommodation Symbol (Hotel),S112-HOT,420x350,Y,False,Original PDFs/1130.pdf
+1131,SYMBOL SERIES,Accommodation Symbol (Hostel),S112-HOS,420x350,Y,False,Original PDFs/1131.pdf
+1132,SYMBOL SERIES,Accommodation Symbol (Cabins),S112-C,420x350,Y,False,Original PDFs/1132.pdf
+1246,SYMBOL SERIES,Barbecue Symbol,S113,350x350,Y,False,Original PDFs/1246.pdf
+622,SYMBOL SERIES,Accredited Visitor Information Centre Symbol - ONLY Golden 'i'. (Refer to Traffic Operations Section of DPTI),S114,350x350,Y,False,Original PDFs/622.pdf
+786,SYMBOL SERIES,Bus (Refer to Traffic Operations Section of DPTI),S117,350x350,N,False,
+623,SYMBOL SERIES,Park 'n' Ride (bus),S118,420x350,Y,False,Original PDFs/623.pdf
+787,SYMBOL SERIES,Hook Turn Symbol (for R2-21s),S119,420x420,N,False,
+788,SYMBOL SERIES,Road Train Symbol (Refer to Traffic Operations Section  of DPTI),S120,1960x350,Y,False,Original PDFs/788.pdf
+789,SYMBOL SERIES,Car Towing Caravan Symbol (Refer to Traffic Operations Section  of DPTI),S125,1400x350,Y,False,Original PDFs/789.pdf
+625,SYMBOL SERIES,24 hr Fuel Symbol,S126,350x350,Y,False,Original PDFs/625.pdf
+626,SYMBOL SERIES,Ferry or Ferries Symbol (Coastal Waters),S137,1190x350,Y,False,Original PDFs/626.pdf
+790,SYMBOL SERIES,Interstate Bus Terminal Symbol (Refer to Traffic Operations Section  of DPTI),S138,420x350,Y,False,Original PDFs/790.pdf
+791,SYMBOL SERIES,Interstate Train Terminal Symbol (Refer to Traffic Operations Section of DPTI),S139,420x350,Y,False,Original PDFs/791.pdf
+882,SYMBOL SERIES,Train / Tram Station Symbol,S140,280x350,Y,False,Original PDFs/882.pdf
+883,SYMBOL SERIES,Park 'n' Ride (train),S141,420x350,Y,False,Original PDFs/883.pdf
+910,SYMBOL SERIES,Disabled Parking Symbol,S143,420x350,Y,False,Original PDFs/910.pdf
+924,SYMBOL SERIES,Train & Bus Station Parking Symbol,S144,420x350,Y,False,Original PDFs/924.pdf
+629,SYMBOL SERIES,EV Electric Vehicle Charging - For use at rapid charging facilities with min 50 kW in urban areas and 75 kW in rural areas.,S148,350x350,Y,False,Original PDFs/629.pdf
+499,T1 ADVANCE SERIES,Roadwork Ahead,T1-1A | T1-1B,1800x600 | 2400x900,N,False,
+500,T1 ADVANCE SERIES,Bridgework Ahead,T1-2A,1800x600,N,False,
+501,T1 ADVANCE SERIES,Road Plant Ahead (3 lines),T1-3-1A,900x600,N,False,
+502,T1 ADVANCE SERIES,Road Plant Ahead (2 lines),T1-3-2B,1800x600,N,False,
+503,T1 ADVANCE SERIES,Grader Ahead,T1-4A,900x600,N,False,
+504,T1 ADVANCE SERIES,Workers (Symbolic),T1-5A | T1-5B,900x600 | 1200x900,N,False,
+505,T1 ADVANCE SERIES,Detour Ahead,T1-6A | T1-6B,1200x600 | 1800x900,N,False,
+506,T1 ADVANCE SERIES,Traffic Hazard,T1-10,1200x600,N,False,
+509,T1 ADVANCE SERIES,Roadwork 'x' km Ahead,T1-16A | T1-16B,1800x600 | 2400x900,N,False,
+510,T1 ADVANCE SERIES,Prepare To Stop,T1-18A | T1-18B,900x600 | 1200x900,N,False,
+511,T1 ADVANCE SERIES,(Symbolic) Stock Ahead (Not to be used in S.A. -  refer to TES6396),T1-19A | T1-19B,900x600 | 1200x900,N,False,
+512,T1 ADVANCE SERIES,New Roundabout,T1-21,1800x600,N,False,
+513,T1 ADVANCE SERIES,Changed Signals,T1-22,1200x600,N,False,
+514,T1 ADVANCE SERIES,Changed Traffic Conditions (Install for 3 Months max),T1-23 | T1-23AA,1800x900 | 1200x750,Y,False,Original PDFs/514.pdf
+515,T1 ADVANCE SERIES,Roadwork Next 'x' km,T1-24A | T1-24B,1800x600 | 2400x900,N,False,
+516,T1 ADVANCE SERIES,Roadwork On Side Road,T1-25 | T1-25AA,1800x600 | 900x900,Y,False,Original PDFs/516.pdf
+518,T1 ADVANCE SERIES,Road Plant On Side Road,T1-27,1800x600,N,False,
+519,T1 ADVANCE SERIES,Next 'x' km,T1-28A | T1-28B,600x600 | 900x900,N,False,
+520,T1 ADVANCE SERIES,Bridgework 'x' km Ahead,T1-29,1800x600,N,False,
+521,T1 ADVANCE SERIES,Signals Ahead (Symbolic),T1-30,900x600,N,False,
+522,T1 ADVANCE SERIES,Roadwork Ahead (3 lines),T1-31 | T1-31AA,900x1200 | 600x800,Y,False,Original PDFs/522.pdf
+1224,T1 ADVANCE SERIES,Side Road Closed,T1-32AA,600x800,Y,False,Original PDFs/1224.pdf
+866,T1 ADVANCE SERIES,Side Road Closed,T1-32,1500x600,N,False,
+1163,T1 ADVANCE SERIES,Changed Intersection  (Install for 3 months max),T1-33,1800x600,N,False,
+867,T1 ADVANCE SERIES,Traffic Controller (Symbolic),T1-34A | T1-34B,900x600 | 1200x900,N,False,
+1308,T1 ADVANCE SERIES,Stop Here When Directed,T1-35A | T1-35B,900x600 | 1200x900,N,False,
+751,T1 ADVANCE SERIES,Bridgework Ahead (3 lines narrow format),T1-SA2,900x1200,Y,False,Original PDFs/751.pdf
+1293,T1 ADVANCE SERIES,Workers (Symbolic),T1-SA5,600x800,Y,False,Original PDFs/1293.pdf
+507,T1 ADVANCE SERIES,Traffic Accident Ahead,T1-SA11,1200x900,Y,False,Original PDFs/507.pdf
+1211,T1 ADVANCE SERIES,Changed Traffic Conditions (Install for 3 Months max,T1-SA23A | T1-SA23AA | T1-SA23B | T1-SA23C | T1-SA23D,450x300 | 300x200 | 600x400 | 750x500 | 900x600,Y,False,Original PDFs/1211.pdf
+517,T1 ADVANCE SERIES,Road Plant Next 'x' km,T1-SA26,1800x600,Y,False,Original PDFs/517.pdf
+523,T1 ADVANCE SERIES,Fuel Spill Ahead,T1-SA50,1200x900,Y,False,Original PDFs/523.pdf
+657,T1 ADVANCE SERIES,Event Ahead [Reduce Speed],T1-SA51,1500x900,Y,False,Original PDFs/657.pdf
+524,T1 ADVANCE SERIES,Grader Ahead Rocks On Road Next 'x' km,T1-SA66A,900x600,Y,False,Original PDFs/524.pdf
+525,T1 ADVANCE SERIES,Event Ahead,T1-SA67A | T1-SA67B | T1-SA67C | T1-SA67D,450x300 | 600x400 | 800x500 | 1200x750,Y,False,Original PDFs/525.pdf
+526,T1 ADVANCE SERIES,Next 'x' km,T1-SA102,1200x300,Y,False,Original PDFs/526.pdf
+527,T1 ADVANCE SERIES,Speed Limit Changed Ahead (3 lines),T1-SA103A | T1-SA103B,1200x750 | 1800x1170,Y,False,Original PDFs/527.pdf
+528,T1 ADVANCE SERIES,Speed Limit / Changed Ahead hinged,T1-SA104A | T1-SA104B,1200x600 | 1500x750,Y,False,Original PDFs/528.pdf
+529,T1 ADVANCE SERIES,Advance Notice Traffic Signals Switch On (time and date),T1-SA105,1500x900,Y,False,Original PDFs/529.pdf
+530,T1 ADVANCE SERIES,Event Ahead Speed Limit Changed (optionally hinged),T1-SA106,1200x900,Y,False,Original PDFs/530.pdf
+531,T1 ADVANCE SERIES,Speed Limit Changed to be used with R4-1 or R4-10 ONLY (maximum use 2 months. If a longer time is required refer to Tech. Services),T1-SA109A | T1-SA109B | T1-SA109C,450x450 | 600x600 | 900x900,Y,False,Original PDFs/531.pdf
+532,T1 ADVANCE SERIES,Heavy Vehicle Detour Ahead,T1-SA112,900x600,Y,False,Original PDFs/532.pdf
+533,T1 ADVANCE SERIES,Heavy Vehicle Detour (variable direction arrows),T1-SA113,900x600,Y,False,Original PDFs/533.pdf
+534,T1 ADVANCE SERIES,Detour For Heavy Vehicles (L or R),T1-SA114,2100x600,Y,False,Original PDFs/534.pdf
+537,T1 ADVANCE SERIES,Signals Not Operating (Refer OI 3.16),T1-SA116A | T1-SA116B,750x600 | 900x720,Y,False,Original PDFs/537.pdf
+536,T1 ADVANCE SERIES,Caution Vehicle Frequently Stopping (Vehicle Mounted sign),T1-SA117,1350x750,Y,False,Original PDFs/536.pdf
+535,T1 ADVANCE SERIES,Signals Not Operating (used at pedestrian facility Refer OI 3.16),T1-SA118,160x210,Y,False,Original PDFs/535.pdf
+538,T1 ADVANCE SERIES,Signals Operating Ahead,T1-SA119A | T1-SA119B,900x675 | 1200x900,Y,False,Original PDFs/538.pdf
+539,T1 ADVANCE SERIES,Workers With Speed Limit 25,T1-SA120A | T1-SA120B,1200x600 | 1800x900,Y,False,Original PDFs/539.pdf
+760,T1 ADVANCE SERIES,Narrow Lanes Over Bridge,T1-SA121,1200x900,Y,False,Original PDFs/760.pdf
+833,T1 ADVANCE SERIES,Left Lane Ends 'x' km Ahead,T1-SA122,1200x750,Y,False,Original PDFs/833.pdf
+834,T1 ADVANCE SERIES,'x' km Ahead (used with T2-6-1),T1-SA123,1200x300,Y,False,Original PDFs/834.pdf
+1225,T1 ADVANCE SERIES,Road Closed Ahead,T1-SA134,600x800,Y,False,Original PDFs/1225.pdf
+1207,T1 ADVANCE SERIES,Linemarking Changed Ahead,T1-SA143,1200x750,Y,False,Original PDFs/1207.pdf
+1227,T1 ADVANCE SERIES,Tram Works Ahead (advice to tram drivers only),T1-SA144,600x800,Y,False,Original PDFs/1227.pdf
+541,T2 POSITION SERIES,Road Closed (previously black/yellow - may be used until 31 December 2021),T2-4,1800x300,N,False,
+542,T2 POSITION SERIES,Lane Status (2 Lanes),T2-6-1A | T2-6-1B,1200x900 | 1800x1200,N,False,
+543,T2 POSITION SERIES,Lane Status (3 Lanes),T2-6-2A | T2-6-2B,1800x900 | 2400x1200,N,False,
+544,T2 POSITION SERIES,4 Lanes Status,T2-6-SA3,1800x900,Y,False,Original PDFs/544.pdf
+545,T2 POSITION SERIES,2 Lane Status (reverse curve),T2-6-SA101,1200x900,Y,False,Original PDFs/545.pdf
+546,T2 POSITION SERIES,3 Lane Status (2 reverse curves),T2-6-SA102,1800x900,Y,False,Original PDFs/546.pdf
+547,T2 POSITION SERIES,3 Lane Status,T2-6-SA103,1800x900,Y,False,Original PDFs/547.pdf
+548,T2 POSITION SERIES,3 Lanes Status,T2-6-SA104,1800x900,Y,False,Original PDFs/548.pdf
+549,T2 POSITION SERIES,Lane Status Left Lanes Blocked Right Thru Median,T2-6-SA106,1200x900,Y,False,Original PDFs/549.pdf
+550,T2 POSITION SERIES,3 Lane Status (With Right Turn),T2-6-SA107,1800x900,Y,False,Original PDFs/550.pdf
+551,T2 POSITION SERIES,3 Lane Status (narrow format),T2-6-SA108,900x900,Y,False,Original PDFs/551.pdf
+552,T2 POSITION SERIES,2 Lane Status (narrow format),T2-6-SA109,900x900,Y,False,Original PDFs/552.pdf
+761,T2 POSITION SERIES,3 Lane Status (2 Reverse curves thru median),T2-6-SA110,1200x1350,Y,False,Original PDFs/761.pdf
+1167,T2 POSITION SERIES,2 Lane Status (with right turn),T2-6-SA117,1200x900,Y,False,Original PDFs/1167.pdf
+1168,T2 POSITION SERIES,4 Lane Status (with left / right turns),T2-6-SA118,1500x900,Y,False,Original PDFs/1168.pdf
+1177,T2 POSITION SERIES,2 Lanes Status,T2-6-SA119,1800x900,Y,False,Original PDFs/1177.pdf
+1242,T2 POSITION SERIES,4 lanes status,T2-6-SA120,1500x900,Y,False,Original PDFs/1242.pdf
+553,T2 POSITION SERIES,Water Over Road,T2-13A | T2-13B,900x600 | 1200x900,N,False,
+554,T2 POSITION SERIES,End Roadwork (2 line),T2-16A,1800x600,N,False,
+555,T2 POSITION SERIES,End Roadwork (3 lines),T2-17A | T2-17AA,900x1200 | 600x800,Y,False,Original PDFs/555.pdf
+557,T2 POSITION SERIES,End Detour,T2-23,1200x600,N,False,
+558,T2 POSITION SERIES,Two Way Traffic (Symbolic) ,T2-24,900x600,N,False,
+559,T2 POSITION SERIES, Trucks ( Crossing or Entering)(Symbolic),T2-25,900x600,N,False,
+560,T2 POSITION SERIES,End Bridgework (3 lines),T2-SA54,900x1200,Y,False,Original PDFs/560.pdf
+561,T2 POSITION SERIES,Track Closed,T2-SA101,1350x600,Y,False,Original PDFs/561.pdf
+765,T2 POSITION SERIES,Bridge Closed,T2-SA102,1800x300,Y,False,Original PDFs/765.pdf
+766,T2 POSITION SERIES,Bridgework on Side Road (3 lines),T2-SA103,900x900,Y,False,Original PDFs/766.pdf
+1228,T2 POSITION SERIES,End Event,T2-SA104A | T2-SA104B,450x300 | 600x400,Y,False,Original PDFs/1228.pdf
+1462,T2 POSITION SERIES,Do not queue over driveways,T2-SA105A,600x600,Y,False,Original PDFs/1462.pdf
+1471,T2 POSITION SERIES,Bridge Closed,T2-SA106,1200x300,Y,False,Original PDFs/1471.pdf
+1193,T2 POSITION SERIES,Farm Machinery,T2-SA109,900x600,Y,False,Original PDFs/1193.pdf
+564,T3 ROAD CONDITION SERIES,Slippery (Symbolic),T3-3A | T3-3B,900x600 | 1500x900,N,False,
+565,T3 ROAD CONDITION SERIES,Soft Edges,T3-6A | T3-6B,900x600 | 1500x900,N,False,
+566,T3 ROAD CONDITION SERIES,Rough Surface,T3-7A | T3-7B,900x600 | 1500x900,N,False,
+567,T3 ROAD CONDITION SERIES,Loose Stones (Symbolic),T3-9A | T3-9B,900x600 | 1500x900,N,False,
+568,T3 ROAD CONDITION SERIES,New Work No Lines Marked,T3-11,1500x900,N,False,
+569,T3 ROAD CONDITION SERIES,No Lines Do Not Overtake Unless Safe,T3-12,1500x900,N,False,
+570,T3 ROAD CONDITION SERIES,Gravel Road,T3-13A | T3-13B,900x600 | 1500x900,N,False,
+571,T3 ROAD CONDITION SERIES,Loose Surface,T3-14A | T3-14B,900x600 | 1500x900,N,False,
+572,T3 ROAD CONDITION SERIES,Bicycle Path Rough Surface,T3-15,600x450,N,False,
+1164,T3 ROAD CONDITION SERIES,Advisory Speed 'xx' km/h (2 line),T3-16-1A | T3-16-1B,600x600 | 900x900,N,False,
+1165,T3 ROAD CONDITION SERIES,Advisory Speed 'xx' km/h (1 line),T3-16-2A | T3-16-2B,900x400 | 1500x600,N,False,
+575,T4 SPECIAL HAZARD SERIES,End Blasting Area,T4-3A | T4-3AA,1800x600 | 1200x450,N,False,
+576,T4 SPECIAL HAZARD SERIES,Powerline Works In Progress,T4-5,1800x900,N,False,
+577,T4 SPECIAL HAZARD SERIES,Smoke Hazard,T4-6A | T4-6B,900x600 | 1200x900,N,False,
+574,T4 SPECIAL HAZARD SERIES,Blasting Area Switch Off Radio Transmitters And Mobile Phones,T4-7,1200x900,N,False,
+1440,T4 SPECIAL HAZARD SERIES,Vertical Chevron Marker (Temporary),T4-SA101,150x900,Y,False,Original PDFs/1440.pdf
+1229,T4 SPECIAL HAZARD SERIES,Road Plates in Use,T4-SA108,600x800,Y,False,Original PDFs/1229.pdf
+1467,T4 SPECIAL HAZARD SERIES,Rat Collection Point,T4-SA109,1200x930,Y,False,Original PDFs/1467.pdf
+579,T5 TRAFFIC DIVERSION SERIES,Detour >  (L or R or S),T5-1A | T5-1B,1200x300 | 1800x450,N,False,
+581,T5 TRAFFIC DIVERSION SERIES,Temporary Hazard Marker,T5-4,1500x450,N,False,
+580,T5 TRAFFIC DIVERSION SERIES,Temporary Hazard Marker,T5-5,600x600,N,False,
+583,T5 TRAFFIC DIVERSION SERIES,"Detour Marker (L, R or S)",T5-6,600x600,N,False,
+1323,T5 TRAFFIC DIVERSION SERIES,Temporary Hazard Marker,T5-7,250x1200,N,False,
+582,T5 TRAFFIC DIVERSION SERIES,Bi-directional Temporary Hazard Marker,T5-SA5,1200x600,Y,False,Original PDFs/582.pdf
+585,T5 TRAFFIC DIVERSION SERIES,Temporary Post Mounted Delineator for Star Dropper,T5-SA52,125x170,Y,False,Original PDFs/585.pdf
+1448,T5 TRAFFIC DIVERSION SERIES,Driveway Access ,T5-SA101,900x600,Y,False,Original PDFs/1448.pdf
+588,T6 VEHICLE MOUNTED SERIES,School Bus,T6-4,1200x230,N,False,
+1324,T6 VEHICLE MOUNTED SERIES,Pilot Vehicle Do Not Overtake (Vehicle Mounted),T6-5A | T6-5B,1000x350 | 1200x500,N,False,
+1325,T6 VEHICLE MOUNTED SERIES,Pilot Vehicle In Use (Vehicle Mounted),T6-6A | T6-6B,900x600 | 1200x900,N,False,
+587,T6 VEHICLE MOUNTED SERIES,Linemarking (temporary hazard marker)  (L&R),T6-SA1,1000x600,Y,False,Original PDFs/587.pdf
+769,T6 VEHICLE MOUNTED SERIES,"Survey Vehicle (Refer to Traffic Operations Section, DPTI )",T6-SA109,800x600,Y,False,Original PDFs/769.pdf
+590,T7 HAND BANNER SERIES,SLOW bat (use on back of R6-8 STOP),T7-1A | T7-1B,450x450 | 600x600,N,False,
+592,T8 PEDESTRIAN SERIES,Pedestrians Watch Your Step,T8-1,900x600,N,False,
+593,T8 PEDESTRIAN SERIES,Pedestrians (L or R),T8-2,1200x300,N,False,
+594,T8 PEDESTRIAN SERIES,Use Other Footpath,T8-3,900x600,N,False,
+925,T8 PEDESTRIAN SERIES,Footpath Closed,T8-4,900x600,N,False,
+868,T8 PEDESTRIAN SERIES,Look Both Ways Two-Way Traffic,T8-5,900x600,N,False,
+1166,T8 PEDESTRIAN SERIES,Shared Path Closed,T8-SA103,900x600,Y,False,Original PDFs/1166.pdf
+1231,OTHER,Stock on Road,TES6396,900x600,Y,False,Original PDFs/1231.pdf
+814,OTHER,Advance Notice - Roadworks Commencing,TES9571,1350x1050,Y,False,Original PDFs/814.pdf
+918,OTHER,Grain Trucks Crossing (O.I .2.24),TES9899,1350x900,Y,False,Original PDFs/918.pdf
+1215,OTHER,Temporary Advance Notice Sign (advising of Road or Bridgeworks or Community Events),TES13004A | TES13004B,1400x1650 | 1400x1950,Y,False,Original PDFs/1215.pdf
+1264,OTHER,Remember 50 Unless Otherwise Signed,TES15342,1200x1050,Y,False,Original PDFs/1264.pdf
+1241,OTHER,"Drive on Left (not to be used on road network, property & carpark exits only)",TES18546,450x600,Y,False,Original PDFs/1241.pdf
+1139,OTHER,Cross Road Intersection (Unsealed Road Only),TES18903,750x750,Y,False,Original PDFs/1139.pdf
+1090,OTHER,For Roadwork Enquiries Phone (Multi-Message Sign ONLY),TES18977,1200x900,Y,False,Original PDFs/1090.pdf
+1239,OTHER,Speed Limit Changed Warning Sign,TES19085,750x450,Y,False,Original PDFs/1239.pdf
+1296,OTHER,Red Light & Speed Camera Ahead (< 80 km/h),TES19687,1350x1200,Y,False,Original PDFs/1296.pdf
+1297,OTHER,Red Light & Speed Camera Ahead (>= 80 km/h),TES19688,1950x1650,Y,False,Original PDFs/1297.pdf
+1298,OTHER,Speed Camera Ahead (< 80 km/h),TES19689,1350x1200,Y,False,Original PDFs/1298.pdf
+1299,OTHER,Speed Camera Ahead (>= 80 km/h),TES19690,1950x1650,Y,False,Original PDFs/1299.pdf
+885,G9-G11 TRAFFIC INSTRUCTION SERIES,Speed Limits Apply 40 On Beach 25 Within 50m of a Person - See OI 4.12 for use.,TES20179,1350x900,Y,False,Original PDFs/885.pdf
+1483,OTHER,Railway Crossing Position With Target Board Stop Look For Trains,TES 13908(1),750x1800,Y,False,Original PDFs/1483.pdf
+1522,OTHER,Keep Track Tracks Clear Xm,TES 18383,1400x1800,Y,False,Original PDFs/1522.pdf
+1567,G1-G6 DIRECTION SERIES ,"Controlled Access Area / Road Authorised Vehicles Only (L,R or L&R) (Approval required for use - refer to Manager, Traffic Services Section of DIT)",TES 20530,600x450,Y,False,Original PDFs/1567.pdf
+976,TM1 ADVANCE SERIES,Roadwork Ahead (Multi-Message Sign ONLY) (Replaces T1-1M),TM1-1B,1200x300,Y,False,Original PDFs/976.pdf
+1059,TM1 ADVANCE SERIES,Roadwork Ahead (Multi-Message Sign ONLY),TM1-1A,600x600,Y,False,Original PDFs/1059.pdf
+1302,TM1 ADVANCE SERIES,Roadwork Ahead (Multi-Message Sign ONLY),TM1-1C,1200x600,N,False,
+979,TM1 ADVANCE SERIES,Bridgework Ahead (Multi-Message Sign ONLY) (Replaces T1-2M),TM1-2A,600x600,Y,False,Original PDFs/979.pdf
+1303,TM1 ADVANCE SERIES,Bridgework Ahead (Multi-Message Sign ONLY),TM1-2C,1200x600,N,False,
+983,TM1 ADVANCE SERIES,Road Plant Ahead (Multi-Message Sign ONLY) (Replaces T1-3-1M),TM1-3-1A,600x600,Y,False,Original PDFs/983.pdf
+1304,TM1 ADVANCE SERIES,Road Plant Ahead (Multi-Message Sign ONLY),TM1-3-2C,1200x600,N,False,
+984,TM1 ADVANCE SERIES,Grader Ahead (Multi-Message Sign ONLY) (Replaces T1-4M),TM1-4A,600x600,Y,False,Original PDFs/984.pdf
+985,TM1 ADVANCE SERIES,Workers (Symbolic) (Multi-Message Sign ONLY),TM1-5A,600x600,Y,False,Original PDFs/985.pdf
+1305,TM1 ADVANCE SERIES,Workers (Symbolic) (Multi-Message Sign ONLY),TM1-5C,1200x600,N,False,
+1078,TM1 ADVANCE SERIES,Detour Ahead (Multi-Message Sign ONLY),TM1-6B,1200x300,Y,False,Original PDFs/1078.pdf
+1079,TM1 ADVANCE SERIES,Detour Ahead (Multi-Message Sign ONLY),TM1-6A,600x600,Y,False,Original PDFs/1079.pdf
+1024,TM1 ADVANCE SERIES,Traffic Hazard (Multi-Message Sign ONLY),TM1-10A,600x600,Y,False,Original PDFs/1024.pdf
+1438,TM1 ADVANCE SERIES,Traffic Hazard (Multi-Message Sign ONLY),TM1-10C,1200x600,N,False,
+978,TM1 ADVANCE SERIES,Prepare To Stop (Multi-Message Sign ONLY),TM1-18B,1200x300,Y,False,Original PDFs/978.pdf
+1238,TM1 ADVANCE SERIES,Prepare to Stop (Multi-Message sign ONLY),TM1-18A,600x600,Y,False,Original PDFs/1238.pdf
+980,TM1 ADVANCE SERIES,Roadwork On Side Road (Multi-Message Sign ONLY),TM1-25C,1200x600,Y,False,Original PDFs/980.pdf
+1306,TM1 ADVANCE SERIES,Road Plant On Side Road (Multi-Message Sign ONLY),TM1-27C,1200x600,N,False,
+1002,TM1 ADVANCE SERIES,Next 'x' km  (Multi-Message Sign ONLY),TM1-28B,1200x300,Y,False,Original PDFs/1002.pdf
+1003,TM1 ADVANCE SERIES,Next 'xx' km (Multi-Message Sign ONLY),TM1-28A,600x600,Y,False,Original PDFs/1003.pdf
+986,TM1 ADVANCE SERIES,Signals Ahead (Symbolic) (Multi-Message Sign ONLY),TM1-30A,600x600,Y,False,Original PDFs/986.pdf
+987,TM1 ADVANCE SERIES,Side Road Closed (Multi-Message Sign ONLY),TM1-32A,600x600,Y,False,Original PDFs/987.pdf
+988,TM1 ADVANCE SERIES,Traffic Controller (Symbolic) (Multi-Message Sign ONLY),TM1-34A,600x600,Y,False,Original PDFs/988.pdf
+1309,TM1 ADVANCE SERIES,Stop Here When Directed (Multi-Message Sign ONLY),TM1-35C,1200x600,N,False,
+1329,TM1 ADVANCE SERIES,'x' km Ahead (Multi-Message Sign ONLY),TM1-36B,1200x300,N,False,
+1201,TM1 ADVANCE SERIES,Surveyors Ahead (Multi-Message Sign ONLY),TM1-37C,1200x600,N,False,
+1021,TM1 ADVANCE SERIES,Road Hump Ahead (Multi-Message Sign ONLY) (Replaces T1-SA129M),TM1-38A,600x600,Y,False,Original PDFs/1021.pdf
+1330,TM1 ADVANCE SERIES,Signal Works Ahead (Multi-Message Sign ONLY),TM1-39A,600x600,N,False,
+1331,TM1 ADVANCE SERIES,Line Marking Ahead (Multi-Message Sign ONLY),TM1-40A,600x600,N,False,
+1332,TM1 ADVANCE SERIES,Mowing Ahead (Multi-Message Sign ONLY),TM1-41A,600x600,N,False,
+1333,TM1 ADVANCE SERIES,Tram Works Ahead (Multi-Message Sign ONLY),TM1-42A,600x600,N,False,
+1120,TM1 ADVANCE SERIES,Road Closed Ahead (Multi-Message Sign ONLY) (Replaces T1-SA134M),TM1-43A,600x600,Y,False,Original PDFs/1120.pdf
+1334,TM1 ADVANCE SERIES,Road Closed Ahead (Multi-Message Sign ONLY),TM1-43C,1200x600,N,False,
+1335,TM1 ADVANCE SERIES,Burning Off Ahead (Multi-Message Sign ONLY),TM1-44A,600x600,N,False,
+1336,TM1 ADVANCE SERIES,Burning Off Ahead (Multi-Message Sign ONLY),TM1-44C,1200x600,N,False,
+1337,TM1 ADVANCE SERIES,Traffic Incident Ahead (Multi-Message Sign ONLY),TM1-45A,600x600,N,False,
+1338,TM1 ADVANCE SERIES,Burning Off Ahead (Multi-Message Sign ONLY),TM1-45C,1200x600,N,False,
+1339,TM1 ADVANCE SERIES,Queued Traffic Ahead (Multi-Message Sign ONLY),TM1-46A,600x600,Y,False,Original PDFs/1339.pdf
+1340,TM1 ADVANCE SERIES,Queued Traffic Symbol (Multi-Message Sign ONLY),TM1-47A,600x600,Y,False,Original PDFs/1340.pdf
+1341,TM1 ADVANCE SERIES,Road Side Hazard (Multi-Message Sign ONLY),TM1-49A,600x600,N,False,
+1342,TM1 ADVANCE SERIES,Watch For Wandering Animals (Multi-Message Sign ONLY),TM1-50A,600x600,N,False,
+1343,TM1 ADVANCE SERIES,Ahead (Multi-Message Sign ONLY),TM1-51B,1200x300,N,False,
+977,TM1 ADVANCE SERIES,Traffic Hazard (Multi-Message Sign ONLY),TM1-SA10B,1200x300,Y,False,Original PDFs/977.pdf
+1147,TM1 ADVANCE SERIES,'xxx' m Ahead (Multi-Message Sign ONLY),TM1-SA140B,1200x300,Y,False,Original PDFs/1147.pdf
+1148,TM1 ADVANCE SERIES,Merge 'xxx' m Ahead (Multi-Message Sign ONLY),TM1-SA141B,1200x300,Y,False,Original PDFs/1148.pdf
+1234,TM1 ADVANCE SERIES,Bicycle Detour Ahead,TM1-SA145A,600x600,Y,False,Original PDFs/1234.pdf
+1265,TM1 ADVANCE SERIES,Drive Carefully (Multi-Message Sign ONLY),TM1-SA147B,1200x300,Y,False,Original PDFs/1265.pdf
+1275,TM1 ADVANCE SERIES,Expect Delays 'xx' min (Multi-Message Sign ONLY),TM1-SA149A,600x600,Y,False,Original PDFs/1275.pdf
+1276,TM1 ADVANCE SERIES,Use Alt Route (Multi-Message Sign ONLY),TM1-SA150A,600x600,Y,False,Original PDFs/1276.pdf
+1061,TM2 POSITION SERIES,Road Closed  (Multi-Message Sign ONLY) (previously black/yellow - may be used until 31 December 2021),TM2-4B,1200x300,Y,False,Original PDFs/1061.pdf
+1062,TM2 POSITION SERIES,Road Closed  (Multi-Message Sign ONLY) (previously black/yellow - may be used until 31 December 2021),TM2-4C,1200x600,Y,False,Original PDFs/1062.pdf
+989,TM2 POSITION SERIES,End Roadwork (Multi-Message Sign ONLY),TM2-17A,600x600,Y,False,Original PDFs/989.pdf
+1307,TM2 POSITION SERIES,End Roadwork (Multi-Message Sign ONLY),TM2-17C,1200x600,N,False,
+1458,TM2 POSITION SERIES,End Roadwork,TM2-17B,1200x300,Y,False,Original PDFs/1458.pdf
+975,TM2 POSITION SERIES,End Detour (Multi-Message Sign ONLY),TM2-23C,1200x600,Y,False,Original PDFs/975.pdf
+1097,TM2 POSITION SERIES,Two Way Traffic Lane Status (Multi-Message Sign ONLY),TM2-24A,600x600,Y,False,Original PDFs/1097.pdf
+974,TM2 POSITION SERIES,Trucks (Symbolic) (Multi-Message Sign ONLY),TM2-25A,600x600,Y,False,Original PDFs/974.pdf
+1344,TM2 POSITION SERIES,Roadwork (Multi-Message Sign ONLY),TM2-26A,600x600,N,False,
+1345,TM2 POSITION SERIES,Roadwork (Multi-Message Sign ONLY),TM2-26B,1200x300,N,False,
+1346,TM2 POSITION SERIES,Roadwork (Multi-Message Sign ONLY),TM2-26C,1200x600,N,False,
+1347,TM2 POSITION SERIES,Bridgework (Multi-Message Sign ONLY),TM2-27A,600x600,N,False,
+1348,TM2 POSITION SERIES,Bridgework (Multi-Message Sign ONLY),TM2-27B,1200x300,N,False,
+1349,TM2 POSITION SERIES,Bridgework (Multi-Message Sign ONLY),TM2-27C,1200x600,N,False,
+1350,TM2 POSITION SERIES,End Bridgework (Multi-Message Sign ONLY),TM2-28A,600x600,N,False,
+1068,TM2 POSITION SERIES,Trenching Works (Multi-Message Sign ONLY) (Replaces T4-SA104-1M),TM2-29B,1200x300,Y,False,Original PDFs/1068.pdf
+1069,TM2 POSITION SERIES,Trenching Works (Multi-Message Sign ONLY) (Replaces T4-SA104-2M),TM2-29A,600x600,Y,False,Original PDFs/1069.pdf
+1351,TM2 POSITION SERIES,Mowing (Multi-Message Sign ONLY),TM2-30B,1200x300,N,False,
+1072,TM2 POSITION SERIES,Litter Collection (Multi-Message Sign ONLY) (Replaces T4-SA106-1M),TM2-31B,1200x300,Y,False,Original PDFs/1072.pdf
+1073,TM2 POSITION SERIES,Litter Collection (Multi-Message Sign ONLY) (Replaces T4-SA106-2M),TM2-31A,600x600,Y,False,Original PDFs/1073.pdf
+1064,TM2 POSITION SERIES,Utility Repairs (Multi-Message Sign ONLY) (Replaces T4-SA102-1M),TM2-32B,1200x300,Y,False,Original PDFs/1064.pdf
+1065,TM2 POSITION SERIES,Utility Repairs (Multi-Message Sign ONLY) (Replaces T4-SA102-2M),TM2-32A,600x600,Y,False,Original PDFs/1065.pdf
+1066,TM2 POSITION SERIES,Emergency Works (Multi-Message Sign ONLY) (Replaces T4-SA103-1M),TM2-33B,1200x300,Y,False,Original PDFs/1066.pdf
+1067,TM2 POSITION SERIES,Emergency Works (Multi-Message Sign ONLY) (Replaces T4-SA103-2M),TM2-33A,600x600,Y,False,Original PDFs/1067.pdf
+1328,TM2 POSITION SERIES,Survey Works (Multi-Message Sign ONLY) (Replaces T1-SA110M),TM2-34A,600x600,Y,False,Original PDFs/1328.pdf
+1352,TM2 POSITION SERIES,Surveyors (Multi-Message Sign ONLY),TM2-35B,1200x300,N,False,
+1076,TM2 POSITION SERIES,Road Plates In Use (Multi-Message Sign ONLY) (Replaces T4-SA108-1M),TM2-36C,1200x600,Y,False,Original PDFs/1076.pdf
+1077,TM2 POSITION SERIES,Road Plates In Use (Multi-Message Sign ONLY) (Replaces T4-SA108-2M),TM2-36A,600x600,Y,False,Original PDFs/1077.pdf
+1353,TM2 POSITION SERIES,Powerline Works (Multi-Message Sign ONLY),TM2-37A,600x600,Y,False,Original PDFs/1353.pdf
+1354,TM2 POSITION SERIES,Powerline Works (Multi-Message Sign ONLY),TM2-37C,1200x600,N,False,
+1355,TM2 POSITION SERIES,On Ramp (Multi-Message Sign ONLY),TM2-38A,600x600,N,False,
+1356,TM2 POSITION SERIES,On Ramp (Multi-Message Sign ONLY),TM2-38B,1200x600,N,False,
+1357,TM2 POSITION SERIES,Merge Left (Multi-Message Sign ONLY),TM2-39A,600x600,N,False,
+1358,TM2 POSITION SERIES,Merge Left (Multi-Message Sign ONLY),TM2-39B,1200x300,N,False,
+1359,TM2 POSITION SERIES,Merge Right (Multi-Message Sign ONLY),TM2-40A,600x600,N,False,
+1360,TM2 POSITION SERIES,Merge Right (Multi-Message Sign ONLY),TM2-40B,1200x300,N,False,
+1361,TM2 POSITION SERIES,Local Access Only (Multi-Message Sign ONLY),TM2-41A,600x600,N,False,
+1362,TM2 POSITION SERIES,Slow Moving Vehicle (Multi-Message Sign ONLY),TM2-42A,600x600,N,False,
+1363,TM2 POSITION SERIES,Changed Traffic Conditions (Multi-Message Sign ONLY),TM2-44A,600x600,N,False,
+1364,TM2 POSITION SERIES,Oversize Vehicle (Multi-Message Sign ONLY),TM2-45A,600x600,N,False,
+1365,TM2 POSITION SERIES,Heavy Vehicles (Multi-Message Sign ONLY),TM2-46A,600x600,N,False,
+1366,TM2 POSITION SERIES,High Vehicles (Multi-Message Sign ONLY),TM2-47A,600x600,N,False,
+1367,TM2 POSITION SERIES,Signals Not Operating Symbolic (Multi-Message Sign ONLY),TM2-48A,600x600,N,False,
+1368,TM2 POSITION SERIES,Signals Not In Use (Multi-Message Sign ONLY),TM2-49A,600x600,N,False,
+1369,TM2 POSITION SERIES,Signals Under Repair (Multi-Message Sign ONLY),TM2-50A,600x600,N,False,
+1020,TM2 POSITION SERIES,Road Hump (Multi-Message Sign ONLY) (Replaces T1-SA130M),TM2-51A,600x600,Y,False,Original PDFs/1020.pdf
+1237,TM2 POSITION SERIES,Boom Barrier (Multi-Message sign ONLY) (Replaces T1-SA146M),TM2-52A,600x600,Y,False,Original PDFs/1237.pdf
+1124,TM2 POSITION SERIES,Keep Tracks Clear (Multi-Message Sign ONLY) (Replaces T1-SA124M),TM2-53A,600x600,Y,False,Original PDFs/1124.pdf
+1172,TM2 POSITION SERIES,Tram Only (Multi-Message Sign ONLY) (Replaces T1-SA142M),TM2-54A,600x600,Y,False,Original PDFs/1172.pdf
+1370,TM2 POSITION SERIES,Tram Works (Multi-Message Sign ONLY),TM2-55A,600x600,N,False,
+1176,TM2 POSITION SERIES,End Tram Works (Multi-Message sign ONLY) (Replaces T2-SA55M),TM2-56A,600x600,Y,False,Original PDFs/1176.pdf
+1371,TM2 POSITION SERIES,For Roadwork Enquiries (Multi-Message Sign ONLY),TM2-57C,1200x600,N,False,
+1427,TM2 POSITION SERIES,Road Closed  (Multi-Message Sign ONLY) (previously black/yellow - may be used until 31 December 2021),TM2-SA4A,600x600,Y,False,Original PDFs/1427.pdf
+1439,TM2 POSITION SERIES,Driveway Access (Multi-Message Sign ONLY),TM2-SA101A,600x600,Y,False,Original PDFs/1439.pdf
+1101,TM2 POSITION SERIES,End (Multi-Message Sign ONLY),TM2-SA106A,600x600,Y,False,Original PDFs/1101.pdf
+1428,TM2 POSITION SERIES,End (Multi-Message Sign ONLY),TM2-SA106C,1200x600,Y,False,Original PDFs/1428.pdf
+1074,TM2 POSITION SERIES,Road Inspection (Multi-Message Sign ONLY),TM2-SA107B,1200x300,Y,False,Original PDFs/1074.pdf
+1075,TM2 POSITION SERIES,Road Inspection (Multi-Message Sign ONLY),TM2-SA107A,600x600,Y,False,Original PDFs/1075.pdf
+1092,TM2 POSITION SERIES,Weed Control (Multi-Message Sign ONLY),TM2-SA110B,1200x300,Y,False,Original PDFs/1092.pdf
+1093,TM2 POSITION SERIES,Weed Control (Multi-Message Sign ONLY),TM2-SA110A,600x600,Y,False,Original PDFs/1093.pdf
+1095,TM2 POSITION SERIES,Tree Planting (Multi-Message Sign Only),TM2-SA111B,1200x300,Y,False,Original PDFs/1095.pdf
+1096,TM2 POSITION SERIES,Tree Planting (Multi-Message Sign Only),TM2-SA111A,600x600,Y,False,Original PDFs/1096.pdf
+1457,TM2 POSITION SERIES,Business And Residential Traffic Only,TM2-SA112A,600x600,Y,False,Original PDFs/1457.pdf
+1464,TM2 POSITION SERIES,Do not queue over driveways,TM2-SA113A,600x600,Y,False,Original PDFs/1464.pdf
+1463,TM2 POSITION SERIES,Do not queue over driveways,TM2-SA114,1200x600,Y,False,Original PDFs/1463.pdf
+973,TM3 ROAD CONDITION SERIES,Slippery (Multi-Message Sign ONLY),TM3-3A,600x600,Y,False,Original PDFs/973.pdf
+972,TM3 ROAD CONDITION SERIES,Soft Edges (Multi-Message Sign ONLY),TM3-6A,600x600,Y,False,Original PDFs/972.pdf
+1314,TM3 ROAD CONDITION SERIES,Soft Edges (Multi-Message Sign ONLY),TM3-6B,1200x300,Y,False,Original PDFs/1314.pdf
+971,TM3 ROAD CONDITION SERIES,Rough Surface (Multi-Message Sign ONLY),TM3-7A,600x600,Y,False,Original PDFs/971.pdf
+1315,TM3 ROAD CONDITION SERIES,Rough Surface (Multi-Message Sign ONLY),TM3-7B,1200x300,Y,False,Original PDFs/1315.pdf
+970,TM3 ROAD CONDITION SERIES,Loose Stones (Symbolic) (Multi-Message Sign ONLY),TM3-9A,600x600,Y,False,Original PDFs/970.pdf
+1319,TM3 ROAD CONDITION SERIES,New Work No Lines Marked (Multi-Message Sign ONLY),TM3-11C,1200x600,Y,False,Original PDFs/1319.pdf
+1320,TM3 ROAD CONDITION SERIES,No Lines Do Not Overtake Unless Safe (Multi-Message Sign ONLY),TM3-12C,1200x600,Y,False,Original PDFs/1320.pdf
+969,TM3 ROAD CONDITION SERIES,Gravel Road (Multi-Message Sign ONLY),TM3-13A,600x600,Y,False,Original PDFs/969.pdf
+1317,TM3 ROAD CONDITION SERIES,Gravel Road (Multi-Message Sign ONLY),TM3-13B,1200x300,Y,False,Original PDFs/1317.pdf
+967,TM3 ROAD CONDITION SERIES,Loose Surface (Multi-Message Sign ONLY),TM3-14B,1200x300,Y,False,Original PDFs/967.pdf
+968,TM3 ROAD CONDITION SERIES,Loose Surface (Multi-Message Sign ONLY),TM3-14A,600x600,Y,False,Original PDFs/968.pdf
+1181,TM3 ROAD CONDITION SERIES,'xx' km/h (Multi-Message Sign ONLY),TM3-16-1A,600x600,Y,False,Original PDFs/1181.pdf
+1374,TM3 ROAD CONDITION SERIES,No Lines (Multi-Message Sign ONLY),TM3-17A,600x600,N,False,
+1375,TM3 ROAD CONDITION SERIES,Line Marking (Multi-Message Sign ONLY),TM3-18A,600x600,N,False,
+1376,TM3 ROAD CONDITION SERIES,Line Marking (Multi-Message Sign ONLY),TM3-18B,1200x300,N,False,
+1377,TM3 ROAD CONDITION SERIES,Loose Stones (Multi-Message Sign ONLY),TM3-19B,1200x600,N,False,
+1378,TM3 ROAD CONDITION SERIES,Wet Bitumen (Multi-Message Sign ONLY),TM3-20A,600x600,N,False,
+1379,TM3 ROAD CONDITION SERIES,Water Over Road (Multi-Message Sign ONLY),TM3-21A,600x600,N,False,
+1380,TM3 ROAD CONDITION SERIES,Due To Flooding (Multi-Message Sign ONLY),TM3-22B,1200x300,N,False,
+1381,TM3 ROAD CONDITION SERIES,Fallen Rocks (Multi-Message Sign ONLY),TM3-23B,1200x600,N,False,
+1382,TM3 ROAD CONDITION SERIES,Road Flooded (Multi-Message Sign ONLY),TM3-24A,600x600,N,False,
+945,TM3 ROAD CONDITION SERIES,Deep Edge Drop (Multi-Message Sign ONLY) (Replaces T3-SA101-2M),TM3-25A,600x600,Y,False,Original PDFs/945.pdf
+944,TM3 ROAD CONDITION SERIES,Deep Edge Drop (Multi-Message Sign ONLY),TM3-SA25B,1200x300,Y,False,Original PDFs/944.pdf
+1031,TM3 ROAD CONDITION SERIES,Wet Paint On Road (Multi-Message Sign ONLY),TM3-SA101C,1200x600,Y,False,Original PDFs/1031.pdf
+946,TM3 ROAD CONDITION SERIES,Deep Edge Drop (Symbolic) (Multi-Message Sign ONLY) refer TES16542 for larger size,TM3-SA102A,600x600,Y,False,Original PDFs/946.pdf
+1027,TM3 ROAD CONDITION SERIES,Road Surfacing (Multi-Message Sign ONLY),TM3-SA103B,1200x300,Y,False,Original PDFs/1027.pdf
+1028,TM3 ROAD CONDITION SERIES,Road Surfacing (Multi-Message Sign ONLY),TM3-SA103A,600x600,Y,False,Original PDFs/1028.pdf
+1029,TM3 ROAD CONDITION SERIES,Kerbing Repairs (Multi-Message Sign ONLY),TM3-SA104B,1200x300,Y,False,Original PDFs/1029.pdf
+1030,TM3 ROAD CONDITION SERIES,Kerbing Repairs (Multi-Message Sign ONLY),TM3-SA104A,600x600,Y,False,Original PDFs/1030.pdf
+1447,TM3 ROAD CONDITION SERIES,New Surface (Multi-Message Sign ONLY),TM3-SA105B,1200x300,Y,False,Original PDFs/1447.pdf
+1429,TM3 ROAD CONDITION SERIES,No Lines Marked (Multi-Message Sign ONLY),TM3-SA106A,600x600,Y,False,Original PDFs/1429.pdf
+1430,TM3 ROAD CONDITION SERIES,No Lines Marked (Multi-Message Sign ONLY),TM3-SA106B,1200x300,Y,False,Original PDFs/1430.pdf
+1431,TM3 ROAD CONDITION SERIES,No Lines Marked (Multi-Message Sign ONLY),TM3-SA106C,1200x600,Y,False,Original PDFs/1431.pdf
+1326,TM4 SPECIAL HAZARD SERIES,End Blasting Area (Multi-Message Sign ONLY),TM4-3C,1200x600,N,False,
+1195,TM4 SPECIAL HAZARD SERIES,Powerline Works In Progress (Multi-Message Sign ONLY),TM4-5C,1200x600,N,False,
+1186,TM4 SPECIAL HAZARD SERIES,Smoke Hazard (Multi-Message Sign ONLY) (Replaces T4-6M),TM4-6A,600x600,Y,False,Original PDFs/1186.pdf
+1383,TM4 SPECIAL HAZARD SERIES,Smoke Hazard (Multi-Message Sign ONLY),TM4-6B,1200x600,N,False,
+1266,TM4 SPECIAL HAZARD SERIES,UHF Channel (Multi-Message Sign ONLY) (Replaces T1-SA148M),TM4-8B,1200x300,Y,False,Original PDFs/1266.pdf
+1384,TM4 SPECIAL HAZARD SERIES,UHF Channel (Multi-Message Sign ONLY),TM4-8A,600x600,N,False,
+1385,TM4 SPECIAL HAZARD SERIES,Bush Fire (Multi-Message Sign ONLY),TM4-9A,600x600,N,False,
+1386,TM4 SPECIAL HAZARD SERIES,Bush Fire (Multi-Message Sign ONLY),TM4-9B,1200x300,N,False,
+1387,TM4 SPECIAL HAZARD SERIES,Hazardous Material (Multi-Message Sign ONLY),TM4-10A,600x600,N,False,
+1446,TM4 SPECIAL HAZARD SERIES,Covid-19 Testing (Multi-Message Sign ONLY),TM4-SA101A,600x600,Y,False,Original PDFs/1446.pdf
+1083,TM4 SPECIAL HAZARD SERIES,DAMAGED BARRIER (Multi-Message Sign ONLY),TM4-SA109B,1200x300,Y,False,Original PDFs/1083.pdf
+1084,TM4 SPECIAL HAZARD SERIES,DAMAGED BARRIER (Multi-Message Sign ONLY),TM4-SA109A,600x600,Y,False,Original PDFs/1084.pdf
+1187,TM4 SPECIAL HAZARD SERIES,Prescribed Burn (Multi-Message Sign ONLY),TM4-SA112B,1200x300,Y,False,Original PDFs/1187.pdf
+1452,TM4 SPECIAL HAZARD SERIES,COVID-19 Testing Queues (Multi-Message Sign ONLY),TM4-SA113A,600x600,Y,False,Original PDFs/1452.pdf
+1453,TM4 SPECIAL HAZARD SERIES,COVID-19 Traffic Only (Multi-Message ONLY),TM4-SA114A,600x600,Y,False,Original PDFs/1453.pdf
+1461,TM4 SPECIAL HAZARD SERIES,No queuing for covid-19 testing,TM4-SA115A,600x900,Y,False,Original PDFs/1461.pdf
+1466,T4 SPECIAL HAZARD SERIES,Rat Collection Point,TM4-SA116C,1200x600,Y,False,Original PDFs/1466.pdf
+1465,TM4 SPECIAL HAZARD SERIES,Rat pick up point (Multi-Message ONLY),TM4-SA117A,600x600,Y,False,Original PDFs/1465.pdf
+1565,TM4 SPECIAL HAZARD SERIES,Rabbit Control (Multi-Message Sign ONLY),TM4-SA118A,600x600,Y,False,Original PDFs/1565.pdf
+952,TM5 TRAFFIC DIVERSION SERIES,< Detour (Multi-Message Sign ONLY) (Left or Right or Straight),TM5-1B,1200x300,Y,False,Original PDFs/952.pdf
+1312,TM5 TRAFFIC DIVERSION SERIES,Detour Marker (Multi-Message Sign ONLY),TM5-6A,600x600,N,False,
+1388,TM5 TRAFFIC DIVERSION SERIES,Detour (Multi-Message Sign ONLY),TM5-7A,600x600,N,False,
+1432,TM5 TRAFFIC DIVERSION SERIES,Detour (Multi-Message Sign ONLY),TM5-7B,1200x300,Y,False,Original PDFs/1432.pdf
+1390,TM5 TRAFFIC DIVERSION SERIES,Horizontal Arrow (Multi-Message Sign ONLY),TM5-8B,1200x300,N,False,
+981,TM5 TRAFFIC DIVERSION SERIES,On Side Road (Multi-Message Sign ONLY) (Replaces T1-25-1M),TM5-9B,1200x300,Y,False,Original PDFs/981.pdf
+982,TM5 TRAFFIC DIVERSION SERIES,On Side Road (Multi-Message Sign ONLY) (Replaces T1-25-2M),TM5-9A,600x600,Y,False,Original PDFs/982.pdf
+1391,TM5 TRAFFIC DIVERSION SERIES,On Side Road L/R (Multi-Message Sign ONLY),TM5-10B,1200x300,N,False,
+1392,TM5 TRAFFIC DIVERSION SERIES,Detour For Heavy Vehicles L/R (Multi-Message Sign ONLY),TM5-11C,1200x600,N,False,
+1393,TM5 TRAFFIC DIVERSION SERIES,Detour For High Vehicles L/R (Multi-Message Sign ONLY),TM5-12C,1200x600,N,False,
+1236,TM5 TRAFFIC DIVERSION SERIES,Bicycle Detour,TM5-SA101A,600x600,Y,False,Original PDFs/1236.pdf
+1235,TM5 TRAFFIC DIVERSION SERIES,Bicycle Detour,TM5-SA102A,600x600,Y,False,Original PDFs/1235.pdf
+1105,TM5 TRAFFIC DIVERSION SERIES,Proceed When Clear (Multi-Message Sign ONLY),TM5-SA103B,1200x300,Y,False,Original PDFs/1105.pdf
+966,TM8 PEDESTRIAN & CYCLIST SERIES,Pedestrians Watch Your Step (Multi-Message Sign ONLY),TM8-1C,1200x600,N,False,
+965,TM8 PEDESTRIAN & CYCLIST SERIES,Pedestrians (Multi-Message Sign ONLY),TM8-2B,1200x300,Y,False,Original PDFs/965.pdf
+964,TM8 PEDESTRIAN & CYCLIST SERIES,Use Other Footpath (Multi-Message Sign ONLY),TM8-3A,600x600,Y,False,Original PDFs/964.pdf
+961,TM8 PEDESTRIAN & CYCLIST SERIES,Footpath Closed (Multi-Message Sign ONLY),TM8-4A,600x600,Y,False,Original PDFs/961.pdf
+1327,TM8 PEDESTRIAN & CYCLIST SERIES,Look Both Ways Two-Way Traffic (Multi-Message Sign ONLY),TM8-5C,1200x600,N,False,
+1394,TM8 PEDESTRIAN & CYCLIST SERIES,Look Both Ways (Multi-Message Sign ONLY),TM8-6A,600x600,N,False,
+1395,TM8 PEDESTRIAN & CYCLIST SERIES,Watch Your Step (Multi-Message Sign ONLY),TM8-7A,600x600,Y,False,Original PDFs/1395.pdf
+1396,TM8 PEDESTRIAN & CYCLIST SERIES,Symbolic Pedestrians (Multi-Message Sign ONLY),TM8-8A,600x600,N,False,
+1397,TM8 PEDESTRIAN & CYCLIST SERIES,Footpath Closed Ahead (Multi-Message Sign ONLY),TM8-9A,600x600,N,False,
+1398,TM8 PEDESTRIAN & CYCLIST SERIES,Narrow Footpath Ahead (Multi-Message Sign ONLY),TM8-10A,600x600,N,False,
+1399,TM8 PEDESTRIAN & CYCLIST SERIES,Path Closed Ahead,TM8-11A,600x600,N,False,
+1400,TM8 PEDESTRIAN & CYCLIST SERIES,Path Closed (Multi-Message Sign ONLY),TM8-12A,600x600,N,False,
+1054,TM8 PEDESTRIAN & CYCLIST SERIES,Pedestrian Hazard (Multi-Message Sign ONLY) (Replaces T8-SA101-1M),TM8-13B,1200x300,Y,False,Original PDFs/1054.pdf
+1055,TM8 PEDESTRIAN & CYCLIST SERIES,Pedestrian Hazard (Multi-Message Sign ONLY) (Replaces T8-SA101-2M),TM8-13A,600x600,Y,False,Original PDFs/1055.pdf
+1025,TM8 PEDESTRIAN & CYCLIST SERIES,Cycling Hazard (Multi-Message Sign ONLY) (Replace T1-SA132-1M),TM8-14B,1200x300,Y,False,Original PDFs/1025.pdf
+1026,TM8 PEDESTRIAN & CYCLIST SERIES,Cycling Hazard (Multi-Message Sign ONLY) (Replaces T1-SA132-2M),TM8-14A,600x600,Y,False,Original PDFs/1026.pdf
+1401,TM8 PEDESTRIAN & CYCLIST SERIES,Bicycle Lane Closed Ahead,TM8-15A,600x600,N,False,
+1402,TM8 PEDESTRIAN & CYCLIST SERIES,Bicycle Lane Closed (Multi-Message Sign ONLY),TM8-16A,600x600,Y,False,Original PDFs/1402.pdf
+1403,TM8 PEDESTRIAN & CYCLIST SERIES,Symbolic Bicycle Ahead (Multi-Message Sign ONLY),TM8-17A,600x600,N,False,
+1404,TM8 PEDESTRIAN & CYCLIST SERIES,Symbolic Bicycle (Multi-Message Sign ONLY),TM8-18A,600x600,N,False,
+1405,TM8 PEDESTRIAN & CYCLIST SERIES,Accessible Path and Pedestrian Path (Multi-Message Sign ONLY),TM8-19C,1200x600,N,False,
+1406,TM8 PEDESTRIAN & CYCLIST SERIES,Accessible Path (Multi-Message Sign ONLY),TM8-20B,1200x300,N,False,
+1443,TM8 PEDESTRIAN & CYCLIST SERIES,Pedestrians,TM8-SA2A,600x600,Y,False,Original PDFs/1443.pdf
+1433,TM8 PEDESTRIAN & CYCLIST SERIES,Footpath Closed (Multi-Message Sign ONLY),TM8-SA4B,1200x300,Y,False,Original PDFs/1433.pdf
+1056,TM8 PEDESTRIAN & CYCLIST SERIES,Footpath Repairs (Multi-Message Sign ONLY),TM8-SA102B,1200x300,Y,False,Original PDFs/1056.pdf
+1057,TM8 PEDESTRIAN & CYCLIST SERIES,Footpath Repairs (Multi-Message Sign ONLY),TM8-SA102A,600x600,Y,False,Original PDFs/1057.pdf
+1233,TM8 PEDESTRIAN & CYCLIST SERIES,Bikeway / Bicycle Path Closed,TM8-SA110A,600x600,Y,False,Original PDFs/1233.pdf
+1232,TM8 PEDESTRIAN & CYCLIST SERIES,Bicycle End Detour,TM8-SA111A,600x600,Y,False,Original PDFs/1232.pdf
+1500,TM8 PEDESTRIAN & CYCLIST SERIES,Pedestrian Wait Here (Multi-Message Sign ONLY),TM8-SA112A,600x600,Y,False,Original PDFs/1500.pdf
+1006,TM9 EVENT SERIES,Event Ahead (Multi-Message Sign ONLY) (Replaces T1-SA67-1M),TM9-1B,1200x300,Y,False,Original PDFs/1006.pdf
+1007,TM9 EVENT SERIES,Event Ahead (Multi-Message Sign ONLY) (Replaces T1-SA67-2M),TM9-1A,600x600,Y,False,Original PDFs/1007.pdf
+1009,TM9 EVENT SERIES,End Event (Multi-Message Sign ONLY) (Replaces T2-SA104-1M),TM9-2B,1200x300,Y,False,Original PDFs/1009.pdf
+1010,TM9 EVENT SERIES,End Event (Multi-Message Sign ONLY) (Replaces T2-SA104-2M),TM9-2A,600x600,Y,False,Original PDFs/1010.pdf
+1014,TM9 EVENT SERIES,Event in Progress (Multi-Message Sign ONLY) (Replaces T2-SA105-1M),TM9-3B,1200x300,Y,False,Original PDFs/1014.pdf
+1088,TM9 EVENT SERIES,Event in Progress (Multi-Message Sign ONLY) (Replaces T2-SA105-2M),TM9-3A,600x600,Y,False,Original PDFs/1088.pdf
+1423,TM9 EVENT SERIES,Event on Side of Road (Multi-Message Sign ONLY),TM9-4C,1200x600,N,False,
+1409,TM9 EVENT SERIES,Event On Side Road L/R (Multi-Message Sign ONLY),TM9-5B,1200x300,N,False,
+1089,TM9 EVENT SERIES,Community Event Ahead (Multi-Message Sign ONLY) (Replaces T1-SA133M),TM9-6C,1200x600,Y,False,Original PDFs/1089.pdf
+1012,TM9 EVENT SERIES,Cyclist Racing (Multi-Message Sign ONLY) (Replaces T1-SA127M),TM9-7A,600x600,Y,False,Original PDFs/1012.pdf
+1013,TM9 EVENT SERIES,Runner Symbolic (Multi-Message Sign ONLY) (Replaces T1-SA128M),TM9-8A,600x600,Y,False,Original PDFs/1013.pdf
+999,TM9 EVENT SERIES,On Side Road (Multi-Message Sign ONLY),TM9-SA25B,1200x300,Y,False,Original PDFs/999.pdf
+1000,TM9 EVENT SERIES,On Side Road (Multi-Message Sign ONLY),TM9-SA25A,600x600,Y,False,Original PDFs/1000.pdf
+1004,TM9 EVENT SERIES,Next 'x' km (Multi-Message Sign ONLY),TM9-SA28B,1200x300,Y,False,Original PDFs/1004.pdf
+1005,TM9 EVENT SERIES,Next 'x' km (Multi-Message Sign ONLY),TM9-SA28A,600x600,Y,False,Original PDFs/1005.pdf
+1099,TM9 EVENT SERIES,Event Turn Left/Right (Multi-Message Sign ONLY),TM9-SA107A,600x600,Y,False,Original PDFs/1099.pdf
+1100,TM9 EVENT SERIES,Event Parking (Multi-Message Sign ONLY),TM9-SA108A,600x600,Y,False,Original PDFs/1100.pdf
+1001,TM9 EVENT SERIES,Speed Limit Changed (Multi-Message Sign ONLY),TM9-SA109A,600x600,Y,False,Original PDFs/1001.pdf
+1011,TM9 EVENT SERIES,Event Pedestrian (Multi-Message Sign ONLY),TM9-SA126A,600x600,Y,False,Original PDFs/1011.pdf
+954,TM10 LANE STATUS SERIES,Lane Through Ahead (Multi-Message Sign ONLY) (Replaces T2-SA6-1M),TM10-1A,600x600,Y,False,Original PDFs/954.pdf
+953,TM10 LANE STATUS SERIES,Lane Closed Ahead (Multi-Message Sign ONLY) (Replaces T2-SA6-2M),TM10-2A,600x600,Y,False,Original PDFs/953.pdf
+1063,TM10 LANE STATUS SERIES,Left Lane of Two Lane Closed (Multi-Message Sign ONLY) (Replaces T2-6-1M),TM10-3A,600x600,Y,False,Original PDFs/1063.pdf
+1410,TM10 LANE STATUS SERIES,Right Lane of Two Lane Closed (Multi-Message Sign ONLY),TM10-4A,600x600,N,False,
+1411,TM10 LANE STATUS SERIES,Two Lanes Ahead (Multi-Message Sign ONLY),TM10-5A,600x600,N,False,
+1412,TM10 LANE STATUS SERIES,Two Lanes Closed Ahead (Multi-Message Sign ONLY),TM10-6A,600x600,N,False,
+1413,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-7A,600x600,N,False,
+1414,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-8A,600x600,N,False,
+1415,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-9A,600x600,N,False,
+1416,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-10A,600x600,N,False,
+1417,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-11A,600x600,Y,False,Original PDFs/1417.pdf
+1418,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-12A,600x600,Y,False,Original PDFs/1418.pdf
+1419,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-13A,600x600,N,False,
+1420,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-14A,600x600,N,False,
+1421,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-15A,600x600,N,False,
+1422,TM10 LANE STATUS SERIES,Lane Status (Multi-Message Sign ONLY),TM10-16A,600x600,Y,False,Original PDFs/1422.pdf
+955,TM10 LANE STATUS SERIES,Lane Status - Through Median (Multi-Message Sign ONLY) (Replaces T2-SA6-3M),TM10-17A,600x600,Y,False,Original PDFs/955.pdf
+1178,TM10 LANE STATUS SERIES,2 Lanes Status (Multi-Message Sign ONLY),TM10-SA14C,1200x600,Y,False,Original PDFs/1178.pdf
+1141,TM10 LANE STATUS SERIES,Merge Left (Multi-Message Sign ONLY),TM10-SA111A,600x600,Y,False,Original PDFs/1141.pdf
+1142,TM10 LANE STATUS SERIES,Merge Right (Multi-Message Sign ONLY),TM10-SA112A,600x600,Y,False,Original PDFs/1142.pdf
+1143,TM10 LANE STATUS SERIES,Lateral Shift Left - 2 Lanes (Multi-Message Sign ONLY),TM10-SA113A,600x600,Y,False,Original PDFs/1143.pdf
+1144,TM10 LANE STATUS SERIES,Lateral Shift Right - 2 Lanes (Multi-Message Sign ONLY),TM10-SA114A,600x600,Y,False,Original PDFs/1144.pdf
+1145,TM10 LANE STATUS SERIES,Merge Left - Right Lane (Multi-Message Sign ONLY),TM10-SA115A,600x600,Y,False,Original PDFs/1145.pdf
+1146,TM10 LANE STATUS SERIES,Merge Right - Left Lane (Multi-Message Sign ONLY),TM10-SA116A,600x600,Y,False,Original PDFs/1146.pdf
+1474,TM10 LANE STATUS SERIES,Lane Status - Through Arrow - Narrow,TM10-SA117A,300x600,Y,False,Original PDFs/1474.pdf
+1475,TM10 LANE STATUS SERIES,Lane Status - Lane Ends - Narrow,TM10-SA118A,300x600,Y,False,Original PDFs/1475.pdf
+1476,TM10 LANE STATUS SERIES,Lane Status - Right - Narrow,TM10-SA119A,300x600,Y,False,Original PDFs/1476.pdf
+1477,TM10 LANE STATUS SERIES,Lane Status - Left - Narrow,TM10-SA120A,300x600,Y,False,Original PDFs/1477.pdf
+1478,TM10 LANE STATUS SERIES,Lane Status - Right Through - Narrow,TM10-SA121A,300x600,Y,False,Original PDFs/1478.pdf
+1479,TM10 LANE STATUS SERIES,Lane Status - Through Left - Narrow,TM10-SA122A,300x600,Y,False,Original PDFs/1479.pdf
+1015,SYMBOL SERIES,Aboriginal Heritage Symbol (Refer to Traffic Operations  Section of DPTI),TS1,350x350,N,False,
+627,SYMBOL SERIES,Lookout Symbol,TS2,350x350,N,False,
+628,SYMBOL SERIES,Walking Trail Symbol,TS3,350x350,N,False,
+796,SYMBOL SERIES,Heritage Site / Attraction Symbol (Refer to Traffic Operations  Section of DPTI) (Formerly TS143) ,TS5,350x350,N,False,
+797,SYMBOL SERIES,Museum Symbol  (Formerly TS144),TS6,350x350,N,False,
+799,SYMBOL SERIES,Whale Watching Symbol (Refer to Traffic Operations  Section of DPTI) (Formerly TS146),TS7,350x350,N,False,
+794,SYMBOL SERIES,Nature Symbol (Refer to Traffic Operations Section of DPTI),TS105,350x350,Y,False,Original PDFs/794.pdf
+795,SYMBOL SERIES,Cairn / Monument Symbol (Refer to Traffic Operations  Section of DPTI) ,TS106,350x350,Y,False,Original PDFs/795.pdf
+992,T1 ADVANCE SERIES,Multi Message Sign,Various,600x600,Y,False,Original PDFs/992.pdf
+169,W1 ALIGNMENT SERIES,Turn (L or R),W1-1A | W1-1B | W1-1C | W1-1D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+170,W1 ALIGNMENT SERIES,Reverse Turn (L or R),W1-2A | W1-2B | W1-2C | W1-2D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+171,W1 ALIGNMENT SERIES,Curve (L or R),W1-3A | W1-3B | W1-3C | W1-3D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+172,W1 ALIGNMENT SERIES,Reverse Curve (L or R),W1-4A | W1-4B | W1-4C | W1-4D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+173,W1 ALIGNMENT SERIES,Winding Road (L or R),W1-5A | W1-5AA | W1-5B | W1-5C | W1-5D | W1-5ES,600x600 | 450x450 | 750x750 | 900x900 | 1200x1200 | 300x300,Y,False,Original PDFs/173.pdf
+174,W1 ALIGNMENT SERIES,Hairpin Bend (L or R),W1-7A | W1-7B | W1-7C | W1-7D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+888,W1 ALIGNMENT SERIES,Exit Speed Hairpin Bend (km/h) Formerly W1-SA67,W1-9-5 | W1-9-5AA,1400x2400 | 900x1650,Y,False,Original PDFs/888.pdf
+889,W1 ALIGNMENT SERIES,Exit Speed ('x' km/h) SUPERSEDED See R4-1 or R9-17,W1-9-1 | W1-9-1AA,1400x1800 | 900x1200,Y,False,Original PDFs/889.pdf
+902,W1 ALIGNMENT SERIES,Exit Speed Curve  'xxx' km/h Formerly W1-SA68,W1-9-2 | W1-9-2AA,1400x2400 | 900x1650,Y,False,Original PDFs/902.pdf
+903,W1 ALIGNMENT SERIES,Exit Speed Reverse Curve  'xx' km/h Formerly W1-SA69,W1-9-4 | W1-9-4AA,1400x2400 | 900x1650,Y,False,Original PDFs/903.pdf
+904,W1 ALIGNMENT SERIES,Exit Speed Turn  'xx' km/h,W1-9-3 | W1-9-3AA,1400x2400 | 900x1800,Y,False,Original PDFs/904.pdf
+176,W1 ALIGNMENT SERIES,Tilting Truck with TURN (W1-1)  (L or R),W1-SA50-1A | W1-SA50-1B,1000x2000 | 1500x3000,Y,False,Original PDFs/176.pdf
+177,W1 ALIGNMENT SERIES,Tilting Truck with REVERSE TURN (W1-2) (L or R),W1-SA50-2A | W1-SA50-2B,1000x2000 | 1500x3000,Y,False,Original PDFs/177.pdf
+178,W1 ALIGNMENT SERIES,Tilting Truck with CURVE (W1-3) (L or R),W1-SA50-3A | W1-SA50-3B,1000x2000 | 1500x3000,Y,False,Original PDFs/178.pdf
+179,W1 ALIGNMENT SERIES,Tilting Truck with REVERSE CURVE (W1-4) (L or R),W1-SA50-4A | W1-SA50-4B,1000x2000 | 1500x3000,Y,False,Original PDFs/179.pdf
+180,W1 ALIGNMENT SERIES,Tilting Truck with WINDING ROAD – FIRST CURVE is shown as a L or R curve (W1-5),W1-SA50-5A | W1-SA50-5B,1000x2000 | 1500x3000,Y,False,Original PDFs/180.pdf
+181,W1 ALIGNMENT SERIES,Tilting Truck with HAIRPIN BEND (W1-7) (L or R),W1-SA50-6A | W1-SA50-6B,1000x2000 | 1500x3000,Y,False,Original PDFs/181.pdf
+185,W1 ALIGNMENT SERIES,Curve with two intersections on outside (L or R) ,W1-SA64B | W1-SA64C,750x750 | 900x900,Y,False,Original PDFs/185.pdf
+191,W1 ALIGNMENT SERIES,Exit Speed Winding Road (km/h) (L or R),W1-SA70 | W1-SA70AA,1400x2400 | 900x1650,Y,False,Original PDFs/191.pdf
+1150,W1 ALIGNMENT SERIES,"Gravel Roads MAXIMUM 80 km/h Drive To The Road Conditions (Approval required for other speeds - refer to Manager, Traffic Services, DIT) See OI 4.10 for reference of use.",W1-SA101,900x1050,Y,False,Original PDFs/1150.pdf
+193,W2 INTERSECTION AND JUNCTION SERIES,Cross Road,W2-1A | W2-1B | W2-1C | W2-1D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+194,W2 INTERSECTION AND JUNCTION SERIES,T Intersection,W2-3A | W2-3B | W2-3C | W2-3D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+195,W2 INTERSECTION AND JUNCTION SERIES,"Side Road Intersection, Straight (L or R)",W2-4A | W2-4B | W2-4C | W2-4D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+196,W2 INTERSECTION AND JUNCTION SERIES,Roundabout (Ahead),W2-7A | W2-7B | W2-7C | W2-7D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+197,W2 INTERSECTION AND JUNCTION SERIES,"Staggered Side Road Intersection, Straight (L or R)",W2-8A | W2-8B | W2-8C | W2-8D,600x600 | 750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/197.pdf
+198,W2 INTERSECTION AND JUNCTION SERIES,Side Road Intersection on Outside of Curve (LorR) Formerly W1-SA56,W2-9A | W2-9B | W2-9C | W2-9D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+199,W2 INTERSECTION AND JUNCTION SERIES,Side Road Intersection on a Curve - inside (LorR) Formerly W1-SA60,W2-10A | W2-10B | W2-10C | W2-10D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+200,W2 INTERSECTION AND JUNCTION SERIES,Successive Side Road Intersections on a Curve - 1st intersection on RHS Formerly W1-SA66,W2-11A(L) | W2-11B(L) | W2-11C(L) | W2-11D(L),600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+995,W2 INTERSECTION AND JUNCTION SERIES,Successive Side Road Intersections on a Curve - 1st intersection on RHS Formerly W1-SA66,W2-11A(R) | W2-11B(R) | W2-11C(R) | W2-11D(R),600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+201,W2 INTERSECTION AND JUNCTION SERIES,Successive Side Road Intersections on a Curve - 1st intersection on LHS Formerly W1-SA65,W2-12A(L) | W2-12B(L) | W2-12C(L) | W2-12D(L),600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+996,W2 INTERSECTION AND JUNCTION SERIES,Successive Side Road Intersections on a Curve - 1st intersection on LHS Formerly W1-SA65,W2-12A(R) | W2-12B(R) | W2-12C(R) | W2-12D(R),600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+202,W2 INTERSECTION AND JUNCTION SERIES,Successive Side Road Intersections on a straight (L or R),W2-13A | W2-13B | W2-13C | W2-13D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+203,W2 INTERSECTION AND JUNCTION SERIES,T Intersection Beyond a Curve (L or R),W2-14A | W2-14B | W2-14C | W2-14D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+900,W2 INTERSECTION AND JUNCTION SERIES,Crossroad on Curve (L or R) Formerly W1-SA61,W2-15A | W2-15B | W2-15C | W2-15D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+774,W2 INTERSECTION AND JUNCTION SERIES,Side Road Intersection on a Curve - Side Road on Straight Alignment (L or R) Formerly W9-4,W2-16A | W2-16B | W2-16C | W2-16D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+204,W2 INTERSECTION AND JUNCTION SERIES,T Intersection with Multi-laned Divided Road,W2-SA57B | W2-SA57C,750x750 | 900x900,Y,False,Original PDFs/204.pdf
+207,W2 INTERSECTION AND JUNCTION SERIES,T intersection on bend with side road on o/side of curve (L or R),W2-SA65B | W2-SA65C,750x750 | 900x900,Y,False,Original PDFs/207.pdf
+209,W3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Stop Sign Ahead,W3-1A | W3-1B | W3-1C | W3-1D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+210,W3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Give Way Sign Ahead,W3-2A | W3-2B | W3-2C | W3-2D,600x600 | 750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/210.pdf
+1481,W3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Signals Ahead,W3-3-1A | W3-3-1B | W3-3-1C | W3-3-1D,600x600 | 750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/1481.pdf
+1490,W3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Signals Ahead (FYG),W3-3-2A | W3-3-2B | W3-3-2C | W3-3-2D,600x600 | 750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/1490.pdf
+212,W3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Road Humps Ahead,W3-4A | W3-4B,600x600 | 750x750,N,False,
+1213,W3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Road Humps on Side Road,W3-SA4A | W3-SA4B,600x600 | 750x750,Y,False,Original PDFs/1213.pdf
+214,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Narrow Bridge,W4-1A | W4-1AA | W4-1B | W4-1C | W4-1ES,600x600 | 450x450 | 750x750 | 900x900 | 300x300,Y,False,Original PDFs/214.pdf
+215,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Road Narrows,W4-3A | W4-3B | W4-3C | W4-3ES,600x600 | 750x750 | 900x900 | 300x300,N,False,
+216,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Divided Road,W4-4A | W4-4B | W4-4C | W4-4D,600x600 | 750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/216.pdf
+217,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Island,W4-5A | W4-5B | W4-5C,600x600 | 750x750 | 900x900,N,False,
+1449,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",End Divided Road (W4-4 Divided Road sign inverted),W4-6A | W4-6B | W4-6C | W4-6D,600x600 | 750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/1449.pdf
+218,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Low Clearance ('x' m),W4-8AA | W4-8B | W4-8C,450x450 | 750x750 | 900x900,Y,False,Original PDFs/218.pdf
+219,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Left Lane Ends,W4-9B | W4-9C,750x750 | 900x900,N,False,
+220,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Lane Allocation (3 lanes),W4-10B | W4-10C,750x750 | 900x900,N,False,
+221,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Two-way,W4-11A | W4-11B | W4-11C | W4-11D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+222,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Lane Allocation (4 lanes),W4-SA50B | W4-SA50C,750x750 | 900x900,Y,False,Original PDFs/222.pdf
+773,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Replaced by TES13695,W4-SA51,0x0,N,False,
+223,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",No Overtaking Unless Both Oncoming Lanes Are Clear,W4-SA52,2700x1200,Y,False,Original PDFs/223.pdf
+858,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Two Way Traffic With Dividing Barrier,W4-SA53B | W4-SA53C | W4-SA53D,750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/858.pdf
+224,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Right Lane Ends,W4-SA101B | W4-SA101C | W4-SA101D,750x750 | 900x900 | 1200x1200,Y,False,Original PDFs/224.pdf
+225,"W4 ROAD WIDTH, LOW & NARROW CLEARANCE SERIES",Lane Deviation (with island),W4-SA102B | W4-SA102C,750x750 | 900x900,Y,False,Original PDFs/225.pdf
+227,W5 ROAD OBSTACLE SERIES,Ferry,W5-1A | W5-1B | W5-1C,600x600 | 750x750 | 900x900,N,False,
+228,W5 ROAD OBSTACLE SERIES,Opening Bridge,W5-2A | W5-2B | W5-2C,600x600 | 750x750 | 900x900,N,False,
+229,W5 ROAD OBSTACLE SERIES,Ford,W5-6A | W5-6B | W5-6C,600x600 | 750x750 | 900x900,N,False,
+230,W5 ROAD OBSTACLE SERIES,Floodway,W5-7-1A | W5-7-1B | W5-7-1C,600x600 | 750x750 | 900x900,N,False,
+893,W5 ROAD OBSTACLE SERIES,Floodways (Formerly W5-SA76),W5-7-2A | W5-7-2B | W5-7-2C,600x600 | 750x750 | 900x900,N,False,
+231,W5 ROAD OBSTACLE SERIES,Low Level Bridge,W5-8A | W5-8B | W5-8C,600x600 | 750x750 | 900x900,N,False,
+232,W5 ROAD OBSTACLE SERIES,Dip,W5-9A | W5-9B | W5-9C,600x600 | 750x750 | 900x900,N,False,
+233,W5 ROAD OBSTACLE SERIES,Road Hump,W5-10A | W5-10B | W5-10C,600x600 | 750x750 | 900x900,N,False,
+234,W5 ROAD OBSTACLE SERIES,Crest,W5-11A | W5-11B | W5-11C,600x600 | 750x750 | 900x900,N,False,
+235,W5 ROAD OBSTACLE SERIES,Steep Descent,W5-12A | W5-12B | W5-12C,600x600 | 750x750 | 900x900,N,False,
+236,W5 ROAD OBSTACLE SERIES,Steep Climb,W5-13A | W5-13B | W5-13C,600x600 | 750x750 | 900x900,N,False,
+370,W5 ROAD OBSTACLE SERIES,Gate,W5-14A | W5-14B | W5-14C,600x600 | 750x750 | 900x900,N,False,
+238,W5 ROAD OBSTACLE SERIES,Grid,W5-16A | W5-16B | W5-16C,600x600 | 750x750 | 900x900,N,False,
+239,W5 ROAD OBSTACLE SERIES,Road Ends,W5-18A | W5-18B | W5-18C,600x600 | 750x750 | 900x900,N,False,
+240,W5 ROAD OBSTACLE SERIES,Gravel Road,W5-19A | W5-19B | W5-19C,600x600 | 750x750 | 900x900,N,False,
+241,W5 ROAD OBSTACLE SERIES,Slippery,W5-20A | W5-20B | W5-20C,600x600 | 750x750 | 900x900,N,False,
+242,W5 ROAD OBSTACLE SERIES,Trucks Crossing or Entering (from private property),W5-22A | W5-22B | W5-22C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/242.pdf
+244,W5 ROAD OBSTACLE SERIES,Kangaroos,W5-29A | W5-29B | W5-29C,600x600 | 750x750 | 900x900,N,False,
+245,W5 ROAD OBSTACLE SERIES,Aircraft,W5-30A | W5-30B | W5-30C,600x600 | 750x750 | 900x900,N,False,
+247,W5 ROAD OBSTACLE SERIES,Slow Point,W5-33A | W5-33B,600x600 | 750x750,N,False,
+248,W5 ROAD OBSTACLE SERIES,Merging Traffic (L or R)  (Replaces W5-24),W5-34A | W5-34B | W5-34C | W5-34D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+249,W5 ROAD OBSTACLE SERIES,Added Lane (L or R) Used only with W8-26,W5-35A | W5-35C | W5-35D,600x600 | 900x900 | 1200x1200,Y,False,Original PDFs/249.pdf
+250,W5 ROAD OBSTACLE SERIES,Fire Station,W5-36A | W5-36B | W5-36C,600x600 | 750x750 | 900x900,N,False,
+251,W5 ROAD OBSTACLE SERIES,Ambulance Station,W5-37A | W5-37B | W5-37C,600x600 | 750x750 | 900x900,N,False,
+252,W5 ROAD OBSTACLE SERIES,Stock (Replaces W5-27 and W5-28),W5-38A | W5-38B | W5-38C,600x600 | 750x750 | 900x900,N,False,
+884,W5 ROAD OBSTACLE SERIES,Fallen Rocks Formerly W5-SA69,W5-42A | W5-42B | W5-42C,600x600 | 750x750 | 900x900,N,False,
+899,W5 ROAD OBSTACLE SERIES,Uneven Surface (Formerly W5-SA107),W5-43A | W5-43B | W5-43C,600x600 | 750x750 | 900x900,N,False,
+898,W5 ROAD OBSTACLE SERIES,Camel (Formerly W5-SA62),W5-44A | W5-44B | W5-44C,600x600 | 750x750 | 900x900,N,False,
+891,W5 ROAD OBSTACLE SERIES,Emu,W5-45A | W5-45B | W5-45C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/891.pdf
+897,W5 ROAD OBSTACLE SERIES,Horse (Formerly W5-SA64),W5-46A | W5-46B | W5-46C,600x600 | 750x750 | 900x900,N,False,
+896,W5 ROAD OBSTACLE SERIES,Koala (Formerly W5-SA66),W5-47A | W5-47B | W5-47C,600x600 | 750x750 | 900x900,N,False,
+895,W5 ROAD OBSTACLE SERIES,Wombat (Formerly W5-SA57),W5-48A | W5-48B | W5-48C,600x600 | 750x750 | 900x900,N,False,
+901,W5 ROAD OBSTACLE SERIES,Farm Machinery,W5-50A | W5-50B | W5-50C,600x600 | 750x750 | 900x900,N,False,
+1525,W5 ROAD OBSTACLE SERIES,Horse and Rider,W5-53A | W5-53B | W5-53C,600x600 | 750x750 | 900x900,N,False,
+1501,W5 ROAD OBSTACLE SERIES,Concealed Driveway,W5-55-1A | W5-55-1B | W5-55-1C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1501.pdf
+1502,W5 ROAD OBSTACLE SERIES,Concealed Driveways,W5-55-2A | W5-55-2B | W5-55-2C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1502.pdf
+674,W5 ROAD OBSTACLE SERIES,Wildlife ,W5-56A | W5-56B | W5-56C,600x600 | 750x750 | 900x900,N,False,
+258,W5 ROAD OBSTACLE SERIES,"Cow (Use for north of dog fence, otherwise use W5-38)",W5-SA63A | W5-SA63B | W5-SA63C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/258.pdf
+923,W5 ROAD OBSTACLE SERIES,Emergency Vehicles,W5-SA70B | W5-SA70C,750x750 | 900x900,Y,False,Original PDFs/923.pdf
+262,W5 ROAD OBSTACLE SERIES,Tilting Truck (L or R) (without advisory speed),W5-SA72B,750x750,Y,False,Original PDFs/262.pdf
+263,W5 ROAD OBSTACLE SERIES,Warning Gravel Roads Surface Conditions Change Often Drive Carefully (See Managing Unsealed Roads in SA (LGA)),W5-SA73,900x1200,Y,False,Original PDFs/263.pdf
+264,W5 ROAD OBSTACLE SERIES,Low Branches (Must be used with W8-SA64),W5-SA74B,750x750,Y,False,Original PDFs/264.pdf
+265,W5 ROAD OBSTACLE SERIES,Forklifts,W5-SA75A | W5-SA75B | W5-SA75C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/265.pdf
+266,W5 ROAD OBSTACLE SERIES,Cross Wind,W5-SA101A | W5-SA101B | W5-SA101C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/266.pdf
+272,W5 ROAD OBSTACLE SERIES,Creek,W5-SA109A | W5-SA109B | W5-SA109C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/272.pdf
+273,W5 ROAD OBSTACLE SERIES,Creeks,W5-SA110A | W5-SA110B | W5-SA110C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/273.pdf
+274,W5 ROAD OBSTACLE SERIES,Rocky Creek Bed Track,W5-SA111,750x750,Y,False,Original PDFs/274.pdf
+1174,W5 ROAD OBSTACLE SERIES,Advisory Tram Speed,W5-SA113A | W5-SA113B,300x400 | 450x600,Y,False,Original PDFs/1174.pdf
+1173,W5 ROAD OBSTACLE SERIES,Tram Works,W5-SA114A | W5-SA114B,300x200 | 450x300,Y,False,Original PDFs/1173.pdf
+1184,W5 ROAD OBSTACLE SERIES,Dry Weather Road Only (Outback Roads Only),W5-SA115,750x750,Y,False,Original PDFs/1184.pdf
+1244,W5 ROAD OBSTACLE SERIES,Deer,W5-SA116A | W5-SA116B | W5-SA116C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1244.pdf
+1291,W5 ROAD OBSTACLE SERIES,Rough Surface,W5-SA117A | W5-SA117B | W5-SA117C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1291.pdf
+276,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Pedestrians (L or R) - (R) has pedestrians facing right and is installed on left side of the road (formerly W6-SA1).,W6-1A | W6-1B | W6-1C,600x600 | 750x750 | 900x900,N,False,
+1528,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Pedestrian Crossing Ahead,W6-2-1A | W6-2-1B | W6-2-1C,600x600 | 750x750 | 900x900,N,False,
+1529,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Pedestrian Crossing Ahead - 45 degrees,W6-2-2A | W6-2-2B | W6-2-2C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1529.pdf
+1530,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Pedestrian Crossing Ahead - 90 degrees,W6-2-3A | W6-2-3B | W6-2-3C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1530.pdf
+287,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Children (L or R) - (R) has pedestrians facing right and is installed on left side of the road (formerly W6-SA3).,W6-3A | W6-3B | W6-3C,600x600 | 750x750 | 900x900,N,False,
+1545,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Children's Crossing Ahead,W6-5-1A | W6-5-1B | W6-5-1C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1545.pdf
+1546,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Children's Crossing Ahead 45 Deg,W6-5-2A | W6-5-2B | W6-5-2C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1546.pdf
+1547,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Children's Crossing Ahead 90 Deg,W6-5-3A | W6-5-3B | W6-5-3C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1547.pdf
+282,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Bicycles (Can be used with W8-23),W6-7A | W6-7B | W6-7C,600x600 | 750x750 | 900x900,N,False,
+283,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Road Ahead (for use on bicycle paths only),W6-8A | W6-8B,300x300 | 450x450,N,False,
+284,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Bicycles/Pedestrians - See W6-SA110 for Fluoro Yellow Green,W6-9A | W6-9B | W6-9C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/284.pdf
+1285,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Gap Hazard Formerly W6-SA107,W6-10A | W6-10B,600x600 | 750x750,N,False,
+1282,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Slippery for Bicycles (bicycle paths only) Formerly W5-SA104,W6-11A | W6-11B | W6-11C,300x300 | 450x450 | 600x600,N,False,
+1283,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Steep Decent Bicycle (bicycle paths only) Formerly W5-SA103,W6-12A | W6-12B | W6-12C,300x300 | 450x450 | 600x600,N,False,
+1284,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Steep Climb Bicycle (bicycle paths only) Formerly W5-SA102,W6-13A | W6-13B | W6-13C,300x300 | 450x450 | 600x600,N,False,
+1107,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",School Zone (Refer to Speed Limit Guidelines - used above W8-SA108),W6-SA106A | W6-SA106B | W6-SA106C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/1107.pdf
+1290,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES","Pedestrians, bicycles, horses (only to be used at recognised multi-user trail crossing points)",W6-SA109B | W6-SA109C,750x750 | 900x900,Y,False,Original PDFs/1290.pdf
+1485,"W6 PEDESTRIAN, BICYCLE & SCHOOL SERIES",Pedestrian Bike - See DIT Supplement AS 1742.10,W6-SA110A | W6-SA110B,600x600 | 750x750,Y,False,Original PDFs/1485.pdf
+290,W7 RAILWAY LEVEL CROSSING SERIES,'x' Tracks (Rail Authority only to replace),W7-2-1A | W7-2-1B,600x275 | 800x367,N,False,
+927,W7 RAILWAY LEVEL CROSSING SERIES,x Tracks (Rail Authority only to replace),W7-2-2,1000x150,N,False,
+291,W7 RAILWAY LEVEL CROSSING SERIES,Railway Level Crossing Flashing Light Ahead,W7-4B | W7-4C,750x750 | 900x900,N,False,
+292,W7 RAILWAY LEVEL CROSSING SERIES,Rail Level Crossing Ahead (L or R) -  (L) has train facing right and installed on left side of the road.,W7-7A | W7-7B | W7-7C,600x600 | 750x750 | 900x900,N,False,
+293,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Ahead Diagrammatic - Right Angle Crossing,W7-8A | W7-8B | W7-8C,600x600 | 750x750 | 900x900,N,False,
+294,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Ahead Diagrammatic - Oblique Crossing (L or R),W7-9A | W7-9B | W7-9C,600x600 | 750x750 | 900x900,N,False,
+295,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Ahead Diagammatic - Crossing on Side Road (L or R),W7-12A | W7-12B | W7-12C | W7-12D,600x600 | 750x750 | 900x900 | 1200x1200,N,False,
+296,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Ahead Diagrammatic - Crossing on Cross Road (L or R),W7-13A | W7-13B | W7-13C,600x600 | 750x750 | 900x900,N,False,
+708,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Pedestrian Warning - Look for Trains 'x' tracks,W7-14-4,300x450,Y,False,Original PDFs/708.pdf
+709,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Pedestrian Warning - Look For Trains,W7-14-5,300x450,Y,False,Original PDFs/709.pdf
+710,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Pedestrian Warning - Do Not Cross While Lights Are Displayed Or Alarm Sounding 'x' Tracks,W7-14-6,450x600,N,False,
+300,W7 RAILWAY LEVEL CROSSING SERIES,Railway Gate,W7-15A | W7-15B | W7-15C,600x600 | 750x750 | 900x900,N,False,
+302,W7 RAILWAY LEVEL CROSSING SERIES,Railway Crossing Ahead Diagrammatic - Crossing on bar of T intersection (L or R),W7-17A | W7-17B | W7-17C,600x600 | 750x750 | 900x900,N,False,
+301,W7 RAILWAY LEVEL CROSSING SERIES,Diagrammatic Warning on Each Side Road (T intersection),W7-SA50A | W7-SA50B | W7-SA50C,600x600 | 750x750 | 900x900,Y,False,Original PDFs/301.pdf
+714,W7 RAILWAY LEVEL CROSSING SERIES,USE TES13698,W7-SA53,0x0,N,False,
+303,W7 RAILWAY LEVEL CROSSING SERIES,Diagrammatic Warning on Side Road (roundabout) (L or R),W7-SA101B | W7-SA101C,750x750 | 900x900,Y,False,Original PDFs/303.pdf
+304,W7 RAILWAY LEVEL CROSSING SERIES,Diagrammatic Warning on Main Road (after roundabout),W7-SA102B | W7-SA102C,750x750 | 900x900,Y,False,Original PDFs/304.pdf
+305,W7 RAILWAY LEVEL CROSSING SERIES,Diagrammatic Warning on Main Road (before roundabout),W7-SA103B | W7-SA103C,750x750 | 900x900,Y,False,Original PDFs/305.pdf
+306,W7 RAILWAY LEVEL CROSSING SERIES,Diagrammatic Warning on Side Road (stagger intersections) (L or R),W7-SA104B | W7-SA104C,750x750 | 900x900,Y,False,Original PDFs/306.pdf
+307,W7 RAILWAY LEVEL CROSSING SERIES,Diagrammatic Warning on Side Road (stagger intersections) (L or R),W7-SA105B | W7-SA105C,750x750 | 900x900,Y,False,Original PDFs/307.pdf
+309,W8 AUXILIARY SERIES,Advisory Speed,W8-2A | W8-2B | W8-2C | W8-2D,600x400 | 750x500 | 900x600 | 1200x800,N,False,
+310,W8 AUXILIARY SERIES,On Side Road (L or R) (Also refer to W8-SA3 when yellow/green required ),W8-3A | W8-3B | W8-3C,600x400 | 750x500 | 900x600,N,False,
+312,W8 AUXILIARY SERIES,Distance 'xxx' m (Also refer to W8-SA5 when yellow/green required),W8-5A | W8-5B | W8-5C,600x200 | 750x250 | 900x300,N,False,
+313,W8 AUXILIARY SERIES,When Wet,W8-7A | W8-7B | W8-7C,600x400 | 750x500 | 900x600,N,False,
+314,W8 AUXILIARY SERIES,When Frosty,W8-8A | W8-8B | W8-8C,600x400 | 750x500 | 900x600,N,False,
+315,W8 AUXILIARY SERIES,Under Snow,W8-9A | W8-9B | W8-9C,600x400 | 750x500 | 900x600,N,False,
+886,W8 AUXILIARY SERIES,Play Ground (formerly W8-SA13),W8-13A | W8-13B | W8-13C,600x400 | 750x500 | 900x900,N,False,
+1106,W8 AUXILIARY SERIES,School (formerly W8-SA14),W8-14A | W8-14B | W8-14C,600x200 | 750x250 | 900x300,N,False,
+318,W8 AUXILIARY SERIES,Merge Right,W8-15B | W8-15C,750x500 | 900x600,N,False,
+319,W8 AUXILIARY SERIES,One Lane,W8-16A | W8-16B | W8-16C,600x400 | 750x500 | 900x600,N,False,
+320,W8 AUXILIARY SERIES,NEXT 'x' km,W8-17-1A | W8-17-1B | W8-17-1C | W8-17-1D,600x400 | 750x500 | 900x600 | 1200x800,N,False,
+321,W8 AUXILIARY SERIES,Next 'x' m,W8-17-2A | W8-17-2B,600x400 | 750x500,N,False,
+718,W8 AUXILIARY SERIES,Aged (formerly W8-SA18),W8-18A | W8-18B | W8-18C,600x200 | 750x250 | 900x300,N,False,
+719,W8 AUXILIARY SERIES,Blind (formerly W8-SA19),W8-19A | W8-19B | W8-19C,600x200 | 750x250 | 900x300,N,False,
+720,W8 AUXILIARY SERIES,Disabled (formerly W8-SA20),W8-20A | W8-20B | W8-20C,600x200 | 750x250 | 900x300,N,False,
+325,W8 AUXILIARY SERIES,Boggy When Wet,W8-21A | W8-21B | W8-21C,600x400 | 750x500 | 900x600,N,False,
+333,W8 AUXILIARY SERIES,Crossing Ahead (use only with fluorescent yellow green W3-3-2 or W6-3) (formerly W8-SA22),W8-22A | W8-22B | W8-22C,600x400 | 750x500 | 900x600,N,False,
+327,W8 AUXILIARY SERIES,"Crossing Arrows (use only with W6-7,W6-9)",W8-23A | W8-23B | W8-23C,600x200 | 750x250 | 900x300,Y,False,Original PDFs/327.pdf
+721,W8 AUXILIARY SERIES,Preschool (formerly W8-SA24),W8-24A | W8-24B | W8-24C,600x200 | 750x250 | 900x300,N,False,
+722,W8 AUXILIARY SERIES,Refuge Island (formerly W8-SA25),W8-25A | W8-25B | W8-25C,600x400 | 750x500 | 900x600,N,False,
+330,W8 AUXILIARY SERIES,Added Lane,W8-26C | W8-26D,900x600 | 1200x800,N,False,
+331,W8 AUXILIARY SERIES,Prepare To Stop,W8-27B | W8-27C | W8-27D,750x375 | 900x450 | 1200x600,N,False,
+332,W8 AUXILIARY SERIES,Crossing Ramp (for bikeways),W8-28B | W8-28C,750x500 | 900x600,N,False,
+894,W8 AUXILIARY SERIES,On Bridge When Frosty,W8-29A | W8-29B | W8-29C,600x750 | 750x937 | 900x1125,N,False,
+1566,W8 AUXILIARY SERIES,Pedestrians and Cyclist - Priority Path Crossing,W8-32A | W8-32B,600x400 | 750x500,N,False,
+916,W8 AUXILIARY SERIES,On Side Road (L or R) ,W8-SA3A | W8-SA3B | W8-SA3C | W8-SA3D,600x400 | 750x500 | 900x600 | 1200x800,Y,False,Original PDFs/916.pdf
+772,W8 AUXILIARY SERIES,Distance 'xxx' m,W8-SA5A | W8-SA5B | W8-SA5C | W8-SA5D,600x200 | 750x250 | 900x300 | 1200x400,Y,False,Original PDFs/772.pdf
+1140,W8 AUXILIARY SERIES,"Next 'x' m (Fluorescent Yellow Green). Maximum distance of 500m to be displayed on this supplementary plate.
+",W8-SA17-2A | W8-SA17-2B | W8-SA17-2C,600x400 | 750x500 | 900x600,Y,False,Original PDFs/1140.pdf
+1169,W8 AUXILIARY SERIES,Crossing Arrows (use only with W6-SA110),W8-SA23A | W8-SA23B | W8-SA23C,600x200 | 750x250 | 900x300,Y,False,Original PDFs/1169.pdf
+334,W8 AUXILIARY SERIES,Over Crest,W8-SA54,750x500,Y,False,Original PDFs/334.pdf
+335,W8 AUXILIARY SERIES,Mud On Road,W8-SA55,750x500,Y,False,Original PDFs/335.pdf
+336,W8 AUXILIARY SERIES,School Bus,W8-SA56A | W8-SA56B | W8-SA56C,600x400 | 750x500 | 900x600,Y,False,Original PDFs/336.pdf
+715,W8 AUXILIARY SERIES,Riding Area (Only with W5-59),W8-SA57,750x500,Y,False,Original PDFs/715.pdf
+337,W8 AUXILIARY SERIES,Watch For Road Trains,W8-SA62B | W8-SA62C,750x500 | 900x600,Y,False,Original PDFs/337.pdf
+338,W8 AUXILIARY SERIES,Height Gauge,W8-SA63,750x500,Y,False,Original PDFs/338.pdf
+339,W8 AUXILIARY SERIES,Pruning Planned (Only with W5-SA74),W8-SA64,750x500,Y,False,Original PDFs/339.pdf
+340,W8 AUXILIARY SERIES,On Green Signal,W8-SA65B | W8-SA65C,750x500 | 900x600,Y,False,Original PDFs/340.pdf
+341,W8 AUXILIARY SERIES,Merge Left,W8-SA101B | W8-SA101C | W8-SA101D,750x500 | 900x600 | 1200x800,Y,False,Original PDFs/341.pdf
+342,W8 AUXILIARY SERIES,Unfenced Road,W8-SA102B | W8-SA102C,750x500 | 900x600,Y,False,Original PDFs/342.pdf
+717,W8 AUXILIARY SERIES,Two Way Traffic (Only to be used with G9-SA121),W8-SA103,300x300,Y,False,Original PDFs/717.pdf
+836,W8 AUXILIARY SERIES,Hiking Trail (only to be used with W6-SA1),W8-SA104A | W8-SA104B | W8-SA104C,600x400 | 750x500 | 900x600,Y,False,Original PDFs/836.pdf
+1170,W8 AUXILIARY SERIES,'xxx' m Ahead,W8-SA105A | W8-SA105B | W8-SA105C,600x400 | 750x500 | 900x600,Y,False,Original PDFs/1170.pdf
+1206,W8 AUXILIARY SERIES,Pedestrian Precinct,W8-SA106A | W8-SA106B,600x300 | 750x400,Y,False,Original PDFs/1206.pdf
+1294,W8 AUXILIARY SERIES,On Side Road,W8-SA107A | W8-SA107B | W8-SA107C | W8-SA107D,600x400 | 750x500 | 900x600 | 1200x800,Y,False,Original PDFs/1294.pdf
+1450,W8 AUXILIARY SERIES,Distance 'xxx' m AHEAD (Use under W6-SA106),W8-SA108A | W8-SA108B | W8-SA108C,600x400 | 750x500 | 900x600,Y,False,Original PDFs/1450.pdf
+1468,W8 AUXILIARY SERIES,School Bus,W8-SA109A | W8-SA109B | W8-SA109C,600x400 | 750x500 | 900x600,Y,False,Original PDFs/1468.pdf
+1492,W8 AUXILIARY SERIES,50 km/h When Lights Flashing,W8-SA110,1060x770,Y,False,Original PDFs/1492.pdf
+1491,W8 AUXILIARY SERIES,70 km/h When Lights Flashing,W8-SA111,1230x850,Y,False,Original PDFs/1491.pdf
+1496,W8 AUXILIARY SERIES,Slow Down - Used for smaller bicycle warning signs,W8-SA112A | W8-SA112B,300x225 | 450x300,Y,False,Original PDFs/1496.pdf
+1521,W8 AUXILIARY SERIES,Warning,W8-SA113-1A | W8-SA113-1B,600x400 | 750x500,Y,False,Original PDFs/1521.pdf
+1524,W8 AUXILIARY SERIES,School Crossing Ahead,W8-SA114A | W8-SA114B | W8-SA114C,600x520 | 750x650 | 900x780,Y,False,Original PDFs/1524.pdf
+344,W9 VARIOUS SERIES,Modified T-Intersection (L or R),W9-1A | W9-1B | W9-1C,600x600 | 750x750 | 900x900,N,False,
+345,W9 VARIOUS SERIES,Modified T-Intersection (L or R),W9-2A | W9-2B | W9-2C,600x600 | 750x750 | 900x900,N,False,
+346,W9 VARIOUS SERIES,Modified Crossroad (L or R),W9-3A | W9-3B | W9-3C,600x600 | 750x750 | 900x900,N,False,
+1310,WM3 ADVANCE WARNING OF TRAFFIC CONTROL DEVICE SERIES,Give Way Ahead (Multi-Message Sign ONLY),WM3-2A,600x600,N,False,
+800,SYMBOL SERIES,4WD Only Symbol (Refer to Traffic Operations Section of DPTI),WS111,350x350,Y,False,Original PDFs/800.pdf
+801,SYMBOL SERIES,Kangaroo Symbol (Refer to Traffic Operations Section of DPTI),WS121,420x350,N,False,
+802,SYMBOL SERIES,Cow Symbol (Refer to Traffic Operations Section of DPTI),WS122,420x350,N,False,
+803,SYMBOL SERIES,Camel Symbol (Refer to Traffic Operations Section of DPTI),WS128,420x350,N,False,
+804,SYMBOL SERIES,Horse & Rider Symbol (Refer to Traffic Operations Section of DPTI),WS129,350x350,N,False,
+805,SYMBOL SERIES,Wombat Symbol (Refer to Traffic Operations Section of DPTI),WS130,420x350,N,False,
+806,SYMBOL SERIES,Horse Symbol (Refer to Traffic Operations Section of DPTI),WS131,420x350,N,False,
+807,SYMBOL SERIES,Tilting Truck Symbol (Refer to Traffic Operations Section of DPTI),WS132,350x350,N,False,
+808,SYMBOL SERIES,Koala Symbol (Refer to Traffic Operations Section of DPTI),WS133,240x350,N,False,
+809,SYMBOL SERIES,Wild Horse Symbol (Refer to Traffic Operations Section of DPTI),WS136,420x350,N,False,
+1245,SYMBOL SERIES,Deer Symbol (Refer to Traffic Operations Section of DPTI),WS137,350x350,Y,False,Original PDFs/1245.pdf
+810,SYMBOL SERIES,Triple Road Train Symbol (Refer to Traffic Operations  Section of DPTI),WS140,2800x350,Y,False,Original PDFs/810.pdf
+811,SYMBOL SERIES,Semi Truck Symbol,WS141,1050x350,Y,False,Original PDFs/811.pdf

@@ -29,3 +29,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — Main Roads WA Signs Index is served by /api/documents/search?nodeid=<node> (node tree: Regulatory MR-RA/RD/RE/RM/RV/RPK/RP/RS/RT, Warning MR-W*, Guide MR-G*, Service MR-S*, Tourist MR-V*, Temporary MR-T*, Multi Message MMS-*, Hazard Markers MR-HM, Electronic, Category 2). Each item has a PDF and usually a DWG. Crawler next.

@@ -29,3 +29,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — Transport Tasmania's standard drawings page (transport.tas.gov.au, blocks scripted requests) has a Signs section: SD-087-005 to SD-087-032 (sign standard drawings), 'Signage Guidelines and Drawings' PDF, G/10/649 frost/ice/snow warning sign, fingerboard details 3403-5/P406-1. Few Tasmania-only sign faces; download through the Browser pane when the pack is built.

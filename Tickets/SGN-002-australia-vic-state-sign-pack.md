@@ -29,3 +29,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-06 — Victoria's drawings are not online as a register: the 'VicRoads Manual of Standard Drawings for Road Signs' (2004) and TEM Vol 3 are listed in the DTP technical publications catalogue (vic.gov.au/dtp-technical-publications, JS search; catalogue spreadsheet). Locate the current download or request it from StandardsManagementRD@transport.vic.gov.au.
