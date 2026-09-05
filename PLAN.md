@@ -252,9 +252,9 @@ for AS 1743, then 2–3 for AS 1319.
 * Phases 0–4 done for AS 1743: every drawing has a spec (`tools/specs/`), 261 symbols traced, ~1,265 SVGs generated
   into family folders, 68 non-sign drawings skipped and accounted for in the manifest.
 * Rules changed from the original plan at Russell's direction: no size variants (only legend/hand variants), output
-  grouped by family under `Processed/`, header format = the speed-sign Illustrator exports, no metadata in SVGs,
-  signs needing a decision go to `Processed/intervene/`.
-* Phase 5 (QA) done for every family (2026-09-05): 1,196 clean files; 50 drawings in `Processed/intervene/` (see `INTERVENE_LIST.md` there).
+  grouped by family under `SVGs/`, header format = the speed-sign Illustrator exports, no metadata in SVGs,
+  signs needing a decision go to `SVGs/intervene/`.
+* Phase 5 (QA) done for every family (2026-09-05): 1,196 clean files; 50 drawings in `SVGs/intervene/` (see `INTERVENE_LIST.md` there).
 * Arrows drawn geometrically (2026-09-05); Guide and Freeway families excluded from generation at Russell's request
   (specs kept); all intervene items accepted.
 * TODO — AS 1319 (paused 2026-09-05): pictograms traced to `tools/symbols/as1319/` (31, from the standard's small

@@ -21,7 +21,7 @@ Spec (tools/specs/AS1319/<NAME>.json):
   {"type":"composite","layout":"portrait","symbol":"no_pedestrians","lines":[...],"size":[w,h]}
   {"type":"multi","symbols":["head_protection","hearing_protection","no_open_flame"],"D":150}
   "arrow": "up|down|left|right" adds a 3.1 style (b) arrow; "H" fixes the letter height (else the largest that fits).
-Output: AS 1319-1994/Processed/<Category>/<NAME>.svg in the same header format as the AS 1743 set.
+Output: AS 1319-1994/SVGs/<Category>/<NAME>.svg in the same header format as the AS 1743 set.
 """
 import glob, json, math, os, sys, xml.etree.ElementTree as ET
 from fontTools.ttLib import TTFont
@@ -32,7 +32,7 @@ from fontTools.pens.boundsPen import BoundsPen
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT = os.path.join(ROOT, "Fonts", "PragmaticaCTT-Bold", "PRG75.TTF")
 SYM = os.path.join(ROOT, "tools", "symbols", "as1319")
-OUT = os.path.join(ROOT, "AS 1319-1994", "Processed")
+OUT = os.path.join(ROOT, "AS 1319-1994", "SVGs")
 TEMPLATE_DANGER = os.path.join(ROOT, "Design Templates", "DANGER_TEMPLATE.svg")
 CAP = 0.70   # Pragmatica Bold cap height / em
 OUT_SCALE = 0.1

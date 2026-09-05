@@ -13,7 +13,7 @@ Rules (agreed with Russell, Sept 2026):
 * Nothing not on the drawing is added.  Symbols come from tools/symbols/<id>.svg
   (traced from the drawings, flagged in the manifest).
 
-Output: <repo>/AS 1743-2023/Processed/<folder>/<NAME>_<CODE>[(L|R)].svg + MANIFEST.csv
+Output: <repo>/AS 1743-2023/SVGs/<folder>/<NAME>_<CODE>[(L|R)].svg + MANIFEST.csv
 """
 import csv, glob, json, math, os, re, sys, xml.etree.ElementTree as ET
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +26,7 @@ from fontTools.pens.boundsPen import BoundsPen
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, "Fonts", "fhwa-series-font-family")
 SYM_DIR = os.path.join(ROOT, "tools", "symbols")
-OUT_ROOT = os.path.join(ROOT, "AS 1743-2023", "Processed")
+OUT_ROOT = os.path.join(ROOT, "AS 1743-2023", "SVGs")
 SERIES_FILES = {"B": "Fhwaseriesb2025{t}.otf", "C": "Fhwaseriesc2024{t}.otf",
                 "D": "Fhwaseriesd2024{t}.otf", "E": "Fhwaseriese2024{t}.otf",
                 "Emod": "Fhwaseriesemod2024{t}.otf", "F": "Fhwaseriesf2025{t}.otf"}

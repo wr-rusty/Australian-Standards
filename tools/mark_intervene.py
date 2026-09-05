@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """mark_intervene.py — read every tools/specs/*/_QA_REPORT.md, and set "intervene": "<reason>" on each
 spec whose line is an ISSUE (or clear it when the line is OK/FIXED). Run before signgen.py so those signs
-land in Processed/intervene/."""
+land in SVGs/intervene/."""
 import glob, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 issues = {}; cleared = 0

@@ -1,6 +1,6 @@
 # tools
 
-Pipeline that turns the AS 1743-2023 drawings into SVGs under `AS 1743-2023/Processed/`.
+Pipeline that turns the AS 1743-2023 drawings into SVGs under `AS 1743-2023/SVGs/`.
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install fonttools pillow   # once; potrace via `brew install potrace`
@@ -22,7 +22,7 @@ python3 -m venv .venv && .venv/bin/pip install fonttools pillow   # once; potrac
 | `lint_specs.py` | Flags left-aligned lines with unequal margins or tiny gaps (catches x typos the width check cannot). |
 | `mark_intervene.py` | Reads the QA reports; every `CODE — ISSUE (...)` line sets `"intervene"` on that spec. |
 
-## Output layout (`AS 1743-2023/Processed/`)
+## Output layout (`AS 1743-2023/SVGs/`)
 
 Family folders: Regulatory Signs, Parking Signs (R5), Speed Signs/…, Warning Signs, Temporary Signs, Guide Signs,
 Service Signs (G7), Tourist Signs (G11, TRA/TRB), Freeway Signs (GE), Hazard Markers (D4). Filenames are
