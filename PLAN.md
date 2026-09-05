@@ -267,5 +267,6 @@ for AS 1743, then 2–3 for AS 1319.
     organised into family folders under `MUTCD 2023/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
     code. Open for Russell: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
     conventional-road marker), guide signs drawn at sheet scale (no size table), and `SVGs/intervene/INTERVENE_LIST.md`.
-  * TODO — NZ, then UK.
+  * NZ (started 2026-09-05): blocked on nzta.govt.nz bot protection; notes and plan in `International/NZ/README.md`.
+  * TODO — UK after NZ.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
