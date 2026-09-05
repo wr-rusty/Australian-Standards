@@ -182,10 +182,67 @@ def choose_size(sign, widths):
                 s["sizes"] = len(alts); return s
     sign["sizes"] = len(alts); return sign
 
+# Symbols NZTA withholds (Standards NZ copyright notice on the sheet) but draws as sample content on tourist sign sheets:
+# symbol code -> (tourist sheet code, which pictogram under the notice: "tall" or "wide"), lifted from there.
+RECOVERED = {"ST10": ("VI3L", "tall"), "ST11": ("VJ4R", "wide")}
+INK = "/Applications/Inkscape.app/Contents/MacOS/inkscape"
+
+def recover_symbol(reg, code, widths, cache, folder, fn):
+    """Lift a withheld pictogram from a tourist sheet: white shapes become black, the sign-coloured cut-outs become holes
+    (Inkscape path booleans), scaled so its height matches the register's symbol size."""
+    src, want = RECOVERED[code]
+    eps = [p for p in reg[src]["local"].split(" | ") if p.lower().endswith(".eps")][0]
+    doc = pymupdf.open(eps_to_pdf(os.path.join(NZ, eps), cache)); page = doc[0]
+    nb = None
+    for b in page.get_text("rawdict")["blocks"]:
+        for l in b.get("lines", []):
+            for sp in l["spans"]:
+                t = "".join(c["c"] for c in sp["chars"])
+                if "copyright" in t.lower() or "Standards" in t or "Note" in t: nb = pymupdf.Rect(sp["bbox"]) if nb is None else nb | pymupdf.Rect(sp["bbox"])
+    fills = [f for f in X.fills_on_page(page) if f["rect"].intersects(nb) and f["area"] < 0.2 * page.rect.get_area()]
+    parent = list(range(len(fills)))
+    def find(i):
+        while parent[i] != i: parent[i] = parent[parent[i]]; i = parent[i]
+        return i
+    for i in range(len(fills)):
+        for j in range(i + 1, len(fills)):
+            if (fills[i]["rect"] + (-3, -3, 3, 3)).intersects(fills[j]["rect"]): parent[find(i)] = find(j)
+    groups = {}
+    for i in range(len(fills)): groups.setdefault(find(i), []).append(fills[i])
+    cl = []
+    for g in groups.values():
+        box = pymupdf.Rect(min(f["rect"].x0 for f in g), min(f["rect"].y0 for f in g), max(f["rect"].x1 for f in g), max(f["rect"].y1 for f in g)); cl.append((box, g))
+    box, g = max([c for c in cl if (c[0].height > c[0].width) == (want == "tall")], key=lambda c: c[0].get_area())
+    target = widths[0] if widths else box.height * DRAWN_SCALE * MM_PER_PT
+    k = target / box.height          # pt -> mm so the pictogram is `target` mm tall
+    def T(p): return ((p[0] - box.x0) * k, (p[1] - box.y0) * k)
+    W, H = box.width * k, box.height * k
+    body = []; bi = hi = 0
+    for f in g:
+        if X.colour_name(f["fill"]) == "WHITE": bi += 1; body.append(f'<path id="b{bi}" fill="#000000"{" fill-rule=\"evenodd\"" if f.get("even_odd") else ""} d="{X.path_d(f["items"], T)}"/>')
+        else: hi += 1; body.append(f'<path id="h{hi}" fill="#ff0000"{" fill-rule=\"evenodd\"" if f.get("even_odd") else ""} d="{X.path_d(f["items"], T)}"/>')
+    import tempfile
+    with tempfile.TemporaryDirectory() as td:
+        rawp = os.path.join(td, "raw.svg"); outp = os.path.join(td, "out.svg")
+        open(rawp, "w").write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}mm" height="{H}mm" viewBox="0 0 {W} {H}">' + "".join(body) + "</svg>")
+        acts = f"select-by-id:{','.join('b%d' % i for i in range(1, bi + 1))};path-union;select-clear;"
+        if hi: acts += f"select-by-id:{','.join('h%d' % i for i in range(1, hi + 1))};path-union;select-clear;select-all;path-difference;"
+        subprocess.run([INK, rawp, "--actions", acts + f"export-plain-svg;export-filename:{outp};export-do"], capture_output=True, text=True)
+        d = re.findall(r'\sd="([^"]+)"', open(outp).read())
+    d = " ".join(d)
+    # path coordinates are in mm; write the repo header (1 pt = 1 cm, mm × 0.1 inside a scale(0.1) group)
+    OW, OH = W * 0.1, H * 0.1
+    svg = ['<?xml version="1.0" encoding="UTF-8"?>',
+           f'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="{fmt(OW * 25.4 / 72)}mm" height="{fmt(OH * 25.4 / 72)}mm" viewBox="0 0 {fmt(OW)} {fmt(OH)}">',
+           '<g transform="scale(0.1)">', f'  <path fill="#000000" fill-rule="evenodd" d="{d}"/>', "</g>", "</svg>"]
+    open(os.path.join(folder, fn), "w").write("\n".join(svg) + "\n")
+    return W, H, src
+
 def main(register=None):
     register = register or os.path.join(NZ, "REGISTER.csv")
     out = os.path.join(NZ, "SVGs"); cache = os.path.join(os.environ.get("NZ_CACHE", os.path.join(NZ, ".pdfcache")))
     rows = []; seen = {}
+    reg_by_code = {r["code"]: r for r in csv.DictReader(open(register))}
     for r in csv.DictReader(open(register)):
         fam = FAMILY.get(r["category"], r["category"]); folder = os.path.join(out, fam); os.makedirs(folder, exist_ok=True)
         eps_files = [p for p in r["local"].split(" | ") if p.lower().endswith(".eps")]
@@ -226,6 +283,9 @@ def main(register=None):
                 seen[fn] = 1
                 withheld = [t for t in sign["notes_text"] if "copyright" in t.lower()]
                 if withheld and fam != "Symbols": note = (note + "; " if note else "") + "sheet carries a Standards NZ copyright notice over one example pictogram (NZS 8603 symbol)"
+                if withheld and fam == "Symbols" and r["code"] in RECOVERED:
+                    W, H, src = recover_symbol(reg_by_code, r["code"], widths, cache, folder, fn)
+                    rows.append([r["code"], r["title"], fam, fn, f"{W:.0f}x{H:.0f} mm", r["dimensions"], f"artwork lifted from the {src} tourist sheet where NZTA draws it (symbol sheet carries only a Standards NZ copyright notice); holes cut with Inkscape booleans"]); continue
                 if withheld and fam == "Symbols":   # NZTA does not supply the artwork (Standards NZ copyright); the sheet carries only a notice
                     idir = os.path.join(out, "intervene", fam); os.makedirs(idir, exist_ok=True)
                     open(os.path.join(idir, fn), "w").write(svg)
