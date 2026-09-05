@@ -255,6 +255,11 @@ for AS 1743, then 2–3 for AS 1319.
   grouped by family under `Processed/`, header format = the speed-sign Illustrator exports, no metadata in SVGs,
   signs needing a decision go to `Processed/intervene/`.
 * Phase 5 (QA) done for every family (2026-09-05): 1,196 clean files; 50 drawings in `Processed/intervene/` (see `INTERVENE_LIST.md` there).
-* Open follow-ups: draw the standard's Figure 4-1 arrows geometrically instead of tracing; decide vary lists for
-  UHF channels and area/advisory speeds; hand-clean the few symbols the standard draws dashed or annotated;
-  Phase 6 (AS 1319) and Phase 7 (reconcile the old `SVGs/`) not started.
+* Arrows drawn geometrically (2026-09-05); Guide and Freeway families excluded from generation at Russell's request
+  (specs kept); all intervene items accepted.
+* TODO — AS 1319 (paused 2026-09-05): pictograms traced to `tools/symbols/as1319/` (31, from the standard's small
+  rasters), generator drafted in `tools/as1319.py` (H/D rule layouts, DANGER header per C1, figure 3.1 arrows); specs
+  not yet written; Russell's camera/video symbols still to be lifted from his NO_PHOTO/NO_VIDEO SVGs. Resume by writing
+  `tools/specs/AS1319/*.json` and comparing against his 16 existing SVGs.
+* TODO — international: see `International/REVIEW.md` (USA first, then NZ, then UK).
+* TODO — reconcile the old `SVGs/` folder against the generated set.
