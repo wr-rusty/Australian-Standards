@@ -66,3 +66,21 @@ releases 1–6; see `SOURCES.md` there). The sheets are vector PDFs, so the artw
 
 Sizes: one file per drawing at the conventional-road size. Guide signs with no size table are drawn at the sheet's own
 scale (1 pt = 0.1 in) and say so in the manifest.
+
+## New Zealand — `NZ TCD Manual/`
+
+Source: the NZTA sign-specifications register (Traffic Control Devices Manual), one entry per sign with an EPS drawing
+(Illustrator, 1:10, legends outlined) and a dimensions/colours table. NZTA states the files may be used commercially
+without approval. The site sits behind Imperva bot protection: a person passes the check once in the Browser pane, and
+the tools then reuse that session cookie.
+
+* `nz_crawl.py` — crawls the register (10 categories, 500 signs) into `REGISTER.csv` and downloads every EPS and
+  non-labelled GIF into `Original EPS/<category>/`. Needs `NZTA_COOKIE` and `NZTA_UA` from the browser session.
+* `nz_extract.py` — Ghostscript turns each EPS into a PDF; fills are lifted exactly and scaled ×10 to real size. Sheets
+  holding several panels (assemblies, the same sign at several sizes, margin labels) are split per panel: the same
+  drawing at several sizes keeps the largest and says so; anything outside a panel's outline is dropped. Output in
+  `SVGs/<family>/` with `MANIFEST.csv` (drawn size beside the register's dimensions; mismatches and ignored live text or
+  strokes are noted).
+
+Fonts (TCD Manual Part 1 §5.3.1): AS 1744 Series A–E and modified E lower case, plus "Transport Medium NZ" for parking
+sign text and metric abbreviations. The EPS legends are already outlined, so no font is needed to reproduce them.

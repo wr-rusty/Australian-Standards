@@ -3,3 +3,5 @@
 __pycache__/
 MUTCD 2023/Original PDFs/**/*.zip
 MUTCD 2023/Original PDFs/SHS 2024 Releases/2024_SHS_Releases_1-4-Regulatory_Warning_TTC_School_Signs.pdf
+.nz_cache/
+.pdfcache/

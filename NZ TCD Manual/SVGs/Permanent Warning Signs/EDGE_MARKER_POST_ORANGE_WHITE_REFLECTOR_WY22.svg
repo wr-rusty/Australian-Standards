@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3.17mm" height="31.75mm" viewBox="0 0 9 90">
+<g transform="scale(0.1)">
+  <path fill="#f58232" d="M0 0L90 0L90 900L0 900L0 0"/>
+  <path fill="#ed1c24" d="M0 150L25 150L25 300L0 300L0 150"/>
+  <path fill="#ed1c24" d="M65 150L90 150L90 300L65 300L65 150"/>
+  <path fill="#ffffff" d="M25 10L65 10L65 460L25 460L25 10"/>
+</g>
+</svg>

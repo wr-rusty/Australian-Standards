@@ -267,6 +267,10 @@ for AS 1743, then 2–3 for AS 1319.
     organised into family folders under `MUTCD 2023/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
     code. Open for Russell: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
     conventional-road marker), guide signs drawn at sheet scale (no size table), and `SVGs/intervene/INTERVENE_LIST.md`.
-  * NZ (started 2026-09-05): blocked on nzta.govt.nz bot protection; notes and plan in `International/NZ/README.md`.
+  * NZ (2026-09-05): NZTA sign-specifications register crawled with `tools/nz_crawl.py` (Russell passes the site's
+    Imperva check once in the Browser pane; the tools reuse that session) into `NZ TCD Manual/` (`REGISTER.csv`,
+    `Original EPS/`); `tools/nz_extract.py` lifts the EPS artwork (1:10, legends outlined) into `SVGs/<family>/` with
+    `MANIFEST.csv`. Fonts per TCD Manual Part 1 §5.3.1: AS 1744 Series A–E + modified E lower case, Transport Medium NZ
+    for parking text and metric abbreviations (not needed: legends are outlined).
   * TODO — UK after NZ.
 * TODO — reconcile the old `SVGs/` folder against the generated set.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="74.79mm" height="1.77mm" viewBox="0 0 212 5">
+<g transform="scale(0.1)">
+  <path fill="#ed1c24" d="M280 50.03L0 50.03L0 0L280 0L280 50.03"/>
+  <path fill="#ffffff" d="M460 50.03L280 50.03L280 0L460 0L460 50.03"/>
+  <path fill="#ed1c24" d="M740 50.03L460 50.03L460 0L740 0L740 50.03"/>
+  <path fill="#ffffff" d="M920 50.03L740 50.03L740 0L920 0L920 50.03"/>
+  <path fill="#ed1c24" d="M1200 50.03L920 50.03L920 0L1200 0L1200 50.03"/>
+  <path fill="#ffffff" d="M1380 50.03L1200 50.03L1200 0L1380 0L1380 50.03"/>
+  <path fill="#ed1c24" d="M1660 50.03L1380.01 50.03L1380.01 0L1660 0L1660 50.03"/>
+  <path fill="#ffffff" d="M1840 50.03L1660 50.03L1660 0L1840 0L1840 50.03"/>
+  <path fill="#ed1c24" d="M2120 50.03L1840 50.03L1840 0L2120 0L2120 50.03"/>
+</g>
+</svg>
