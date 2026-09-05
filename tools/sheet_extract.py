@@ -339,7 +339,7 @@ def strip_annotated_subpaths(f, ann_boxes):
     drawing. Drop the subpaths sitting under annotation text; keep the rest (None when nothing is left)."""
     if f.get("virtual") or len(f["items"]) < 6 or not ann_boxes: return f
     parts = subpaths(f["items"])
-    if len(parts) < 3: return f
+    if len(parts) < 3 or len(parts) > 1500: return f                 # (a tessellated export is thousands of pieces: leave it to the union step)
     keep = []; dropped = 0
     for part in parts:
         pts = X.item_points(part); r = pymupdf.Rect(min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts))
@@ -357,7 +357,7 @@ def explode(f):
     become the small separate marks the sign rules already drop."""
     if f.get("virtual") or f.get("band") or len(f["items"]) < 6: return [f]
     parts = subpaths(f["items"])
-    if len(parts) < 2: return [f]
+    if len(parts) < 2 or len(parts) > 600: return [f]                  # nesting test is quadratic: leave huge compound paths whole
     boxes = []
     for part in parts:
         pts = X.item_points(part); boxes.append(pymupdf.Rect(min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts)))
@@ -393,7 +393,7 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
     blocks0 = {}
     for s in spans: blocks0.setdefault(s["block"], []).append(s)
     prose_blocks = {b for b, ss in blocks0.items() if len(ss) >= 3 and sum(len(x["text"]) for x in ss) / len(ss) > 18 and not any(SIGN_FONT.search(x["font"]) for x in ss)}
-    def annotation(s): return not SIGN_FONT.search(s["font"]) and (is_number(s["text"]) or not region.contains(pymupdf.Point(s["origin"])) or s["block"] in prose_blocks)
+    def annotation(s): return not SIGN_FONT.search(s["font"]) and ((is_number(s["text"]) and s["bbox"].height < 12) or not region.contains(pymupdf.Point(s["origin"])) or s["block"] in prose_blocks)   # big single letters are legend, not dimension letters
     ann_boxes = [s["bbox"] + (-2.5, -2.5, 2.5, 2.5) for s in spans if annotation(s)]
     blocks = {}
     for s in spans: blocks.setdefault(s["block"], []).append(s)

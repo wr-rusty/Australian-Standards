@@ -1,7 +1,7 @@
 ---
 id: SGN-002
 title: Australia/VIC: state sign pack
-status: blocked
+status: in-progress
 priority: P1
 area: sources
 project: australia
@@ -31,3 +31,5 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-06 — filed.
 - 2026-09-06 — Victoria's drawings are not online as a register: the 'VicRoads Manual of Standard Drawings for Road Signs' (2004) and TEM Vol 3 are listed in the DTP technical publications catalogue (vic.gov.au/dtp-technical-publications, JS search; catalogue spreadsheet). Locate the current download or request it from StandardsManagementRD@transport.vic.gov.au.
 - 2026-09-05 — status → blocked.
+- 2026-09-06 — Unblocked: the DTP Engineering Standards Catalogue lists 'TEM Vol 2 Part 2.17 – Supplement to AS 1743:2023 Road signs – Specifications v2.0' (370 pages, one V-series drawing per page) and TEM Vol 3 Part 2.12 tourist/service signs. Downloaded to `Australia/VIC/Original PDFs/`; `tools/vic_extract.py` (pages turned 90°, names from the index tables) → ~320 SVGs; 172 without a readable size (check). Legends are live Times text with per-letter spans — the extractor now keeps big single letters as legend.
+- 2026-09-05 — status → in-progress.

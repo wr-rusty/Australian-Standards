@@ -14,7 +14,11 @@ def main(pack, out, limit=None):
         if limit and done >= limit: break
         done += 1
         src, _, pg = row["source"].partition("#page=")
-        page = pymupdf.open(os.path.join(pack, src))[int(pg) - 1 if pg else 0]; pix = page.get_pixmap(dpi=36); a = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+        if not src.lower().endswith(".pdf"):                    # a DWG source: show the sibling PDF scan if there is one
+            sib = os.path.splitext(src)[0] + ".pdf"; src = sib if os.path.exists(os.path.join(pack, sib)) else ""
+        if src:
+            page = pymupdf.open(os.path.join(pack, src))[int(pg) - 1 if pg else 0]; pix = page.get_pixmap(dpi=36); a = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+        else: a = Image.new("RGB", (200, 300), "white")
         if a.height > 300: a = a.resize((int(a.width * 300 / a.height), 300))
         svg = os.path.join(pack, "SVGs", row["family"], row["file"]); png = os.path.join(out, "_r.png")
         if os.path.exists(png): os.remove(png)

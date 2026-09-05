@@ -1,12 +1,12 @@
 ---
 id: SGN-008
 title: Australia/ACT: state sign pack
-status: open
+status: blocked
 priority: P1
 area: sources
 project: australia
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-05
 source: manual
 ---
 
@@ -30,3 +30,5 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 
 - 2026-09-06 — filed.
 - 2026-09-06 — MITS-14 Road signs (July 2019, 37 pages) downloaded to `Australia/ACT/Original PDFs/`: it is a construction specification referencing AS 1742/1743 codes, with no ACT-specific sign drawings. ACT likely adopts the national pack; check MIS-12 Guide signs and TCCS sign blocks before closing.
+- 2026-09-06 — TCCS ACTSD sign drawings downloaded (39 sheets). Parking-sign sheets 3701–3735 are scans; 3720/3724 vector → `tools/act_extract.py` gives 5 pay-parking SVGs. ACT otherwise uses the national set. Status → blocked on TCCS CAD originals for the parking faces.
+- 2026-09-05 — status → blocked.

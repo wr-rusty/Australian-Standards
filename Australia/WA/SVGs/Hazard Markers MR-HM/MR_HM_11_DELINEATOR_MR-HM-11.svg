@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="8.11mm" height="8.11mm" viewBox="0 0 23 23">
+<g transform="scale(0.1)">
+  <path fill="#ffffff" d="M0 0L230 0L230 230L0 230L0 0"/>
+  <path fill="#ed1c24" fill-rule="evenodd" d="M106.07 0L230 123.93L230 53.22L176.78 0L106.07 0"/>
+  <path fill="#ed1c24" fill-rule="evenodd" d="M0 176.78L53.22 230L123.93 230L0 106.07L0 176.78"/>
+</g>
+</svg>

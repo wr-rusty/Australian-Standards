@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="21.17mm" height="21.17mm" viewBox="0 0 60 60">
+<g transform="scale(0.1)">
+  <path fill="#ffe40d" d="M0 0L600.01 0L600.01 600L0 600L0 0"/>
+  <path fill="#ffe40d" fill-rule="evenodd" d="M0 600L0 0L600.01 0L600.01 600L0 600M50.05 505L50.05 415L550.5 415L550.5 505L50.05 505M50.05 345.01L50.05 254.99L550.5 254.99L550.5 345.01L50.05 345.01M50.05 185L50.05 95L550.5 95L550.5 185L50.05 185"/>
+  <path fill="#231f20" fill-rule="evenodd" d="M50.05 254.99L550.5 254.99L550.5 345.01L50.05 345.01L50.05 254.99"/>
+  <path fill="#231f20" fill-rule="evenodd" d="M50.05 415L550.5 415L550.5 505L50.05 505L50.05 415"/>
+  <path fill="#231f20" fill-rule="evenodd" d="M50.05 95L550.5 95L550.5 185L50.05 185L50.05 95"/>
+</g>
+</svg>
