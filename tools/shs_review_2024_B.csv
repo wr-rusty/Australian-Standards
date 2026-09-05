@@ -1,0 +1,331 @@
+sheet,page,code,issue_type,detail
+035,444,W1-2L,TRANSPARENCY,two small white dots outside diamond on left side of extracted sign
+035,444,W1-2L,ELEMENT EXTRA,stray black arrowhead (page mini-thumbnail fragment) lower-left outside sign
+035,445,W1-3R,TRANSPARENCY,two small white dots outside diamond on left side
+035,445,W1-3R,ELEMENT EXTRA,stray black triangle (mini-thumbnail fragment) lower-left outside sign
+035,445,W1-3L,TRANSPARENCY,two small white dots outside diamond on left side
+035,445,W1-3L,ELEMENT EXTRA,stray black triangle lower-left outside sign
+035,446,W1-4R,TRANSPARENCY,two small white dots outside diamond on left side
+035,446,W1-4R,ELEMENT EXTRA,stray black triangle lower-left outside sign
+035,446,W1-4L,TRANSPARENCY,two small white dots outside diamond on left side
+035,446,W1-4L,ELEMENT EXTRA,stray black triangle lower-left outside sign
+035,447,W1-5R,TRANSPARENCY,two small white dots outside diamond on left side
+035,447,W1-5R,ELEMENT EXTRA,stray black winding-arrow fragment (mini-thumbnail) lower-left outside sign
+035,447,W1-5L,TRANSPARENCY,two small white dots outside diamond on left side
+035,447,W1-5L,ELEMENT EXTRA,stray black winding-arrow fragment lower-left outside sign
+035,447,W1-5L,CODE/NAME,caption name truncated to "A" (should be WINDING ROAD / HORIZONTAL ALIGNMENT)
+035,448,W1-6L,CODE/NAME,W1-6L drawing and extract are identical to W1-6R (arrow points right); left variant should point left - wrong drawing selected or page lacks L variant
+035,450,W1-8L,CODE/NAME,caption name truncated to "A" (should be CHEVRON ALIGNMENT)
+036,451,W1-10R,TRANSPARENCY,two small white dots outside diamond on left side
+036,451,W1-10R,ELEMENT EXTRA,stray black arrowhead and bar (mini-thumbnail fragment) lower-left outside sign
+036,451,W1-10L,TRANSPARENCY,two small white dots outside diamond on left side
+036,451,W1-10L,ELEMENT EXTRA,stray black arrowhead and bar lower-left outside sign
+036,451,W1-10L,CODE/NAME,caption name truncated to "A" (should be COMBINATION HORIZONTAL ALIGNMENT)
+036,452,W1-10aR,TRANSPARENCY,two small white dots outside diamond on left side
+036,452,W1-10aR,ELEMENT EXTRA,stray black mini-arrow symbol lower-left outside sign
+036,452,W1-10aL,TRANSPARENCY,two small white dots outside diamond on left side
+036,452,W1-10aL,ELEMENT EXTRA,stray black mini-arrow symbol lower-left outside sign
+036,453,W1-10bR,TRANSPARENCY,two small white dots outside diamond on left side
+036,453,W1-10bR,ELEMENT EXTRA,stray black mini-arrow symbol lower-left outside sign
+036,453,W1-10bL,TRANSPARENCY,two small white dots outside diamond on left side
+036,453,W1-10bL,ELEMENT EXTRA,stray black mini-arrow symbol lower-left outside sign
+036,454,W1-10cR,TRANSPARENCY,two small white dots outside diamond on left side
+036,454,W1-10cR,ELEMENT EXTRA,stray black mini-arrow fragments lower-left outside sign
+036,454,W1-10cL,TRANSPARENCY,two small white dots outside diamond on left side
+036,454,W1-10cL,ELEMENT EXTRA,stray black mini-arrow fragments lower-left outside sign
+036,455,W1-10dR,TRANSPARENCY,two small white dots outside diamond on left side
+036,455,W1-10dR,ELEMENT EXTRA,stray black mini-arrow fragments lower-left outside sign
+036,455,W1-10dL,TRANSPARENCY,two small white dots outside diamond on left side
+036,455,W1-10dL,ELEMENT EXTRA,stray black mini-arrow fragments lower-left outside sign
+036,456,W1-10eR,TRANSPARENCY,two small white dots outside diamond on left side
+036,456,W1-10eR,ELEMENT EXTRA,stray black mini-arrow fragments lower-left outside sign
+036,456,W1-10eL,TRANSPARENCY,two small white dots outside diamond on left side
+036,456,W1-10eL,ELEMENT EXTRA,stray black mini-arrow fragments lower-left outside sign
+037,457,W1-11R,TRANSPARENCY,two small white dots outside diamond on left side
+037,457,W1-11R,ELEMENT EXTRA,stray black hairpin fragment (mini-thumbnail) lower-left outside sign
+037,457,W1-11L,TRANSPARENCY,two small white dots outside diamond on left side
+037,457,W1-11L,ELEMENT EXTRA,stray black hairpin fragment lower-left outside sign
+037,458,W1-13L,TRANSPARENCY,two small white dots outside diamond on left side
+037,458,W1-13L,ELEMENT EXTRA,stray black truck-rollover mini-thumbnail fragments lower-left outside sign
+037,458,W1-13R,TRANSPARENCY,two small white dots outside diamond on left side
+037,458,W1-13R,ELEMENT EXTRA,stray black truck-rollover mini-thumbnail fragments lower-left outside sign
+037,459,W1-15R,TRANSPARENCY,two small white dots outside diamond on left side
+037,459,W1-15R,ELEMENT EXTRA,stray black loop fragment (mini-thumbnail) lower-left outside sign
+037,459,W1-15L,TRANSPARENCY,two small white dots outside diamond on left side
+037,459,W1-15L,ELEMENT EXTRA,stray black loop fragment lower-left outside sign
+037,460,W2-1,TRANSPARENCY,two small white dots outside diamond on left side
+037,461,W2-2R,TRANSPARENCY,two small white dots outside diamond on left side
+037,461,W2-2R,ELEMENT EXTRA,stray black bar (mini-thumbnail fragment) lower-left outside sign
+037,461,W2-2L,TRANSPARENCY,two small white dots outside diamond on left side
+037,461,W2-2L,ELEMENT EXTRA,stray black bar lower-left outside sign
+037,462,W2-3R,TRANSPARENCY,small white dot(s) outside diamond on left side
+037,462,W2-3L,TRANSPARENCY,small white dot(s) outside diamond on left side
+037,463,W2-3aR,TRANSPARENCY,small white dot(s) outside diamond on left side
+038,463,W2-3aL,TRANSPARENCY,two small white dots outside diamond on left side
+038,464,W2-4,TRANSPARENCY,two small white dots outside diamond on left side
+038,465,W2-5,TRANSPARENCY,two small white dots outside diamond on left side
+038,466,W2-6,TRANSPARENCY,two small white dots outside diamond on left side
+038,467,W2-7R,TRANSPARENCY,two small white dots outside diamond on left side
+038,467,W2-7L,TRANSPARENCY,two small white dots outside diamond on left side
+038,468,W2-8R,TRANSPARENCY,two small white dots outside diamond on left side
+038,468,W2-8R,ELEMENT EXTRA,stray small black mark (mini-thumbnail fragment) lower-left outside sign
+038,468,W2-8L,TRANSPARENCY,two small white dots outside diamond on left side
+038,468,W2-8L,ELEMENT EXTRA,stray small black mark lower-left outside sign
+038,469,W2-10,TRANSPARENCY,small white dots outside diamond on left side
+038,470,W2-11,TRANSPARENCY,small white dot outside diamond on lower-left side
+038,471,W3-1,TRANSPARENCY,white dots outside diamond on both left and right sides
+038,472,W3-2,TRANSPARENCY,white dots outside diamond on both left and right sides
+039,473,W3-3,TRANSPARENCY,two small white dots outside diamond on left side
+039,474,W3-4,TRANSPARENCY,two small white dots outside diamond on left side
+039,475,W3-5,TRANSPARENCY,white dots outside diamond on both left and right sides
+039,476,W3-5a,TRANSPARENCY,two small white dots outside diamond on left side
+039,477,W3-5b,TRANSPARENCY,two small white dots outside diamond on left side
+039,478,W3-5c,TRANSPARENCY,two small white dots outside diamond on left side
+039,479,W3-6,TRANSPARENCY,two small white dots outside diamond on left side
+039,480,W3-7,TRANSPARENCY,two small white dots outside diamond on left side
+039,481,W3-8,TRANSPARENCY,two small white dots outside diamond on left side
+039,483,W4-1R,TRANSPARENCY,two small white dots outside diamond on left side
+039,483,W4-1R,ELEMENT EXTRA,stray black merge-arrow fragment (mini-thumbnail) lower-left outside sign
+039,483,W4-1L,TRANSPARENCY,two small white dots outside diamond on left side
+039,483,W4-1L,ELEMENT EXTRA,stray black merge-arrow fragment lower-left outside sign
+039,483,W4-1L,CODE/NAME,caption name truncated to "A" (should be MERGE)
+040,484,W4-2R,TRANSPARENCY,two small white dots outside diamond on left side
+040,484,W4-2L,TRANSPARENCY,two small white dots outside diamond on left side
+040,485,W4-3R,TRANSPARENCY,white dots outside diamond on right side
+040,485,W4-3R,ELEMENT EXTRA,two stray black triangles (mini-thumbnail fragments) lower-left outside sign
+040,485,W4-3L,TRANSPARENCY,white dots outside diamond on right side
+040,485,W4-3L,ELEMENT EXTRA,two stray black triangles lower-left outside sign
+040,485,W4-3L,CODE/NAME,caption name truncated to "A" (should be ADDED LANE)
+040,490,W4-5R,TRANSPARENCY,white dots outside diamond on right side
+040,490,W4-5L,TRANSPARENCY,white dots outside diamond on right side
+040,490,W4-5L,CODE/NAME,caption name truncated to "A" (should be ENTERING ROADWAY MERGE)
+040,492,W4-6R,TRANSPARENCY,white dots outside diamond on left side
+040,492,W4-6R,ELEMENT EXTRA,stray black mini-thumbnail fragments lower-left outside sign
+041,492,W4-6L,TRANSPARENCY,white dots outside diamond on left side
+041,492,W4-6L,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+041,492,W4-6L,CODE/NAME,caption name truncated to "A" (should be ENTERING ROADWAY ADDED LANE)
+041,493,W4-7R,TRANSPARENCY,white dots outside diamond on left side
+041,493,W4-7R,ELEMENT EXTRA,stray mini-thumbnail text "HEAVY MERGE FROM" rendered lower-left outside sign
+041,493,W4-7L,LETTERING,extract reads HEAVY MERGE FROM RIGHT but code is W4-7L (FROM LEFT) - page drawing used is the R variant
+041,493,W4-7L,TRANSPARENCY,white dots outside diamond on left side
+041,493,W4-7L,ELEMENT EXTRA,stray mini-thumbnail text "HEAVY MERGE FROM" rendered lower-left outside sign
+041,494,W4-8,TRANSPARENCY,white dots outside diamond on left side
+041,495,W5-1,TRANSPARENCY,white dots outside diamond on left side
+041,496,W5-2,TRANSPARENCY,white dots outside diamond on left side
+041,497,W5-2a,TRANSPARENCY,white dots outside diamond on left side
+041,498,W5-3,TRANSPARENCY,white dots outside diamond on left side
+041,499,W5-3a,TRANSPARENCY,white dots outside diamond on left side
+041,500,W5-4,TRANSPARENCY,white dots outside diamond on left side
+041,501,W5-4a,TRANSPARENCY,white dots outside diamond on left side
+041,502,W6-1,TRANSPARENCY,white dots outside diamond on left side
+042,503,W6-2,TRANSPARENCY,white dots outside diamond
+042,504,W6-3,TRANSPARENCY,white dots outside diamond on left side
+042,505,W6-5,TRANSPARENCY,white dots outside diamond on left side
+042,506,W6-5a,TRANSPARENCY,white dots outside diamond on left side
+042,507,W7-1,TRANSPARENCY,white dots outside diamond on left side
+042,508,W7-1a,TRANSPARENCY,white dots outside diamond on left side
+043,520,W7-5,TRANSPARENCY,white dots outside diamond on left side
+043,521,W7-6,TRANSPARENCY,white dots outside diamond on left side
+043,522,W8-1,TRANSPARENCY,white dots outside diamond on left side
+043,523,W8-2,TRANSPARENCY,white dots outside diamond on left side
+043,524,W8-3,TRANSPARENCY,white dots outside diamond on left side
+043,525,W8-4,TRANSPARENCY,white dots outside diamond on left side
+043,526,W8-5,TRANSPARENCY,white dots outside diamond on left side
+044,631,W8-6,TRANSPARENCY,white dots outside diamond on left side
+044,632,W8-7,TRANSPARENCY,white dots outside diamond on left side
+044,633,W8-8,TRANSPARENCY,white dots outside diamond on left side
+044,634,W8-9,TRANSPARENCY,white dots outside diamond on left side
+044,635,W8-10,TRANSPARENCY,white dots outside diamond on left side
+044,637,W8-11,TRANSPARENCY,white dots outside diamond on left side
+044,638,W8-12,TRANSPARENCY,white dots outside diamond on left side
+045,539,W8-13,TRANSPARENCY,white dots outside diamond on left side
+045,540,W8-14,TRANSPARENCY,white dots outside diamond on left side
+045,541,W8-15,TRANSPARENCY,white dots outside diamond on left side
+045,543,W8-16,TRANSPARENCY,white dots outside diamond on left side
+045,544,W8-17L,TRANSPARENCY,white dots outside diamond on left side
+045,544,W8-17L,ELEMENT EXTRA,stray black car icon (mini-thumbnail) lower-left outside sign
+045,544,W8-17R,TRANSPARENCY,white dots outside diamond on left side
+045,544,W8-17R,ELEMENT EXTRA,stray black car icon (mini-thumbnail) lower-left outside sign
+045,546,W8-18,TRANSPARENCY,white dots outside diamond on left side
+045,547,W8-19,CODE/NAME,caption name truncated to "DEF" and no size bracket
+045,548,W8-21,TRANSPARENCY,white dots outside diamond on left side
+045,549,W8-22,TRANSPARENCY,white dots outside diamond on left side
+046,650,W8-23,TRANSPARENCY,white dots outside diamond on left side
+046,651,W8-25,TRANSPARENCY,white dots outside diamond on left side
+046,652,W8-26,TRANSPARENCY,white dots outside diamond on left side
+046,653,W8-26a,TRANSPARENCY,white dots outside diamond on left side
+046,654,W9-1R,TRANSPARENCY,white dots outside diamond on left side
+046,654,W9-1R,ELEMENT EXTRA,stray mini-thumbnail text "LEFT LANE" rendered lower-left outside sign
+046,654,W9-1L,LETTERING,extract reads RIGHT LANE ENDS but code is W9-1L (LEFT LANE ENDS) - page drawing used is the R variant
+046,654,W9-1L,TRANSPARENCY,white dots outside diamond on left side
+046,654,W9-1L,ELEMENT EXTRA,stray mini-thumbnail text "LEFT LANE" rendered lower-left outside sign
+046,655,W9-4,TRANSPARENCY,white dots outside diamond on left side
+046,656,W9-5,TRANSPARENCY,white dots outside diamond on left side
+046,657,W9-5a,TRANSPARENCY,white dots outside diamond on left side
+046,660,W9-6bP,LETTERING,hyphen between MILE and CARS missing (page reads PAY TOLL 1 MILE - CARS 75c)
+047,661,W9-6cP,LETTERING,hyphen between AHEAD and PAY missing (page reads STOP AHEAD - PAY TOLL)
+047,666,W9-6hP,LETTERING,hyphen between AHEAD and TAKE missing (page reads STOP AHEAD - TAKE TICKET)
+047,671,W10-2R,TRANSPARENCY,white dots outside diamond on left side
+047,671,W10-2R,ELEMENT EXTRA,stray small black square (mini-thumbnail fragment) lower-left outside sign
+047,671,W10-2L,TRANSPARENCY,white dots outside diamond on left side
+047,671,W10-2L,ELEMENT EXTRA,stray small black square lower-left outside sign
+048,572,W10-3R,TRANSPARENCY,white dots outside diamond on right side
+048,572,W10-3L,TRANSPARENCY,white dots outside diamond
+048,573,W10-4R,TRANSPARENCY,white dots outside diamond
+048,573,W10-4L,TRANSPARENCY,white dots outside diamond
+048,574,W10-5,TRANSPARENCY,white dots outside diamond
+048,577,W10-8,TRANSPARENCY,white dots outside diamond
+048,578,W10-9,TRANSPARENCY,white dots outside diamond
+048,580,W10-11,TRANSPARENCY,white dots outside diamond
+049,583,W10-12R,TRANSPARENCY,white dots outside diamond on left side
+049,583,W10-12R,ELEMENT EXTRA,stray black mark (mini-thumbnail fragment) lower-left outside sign
+049,583,W10-12L,TRANSPARENCY,white dots outside diamond on left side
+049,583,W10-12L,ELEMENT EXTRA,stray black mark lower-left outside sign
+049,588,W10-16,LETTERING,"TRAIN" and "COMING" rendered doubled/overlapping (ghost glyphs offset) - text garbled vs page
+049,589,W10-21,TRANSPARENCY,white dots outside diamond on left side
+049,591,W11-1,TRANSPARENCY,white dots outside diamond on left side
+049,592,W11-2,TRANSPARENCY,white dots outside diamond on left side
+050,593,W11-3,TRANSPARENCY,white dots outside diamond on left side
+050,594,W11-4,TRANSPARENCY,white dots outside diamond on left side
+050,595,W11-5,TRANSPARENCY,white dots outside diamond on left side
+050,596,W11-6,TRANSPARENCY,white dots outside diamond on left side
+050,597,W11-7,TRANSPARENCY,white dots outside diamond on left side
+050,598,W11-8,TRANSPARENCY,white dots outside diamond on left side
+050,599,W11-9,TRANSPARENCY,white dots outside diamond on left side
+050,600,W11-10,TRANSPARENCY,white dots outside diamond on left side
+050,601,W11-11,TRANSPARENCY,white dots outside diamond on left side
+050,603,W11-14,TRANSPARENCY,white dots outside diamond on left side
+050,604,W11-15,TRANSPARENCY,white dots outside diamond on left side
+051,606,W11-15a,TRANSPARENCY,white dots outside diamond on left side
+051,607,W11-16,TRANSPARENCY,white dots outside diamond on left side
+051,608,W11-17,TRANSPARENCY,white dots outside diamond on left side
+051,609,W11-18,TRANSPARENCY,white dots outside diamond on left side
+051,610,W11-19,TRANSPARENCY,white dots outside diamond on left side
+051,612,W11-21,TRANSPARENCY,white dots outside diamond on left side
+051,613,W11-22,TRANSPARENCY,white dots outside diamond on left side
+051,614,W12-1,TRANSPARENCY,white dots outside diamond on left side
+051,615,W12-2,TRANSPARENCY,white dots outside diamond on left side
+052,622,W13-6L,LETTERING,EXIT rendered as "EX T" - letter I missing
+052,622,W13-6L,ELEMENT EXTRA,loop arrow head replaced by star-shaped blob - T-S dimension arrowheads merged into arrow; arrow shape garbled
+052,622,W13-6L,CODE/NAME,caption name truncated to "B"
+052,623,W13-7L,ELEMENT EXTRA,loop arrow head replaced by star-shaped blob - T-S dimension arrowheads merged into arrow; arrow shape garbled
+052,623,W13-7L,CODE/NAME,caption name truncated to "B"
+052,624,W13-8L,LETTERING,EXIT rendered as "EX T" - letter I missing
+052,624,W13-8L,CODE/NAME,caption name truncated to "A"
+052,625,W13-9L,CODE/NAME,caption name truncated to "A"
+053,626,W13-10L,LETTERING,EXIT rendered as "EX T" - letter I missing
+053,628,W13-12L,LETTERING,EXIT rendered as "EX T" - letter I missing
+053,628,W13-12L,CODE/NAME,caption name truncated to "B"
+053,629,W13-13L,CODE/NAME,caption name truncated to "B"
+053,632,W14-1,TRANSPARENCY,white dots outside diamond on left side
+054,634,W14-2,TRANSPARENCY,white dots outside diamond on left side
+054,637,W15-1,TRANSPARENCY,white dots outside diamond on left side
+055,645,W16-5PL,CODE/NAME,W16-5PL drawing and extract identical to W16-5PR (arrow points right); left variant should point left
+055,646,W16-6PL,CODE/NAME,W16-6PL drawing and extract identical to W16-6PR (turn arrow to right); left variant should turn left
+056,666,W17-1,TRANSPARENCY,white dots outside diamond on left side
+057,667,W18-1,TRANSPARENCY,white dots outside diamond on left side
+057,670,W19-3,TRANSPARENCY,white dots outside diamond on left side
+057,671,W19-4,TRANSPARENCY,white dots outside diamond on left side
+057,673,W23-2,TRANSPARENCY,white dots outside diamond on left side
+057,674,W23-2a,TRANSPARENCY,white dots outside diamond on left side
+057,677,W26-1,TRANSPARENCY,white dots outside diamond on left side
+057,678,OM1-1,TRANSPARENCY,white dots outside diamond on right side
+058,679,OM1-2,TRANSPARENCY,white dots outside diamond on right side
+058,680,OM1-3,TRANSPARENCY,white dots outside diamond on left side
+058,688,OM4-1,TRANSPARENCY,white dots outside diamond on right side
+058,689,OM4-2,TRANSPARENCY,white dots outside diamond on right side
+058,690,OM4-3,TRANSPARENCY,white dots outside diamond on right side
+059,695,R4-9a,LETTERING,ghost legend "RIGHT ON RED ARROW AFTER STOP" from another sign overlaid on STAY IN LANE TO MERGE POINT - text garbled
+059,699,R9-11R,CODE/NAME,R9-11R drawing and extract identical to R9-11L (arrow points left); right variant should point right
+059,699,R9-11R,CODE/NAME,caption name truncated to "A"
+059,700,R9-11aR,CODE/NAME,R9-11aR drawing and extract identical to R9-11aL (arrow points left); right variant should point right
+059,703,W1-4bR,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+059,703,W1-4bR,TRANSPARENCY,white dots outside diamond
+060,703,W1-4bL,TRANSPARENCY,white dots outside diamond
+060,703,W1-4bL,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+060,704,W1-4cR,TRANSPARENCY,white dots outside diamond
+060,704,W1-4cR,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+060,704,W1-4cL,TRANSPARENCY,white dots outside diamond
+060,704,W1-4cL,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+060,706,W8-24,TRANSPARENCY,white dots outside diamond on left side
+060,708,W9-3,TRANSPARENCY,white dots outside diamond on left side
+060,710,W20-1,TRANSPARENCY,white dots outside diamond (ROAD WORK)
+060,710,W20-1,ELEMENT EXTRA,stray mini-thumbnail text "R WORK H AD" lower-left and "1000 FT" annotation lower-right outside sign (ROAD WORK)
+060,710,W20-1,CODE/NAME,pair captioned STREET WORK but drawing and extract read ROAD WORK AHEAD (duplicate of ROAD WORK variant)
+060,710,W20-1,ELEMENT EXTRA,stray mini-thumbnail text "R WORK H AD" lower-left and "1000 FT" lower-right outside sign (STREET WORK pair)
+060,710,W20-1,TRANSPARENCY,white dots outside diamond (STREET WORK pair)
+060,711,W20-1b,TRANSPARENCY,white dots outside diamond on left side
+060,712,W20-2,TRANSPARENCY,white dots outside diamond
+060,712,W20-2,ELEMENT EXTRA,stray "1000 FT" annotation text lower-right outside sign
+061,713,W20-2a,TRANSPARENCY,white dots outside diamond on left side
+061,714,W20-3,CODE/NAME,pair captioned STREET CLOSED but drawing and extract read ROAD CLOSED AHEAD (duplicate of ROAD CLOSED variant)
+061,714,W20-3,ELEMENT EXTRA,stray mini-thumbnail text "R OS D H AD" lower-left and "1000 F" lower-right outside sign (STREET CLOSED pair)
+061,714,W20-3,TRANSPARENCY,white dots outside diamond (STREET CLOSED pair)
+061,714,W20-3,ELEMENT EXTRA,stray mini-thumbnail text "R OS D H AD" lower-left and "1000 F" lower-right outside sign (ROAD CLOSED pair)
+061,714,W20-3,TRANSPARENCY,white dots outside diamond (ROAD CLOSED pair)
+061,715,W20-3a,TRANSPARENCY,white dots outside diamond on left side
+061,716,W20-4,TRANSPARENCY,white dots outside diamond
+061,716,W20-4,ELEMENT EXTRA,stray "000 FT" annotation text lower-right outside sign
+061,717,W20-5R,TRANSPARENCY,white dots outside diamond
+061,717,W20-5R,ELEMENT EXTRA,stray annotation text "A A" lower-left and "1000 FT" / "1 M LE" lower-right outside sign
+061,717,W20-5L,LETTERING,extract reads RIGHT LANE CLOSED AHEAD but code is W20-5L (LEFT LANE CLOSED) - page drawing used is the R variant
+061,717,W20-5L,TRANSPARENCY,white dots outside diamond
+061,717,W20-5L,ELEMENT EXTRA,stray annotation text "A A" lower-left and "1000 F" / "1 M LE" lower-right outside sign
+061,718,W20-5aR,TRANSPARENCY,white dots outside diamond
+061,718,W20-5aR,ELEMENT EXTRA,stray "2" lower-left and "000 FT" / "M LE" lower-right outside sign
+061,718,W20-5aL,LETTERING,extract reads 2 RIGHT LANES CLOSED AHEAD but code is W20-5aL (LEFT) - page drawing used is the R variant
+061,718,W20-5aL,TRANSPARENCY,white dots outside diamond
+061,718,W20-5aL,ELEMENT EXTRA,stray "2" lower-left and "000 FT" / "M LE" lower-right outside sign
+061,719,W20-5b,TRANSPARENCY,white dots outside diamond on left side
+061,720,W20-7,TRANSPARENCY,white dots outside diamond on left side
+061,721,W20-7a,TRANSPARENCY,white dots outside diamond
+061,721,W20-7a,ELEMENT EXTRA,stray "000 FT" annotation text lower-right outside sign
+062,722,W20-8,ELEMENT MISSING,orange diamond panel and SLOW legend absent - extract is a solid black octagon with a few orange specks
+062,722,R1-1,ELEMENT MISSING,extract is a solid black octagon with orange specks - no red STOP face or legend
+062,722,R1-1,CODE/NAME,page drawing used for R1-1 STOP paddle is the SLOW side (same drawing as W20-8)
+062,723,W21-1,TRANSPARENCY,white dots outside diamond on left side
+062,724,W21-1a,TRANSPARENCY,white dots outside diamond on left side
+062,725,W21-2,TRANSPARENCY,white dots outside diamond on left side (FRESH OIL)
+062,726,W21-2,LETTERING,page reads FRESH TAR but extract reads FRESH OIL (p726 pair)
+062,726,W21-2,TRANSPARENCY,white dots outside diamond on left side (FRESH TAR pair)
+062,727,W21-3,TRANSPARENCY,white dots outside diamond on left side
+062,729,W21-5,TRANSPARENCY,white dots outside diamond on left side
+062,730,W21-5aL,TRANSPARENCY,white dots outside diamond on left side
+062,730,W21-5aR,LETTERING,extract reads LEFT SHOULDER CLOSED but code is W21-5aR (RIGHT) - page drawing used is the L variant
+062,730,W21-5aR,TRANSPARENCY,white dots outside diamond on left side
+062,731,W21-5bL,LETTERING,extract reads RIGHT SHOULDER CLOSED AHEAD but code is W21-5bL (LEFT) - page drawing used is the R variant
+062,731,W21-5bL,TRANSPARENCY,white dots outside diamond
+062,731,W21-5bL,ELEMENT EXTRA,stray annotation text "A A" lower-left and "000 FT" lower-right outside sign
+063,731,W21-5bR,TRANSPARENCY,white dots outside diamond
+063,731,W21-5bR,ELEMENT EXTRA,stray annotation text "A A" lower-left and "000 FT" lower-right outside sign
+063,732,W21-6,TRANSPARENCY,white dots outside diamond on left side
+063,733,W21-7,TRANSPARENCY,white dots outside diamond
+063,733,W21-7,ELEMENT EXTRA,stray "1000 FT" annotation text lower-right outside sign
+063,734,W21-8,TRANSPARENCY,white dots outside diamond on left side
+063,735,W22-1,TRANSPARENCY,white dots outside diamond on left side
+063,738,W24-1R,TRANSPARENCY,white dots outside diamond on left side
+063,738,W24-1R,ELEMENT EXTRA,stray black triangle (mini-thumbnail fragment) lower-left outside sign
+063,738,W24-1L,TRANSPARENCY,white dots outside diamond on left side
+063,738,W24-1L,ELEMENT EXTRA,stray black triangle lower-left outside sign
+063,739,W24-1aR,TRANSPARENCY,white dots outside diamond on left side
+063,739,W24-1aR,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+063,739,W24-1aL,TRANSPARENCY,white dots outside diamond on left side
+063,739,W24-1aL,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+063,740,W24-1bR,TRANSPARENCY,white dots outside diamond on left side
+063,740,W24-1bR,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+064,740,W24-1bL,TRANSPARENCY,white dots outside diamond on left side
+064,740,W24-1bL,ELEMENT EXTRA,stray black mini-thumbnail arrow fragments lower-left outside sign
+065,752,M4-9L,CODE/NAME,M4-9L drawing and extract identical to M4-9R (arrow points right); left variant should point left
+065,753,M4-9aL,CODE/NAME,M4-9aL drawing and extract identical to M4-9aR (arrow points right); left variant should point left
+065,754,M4-9bL,CODE/NAME,M4-9bL drawing and extract identical to M4-9bR (arrow points right); left variant should point left
+065,755,M4-9cL,CODE/NAME,M4-9cL drawing and extract identical to M4-9cR (arrow points right); left variant should point left
+065,756,M4-10L,CODE/NAME,M4-10L DETOUR (LEFT) drawing and extract identical to M4-10R (arrow points right); should point left
+065,758,S3-1,TRANSPARENCY,white dots outside diamond
+066,759,S3-2,TRANSPARENCY,white dots outside diamond on left side
+066,764,S4-5,TRANSPARENCY,white dots outside diamond
+066,765,S4-5a,TRANSPARENCY,white dots outside diamond on left side
+067,771,R1-5aL,LETTERING,YIELD symbol legend rendered as "Y ELD" - letter I missing
+067,771,R1-5aL,CODE/NAME,caption name truncated to "B"
+067,771,R1-5aR,LETTERING,YIELD symbol legend rendered as "Y ELD" - letter I missing
+067,772,R1-5cL,CODE/NAME,caption name truncated to "B"
+067,773,R1-6b,LETTERING,YIELD symbol legend rendered as "Y ELD" - letter I missing

@@ -41,3 +41,28 @@ SVG header matches the Illustrator speed-sign exports (`width`/`height` in mm at
   flagged by the width check, explained in `notes`, and routed to `intervene`.
 * Templates in `Design Templates/` supply the base geometry; their hairline keyline and `minus10` numeral tracking
   are off by default (`"keyline": true`, `"tracking": "minus10"` to enable).
+
+## MUTCD (USA) — `MUTCD 2023/`
+
+Source: FHWA Standard Highway Signs sheets in `MUTCD 2023/Original PDFs/` (2004 edition, 2012 supplement, 2024
+releases 1–6; see `SOURCES.md` there). The sheets are vector PDFs, so the artwork is lifted exactly rather than redrawn.
+
+* `shs_extract.py <pdf> <set> [pages]` — one sheet set: for each sign label on a page it takes the panel and every fill
+  inside the panel's outline (page paint order kept), drops dimension lines, arrowheads, dimension-letter masks and
+  anything outside the outline, re-outlines legends set in the embedded FHWA fonts with the repo's Series fonts (2004/2012
+  sheets; the 2024 sheets are already outlined), and scales the drawing from the size table: the conventional-road row
+  where the sheet marks one, else the size those editions record for the code (`shs_conventional_sizes.json`), else a
+  documented default written to the manifest with "check". Left/right variants drawn as thumbnails are scaled from the
+  same table; variants not drawn at all are mirrored when the sign has no legend. Signs it cannot finish (duplicate shapes
+  in FHWA's drawing, legends in a font it cannot outline) go to `SVGs/intervene/`.
+* `shs_run.py [sheets_dir]` — runs every set into `MUTCD 2023/SVGs/<set>/` with `_extract_manifest.csv`
+  (code, name, file, drawn size, table A, page, note, panel rect) and builds review sheets.
+* `shs_sheets.py` — review sheets: page crop beside the extracted SVG, 12 pairs per image, driven by the manifest.
+* `shs_organise.py` — merges the sets into family folders (Regulatory, Parking, Warning, Temporary Traffic Control,
+  School, Route Markers, Guide, Object Markers, Emergency Management); a code drawn in a newer edition supersedes the
+  older drawing; writes `MUTCD 2023/SVGs/MANIFEST.csv` and `intervene/INTERVENE_LIST.md`.
+* `corner_check.py <folder> <report.csv>` — renders every SVG on magenta and lists files whose corners are painted
+  (transparency check outside rounded, diamond and octagon outlines).
+
+Sizes: one file per drawing at the conventional-road size. Guide signs with no size table are drawn at the sheet's own
+scale (1 pt = 0.1 in) and say so in the manifest.

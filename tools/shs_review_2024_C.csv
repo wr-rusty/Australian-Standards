@@ -1,0 +1,199 @@
+sheet,page,code,issue_type,detail
+2024_Release_5_Guide_001,1,M1-1,ELEMENT EXTRA,small white marker squares outside shield at right edge and bottom-right corner
+2024_Release_5_Guide_001,2,M1-1,LETTERING,page drawing legend is 240 (3-digit) but extracted shows 20
+2024_Release_5_Guide_001,3,M1-1a,ELEMENT EXTRA,small white marker square outside shield at bottom-right
+2024_Release_5_Guide_001,4,M1-1a,LETTERING,page drawing is WISCONSIN 243 but extracted shows NEW JERSEY 82
+2024_Release_5_Guide_001,4,M1-1a,ELEMENT EXTRA,white marker squares outside shield at top-right and bottom
+2024_Release_5_Guide_001,5,M1-2,LETTERING,page drawing legend is 70 but extracted shows 196
+2024_Release_5_Guide_001,7,M1-3,LETTERING,page drawing legend is 70 but extracted shows 526
+2024_Release_5_Guide_001,10,M1-4,LETTERING,page drawing legend is 147 but extracted shows 40
+2024_Release_5_Guide_001,12,M1-4,LETTERING,page drawing legend is 147 but extracted shows 40
+2024_Release_5_Guide_002,13,M1-5,ELEMENT MISSING,black square background panel behind white circle absent on extract
+2024_Release_5_Guide_002,13,M1-5,LETTERING,page drawing legend is 21 but extracted shows 218
+2024_Release_5_Guide_002,14,M1-5,ELEMENT MISSING,black square background panel behind white circle absent on extract
+2024_Release_5_Guide_002,15,M1-5,LETTERING,page drawing legend is 21 but extracted shows 218
+2024_Release_5_Guide_002,17,M1-6,ELEMENT EXTRA,white dot outside sign at top-left of extract
+2024_Release_5_Guide_002,20,M1-8a,LETTERING,lowercase i letters dropped from top text (reads Un que / p ctograph / jur sd ct on)
+2024_Release_5_Guide_002,22,M1-8c,LETTERING,i-dots missing in Heritage and Trail (dotless i)
+2024_Release_5_Guide_003,26,M2-1P,COLOUR,page drawing is black legend/border on white but extract is white on blue
+2024_Release_5_Guide_003,28,M2-2,ELEMENT MISSING,extract is completely empty (grey rectangle) - JUNCTION panel with US 40 and state 21 shields not extracted
+2024_Release_5_Guide_003,29,M3-1P,COLOUR,page drawing is black NORTH on white with black border but extract is white on blue
+2024_Release_5_Guide_003,31,M3-2P,COLOUR,page drawing is black EAST on white with black border but extract is white on blue
+2024_Release_5_Guide_003,33,M3-3P,COLOUR,page drawing is black SOUTH on white with black border but extract is white on blue
+2024_Release_5_Guide_003,35,M3-4P,COLOUR,page drawing is black WEST on white with black border but extract is white on blue
+2024_Release_5_Guide_004,37,M4-1P,COLOUR,page drawing is black ALTERNATE on white with black border but extract is white on blue
+2024_Release_5_Guide_004,39,M4-1aP,COLOUR,page drawing is black ALT on white with black border but extract is white on blue
+2024_Release_5_Guide_004,41,M4-2P,COLOUR,page drawing is black BY-PASS on white with black border but extract is white on blue
+2024_Release_5_Guide_004,43,M4-3P,COLOUR,page drawing is black BUSINESS on white with black border but extract is white on blue
+2024_Release_5_Guide_004,46,M4-5P,COLOUR,page drawing is black TO on white with black border but extract is white on blue
+2024_Release_5_Guide_005,49,M4-6P,COLOUR,page drawing is white END on blue but extract is black on white with black border
+2024_Release_5_Guide_005,50,M4-7P,COLOUR,page drawing is black TEMPORARY on white with black border but extract is white on blue
+2024_Release_5_Guide_005,52,M4-7aP,COLOUR,page drawing is black TEMP on white with black border but extract is white on blue
+2024_Release_5_Guide_005,54,M4-11R,SCALE/SHAPE,page drawing shows bent (up-then-right) turn arrow beside A but extract has straight right arrow - arrow variant swapped
+2024_Release_5_Guide_005,54,M4-11L,CODE/NAME,caption code M4-11L B but arrow points right (L should be left-pointing)
+2024_Release_5_Guide_005,55,M4-11L,SCALE/SHAPE,caption M4-11L A: page drawing shows straight right arrow but extract has bent turn arrow; also code L but arrow points right
+2024_Release_5_Guide_005,67,M4-11aR,SCALE/SHAPE,page drawing shows bent turn arrow but extract has straight right arrow
+2024_Release_5_Guide_005,57,M4-11aL,SCALE/SHAPE,page drawing shows bent turn arrow but extract has straight right arrow; code L but arrow points right
+2024_Release_5_Guide_006,58,M4-11aL,CODE/NAME,caption code M4-11aL but arrow points right (same as M4-11aR pair)
+2024_Release_5_Guide_006,63,M4-14P,COLOUR,page drawing is black BEGIN on white with black border but extract is white on blue
+2024_Release_5_Guide_006,67,M5-1PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_006,67,M5-1PL,CODE/NAME,caption code M5-1PL but turn arrow points right
+2024_Release_5_Guide_006,67,M5-1PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_007,68,M5-1PL,CODE/NAME,caption code M5-1PL A but turn arrow points right
+2024_Release_5_Guide_007,69,M5-2PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_007,69,M5-2PL,CODE/NAME,caption code M5-2PL but oblique arrow points right
+2024_Release_5_Guide_007,69,M5-2PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_007,70,M5-2PL,CODE/NAME,caption code M5-2PL but oblique arrow points right
+2024_Release_5_Guide_007,71,M5-3P,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_007,73,M5-4P,COLOUR,page drawing is black LEFT LANE on white with black border but extract is white on blue
+2024_Release_5_Guide_007,75,M5-5P,COLOUR,page drawing is black CENTER LANE on white with black border but extract is white on blue
+2024_Release_5_Guide_008,77,M5-6P,COLOUR,page drawing is black RIGHT LANE on white with black border but extract is white on blue
+2024_Release_5_Guide_008,79,M6-1PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_008,79,M6-1PL,CODE/NAME,caption code M6-1PL but arrow points right
+2024_Release_5_Guide_008,79,M6-1PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_008,80,M6-1PL,CODE/NAME,caption code M6-1PL but arrow points right
+2024_Release_5_Guide_008,81,M6-2PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_008,81,M6-2PL,CODE/NAME,caption code M6-2PL but oblique arrow points up-right
+2024_Release_5_Guide_008,81,M6-2PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_008,82,M6-2PL,CODE/NAME,caption code M6-2PL but oblique arrow points up-right
+2024_Release_5_Guide_008,83,M6-2aPL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_008,83,M6-2aPL,CODE/NAME,caption code M6-2aPL but oblique arrow points down-right
+2024_Release_5_Guide_008,83,M6-2aPR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_009,84,M6-2aPL,CODE/NAME,caption code M6-2aPL but oblique arrow points down-right
+2024_Release_5_Guide_009,85,M6-3P,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_009,87,M6-4P,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_009,89,M6-2PL,ELEMENT MISSING,page drawing is a double-headed oblique arrow (M6-5) but extract is single-headed up-right arrow; lower arrowhead absent
+2024_Release_5_Guide_009,89,M6-2PL,CODE/NAME,caption code M6-2PL for the double-headed oblique arrow page (should be M6-5PL)
+2024_Release_5_Guide_009,89,M6-2PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_009,89,M6-5PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_009,91,M6-6PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_009,91,M6-6PL,CODE/NAME,caption code M6-6PL but branch arrow points right
+2024_Release_5_Guide_009,91,M6-6PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_010,92,M6-6PL,CODE/NAME,caption code M6-6PL but branch arrow points right
+2024_Release_5_Guide_010,93,M6-7PL,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_010,93,M6-7PL,CODE/NAME,caption code M6-7PL but oblique branch points right
+2024_Release_5_Guide_010,93,M6-7PR,COLOUR,page drawing is black arrow on white with black border but extract is white on blue
+2024_Release_5_Guide_010,94,M6-7PL,CODE/NAME,caption code M6-7PL but oblique branch points right
+2024_Release_5_Guide_011,107,I1-1,LETTERING,changeable-message panel digits 25 shown on page are absent on extract (blank black panel)
+2024_Release_5_Guide_011,108,I1-1,LETTERING,changeable-message panel LED digits 25 shown on page are absent on extract (blank black panel)
+2024_Release_5_Guide_013,125,I20-4,ELEMENT MISSING,extract is completely empty (grey rectangle) - REST AREA SPONSORED BY sign not extracted
+2024_Release_5_Guide_013,126,I20-4a,ELEMENT MISSING,extract is completely empty (grey rectangle) - WELCOME CENTER SPONSORED BY sign not extracted
+2024_Release_6_Guide_001,1,D1-1,LETTERING,i-dot missing in Pulaski (dotless i)
+2024_Release_6_Guide_001,4,D1-1cL,LETTERING,i-dot missing in Stadium (dotless i)
+2024_Release_6_Guide_001,4,D1-1cR,LETTERING,i-dot missing in Stadium (dotless i)
+2024_Release_6_Guide_001,6,D1-1e,LETTERING,i-dots missing in Springfield (dotless i)
+2024_Release_6_Guide_001,7,D1-2,LETTERING,i-dot missing in Brookfield (dotless i)
+2024_Release_6_Guide_001,10,D1-2c,LETTERING,i-dots missing in University (dotless i)
+2024_Release_6_Guide_002,11,D1-2d,LETTERING,i-dot missing in Amity (dotless i)
+2024_Release_6_Guide_002,12,D1-3,LETTERING,i-dot missing in Liberty (dotless i)
+2024_Release_6_Guide_002,13,D1-3a,LETTERING,i-dot missing in Utica (dotless i)
+2024_Release_6_Guide_002,14,D1-3b,LETTERING,i-dot missing in Quincy (dotless i)
+2024_Release_6_Guide_002,15,D1-3c,LETTERING,i-dots missing in Library and Kingston (dotless i)
+2024_Release_6_Guide_002,16,D1-3d,ELEMENT MISSING,extract is completely empty (grey rectangle) - Redmond/Bend/Burns 3-line circular intersection destination sign not extracted
+2024_Release_6_Guide_002,17,D1-5,LETTERING,i-dot missing in Middleton (dotless i)
+2024_Release_6_Guide_002,18,D1-5a,LETTERING,letter i dropped entirely from Clifton Ave (reads Cl fton)
+2024_Release_6_Guide_002,22,D2-2a,LETTERING,i-dot missing in City (dotless i)
+2024_Release_6_Guide_003,23,D2-3,LETTERING,i-dot missing in Limon (dotless i)
+2024_Release_6_Guide_003,24,D2-3a,LETTERING,i-dots missing in Bellington and City (dotless i)
+2024_Release_6_Guide_003,25,D3-1,COLOUR,all four p25 D3-1 pairs: page drawing is white W 3rd St on green but extract is black on white with black border
+2024_Release_6_Guide_003,27,D3-1,LETTERING,page drawing is 2-line Williamstown - / New Brooklyn Rd (green) but extract is 1-line W 3rd St black on white - wrong sign
+2024_Release_6_Guide_003,27,D3-1,COLOUR,page drawing green but extract black on white
+2024_Release_6_Guide_003,28,D3-1a,LETTERING,i-dot missing in Harrison (dotless i)
+2024_Release_6_Guide_004,30,D3-2,LETTERING,page drawing is Scott Blvd / Lincoln Ave / NEXT SIGNAL (3 lines with arrows) but extract is Johnson Blvd / NEXT SIGNAL - wrong sign reused from p29
+2024_Release_6_Guide_004,31,D3-2,LETTERING,page drawing is Century Dr / 14th St / NEXT CIRCLE (3 lines with arrows) but extract is Johnson Blvd / NEXT SIGNAL - wrong sign reused from p29
+2024_Release_6_Guide_004,32,D3-2,LETTERING,page drawing is Shady Grove Rd NEXT INTERSECTION / Pleasant St 2ND INTERSECTION (4 lines) but extract is Johnson Blvd / NEXT SIGNAL - wrong sign reused from p29
+2024_Release_6_Guide_004,35,D4-3L,CODE/NAME,caption code D4-3L but arrow points up-right (identical to D4-3R pair)
+2024_Release_6_Guide_004,36,D4-4L,LETTERING,letter i dropped from BIKE SHARE STATION (reads B KE SHARE STAT ON)
+2024_Release_6_Guide_004,37,D4-4aL,LETTERING,letter i dropped from BIKE LOCKERS (reads B KE LOCKERS)
+2024_Release_6_Guide_005,44,D5-7,LETTERING,page drawing is REST AREA / TOURIST INFO CENTER / 2 MILES but extract is REST AREA / NORTH CAROLINA WELCOME CENTER / 2 MILES - variant reused from p46
+2024_Release_6_Guide_005,45,D5-7,LETTERING,page drawing is REST AREA / WELCOME CENTER / 2 MILES but extract is NORTH CAROLINA WELCOME CENTER variant - variant reused from p46
+2024_Release_6_Guide_005,47,D5-7a,LETTERING,page drawing is REST AREA / TOURIST INFO CENTER / NEXT RIGHT but extract is NORTH CAROLINA WELCOME CENTER variant - variant reused from p49
+2024_Release_6_Guide_005,48,D5-7a,LETTERING,page drawing is REST AREA / WELCOME CENTER / NEXT RIGHT but extract is NORTH CAROLINA WELCOME CENTER variant - variant reused from p49
+2024_Release_6_Guide_006,54,D5-10,LETTERING,page drawing is PICNIC AREA 1 MILE but extract is ROADSIDE PARK 1 MILE - variant reused from p56
+2024_Release_6_Guide_006,55,D5-10,LETTERING,page drawing is ROADSIDE TABLE 1 MILE but extract is ROADSIDE PARK 1 MILE - variant reused from p56
+2024_Release_6_Guide_006,57,D5-10a,LETTERING,page drawing is PICNIC AREA with arrow but extract is ROADSIDE PARK - variant reused from p59
+2024_Release_6_Guide_006,58,D5-10a,LETTERING,page drawing is ROADSIDE TABLE with arrow but extract is ROADSIDE PARK - variant reused from p59
+2024_Release_6_Guide_006,61,D5-10b,LETTERING,page drawing is ROADSIDE TABLE gore sign but extract is PICNIC AREA - variant reused from p60
+2024_Release_6_Guide_006,62,D5-10b,LETTERING,page drawing is ROADSIDE PARK gore sign but extract is PICNIC AREA - variant reused from p60
+2024_Release_6_Guide_007,63,D5-11,LETTERING,page drawing is SCENIC AREA 1 MILE but extract is SCENIC OVERLOOK 1 MILE - variant reused from p65
+2024_Release_6_Guide_007,64,D5-11,LETTERING,page drawing is SCENIC VIEW 1 MILE but extract is SCENIC OVERLOOK 1 MILE - variant reused from p65
+2024_Release_6_Guide_007,66,D5-11a,LETTERING,page drawing is SCENIC AREA with arrow but extract is SCENIC OVERLOOK - variant reused from p68
+2024_Release_6_Guide_007,67,D5-11a,LETTERING,page drawing is SCENIC VIEW with arrow but extract is SCENIC OVERLOOK - variant reused from p68
+2024_Release_6_Guide_007,69,D5-11b,LETTERING,page drawing is SCENIC AREA gore sign but extract is SCENIC VIEW - variant reused from p70
+2024_Release_6_Guide_007,71,D5-11b,LETTERING,page drawing is SCENIC OVERLOOK gore sign but extract is SCENIC VIEW - variant reused from p70
+2024_Release_6_Guide_011,114,D9-16b,LETTERING,changeable-message digits 15 / 16 / FULL shown on page absent on extract (blank black panels)
+2024_Release_6_Guide_011,114,D9-16b,SCALE/SHAPE,third (EXIT 123) black changeable panel on extract is malformed - wider notched shape extending outside the panel outline
+2024_Release_6_Guide_011,115,D9-16c,LETTERING,changeable-message digits 34 / 18 / FULL shown on page absent on extract (blank black panels)
+2024_Release_6_Guide_011,115,D9-16c,SCALE/SHAPE,third (19 MILES) black changeable panel on extract is malformed - notched shape extending beyond panel outline; middle panel also oversize
+2024_Release_6_Guide_011,116,D9-16d,ELEMENT MISSING,extract is completely empty (grey rectangle) - truck parking availability sign not extracted
+2024_Release_6_Guide_011,117,D9-16d,ELEMENT MISSING,extract is completely empty (grey rectangle) - truck parking availability sign not extracted
+2024_Release_6_Guide_011,118,D9-16e,ELEMENT MISSING,extract is completely empty (grey rectangle) - truck parking availability sign not extracted
+2024_Release_6_Guide_011,119,D9-16e,ELEMENT MISSING,extract is completely empty (grey rectangle) - truck parking availability sign not extracted
+2024_Release_6_Guide_011,120,D9-16e,ELEMENT MISSING,extract is completely empty (grey rectangle) - truck parking availability sign not extracted
+2024_Release_6_Guide_011,121,D9-16e,ELEMENT MISSING,extract is completely empty (grey rectangle) - truck parking availability sign not extracted
+2024_Release_6_Guide_014,149,D11-10a,LETTERING,i-dots missing in Springfield (dotless i)
+2024_Release_6_Guide_014,151,D11-10c,LETTERING,i-dots missing in Irving and Columbia (dotless i)
+2024_Release_6_Guide_014,154,D11-10f,LETTERING,i-dots missing in Lakeview and Paradise (dotless i)
+2024_Release_6_Guide_015,163,D12-1,LETTERING,decimal point missing - page shows 96.3 FM but extract reads 96 3 FM
+2024_Release_6_Guide_016,174,D13-3,LETTERING,page drawing is FREEWAY ENTRANCE but extract is PARKWAY ENTRANCE - variant reused from p176
+2024_Release_6_Guide_016,175,D13-3,LETTERING,page drawing is EXPRESSWAY ENTRANCE but extract is PARKWAY ENTRANCE - variant reused from p176
+2024_Release_6_Guide_016,177,D13-3a,LETTERING,page drawing is FREEWAY ENTRANCE with arrow but extract is PARKWAY ENTRANCE - variant reused from p179
+2024_Release_6_Guide_016,178,D13-3a,LETTERING,page drawing is EXPRESSWAY ENTRANCE with arrow but extract is PARKWAY ENTRANCE - variant reused from p179
+2024_Release_6_Guide_016,180,D15-1,LETTERING,page drawing is Glenwood Ave with straight-ahead ONLY arrow but extract is NORTH US 9 with left-turn ONLY arrow - wrong sign reused from p181
+2024_Release_6_Guide_017,187,D17-6L,CODE/NAME,caption code D17-6L but arrow points up-right (identical to D17-6R pair)
+2024_Release_6_Guide_017,189,E1-1,LETTERING,page drawing is Metropolis / 2 MILES but extract is US 56 shield / 2 MILES - variant reused from p190
+2024_Release_6_Guide_017,191,E1-2,ELEMENT MISSING,extract is completely empty (grey rectangle) - Metropolis / Utopia / 2 MILES sign not extracted
+2024_Release_6_Guide_017,192,E1-2,ELEMENT MISSING,extract is completely empty (grey rectangle) - US 56 / Metropolis / 2 MILES sign not extracted
+2024_Release_6_Guide_017,193,E1-3,LETTERING,page drawing is Metropolis / Utopia / Arcadia / 2 MILES but extract is US 56 / Metropolis / Utopia / 2 MILES - variant reused from p194
+2024_Release_6_Guide_019,209,E2-1aP,ELEMENT MISSING,extract is completely empty (grey rectangle) - NEXT EXIT / 6 MILES 2-line plaque not extracted
+2024_Release_6_Guide_019,210,E3-1,LETTERING,page drawing is Springfield / EXIT 52 but extract is PARK-RIDE symbol / EXIT 133 - variant reused from p212
+2024_Release_6_Guide_019,211,E3-1,LETTERING,page drawing is brown V A National Cemetery / EXIT 245 but extract is green PARK-RIDE / EXIT 133 - variant reused from p212
+2024_Release_6_Guide_019,211,E3-1,COLOUR,page drawing is brown but extract is green
+2024_Release_6_Guide_019,213,E3-2,LETTERING,page drawing is single panel Springfield / Columbia / EXIT 34 but extract is two stacked panels Springfield EXIT 34A / Columbia EXIT 34B - variant reused from p214
+2024_Release_6_Guide_019,213,E3-2,LETTERING,i-dots missing in Springfield and Columbia (dotless i)
+2024_Release_6_Guide_019,214,E3-2,LETTERING,i-dots missing in Springfield and Columbia (dotless i)
+2024_Release_6_Guide_019,215,E4-1,LETTERING,page drawing is Metropolis with arrow (wide panel) but extract is US 56 shield with arrow (narrow panel) - variant reused from p216
+2024_Release_6_Guide_019,217,E4-1,LETTERING,page drawing is Metropolis with arrow but extract is US 56 shield with arrow - variant reused from p218
+2024_Release_6_Guide_019,219,E4-2,LETTERING,page drawing is Metropolis / Utopia with arrow but extract is US 56 / Metropolis with arrow - variant reused from p220
+2024_Release_6_Guide_020,221,E4-2,LETTERING,page drawing is Metropolis / Utopia with arrow but extract is US 56 / Metropolis with arrow - variant reused from p222
+2024_Release_6_Guide_020,223,E4-3,LETTERING,page drawing is Metropolis / Utopia / Arcadia with arrow but extract is US 56 / Metropolis / Utopia - variant reused from p224
+2024_Release_6_Guide_020,225,E4-3,LETTERING,page drawing is Metropolis / Utopia / Arcadia with arrow but extract is US 56 / Metropolis / Utopia - variant reused from p226
+2024_Release_6_Guide_020,228,E5-1a,LETTERING,page drawing is EXIT 44 with arrow but extract is EXIT 4 A - variant reused from p229
+2024_Release_6_Guide_020,230,E5-1a,LETTERING,page drawing is EXITS 4 A-B with arrow but extract is EXIT 4 A - variant reused from p229
+2024_Release_6_Guide_020,232,E5-1bP,LETTERING,page drawing is 24 A but extract is 44 - variant reused from p231
+2024_Release_6_Guide_021,233,E5-1bP,LETTERING,page drawing is 245 A-B but extract is 44 - variant reused from p231
+2024_Release_6_Guide_021,234,E5-1c,ELEMENT MISSING,extract is completely empty (grey rectangle) - EXIT 120 narrow gore sign not extracted
+2024_Release_6_Guide_021,238,E6-2a,LETTERING,Interstate shield crest reads A (dimension label) instead of INTERSTATE on extract
+2024_Release_6_Guide_021,239,E7-1,LETTERING,page drawing is Metropolis 40 but extract is 38 JCT 5 - variant reused from p240
+2024_Release_6_Guide_021,241,E7-2,LETTERING,page drawing is Metropolis 40 / Utopia 125 but extract is 38 JCT 5 / Woodfield 130 - variant reused from p242
+2024_Release_6_Guide_021,243,E7-3,LETTERING,page drawing is Metropolis 40 / Arcadia 49 / Utopia 125 but extract is US 9 2 / I-278 15 / US 1 26 shield version - variant reused from p250
+2024_Release_6_Guide_021,244,E7-3,LETTERING,page drawing is 38 JCT 25 / Danville 32 / St Louis 130 but extract is US 9 / I-278 / US 1 shield version - variant reused from p250
+2024_Release_6_Guide_022,245,E7-3,LETTERING,page drawing is Wendover 2 / 38 JCT 65 / St Louis 170 but extract is US 9 / I-278 / US 1 shield version - variant reused from p250
+2024_Release_6_Guide_022,246,E7-3,LETTERING,page drawing is Glenville 5 / Wendover 9 / 38 JCT 72 but extract is US 9 / I-278 / US 1 shield version - variant reused from p250
+2024_Release_6_Guide_022,247,E7-3,LETTERING,page drawing is 38 14 / 240 65 / Fort Lincoln 78 but extract is US 9 / I-278 / US 1 shield version - variant reused from p250
+2024_Release_6_Guide_022,248,E7-3,LETTERING,page drawing is 240 30 / Fort Lincoln 43 / 29 96 but extract is US 9 / I-278 / US 1 shield version - variant reused from p250
+2024_Release_6_Guide_022,249,E7-3,LETTERING,page drawing is Fort Lincoln 22 / 29 65 / 3 90 but extract is US 9 / I-278 / US 1 shield version - variant reused from p250
+2024_Release_6_Guide_022,251,E7-4,LETTERING,page drawing is single line Metropolis 44 MINS but extract is 2-line Metropolis / Utopia 136 MINS - variant reused from p252
+2024_Release_6_Guide_022,251,E7-4,LETTERING,i-dots missing in Metropolis and Utopia (dotless i)
+2024_Release_6_Guide_022,252,E7-4,LETTERING,i-dots missing in Metropolis and Utopia (dotless i)
+2024_Release_6_Guide_022,253,E7-5,LETTERING,page drawing is Hampton / 15 MILES / 22 MINS but extract is I-90 JCT / 26 MILES / 32 MINS - variant reused from p254
+2024_Release_6_Guide_022,255,E7-6,LETTERING,i-dot missing in Madison (dotless i)
+2024_Release_6_Guide_023,262,E8-5,ELEMENT MISSING,extract is completely empty (grey rectangle) - HOV diamond TO Alicia Pkwy arrow sign not extracted
+2024_Release_6_Guide_023,265,E9-2,ELEMENT MISSING,extract is completely empty (grey rectangle) - Fitch Way / Kenston Ave / Tolenas St 3-interchange sequence sign not extracted
+2024_Release_6_Guide_023,267,E9-3a,ELEMENT MISSING,extract is completely empty (grey rectangle) - Lanford / Springfield NEXT 3 EXITS sign not extracted
+2024_Release_6_Guide_023,268,E9-3a,ELEMENT MISSING,extract is completely empty (grey rectangle) - Lanford NEXT 2 EXITS / Springfield NEXT 3 EXITS stacked sign not extracted
+2024_Release_6_Guide_024,269,E9-4,LETTERING,i-dot missing in Columbia (dotless i)
+2024_Release_6_Guide_024,270,E9-5,ELEMENT MISSING,extract is completely empty (grey rectangle) - Columbia EXITS 3-interchange sign not extracted
+2024_Release_6_Guide_024,271,E11-1,ELEMENT MISSING,extract is completely empty (grey rectangle) - EXIT (down arrow) ONLY panel not extracted
+2024_Release_6_Guide_024,275,E11-1d,ELEMENT MISSING,extract is completely empty (grey rectangle) - EXIT (directional arrow) ONLY panel not extracted
+2024_Release_6_Regulatory_001,1,R10-3b,LETTERING,letter i dropped throughout (Veh cles / F n sh Cross ng) and apostrophes missing (DON T START / DON T CROSS)
+2024_Release_6_Regulatory_001,3,R10-3c,LETTERING,letter i dropped throughout (Veh cles / F n sh Cross ng) and apostrophes missing (DON T START / DONT WALK / DON T CROSS)
+2024_Release_6_Regulatory_001,5,R10-3d,LETTERING,letter i dropped throughout (TO MED AN / Veh cles / F n sh Cross ng) and apostrophes missing (DON T)
+2024_Release_6_Regulatory_001,7,R10-3e,LETTERING,letters i and l dropped throughout (START CROSS NG / Veh c es / F n sh Cross ng / T ME REMA N NG) and apostrophes missing
+2024_Release_6_Regulatory_001,7,R10-3e,ELEMENT MISSING,orange countdown digits 18 in TIME REMAINING panel absent on extract (blank black square)
+2024_Release_6_Regulatory_001,7,R10-3e,ELEMENT EXTRA,small white marker squares beside the walking-person and hand symbols on extract
+2024_Release_6_Regulatory_001,9,R10-3f,LETTERING,letters i and l dropped (START CROSS NG / Veh c es / F n sh Cross ng / Map e Dr ve) and apostrophes missing
+2024_Release_6_Regulatory_001,11,R10-3g,LETTERING,letters i and l dropped (START CROSS NG / Veh c es / F n sh Cross ng / Map e Dr ve) and apostrophes missing (DONT WALK / DON T)
+2024_Release_6_Regulatory_001,13,R10-3h,LETTERING,letters i and l dropped (START CROSS NG / TO MED AN / Veh c es / F n sh Cross ng / Map e Dr ve) and apostrophes missing
+2024_Release_6_Regulatory_001,15,R10-3i,LETTERING,letters i and l dropped (START CROSS NG / Veh c es / F n sh Cross ng / T ME REMA N NG / Map e Dr ve) and apostrophes missing
+2024_Release_6_Regulatory_001,15,R10-3i,ELEMENT MISSING,orange countdown digits in TIME REMAINING panel absent on extract (blank black square)

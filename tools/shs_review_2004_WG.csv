@@ -1,0 +1,100 @@
+sheet,page,code,issue_type,detail
+Warning_Signs_001,1,W1-1L,CODE/NAME,L variant identical to W1-1R (right-turn arrow); not mirrored
+Warning_Signs_001,4,W1-3L,CODE/NAME,L variant identical to W1-3R; not mirrored
+Warning_Signs_001,5,W1-4L,CODE/NAME,L variant identical to W1-4R; not mirrored
+Warning_Signs_001,6,W1-5L,CODE/NAME,L variant identical to W1-5R; not mirrored
+Warning_Signs_002,7,W1-6L,CODE/NAME,L variant identical to W1-6R (arrow points right); not mirrored
+Warning_Signs_002,10,W1-10L,CODE/NAME,L variant identical to W1-10R; not mirrored
+Warning_Signs_002,15,W2-2L,CODE/NAME,L variant identical to W2-2R (side road on right); not mirrored
+Warning_Signs_003,16,W2-3L,CODE/NAME,L variant identical to W2-3R; not mirrored
+Warning_Signs_004,28,W3-5a (METRIC),ELEMENT EXTRA,stray text fragments 'H / ONE / D' rendered outside the diamond at bottom-left (from adjacent page drawing)
+Warning_Signs_004,28,W3-5a (ENGLISH),LETTERING,page reads 'XX MPH' but extraction reads 'XX km/h' (same SVG as metric version); also stray 'H / ONE / D' fragments outside diamond
+Warning_Signs_004,30,W4-1L,CODE/NAME,L variant identical to W4-1R; not mirrored
+Warning_Signs_004,31,W4-2R,ELEMENT EXTRA,stray black bar outside the diamond at bottom-left (fragment of adjacent thumbnail)
+Warning_Signs_004,31,W4-2L,ELEMENT EXTRA,stray black bar outside the diamond at bottom-left; also identical to W4-2R (not mirrored)
+Warning_Signs_004,32,W4-3L,CODE/NAME,L variant identical to W4-3R; not mirrored
+Warning_Signs_007,57,W7-5a,CODE/NAME,name given as 'BLACK' (garbled); drawing is the bicycle hill plaque (same as W7-5)
+Warning_Signs_008,66,W8-8,CODE/NAME,name 'LOOSE GRAVEL' but drawing reads 'ROUGH ROAD'
+Warning_Signs_008,73,W9-1,ELEMENT EXTRA,stray text 'EFT' rendered outside the diamond at left (fragment of adjacent thumbnail)
+Warning_Signs_009,73,W9-1L,LETTERING,L variant reads 'RIGHT LANE ENDS' (identical to W9-1); should read LEFT; also stray 'EFT' fragment outside diamond
+Warning_Signs_009,74,W9-2R,ELEMENT EXTRA,stray text 'E ENDS / RGE' rendered outside the diamond at left
+Warning_Signs_009,75,W9-3L,ELEMENT EXTRA,stray text 'EFT / ANE / OSED' at left and 'RIGHT LANE CLOSED' at right outside the diamond
+Warning_Signs_009,75,W9-3R,ELEMENT EXTRA,stray text fragments outside the diamond on both sides (adjacent thumbnails); identical to W9-3/W9-3L
+Warning_Signs_009,75,W9-3,ELEMENT EXTRA,stray text fragments 'EFT/ANE/OSED' and 'RIGHT LANE CLOSED' outside the diamond
+Warning_Signs_009,76,W10-1,ELEMENT MISSING,rendered as a solid black disc; yellow circle fill and black crossbuck X and 'R R' letters all missing
+Warning_Signs_009,77,W10-2L,CODE/NAME,L variant identical to W10-2R; not mirrored
+Warning_Signs_009,78,W10-3L,CODE/NAME,L variant identical to W10-3R; not mirrored
+Warning_Signs_009,79,W10-4L,CODE/NAME,L variant identical to W10-4R; not mirrored
+Warning_Signs_010,83,W10-10,CODE/NAME,name 'NO SIGNAL' but drawing reads 'NO TRAIN HORN' (duplicate of W10-9)
+Warning_Signs_010,82,W10-8,ELEMENT EXTRA,stray text 'TRAINS / Y EXCEED' rendered outside the diamond at left
+Warning_Signs_012,112,W13-3,LETTERING,page reads 'RAMP / 30 MPH' but extraction reads 'RAMP / 40 km/h' in circle (metric SVG used for English page)
+Warning_Signs_012,110,W13-2 (ENGLISH),LETTERING,page reads 'EXIT / 25 MPH' but extraction reads 'EXIT / 40 km/h' in circle (metric SVG used for English page)
+Warning_Signs_013,122,W16-2 (ENGLISH),LETTERING,page reads '500 FEET' but extraction reads '150 METERS' (metric SVG used for English page)
+Warning_Signs_013,117,W14-1aL,CODE/NAME,L variant identical to W14-1aR (arrow points right); not mirrored
+Warning_Signs_013,117,W14-2aL,CODE/NAME,L variant identical to W14-2aR (arrow points right); not mirrored
+Warning_Signs_013,121,W16-1,CODE/NAME,name given as 'BLACK'; drawing reads 'SHARE THE ROAD'
+Warning_Signs_014,126,W16-7pR,CODE/NAME,R variant identical to W16-7pL (diagonal arrow points down-left); not mirrored
+Warning_Signs_014,127,W16-9p,CODE/NAME,name 'AHEAD PLAQUE' but drawing reads 'FIRST ST' (duplicate of W16-8)
+Warning_Signs_014,124,W16-4,CODE/NAME,name '500 FT (2 LINE) (ENGLISH)' but drawing reads '2 MILES'
+Warning_Signs_015,138,W1-4cR,ELEMENT EXTRA,stray small arrow thumbnail rendered outside the diamond at bottom-left
+Warning_Signs_015,138,W1-4cL,ELEMENT EXTRA,stray arrow thumbnail outside diamond at bottom-left; also identical to W1-4cR (not mirrored)
+Warning_Signs_015,137,W1-4bR,ELEMENT EXTRA,stray small arrow thumbnail rendered outside the diamond at bottom-left
+Warning_Signs_015,137,W1-4bL,ELEMENT EXTRA,stray arrow thumbnail outside diamond at bottom-left; also identical to W1-4bR (not mirrored)
+Warning_Signs_015,139,W4-7,ELEMENT EXTRA,stray text 'THRU TRAFFIC' rendered outside the diamond at bottom-left
+Warning_Signs_016,139,W4-7,ELEMENT EXTRA,stray text 'THRU TRAFFIC' rendered outside the diamond at bottom-left (repeat entry)
+Warning_Signs_016,143,W20-1,ELEMENT EXTRA,stray text 'EET / RK' rendered outside the diamond at bottom-left
+Warning_Signs_016,145,W20-3,ELEMENT EXTRA,stray text 'TREET' rendered outside the diamond at bottom-left
+Warning_Signs_016,150,W20-7a,ELEMENT MISSING,only the black flagger figure extracted (cut off at frame); orange sign panel/background from the page absent
+Warning_Signs_017,157,W21-5bR,ELEMENT EXTRA,stray text 'LEFT / OULDER' rendered outside the diamond at bottom-left
+Warning_Signs_017,156,W21-5aR,ELEMENT EXTRA,stray text 'FT / LDER' rendered outside the diamond at bottom-left
+Warning_Signs_017,157,W21-5bL,LETTERING,L variant reads 'RIGHT SHOULDER CLOSED' (identical to W21-5bR); also stray 'LEFT / OULDER' fragment outside diamond
+Warning_Signs_017,156,W21-5aL,LETTERING,L variant reads 'RIGHT SHOULDER CLOSED' (identical to W21-5aR); also stray 'FT / LDER' fragment outside diamond
+Warning_Signs_018,168,W24-1bL,ELEMENT EXTRA,stray arrow thumbnail outside diamond at bottom-left; also identical to W24-1bR (not mirrored)
+Warning_Signs_018,168,W24-1bR,ELEMENT EXTRA,stray small arrow thumbnail rendered outside the diamond at bottom-left
+Warning_Signs_018,169,G20-4,CODE/NAME,name 'PILOT CAR FOLLOW ME' but drawing reads 'ROAD WORK NEXT 8 km'
+Warning_Signs_018,169,G20-2,CODE/NAME,name 'END ROAD WORK' but drawing reads 'ROAD WORK NEXT 8 km'
+Warning_Signs_018,167,W24-1aL,CODE/NAME,L variant identical to W24-1aR; not mirrored
+Warning_Signs_018,166,W24-1L,CODE/NAME,L variant identical to W24-1R; not mirrored
+Warning_Signs_019,170,E5-2,CODE/NAME,name 'EXIT OPEN' but drawing reads 'EXIT ONLY' (duplicate of E5-3)
+Warning_Signs_019,170,E5-2a,CODE/NAME,name 'EXIT CLOSED' but drawing reads 'EXIT ONLY' (duplicate of E5-3)
+Warning_Signs_019,177,M4-10R,CODE/NAME,R variant identical to M4-10L (arrow points left); not mirrored
+Warning_Signs_019,173,M4-9L,CODE/NAME,L variant identical to M4-9R (arrow points right); not mirrored
+Guide_Signs_002,16,M4-2,CODE/NAME,name 'BY-PASS AUXILIARY' but drawing reads 'ALTERNATE' (duplicate of M4-1)
+Guide_Signs_002,16,M4-3,CODE/NAME,name 'BY-PASS AUXILIARY' but drawing reads 'ALT' (duplicate of M4-1a)
+Guide_Signs_003,17,M4-5,CODE/NAME,name 'TO AUXILIARY' but drawing reads 'TRUCK' (duplicate of M4-4)
+Guide_Signs_003,20,M4-13,CODE/NAME,name 'TO AUXILIARY' but drawing reads 'END' (duplicate of M4-12)
+Guide_Signs_003,21,M6-1,CODE/NAME,name garbled as 'BLACK' (straight arrow auxiliary)
+Guide_Signs_003,22,M6-3,CODE/NAME,drawing identical to M6-2 (up-right diagonal arrow); verify code-to-drawing mapping
+Guide_Signs_003,22,M6-4,CODE/NAME,name garbled as 'BLACK' and drawing identical to M6-2 (diagonal arrow); verify mapping
+Guide_Signs_004,24,M6-9,CODE/NAME,name garbled as 'BLACK' and drawing identical to M6-8 (up/right two-way arrow)
+Guide_Signs_004,23,M6-7,CODE/NAME,name garbled as 'BLACK' and drawing identical to M6-6 (up/right bent arrows)
+Guide_Signs_004,25,M7-3,CODE/NAME,drawing identical to M7-1 (right arrow); verify code-to-drawing mapping
+Guide_Signs_006,36,D5-2,CODE/NAME,name 'REST AREA EXIT DIRECTION' but drawing reads 'REST AREA 1 MILE' (duplicate of D5-1)
+Guide_Signs_006,38,D5-2a,ELEMENT EXTRA,thin white dimension-leader lines rendered beside the diagonal arrow
+Guide_Signs_006,39,D5-2b,ELEMENT EXTRA,thin white dimension-leader line rendered beside the diagonal arrow
+Guide_Signs_007,41,D5-4,ELEMENT EXTRA,thin white dimension-leader lines rendered beside the diagonal arrow
+Guide_Signs_008,47,D5-8,ELEMENT EXTRA,thin white dimension-leader lines rendered around the diagonal arrow
+Guide_Signs_008,49,D5-10,ELEMENT EXTRA,thin white dimension-leader lines rendered around the diagonal arrow
+Guide_Signs_008,53,D6-4a,LETTERING,red 'AMERICA'S BYWAYS' legend missing; only the flag/road emblem rendered
+Guide_Signs_008,53,D6-4,LETTERING,red 'AMERICA'S BYWAYS' legend missing; only the flag/road emblem rendered
+Guide_Signs_008,52,D6-3,CODE/NAME,name 'SCENIC AREA EXIT DIRECTION' but drawing reads 'SCENIC OVERLOOK 2 MILES' (duplicate of D6-2)
+Guide_Signs_008,54,D7-2,CODE/NAME,name 'NATIONAL PARK ARROW' but drawing has no arrow (duplicate of D7-1)
+Guide_Signs_009,57,D8-3,ELEMENT EXTRA,thin white dimension-leader line rendered beside the diagonal arrow
+Guide_Signs_010,70,D9-11,LETTERING,'D' letter on the pump symbol missing (rendered as plain gas pump, same as D9-7)
+Guide_Signs_010,74,D9-13b,CODE/NAME,name 'AMBULANCE STATION' but drawing reads 'HOSPITAL' (duplicate of D9-13a)
+Guide_Signs_011,80,D9-18,CODE/NAME,name 'FOOD-PHONE' but drawing is the six-symbol motorist services sign
+Guide_Signs_011,80,D9-18a,CODE/NAME,name 'CAMPING' and drawing is the six-symbol sign; D9-18a should be the FOOD-PHONE/GAS-LODGING text sign
+Guide_Signs_011,79,D9-17 (METRIC),CODE/NAME,caption says METRIC (XX km) but drawing reads '23 MILES' (identical to English version)
+Guide_Signs_011,83,D10-3a,ELEMENT MISSING,nothing extracted; right side is blank (page shows MILE 4 4 4 reference marker)
+Guide_Signs_011,83,D10-2a,ELEMENT MISSING,nothing extracted; right side is blank (page shows MILE 4 4 marker)
+Guide_Signs_012,94,D13-3aR,CODE/NAME,R variant identical to D13-3aL (arrow points down-right); not mirrored
+Guide_Signs_012,95,I1-1,LETTERING,page reads 'SIGNALS SET FOR 25 M.P.H.' but extraction reads 'SIGNALS SET FOR 30 km/h' (metric SVG used for English page)
+Guide_Signs_013,103,I-11,LETTERING,'RECYCLING COLLECTION CENTER' legend missing; only the recycling symbol rendered
+Guide_Signs_014,107,E2-3 (ENGLISH),LETTERING,page shows 'EXIT 123' panel but extraction is the FOOD-PHONE/GAS-LODGING/HOSPITAL/CAMPING text sign (wrong drawing)
+Guide_Signs_014,108,E2-2,CODE/NAME,code/name 'E2-2 SECOND RIGHT' assigned to the six-symbol motorist services drawing
+Guide_Signs_014,110,D9-18c,LETTERING,page shows 'EXIT 123' square panel but extraction is the FOOD-PHONE...NEXT EXIT text sign (wrong drawing); name garbled 'R B**'
+Guide_Signs_014,107,E1-5,CODE/NAME,name 'MOTORIST SERVICES SYMBOL SIGN' but drawing reads 'EXIT 123'
+Guide_Signs_014,108,D9-17,LETTERING,page shows six-symbol motorist services sign but extraction reads 'NEXT SERVICES 23 MILES' (wrong drawing); name 'SECOND RIGHT' wrong
+Guide_Signs_014,109,E2-3,CODE/NAME,code E2-3 assigned to the FOOD-PHONE/GAS-LODGING text sign (D9-18a)
+Guide_Signs_014,109,D9-18a,LETTERING,page shows FOOD-PHONE/GAS-LODGING/HOSPITAL/CAMPING text sign but extraction is the six-symbol sign (wrong drawing); name garbled '84'
+Guide_Signs_014,110,E1-5a,CODE/NAME,name garbled as 'R A**' (drawing is EXIT 123 square panel)

@@ -261,5 +261,11 @@ for AS 1743, then 2–3 for AS 1319.
   rasters), generator drafted in `tools/as1319.py` (H/D rule layouts, DANGER header per C1, figure 3.1 arrows); specs
   not yet written; Russell's camera/video symbols still to be lifted from his NO_PHOTO/NO_VIDEO SVGs. Resume by writing
   `tools/specs/AS1319/*.json` and comparing against his 16 existing SVGs.
-* TODO — international: see `International/REVIEW.md` (USA first, then NZ, then UK).
+* International: see `International/REVIEW.md` (USA first, then NZ, then UK).
+  * USA (2026-09-05): FHWA Standard Highway Signs sheets (2004 edition, 2012 supplement, 2024 releases 1–6) downloaded to
+    `MUTCD 2023/Original PDFs/`; artwork lifted exactly from the vector PDFs by `tools/shs_extract.py` (see `tools/README.md`),
+    organised into family folders under `MUTCD 2023/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
+    code. Open for Russell: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
+    conventional-road marker), guide signs drawn at sheet scale (no size table), and `SVGs/intervene/INTERVENE_LIST.md`.
+  * TODO — NZ, then UK.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
