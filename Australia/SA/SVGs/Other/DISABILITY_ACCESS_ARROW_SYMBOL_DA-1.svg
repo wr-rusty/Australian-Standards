@@ -2,25 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="8.82mm" height="8.82mm" viewBox="0 0 25 25">
 <g transform="scale(0.1)">
   <path fill="#ffffff" d="M0 0L250 0L250 250L0 250L0 0"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 0L0 64.98L250 64.98"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 0L250 0L250 64.98"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 64.98L0 107.48L144.64 107.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 64.98L95.07 64.98L144.64 107.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M145.02 64.98L194.59 107.48L250 107.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M145.02 64.98L250 64.98L250 107.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 107.48L0 125L40 125"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 107.48L40 107.48L40 125"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M194.59 107.48L214.99 125L250 125"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M194.59 107.48L250 107.48L250 125"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 125L0 142.48L40 142.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 125L40 125L40 142.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M214.99 125L194.59 142.48L250 142.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M214.99 125L250 125L250 142.48"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 142.48L0 184.98L95.07 184.98"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 142.48L144.64 142.48L95.07 184.98"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M194.59 142.48L145.02 184.98L250 184.98"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M194.59 142.48L250 142.48L250 184.98"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 184.98L0 250L250 250"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 184.98L250 184.98L250 250"/>
+  <path fill="#004a95" fill-rule="evenodd" d="M0 0L0 250L250 250L250 0L0 0M144.64 142.48L40 142.48L40 107.48L144.64 107.48L95.07 64.98L145.02 64.98L194.59 107.48L214.99 125L194.59 142.48L145.02 184.98L95.07 184.98L144.64 142.48"/>
 </g>
 </svg>

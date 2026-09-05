@@ -2,31 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="12.35mm" height="24.69mm" viewBox="0 0 35 70">
 <g transform="scale(0.1)">
   <path fill="#ffffff" d="M0 0L350 0L350 700L0 700L0 0"/>
-  <path fill="#000000" fill-rule="evenodd" d="M36.78 1.79L140.06 104.97L280.02 104.97"/>
-  <path fill="#000000" fill-rule="evenodd" d="M36.78 1.79L176.84 1.79L280.02 104.97"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 104.97L0 174.95L69.98 174.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M140.06 104.97L210.04 174.95L350 174.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M140.06 104.97L280.02 104.97L350 174.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 174.95L0 244.93L139.96 244.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 174.95L69.98 174.95L139.96 244.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M210.04 174.95L280.02 244.93L350 244.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M210.04 174.95L350 174.95L350 244.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 244.93L70.08 315.01L210.04 315.01"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 244.93L139.96 244.93L210.04 315.01"/>
-  <path fill="#000000" fill-rule="evenodd" d="M280.02 244.93L350 244.93L350 315.01"/>
-  <path fill="#000000" fill-rule="evenodd" d="M70.08 315.01L140.06 384.99L280.02 384.99"/>
-  <path fill="#000000" fill-rule="evenodd" d="M70.08 315.01L210.04 315.01L280.02 384.99"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 384.99L0 454.97L70.08 454.97"/>
-  <path fill="#000000" fill-rule="evenodd" d="M140.06 384.99L210.04 454.97L350 454.97"/>
-  <path fill="#000000" fill-rule="evenodd" d="M140.06 384.99L280.02 384.99L350 454.97"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 454.97L0 524.95L140.06 524.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 454.97L70.08 454.97L140.06 524.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M210.04 454.97L280.02 524.95L350 524.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M210.04 454.97L350 454.97L350 524.95"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 524.95L69.98 594.93L210.04 594.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 524.95L140.06 524.95L210.04 594.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M280.02 524.95L350 524.95L350 594.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M69.98 594.93L173.26 698.21L313.22 698.21"/>
-  <path fill="#000000" fill-rule="evenodd" d="M69.98 594.93L210.04 594.93L313.22 698.21"/>
+  <path fill="#000000" fill-rule="evenodd" d="M0 244.93L70.08 315.01L140.06 384.99L210.04 454.97L280.02 524.95L350 594.93L350 454.97L280.02 384.99L210.04 315.01L139.96 244.93L69.98 174.95L0 104.97L0 244.93"/>
+  <path fill="#000000" fill-rule="evenodd" d="M36.78 1.79L140.06 104.97L210.04 174.95L280.02 244.93L350 315.01L350 174.95L280.02 104.97L176.84 1.79L36.78 1.79"/>
+  <path fill="#000000" fill-rule="evenodd" d="M0 524.95L69.98 594.93L173.26 698.21L313.22 698.21L210.04 594.93L70.09 454.97L0 384.99L0 524.95"/>
 </g>
 </svg>

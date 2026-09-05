@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="44.28mm" height="7.53mm" viewBox="0 0 125.52 21.36">
 <g transform="scale(0.1)">
-  <path fill="#004a95" fill-rule="evenodd" d="M541.66 157.9L556.26 157.9"/>
   <path fill="#004a95" fill-rule="evenodd" d="M0 0L0 200.02L0.69 207.57L3.39 213.57L1231.9 213.57L1237.32 200.02L1235.07 200.02L1235.07 0L0 0"/>
   <path fill="#004a95" fill-rule="evenodd" d="M1246.09 200.02L1243.54 211.24L1253.7 211.24L1254.76 206.59L1254.76 205.74L1255.18 200.02L1246.09 200.02"/>
 </g>

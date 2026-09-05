@@ -222,7 +222,7 @@ def svg_path_items(d, dx, dy):
         else: i += 1
     return items
 
-def union_by_colour(fills, box):
+def union_by_colour(fills, box, min_polys=6):
     """Triangulated CAD exports: union the pieces of each colour so the shapes are clean paths. Polygonal pieces are
     unioned with Shapely (a hair of outset closes the seams between triangles); pieces with curves go through Inkscape."""
     groups = {}
@@ -232,7 +232,7 @@ def union_by_colour(fills, box):
     from shapely.ops import unary_union
     for key, fs in groups.items():
         polys = [f for f in fs if all(it[0] == "l" for it in f["items"]) and len(f["items"]) >= 2]
-        if len(polys) < 6: out += fs; continue
+        if len(polys) < min_polys: out += fs; continue
         out += [f for f in fs if f not in polys]
         shapes = []
         for f in polys:
@@ -257,6 +257,27 @@ def union_by_colour(fills, box):
             xs = [p[0] for it in items for p in it[1:]]; ys = [p[1] for it in items for p in it[1:]]
             out.append({"rect": pymupdf.Rect(min(xs), min(ys), max(xs), max(ys)), "fill": key[0], "items": items, "area": (max(xs) - min(xs)) * (max(ys) - min(ys)), "even_odd": True, "virtual": key[1]})
     return out
+
+def seam_union(content, box):
+    """A shape drawn as a few adjacent triangles or quads of one colour (a CAD octagon as six triangles) renders with
+    hairline seams: union the touching pieces of each colour in place (paint order kept at the first piece)."""
+    def is_piece(f): return not f.get("virtual") and len(f["items"]) <= 5 and all(it[0] == "l" for it in f["items"]) and len(f["items"]) >= 2
+    groups = {}
+    for i, f in enumerate(content):
+        if is_piece(f): groups.setdefault(f["fill"], []).append(i)
+    out = list(content); removed = set(); inserts = {}
+    for colour, idxs in groups.items():
+        if len(idxs) < 2: continue
+        pieces = [content[i] for i in idxs]
+        unioned = union_by_colour(pieces, box, min_polys=2)
+        if len(unioned) >= len(pieces): continue
+        inserts[idxs[0]] = unioned; removed.update(idxs)
+    if not removed: return content
+    result = []
+    for i, f in enumerate(content):
+        if i in inserts: result += inserts[i]
+        if i not in removed: result.append(f)
+    return result
 
 def _union_inkscape(fills, box):
     groups = {}
@@ -376,8 +397,41 @@ def explode(f):
         out.append(dict(f, items=items, rect=box, area=box.get_area()))
     return out
 
+MEMO = os.environ.get("SHEET_MEMO")
+_CODE_VERSION = hashlib.md5(open(os.path.abspath(__file__), "rb").read()).hexdigest()[:10]
+_ORIG_FRAME, _ORIG_REGION = None, None     # set after the module loads; drivers that monkeypatch these bypass the memo
+
+def _freeze(v):
+    if isinstance(v, pymupdf.Rect): return ("__rect__", v.x0, v.y0, v.x1, v.y1)
+    if isinstance(v, dict): return {k: _freeze(x) for k, x in v.items()}
+    if isinstance(v, list): return [_freeze(x) for x in v]
+    return v
+def _thaw(v):
+    if isinstance(v, tuple) and len(v) == 5 and v[0] == "__rect__": return pymupdf.Rect(*v[1:])
+    if isinstance(v, dict): return {k: _thaw(x) for k, x in v.items()}
+    if isinstance(v, list): return [_thaw(x) for x in v]
+    return v
+
+def _memo_path(pdf, pno, min_area_frac):
+    if not MEMO or Frame is not _ORIG_FRAME or drawing_region is not _ORIG_REGION: return None
+    key = hashlib.md5(f"{os.path.abspath(pdf)}|{os.path.getmtime(pdf)}|{pno}|{min_area_frac}|{_CODE_VERSION}".encode()).hexdigest()
+    os.makedirs(MEMO, exist_ok=True); return os.path.join(MEMO, key + ".pkl")
+
 def extract_page(pdf, pno=0, min_area_frac=0.02):
-    """Drawings on a sheet: list of sign dicts for X.write_svg (panel, fills, scale, note, superseded, text)."""
+    """Drawings on a sheet: list of sign dicts for X.write_svg (panel, fills, scale, note, superseded, text).
+    With SHEET_MEMO set (and no driver overrides), results are memoised on disk so a parallel pre-pass can do the work."""
+    import pickle
+    mp = _memo_path(pdf, pno, min_area_frac)
+    if mp and os.path.exists(mp):
+        try: return _thaw(pickle.load(open(mp, "rb")))
+        except Exception: pass
+    out = _extract_page(pdf, pno, min_area_frac)
+    if mp:
+        try: pickle.dump(_freeze(out), open(mp + ".tmp", "wb")); os.replace(mp + ".tmp", mp)
+        except Exception: pass
+    return out
+
+def _extract_page(pdf, pno=0, min_area_frac=0.02):
     doc = pymupdf.open(pdf); page = doc[pno]
     spans0 = raw_spans(page); F = Frame(page, spans0)
     spans = [dict(s, bbox=F.R(s["bbox"]), origin=F.P(s["origin"]), block_bbox=F.R(s["block_bbox"])) for s in spans0]
@@ -463,7 +517,7 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
             g = [virt] + g; panel = virt; hull = X.convex_hull(X.item_points(items)); bordered = True; assumed = True
         pr = panel["rect"] if bordered else box
         tri = [f for f in real if X.is_triangle(f["items"])]
-        pieces = [f for f in real if len(f["items"]) <= 5 and all(it[0] == "l" for it in f["items"]) and max(f["rect"].width, f["rect"].height) < 8 * max(0.1, min(f["rect"].width, f["rect"].height))]   # triangles and quads of a tessellated export (not hatching lines)
+        pieces = [f for f in real if len(f["items"]) <= 5 and all(it[0] == "l" for it in f["items"]) and min(f["rect"].width, f["rect"].height) > 0.05]   # triangles and quads of a tessellated export (slivers included; zero-width dashes are not)
         piece_area = sum(f["area"] for f in pieces)
         triangulated = piece_area > 0.05 * box.get_area() and ((len(tri) > 60 and len(tri) > 0.4 * max(1, len(real))) or (len(pieces) > 200 and len(pieces) > 0.6 * max(1, len(real))))
         edge = 0.06 * min(pr.width, pr.height)      # a border drawn as bars around the panel sits just outside its outline
@@ -482,6 +536,7 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         content = [f for f in g if keep(f)]
         if not content or (len(content) == 1 and len(content[0]["items"]) <= 5): continue          # swatch / speck
         if triangulated: content = union_by_colour(content, box)
+        else: content = seam_union(content, box)
         realc = [f for f in content if not f.get("virtual")]
         if not realc: continue
         if all(grey(f["fill"]) for f in realc): continue                                                # greyed detail / ghost drawing
@@ -527,3 +582,5 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
 def sheet_spans(pdf, pno=0):
     doc = pymupdf.open(pdf); page = doc[pno]; spans0 = raw_spans(page); F = Frame(page, spans0)
     return [dict(s, bbox=F.R(s["bbox"]), origin=F.P(s["origin"])) for s in spans0], F
+
+_ORIG_FRAME, _ORIG_REGION = Frame, drawing_region

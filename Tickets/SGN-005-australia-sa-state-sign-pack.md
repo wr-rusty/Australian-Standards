@@ -33,3 +33,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-05 — status → in-progress.
 - 2026-09-06 — first full run: 755 SVGs from 685 PDFs (`Australia/SA/SVGs`, series folders), sizes from the register; 57 sheets gave no drawing; 137 flagged where drawn proportions differ from the register size.
 - 2026-09-06 — rerun: 702 SVGs; shared symbol sheets filed once (symbols on all-outlined sheets not told apart — check); 60% grey rendered as white per the sheets' colour legend.
+- 2026-09-06 — Rerun; deduplicated against the national pack: 94 SVGs removed (93 shared codes); 601 kept.

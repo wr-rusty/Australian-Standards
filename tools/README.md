@@ -129,3 +129,10 @@ GuideSIGN exports (layer GSCOLORFILL) keep their own colours (`recolour_true`). 
 ### ACT — `tools/act_extract.py`
 
 TCCS ACTSD sign drawings: the vector pay-parking sheets are extracted; scanned parking sheets are listed without files.
+
+### One sign, one file — `tools/dedupe_pack.py`
+
+A state or regional pack holds only its own signs. After any rerun, `python3 tools/dedupe_pack.py <pack> <base>`
+(base = `Australia/National (AS 1743)` or `USA/Federal (MUTCD 2023)`) deletes every SVG whose code already exists in the
+base pack and leaves a manifest row pointing to the base file. Extraction is memoised (`SHEET_MEMO`, keyed on file, page
+and extractor version) and `tools/precache.py` fills the memo in parallel, so reruns cost minutes.

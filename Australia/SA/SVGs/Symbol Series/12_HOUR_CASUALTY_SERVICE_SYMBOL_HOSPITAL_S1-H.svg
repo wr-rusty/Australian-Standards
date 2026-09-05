@@ -3,22 +3,7 @@
 <g transform="scale(0.1)">
   <path fill="#ffffff" d="M0 0L350 0L350 350L0 350L0 0"/>
   <path fill="#ffffff" d="M145.22 99.5L145.22 40.38L203.64 40.38L203.64 99.5L262.69 99.5L262.69 157.92L203.64 157.92L203.64 216.97L145.22 216.97L145.22 157.92L86.1 157.92L86.1 99.5L145.22 99.5"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 0L0 40.38L350 40.38"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 0L350 0L350 40.38"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M203.64 40.38L203.64 99.5L350 99.5"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M203.64 40.38L350 40.38L350 99.5"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 40.38L0 99.5L145.22 99.5"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 40.38L145.22 40.38L145.22 99.5"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M262.69 99.5L262.69 157.92L350 157.92"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M262.69 99.5L350 99.5L350 157.92"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 99.5L0 157.92L86.1 157.92"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 99.5L86.1 99.5L86.1 157.92"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M203.64 157.92L203.64 216.97L350 216.97"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M203.64 157.92L350 157.92L350 216.97"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 157.92L0 216.97L145.22 216.97"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 157.92L145.22 157.92L145.22 216.97"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 216.97L0 350L350 350"/>
-  <path fill="#004a95" fill-rule="evenodd" d="M0 216.97L350 216.97L350 350"/>
+  <path fill="#004a95" fill-rule="evenodd" d="M0 0L0 350L350 350L350 0L0 0M145.22 157.92L86.1 157.92L86.1 99.5L145.22 99.5L145.22 40.38L203.64 40.38L203.64 99.5L262.69 99.5L262.69 157.92L203.64 157.92L203.64 216.97L145.22 216.97L145.22 157.92"/>
   <path fill="#fafafa" fill-rule="evenodd" d="M56.89 264.53L48.96 264.53L48.96 284.72L30.73 284.72L48.96 292.79L48.96 314.5L56.89 314.5"/>
   <path fill="#fafafa" fill-rule="evenodd" d="M30.73 264.53L22.8 264.53L22.8 314.5L30.73 314.5L30.73 292.79L48.96 292.79L30.73 284.72"/>
   <path fill="#fafafa" fill-rule="evenodd" d="M99.18 271.07L86.1 271.77L87.18 271.83C98.15 272.65 97.98 306.33 87.12 307.2L85.72 307.27L98.87 308.28L99.5 307.14C104.46 297.89 104.59 281.86 99.95 272.47L99.82 272.22"/>

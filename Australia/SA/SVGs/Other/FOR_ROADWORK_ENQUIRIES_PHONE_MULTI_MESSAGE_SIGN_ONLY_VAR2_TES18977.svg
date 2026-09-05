@@ -2,15 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="42.33mm" height="10.58mm" viewBox="0 0 119.99 29.99">
 <g transform="scale(0.1)">
   <path fill="#ffffff" d="M24.98 24.98L1174.96 24.98L1174.96 274.96L24.98 274.96L24.98 24.98"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 0L0 24.98L1199.94 24.98"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 0L1199.94 0L1199.94 24.98"/>
-  <path fill="#000000" fill-rule="evenodd" d="M1174.96 24.98L1174.96 274.96L1199.94 274.96"/>
-  <path fill="#000000" fill-rule="evenodd" d="M1174.96 24.98L1199.94 24.98L1199.94 274.96"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 24.98L0 274.96L24.98 274.96"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 24.98L24.98 24.98L24.98 274.96"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 274.96L0 299.93L1199.94 299.93"/>
-  <path fill="#000000" fill-rule="evenodd" d="M0 274.96L1199.94 274.96L1199.94 299.93"/>
-  <path fill="#ffff00" fill-rule="evenodd" d="M24.98 24.98L24.98 274.96L1174.96 274.96"/>
-  <path fill="#ffff00" fill-rule="evenodd" d="M24.98 24.98L1174.96 24.98L1174.96 274.96"/>
+  <path fill="#000000" fill-rule="evenodd" d="M0 299.93L1199.94 299.93L1199.94 0L0 0L0 299.93M1174.96 24.98L1174.96 274.96L24.98 274.96L24.98 24.98L1174.96 24.98"/>
+  <path fill="#ffff00" fill-rule="evenodd" d="M24.98 274.96L1174.96 274.96L1174.96 24.98L24.98 24.98L24.98 274.96"/>
 </g>
 </svg>

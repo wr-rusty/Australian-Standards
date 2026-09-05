@@ -2,7 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="30.87mm" height="17.19mm" viewBox="0 0 87.5 48.73">
 <g transform="scale(0.1)">
   <path fill="#ffffff" d="M0 0L875.03 0L875.03 487.26L0 487.26L0 0"/>
-  <path fill="#000000" fill-rule="evenodd" d="M470.32 37.25L170.18 450L405.13 450"/>
-  <path fill="#000000" fill-rule="evenodd" d="M470.32 37.25L705.27 37.25L405.13 450"/>
+  <path fill="#000000" fill-rule="evenodd" d="M170.18 450L405.13 450L705.27 37.25L470.32 37.25L170.18 450"/>
 </g>
 </svg>

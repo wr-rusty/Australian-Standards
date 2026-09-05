@@ -25,14 +25,17 @@ def jobs():
 
 def one(job):
     import sheet_extract as SE
-    try: SE.paths_pdf(*job); return None
+    try:
+        SE.paths_pdf(*job)
+        if os.environ.get("SHEET_MEMO"): SE.extract_page(*job)       # memoised extraction too
+        return None
     except Exception as ex: return f"{job}: {ex}"
 
 if __name__ == "__main__":
     js = jobs(); print(len(js), "sheets", flush=True); n = 0
     with ProcessPoolExecutor(int(sys.argv[1]) if len(sys.argv) > 1 else 6) as ex:
         for res in as_completed([ex.submit(one, j) for j in js]):
-            n += 1
-            if res: print("  !!", res, flush=True)
+            n += 1; r = res.result()
+            if r: print("  !!", r, flush=True)
             if n % 100 == 0: print(n, flush=True)
     print("done", flush=True)
