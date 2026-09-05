@@ -28,13 +28,17 @@ CACHE = os.environ.get("SHEET_CACHE", os.path.join(os.path.dirname(os.path.dirna
 
 def fmt(v): return X.fmt(v)
 
-def paths_pdf(pdf):
-    """The sheet with every glyph converted to a path (cached)."""
+def paths_pdf(pdf, pno=0):
+    """The sheet's page with every glyph converted to a path (cached per page)."""
     os.makedirs(CACHE, exist_ok=True)
     key = hashlib.md5((os.path.abspath(pdf) + str(os.path.getmtime(pdf))).encode()).hexdigest()[:12]
-    out = os.path.join(CACHE, f"{os.path.basename(pdf)[:-4]}_{key}.pdf")
+    out = os.path.join(CACHE, f"{os.path.basename(pdf)[:-4]}_{key}_p{pno + 1}.pdf")
     if not os.path.exists(out):
-        r = subprocess.run([INK, "--pdf-font-strategy=draw-all", "--export-type=pdf", f"--export-filename={out}", pdf], capture_output=True, text=True, timeout=300)
+        src = pdf
+        if pno > 0 or pymupdf.open(pdf).page_count > 1:      # Inkscape converts one page: split it out first
+            src = out[:-4] + "_src.pdf"; one = pymupdf.open(); one.insert_pdf(pymupdf.open(pdf), from_page=pno, to_page=pno); one.save(src); one.close()
+        r = subprocess.run([INK, "--pdf-font-strategy=draw-all", "--export-type=pdf", f"--export-filename={out}", src], capture_output=True, text=True, timeout=300)
+        if src != pdf and os.path.exists(src): os.remove(src)
         if not os.path.exists(out): raise RuntimeError("inkscape could not convert the sheet: " + r.stderr.strip()[-200:])
     return out
 
@@ -324,7 +328,7 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
     spans0 = raw_spans(page); F = Frame(page, spans0)
     spans = [dict(s, bbox=F.R(s["bbox"]), origin=F.P(s["origin"]), block_bbox=F.R(s["block_bbox"])) for s in spans0]
     if spans0:
-        pdoc = pymupdf.open(paths_pdf(pdf)); ppage = pdoc[min(pno, len(pdoc) - 1)]
+        pdoc = pymupdf.open(paths_pdf(pdf, pno)); ppage = pdoc[0]
         F2 = Frame.baked(ppage, F)      # the converted page carries the page rotation in its content already
     else:
         ppage, F2 = page, F             # nothing to convert: read the original (keeps tessellated exports as separate pieces)
@@ -350,8 +354,9 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
         return ann_union.intersection(sbox(r.x0, r.y0, r.x1, r.y1)).area >= 0.7 * r.get_area()   # a text block converted as one path
     def in_region(f):
         r = f["rect"]
-        if f.get("virtual"): return region.contains(r) and r.get_area() < 0.5 * F.rect.get_area()     # outlines: wholly inside, never the sheet frame
-        return region.contains(pymupdf.Point((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)) and r.get_area() < 0.5 * F.rect.get_area()
+        if r.get_area() >= 0.45 * region.get_area(): return False                                     # sheet frame / page background
+        if f.get("virtual"): return region.contains(r)                                                 # outlines: wholly inside
+        return region.contains(pymupdf.Point((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2))
     inside = [f for f in fills if in_region(f) and not under_annotation(f)]
     if not inside: return []
     U = bbox_of(inside); m = 0.015 * max(U.width, U.height)
