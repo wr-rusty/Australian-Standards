@@ -272,6 +272,9 @@ for AS 1743, then 2–3 for AS 1319.
     `Original EPS/`); `tools/nz_extract.py` lifts the EPS artwork (1:10, legends outlined) into `SVGs/<family>/` with
     `MANIFEST.csv`. Fonts per TCD Manual Part 1 §5.3.1: AS 1744 Series A–E + modified E lower case, Transport Medium NZ
     for parking text and metric abbreviations (not needed: legends are outlined).
+  * Australian states (2026-09-06): NSW register crawled and extracting; QLD TC signs pack done (731); SA index and PDFs
+    downloaded, extracting; WA index crawled (DWG conversion blocked); TAS/ACT/VIC/NT findings on their tickets.
+    Generic sheet extractor in `tools/sheet_extract.py`; packs map in `JURISDICTIONS.md`; US states in `USA/STATES.csv`.
   * TODO — UK after NZ.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
 * Layout (2026-09-06, agreed with Russell): country → jurisdiction pack → `Original …/` + `SVGs/<family>/`:
