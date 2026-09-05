@@ -37,14 +37,27 @@
    "expect": 250
   },
   {
-   "type": "symbol",
-   "id": "g1-1_arrow_straight",
-   "x": 480,
-   "y": 275,
-   "w": 220,
-   "h": 250,
-   "colour": "white",
-   "rotate": 90
+   "type": "arrow",
+   "width": 68,
+   "width_head": 50,
+   "heading": 0,
+   "path": [
+    {
+     "line": 109
+    }
+   ],
+   "head": {
+    "length": 141,
+    "width": 220,
+    "notch": 17,
+    "tip_r": 10,
+    "barb_r": 10
+   },
+   "x": 465.0,
+   "y": 290.0,
+   "w": 250,
+   "h": 220,
+   "colour": "white"
   },
   {
    "type": "text",
@@ -75,6 +88,6 @@
    ]
   }
  ],
- "notes": "800x850 R100, 40/20 border. P 320 E at x 140 (250 wide stated; AS 1744 gives 259), top 110. Right arrow 250 long x 220 (detail 109+141, 68 shaft, 50, 17, R10 on 42.5 grid = the G1-1 arrow rotated) at x 465 (140+250+75), centred on y 400 (the 400 from the top). PENRITH 70 D centred (= Varies =), top 570 (400+170); PARK & RIDE = |230|50|63|50|194| = centred (587 block, x 106.5), top 695 (55 below PENRITH baseline), 85 bottom margin. QA: arrow box given in the native (up) orientation 220x250 centred on (590,400) then rotated 90.",
+ "notes": "800x850 R100, 40/20 border. P 320 E at x 140 (250 wide stated; AS 1744 gives 259), top 110. Right arrow 250 long x 220 (detail 109+141, 68 shaft, 50, 17, R10 on 42.5 grid = the G1-1 arrow rotated) at x 465 (140+250+75), centred on y 400 (the 400 from the top). PENRITH 70 D centred (= Varies =), top 570 (400+170); PARK & RIDE = |230|50|63|50|194| = centred (587 block, x 106.5), top 695 (55 below PENRITH baseline), 85 bottom margin. QA: the arrow is a geometric arrow element (G1-1 detail dimensions) drawn pointing right in the 250x220 box centred on (590,400).",
  "accepted_drawing_discrepancy": "P 320 E = 259 vs 250, 3.6%; no series fits; intervene set. Arrow/text positions verified"
 }

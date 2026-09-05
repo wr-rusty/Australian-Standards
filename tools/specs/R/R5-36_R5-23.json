@@ -91,12 +91,45 @@
    "x": 366
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_left",
-   "x": 50,
-   "y": 180,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     196.0
+    ],
+    [
+     71.75,
+     180.0
+    ],
+    [
+     92.0,
+     180.0
+    ],
+    [
+     78.41,
+     190.0
+    ],
+    [
+     175.0,
+     190.0
+    ],
+    [
+     175.0,
+     202.0
+    ],
+    [
+     78.41,
+     202.0
+    ],
+    [
+     92.0,
+     212.0
+    ],
+    [
+     71.75,
+     212.0
+    ]
+   ],
    "colour": "red"
   },
   {
@@ -219,16 +252,49 @@
    "x": 366
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_left",
-   "x": 50,
-   "y": 405,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     421.0
+    ],
+    [
+     71.75,
+     405.0
+    ],
+    [
+     92.0,
+     405.0
+    ],
+    [
+     78.41,
+     415.0
+    ],
+    [
+     175.0,
+     415.0
+    ],
+    [
+     175.0,
+     427.0
+    ],
+    [
+     78.41,
+     427.0
+    ],
+    [
+     92.0,
+     437.0
+    ],
+    [
+     71.75,
+     437.0
+    ]
+   ],
    "colour": "red"
   }
  ],
- "notes": "Upper panel R5-36 (variant) + lower panel R5-23, 450 x 450 R20, black dividing line 5 wide at y 225. Upper: roundel 140 at 42, 20; 4 - 6PM 50 E top 70, 160 block at 259: 47|7|20|11|41|5|29; MON - FRI 20 E top 130, 141 block at 267 (450-42-141): 61|13|11|14|42 (dash 11); arrow 50|125 top 180. Lower: red panel 200 x 140 R10 at 15, 240 with LOADING 45 B (15|170|15) top 253 and ZONE 45 C (37|126|37) top 322 in white; 9AM - 4PM 50 E top 295, 193 block at 244: 41|32|9|20|9|47|6|29; MON - FRI as above top 355; arrow top 405, 13 bottom. AM/PM 15 E bottom-aligned. Dash thickness from the font hyphen.",
+ "notes": "Upper panel R5-36 (variant) + lower panel R5-23, 450 x 450 R20, black dividing line 5 wide at y 225. Upper: roundel 140 at 42, 20; 4 - 6PM 50 E top 70, 160 block at 259: 47|7|20|11|41|5|29; MON - FRI 20 E top 130, 141 block at 267 (450-42-141): 61|13|11|14|42 (dash 11); arrow 50|125 top 180. Lower: red panel 200 x 140 R10 at 15, 240 with LOADING 45 B (15|170|15) top 253 and ZONE 45 C (37|126|37) top 322 in white; 9AM - 4PM 50 E top 295, 193 block at 244: 41|32|9|20|9|47|6|29; MON - FRI as above top 355; arrow top 405, 13 bottom. AM/PM 15 E bottom-aligned. Dash thickness from the font hyphen. Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5-35_no_standing_140": {
    "source": "R5-36",

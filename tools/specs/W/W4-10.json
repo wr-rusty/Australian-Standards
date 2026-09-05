@@ -19,33 +19,133 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "w4-10_arrow_up",
-   "x": 209.83,
-   "y": 340.33,
-   "w": 175,
-   "h": 375,
+   "type": "polygon",
+   "points": [
+    [
+     297.33,
+     340.33
+    ],
+    [
+     209.83,
+     500.33
+    ],
+    [
+     272.33,
+     484.33
+    ],
+    [
+     264.33,
+     715.33
+    ],
+    [
+     330.33,
+     715.33
+    ],
+    [
+     322.33,
+     484.33
+    ],
+    [
+     384.83,
+     500.33
+    ]
+   ],
+   "radius": [
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    10
+   ],
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w4-10_arrow_up",
-   "x": 465.83,
-   "y": 340.33,
-   "w": 175,
-   "h": 375,
-   "colour": "black",
-   "rotate": 180
+   "type": "polygon",
+   "points": [
+    [
+     553.33,
+     715.33
+    ],
+    [
+     640.83,
+     555.33
+    ],
+    [
+     578.33,
+     571.33
+    ],
+    [
+     586.33,
+     340.33
+    ],
+    [
+     520.33,
+     340.33
+    ],
+    [
+     528.33,
+     571.33
+    ],
+    [
+     465.83,
+     555.33
+    ]
+   ],
+   "radius": [
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    10
+   ],
+   "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w4-10_arrow_up",
-   "x": 671.83,
-   "y": 340.33,
-   "w": 175,
-   "h": 375,
-   "colour": "black",
-   "rotate": 180
+   "type": "polygon",
+   "points": [
+    [
+     759.33,
+     715.33
+    ],
+    [
+     846.83,
+     555.33
+    ],
+    [
+     784.33,
+     571.33
+    ],
+    [
+     792.33,
+     340.33
+    ],
+    [
+     726.33,
+     340.33
+    ],
+    [
+     734.33,
+     571.33
+    ],
+    [
+     671.83,
+     555.33
+    ]
+   ],
+   "radius": [
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    10
+   ],
+   "colour": "black"
   }
  ],
  "symbols": {
@@ -62,5 +162,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Three arrows (left up, middle and right down = same arrow rotated 180 about its box centre). Axes: middle arrow axis 23 right of centreline; bottom row 256 | 206 is measured from that axis -> left axis -233, right axis +229 (pixel check -232 / +23 / +231). Vertical: 185 from centreline to arrow bottoms (stated) -> all arrows y -190..+185."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Three arrows (left up, middle and right down = same arrow rotated 180 about its box centre). Axes: middle arrow axis 23 right of centreline; bottom row 256 | 206 is measured from that axis -> left axis -233, right axis +229 (pixel check -232 / +23 / +231). Vertical: 185 from centreline to arrow bottoms (stated) -> all arrows y -190..+185. Arrows drawn as polygons from the inset: 375 long, head 160 x 175, notch 16, shaft tapering 50 (at the notch) to 66 (tail), R10 barbs."
 }

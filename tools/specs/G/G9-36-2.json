@@ -37,8 +37,22 @@
    "expect": 1106
   },
   {
-   "type": "symbol",
-   "id": "g9-36_arrow_diag_up_left",
+   "type": "arrow",
+   "width": 136,
+   "width_head": 100,
+   "heading": -135,
+   "path": [
+    {
+     "line": 217
+    }
+   ],
+   "head": {
+    "length": 281,
+    "width": 438,
+    "notch": 34,
+    "tip_r": 20,
+    "barb_r": 20
+   },
    "x": 897,
    "y": 1310,
    "w": 406,

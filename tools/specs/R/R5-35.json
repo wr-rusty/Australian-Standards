@@ -20,16 +20,49 @@
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_right",
-   "x": 50,
-   "y": 255,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     175.0,
+     271.0
+    ],
+    [
+     153.25,
+     255.0
+    ],
+    [
+     133.0,
+     255.0
+    ],
+    [
+     146.59,
+     265.0
+    ],
+    [
+     50.0,
+     265.0
+    ],
+    [
+     50.0,
+     277.0
+    ],
+    [
+     146.59,
+     277.0
+    ],
+    [
+     133.0,
+     287.0
+    ],
+    [
+     153.25,
+     287.0
+    ]
+   ],
    "colour": "red"
   }
  ],
- "notes": "R5-35A 225 x 300. Corner radius not stated on this drawing; R20 taken from R5-36 (same family). Roundel 140 dia top 60, centred; arrow 125 x 32 top 255 (60+140+55), 13 bottom. The drawing's 'white C' = white halo where the slash crosses the S (in the symbol). Tracer: no border ring, panel_px = pixel bbox of the sign's white interior; roundel traced as red + black layers, arrow with open 9. QA: roundel and arrow now traced from R5-36 (clean copy of the same symbols; this drawing's centre lines and dashed box left hairline holes and specks).",
+ "notes": "R5-35A 225 x 300. Corner radius not stated on this drawing; R20 taken from R5-36 (same family). Roundel 140 dia top 60, centred; arrow 125 x 32 top 255 (60+140+55), 13 bottom. The drawing's 'white C' = white halo where the slash crosses the S (in the symbol). Tracer: no border ring, panel_px = pixel bbox of the sign's white interior; roundel traced as red + black layers, arrow with open 9. QA: roundel and arrow now traced from R5-36 (clean copy of the same symbols; this drawing's centre lines and dashed box left hairline holes and specks). Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5-35_no_standing_140": {
    "source": "R5-36",

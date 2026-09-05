@@ -46,8 +46,22 @@
    "expect": 3125
   },
   {
-   "type": "symbol",
-   "id": "arrow_diag_up_left_505",
+   "type": "arrow",
+   "width": 193,
+   "width_head": 154,
+   "heading": -135,
+   "path": [
+    {
+     "line": 270
+    }
+   ],
+   "head": {
+    "length": 357,
+    "width": 550,
+    "notch": 39,
+    "tip_r": 19,
+    "barb_r": 19
+   },
    "x": 1261,
    "y": 2470,
    "w": 505,
@@ -75,5 +89,6 @@
    "inset": 0
   }
  },
- "notes": "4500x3300 R300; green 70 / white 70. Left chain 840 (A93 baseline) | 1630 | 505 arrow | 325; right chain to baselines 1540 Tambalanga | 700 Honeyford | 660 EXIT (350 E) | 400. A93 1673 | 1153 | 1674; Tambalanga 345 | 3809 | 346; Honeyford 687 | 3125 | 688; arrow/EXIT 1261 | 505 | 400 | 1072 | 1262. Arrow detail as GE2-1-2 (225 grid)."
+ "notes": "4500x3300 R300; green 70 / white 70. Left chain 840 (A93 baseline) | 1630 | 505 arrow | 325; right chain to baselines 1540 Tambalanga | 700 Honeyford | 660 EXIT (350 E) | 400. A93 1673 | 1153 | 1674; Tambalanga 345 | 3809 | 346; Honeyford 687 | 3125 | 688; arrow/EXIT 1261 | 505 | 400 | 1072 | 1262. Arrow detail as GE2-1-2 (225 grid).",
+ "intervene": "diagonal arrow: the drawing's inset (550/357/270/39, 193/154, R19) computes to 517 square but the sign face boxes it at 505 (2.4 %); drawn from the inset - confirm inset or box"
 }

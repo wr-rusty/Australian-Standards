@@ -94,12 +94,45 @@
    "x": 204
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_left",
-   "x": 50,
-   "y": 255,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     271.0
+    ],
+    [
+     71.75,
+     255.0
+    ],
+    [
+     92.0,
+     255.0
+    ],
+    [
+     78.41,
+     265.0
+    ],
+    [
+     175.0,
+     265.0
+    ],
+    [
+     175.0,
+     277.0
+    ],
+    [
+     78.41,
+     277.0
+    ],
+    [
+     92.0,
+     287.0
+    ],
+    [
+     71.75,
+     287.0
+    ]
+   ],
    "colour": "green"
   },
   {
@@ -153,16 +186,49 @@
    "cx": 337.5
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_right",
-   "x": 275,
-   "y": 255,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     400.0,
+     271.0
+    ],
+    [
+     378.25,
+     255.0
+    ],
+    [
+     358.0,
+     255.0
+    ],
+    [
+     371.59,
+     265.0
+    ],
+    [
+     275.0,
+     265.0
+    ],
+    [
+     275.0,
+     277.0
+    ],
+    [
+     371.59,
+     277.0
+    ],
+    [
+     358.0,
+     287.0
+    ],
+    [
+     378.25,
+     287.0
+    ]
+   ],
    "colour": "red"
   }
  ],
- "notes": "One drawing = two panels: R5-17 (left, green) + R5-40 (right, black P roundel, red text). 450 x 300 R20, dividing line 5 wide at x 225 ('red or black' - red used). Left: 1 1/2 P 100 E top 35 at 12|30|12|68|10|80. 9AM - 9PM 50 E top 170, 21|183|21: inset gives 41|38|20|41 then PM 29 (9 = 37 wide + 4, AM 32 + 6, dash 12 long in a 20 region, second 9 at 124); these chain to 169, 14 short of the stated 183 -> PM right-aligned at 204 (drawing inconsistency). AM/PM 15 E bottom-aligned at 220. Right: roundel 140 at 43 from centre, top 15; AMBULANCES 35 B top 165, EXCEPTED 35 C top 210, both centred in the panel within '195 max' (no ink width given); arrow 32 high top 255, 50|125|50 in the panel. Tracer: no border ring, panel_px = pixel bbox of the sign's white interior (both panels); roundel traced as red + black layers. QA: the R5-40 roundel is now drawn from its dimensions instead of traced (the drawing's centre lines cut hairline holes through the traced ring and P): red annulus R70/R58 centred at (338, 85) (43 from the panel centreline, 15 from top); P 80 E black, left edge 45 from the annulus left (x 313), 64 wide, vertically centred on the roundel (top 45 - the 80 E dimension is drawn centred on the 140); red slash 12 wide at 45 deg from upper-left to lower-right through the centre, ends clipped to R70, no white halo (none drawn at this size). QA: the inset's upper row gives the 9 as 41 (50 E = 40.5); its lower row's 37 (over 32 for AM) cannot be the 9's width at 50 E and is left unexplained - expect set to 41.",
+ "notes": "One drawing = two panels: R5-17 (left, green) + R5-40 (right, black P roundel, red text). 450 x 300 R20, dividing line 5 wide at x 225 ('red or black' - red used). Left: 1 1/2 P 100 E top 35 at 12|30|12|68|10|80. 9AM - 9PM 50 E top 170, 21|183|21: inset gives 41|38|20|41 then PM 29 (9 = 37 wide + 4, AM 32 + 6, dash 12 long in a 20 region, second 9 at 124); these chain to 169, 14 short of the stated 183 -> PM right-aligned at 204 (drawing inconsistency). AM/PM 15 E bottom-aligned at 220. Right: roundel 140 at 43 from centre, top 15; AMBULANCES 35 B top 165, EXCEPTED 35 C top 210, both centred in the panel within '195 max' (no ink width given); arrow 32 high top 255, 50|125|50 in the panel. Tracer: no border ring, panel_px = pixel bbox of the sign's white interior (both panels); roundel traced as red + black layers. QA: the R5-40 roundel is now drawn from its dimensions instead of traced (the drawing's centre lines cut hairline holes through the traced ring and P): red annulus R70/R58 centred at (338, 85) (43 from the panel centreline, 15 from top); P 80 E black, left edge 45 from the annulus left (x 313), 64 wide, vertically centred on the roundel (top 45 - the 80 E dimension is drawn centred on the 140); red slash 12 wide at 45 deg from upper-left to lower-right through the centre, ends clipped to R70, no white halo (none drawn at this size). QA: the inset's upper row gives the 9 as 41 (50 E = 40.5); its lower row's 37 (over 32 for AM) cannot be the 9's width at 50 E and is left unexplained - expect set to 41. Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5_half_fraction": {
    "source": "R5-16",

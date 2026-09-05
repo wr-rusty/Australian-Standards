@@ -14,12 +14,46 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "tm5-6a_arrow_left",
-   "x": 73,
-   "y": 100,
-   "w": 454,
-   "h": 400,
+   "type": "polygon",
+   "points": [
+    [
+     62.3,
+     300.0
+    ],
+    [
+     348.25,
+     69.73
+    ],
+    [
+     300.0,
+     254.0
+    ],
+    [
+     527.0,
+     237.5
+    ],
+    [
+     527.0,
+     362.5
+    ],
+    [
+     300.0,
+     346.0
+    ],
+    [
+     348.25,
+     530.27
+    ]
+   ],
+   "radius": [
+    18,
+    18,
+    0,
+    0,
+    0,
+    0,
+    18
+   ],
    "colour": "black"
   }
  ],
@@ -30,5 +64,5 @@
    "grid_mm": 50
   }
  },
- "notes": "Arrow box 73|454|73 across, 100|400|100 down. Inset gives head 262 + shaft 192 = 454, shaft 125 deep, R18 at the tip, notch 35 x 92, but not every vertex is determinable so placed as a symbol."
+ "notes": "Arrow box 73|454|73 across, 100|400|100 down. Inset: head 262 + shaft 192 = 454, head 400 wide, shaft 125 at the tail and 92 at the head junction, notch 35, R18 tip and barbs. Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned)."
 }

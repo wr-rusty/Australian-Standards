@@ -9,9 +9,9 @@
  "edge": {"colour": "green", "width": 40},
  "border": {"colour": "white", "width": 40},
  "elements": [
-  {"type": "text", "series": "E", "height": 240, "top": 260, "colour": "yellow", "text": "A30", "expect": 708},
-  {"type": "text", "series": "Emod", "height": 240, "top": 680, "colour": "white", "text": "Liverpool", "expect": 1700},
-  {"type": "symbol", "id": "g9-7_arrow_turn_left", "x": 840, "y": 1100, "w": 420, "h": 475, "colour": "white"}
+   {"type": "text", "series": "E", "height": 240, "top": 260, "colour": "yellow", "text": "A30", "expect": 708},
+   {"type": "text", "series": "Emod", "height": 240, "top": 680, "colour": "white", "text": "Liverpool", "expect": 1700},
+   {"type": "arrow", "width": 91, "heading": -90, "path": [{"line": 319.5}, {"corner": {"turn": "left", "angle": 90, "r_outer": 33, "r_inner": 16}}, {"line": 181.5}], "head": {"length": 193, "width": 300, "notch": 18, "tip_r": 14, "barb_r": 14}, "x": 840, "y": 1100, "w": 420, "h": 475, "colour": "white"}
  ],
  "symbols": {
    "g9-7_arrow_turn_left": {"source": "G9-7", "desc": "left-turn arrow, overall 420 wide x 475 tall: head 300 across (vertical), head length 193, remaining 227 to the right; shaft width 91 (horizontal and vertical legs), vertical leg 365 from the horizontal-shaft centreline to the bottom, 18 step at the head base, R14 tip, R14 barbs, R16 inner and R33 outer bend radii; grid 105", "grid_mm": 105, "invert": true, "inset": 0}

@@ -36,14 +36,47 @@
    "cx": 374.5
   },
   {
-   "type": "symbol",
-   "id": "w8-3_arrow",
-   "x": 175.0,
-   "y": 345.0,
-   "w": 400.0,
-   "h": 100.0,
-   "colour": "black",
-   "flip": "h"
+   "type": "polygon",
+   "points": [
+    [
+     575.0,
+     395.0
+    ],
+    [
+     483.0,
+     345.0
+    ],
+    [
+     492.0,
+     380.5
+    ],
+    [
+     175.0,
+     375.5
+    ],
+    [
+     175.0,
+     414.5
+    ],
+    [
+     492.0,
+     409.5
+    ],
+    [
+     483.0,
+     445.0
+    ]
+   ],
+   "radius": [
+    5,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   "colour": "black"
   }
  ],
  "symbols": {
@@ -53,5 +86,5 @@
    "grid_mm": 37.5
   }
  },
- "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. MERGE 100 E top 70, 129 | 492 | 129 centred; RIGHT 100 E top 214, 165 | 419 | 166 -> cx 374.5; arrow 400 x 100 top 345, 175 | 400 | 175, pointing right (W8-3 arrow geometry, flipped)."
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. MERGE 100 E top 70, 129 | 492 | 129 centred; RIGHT 100 E top 214, 165 | 419 | 166 -> cx 374.5; arrow 400 x 100 top 345, 175 | 400 | 175, pointing right (W8-3 arrow geometry, flipped). Arrow drawn as a polygon (W8-3 inset dims, pointing right): 400 long, head 92 x 100, notch 9, shaft tapering 29 to 39, R5 barbs."
 }

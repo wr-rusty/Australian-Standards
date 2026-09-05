@@ -40,16 +40,50 @@
    "expect": 326
   },
   {
-   "type": "symbol",
-   "id": "r2-2_arrow_left",
-   "x": 65,
-   "y": 412,
-   "w": 320,
-   "h": 120,
+   "type": "polygon",
+   "points": [
+    [
+     58.57,
+     472.0
+    ],
+    [
+     179.12,
+     405.57
+    ],
+    [
+     164.0,
+     454.5
+    ],
+    [
+     385.0,
+     449.0
+    ],
+    [
+     385.0,
+     495.0
+    ],
+    [
+     164.0,
+     489.5
+    ],
+    [
+     179.12,
+     538.43
+    ]
+   ],
+   "radius": [
+    6,
+    6,
+    0,
+    0,
+    0,
+    0,
+    6
+   ],
    "colour": "black"
   }
  ],
- "notes": "Drawing file R2-2(L).png shows both hands. The stated vertical stack 68+120+40+120+44+120+68 = 580 is 20 short of 600; the drawn sign has ONE top 68, WAY top 250 and the arrow 412..531 (measured from the drawing's pixels), i.e. the ONE-WAY gap is 60 not 40: 68+120+60+120+44+120+68 = 600 exactly, so the 40 is a drawing typo for 60. Used: ONE top 68, WAY top 248, arrow 412..532 (120 high). Widths: WAY 62|326|62, arrow 65|320|65. The drawn arrow head is 106 high in the picture against the grid's 120 - the traced symbol keeps the drawn shape, fitted 320 wide and centred in the 120 box. QA: the tracer's automatic white-panel detection picked the (R) panel first (the two panels sort by top edge); which 1 selects the (L) panel so the traced arrow points left.",
+ "notes": "Drawing file R2-2(L).png shows both hands. The stated vertical stack 68+120+40+120+44+120+68 = 580 is 20 short of 600; the drawn sign has ONE top 68, WAY top 250 and the arrow 412..531 (measured from the drawing's pixels), i.e. the ONE-WAY gap is 60 not 40: 68+120+60+120+44+120+68 = 600 exactly, so the 40 is a drawing typo for 60. Used: ONE top 68, WAY top 248, arrow 412..532 (120 high). Widths: WAY 62|326|62, arrow 65|320|65. The drawn arrow head is 106 high in the picture against the grid's 120; the arrow is built from the grid inset (320 long, head 110 x 120, notch 11, shaft 35 at the head to 46 at the tail, R6) and centred in the 120 box. QA: the tracer's automatic white-panel detection picked the (R) panel first (the two panels sort by top edge); which 1 selects the (L) panel so the traced arrow points left. Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned).",
  "symbols": {
   "r2-2_arrow_left": {
    "source": "R2-2(L)",

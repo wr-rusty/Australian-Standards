@@ -40,8 +40,22 @@
    "gap": 264.8
   },
   {
-   "type": "symbol",
-   "id": "arrow_diag_up_left_660",
+   "type": "arrow",
+   "width": 170,
+   "width_head": 125,
+   "heading": -135,
+   "path": [
+    {
+     "line": 476
+    }
+   ],
+   "head": {
+    "length": 357,
+    "width": 550,
+    "notch": 47,
+    "tip_r": 19,
+    "barb_r": 19
+   },
    "x": 395,
    "y": 1485,
    "w": 660,

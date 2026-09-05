@@ -41,8 +41,22 @@
    "expect": 3310
   },
   {
-   "type": "symbol",
-   "id": "arrow_straight_up_835x547",
+   "type": "arrow",
+   "width": 170,
+   "width_head": 125,
+   "heading": -90,
+   "path": [
+    {
+     "line": 477
+    }
+   ],
+   "head": {
+    "length": 356,
+    "width": 547,
+    "notch": 46,
+    "tip_r": 19,
+    "barb_r": 19
+   },
    "x": 4066.5,
    "y": 535,
    "w": 547,

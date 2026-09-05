@@ -24,8 +24,28 @@
  "drawn_hand": "L",
  "elements": [
   {
-   "type": "symbol",
-   "id": "w1-3_curve_arrow_l",
+   "type": "arrow",
+   "width": 110,
+   "heading": -90,
+   "path": [
+    {
+     "line": 90
+    },
+    {
+     "arc": {
+      "r_inner": 235,
+      "sweep": 75,
+      "turn": "left"
+     }
+    }
+   ],
+   "head": {
+    "length": 220,
+    "width": 290,
+    "notch": 15,
+    "barb_r": 20,
+    "tip_r": 20
+   },
    "x": 230.33,
    "y": 289.33,
    "w": 485,

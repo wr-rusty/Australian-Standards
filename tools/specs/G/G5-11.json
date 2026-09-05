@@ -3,20 +3,99 @@
  "name": "PRIDE_ST_BEST_ST_VIA_SERVICE_ROAD_WHITE",
  "legend": "PRIDE ST BEST ST VIA SERVICE ROAD",
  "shape": "rect",
- "size": [1050, 900],
+ "size": [
+  1050,
+  900
+ ],
  "radius": 50,
  "ground": "white",
  "keyline": true,
  "symbols": {
-   "g5-11_arrow_diag_up_left": {"source": "G5-11", "desc": "diagonal block arrow pointing up-left on 52.5 grid: 250 long overall along the diagonal, head 216 across, head length 162, shaft 77 wide, 57 across the head notch, barbs 21, R9 at the two barb tips; boxed 300x300 on the sign", "grid_mm": 52.5, "panel_px": [163, 130, 624, 528]}
+  "g5-11_arrow_diag_up_left": {
+   "source": "G5-11",
+   "desc": "diagonal block arrow pointing up-left on 52.5 grid: 250 long overall along the diagonal, head 216 across, head length 162, shaft 77 wide, 57 across the head notch, barbs 21, R9 at the two barb tips; boxed 300x300 on the sign",
+   "grid_mm": 52.5,
+   "panel_px": [
+    163,
+    130,
+    624,
+    528
+   ]
+  }
  },
  "elements": [
-  {"type": "text", "text": "PRIDE ST", "series": "D", "height": 140, "top": 40, "colour": "black"},
-  {"type": "text", "text": "BEST ST", "series": "D", "height": 140, "top": 250, "colour": "black"},
-  {"type": "symbol", "id": "g5-11_arrow_diag_up_left", "x": 80, "y": 515, "w": 300, "h": 300, "colour": "black"},
-  {"type": "text", "text": "VIA", "series": "D", "height": 100, "top": 460, "align": "left", "x": 602, "colour": "black", "expect": 207},
-  {"type": "text", "text": "SERVICE", "series": "D", "height": 100, "top": 615, "align": "left", "x": 451, "colour": "black", "expect": 515},
-  {"type": "text", "text": "ROAD", "series": "D", "height": 100, "top": 770, "align": "left", "x": 538, "colour": "black", "expect": 335}
+  {
+   "type": "text",
+   "text": "PRIDE ST",
+   "series": "D",
+   "height": 140,
+   "top": 40,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "BEST ST",
+   "series": "D",
+   "height": 140,
+   "top": 250,
+   "colour": "black"
+  },
+  {
+   "type": "arrow",
+   "width": 77,
+   "width_head": 57,
+   "heading": -135,
+   "path": [
+    {
+     "line": 216
+    }
+   ],
+   "head": {
+    "length": 162,
+    "width": 250,
+    "notch": 21,
+    "tip_r": 9,
+    "barb_r": 9
+   },
+   "x": 80,
+   "y": 515,
+   "w": 300,
+   "h": 300,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "VIA",
+   "series": "D",
+   "height": 100,
+   "top": 460,
+   "align": "left",
+   "x": 602,
+   "colour": "black",
+   "expect": 207
+  },
+  {
+   "type": "text",
+   "text": "SERVICE",
+   "series": "D",
+   "height": 100,
+   "top": 615,
+   "align": "left",
+   "x": 451,
+   "colour": "black",
+   "expect": 515
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 770,
+   "align": "left",
+   "x": 538,
+   "colour": "black",
+   "expect": 335
+  }
  ],
  "notes": "1050x900 R50 white. Right chain 40|140 D|70|140 D|70|100 D|55|100 D|55|100 D|30. PRIDE ST and BEST ST centred (equal margins, min 70). VIA x 602-809 (241 right margin), SERVICE 451-966 (84), ROAD 538-873 (177). Arrow 300x300 at x 80, 85 above the bottom (y 515-815)."
 }

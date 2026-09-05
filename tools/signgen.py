@@ -16,6 +16,8 @@ Rules (agreed with Russell, Sept 2026):
 Output: <repo>/AS 1743-2023/Processed/<folder>/<NAME>_<CODE>[(L|R)].svg + MANIFEST.csv
 """
 import csv, glob, json, math, os, re, sys, xml.etree.ElementTree as ET
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import arrows as _arrows
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
@@ -205,7 +207,14 @@ def build(spec, values, hand=None):
         elif t == "polygon":
             pts = el["points"]
             if mirror and el.get("mirror", True): pts = [(W - x, y) for x, y in pts]
-            out.append(f'    <path fill="{colour}" d="{rounded_polygon_path(pts, el.get("radius", 0))}"/>')
+            st = el.get("stroke")   # optional outline: {"colour": "black", "width": 2}, drawn inside the fill edge
+            stroke = f' stroke="{col(st["colour"])}" stroke-width="{fmt(st["width"])}" stroke-linejoin="round"' if st else ""
+            out.append(f'    <path fill="{colour}"{stroke} d="{rounded_polygon_path(pts, el.get("radius", 0))}"/>')
+        elif t == "arrow":   # geometric arrow from stated dimensions (tools/arrows.py)
+            d, warn = _arrows.place(el, W)
+            if warn: flags.append(f"arrow-size:{warn}")
+            tr = f' transform="translate({fmt(W)} 0) scale(-1 1)"' if mirror and el.get("mirror", True) else ""
+            out.append(f'    <path fill="{colour}" d="{d}"{tr}/>')
         elif t == "symbol":
             paths, vb = symbol_paths(el["id"])
             bx, by, bw, bh = el["x"], el["y"], el["w"], el["h"]

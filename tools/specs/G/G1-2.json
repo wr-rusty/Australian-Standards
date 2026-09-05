@@ -3,26 +3,224 @@
  "name": "HOLLEY_A15_SUNNYSIDE_MARTINS_CK_GREEN",
  "legend": "Holley A15 / Sunnyside / Martins Ck",
  "shape": "rect",
- "size": [2100, 1450],
+ "size": [
+  2100,
+  1450
+ ],
  "radius": 100,
  "ground": "white",
- "edge": {"colour": "green", "width": 20},
- "border": {"colour": "white", "width": 20},
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
  "symbols": {
-   "g1-2_arrow_left": {"source": "G1-2", "desc": "horizontal block arrow pointing left on 105 grid: overall 251 long (shaft 108 + head 143), head 220 wide, tapered shaft 77 wide at tail and 62 at head, barbs sweep back 15 behind the shaft junction, R8 at the two barb tips", "grid_mm": 105, "invert": true, "inset": 0},
-   "g1-2_arrow_curved_right": {"source": "G1-2", "desc": "curved arrow turning right (up then right) on 105 grid: shaft width 76 (arc R211 outer / R136 inner about a common centre), arc sweep 75 deg, head 220 long across, head base 144 wide with 18 offset, R9 at head corners; bounding box on sign 290 wide x 350 high", "grid_mm": 105, "invert": true, "inset": 0}
+  "g1-2_arrow_left": {
+   "source": "G1-2",
+   "desc": "horizontal block arrow pointing left on 105 grid: overall 251 long (shaft 108 + head 143), head 220 wide, tapered shaft 77 wide at tail and 62 at head, barbs sweep back 15 behind the shaft junction, R8 at the two barb tips",
+   "grid_mm": 105,
+   "invert": true,
+   "inset": 0
+  },
+  "g1-2_arrow_curved_right": {
+   "source": "G1-2",
+   "desc": "curved arrow turning right (up then right) on 105 grid: shaft width 76 (arc R211 outer / R136 inner about a common centre), arc sweep 75 deg, head 220 long across, head base 144 wide with 18 offset, R9 at head corners; bounding box on sign 290 wide x 350 high",
+   "grid_mm": 105,
+   "invert": true,
+   "inset": 0
+  }
  },
  "elements": [
-  {"type": "polygon", "points": [[40, 40], [2060, 40], [2060, 570], [40, 570]], "radius": [60, 60, 40, 40], "colour": "green"},
-  {"type": "polygon", "points": [[40, 590], [2060, 590], [2060, 990], [40, 990]], "radius": [40, 40, 40, 40], "colour": "green"},
-  {"type": "polygon", "points": [[40, 1010], [2060, 1010], [2060, 1410], [40, 1410]], "radius": [40, 40, 60, 60], "colour": "green"},
-  {"type": "text", "text": "Holley", "series": "Emod", "height": 160, "top": 225, "align": "left", "x": 186, "colour": "white", "expect": 775},
-  {"type": "text", "text": "A15", "series": "E", "height": 160, "top": 225, "align": "left", "x": 1121, "colour": "yellow", "expect": 394},
-  {"type": "symbol", "id": "g1-2_arrow_curved_right", "x": 1675, "y": 130, "w": 290, "h": 350, "colour": "white"},
-  {"type": "symbol", "id": "g1-2_arrow_left", "x": 135, "y": 680, "w": 250, "h": 220, "colour": "white"},
-  {"type": "text", "text": "Sunnyside", "series": "Emod", "height": 160, "top": 710, "align": "left", "x": 545, "colour": "white", "expect": 1316},
-  {"type": "text", "series": "Emod", "height": 160, "top": 1130, "align": "left", "x": 204, "colour": "white", "words": ["Martins", "Ck"], "gap": 123, "expect_total": 1351},
-  {"type": "symbol", "id": "g1-2_arrow_left", "x": 1715, "y": 1100, "w": 250, "h": 220, "flip": "h", "colour": "white"}
+  {
+   "type": "polygon",
+   "points": [
+    [
+     40,
+     40
+    ],
+    [
+     2060,
+     40
+    ],
+    [
+     2060,
+     570
+    ],
+    [
+     40,
+     570
+    ]
+   ],
+   "radius": [
+    60,
+    60,
+    40,
+    40
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     40,
+     590
+    ],
+    [
+     2060,
+     590
+    ],
+    [
+     2060,
+     990
+    ],
+    [
+     40,
+     990
+    ]
+   ],
+   "radius": [
+    40,
+    40,
+    40,
+    40
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     40,
+     1010
+    ],
+    [
+     2060,
+     1010
+    ],
+    [
+     2060,
+     1410
+    ],
+    [
+     40,
+     1410
+    ]
+   ],
+   "radius": [
+    40,
+    40,
+    60,
+    60
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "Holley",
+   "series": "Emod",
+   "height": 160,
+   "top": 225,
+   "align": "left",
+   "x": 186,
+   "colour": "white",
+   "expect": 775
+  },
+  {
+   "type": "text",
+   "text": "A15",
+   "series": "E",
+   "height": 160,
+   "top": 225,
+   "align": "left",
+   "x": 1121,
+   "colour": "yellow",
+   "expect": 394
+  },
+  {
+   "type": "symbol",
+   "id": "g1-2_arrow_curved_right",
+   "x": 1675,
+   "y": 130,
+   "w": 290,
+   "h": 350,
+   "colour": "white"
+  },
+  {
+   "type": "arrow",
+   "width": 77,
+   "width_head": 62,
+   "heading": 180,
+   "path": [
+    {
+     "line": 108
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 15,
+    "tip_r": 8,
+    "barb_r": 8
+   },
+   "x": 135,
+   "y": 680,
+   "w": 250,
+   "h": 220,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Sunnyside",
+   "series": "Emod",
+   "height": 160,
+   "top": 710,
+   "align": "left",
+   "x": 545,
+   "colour": "white",
+   "expect": 1316
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 160,
+   "top": 1130,
+   "align": "left",
+   "x": 204,
+   "colour": "white",
+   "words": [
+    "Martins",
+    "Ck"
+   ],
+   "gap": 123,
+   "expect_total": 1351
+  },
+  {
+   "type": "arrow",
+   "width": 77,
+   "width_head": 62,
+   "heading": 0.0,
+   "path": [
+    {
+     "line": 108
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 15,
+    "tip_r": 8,
+    "barb_r": 8
+   },
+   "x": 1715,
+   "y": 1100,
+   "w": 250,
+   "h": 220,
+   "colour": "white"
+  }
  ],
  "notes": "2100x1450, R100, green edge 20 + white border 20 (40/20 dims). Three stacked green panels R40 at the two 20 white dividers (y 570-590 and 990-1010), outer corners R60. Line 1: Holley and A15 baseline 385 (top 225); curved arrow between 130 from top and 350 below that (bbox 290x350 at x 1675). Line 2: arrow and Sunnyside centred on y 790 (200 below divider); Sunnyside top 710. Line 3: Martins Ck baseline 1290 (280 below divider), top 1130; right arrow centred y 1210 (340 below Sunnyside baseline). 'Martins Ck' is dimensioned as one 1351 ink width; word gap 123 derived as 1351 - ink(Martins 948) - ink(Ck 280) (expect_total is the drawing figure). Right arrow = left arrow flipped."
 }

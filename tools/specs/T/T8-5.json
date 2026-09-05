@@ -31,23 +31,89 @@
    ]
   },
   {
-   "type": "symbol",
-   "id": "t2-24_arrow",
-   "x": 385.25,
-   "y": 93.5,
-   "w": 122.5,
-   "h": 263,
-   "rotate": 90,
+   "type": "polygon",
+   "points": [
+    [
+     585.4,
+     225.0
+    ],
+    [
+     461.23,
+     155.94
+    ],
+    [
+     477.0,
+     207.5
+    ],
+    [
+     315.0,
+     202.0
+    ],
+    [
+     315.0,
+     248.0
+    ],
+    [
+     477.0,
+     242.5
+    ],
+    [
+     461.23,
+     294.06
+    ]
+   ],
+   "radius": [
+    7,
+    7,
+    0,
+    0,
+    0,
+    0,
+    7
+   ],
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "t2-24_arrow",
-   "x": 385.25,
-   "y": 243.5,
-   "w": 122.5,
-   "h": 263,
-   "rotate": -90,
+   "type": "polygon",
+   "points": [
+    [
+     307.6,
+     375.0
+    ],
+    [
+     431.77,
+     305.94
+    ],
+    [
+     416.0,
+     357.5
+    ],
+    [
+     578.0,
+     352.0
+    ],
+    [
+     578.0,
+     398.0
+    ],
+    [
+     416.0,
+     392.5
+    ],
+    [
+     431.77,
+     444.06
+    ]
+   ],
+   "radius": [
+    7,
+    7,
+    0,
+    0,
+    0,
+    0,
+    7
+   ],
    "colour": "black"
   },
   {
@@ -89,5 +155,5 @@
    "grid_mm": 45
   }
  },
- "notes": "Arrows are 'T2-24 @70%' (175x376 -> 122.5x263; inset shows 263 long, 123 high, shaft 35/46, R7) laid horizontally: right-pointing arrow centred on y 225 (130 baseline + 95), left-pointing arrow 150 below on y 375; both span x 315 to 580 per the top dims (315 | 265 | 320 - the 265 disagrees with the 263 of 70% scaling by 2). The symbol is the T2-24 up arrow rotated +/-90 about its centre, so the bbox is given unrotated (122.5 wide x 263 high, centred at x 447.5). Text: LOOK BOTH WAYS 60 D top 70 (130 to baseline), TWO-WAY TRAFFIC 60 D top 470 (530 baseline, 70 below). Bottom line dims 87 | 145 TWO | 65 | 163 WAY | 45 | 308 TRAFFIC | 87, centred as a whole: the hyphen (AS 1744 width 35 at 100 = 21 at 60) sits centred in the 65 zone, i.e. gaps 22 | 21 | 22 (the hyphen's own side spaces are not dimensioned)."
+ "notes": "Arrows are 'T2-24 @70%' (175x376 -> 122.5x263; inset shows 263 long, 123 high, shaft 35/46, R7) laid horizontally: right-pointing arrow centred on y 225 (130 baseline + 95), left-pointing arrow 150 below on y 375; both span x 315 to 580 per the top dims (315 | 265 | 320 - the 265 disagrees with the 263 of 70% scaling by 2). The arrows are the T2-24 arrow at 70% laid horizontally (263 x 123, centred at x 446.5). Text: LOOK BOTH WAYS 60 D top 70 (130 to baseline), TWO-WAY TRAFFIC 60 D top 470 (530 baseline, 70 below). Bottom line dims 87 | 145 TWO | 65 | 163 WAY | 45 | 308 TRAFFIC | 87, centred as a whole: the hyphen (AS 1744 width 35 at 100 = 21 at 60) sits centred in the 65 zone, i.e. gaps 22 | 21 | 22 (the hyphen's own side spaces are not dimensioned). Arrows drawn as exact polygons from the T8-5 inset dimensions (263 long, 112 head, 123 wide, 11 notch, shaft 35 at the head to 46 at the tail, R7), tip and barb radii inscribed to the stated extremes; upper arrow points right, lower points left, both centred at x 446.5 on y 225 and 375."
 }

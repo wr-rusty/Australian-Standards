@@ -68,14 +68,27 @@
    "expect": 1030
   },
   {
-   "type": "symbol",
-   "id": "arrow_diag_up_left_660",
+   "type": "arrow",
+   "width": 170,
+   "width_head": 125,
+   "heading": 135,
+   "path": [
+    {
+     "line": 476
+    }
+   ],
+   "head": {
+    "length": 357,
+    "width": 550,
+    "notch": 47,
+    "tip_r": 19,
+    "barb_r": 19
+   },
    "x": 720,
    "y": 5940,
    "w": 660,
    "h": 660,
-   "colour": "white",
-   "flip": "v"
+   "colour": "white"
   }
  ],
  "symbols": {

@@ -24,8 +24,43 @@
  "drawn_hand": "L",
  "elements": [
   {
-   "type": "symbol",
-   "id": "w1-2_reverse_turn_arrow_l",
+   "type": "arrow",
+   "width": 110,
+   "heading": -90,
+   "path": [
+    {
+     "line": 260
+    },
+    {
+     "corner": {
+      "turn": "left",
+      "angle": 90,
+      "r_outer": 25,
+      "r_inner": 15
+     }
+    },
+    {
+     "line": 225
+    },
+    {
+     "corner": {
+      "turn": "right",
+      "angle": 90,
+      "r_outer": 25,
+      "r_inner": 15
+     }
+    },
+    {
+     "line": 150
+    }
+   ],
+   "head": {
+    "length": 220,
+    "width": 290,
+    "notch": 15,
+    "barb_r": 20,
+    "tip_r": 20
+   },
    "x": 300.33,
    "y": 160.33,
    "w": 425,
@@ -47,7 +82,7 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 85 from centreline (stated), bottom 260 below centreline (stated). Width 425 = 280 (stem outer edge to tip axis) + 125 + 20; height 630 = 315 + 315.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 85 from centreline (stated), bottom 260 below centreline (stated). Width 425 = 280 (stem outer edge to tip axis) + 125 + 20; height 630 = 315 + 315. Arrow drawn geometrically from the inset (inset shows the R hand; turns flipped for the drawn L hand): stem 260 to the arm centreline, jog 225, R25/R15 both corners, 150 to the barb line, head 220 x 290 notch 15 R20.",
  "hand_values": {
   "L": {
    "dir": "LEFT"

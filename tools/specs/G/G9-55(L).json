@@ -3,16 +3,67 @@
  "name": "WAY_OUT_ARROW_LEFT_GREEN_WIDE_SKINNY",
  "legend": "WAY OUT",
  "shape": "rect",
- "size": [875, 150],
+ "size": [
+  875,
+  150
+ ],
  "radius": 10,
  "ground": "green",
  "elements": [
-  {"type": "symbol", "id": "g9-55_arrow_left", "x": 40, "y": 13, "w": 140, "h": 123, "colour": "white"},
-  {"type": "text", "series": "D", "height": 100, "top": 25, "colour": "white", "text": "WAY", "align": "left", "x": 255, "expect": 271},
-  {"type": "text", "series": "D", "height": 100, "top": 25, "colour": "white", "text": "OUT", "align": "left", "x": 602, "expect": 238}
+  {
+   "type": "arrow",
+   "width": 38,
+   "width_head": 28,
+   "heading": 180,
+   "path": [
+    {
+     "line": 60
+    }
+   ],
+   "head": {
+    "length": 80,
+    "width": 123,
+    "notch": 10,
+    "tip_r": 6,
+    "barb_r": 6
+   },
+   "x": 40,
+   "y": 13,
+   "w": 140,
+   "h": 123,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "colour": "white",
+   "text": "WAY",
+   "align": "left",
+   "x": 255,
+   "expect": 271
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "colour": "white",
+   "text": "OUT",
+   "align": "left",
+   "x": 602,
+   "expect": 238
+  }
  ],
  "notes": "No border; white on green, R10. 40|140 arrow|75|271|76|238|35; arrow 13|123|14; text 25|100D|25.",
  "symbols": {
-   "g9-55_arrow_left": {"source": "G9-55(L)", "desc": "block arrow pointing left 140 x 123: head 80 long, shaft 60 long x 38 wide, head 123 across, barb return 10, notch depth 28 (head base to shaft), R6 tip and barbs; grid 43.75", "grid_mm": 43.75, "invert": true, "inset": 0}
+  "g9-55_arrow_left": {
+   "source": "G9-55(L)",
+   "desc": "block arrow pointing left 140 x 123: head 80 long, shaft 60 long x 38 wide, head 123 across, barb return 10, notch depth 28 (head base to shaft), R6 tip and barbs; grid 43.75",
+   "grid_mm": 43.75,
+   "invert": true,
+   "inset": 0
+  }
  }
 }

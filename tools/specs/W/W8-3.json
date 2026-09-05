@@ -42,12 +42,46 @@
    ]
   },
   {
-   "type": "symbol",
-   "id": "w8-3_arrow",
-   "x": 175.0,
-   "y": 345.0,
-   "w": 400.0,
-   "h": 100.0,
+   "type": "polygon",
+   "points": [
+    [
+     175.0,
+     395.0
+    ],
+    [
+     267.0,
+     445.0
+    ],
+    [
+     258.0,
+     409.5
+    ],
+    [
+     575.0,
+     414.5
+    ],
+    [
+     575.0,
+     375.5
+    ],
+    [
+     258.0,
+     380.5
+    ],
+    [
+     267.0,
+     345.0
+    ]
+   ],
+   "radius": [
+    5,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
    "colour": "black"
   }
  ],
@@ -64,5 +98,5 @@
    "inset": 0
   }
  },
- "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. One PNG shows (L) and (R); dims for (L) (arrow points left). ON 100 D top 70, 294 | 162 | 294 centred; SIDE ROAD 100 C top 214 (70+100+44), 82 | 236 | 74 | 276 | 82; arrow 400 x 100 top 345 (214+100+31), 175 | 400 | 175. Arrow placed as a symbol (barb notch geometry 29/9 not fully resolvable as a polygon)."
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. One PNG shows (L) and (R); dims for (L) (arrow points left). ON 100 D top 70, 294 | 162 | 294 centred; SIDE ROAD 100 C top 214 (70+100+44), 82 | 236 | 74 | 276 | 82; arrow 400 x 100 top 345 (214+100+31), 175 | 400 | 175. Arrow placed as a symbol (barb notch geometry 29/9 not fully resolvable as a polygon). Arrow drawn as a polygon from the inset: 400 long, head 92 x 100, notch 9, shaft tapering 29 (at the notch) to 39 (tail), R5 barbs."
 }

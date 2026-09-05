@@ -3,16 +3,60 @@
  "name": "SMITH_ST_LEFT_ARROW_WHITE",
  "legend": "SMITH ST",
  "shape": "rect",
- "size": [1148, 200],
+ "size": [
+  1148,
+  200
+ ],
  "radius": 25,
  "ground": "white",
  "keyline": true,
  "symbols": {
-   "g3-8-1_arrow_left": {"source": "G3-8-1", "desc": "small street-name arrow pointing left on 50 grid: overall 156 long (head 88 + shaft 68), head 137 high, shaft 42 wide, 31 across the head notch, barbs sweep back 11, R6 at the tip and barb corners", "grid_mm": 50, "panel_px": [139, 74, 447, 127]}
+  "g3-8-1_arrow_left": {
+   "source": "G3-8-1",
+   "desc": "small street-name arrow pointing left on 50 grid: overall 156 long (head 88 + shaft 68), head 137 high, shaft 42 wide, 31 across the head notch, barbs sweep back 11, R6 at the tip and barb corners",
+   "grid_mm": 50,
+   "panel_px": [
+    139,
+    74,
+    447,
+    127
+   ]
+  }
  },
  "elements": [
-  {"type": "symbol", "id": "g3-8-1_arrow_left", "x": 75, "y": 31.5, "w": 156, "h": 137, "colour": "black"},
-  {"type": "text", "text": "SMITH ST", "series": "D", "height": 120, "top": 40, "align": "left", "x": 306, "colour": "black"}
+  {
+   "type": "arrow",
+   "width": 42,
+   "width_head": 31,
+   "heading": 180,
+   "path": [
+    {
+     "line": 68
+    }
+   ],
+   "head": {
+    "length": 88,
+    "width": 137,
+    "notch": 11,
+    "tip_r": 6,
+    "barb_r": 6
+   },
+   "x": 75,
+   "y": 31.5,
+   "w": 156,
+   "h": 137,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "SMITH ST",
+   "series": "D",
+   "height": 120,
+   "top": 40,
+   "align": "left",
+   "x": 306,
+   "colour": "black"
+  }
  ],
  "notes": "Street-name blade 200 high (40|120 D|40), R25, black on white, keyline only to show the outline. Width 'Varies' = 75 + 156 (arrow) + 75 + ink 742 + 100 = 1148. Arrow vertical position not stated; centred (137 high, y 31.5-168.5)."
 }

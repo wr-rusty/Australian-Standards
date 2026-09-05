@@ -56,8 +56,41 @@
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w1-9-4_reverse_curve_arrow_r",
+   "type": "arrow",
+   "width": 117,
+   "heading": -90,
+   "path": [
+    {
+     "line": 101
+    },
+    {
+     "arc": {
+      "r_outer": 170,
+      "sweep": 54.543,
+      "turn": "right"
+     }
+    },
+    {
+     "line": 191.96
+    },
+    {
+     "arc": {
+      "r_outer": 170,
+      "sweep": 54.543,
+      "turn": "left"
+     }
+    },
+    {
+     "line": 5
+    }
+   ],
+   "head": {
+    "length": 256,
+    "width": 309,
+    "notch": 21,
+    "barb_r": 21,
+    "tip_r": 21
+   },
    "x": 468,
    "y": 845,
    "w": 464,
@@ -90,5 +123,5 @@
    "inset": 0
   }
  },
- "notes": "1400 x 2400, R200; drawing shows 20 and 60 at the corner: taken as 20 yellow edge + 40 black border (pixel check ~40 black, as W1-8-1). Right-hand chain 385 | 350 | 110 | 655 | 110 | 400 E | 200 | 190 = 2400: EXIT baseline 385 (top 185), SPEED baseline 735 (top 535), arrow 845..1500, numerals top 1610 / baseline 2010, km/h baseline 2210 (top 2080, 130 Emod). Left-hand 310 | 125 at bottom does not reconcile with 200 | 190 (slash descender?) - right chain used. Widths: EXIT 612 (394|612|394), SPEED 940 (230|940|230), km/h 544 (428|544|428), numerals 'varies' centred. Vary values 15-95 chosen (advisory speeds), not stated. Drawing illustrates the (R) hand (W1-9-4(L, R (Illust.))): drawn_hand R, arrow box 468..932 (468 | 464 | 468)."
+ "notes": "1400 x 2400, R200; drawing shows 20 and 60 at the corner: taken as 20 yellow edge + 40 black border (pixel check ~40 black, as W1-8-1). Right-hand chain 385 | 350 | 110 | 655 | 110 | 400 E | 200 | 190 = 2400: EXIT baseline 385 (top 185), SPEED baseline 735 (top 535), arrow 845..1500, numerals top 1610 / baseline 2010, km/h baseline 2210 (top 2080, 130 Emod). Left-hand 310 | 125 at bottom does not reconcile with 200 | 190 (slash descender?) - right chain used. Widths: EXIT 612 (394|612|394), SPEED 940 (230|940|230), km/h 544 (428|544|428), numerals 'varies' centred. Vary values 15-95 chosen (advisory speeds), not stated. Drawing illustrates the (R) hand (W1-9-4(L, R (Illust.))): drawn_hand R, arrow box 468..932 (468 | 464 | 468). Arrow drawn geometrically: S-bend of two R170-outer arcs with a straight between, sweep 54.54 deg and straight 191.96 solved from the 250 centreline jog (367 - 117) and the 101 / 394 heights; 5 straight under the head (655 - 256 - 394)."
 }

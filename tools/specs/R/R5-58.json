@@ -68,16 +68,50 @@
    "mirror": true
   },
   {
-   "type": "symbol",
-   "id": "r5-58_arrow_down_left",
-   "x": 180,
-   "y": 645,
-   "w": 345,
-   "h": 345,
+   "type": "polygon",
+   "points": [
+    [
+     179.97,
+     990.03
+    ],
+    [
+     229.36,
+     777.1
+    ],
+    [
+     269.77,
+     846.49
+    ],
+    [
+     471.29,
+     644.97
+    ],
+    [
+     525.03,
+     698.71
+    ],
+    [
+     323.51,
+     900.23
+    ],
+    [
+     392.9,
+     940.64
+    ]
+   ],
+   "radius": [
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    9
+   ],
    "colour": "black"
   }
  ],
- "notes": "Drawing file R5-58(L-R).png. R100, 15 white edge, 45 black border. (L): text 160 D right-aligned 135 from the right edge, tops 110/350/590/830 (80 between, 110 bottom); arrow 345 square at 180 from left, 645 from top. (R) mirrors: text left-aligned at 135, arrow at right (text elements carry mirror:true). QA: widths re-read from the drawing: 135|1230|135 = EMERGENCY, 391|974 = STOPPING, 850|515 = LANE, 180|345|298|542 = ONLY (the earlier expects were shifted one row).",
+ "notes": "Drawing file R5-58(L-R).png. R100, 15 white edge, 45 black border. (L): text 160 D right-aligned 135 from the right edge, tops 110/350/590/830 (80 between, 110 bottom); arrow 345 square at 180 from left, 645 from top. (R) mirrors: text left-aligned at 135, arrow at right (text elements carry mirror:true). QA: widths re-read from the drawing: 135|1230|135 = EMERGENCY, 391|974 = STOPPING, 850|515 = LANE, 180|345|298|542 = ONLY (the earlier expects were shifted one row). Arrow drawn as an exact polygon from the inset (450 long, head 180 long x 210 wide, notch 15, shaft 76, R9 barbs, sharp tip) at the 45 deg the inset draws it; the 45 deg bbox is (450+38)/sqrt2 = 345 as stated.",
  "symbols": {
   "r5-58_arrow_down_left": {
    "source": "R5-58(L)",

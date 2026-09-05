@@ -33,8 +33,22 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "g8-9-8_arrow_up",
+   "type": "arrow",
+   "width": 58,
+   "width_head": 47,
+   "heading": -90,
+   "path": [
+    {
+     "line": 122
+    }
+   ],
+   "head": {
+    "length": 108,
+    "width": 166,
+    "notch": 12,
+    "tip_r": 6,
+    "barb_r": 6
+   },
    "x": 142,
    "y": 70,
    "w": 166,

@@ -55,8 +55,28 @@
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w1-8_curve_arrow_l",
+   "type": "arrow",
+   "width": 220,
+   "heading": -90,
+   "path": [
+    {
+     "line": 270
+    },
+    {
+     "arc": {
+      "r_inner": 470,
+      "sweep": 90,
+      "turn": "left"
+     }
+    }
+   ],
+   "head": {
+    "length": 440,
+    "width": 580,
+    "notch": 30,
+    "barb_r": 40,
+    "tip_r": 40
+   },
    "x": 185,
    "y": 1710,
    "w": 1130,

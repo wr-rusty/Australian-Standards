@@ -52,8 +52,22 @@
    "expect": 2256
   },
   {
-   "type": "symbol",
-   "id": "arrow_diag_up_left_505",
+   "type": "arrow",
+   "width": 193,
+   "width_head": 154,
+   "heading": -135,
+   "path": [
+    {
+     "line": 270
+    }
+   ],
+   "head": {
+    "length": 357,
+    "width": 550,
+    "notch": 39,
+    "tip_r": 19,
+    "barb_r": 19
+   },
    "x": 1300,
    "y": 1745,
    "w": 505,
@@ -81,5 +95,6 @@
    "inset": 0
   }
  },
- "notes": "4650x2600 R300; green 70 / white 70. Left chain 1190 (A69 baseline) | 555 | 505 arrow | 350; right chain 840 Monash | 700 Hawker | 660 EXIT | 400 (baselines). Top: 396 | 1179 A69 | 397 | 2282 | 396. Bottom: Hawker 1969 | 2256 | 425; arrow 1300 | 505 | 772 | EXIT 1072 | 1001. NOTE the arrow detail quotes 550 for the head width although the box is 505 - copied as drawn."
+ "notes": "4650x2600 R300; green 70 / white 70. Left chain 1190 (A69 baseline) | 555 | 505 arrow | 350; right chain 840 Monash | 700 Hawker | 660 EXIT | 400 (baselines). Top: 396 | 1179 A69 | 397 | 2282 | 396. Bottom: Hawker 1969 | 2256 | 425; arrow 1300 | 505 | 772 | EXIT 1072 | 1001. NOTE the arrow detail quotes 550 for the head width although the box is 505 - copied as drawn.",
+ "intervene": "diagonal arrow: the drawing's inset (550/357/270/39, 193/154, R19) computes to 517 square but the sign face boxes it at 505 (2.4 %); drawn from the inset - confirm inset or box"
 }

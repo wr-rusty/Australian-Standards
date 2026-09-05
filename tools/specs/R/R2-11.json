@@ -19,25 +19,93 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "r2-11_arrow_up",
-   "x": 48,
-   "y": 120,
-   "w": 165,
-   "h": 360,
+   "type": "polygon",
+   "points": [
+    [
+     130.5,
+     109.47
+    ],
+    [
+     228.16,
+     264.62
+    ],
+    [
+     159.0,
+     244.0
+    ],
+    [
+     159.0,
+     480.0
+    ],
+    [
+     102.0,
+     480.0
+    ],
+    [
+     102.0,
+     244.0
+    ],
+    [
+     32.84,
+     264.62
+    ]
+   ],
+   "radius": [
+    12,
+    12,
+    0,
+    0,
+    0,
+    0,
+    12
+   ],
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "r2-11_arrow_down",
-   "x": 237,
-   "y": 120,
-   "w": 165,
-   "h": 360,
+   "type": "polygon",
+   "points": [
+    [
+     319.5,
+     490.53
+    ],
+    [
+     417.16,
+     335.38
+    ],
+    [
+     348.0,
+     356.0
+    ],
+    [
+     348.0,
+     120.0
+    ],
+    [
+     291.0,
+     120.0
+    ],
+    [
+     291.0,
+     356.0
+    ],
+    [
+     221.84,
+     335.38
+    ]
+   ],
+   "radius": [
+    12,
+    12,
+    0,
+    0,
+    0,
+    0,
+    12
+   ],
    "colour": "black"
   }
  ],
- "notes": "Two arrows 360 long x 165 wide, 120 from top and bottom; 48|165|24|165|48. Separate ids for up/down rather than 'flip' because flip mirrors about the panel centre, not the bbox.",
+ "notes": "Two arrows 360 long x 165 wide, 120 from top and bottom; 48|165|24|165|48. Arrow drawn as an exact polygon from the inset dimensions (radii inscribed so the outline reaches the stated extremes).",
  "symbols": {
   "r2-11_arrow_up": {
    "source": "R2-11",

@@ -3,15 +3,56 @@
  "name": "PARKING_RIGHT_ARROW_BLUE_WIDE_SKINNY",
  "legend": "PARKING",
  "shape": "rect",
- "size": [870, 150],
+ "size": [
+  870,
+  150
+ ],
  "radius": 0,
  "ground": "blue",
  "symbols": {
-   "g7-11_arrow_right": {"source": "G7-11", "desc": "small block arrow pointing right on 43.5 grid: 140 long (shaft 61 + head 79), head 123 high, shaft 38, 28 across the notch, barbs 10, R6 at tip and barbs", "grid_mm": 43.5, "invert": true, "inset": 0}
+  "g7-11_arrow_right": {
+   "source": "G7-11",
+   "desc": "small block arrow pointing right on 43.5 grid: 140 long (shaft 61 + head 79), head 123 high, shaft 38, 28 across the notch, barbs 10, R6 at tip and barbs",
+   "grid_mm": 43.5,
+   "invert": true,
+   "inset": 0
+  }
  },
  "elements": [
-  {"type": "text", "text": "PARKING", "series": "D", "height": 100, "top": 25, "align": "left", "x": 55, "colour": "white", "expect": 544},
-  {"type": "symbol", "id": "g7-11_arrow_right", "x": 674, "y": 13, "w": 140, "h": 124, "colour": "white"}
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "D",
+   "height": 100,
+   "top": 25,
+   "align": "left",
+   "x": 55,
+   "colour": "white",
+   "expect": 544
+  },
+  {
+   "type": "arrow",
+   "width": 38,
+   "width_head": 28,
+   "heading": 0,
+   "path": [
+    {
+     "line": 61
+    }
+   ],
+   "head": {
+    "length": 79,
+    "width": 123,
+    "notch": 10,
+    "tip_r": 6,
+    "barb_r": 6
+   },
+   "x": 674,
+   "y": 13,
+   "w": 140,
+   "h": 124,
+   "colour": "white"
+  }
  ],
  "notes": "870x150 blue, no border, no corner radius stated. PARKING 100 D (25 margins) 55|544|75|140 arrow|56; arrow 124 high (13 margins)."
 }

@@ -3,17 +3,66 @@
  "name": "CAMERA_ARROW_LEFT_BROWN_TALL",
  "legend": "",
  "shape": "rect",
- "size": [500, 750],
+ "size": [
+  500,
+  750
+ ],
  "ground": "brown",
- "edge": {"colour": "brown", "width": 20},
- "border": {"colour": "white", "width": 20},
+ "edge": {
+  "colour": "brown",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
  "elements": [
-  {"type": "symbol", "id": "camera", "x": 116, "y": 165.5, "w": 270.5, "h": 161, "colour": "white"},
-  {"type": "symbol", "id": "g11-10_arrow_left", "x": 110, "y": 485, "w": 280, "h": 175, "colour": "white"}
+  {
+   "type": "symbol",
+   "id": "camera",
+   "x": 116,
+   "y": 165.5,
+   "w": 270.5,
+   "h": 161,
+   "colour": "white"
+  },
+  {
+   "type": "arrow",
+   "width": 55,
+   "width_head": 40,
+   "heading": 180,
+   "path": [
+    {
+     "line": 168
+    }
+   ],
+   "head": {
+    "length": 112,
+    "width": 175,
+    "notch": 14,
+    "tip_r": 8,
+    "barb_r": 8
+   },
+   "x": 110,
+   "y": 485,
+   "w": 280,
+   "h": 175,
+   "colour": "white"
+  }
  ],
  "notes": "Drawing titled G11-10(L) (file G11-10.png); no (R) drawing. 20 brown edge + 20 white border (40 total, 20). Corner radius NOT stated. Camera box 350 centred (=|350|=) at 70; arrow 110|280|110 at 485 (70|350|65|175|90). QA: camera box = ink extent placed as on G11-1 within the nominal 350 square at (75,70).",
  "symbols": {
-   "camera": {"source": "G11-1", "desc": "camera pictogram (front view with lens) in a 350 square box (corner ticks shown), white; grid 70 on G11-10", "grid_mm": 70},
-   "g11-10_arrow_left": {"source": "G11-10", "desc": "block arrow pointing left 280 x 175: head 112 long, shaft 168 long x 55 wide, head 175 across, barb return 14, notch depth 40, R8 tip and barbs; grid 70", "grid_mm": 70, "invert": true, "inset": 0}
+  "camera": {
+   "source": "G11-1",
+   "desc": "camera pictogram (front view with lens) in a 350 square box (corner ticks shown), white; grid 70 on G11-10",
+   "grid_mm": 70
+  },
+  "g11-10_arrow_left": {
+   "source": "G11-10",
+   "desc": "block arrow pointing left 280 x 175: head 112 long, shaft 168 long x 55 wide, head 175 across, barb return 14, notch depth 40, R8 tip and barbs; grid 70",
+   "grid_mm": 70,
+   "invert": true,
+   "inset": 0
+  }
  }
 }

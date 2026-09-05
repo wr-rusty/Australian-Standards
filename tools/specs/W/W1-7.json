@@ -24,8 +24,38 @@
  "drawn_hand": "L",
  "elements": [
   {
-   "type": "symbol",
-   "id": "w1-7_hairpin_arrow_l",
+   "type": "arrow",
+   "width": 110,
+   "heading": -90,
+   "path": [
+    {
+     "line": 415
+    },
+    {
+     "arc": {
+      "r_inner": 85,
+      "sweep": 90,
+      "turn": "left"
+     }
+    },
+    {
+     "arc": {
+      "r_inner": 85,
+      "sweep": 90,
+      "turn": "left"
+     }
+    },
+    {
+     "line": 35
+    }
+   ],
+   "head": {
+    "length": 170,
+    "width": 240,
+    "notch": 20,
+    "barb_r": 20,
+    "tip_r": 20
+   },
    "x": 250.33,
    "y": 195.33,
    "w": 455,
@@ -47,7 +77,7 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 65 from centreline (stated), bottom 275 below centreline (stated). Width 455 = 335 + 100 + 20; height 610 = 415 + outer radius 195 (85+110) - derived from the inset, not stated as a total.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 65 from centreline (stated), bottom 275 below centreline (stated). Width 455 = 335 + 100 + 20; height 610 = 415 + outer radius 195 (85+110) - derived from the inset, not stated as a total. Arrow drawn geometrically: 415 stem, 180 deg arc R85 inner (two 90 deg arcs), 35 to the barb line, head 170 (=205-35) x 240 notch 20 R20 on the return-leg centreline (inset shows the R hand; flipped for L).",
  "hand_values": {
   "L": {
    "dir": "LEFT"

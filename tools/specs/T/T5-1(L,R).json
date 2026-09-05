@@ -19,12 +19,46 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "t5-1_arrow_left",
-   "x": 115,
-   "y": 70,
-   "w": 182,
-   "h": 160,
+   "type": "polygon",
+   "points": [
+    [
+     110.81,
+     150.0
+    ],
+    [
+     224.64,
+     58.69
+    ],
+    [
+     207.0,
+     131.5
+    ],
+    [
+     297.0,
+     125.0
+    ],
+    [
+     297.0,
+     175.0
+    ],
+    [
+     207.0,
+     168.5
+    ],
+    [
+     224.64,
+     241.31
+    ]
+   ],
+   "radius": [
+    7,
+    7,
+    0,
+    0,
+    0,
+    0,
+    7
+   ],
    "colour": "black"
   },
   {
@@ -46,6 +80,6 @@
    "grid_mm": 60
   }
  },
- "notes": "T5-1A(L,R) 1200x300 illustrated; one PNG shows both hands, dimensions identical mirrored. (L): arrow 115 from left, 70 top/bottom; DETOUR starts 100 after the arrow (x 397), 116 right margin. (R) is the exact mirror (text element carries mirror:true so it is re-positioned at x 116). Drawn as yellow ground with black legend as shown; the drawing's caption says 'white retroreflective ground', which contradicts the drawing (flagged). Arrow head geometry (13/37/R7) not unambiguous for a polygon, so a symbol.",
+ "notes": "T5-1A(L,R) 1200x300 illustrated; one PNG shows both hands, dimensions identical mirrored. (L): arrow 115 from left, 70 top/bottom; DETOUR starts 100 after the arrow (x 397), 116 right margin. (R) is the exact mirror (text element carries mirror:true so it is re-positioned at x 116). Drawn as yellow ground with black legend as shown; the drawing's caption says 'white retroreflective ground', which contradicts the drawing (flagged). Inset: 182 long, head 105 x 160, notch 13, shaft 37 at the head junction to 50 at the tail, R7 tip and barbs. Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned).",
  "accepted_drawing_discrepancy": "horizontal chain 116|687|106|160|121 sums to 1190 on a 1200 sign (drawing inconsistency); placed from the left, leaving 131 right instead of 121."
 }

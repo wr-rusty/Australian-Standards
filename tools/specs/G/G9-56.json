@@ -3,20 +3,96 @@
  "name": "WAY_OUT_TO_GEORGE_ST_ARROW_RIGHT_GREEN_LONG",
  "legend": "WAY OUT to GEORGE ST",
  "shape": "rect",
- "size": [950, 450],
+ "size": [
+  950,
+  450
+ ],
  "radius": 50,
  "ground": "green",
- "edge": {"colour": "green", "width": 10},
- "border": {"colour": "white", "width": 20},
+ "edge": {
+  "colour": "green",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
  "elements": [
-  {"type": "text", "series": "D", "height": 100, "top": 50, "colour": "white", "text": "WAY", "align": "left", "x": 50, "expect": 272},
-  {"type": "text", "series": "D", "height": 100, "top": 50, "colour": "white", "text": "OUT", "align": "left", "x": 397, "expect": 238},
-  {"type": "text", "series": "Emod", "height": 80, "top": 200, "colour": "white", "text": "to", "align": "left", "x": 260, "expect": 114},
-  {"type": "text", "series": "E", "height": 80, "top": 310, "colour": "white", "text": "GEORGE ST", "align": "left", "x": 50},
-  {"type": "symbol", "id": "g9-56_arrow_right", "x": 700, "y": 137, "w": 200, "h": 176, "colour": "white"}
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "colour": "white",
+   "text": "WAY",
+   "align": "left",
+   "x": 50,
+   "expect": 272
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 50,
+   "colour": "white",
+   "text": "OUT",
+   "align": "left",
+   "x": 397,
+   "expect": 238
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 80,
+   "top": 200,
+   "colour": "white",
+   "text": "to",
+   "align": "left",
+   "x": 260,
+   "expect": 114
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 80,
+   "top": 310,
+   "colour": "white",
+   "text": "GEORGE ST",
+   "align": "left",
+   "x": 50
+  },
+  {
+   "type": "arrow",
+   "width": 55,
+   "width_head": 40,
+   "heading": 0,
+   "path": [
+    {
+     "line": 86
+    }
+   ],
+   "head": {
+    "length": 114,
+    "width": 176,
+    "notch": 0,
+    "tip_r": 9,
+    "barb_r": 9
+   },
+   "x": 700,
+   "y": 137,
+   "w": 200,
+   "h": 176,
+   "colour": "white"
+  }
  ],
  "notes": "Drawing titled G9-56(R) (file G9-56.png). 10 green edge + 20 white border read as (edge | border) from the 10 | 20 callouts. Stack 50|100D|50|80Emod|30|80E|60. WAY OUT 50|272|75|238|315; to at x 260 (260|114|326|200|50); GEORGE ST (varies) from x 50, word space as the font. Arrow 200 x 176 at 700, 137|176|137.",
  "symbols": {
-   "g9-56_arrow_right": {"source": "G9-56", "desc": "block arrow pointing right 200 x 176: shaft 86 long x 55 wide, head 114 long x 176 across, barb return (head base to shaft) 40, R9 tip and barbs; grid 47.5", "grid_mm": 47.5, "invert": true, "inset": 0}
+  "g9-56_arrow_right": {
+   "source": "G9-56",
+   "desc": "block arrow pointing right 200 x 176: shaft 86 long x 55 wide, head 114 long x 176 across, barb return (head base to shaft) 40, R9 tip and barbs; grid 47.5",
+   "grid_mm": 47.5,
+   "invert": true,
+   "inset": 0
+  }
  }
 }

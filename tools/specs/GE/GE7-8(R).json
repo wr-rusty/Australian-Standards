@@ -28,14 +28,27 @@
    "colour": "white"
   },
   {
-   "type": "symbol",
-   "id": "arrow_left_120x80",
+   "type": "arrow",
+   "width": 25,
+   "width_head": 18,
+   "heading": 0.0,
+   "path": [
+    {
+     "line": 69
+    }
+   ],
+   "head": {
+    "length": 51,
+    "width": 80,
+    "notch": 7,
+    "tip_r": 4,
+    "barb_r": 4
+   },
    "x": 40,
    "y": 250,
    "w": 120,
    "h": 80,
-   "colour": "white",
-   "flip": "h"
+   "colour": "white"
   }
  ],
  "symbols": {

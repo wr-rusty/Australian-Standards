@@ -123,16 +123,49 @@
    "x": 138
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_left",
-   "x": 50,
-   "y": 255,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     271.0
+    ],
+    [
+     71.75,
+     255.0
+    ],
+    [
+     92.0,
+     255.0
+    ],
+    [
+     78.41,
+     265.0
+    ],
+    [
+     175.0,
+     265.0
+    ],
+    [
+     175.0,
+     277.0
+    ],
+    [
+     78.41,
+     277.0
+    ],
+    [
+     92.0,
+     287.0
+    ],
+    [
+     71.75,
+     287.0
+    ]
+   ],
    "colour": "green"
   }
  ],
- "notes": "All green, no border. 1/2 P 100 E top 20: fraction box 26|68 (1 = 15 wide, 13 gap, 2 = 40 wide; 50 E each), P at 119 (80 wide). Time line 50 D (footnote a: usually 50 E) top 143 (20+100+23): 10|59|2|32|31|38|4|39|10 with the dash 20 long at 96..116 of the 205 block (x 106..126); 30 in 30 C top-aligned, AM/PM 15 E bottom-aligned at 193 (gap 5 between 30 and PM). MON - SAT 27 D top 203: 25|70|12|15|16|62|25 (dash 15 at x 107). Arrow 50|125|50 top 255. Dash thickness from the font hyphen (not dimensioned). Tracer: no border ring, panel_px = pixel bbox of the sign's white interior; open 9 removes dimension hairlines.",
+ "notes": "All green, no border. 1/2 P 100 E top 20: fraction box 26|68 (1 = 15 wide, 13 gap, 2 = 40 wide; 50 E each), P at 119 (80 wide). Time line 50 D (footnote a: usually 50 E) top 143 (20+100+23): 10|59|2|32|31|38|4|39|10 with the dash 20 long at 96..116 of the 205 block (x 106..126); 30 in 30 C top-aligned, AM/PM 15 E bottom-aligned at 193 (gap 5 between 30 and PM). MON - SAT 27 D top 203: 25|70|12|15|16|62|25 (dash 15 at x 107). Arrow 50|125|50 top 255. Dash thickness from the font hyphen (not dimensioned). Tracer: no border ring, panel_px = pixel bbox of the sign's white interior; open 9 removes dimension hairlines. Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5_half_fraction": {
    "source": "R5-16",

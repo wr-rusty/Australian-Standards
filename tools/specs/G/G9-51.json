@@ -19,8 +19,22 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "g9-51_arrow_diag_up_left",
+   "type": "arrow",
+   "width": 68,
+   "width_head": 50,
+   "heading": -135,
+   "path": [
+    {
+     "line": 109
+    }
+   ],
+   "head": {
+    "length": 140,
+    "width": 219,
+    "notch": 17,
+    "tip_r": 10,
+    "barb_r": 10
+   },
    "x": 348,
    "y": 107,
    "w": 203,

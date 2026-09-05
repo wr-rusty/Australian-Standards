@@ -96,12 +96,45 @@
    "x": 81
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_left",
-   "x": 50,
-   "y": 255,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     271.0
+    ],
+    [
+     71.75,
+     255.0
+    ],
+    [
+     92.0,
+     255.0
+    ],
+    [
+     78.41,
+     265.0
+    ],
+    [
+     175.0,
+     265.0
+    ],
+    [
+     175.0,
+     277.0
+    ],
+    [
+     78.41,
+     277.0
+    ],
+    [
+     92.0,
+     287.0
+    ],
+    [
+     71.75,
+     287.0
+    ]
+   ],
    "colour": "green"
   },
   {
@@ -122,16 +155,49 @@
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_right",
-   "x": 275,
-   "y": 255,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     400.0,
+     271.0
+    ],
+    [
+     378.25,
+     255.0
+    ],
+    [
+     358.0,
+     255.0
+    ],
+    [
+     371.59,
+     265.0
+    ],
+    [
+     275.0,
+     265.0
+    ],
+    [
+     275.0,
+     277.0
+    ],
+    [
+     371.59,
+     277.0
+    ],
+    [
+     358.0,
+     287.0
+    ],
+    [
+     378.25,
+     287.0
+    ]
+   ],
    "colour": "red"
   }
  ],
- "notes": "Example assembly R5-1 (L.H panel, green) + R5-35 (R.H panel), 450 x 300 R20, black dividing line 5 at x 225 - fully dimensioned so transcribed. Left: 1P 100 E top 20 at 50|30|15|80; 9AM - 12NOON top 144 (20+100+24), 159 block at 33: 41|42|20|9|47 with AM 32 wide after the 9 and 12 (35 E) / NOON (12 E, baseline 194) 48/47 wide at 145; SAT 27 D top 204 (81|62|82); arrow top 265 (drawing: 24+32+13 after SAT). Right: roundel top 55, 43 from centre; arrow top 255 (60 below roundel).",
+ "notes": "Example assembly R5-1 (L.H panel, green) + R5-35 (R.H panel), 450 x 300 R20, black dividing line 5 at x 225 - fully dimensioned so transcribed. Left: 1P 100 E top 20 at 50|30|15|80; 9AM - 12NOON top 144 (20+100+24), 159 block at 33: 41|42|20|9|47 with AM 32 wide after the 9 and 12 (35 E) / NOON (12 E, baseline 194) 48/47 wide at 145; SAT 27 D top 204 (81|62|82); arrow top 265 (drawing: 24+32+13 after SAT). Right: roundel top 55, 43 from centre; arrow top 255 (60 below roundel). Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5_arrow_left": {
    "source": "R5-16",

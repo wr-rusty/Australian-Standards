@@ -1,7 +1,10 @@
-{"code":"T2-6-1","name":"LANE_STATUS_1_CLOSED_1_OPEN_YELLOW_LONG","legend":"","shape":"rect","size":[1200,900],
- "ground":"yellow","border":{"colour":"black","width":25},
- "elements":[{"type":"rect","x":230,"y":245,"w":360,"h":120,"colour":"black"},
-             {"type":"rect","x":367,"y":445,"w":86,"h":300,"colour":"black"},
-             {"type":"symbol","id":"t2-6_up_arrow","x":750,"y":150,"w":220,"h":600,"colour":"black"}],
+{"code":"T2-6-1",
+ "name":"LANE_STATUS_1_CLOSED_1_OPEN_YELLOW_LONG",
+ "legend":"",
+ "shape":"rect",
+ "size":[1200,900],
+ "ground":"yellow",
+ "border":{"colour":"black","width":25},
+ "elements":[{"type":"rect","x":230,"y":245,"w":360,"h":120,"colour":"black"},{"type":"rect","x":367,"y":445,"w":86,"h":300,"colour":"black"},{"type":"polygon","points":[[860.0,123.45],[990.56,372.57],[892.0,350.0],[903.0,750.0],[817.0,750.0],[828.0,350.0],[729.44,372.57]],"radius":[23,23,0,0,0,0,23],"colour":"black"}],
  "symbols":{"t2-6_up_arrow":{"source":"T2-6-1","desc":"upward lane arrow: head 220 wide x 200 high with R23 tips (barb underside 12 below shoulder line, 64 dim), shaft 86 wide, overall 600 high","grid_mm":45}},
- "notes":"T2-6-1A 1200x900 illustrated. Closed-lane T: bar 360x120 at (230,245); stem 86x300 at (367,445) (80 below bar). Arrow centred at x 860 (750+110 = 817+43), 150 from top and bottom. Arrow head barb geometry (64/12 with R23) is not unambiguous, so placed as a symbol rather than a polygon."}
+ "notes":"T2-6-1A 1200x900 illustrated. Closed-lane T: bar 360x120 at (230,245); stem 86x300 at (367,445) (80 below bar). Arrow centred at x 860 (750+110 = 817+43), 150 from top and bottom. Inset: 600 long, head 220 wide, 200 tip to the notch level plus 12 to the barb line, shaft 86 at the tail and 64 at the head junction, R23 tip and barbs. Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned)."}

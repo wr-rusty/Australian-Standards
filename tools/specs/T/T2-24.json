@@ -14,21 +14,89 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "t2-24_arrow",
-   "x": 205,
-   "y": 112,
-   "w": 175,
-   "h": 376,
+   "type": "polygon",
+   "points": [
+    [
+     292.5,
+     101.35
+    ],
+    [
+     390.86,
+     279.03
+    ],
+    [
+     317.5,
+     256.0
+    ],
+    [
+     325.5,
+     488.0
+    ],
+    [
+     259.5,
+     488.0
+    ],
+    [
+     267.5,
+     256.0
+    ],
+    [
+     194.14,
+     279.03
+    ]
+   ],
+   "radius": [
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    10
+   ],
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "t2-24_arrow_down",
-   "x": 520,
-   "y": 112,
-   "w": 175,
-   "h": 376,
+   "type": "polygon",
+   "points": [
+    [
+     607.5,
+     498.65
+    ],
+    [
+     705.86,
+     320.97
+    ],
+    [
+     632.5,
+     344.0
+    ],
+    [
+     640.5,
+     112.0
+    ],
+    [
+     574.5,
+     112.0
+    ],
+    [
+     582.5,
+     344.0
+    ],
+    [
+     509.14,
+     320.97
+    ]
+   ],
+   "radius": [
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    10
+   ],
    "colour": "black"
   }
  ],
@@ -44,5 +112,5 @@
    "grid_mm": 45
   }
  },
- "notes": "Up arrow at x 205, down arrow at x 520 (205+175+140); both 112 from top and bottom. Shaft is tapered (50/66) so not drawn as a polygon. The down arrow is traced from its own box (a second element with the same id would re-trace and overwrite the up arrow)."
+ "notes": "Up arrow at x 205, down arrow at x 520 (205+175+140); both 112 from top and bottom. Shaft is tapered (50/66) so not drawn as a polygon. The down arrow is traced from its own box (a second element with the same id would re-trace and overwrite the up arrow). Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned)."
 }

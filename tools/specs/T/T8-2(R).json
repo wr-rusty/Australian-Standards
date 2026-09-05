@@ -24,12 +24,46 @@
    "expect": 721
   },
   {
-   "type": "symbol",
-   "id": "t8-2_arrow_right",
-   "x": 944,
-   "y": 80,
-   "w": 160,
-   "h": 140,
+   "type": "polygon",
+   "points": [
+    [
+     1107.46,
+     150.0
+    ],
+    [
+     1010.26,
+     70.25
+    ],
+    [
+     1025.0,
+     135.0
+    ],
+    [
+     944.0,
+     128.5
+    ],
+    [
+     944.0,
+     171.5
+    ],
+    [
+     1025.0,
+     165.0
+    ],
+    [
+     1010.26,
+     229.75
+    ]
+   ],
+   "radius": [
+    6,
+    6,
+    0,
+    0,
+    0,
+    0,
+    6
+   ],
    "colour": "black"
   }
  ],
@@ -40,5 +74,5 @@
    "grid_mm": 60
   }
  },
- "notes": "Mirror of T8-2(L): PEDESTRIANS at x 123, arrow at x 944 (123+721+100), 96 right margin, 80 top/bottom. Arrow traced from this drawing (its own id: reusing the (L) id would re-trace it from the (L) drawing with this box)."
+ "notes": "Mirror of T8-2(L): PEDESTRIANS at x 123, arrow at x 944 (123+721+100), 96 right margin, 80 top/bottom. Arrow traced from this drawing (its own id: reusing the (L) id would re-trace it from the (L) drawing with this box). Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned)."
 }

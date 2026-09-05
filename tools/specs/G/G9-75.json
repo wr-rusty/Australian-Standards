@@ -135,8 +135,22 @@
    "mirror": true
   },
   {
-   "type": "symbol",
-   "id": "g9-3_arrow_left",
+   "type": "arrow",
+   "width": 50,
+   "width_head": 37,
+   "heading": 180,
+   "path": [
+    {
+     "line": 496
+    }
+   ],
+   "head": {
+    "length": 104,
+    "width": 160,
+    "notch": 13,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 310,
    "y": 670,
    "w": 600,

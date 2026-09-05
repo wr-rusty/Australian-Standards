@@ -24,12 +24,8 @@
  "drawn_hand": "L",
  "elements": [
   {
-   "type": "symbol",
-   "id": "r2-14_curve_arrow_left",
-   "x": 107,
-   "y": 92,
-   "w": 386,
-   "h": 408,
+   "type": "path",
+   "d": "M493.25 502.41L493.25 430.41A276 276 0 0 0 288.68 163.81L277.09 160.71L254.32 245.71L265.91 248.82A188 188 0 0 1 405.25 430.41L405.25 502.41ZM223.74 309.1A16 16 0 0 0 251.94 299.47L254.32 245.71L277.09 160.71L301.92 112.96A16 16 0 0 0 282.31 90.53L117.33 149.85A16 16 0 0 0 110.53 175.24L223.74 309.1Z",
    "colour": "black"
   },
   {
@@ -41,7 +37,7 @@
    "expect": 478
   }
  ],
- "notes": "Drawing file R2-14(L).png shows both hands. Arrow 92 from top, 408 high, 107|386|107. ONLY 120 E top 580 (92+408+80), 100 bottom; drawing 66|478|56 implies centre 305 (5 right) - centred.",
+ "notes": "Drawing file R2-14(L).png shows both hands. Arrow 92 from top, 408 high, 107|386|107. ONLY 120 E top 580 (92+408+80), 100 bottom; drawing 66|478|56 implies centre 305 (5 right) - centred. Curved arrow drawn as an exact path from the inset: stem 88 wide, 72 straight then 75 deg on inner R188 (outer R276); head 176 long (tip to barb line), 100+100 to the R16 barb centres = 232 overall, notch 12, R16 tip; corner arcs inscribed to those extremes. Computed outline 386.5 x 412.8 against the stated 386 x 408 box, centred in it.",
  "symbols": {
   "r2-14_curve_arrow_left": {
    "source": "R2-14(L)",

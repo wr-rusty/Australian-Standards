@@ -96,16 +96,69 @@
    "x": 126
   },
   {
-   "type": "symbol",
-   "id": "r5_double_arrow",
-   "x": 35,
-   "y": 255,
-   "w": 155,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     35.0,
+     271.0
+    ],
+    [
+     56.75,
+     255.0
+    ],
+    [
+     77.0,
+     255.0
+    ],
+    [
+     63.41,
+     265.0
+    ],
+    [
+     161.59,
+     265.0
+    ],
+    [
+     148.0,
+     255.0
+    ],
+    [
+     168.25,
+     255.0
+    ],
+    [
+     190.0,
+     271.0
+    ],
+    [
+     168.25,
+     287.0
+    ],
+    [
+     148.0,
+     287.0
+    ],
+    [
+     161.59,
+     277.0
+    ],
+    [
+     63.41,
+     277.0
+    ],
+    [
+     77.0,
+     287.0
+    ],
+    [
+     56.75,
+     287.0
+    ]
+   ],
    "colour": "green"
   }
  ],
- "notes": "All green, no border. P 100 E top 35 x 20; '10' 60 E x 119 (20+80+14+5), 82 wide; MINUTE 20 D top 115 x 114 (20+80+14), 91 wide - the 91 row (from the 14 gap) is MINUTE and the 82 row (5 further in) is the 10: the picture shows MINUTE starting left of the 10, and 60 E '10' = 82 / 20 D MINUTE = 91 confirm it. Line '12 - MID' top 170 (35+100+35): 12 is 35 E (left column) and MID 33 C (right column) per the drawing; 40|46|40|60|39 with the dash 20 long at 56..76 of the 146 block (x 96..116). NOON 12 E / NIGHT 14 E (as labelled) baselines at 220 (3 below the 35 E line). Dash thickness not dimensioned: taken from the FHWA hyphen stroke of the same series/height, centred on the cap height. Arrow 35|155|35 top 255, 13 bottom.",
+ "notes": "All green, no border. P 100 E top 35 x 20; '10' 60 E x 119 (20+80+14+5), 82 wide; MINUTE 20 D top 115 x 114 (20+80+14), 91 wide - the 91 row (from the 14 gap) is MINUTE and the 82 row (5 further in) is the 10: the picture shows MINUTE starting left of the 10, and 60 E '10' = 82 / 20 D MINUTE = 91 confirm it. Line '12 - MID' top 170 (35+100+35): 12 is 35 E (left column) and MID 33 C (right column) per the drawing; 40|46|40|60|39 with the dash 20 long at 56..76 of the 146 block (x 96..116). NOON 12 E / NIGHT 14 E (as labelled) baselines at 220 (3 below the 35 E line). Dash thickness not dimensioned: taken from the FHWA hyphen stroke of the same series/height, centred on the cap height. Arrow 35|155|35 top 255, 13 bottom. Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5_double_arrow": {
    "source": "R5-10",

@@ -37,8 +37,22 @@
    "expect": 629
   },
   {
-   "type": "symbol",
-   "id": "g9-73_arrow_right",
+   "type": "arrow",
+   "width": 58,
+   "width_head": 44,
+   "heading": 0,
+   "path": [
+    {
+     "line": 369
+    }
+   ],
+   "head": {
+    "length": 141,
+    "width": 150,
+    "notch": 14,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 195,
    "y": 660,
    "w": 510,

@@ -64,8 +64,22 @@
    ]
   },
   {
-   "type": "symbol",
-   "id": "arrow_diag_up_left_487",
+   "type": "arrow",
+   "width": 163,
+   "width_head": 120,
+   "heading": -135,
+   "path": [
+    {
+     "line": 261
+    }
+   ],
+   "head": {
+    "length": 337,
+    "width": 526,
+    "notch": 41,
+    "tip_r": 24,
+    "barb_r": 24
+   },
    "x": 816,
    "y": 2180,
    "w": 487,

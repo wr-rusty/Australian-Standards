@@ -150,8 +150,28 @@
    "colour": "white"
   },
   {
-   "type": "symbol",
-   "id": "g9-43-4_arrow_left_turn",
+   "type": "arrow",
+   "width": 40,
+   "heading": -90,
+   "path": [
+    {
+     "line": 342
+    },
+    {
+     "arc": {
+      "r_inner": 100,
+      "sweep": 90,
+      "turn": "left"
+     }
+    }
+   ],
+   "head": {
+    "length": 114,
+    "width": 176,
+    "notch": 16,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 228,
    "y": 495,
    "w": 254,
@@ -159,8 +179,41 @@
    "colour": "white"
   },
   {
-   "type": "symbol",
-   "id": "g9-43_arrow_straight_offset",
+   "type": "arrow",
+   "width": 40,
+   "heading": -90,
+   "path": [
+    {
+     "line": 233.37
+    },
+    {
+     "arc": {
+      "r_inner": 50,
+      "sweep": 50,
+      "turn": "right"
+     }
+    },
+    {
+     "line": 166.09
+    },
+    {
+     "arc": {
+      "r_inner": 50,
+      "sweep": 50,
+      "turn": "left"
+     }
+    },
+    {
+     "line": 138.37
+    }
+   ],
+   "head": {
+    "length": 114,
+    "width": 176,
+    "notch": 16,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 857,
    "y": 495,
    "w": 285,
@@ -168,8 +221,28 @@
    "colour": "white"
   },
   {
-   "type": "symbol",
-   "id": "g9-43-4_arrow_right_turn",
+   "type": "arrow",
+   "width": 40,
+   "heading": -90,
+   "path": [
+    {
+     "line": 492
+    },
+    {
+     "arc": {
+      "r_inner": 100,
+      "sweep": 90,
+      "turn": "right"
+     }
+    }
+   ],
+   "head": {
+    "length": 114,
+    "width": 176,
+    "notch": 16,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 1606,
    "y": 495,
    "w": 254,

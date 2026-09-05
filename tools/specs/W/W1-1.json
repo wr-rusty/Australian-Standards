@@ -24,8 +24,32 @@
  "drawn_hand": "L",
  "elements": [
   {
-   "type": "symbol",
-   "id": "w1-1_turn_arrow_l",
+   "type": "arrow",
+   "width": 110,
+   "heading": -90,
+   "path": [
+    {
+     "line": 340
+    },
+    {
+     "corner": {
+      "turn": "left",
+      "angle": 90,
+      "r_outer": 60,
+      "r_inner": 15
+     }
+    },
+    {
+     "line": 225
+    }
+   ],
+   "head": {
+    "length": 220,
+    "width": 290,
+    "notch": 15,
+    "barb_r": 20,
+    "tip_r": 20
+   },
    "x": 200.33,
    "y": 305.33,
    "w": 500,

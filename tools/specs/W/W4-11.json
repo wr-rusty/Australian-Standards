@@ -19,23 +19,90 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "w4-11_arrow_up",
-   "x": 267.83,
-   "y": 295.33,
-   "w": 219,
-   "h": 470,
+   "type": "polygon",
+   "points": [
+    [
+     377.33,
+     295.33
+    ],
+    [
+     267.83,
+     495.33
+    ],
+    [
+     346.33,
+     475.33
+    ],
+    [
+     336.33,
+     765.33
+    ],
+    [
+     418.33,
+     765.33
+    ],
+    [
+     408.33,
+     475.33
+    ],
+    [
+     486.83,
+     495.33
+    ]
+   ],
+   "radius": [
+    12,
+    12,
+    0,
+    0,
+    0,
+    0,
+    12
+   ],
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w4-11_arrow_up",
-   "x": 573.83,
-   "y": 295.33,
-   "w": 219,
-   "h": 470,
-   "colour": "black",
-   "rotate": 180
+   "type": "polygon",
+   "points": [
+    [
+     683.33,
+     765.33
+    ],
+    [
+     792.83,
+     565.33
+    ],
+    [
+     714.33,
+     585.33
+    ],
+    [
+     724.33,
+     295.33
+    ],
+    [
+     642.33,
+     295.33
+    ],
+    [
+     652.33,
+     585.33
+    ],
+    [
+     573.83,
+     565.33
+    ]
+   ],
+   "radius": [
+    12,
+    12,
+    0,
+    0,
+    0,
+    0,
+    12
+   ],
+   "colour": "black"
   }
  ],
  "symbols": {
@@ -52,5 +119,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Arrow axes 153 each side of centreline (153 | 153; overall 525 = 2 x 153 + 219). No vertical dimension on the sign: centred as drawn (measured y -234..238). Right arrow = the same arrow rotated 180."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Arrow axes 153 each side of centreline (153 | 153; overall 525 = 2 x 153 + 219). No vertical dimension on the sign: centred as drawn (measured y -234..238). Right arrow = the same arrow rotated 180. Arrows drawn as polygons from the inset: 470 long, head 200 x 219, notch 20, shaft tapering 62 to 82, R12 barbs."
 }

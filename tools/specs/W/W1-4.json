@@ -24,8 +24,41 @@
  "drawn_hand": "L",
  "elements": [
   {
-   "type": "symbol",
-   "id": "w1-4_reverse_curve_arrow_l",
+   "type": "arrow",
+   "width": 110,
+   "heading": -90,
+   "path": [
+    {
+     "line": 95
+    },
+    {
+     "arc": {
+      "r_inner": 50,
+      "sweep": 54.703,
+      "turn": "left"
+     }
+    },
+    {
+     "line": 179.3
+    },
+    {
+     "arc": {
+      "r_inner": 50,
+      "sweep": 54.703,
+      "turn": "right"
+     }
+    },
+    {
+     "line": 25
+    }
+   ],
+   "head": {
+    "length": 220,
+    "width": 290,
+    "notch": 15,
+    "barb_r": 20,
+    "tip_r": 20
+   },
    "x": 285.33,
    "y": 175.33,
    "w": 435,
@@ -47,7 +80,7 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 80 from centreline (stated), tip axis 100 from centreline (stated, consistent: 190-290), bottom 260 below centreline (stated). Width 435 = 290 + 125 + 20; height 615 = 520 + 95.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 80 from centreline (stated), tip axis 100 from centreline (stated, consistent: 190-290), bottom 260 below centreline (stated). Width 435 = 290 + 125 + 20; height 615 = 520 + 95. Arrow drawn geometrically: S-bend of two R50-inner (R160 outer) arcs with a straight between; sweep 54.70 deg and straight 179.30 solved from the stated 235 jog and the 95 / 25 / 520 heights (inset shows the R hand; flipped for L).",
  "hand_values": {
   "L": {
    "dir": "LEFT"

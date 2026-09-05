@@ -19,12 +19,47 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "w8-23_double_arrow",
+   "type": "arrow",
+   "width": 44,
+   "heading": 180,
+   "path": [
+    {
+     "line": 112
+    }
+   ],
+   "head": {
+    "length": 138,
+    "width": 150,
+    "notch": 14,
+    "barb_r": 5,
+    "tip_r": 5
+   },
    "x": 125.0,
    "y": 50.0,
-   "w": 500.0,
-   "h": 150.0,
+   "w": 250,
+   "h": 150,
+   "colour": "black"
+  },
+  {
+   "type": "arrow",
+   "width": 44,
+   "heading": 0,
+   "path": [
+    {
+     "line": 112
+    }
+   ],
+   "head": {
+    "length": 138,
+    "width": 150,
+    "notch": 14,
+    "barb_r": 5,
+    "tip_r": 5
+   },
+   "x": 375.0,
+   "y": 50.0,
+   "w": 250,
+   "h": 150,
    "colour": "black"
   }
  ],
@@ -36,5 +71,5 @@
    "inset": 0
   }
  },
- "notes": "750 x 250 (Illust. B). R50, 10 edge, 30 black border. Arrow 500 x 150 (inset), 125 | 500 | 125 centred. Vertical placement not dimensioned; the illustration shows it centred (y 50). Missing dim: vertical position."
+ "notes": "750 x 250 (Illust. B). R50, 10 edge, 30 black border. Arrow 500 x 150 (inset), 125 | 500 | 125 centred. Vertical placement not dimensioned; the illustration shows it centred (y 50). Missing dim: vertical position. Arrow drawn geometrically as two heads on a shared 44 shaft: heads 138 x 150 notch 14 R5, 224 between barb lines (500 overall)."
 }

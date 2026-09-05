@@ -75,18 +75,45 @@
    "expect": 1320
   },
   {
-   "type": "symbol",
-   "id": "g1-2_arrow_left",
+   "type": "arrow",
+   "width": 77,
+   "width_head": 62,
+   "heading": 0.0,
+   "path": [
+    {
+     "line": 108
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 15,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 2015,
    "y": 460,
    "w": 250,
    "h": 220,
-   "flip": "h",
    "colour": "white"
   },
   {
-   "type": "symbol",
-   "id": "g1-2_arrow_left",
+   "type": "arrow",
+   "width": 77,
+   "width_head": 62,
+   "heading": 180,
+   "path": [
+    {
+     "line": 108
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 15,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 135,
    "y": 970,
    "w": 250,

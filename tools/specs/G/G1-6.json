@@ -3,30 +3,257 @@
  "name": "A32_MELBOURNE_BURKE_RD_MARTINS_CK_B97_HOLLEY_GREEN_TALL",
  "legend": "A32 Melbourne / BURKE RD Martins Ck B97 / Holley B97",
  "shape": "rect",
- "size": [1650, 2510],
+ "size": [
+  1650,
+  2510
+ ],
  "radius": 100,
  "ground": "white",
- "edge": {"colour": "green", "width": 20},
- "border": {"colour": "white", "width": 20},
+ "edge": {
+  "colour": "green",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
  "symbols": {
-   "g1-2_arrow_left": {"source": "G1-2", "desc": "block arrow (G1-6 draws it pointing up on a 122.5 grid): overall 251 long (shaft 108 + head 143), head 220 wide, tapered shaft 77 at tail / 62 at head, barbs sweep back 15, R8 at barb tips; on G1-6 used rotated to point up", "grid_mm": 122.5},
-   "g1-6_arrow_left_334": {"source": "G1-6", "desc": "long horizontal block arrow pointing left on 122.5 grid: overall 334 (shaft 191 + head 143), head 220 wide, shaft 68 wide at the head (50 across the head notch), barbs sweep back 19, R8 at the three head corners", "grid_mm": 122.5, "invert": true, "inset": 0}
+  "g1-2_arrow_left": {
+   "source": "G1-2",
+   "desc": "block arrow (G1-6 draws it pointing up on a 122.5 grid): overall 251 long (shaft 108 + head 143), head 220 wide, tapered shaft 77 at tail / 62 at head, barbs sweep back 15, R8 at barb tips; on G1-6 used rotated to point up",
+   "grid_mm": 122.5
+  },
+  "g1-6_arrow_left_334": {
+   "source": "G1-6",
+   "desc": "long horizontal block arrow pointing left on 122.5 grid: overall 334 (shaft 191 + head 143), head 220 wide, shaft 68 wide at the head (50 across the head notch), barbs sweep back 19, R8 at the three head corners",
+   "grid_mm": 122.5,
+   "invert": true,
+   "inset": 0
+  }
  },
  "elements": [
-  {"type": "polygon", "points": [[40, 40], [1610, 40], [1610, 730], [40, 730]], "radius": [60, 60, 40, 40], "colour": "green"},
-  {"type": "polygon", "points": [[40, 750], [1610, 750], [1610, 2470], [40, 2470]], "radius": [40, 40, 60, 60], "colour": "green"},
-  {"type": "text", "text": "A32", "series": "E", "height": 160, "top": 165, "align": "left", "x": 405, "colour": "yellow", "expect": 460},
-  {"type": "symbol", "id": "g1-2_arrow_left", "x": 1009.5, "y": 135, "w": 251, "h": 220, "rotate": 90, "colour": "white"},
-  {"type": "text", "text": "Melbourne", "series": "Emod", "height": 160, "top": 450, "align": "left", "x": 180, "colour": "white", "expect": 1289},
-  {"type": "panel", "x": 364, "y": 840, "w": 922, "h": 240, "radius": 40, "colour": "white"},
-  {"type": "text", "text": "BURKE RD", "series": "D", "height": 120, "top": 900, "cx": 825, "colour": "black", "expect": 802},
-  {"type": "text", "words": ["Martins", "Ck"], "gap": 123, "series": "Emod", "height": 160, "top": 1200, "align": "left", "x": 149, "colour": "white", "expect_total": 1351},
-  {"type": "symbol", "id": "g1-6_arrow_left_334", "x": 364, "y": 1450, "w": 335, "h": 220, "colour": "white"},
-  {"type": "text", "text": "B97", "series": "E", "height": 160, "top": 1480, "align": "left", "x": 859, "colour": "yellow", "expect": 426},
-  {"type": "rect", "x": 160, "y": 1760, "w": 1330, "h": 20, "colour": "white"},
-  {"type": "text", "text": "Holley", "series": "Emod", "height": 160, "top": 1900, "align": "left", "x": 437, "colour": "white", "expect": 775},
-  {"type": "text", "text": "B97", "series": "E", "height": 160, "top": 2190, "align": "left", "x": 364, "colour": "yellow", "expect": 426},
-  {"type": "symbol", "id": "g1-6_arrow_left_334", "x": 950, "y": 2160, "w": 335, "h": 220, "flip": "h", "colour": "white"}
+  {
+   "type": "polygon",
+   "points": [
+    [
+     40,
+     40
+    ],
+    [
+     1610,
+     40
+    ],
+    [
+     1610,
+     730
+    ],
+    [
+     40,
+     730
+    ]
+   ],
+   "radius": [
+    60,
+    60,
+    40,
+    40
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     40,
+     750
+    ],
+    [
+     1610,
+     750
+    ],
+    [
+     1610,
+     2470
+    ],
+    [
+     40,
+     2470
+    ]
+   ],
+   "radius": [
+    40,
+    40,
+    60,
+    60
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "A32",
+   "series": "E",
+   "height": 160,
+   "top": 165,
+   "align": "left",
+   "x": 405,
+   "colour": "yellow",
+   "expect": 460
+  },
+  {
+   "type": "arrow",
+   "width": 77,
+   "width_head": 62,
+   "heading": -90,
+   "path": [
+    {
+     "line": 108
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 15,
+    "tip_r": 8,
+    "barb_r": 8
+   },
+   "x": 1025.0,
+   "y": 119.5,
+   "w": 220,
+   "h": 251,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Melbourne",
+   "series": "Emod",
+   "height": 160,
+   "top": 450,
+   "align": "left",
+   "x": 180,
+   "colour": "white",
+   "expect": 1289
+  },
+  {
+   "type": "panel",
+   "x": 364,
+   "y": 840,
+   "w": 922,
+   "h": 240,
+   "radius": 40,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "BURKE RD",
+   "series": "D",
+   "height": 120,
+   "top": 900,
+   "cx": 825,
+   "colour": "black",
+   "expect": 802
+  },
+  {
+   "type": "text",
+   "words": [
+    "Martins",
+    "Ck"
+   ],
+   "gap": 123,
+   "series": "Emod",
+   "height": 160,
+   "top": 1200,
+   "align": "left",
+   "x": 149,
+   "colour": "white",
+   "expect_total": 1351
+  },
+  {
+   "type": "arrow",
+   "width": 68,
+   "width_head": 50,
+   "heading": 180,
+   "path": [
+    {
+     "line": 191
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 19,
+    "tip_r": 8,
+    "barb_r": 8
+   },
+   "x": 364,
+   "y": 1450,
+   "w": 335,
+   "h": 220,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "B97",
+   "series": "E",
+   "height": 160,
+   "top": 1480,
+   "align": "left",
+   "x": 859,
+   "colour": "yellow",
+   "expect": 426
+  },
+  {
+   "type": "rect",
+   "x": 160,
+   "y": 1760,
+   "w": 1330,
+   "h": 20,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "Holley",
+   "series": "Emod",
+   "height": 160,
+   "top": 1900,
+   "align": "left",
+   "x": 437,
+   "colour": "white",
+   "expect": 775
+  },
+  {
+   "type": "text",
+   "text": "B97",
+   "series": "E",
+   "height": 160,
+   "top": 2190,
+   "align": "left",
+   "x": 364,
+   "colour": "yellow",
+   "expect": 426
+  },
+  {
+   "type": "arrow",
+   "width": 68,
+   "width_head": 50,
+   "heading": 0.0,
+   "path": [
+    {
+     "line": 191
+    }
+   ],
+   "head": {
+    "length": 143,
+    "width": 220,
+    "notch": 19,
+    "tip_r": 8,
+    "barb_r": 8
+   },
+   "x": 950,
+   "y": 2160,
+   "w": 335,
+   "h": 220,
+   "colour": "white"
+  }
  ],
  "notes": "1650x2510 R100, green edge 20 + white border 20; two green panels R40 at the 20 white divider (y 730-750), outer corners R60. Top panel: A32 baseline 325 (top 165), up arrow 250 high between 120 and 370 from the top, centred on x 1135 (405+460+270 is to the arrow centreline, 515 to the right edge), Melbourne baseline 610. Bottom panel: BURKE RD panel 922x240 R40 at y 840 (470 below the arrow bottom), Martins Ck baseline 1360, B97 baseline 1640, left arrow (334 long) centred y 1560 (810 below the divider); 20 white rule 1330 long at y 1760-1780 (160 in from each side); Holley baseline 2060, B97 baseline 2350, right arrow centred y 2270, 240 bottom margin (160 below B97 baseline). Left arrow dimensioned 335 on the sign vs 334 (191+143) in the detail. INCONSISTENCY: the drawing's rows give 149|1351|150 and 180|1289|181; AS 1744 spacing makes Melbourne 1289 and Martins Ck 1351 (as on G1-2), so the two rows are taken as swapped: Melbourne x 180 (1289), Martins Ck x 149 (1351, word gap 123 derived). Up arrow = G1-2 left arrow rotated 90 deg clockwise. QA: up arrow box given in the G1-2 arrow's native (left) orientation 251x220 centred on (1135,245) then rotated 90."
 }

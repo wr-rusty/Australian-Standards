@@ -54,7 +54,8 @@ unclear, write it in `notes` and keep going.
 * `{"type":"circle","cx":..,"cy":..,"r":..,"colour":..}`, `{"type":"rect","x":..,"y":..,"w":..,"h":..,"rx":0,"colour":..}`
 * `{"type":"panel","x":..,"y":..,"w":..,"h":..,"radius":40,"colour":"white"}` — sub-panel (road-name panel).
 * `{"type":"polygon","points":[[x,y],...],"radius":0,"colour":..}` — any straight-edged shape you can dimension
-  from the drawing (bars, chevrons, stripes, simple block arrows with stated geometry).
+  from the drawing (bars, chevrons, stripes, simple block arrows with stated geometry). Add `"stroke":{"colour":"black","width":2}`
+  for an outline when the drawing shows one (e.g. a white pointed fingerboard drawn with its own outline).
 * `{"type":"path","d":"M...Z","colour":..}` — hand-entered path in mm when a polygon won't do.
 * Symbol from the grid inset (bicycle, worker, curve arrow, car...):
   `{"type":"symbol","id":"tm10-1a_up_arrow","x":250,"y":100,"w":100,"h":400,"colour":"black"}`
@@ -73,6 +74,29 @@ detected region if automatic detection fails), `"colours":["black","red"]` (trac
 fill, for red/black or green/red symbols), `"threshold":110`, `"invert":true` (light symbol on dark ground; automatic for
 black grounds), `"nomask":true` (do not blank pixels outside the ground shape; by default the crop is masked to the inner
 diamond/circle/rect so border corners are excluded), `"open":9` (remove hairlines such as the drawing's centre lines; 9 = lines thinner than ~1.5 source px). Crops are written to the scratch `crops/` dir with `--show <dir>` for checking.
+
+## Geometric arrows (preferred over traced symbols whenever the drawing states the arrow's dimensions)
+```json
+{"type":"arrow","width":110,"heading":-90,"x":200.33,"y":305.33,"w":500,"h":485,
+ "path":[{"line":340},{"corner":{"turn":"left","angle":90,"r_outer":60,"r_inner":15}},{"line":225}],
+ "head":{"length":220,"width":290,"notch":15,"barb_r":20,"tip_r":20}}
+```
+* `width`: shaft width at the tail. Guide-sign block arrows usually taper: add `"width_head"` (shaft width where it meets the
+  head) — only with a single straight `{"line": L}` path — and `"tail_r"` for rounded tail corners. Read the inset carefully:
+  on G9-3 the pair 50 / 37 is tail / head shaft width and 13 is the notch (no barb step).
+  Example: `{"type":"arrow","width":50,"width_head":37,"heading":180,"path":[{"line":496}],"head":{"length":104,"width":160,"notch":13,"tip_r":8,"barb_r":8}}`.
+* `heading`: direction the tail-to-head axis starts in, degrees: 0 right, -90 up, 180 left, 90 down, -45 up-right.
+* `path`: the shaft centreline from the tail, in order: `{"line": L}`; `{"arc": {"r_inner": R, "sweep": deg, "turn": "left"|"right"}}`
+  (or `"r_outer"`, or `"r"` for the centreline radius); `{"corner": {"turn":..., "angle": 90, "r_outer": Ro, "r_inner": Ri}}` for a
+  sharp bend with fillets. Line lengths are measured along the centreline (so a stem "395 tall to the arm top" with a 110 shaft is
+  a 340 line to the arm's centreline). A head only, no shaft: omit `path`.
+* `head`: `length` (rear extreme of the barbs to the tip) and `width` (barb extreme to barb extreme) are the extremes of the
+  finished rounded outline, as the drawings dimension them (`"dims":"vertices"` switches to sharp-vertex dimensions); `notch` (head base meets the shaft this far
+  ahead of the barb line; 0 = flat base), `barb_step` (short perpendicular edge at each barb before the base line: the drawings'
+  "barb return"/"barb step"), `tip_r`, `barb_r`, `step_r`, `tip_flat` (truncated tip width).
+* The finished outline is centred in the box (x, y, w, h) — keep the symbol's box; the generator reports if the computed size
+  differs from the box by more than 2 %, which means a dimension was misread. (L)/(R) mirroring works as for symbols.
+* When converting a traced symbol: keep the `symbols` entry's desc for the record, delete the `symbol` element, add the `arrow`.
 
 ## Handedness
 Drawings named `W1-1(R)(L)` or showing (L) and (R): write one spec with `"hands":["L","R"]` and

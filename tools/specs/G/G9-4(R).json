@@ -148,14 +148,27 @@
    "expect": 686
   },
   {
-   "type": "symbol",
-   "id": "g9-3_arrow_left",
+   "type": "arrow",
+   "width": 50,
+   "width_head": 37,
+   "heading": 0.0,
+   "path": [
+    {
+     "line": 496
+    }
+   ],
+   "head": {
+    "length": 104,
+    "width": 160,
+    "notch": 13,
+    "tip_r": 8,
+    "barb_r": 8
+   },
    "x": 956,
    "y": 673,
    "w": 600,
    "h": 160,
-   "colour": "black",
-   "flip": "h"
+   "colour": "black"
   }
  ],
  "symbols": {

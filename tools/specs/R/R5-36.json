@@ -124,16 +124,49 @@
    "colour": "red"
   },
   {
-   "type": "symbol",
-   "id": "r5_arrow_right",
-   "x": 50,
-   "y": 405,
-   "w": 125,
-   "h": 32,
+   "type": "polygon",
+   "points": [
+    [
+     175.0,
+     421.0
+    ],
+    [
+     153.25,
+     405.0
+    ],
+    [
+     133.0,
+     405.0
+    ],
+    [
+     146.59,
+     415.0
+    ],
+    [
+     50.0,
+     415.0
+    ],
+    [
+     50.0,
+     427.0
+    ],
+    [
+     146.59,
+     427.0
+    ],
+    [
+     133.0,
+     437.0
+    ],
+    [
+     153.25,
+     437.0
+    ]
+   ],
    "colour": "red"
   }
  ],
- "notes": "Roundel 140 top 15. Vertical: 8.30-9.30AM 50 E top 200 (30 in 30 C top-aligned, AM 15 E bottom-aligned at 250), 10, 3-4PM top 260, 20, SCHOOL DAYS 27 C top 330, 48, arrow top 405, 13. HORIZONTAL LAYOUT OF THE TIME LINES IS NOT DIMENSIONED on this drawing: x positions taken from the R5-46_R5-2 '6.30 - 9.30AM' inset (numeral 40, gap 5, '30' 39, gap 5, dash 20, gap 8, numeral 40, gap 4, '30' 39 = 200) laid out from x 12 (centred in 225); the 3 - 4 line aligned to the same dash. SCHOOL DAYS centred, width not given. Dash thickness from the font hyphen. QA: the 140 roundel and the right arrow are traced from this drawing (R5-36) because the R5-35 drawing overlays its centre lines and a dashed reference box on them (hairline holes / specks in the trace); same 140 dia, 95 E, 125 x 32 dims. panel_px = the sign's outline pixels (225 x 450 at 0.889 px/mm).",
+ "notes": "Roundel 140 top 15. Vertical: 8.30-9.30AM 50 E top 200 (30 in 30 C top-aligned, AM 15 E bottom-aligned at 250), 10, 3-4PM top 260, 20, SCHOOL DAYS 27 C top 330, 48, arrow top 405, 13. HORIZONTAL LAYOUT OF THE TIME LINES IS NOT DIMENSIONED on this drawing: x positions taken from the R5-46_R5-2 '6.30 - 9.30AM' inset (numeral 40, gap 5, '30' 39, gap 5, dash 20, gap 8, numeral 40, gap 4, '30' 39 = 200) laid out from x 12 (centred in 225); the 3 - 4 line aligned to the same dash. SCHOOL DAYS centred, width not given. Dash thickness from the font hyphen. QA: the 140 roundel and the right arrow are traced from this drawing (R5-36) because the R5-35 drawing overlays its centre lines and a dashed reference box on them (hairline holes / specks in the trace); same 140 dia, 95 E, 125 x 32 dims. panel_px = the sign's outline pixels (225 x 450 at 0.889 px/mm). Open-chevron arrow drawn as a polygon from the inset dimensions: shaft 12, head 42 long x 32 wide, barbs 12 thick between parallel edges with a flat top.",
  "symbols": {
   "r5-35_no_standing_140": {
    "source": "R5-36",

@@ -55,8 +55,38 @@
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w1-8_hairpin_arrow_l",
+   "type": "arrow",
+   "width": 220,
+   "heading": -90,
+   "path": [
+    {
+     "line": 825
+    },
+    {
+     "arc": {
+      "r_inner": 170,
+      "sweep": 90,
+      "turn": "left"
+     }
+    },
+    {
+     "arc": {
+      "r_inner": 170,
+      "sweep": 90,
+      "turn": "left"
+     }
+    },
+    {
+     "line": 70
+    }
+   ],
+   "head": {
+    "length": 340,
+    "width": 480,
+    "notch": 40,
+    "barb_r": 40,
+    "tip_r": 40
+   },
    "x": 405,
    "y": 1580,
    "w": 910,
@@ -89,5 +119,6 @@
    "open": 19
   }
  },
- "notes": "1500 x 3000, R200. Drawing shows 20 (yellow edge) and 60 (edge to inside of border): taken as 20 yellow edge + 40 black border (pixel check ~40 black). Vertical chain 130 | 1336 truck | 69 bar | gap | arrow | 150. Bar (ground line) 1130 x 69 at 185|1130|185, top 1466. Numerals 400 E, dashed 'Varies', left-aligned at 185 (bottom row 185 | Varies | 220 stem | 220 | 185): top 2450, baseline 2850 = arrow bottom. Arrow stem 220 wide with right edge 185 from sign edge (1315). (R) = mirror image of symbols (table note); text not mirrored. Vary values 15-95 (advisory-speed series) chosen, not stated. FLAG: vertical chain 130+1336+69+45+1230+150 = 2960, not 3000; the W1-8(alt) sheet gives the hairpin arrow 1215 tall; drawing shows arrow bottom aligned with numeral bottom (2850). Spec uses the stated 45 gap (top 1580) and stated 1230 (bottom 2810) - resolve before use. Arrow box x 405..1315 (bottom row 405 | 910 | 185). QA: arrow traced from this drawing with open 19 to drop the dashed 'Varies' numeral outline inside the arrow box. QA: arrow height taken as 1270 (= 3000 - 130 - 1336 - 69 - 45 - 150, which closes the chain; the drawn arrow spans 1580..2850 = 1270 and its bottom aligns with the numeral baseline); the stated 1230 (and the sheet's 1215) do not close the chain. QA: numerals mirrored with the layout (right-aligned at 185 from the right edge on the (R) sign) so they do not overlap the mirrored arrow stem."
+ "notes": "1500 x 3000, R200. Drawing shows 20 (yellow edge) and 60 (edge to inside of border): taken as 20 yellow edge + 40 black border (pixel check ~40 black). Vertical chain 130 | 1336 truck | 69 bar | gap | arrow | 150. Bar (ground line) 1130 x 69 at 185|1130|185, top 1466. Numerals 400 E, dashed 'Varies', left-aligned at 185 (bottom row 185 | Varies | 220 stem | 220 | 185): top 2450, baseline 2850 = arrow bottom. Arrow stem 220 wide with right edge 185 from sign edge (1315). (R) = mirror image of symbols (table note); text not mirrored. Vary values 15-95 (advisory-speed series) chosen, not stated. FLAG: vertical chain 130+1336+69+45+1230+150 = 2960, not 3000; the W1-8(alt) sheet gives the hairpin arrow 1215 tall; drawing shows arrow bottom aligned with numeral bottom (2850). Spec uses the stated 45 gap (top 1580) and stated 1230 (bottom 2810) - resolve before use. Arrow box x 405..1315 (bottom row 405 | 910 | 185). QA: arrow traced from this drawing with open 19 to drop the dashed 'Varies' numeral outline inside the arrow box. QA: arrow height taken as 1270 (= 3000 - 130 - 1336 - 69 - 45 - 150, which closes the chain; the drawn arrow spans 1580..2850 = 1270 and its bottom aligns with the numeral baseline); the stated 1230 (and the sheet's 1215) do not close the chain. QA: numerals mirrored with the layout (right-aligned at 185 from the right edge on the (R) sign) so they do not overlap the mirrored arrow stem. Arrow drawn geometrically from the sheet (825 stem, 180 deg arc R170 inner, barb line 70 below the arc centre level, head 340 (=410-70) x 480 notch 40 R40): 1215 tall, centred in the 1270 box; the generator flags the 1215 vs 1270 difference (drawing chain does not close, see FLAG above).",
+ "intervene": "hairpin arrow height: the W1-8(alt) sheet gives 825 + R390 = 1215, the W1-8-5 drawing says 1230, and the sign's vertical chain (130+1336+69+45+1230+150 = 2960) does not close on the 3000 sign; arrow drawn at 1215 centred in the 1270 box - confirm the arrow height and position"
 }

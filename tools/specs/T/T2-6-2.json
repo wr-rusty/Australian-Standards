@@ -1,8 +1,10 @@
-{"code":"T2-6-2","name":"LANE_STATUS_1_CLOSED_2_OPEN_YELLOW_LONG","legend":"","shape":"rect","size":[1800,900],
- "ground":"yellow","border":{"colour":"black","width":25},
- "elements":[{"type":"rect","x":320,"y":245,"w":360,"h":120,"colour":"black"},
-             {"type":"rect","x":457,"y":445,"w":86,"h":300,"colour":"black"},
-             {"type":"symbol","id":"t2-6_up_arrow","x":840,"y":150,"w":220,"h":600,"colour":"black"},
-             {"type":"symbol","id":"t2-6_up_arrow","x":1270,"y":150,"w":220,"h":600,"colour":"black"}],
+{"code":"T2-6-2",
+ "name":"LANE_STATUS_1_CLOSED_2_OPEN_YELLOW_LONG",
+ "legend":"",
+ "shape":"rect",
+ "size":[1800,900],
+ "ground":"yellow",
+ "border":{"colour":"black","width":25},
+ "elements":[{"type":"rect","x":320,"y":245,"w":360,"h":120,"colour":"black"},{"type":"rect","x":457,"y":445,"w":86,"h":300,"colour":"black"},{"type":"polygon","points":[[950.0,123.45],[1080.56,372.57],[982.0,350.0],[993.0,750.0],[907.0,750.0],[918.0,350.0],[819.44,372.57]],"radius":[23,23,0,0,0,0,23],"colour":"black"},{"type":"polygon","points":[[1380.0,123.45],[1510.56,372.57],[1412.0,350.0],[1423.0,750.0],[1337.0,750.0],[1348.0,350.0],[1249.44,372.57]],"radius":[23,23,0,0,0,0,23],"colour":"black"}],
  "symbols":{"t2-6_up_arrow":{"source":"T2-6-1","desc":"upward lane arrow: head 220 wide x 200 high with R23 tips, shaft 86 wide, overall 600 high","grid_mm":90}},
- "notes":"T2-6-2A 1800x900 illustrated. Bar 360x120 at (320,245); stem 86x300 at (457,445). Arrows 220 wide at x 840 and 1270 (shafts 86 at 907 and 1337, consistent), 150 top/bottom. Same arrow as T2-6-1 (inset grid here is 90)."}
+ "notes":"T2-6-2A 1800x900 illustrated. Bar 360x120 at (320,245); stem 86x300 at (457,445). Arrows 220 wide at x 840 and 1270 (shafts 86 at 907 and 1337, consistent), 150 top/bottom. Same arrow as T2-6-1 (inset grid here is 90). Arrow drawn as an exact polygon from the inset dimensions (tip and barb radii inscribed so the outline reaches the stated extremes; shaft tapers from the head junction to the tail as dimensioned)."}

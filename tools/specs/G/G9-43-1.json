@@ -9,15 +9,16 @@
  "edge": {"colour": "green", "width": 20},
  "border": {"colour": "white", "width": 20},
  "elements": [
-  {"type": "symbol", "id": "g9-43_arrow_straight", "x": 184, "y": 150, "w": 176, "h": 700, "colour": "white"},
-  {"type": "symbol", "id": "g9-43_arrow_straight_and_right", "x": 589, "y": 150, "w": 322, "h": 700, "colour": "white"},
-  {"type": "symbol", "id": "g9-43_arrow_right_turn", "x": 1101, "y": 285, "w": 254, "h": 565, "colour": "white"},
-  {"type": "rect", "x": 500, "y": 100, "w": 30, "h": 200, "colour": "white"},
-  {"type": "rect", "x": 500, "y": 450, "w": 30, "h": 200, "colour": "white"},
-  {"type": "rect", "x": 500, "y": 800, "w": 30, "h": 200, "colour": "white"},
-  {"type": "rect", "x": 970, "y": 100, "w": 30, "h": 200, "colour": "white"},
-  {"type": "rect", "x": 970, "y": 450, "w": 30, "h": 200, "colour": "white"},
-  {"type": "rect", "x": 970, "y": 800, "w": 30, "h": 200, "colour": "white"}
+   {"type": "arrow", "width": 40, "heading": -90, "path": [{"line": 586}], "head": {"length": 114, "width": 176, "notch": 16, "tip_r": 8, "barb_r": 8}, "x": 184, "y": 150, "w": 176, "h": 700, "colour": "white"},
+   {"type": "arrow", "width": 40, "heading": -90, "path": [{"line": 586}], "head": {"length": 114, "width": 176, "notch": 16, "tip_r": 8, "barb_r": 8}, "x": 589, "y": 150, "w": 176, "h": 700, "colour": "white"},
+   {"type": "arrow", "width": 40, "heading": -90, "path": [{"arc": {"r_inner": 100, "sweep": 90, "turn": "right"}}], "head": {"length": 114, "width": 176, "notch": 16, "tip_r": 8, "barb_r": 8}, "x": 657, "y": 287, "w": 254, "h": 208, "colour": "white"},
+   {"type": "arrow", "width": 40, "heading": -90, "path": [{"line": 357}, {"arc": {"r_inner": 100, "sweep": 90, "turn": "right"}}], "head": {"length": 114, "width": 176, "notch": 16, "tip_r": 8, "barb_r": 8}, "x": 1101, "y": 285, "w": 254, "h": 565, "colour": "white"},
+   {"type": "rect", "x": 500, "y": 100, "w": 30, "h": 200, "colour": "white"},
+   {"type": "rect", "x": 500, "y": 450, "w": 30, "h": 200, "colour": "white"},
+   {"type": "rect", "x": 500, "y": 800, "w": 30, "h": 200, "colour": "white"},
+   {"type": "rect", "x": 970, "y": 100, "w": 30, "h": 200, "colour": "white"},
+   {"type": "rect", "x": 970, "y": 450, "w": 30, "h": 200, "colour": "white"},
+   {"type": "rect", "x": 970, "y": 800, "w": 30, "h": 200, "colour": "white"}
  ],
  "notes": "20 green edge + 20 white border (40). Arrows: 184|176|140|30|59|322|59|30|101|254|145. Straight arrows 150|700|250 vertical; right-turn arrow 285|565|250. Dashed lane lines 30 wide: 100|200|150|200|150|200|100 (dashes at y 100, 450, 800).",
  "symbols": {

@@ -170,8 +170,22 @@
    ]
   },
   {
-   "type": "symbol",
-   "id": "arrow_straight_up_1000x528",
+   "type": "arrow",
+   "width": 140,
+   "width_head": 120,
+   "heading": -90,
+   "path": [
+    {
+     "line": 683
+    }
+   ],
+   "head": {
+    "length": 317,
+    "width": 528,
+    "notch": 24,
+    "tip_r": 24,
+    "barb_r": 24
+   },
    "x": 13111,
    "y": 1585,
    "w": 528,
@@ -179,8 +193,22 @@
    "colour": "white"
   },
   {
-   "type": "symbol",
-   "id": "arrow_straight_up_1000x528",
+   "type": "arrow",
+   "width": 140,
+   "width_head": 120,
+   "heading": -90,
+   "path": [
+    {
+     "line": 683
+    }
+   ],
+   "head": {
+    "length": 317,
+    "width": 528,
+    "notch": 24,
+    "tip_r": 24,
+    "barb_r": 24
+   },
    "x": 9611,
    "y": 1585,
    "w": 528,

@@ -56,8 +56,32 @@
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "w1-9-3_turn_arrow_l",
+   "type": "arrow",
+   "width": 127,
+   "heading": -90,
+   "path": [
+    {
+     "line": 488.5
+    },
+    {
+     "corner": {
+      "turn": "left",
+      "angle": 90,
+      "r_outer": 115,
+      "r_inner": 17
+     }
+    },
+    {
+     "line": 310.5
+    }
+   ],
+   "head": {
+    "length": 276,
+    "width": 333,
+    "notch": 23,
+    "barb_r": 23,
+    "tip_r": 23
+   },
    "x": 375,
    "y": 845,
    "w": 650,
@@ -90,5 +114,5 @@
    "inset": 0
   }
  },
- "notes": "1400 x 2400, R200; drawing shows 20 and 60 at the corner: taken as 20 yellow edge + 40 black border (pixel check ~40 black, as W1-8-1). Right-hand chain 385 | 350 | 110 | 655 | 110 | 400 E | 200 | 190 = 2400: EXIT baseline 385 (top 185), SPEED baseline 735 (top 535), arrow 845..1500, numerals top 1610 / baseline 2010, km/h baseline 2210 (top 2080, 130 Emod). Left-hand 310 | 125 at bottom does not reconcile with 200 | 190 (slash descender?) - right chain used. Widths: EXIT 612 (394|612|394), SPEED 940 (230|940|230), km/h 544 (428|544|428), numerals 'varies' centred. Vary values 15-95 chosen (advisory speeds), not stated. Arrow box 375..1025 (375 | 650 | 375)."
+ "notes": "1400 x 2400, R200; drawing shows 20 and 60 at the corner: taken as 20 yellow edge + 40 black border (pixel check ~40 black, as W1-8-1). Right-hand chain 385 | 350 | 110 | 655 | 110 | 400 E | 200 | 190 = 2400: EXIT baseline 385 (top 185), SPEED baseline 735 (top 535), arrow 845..1500, numerals top 1610 / baseline 2010, km/h baseline 2210 (top 2080, 130 Emod). Left-hand 310 | 125 at bottom does not reconcile with 200 | 190 (slash descender?) - right chain used. Widths: EXIT 612 (394|612|394), SPEED 940 (230|940|230), km/h 544 (428|544|428), numerals 'varies' centred. Vary values 15-95 chosen (advisory speeds), not stated. Arrow box 375..1025 (375 | 650 | 375). Arrow drawn geometrically: 552 to the arm top = 488.5 to the arm centreline; arm 310.5 (650 - 63.5 - 276) to the barb line."
 }

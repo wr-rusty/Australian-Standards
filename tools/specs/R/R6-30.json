@@ -43,21 +43,59 @@
    "expect": 308
   },
   {
-   "type": "symbol",
-   "id": "r6-30_curve_arrow_down_left",
-   "x": 165,
-   "y": 503,
-   "w": 270,
-   "h": 274,
+   "type": "arrow",
+   "width": 59,
+   "heading": 90,
+   "path": [
+    {
+     "line": 48
+    },
+    {
+     "arc": {
+      "r_inner": 126,
+      "sweep": 75,
+      "turn": "right"
+     }
+    }
+   ],
+   "head": {
+    "length": 142,
+    "width": 181,
+    "notch": 13,
+    "barb_r": 11
+   },
+   "x": 159.04,
+   "y": 500.89,
+   "w": 281.92,
+   "h": 285.62,
    "colour": "black"
   },
   {
-   "type": "symbol",
-   "id": "r6-30_curve_arrow_up_right",
-   "x": 165,
-   "y": 839,
-   "w": 270,
-   "h": 274,
+   "type": "arrow",
+   "width": 59,
+   "heading": -90,
+   "path": [
+    {
+     "line": 48
+    },
+    {
+     "arc": {
+      "r_inner": 126,
+      "sweep": 75,
+      "turn": "right"
+     }
+    }
+   ],
+   "head": {
+    "length": 142,
+    "width": 181,
+    "notch": 13,
+    "barb_r": 11
+   },
+   "x": 159.04,
+   "y": 829.49,
+   "w": 281.92,
+   "h": 285.62,
    "colour": "black"
   }
  ],
@@ -73,5 +111,5 @@
    "grid_mm": 60
   }
  },
- "notes": "R6-30A illustrated. Stack 87/80E/57/80D/57/80E/62/arrow 274/62/arrow 274/87. Arrow heights 274 are dimensioned; arrow widths and horizontal positions are NOT dimensioned - width read from the 60 grid inset (about 4.5 squares = 270) and centred. See report."
+ "notes": "R6-30A illustrated. Stack 87/80E/57/80D/57/80E/62/arrow 274/62/arrow 274/87. Arrow heights 274 are dimensioned; arrow widths and horizontal positions are NOT dimensioned - the arrows are centred on the sign. Curved arrows from the inset: stem 59 wide (R185 outer / R126 inner), 48 straight then 75 deg; head 142 long x 181 wide, notch 13, R11 barbs, sharp tip; the upper arrow is the lower one rotated 180 deg. The inset dimensions the head to the sharp corners (marked with crosses beyond the R11 arcs), which is the arrow element's convention; the rounded outline is then 274 high as the stack states. The element box is the sharp-corner bounding box, positioned so the rounded outline is centred on the sign and on its 274 block (y 503-777 and 839-1113)."
 }

@@ -19,8 +19,21 @@
  },
  "elements": [
   {
-   "type": "symbol",
-   "id": "w3-1_up_arrow",
+   "type": "arrow",
+   "width": 81,
+   "heading": -90,
+   "path": [
+    {
+     "line": 94
+    }
+   ],
+   "head": {
+    "length": 125,
+    "width": 250,
+    "notch": 16,
+    "barb_r": 8,
+    "tip_r": 8
+   },
    "x": 405.33,
    "y": 140.33,
    "w": 250,

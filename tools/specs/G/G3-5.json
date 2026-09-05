@@ -41,7 +41,11 @@
     0,
     25
    ],
-   "colour": "white"
+   "colour": "white",
+   "stroke": {
+    "colour": "black",
+    "width": 2
+   }
   },
   {
    "type": "text",
@@ -86,5 +90,5 @@
   }
  ],
  "notes": "White road-name fingerboard with pointed right end, 200 high (40|120 D|40), R25 at the left corners (no radius stated for the point). Width 'Varies' = 100 + ink 1192.4 + 80 + 118 + 76 = 1566. Chain 100|text|80|118|76: 80 gap to the chevron's flat end, 118 from there to the sign corner, 76 point run. Chevron from the 50-grid detail: 160 high (80+80), V run 61, band 60 thick perpendicular (= 75.5 horizontal), overall 136.5, so its tip is at 1509 (57 before the sign tip, as on G3-3). GENERATOR GAP: a white polygon sign on the white ground has no outline; the keyline option only follows the rect shape, so the pointed outline is invisible in the SVG.",
- "intervene": "geometry verified, but the white pointed outline cannot be shown on a white ground - keyline only follows rect; intervene set"
+ "intervene": "white fingerboard on a white ground: drawn with a 2 mm black outline so it is visible; the drawing shows an outline but states no width - confirm the outline (or none)"
 }

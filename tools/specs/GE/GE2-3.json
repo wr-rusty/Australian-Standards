@@ -28,8 +28,22 @@
    "expect": 978
   },
   {
-   "type": "symbol",
-   "id": "arrow_diag_up_left_406",
+   "type": "arrow",
+   "width": 154,
+   "width_head": 124,
+   "heading": -135,
+   "path": [
+    {
+     "line": 216
+    }
+   ],
+   "head": {
+    "length": 286,
+    "width": 439,
+    "notch": 30,
+    "tip_r": 15,
+    "barb_r": 15
+   },
    "x": 697,
    "y": 877,
    "w": 406,
