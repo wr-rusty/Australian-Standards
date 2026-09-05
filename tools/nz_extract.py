@@ -225,7 +225,8 @@ def main(register=None):
                 while fn in seen: fn = re.sub(r"(_\d+)?_" + re.escape(code) + r"\.svg$", f"_{n}_{code}.svg", fn); n += 1
                 seen[fn] = 1
                 withheld = [t for t in sign["notes_text"] if "copyright" in t.lower()]
-                if withheld:   # NZTA does not supply the artwork (Standards NZ copyright); the sheet carries only a notice
+                if withheld and fam != "Symbols": note = (note + "; " if note else "") + "sheet carries a Standards NZ copyright notice over one example pictogram (NZS 8603 symbol)"
+                if withheld and fam == "Symbols":   # NZTA does not supply the artwork (Standards NZ copyright); the sheet carries only a notice
                     idir = os.path.join(out, "intervene", fam); os.makedirs(idir, exist_ok=True)
                     open(os.path.join(idir, fn), "w").write(svg)
                     rows.append([r["code"], r["title"], "intervene/" + fam, fn, f"{W:.0f}x{H:.0f} mm", r["dimensions"], "artwork not supplied by NZTA: sheet says " + " ".join(withheld)[:120]]); continue
