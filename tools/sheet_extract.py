@@ -225,7 +225,7 @@ def union_by_colour(fills, box):
     from shapely.geometry import Polygon
     from shapely.ops import unary_union
     for key, fs in groups.items():
-        polys = [f for f in fs if all(it[0] == "l" for it in f["items"]) and len(f["items"]) >= 3]
+        polys = [f for f in fs if all(it[0] == "l" for it in f["items"]) and len(f["items"]) >= 2]
         if len(polys) < 6: out += fs; continue
         out += [f for f in fs if f not in polys]
         shapes = []
@@ -323,8 +323,11 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
     doc = pymupdf.open(pdf); page = doc[pno]
     spans0 = raw_spans(page); F = Frame(page, spans0)
     spans = [dict(s, bbox=F.R(s["bbox"]), origin=F.P(s["origin"]), block_bbox=F.R(s["block_bbox"])) for s in spans0]
-    pdoc = pymupdf.open(paths_pdf(pdf)); ppage = pdoc[min(pno, len(pdoc) - 1)]
-    F2 = Frame.baked(ppage, F)      # the converted page carries the page rotation in its content already
+    if spans0:
+        pdoc = pymupdf.open(paths_pdf(pdf)); ppage = pdoc[min(pno, len(pdoc) - 1)]
+        F2 = Frame.baked(ppage, F)      # the converted page carries the page rotation in its content already
+    else:
+        ppage, F2 = page, F             # nothing to convert: read the original (keeps tessellated exports as separate pieces)
     fills = page_fills(ppage, F2) + closed_strokes(ppage, F2)
     if not fills: return []
     region = drawing_region(F, spans)
@@ -396,11 +399,14 @@ def extract_page(pdf, pno=0, min_area_frac=0.02):
             g = [virt] + g; panel = virt; hull = X.convex_hull(X.item_points(items)); bordered = True; assumed = True
         pr = panel["rect"] if bordered else box
         tri = [f for f in real if X.is_triangle(f["items"])]
-        triangulated = len(tri) > 60 and len(tri) > 0.4 * max(1, len(real))
+        pieces = [f for f in real if len(f["items"]) <= 5 and all(it[0] == "l" for it in f["items"])]        # triangles and quads of a tessellated export
+        triangulated = (len(tri) > 60 and len(tri) > 0.4 * max(1, len(real))) or (len(pieces) > 200 and len(pieces) > 0.6 * max(1, len(real)))
+        edge = 0.06 * min(pr.width, pr.height)      # a border drawn as bars around the panel sits just outside its outline
         def keep(f):
             r = f["rect"]; c = ((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
-            if bordered and not X.in_hull(hull, c) and f["area"] < 0.2 * box.get_area(): return False
-            if not triangulated and X.is_triangle(f["items"]) and f["area"] < 0.004 * pr.get_area(): return False   # dimension arrowheads
+            if bordered and not X.in_hull(hull, c, tol=edge) and f["area"] < 0.2 * box.get_area(): return False
+            if triangulated: return True                                                                 # every piece of a tessellated shape counts
+            if X.is_triangle(f["items"]) and f["area"] < 0.004 * pr.get_area(): return False   # dimension arrowheads
             if min(r.width, r.height) <= 1.0 and max(r.width, r.height) > 12 * min(r.width, r.height): return False  # leader / dimension / mask lines
             if min(r.width, r.height) <= 2.5 and max(r.width, r.height) > 40 * min(r.width, r.height): return False  # long dimension lines
             if f.get("virtual") and f["area"] < 0.01 * pr.get_area(): return False                                 # small closed strokes: symbols' outlines, arrows

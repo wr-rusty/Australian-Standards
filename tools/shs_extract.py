@@ -137,7 +137,8 @@ def fills_on_page(page):
     out = []; seen = set()
     for dr in page.get_drawings():
         if dr.get("fill") is None: continue
-        r = dr["rect"]; key = (round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1), dr["fill"], len(dr["items"]))
+        r = dr["rect"]; key = (round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1), dr["fill"], len(dr["items"]),
+                               tuple(round(float(v), 1) for it in dr["items"][:3] for p in it[1:3] if hasattr(p, "x") for v in (p.x, p.y)))   # two triangles of one rectangle share a bbox
         if key in seen: continue
         seen.add(key); out.append({"rect": r, "fill": dr["fill"], "items": dr["items"], "area": r.get_area(), "even_odd": dr.get("even_odd")})
     return out
@@ -177,7 +178,8 @@ def in_hull(hull, p, tol=0.5):
     return True
 
 def is_triangle(items):
-    if not 3 <= len(items) <= 4 or any(it[0] != "l" for it in items): return False
+    """Three distinct corners drawn with lines (2 segments plus the implicit close, or 3–4 segments)."""
+    if not 2 <= len(items) <= 4 or any(it[0] != "l" for it in items): return False
     return len({(round(p[0], 1), round(p[1], 1)) for it in items for p in (it[1], it[2])}) == 3
 
 def is_diamond(hull, pr):
