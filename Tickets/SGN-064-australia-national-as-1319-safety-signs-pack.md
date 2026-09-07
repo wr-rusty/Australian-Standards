@@ -1,6 +1,6 @@
 ---
 id: SGN-064
-title: Australia/National (AS 1319): safety signs pack
+title: Processing/Australia/National (AS 1319): safety signs pack
 status: open
 priority: P2
 area: layout
@@ -17,7 +17,7 @@ AS 1319 safety signs (not traffic) were parked on 2026-09-05: pictograms traced 
 ## Evidence
 
 - PLAN.md Status — AS 1319 TODO
-- Australia/National (AS 1319)/SVGs — Russell's 16 existing files
+- Processing/Australia/National (AS 1319)/SVGs — Russell's 16 existing files
 
 ## Fix
 

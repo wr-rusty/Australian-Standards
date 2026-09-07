@@ -8,17 +8,17 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def jobs():
     out = []
-    nsw = os.path.join(ROOT, "Australia", "NSW")
+    nsw = os.path.join(ROOT, "Processing", "Australia", "NSW")
     for r in csv.DictReader(open(os.path.join(nsw, "REGISTER.csv"))):
         if r["local"]: out.append((os.path.join(nsw, r["local"]), 0))
-    sa = os.path.join(ROOT, "Australia", "SA")
+    sa = os.path.join(ROOT, "Processing", "Australia", "SA")
     for r in csv.DictReader(open(os.path.join(sa, "REGISTER.csv"))):
         if r["local"] and r["hidden"] != "True": out.append((os.path.join(sa, r["local"]), 0))
     import qld_extract as Q, pymupdf
     for f in sorted(glob.glob(os.path.join(Q.SRC, "**", "*.pdf"), recursive=True)):
         if any(s in f.lower() for s in Q.SKIP_DIRS): continue
         out.append((f, 0))
-    qs = os.path.join(ROOT, "Australia", "QLD", "Original PDFs", "q-series.pdf")
+    qs = os.path.join(ROOT, "Processing", "Australia", "QLD", "Original PDFs", "q-series.pdf")
     if os.path.exists(qs):
         for p in range(pymupdf.open(qs).page_count): out.append((qs, p))
     return out

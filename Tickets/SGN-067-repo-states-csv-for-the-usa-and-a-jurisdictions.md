@@ -16,15 +16,15 @@ The platform resolves a user's jurisdiction to packs. Provide a machine-readable
 
 ## Evidence
 
-- Proposed layout agreed 2026-09-06: Australia/<State>, USA/<State>, UK/<Region>, New Zealand/National
+- Proposed layout agreed 2026-09-06: Processing/Australia/<State>, Processing/USA/<State>, UK/<Region>, Processing/New Zealand/National
 
 ## Fix
 
-Write USA/STATES.csv (51 rows) and JURISDICTIONS.md at the repo root; keep them updated as packs land.
+Write Processing/USA/STATES.csv (51 rows) and JURISDICTIONS.md at the repo root; keep them updated as packs land.
 
 ## Verify
 
-Every folder under Australia/, USA/, UK/, New Zealand/ appears in the map.
+Every folder under Processing/Australia/, Processing/USA/, UK/, Processing/New Zealand/ appears in the map.
 
 ## Log
 

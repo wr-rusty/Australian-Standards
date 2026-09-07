@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """tx_extract.py — Standard Highway Sign Designs for Texas (TxDOT SHSD 2012 rev 4, section PDFs) into
-USA/Texas/SVGs/<family>/ with MANIFEST.csv. The sheets follow the FHWA SHS layout, so shs_extract does the work with a
+Processing/USA/Texas/SVGs/<family>/ with MANIFEST.csv. The sheets follow the FHWA SHS layout, so shs_extract does the work with a
 wider code pattern (R1-2bTP, R7-107R (L,DBL)) and 11 pt labels.
   python3 tools/tx_extract.py [section]"""
 import os, re, sys, csv, glob, collections
@@ -8,7 +8,7 @@ import pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import shs_extract as X, shs_organise as O
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TX = os.path.join(ROOT, "USA", "Texas")
+TX = os.path.join(ROOT, "Processing", "USA", "Texas")
 X.CODE_RE = re.compile(r"^([A-Z]{1,2}\d{0,2}-\d{1,3}[a-zA-Z]{0,3}(?:\s?[LRVHC])?(?:\s?\([^)]*\))?)$"); X.LABEL_MIN_SIZE = 11
 
 def family(code):

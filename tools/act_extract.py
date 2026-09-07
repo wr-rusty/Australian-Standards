@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""act_extract.py — ACT (TCCS) municipal standard drawings for signs (ACTSD-36xx/37xx) into Australia/ACT/SVGs/<family>/
+"""act_extract.py — ACT (TCCS) municipal standard drawings for signs (ACTSD-36xx/37xx) into Processing/Australia/ACT/SVGs/<family>/
 with MANIFEST.csv via sheet_extract. Scanned sheets (most of the parking-sign series) are listed without a file.
   python3 tools/act_extract.py"""
 import os, re, sys, csv, glob, collections, pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ACT = os.path.join(ROOT, "Australia", "ACT")
+ACT = os.path.join(ROOT, "Processing", "Australia", "ACT")
 TITLES = {"3601": "Vertical and lateral sign positioning", "3602": "Endorsed sign systems", "3610": "School zone sign details", "3611": "Refuge island sign details",
           "3620": "Finger board sign details", "3630": "Signpost and footing details", "3750": "Park and Ride directional signage", "3751": "Directional signage - electric vehicle charging"}
 def family(n):

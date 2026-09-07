@@ -8,72 +8,72 @@ Open: 67 (P1 18, P2 49) · Closed: 0
 
 | ID | Pri | Status | Area | Title |
 |---|---|---|---|---|
-| [SGN-001](SGN-001-australia-nsw-state-sign-pack.md) | P1 | in-progress | sources | Australia/NSW: state sign pack |
-| [SGN-002](SGN-002-australia-vic-state-sign-pack.md) | P1 | in-progress | sources | Australia/VIC: state sign pack |
-| [SGN-003](SGN-003-australia-qld-state-sign-pack.md) | P1 | in-progress | sources | Australia/QLD: state sign pack |
-| [SGN-004](SGN-004-australia-wa-state-sign-pack.md) | P1 | in-progress | sources | Australia/WA: state sign pack |
-| [SGN-005](SGN-005-australia-sa-state-sign-pack.md) | P1 | in-progress | sources | Australia/SA: state sign pack |
-| [SGN-006](SGN-006-australia-tas-state-sign-pack.md) | P1 | blocked | sources | Australia/TAS: state sign pack |
-| [SGN-007](SGN-007-australia-nt-state-sign-pack.md) | P1 | blocked | sources | Australia/NT: state sign pack |
-| [SGN-008](SGN-008-australia-act-state-sign-pack.md) | P1 | blocked | sources | Australia/ACT: state sign pack |
-| [SGN-064](SGN-064-australia-national-as-1319-safety-signs-pack.md) | P2 | open | layout | Australia/National (AS 1319): safety signs pack |
+| [SGN-001](SGN-001-australia-nsw-state-sign-pack.md) | P1 | in-progress | sources | Processing/Australia/NSW: state sign pack |
+| [SGN-002](SGN-002-australia-vic-state-sign-pack.md) | P1 | in-progress | sources | Processing/Australia/VIC: state sign pack |
+| [SGN-003](SGN-003-australia-qld-state-sign-pack.md) | P1 | in-progress | sources | Processing/Australia/QLD: state sign pack |
+| [SGN-004](SGN-004-australia-wa-state-sign-pack.md) | P1 | in-progress | sources | Processing/Australia/WA: state sign pack |
+| [SGN-005](SGN-005-australia-sa-state-sign-pack.md) | P1 | in-progress | sources | Processing/Australia/SA: state sign pack |
+| [SGN-006](SGN-006-australia-tas-state-sign-pack.md) | P1 | blocked | sources | Processing/Australia/TAS: state sign pack |
+| [SGN-007](SGN-007-australia-nt-state-sign-pack.md) | P1 | blocked | sources | Processing/Australia/NT: state sign pack |
+| [SGN-008](SGN-008-australia-act-state-sign-pack.md) | P1 | blocked | sources | Processing/Australia/ACT: state sign pack |
+| [SGN-064](SGN-064-australia-national-as-1319-safety-signs-pack.md) | P2 | open | layout | Processing/Australia/National (AS 1319): safety signs pack |
 
 ## USA — federal and state packs (`usa`)
 
 | ID | Pri | Status | Area | Title |
 |---|---|---|---|---|
-| [SGN-009](SGN-009-usa-california-state-sign-pack.md) | P1 | in-progress | sources | USA/California: state sign pack |
-| [SGN-010](SGN-010-usa-texas-state-sign-pack.md) | P1 | in-progress | sources | USA/Texas: state sign pack |
-| [SGN-011](SGN-011-usa-minnesota-state-sign-pack.md) | P1 | in-progress | sources | USA/Minnesota: state sign pack |
-| [SGN-012](SGN-012-usa-ohio-state-sign-pack.md) | P1 | open | sources | USA/Ohio: state sign pack |
-| [SGN-013](SGN-013-usa-michigan-state-sign-pack.md) | P1 | open | sources | USA/Michigan: state sign pack |
-| [SGN-014](SGN-014-usa-washington-state-sign-pack.md) | P1 | open | sources | USA/Washington: state sign pack |
-| [SGN-015](SGN-015-usa-new-york-state-sign-pack.md) | P1 | open | sources | USA/New York: state sign pack |
-| [SGN-016](SGN-016-usa-pennsylvania-state-sign-pack.md) | P1 | open | sources | USA/Pennsylvania: state sign pack |
-| [SGN-017](SGN-017-usa-florida-state-sign-pack.md) | P1 | open | sources | USA/Florida: state sign pack |
-| [SGN-018](SGN-018-usa-illinois-state-sign-pack.md) | P1 | open | sources | USA/Illinois: state sign pack |
-| [SGN-019](SGN-019-usa-alabama-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Alabama: confirm adoption status and any state-specific signs |
-| [SGN-020](SGN-020-usa-alaska-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Alaska: confirm adoption status and any state-specific signs |
-| [SGN-021](SGN-021-usa-arizona-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Arizona: confirm adoption status and any state-specific signs |
-| [SGN-022](SGN-022-usa-arkansas-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Arkansas: confirm adoption status and any state-specific signs |
-| [SGN-023](SGN-023-usa-colorado-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Colorado: confirm adoption status and any state-specific signs |
-| [SGN-024](SGN-024-usa-connecticut-confirm-adoption-status-and-any.md) | P2 | open | sources | USA/Connecticut: confirm adoption status and any state-specific signs |
-| [SGN-025](SGN-025-usa-delaware-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Delaware: confirm adoption status and any state-specific signs |
-| [SGN-026](SGN-026-usa-district-of-columbia-confirm-adoption-status.md) | P2 | open | sources | USA/District of Columbia: confirm adoption status and any state-specific signs |
-| [SGN-027](SGN-027-usa-georgia-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Georgia: confirm adoption status and any state-specific signs |
-| [SGN-028](SGN-028-usa-hawaii-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Hawaii: confirm adoption status and any state-specific signs |
-| [SGN-029](SGN-029-usa-idaho-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Idaho: confirm adoption status and any state-specific signs |
-| [SGN-030](SGN-030-usa-indiana-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Indiana: confirm adoption status and any state-specific signs |
-| [SGN-031](SGN-031-usa-iowa-confirm-adoption-status-and-any-state-s.md) | P2 | open | sources | USA/Iowa: confirm adoption status and any state-specific signs |
-| [SGN-032](SGN-032-usa-kansas-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Kansas: confirm adoption status and any state-specific signs |
-| [SGN-033](SGN-033-usa-kentucky-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Kentucky: confirm adoption status and any state-specific signs |
-| [SGN-034](SGN-034-usa-louisiana-confirm-adoption-status-and-any-st.md) | P2 | open | sources | USA/Louisiana: confirm adoption status and any state-specific signs |
-| [SGN-035](SGN-035-usa-maine-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Maine: confirm adoption status and any state-specific signs |
-| [SGN-036](SGN-036-usa-maryland-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Maryland: confirm adoption status and any state-specific signs |
-| [SGN-037](SGN-037-usa-massachusetts-confirm-adoption-status-and-an.md) | P2 | open | sources | USA/Massachusetts: confirm adoption status and any state-specific signs |
-| [SGN-038](SGN-038-usa-mississippi-confirm-adoption-status-and-any.md) | P2 | open | sources | USA/Mississippi: confirm adoption status and any state-specific signs |
-| [SGN-039](SGN-039-usa-missouri-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Missouri: confirm adoption status and any state-specific signs |
-| [SGN-040](SGN-040-usa-montana-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Montana: confirm adoption status and any state-specific signs |
-| [SGN-041](SGN-041-usa-nebraska-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Nebraska: confirm adoption status and any state-specific signs |
-| [SGN-042](SGN-042-usa-nevada-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Nevada: confirm adoption status and any state-specific signs |
-| [SGN-043](SGN-043-usa-new-hampshire-confirm-adoption-status-and-an.md) | P2 | open | sources | USA/New Hampshire: confirm adoption status and any state-specific signs |
-| [SGN-044](SGN-044-usa-new-jersey-confirm-adoption-status-and-any-s.md) | P2 | open | sources | USA/New Jersey: confirm adoption status and any state-specific signs |
-| [SGN-045](SGN-045-usa-new-mexico-confirm-adoption-status-and-any-s.md) | P2 | open | sources | USA/New Mexico: confirm adoption status and any state-specific signs |
-| [SGN-046](SGN-046-usa-north-carolina-confirm-adoption-status-and-a.md) | P2 | open | sources | USA/North Carolina: confirm adoption status and any state-specific signs |
-| [SGN-047](SGN-047-usa-north-dakota-confirm-adoption-status-and-any.md) | P2 | open | sources | USA/North Dakota: confirm adoption status and any state-specific signs |
-| [SGN-048](SGN-048-usa-oklahoma-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Oklahoma: confirm adoption status and any state-specific signs |
-| [SGN-049](SGN-049-usa-oregon-confirm-adoption-status-and-any-state.md) | P2 | open | sources | USA/Oregon: confirm adoption status and any state-specific signs |
-| [SGN-050](SGN-050-usa-rhode-island-confirm-adoption-status-and-any.md) | P2 | open | sources | USA/Rhode Island: confirm adoption status and any state-specific signs |
-| [SGN-051](SGN-051-usa-south-carolina-confirm-adoption-status-and-a.md) | P2 | open | sources | USA/South Carolina: confirm adoption status and any state-specific signs |
-| [SGN-052](SGN-052-usa-south-dakota-confirm-adoption-status-and-any.md) | P2 | open | sources | USA/South Dakota: confirm adoption status and any state-specific signs |
-| [SGN-053](SGN-053-usa-tennessee-confirm-adoption-status-and-any-st.md) | P2 | open | sources | USA/Tennessee: confirm adoption status and any state-specific signs |
-| [SGN-054](SGN-054-usa-utah-confirm-adoption-status-and-any-state-s.md) | P2 | open | sources | USA/Utah: confirm adoption status and any state-specific signs |
-| [SGN-055](SGN-055-usa-vermont-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Vermont: confirm adoption status and any state-specific signs |
-| [SGN-056](SGN-056-usa-virginia-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | USA/Virginia: confirm adoption status and any state-specific signs |
-| [SGN-057](SGN-057-usa-west-virginia-confirm-adoption-status-and-an.md) | P2 | open | sources | USA/West Virginia: confirm adoption status and any state-specific signs |
-| [SGN-058](SGN-058-usa-wisconsin-confirm-adoption-status-and-any-st.md) | P2 | open | sources | USA/Wisconsin: confirm adoption status and any state-specific signs |
-| [SGN-059](SGN-059-usa-wyoming-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | USA/Wyoming: confirm adoption status and any state-specific signs |
-| [SGN-065](SGN-065-usa-federal-review-the-check-size-rows-and-page.md) | P2 | open | qa | USA/Federal: review the 'check' size rows and page-scale guide signs in MANIFEST.csv |
+| [SGN-009](SGN-009-usa-california-state-sign-pack.md) | P1 | in-progress | sources | Processing/USA/California: state sign pack |
+| [SGN-010](SGN-010-usa-texas-state-sign-pack.md) | P1 | in-progress | sources | Processing/USA/Texas: state sign pack |
+| [SGN-011](SGN-011-usa-minnesota-state-sign-pack.md) | P1 | in-progress | sources | Processing/USA/Minnesota: state sign pack |
+| [SGN-012](SGN-012-usa-ohio-state-sign-pack.md) | P1 | open | sources | Processing/USA/Ohio: state sign pack |
+| [SGN-013](SGN-013-usa-michigan-state-sign-pack.md) | P1 | open | sources | Processing/USA/Michigan: state sign pack |
+| [SGN-014](SGN-014-usa-washington-state-sign-pack.md) | P1 | open | sources | Processing/USA/Washington: state sign pack |
+| [SGN-015](SGN-015-usa-new-york-state-sign-pack.md) | P1 | open | sources | Processing/USA/New York: state sign pack |
+| [SGN-016](SGN-016-usa-pennsylvania-state-sign-pack.md) | P1 | open | sources | Processing/USA/Pennsylvania: state sign pack |
+| [SGN-017](SGN-017-usa-florida-state-sign-pack.md) | P1 | open | sources | Processing/USA/Florida: state sign pack |
+| [SGN-018](SGN-018-usa-illinois-state-sign-pack.md) | P1 | open | sources | Processing/USA/Illinois: state sign pack |
+| [SGN-019](SGN-019-usa-alabama-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Alabama: confirm adoption status and any state-specific signs |
+| [SGN-020](SGN-020-usa-alaska-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Alaska: confirm adoption status and any state-specific signs |
+| [SGN-021](SGN-021-usa-arizona-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Arizona: confirm adoption status and any state-specific signs |
+| [SGN-022](SGN-022-usa-arkansas-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Arkansas: confirm adoption status and any state-specific signs |
+| [SGN-023](SGN-023-usa-colorado-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Colorado: confirm adoption status and any state-specific signs |
+| [SGN-024](SGN-024-usa-connecticut-confirm-adoption-status-and-any.md) | P2 | open | sources | Processing/USA/Connecticut: confirm adoption status and any state-specific signs |
+| [SGN-025](SGN-025-usa-delaware-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Delaware: confirm adoption status and any state-specific signs |
+| [SGN-026](SGN-026-usa-district-of-columbia-confirm-adoption-status.md) | P2 | open | sources | Processing/USA/District of Columbia: confirm adoption status and any state-specific signs |
+| [SGN-027](SGN-027-usa-georgia-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Georgia: confirm adoption status and any state-specific signs |
+| [SGN-028](SGN-028-usa-hawaii-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Hawaii: confirm adoption status and any state-specific signs |
+| [SGN-029](SGN-029-usa-idaho-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Idaho: confirm adoption status and any state-specific signs |
+| [SGN-030](SGN-030-usa-indiana-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Indiana: confirm adoption status and any state-specific signs |
+| [SGN-031](SGN-031-usa-iowa-confirm-adoption-status-and-any-state-s.md) | P2 | open | sources | Processing/USA/Iowa: confirm adoption status and any state-specific signs |
+| [SGN-032](SGN-032-usa-kansas-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Kansas: confirm adoption status and any state-specific signs |
+| [SGN-033](SGN-033-usa-kentucky-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Kentucky: confirm adoption status and any state-specific signs |
+| [SGN-034](SGN-034-usa-louisiana-confirm-adoption-status-and-any-st.md) | P2 | open | sources | Processing/USA/Louisiana: confirm adoption status and any state-specific signs |
+| [SGN-035](SGN-035-usa-maine-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Maine: confirm adoption status and any state-specific signs |
+| [SGN-036](SGN-036-usa-maryland-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Maryland: confirm adoption status and any state-specific signs |
+| [SGN-037](SGN-037-usa-massachusetts-confirm-adoption-status-and-an.md) | P2 | open | sources | Processing/USA/Massachusetts: confirm adoption status and any state-specific signs |
+| [SGN-038](SGN-038-usa-mississippi-confirm-adoption-status-and-any.md) | P2 | open | sources | Processing/USA/Mississippi: confirm adoption status and any state-specific signs |
+| [SGN-039](SGN-039-usa-missouri-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Missouri: confirm adoption status and any state-specific signs |
+| [SGN-040](SGN-040-usa-montana-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Montana: confirm adoption status and any state-specific signs |
+| [SGN-041](SGN-041-usa-nebraska-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Nebraska: confirm adoption status and any state-specific signs |
+| [SGN-042](SGN-042-usa-nevada-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Nevada: confirm adoption status and any state-specific signs |
+| [SGN-043](SGN-043-usa-new-hampshire-confirm-adoption-status-and-an.md) | P2 | open | sources | Processing/USA/New Hampshire: confirm adoption status and any state-specific signs |
+| [SGN-044](SGN-044-usa-new-jersey-confirm-adoption-status-and-any-s.md) | P2 | open | sources | Processing/USA/New Jersey: confirm adoption status and any state-specific signs |
+| [SGN-045](SGN-045-usa-new-mexico-confirm-adoption-status-and-any-s.md) | P2 | open | sources | Processing/USA/New Mexico: confirm adoption status and any state-specific signs |
+| [SGN-046](SGN-046-usa-north-carolina-confirm-adoption-status-and-a.md) | P2 | open | sources | Processing/USA/North Carolina: confirm adoption status and any state-specific signs |
+| [SGN-047](SGN-047-usa-north-dakota-confirm-adoption-status-and-any.md) | P2 | open | sources | Processing/USA/North Dakota: confirm adoption status and any state-specific signs |
+| [SGN-048](SGN-048-usa-oklahoma-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Oklahoma: confirm adoption status and any state-specific signs |
+| [SGN-049](SGN-049-usa-oregon-confirm-adoption-status-and-any-state.md) | P2 | open | sources | Processing/USA/Oregon: confirm adoption status and any state-specific signs |
+| [SGN-050](SGN-050-usa-rhode-island-confirm-adoption-status-and-any.md) | P2 | open | sources | Processing/USA/Rhode Island: confirm adoption status and any state-specific signs |
+| [SGN-051](SGN-051-usa-south-carolina-confirm-adoption-status-and-a.md) | P2 | open | sources | Processing/USA/South Carolina: confirm adoption status and any state-specific signs |
+| [SGN-052](SGN-052-usa-south-dakota-confirm-adoption-status-and-any.md) | P2 | open | sources | Processing/USA/South Dakota: confirm adoption status and any state-specific signs |
+| [SGN-053](SGN-053-usa-tennessee-confirm-adoption-status-and-any-st.md) | P2 | open | sources | Processing/USA/Tennessee: confirm adoption status and any state-specific signs |
+| [SGN-054](SGN-054-usa-utah-confirm-adoption-status-and-any-state-s.md) | P2 | open | sources | Processing/USA/Utah: confirm adoption status and any state-specific signs |
+| [SGN-055](SGN-055-usa-vermont-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Vermont: confirm adoption status and any state-specific signs |
+| [SGN-056](SGN-056-usa-virginia-confirm-adoption-status-and-any-sta.md) | P2 | open | sources | Processing/USA/Virginia: confirm adoption status and any state-specific signs |
+| [SGN-057](SGN-057-usa-west-virginia-confirm-adoption-status-and-an.md) | P2 | open | sources | Processing/USA/West Virginia: confirm adoption status and any state-specific signs |
+| [SGN-058](SGN-058-usa-wisconsin-confirm-adoption-status-and-any-st.md) | P2 | open | sources | Processing/USA/Wisconsin: confirm adoption status and any state-specific signs |
+| [SGN-059](SGN-059-usa-wyoming-confirm-adoption-status-and-any-stat.md) | P2 | open | sources | Processing/USA/Wyoming: confirm adoption status and any state-specific signs |
+| [SGN-065](SGN-065-usa-federal-review-the-check-size-rows-and-page.md) | P2 | open | qa | Processing/USA/Federal: review the 'check' size rows and page-scale guide signs in MANIFEST.csv |
 
 ## New Zealand — TCD Manual pack (`nz`)
 

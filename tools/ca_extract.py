@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ca_extract.py — Caltrans California Sign Specification sheets into USA/California/SVGs/<family>/<NAME>_<CODE>.svg with
+"""ca_extract.py — Caltrans California Sign Specification sheets into Processing/USA/California/SVGs/<family>/<NAME>_<CODE>.svg with
 MANIFEST.csv, via sheet_extract. Caltrans draws each sign in two tones (white panel, black legend) and states the real colours
 in a COLORS note, so the drawing is recoloured from that note: on a light background the white panel takes the background
 colour and black takes the dark legend colour (whites nested inside black stay white); on a dark background black takes the
@@ -10,7 +10,7 @@ import os, re, sys, csv, collections, pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CA = os.path.join(ROOT, "USA", "California")
+CA = os.path.join(ROOT, "Processing", "USA", "California")
 RGB = {"WHITE": "#ffffff", "BLACK": "#231f20", "YELLOW": "#ffd046", "RED": "#bf301a", "ORANGE": "#f7921d", "GREEN": "#006f54", "BLUE": "#005a9c", "BROWN": "#7d4803",
        "FLUORESCENT YELLOW-GREEN": "#bed73d", "FLUORESCENT YELLOW": "#fff500", "FLUORESCENT ORANGE": "#f7921d", "FLUORESCENT PINK": "#ec6aa0", "PURPLE": "#6d276a", "YELLOW-GREEN": "#bed73d"}
 LIGHT = {"WHITE", "YELLOW", "ORANGE", "FLUORESCENT YELLOW-GREEN", "FLUORESCENT YELLOW", "FLUORESCENT ORANGE", "FLUORESCENT PINK", "YELLOW-GREEN"}

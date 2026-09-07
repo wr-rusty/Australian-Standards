@@ -1,6 +1,6 @@
 ---
 id: SGN-018
-title: USA/Illinois: state sign pack
+title: Processing/USA/Illinois: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/Illinois/` with the state-specific signs from IDOT Sign Design Manual / Illinois supplement; the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/Illinois/` with the state-specific signs from IDOT Sign Design Manual / Illinois supplement; the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/Illinois/` with the state-specific signs from IDOT Sign Design Manual
 
 ## Fix
 
-Download the state's sign sheets into `USA/Illinois/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/Illinois/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 

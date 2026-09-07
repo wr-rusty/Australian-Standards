@@ -1,6 +1,6 @@
 ---
 id: SGN-012
-title: USA/Ohio: state sign pack
+title: Processing/USA/Ohio: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/Ohio/` with the state-specific signs from OMUTCD + ODOT Sign Designs & Markings Manual (SDMM); the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/Ohio/` with the state-specific signs from OMUTCD + ODOT Sign Designs & Markings Manual (SDMM); the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/Ohio/` with the state-specific signs from OMUTCD + ODOT Sign Designs 
 
 ## Fix
 
-Download the state's sign sheets into `USA/Ohio/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/Ohio/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 

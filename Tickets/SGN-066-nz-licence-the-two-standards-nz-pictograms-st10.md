@@ -16,7 +16,7 @@ NZTA withholds these two NZS 8603 symbols; the pack lifts them from NZTA's touri
 
 ## Evidence
 
-- New Zealand/National (TCD Manual)/SVGs/MANIFEST.csv rows ST10, ST11
+- Processing/New Zealand/National (TCD Manual)/SVGs/MANIFEST.csv rows ST10, ST11
 - NZTA copyright statement on the register
 
 ## Fix

@@ -2,12 +2,12 @@
 """nsw_crawl.py — crawl the Transport for NSW traffic sign register and download every sign design plan.
 
   python3 tools/nsw_crawl.py
-Writes Australia/NSW/REGISTER.csv (sign no, description, standard sign?, use by council, legislative reference,
+Writes Processing/Australia/NSW/REGISTER.csv (sign no, description, standard sign?, use by council, legislative reference,
 technical references, image, design plan URL, local file) and downloads the design plan PDFs into
-Australia/NSW/Original PDFs/. HTML is cached under NSW_CACHE (default .nsw_cache/) so re-runs do not re-fetch."""
+Processing/Australia/NSW/Original PDFs/. HTML is cached under NSW_CACHE (default .nsw_cache/) so re-runs do not re-fetch."""
 import os, re, sys, csv, time, subprocess, html as H
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NSW = os.path.join(ROOT, "Australia", "NSW")
+NSW = os.path.join(ROOT, "Processing", "Australia", "NSW")
 BASE = "https://www.transport.nsw.gov.au"
 REG = "/operations/roads-and-waterways/traffic-signs"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0 Safari/537.36"

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """vic_extract.py — Victoria's DTP Supplement to AS 1743 (TEM Vol 2 Part 2.17, one V-series sign drawing per page) and
-TEM Vol 3 Part 2.12 (tourist and service signs) into Australia/VIC/SVGs/<family>/<NAME>_<CODE>.svg with MANIFEST.csv,
+TEM Vol 3 Part 2.12 (tourist and service signs) into Processing/Australia/VIC/SVGs/<family>/<NAME>_<CODE>.svg with MANIFEST.csv,
 via sheet_extract page by page. Names come from the books' index tables (Sign No. / Description / Drawing No.).
   python3 tools/vic_extract.py [limit]"""
 import os, re, sys, csv, glob, collections, pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VIC = os.path.join(ROOT, "Australia", "VIC")
+VIC = os.path.join(ROOT, "Processing", "Australia", "VIC")
 BOOKS = ["TEM-Vol-2-Part-2.17-AS1743-Road-Signs-Specifications-_v2_.pdf", "TEM-Vol-3-Part-2.12-Tourist-and-Services-Signs.pdf"]
 CODE = re.compile(r"\b([A-Z]{1,2})\s?(\d{1,2})\s?-\s?V\s?(\d{1,3})\s?([A-Z]?)(?:\s?-\s?(\d))?\b")
 SYM = re.compile(r"\bS\s?-\s?V\s?(\d{2,3})\b")

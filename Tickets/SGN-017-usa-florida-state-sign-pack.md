@@ -1,6 +1,6 @@
 ---
 id: SGN-017
-title: USA/Florida: state sign pack
+title: Processing/USA/Florida: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/Florida/` with the state-specific signs from FDOT supplement + Florida-specific signs; the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/Florida/` with the state-specific signs from FDOT supplement + Florida-specific signs; the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/Florida/` with the state-specific signs from FDOT supplement + Florid
 
 ## Fix
 
-Download the state's sign sheets into `USA/Florida/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/Florida/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 

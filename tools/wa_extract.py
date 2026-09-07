@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""wa_extract.py — Main Roads WA Signs Index DWGs into Australia/WA/SVGs/<Category>/<NAME>_<CODE>.svg with MANIFEST.csv.
+"""wa_extract.py — Main Roads WA Signs Index DWGs into Processing/Australia/WA/SVGs/<Category>/<NAME>_<CODE>.svg with MANIFEST.csv.
 
 The DWG is converted with LibreDWG (dwg2dxf), loaded with ezdxf's recovery reader, stripped of its sheet furniture
 (title block, logos, dimensions, notes, scale bars, text) and rendered true-size (1 drawing unit = 1 mm) to SVG with
@@ -13,7 +13,7 @@ from ezdxf import recover, bbox
 from ezdxf.addons.drawing import Frontend, RenderContext, svg, layout, config
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WA = os.path.join(ROOT, "Australia", "WA")
+WA = os.path.join(ROOT, "Processing", "Australia", "WA")
 CACHE = os.environ.get("WA_CACHE", os.path.join(os.path.dirname(SE.CACHE), ".wa_cache") if os.environ.get("SHEET_CACHE") else os.path.join(ROOT, ".wa_cache"))
 INK = SE.INK
 FURNITURE_BLOCKS = re.compile(r"^(A3BBLK|MR logo|State Logo|a3_in_vtblk|sca\d|.*DES$|SGNDIM|.*TITLE.*|.*LOGO.*|.*BORDER.*|.*NOTES?.*)$", re.I)

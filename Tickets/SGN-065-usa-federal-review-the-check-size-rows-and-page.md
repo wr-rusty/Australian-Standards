@@ -1,6 +1,6 @@
 ---
 id: SGN-065
-title: USA/Federal: review the 'check' size rows and page-scale guide signs in MANIFEST.csv
+title: Processing/USA/Federal: review the 'check' size rows and page-scale guide signs in MANIFEST.csv
 status: open
 priority: P2
 area: qa
@@ -16,7 +16,7 @@ The 2024 SHS tables have no conventional-road marker; 492 manifest rows carry a 
 
 ## Evidence
 
-- USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv — notes column
+- Processing/USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv — notes column
 - tools/shs_extract.py choose_row()
 
 ## Fix

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """qld_extract.py — Queensland TC signs (TMR 'officially approved' traffic control signs) into
-Australia/QLD/SVGs/<category>/<NAME>_<CODE>.svg with MANIFEST.csv, via sheet_extract. Superseded sheets are skipped.
+Processing/Australia/QLD/SVGs/<category>/<NAME>_<CODE>.svg with MANIFEST.csv, via sheet_extract. Superseded sheets are skipped.
   python3 tools/qld_extract.py [limit]"""
 import os, re, sys, csv, glob, collections, traceback
 import pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-QLD = os.path.join(ROOT, "Australia", "QLD")
+QLD = os.path.join(ROOT, "Processing", "Australia", "QLD")
 SRC = glob.glob(os.path.join(QLD, "Original PDFs", "TC signs", "TC Signs_*"))[0]
 SKIP_DIRS = ("superseded", "tc signs index", "qld govt logo", "signing & pavement marking layouts")
 
@@ -60,7 +60,7 @@ def main(limit=None):
 QCODE = re.compile(r"[A-Z]{1,3}\d{0,2}(?:-\d+){0,3}-Q\d+[A-Z]?(?:_\d+)?|Q\d+-\d+")
 
 def qseries(limit=None):
-    """MUTCD Q-series book: one sign per page, TC-style title block -> Australia/QLD/SVGs/Q-Series/."""
+    """MUTCD Q-series book: one sign per page, TC-style title block -> Processing/Australia/QLD/SVGs/Q-Series/."""
     pdf = os.path.join(QLD, "Original PDFs", "q-series.pdf"); doc = pymupdf.open(pdf)
     out = os.path.join(QLD, "SVGs"); folder = os.path.join(out, "Q-Series"); os.makedirs(folder, exist_ok=True)
     rows = []; seen = {}

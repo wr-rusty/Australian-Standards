@@ -2,12 +2,12 @@
 """wa_crawl.py — crawl the Main Roads WA Signs Index (technical library) and download every sign's PDF and DWG.
 
 The library is served by /api/documents/search?nodeid=<node>; the Signs Index node tree (series such as
-'Speed Series (MR-RS)') comes from the same API. Writes Australia/WA/REGISTER.csv (series, title, summary with size and
-MR code, files) and downloads into Australia/WA/Original PDFs/<Category>/<Series>/.
+'Speed Series (MR-RS)') comes from the same API. Writes Processing/Australia/WA/REGISTER.csv (series, title, summary with size and
+MR code, files) and downloads into Processing/Australia/WA/Original PDFs/<Category>/<Series>/.
   python3 tools/wa_crawl.py"""
 import os, re, sys, csv, json, time, subprocess
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WA = os.path.join(ROOT, "Australia", "WA")
+WA = os.path.join(ROOT, "Processing", "Australia", "WA")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0 Safari/537.36"
 API = "https://www.mainroads.wa.gov.au/api/documents/search"
 SIGNS_INDEX = "11489_745"

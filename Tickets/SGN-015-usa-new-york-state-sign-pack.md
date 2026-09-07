@@ -1,6 +1,6 @@
 ---
 id: SGN-015
-title: USA/New York: state sign pack
+title: Processing/USA/New York: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/New York/` with the state-specific signs from NYSDOT supplement + New York State Signs catalog; the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/New York/` with the state-specific signs from NYSDOT supplement + New York State Signs catalog; the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/New York/` with the state-specific signs from NYSDOT supplement + New
 
 ## Fix
 
-Download the state's sign sheets into `USA/New York/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/New York/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 

@@ -1,6 +1,6 @@
 ---
 id: SGN-052
-title: USA/South Dakota: confirm adoption status and any state-specific signs
+title: Processing/USA/South Dakota: confirm adoption status and any state-specific signs
 status: open
 priority: P2
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-South Dakota is not in the first US batch. Confirm on FHWA's MUTCD adoption page whether South Dakota adopts the national MUTCD as is, with a state supplement, or has its own state MUTCD, and whether it publishes state-specific sign sheets. Only a pack with state-only signs needs building; otherwise record 'federal pack applies' in `USA/STATES.csv`.
+South Dakota is not in the first US batch. Confirm on FHWA's MUTCD adoption page whether South Dakota adopts the national MUTCD as is, with a state supplement, or has its own state MUTCD, and whether it publishes state-specific sign sheets. Only a pack with state-only signs needs building; otherwise record 'federal pack applies' in `Processing/USA/STATES.csv`.
 
 ## Evidence
 
@@ -21,7 +21,7 @@ South Dakota is not in the first US batch. Confirm on FHWA's MUTCD adoption page
 
 ## Fix
 
-Record the adoption status in `USA/STATES.csv`; if state-only sheets exist, download them and build `USA/South Dakota/` like the major-state packs.
+Record the adoption status in `Processing/USA/STATES.csv`; if state-only sheets exist, download them and build `Processing/USA/South Dakota/` like the major-state packs.
 
 ## Verify
 

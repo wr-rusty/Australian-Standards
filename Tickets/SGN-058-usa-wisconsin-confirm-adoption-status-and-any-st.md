@@ -1,6 +1,6 @@
 ---
 id: SGN-058
-title: USA/Wisconsin: confirm adoption status and any state-specific signs
+title: Processing/USA/Wisconsin: confirm adoption status and any state-specific signs
 status: open
 priority: P2
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Wisconsin is not in the first US batch. Confirm on FHWA's MUTCD adoption page whether Wisconsin adopts the national MUTCD as is, with a state supplement, or has its own state MUTCD, and whether it publishes state-specific sign sheets. Only a pack with state-only signs needs building; otherwise record 'federal pack applies' in `USA/STATES.csv`.
+Wisconsin is not in the first US batch. Confirm on FHWA's MUTCD adoption page whether Wisconsin adopts the national MUTCD as is, with a state supplement, or has its own state MUTCD, and whether it publishes state-specific sign sheets. Only a pack with state-only signs needs building; otherwise record 'federal pack applies' in `Processing/USA/STATES.csv`.
 
 ## Evidence
 
@@ -21,7 +21,7 @@ Wisconsin is not in the first US batch. Confirm on FHWA's MUTCD adoption page wh
 
 ## Fix
 
-Record the adoption status in `USA/STATES.csv`; if state-only sheets exist, download them and build `USA/Wisconsin/` like the major-state packs.
+Record the adoption status in `Processing/USA/STATES.csv`; if state-only sheets exist, download them and build `Processing/USA/Wisconsin/` like the major-state packs.
 
 ## Verify
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""nsw_extract.py — Transport for NSW traffic sign register design plans into Australia/NSW/SVGs/<family>/<NAME>_<CODE>.svg
-with MANIFEST.csv, via sheet_extract. Driven by Australia/NSW/REGISTER.csv (nsw_crawl.py).
+"""nsw_extract.py — Transport for NSW traffic sign register design plans into Processing/Australia/NSW/SVGs/<family>/<NAME>_<CODE>.svg
+with MANIFEST.csv, via sheet_extract. Driven by Processing/Australia/NSW/REGISTER.csv (nsw_crawl.py).
 Signs whose code also exists in the national AS 1743 set are still produced (NSW draws its own plans), and the manifest
 says which are NSW-only ('n' suffix or a code absent from the national manifest).
   python3 tools/nsw_extract.py [limit]"""
@@ -8,8 +8,8 @@ import os, re, sys, csv, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NSW = os.path.join(ROOT, "Australia", "NSW")
-NATIONAL = os.path.join(ROOT, "Australia", "National (AS 1743)", "SVGs", "MANIFEST.csv")
+NSW = os.path.join(ROOT, "Processing", "Australia", "NSW")
+NATIONAL = os.path.join(ROOT, "Complete", "Australia", "National (AS 1743)", "SVGs", "MANIFEST.csv")
 
 def family(code):
     c = code.upper(); fam = re.match(r"[A-Z]+\d*", c); fam = fam.group(0) if fam else ""

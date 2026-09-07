@@ -1,6 +1,6 @@
 ---
 id: SGN-013
-title: USA/Michigan: state sign pack
+title: Processing/USA/Michigan: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/Michigan/` with the state-specific signs from MMUTCD + Michigan Standard Highway Signs; the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/Michigan/` with the state-specific signs from MMUTCD + Michigan Standard Highway Signs; the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/Michigan/` with the state-specific signs from MMUTCD + Michigan Stand
 
 ## Fix
 
-Download the state's sign sheets into `USA/Michigan/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/Michigan/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 

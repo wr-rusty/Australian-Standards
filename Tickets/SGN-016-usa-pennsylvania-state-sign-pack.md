@@ -1,6 +1,6 @@
 ---
 id: SGN-016
-title: USA/Pennsylvania: state sign pack
+title: Processing/USA/Pennsylvania: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/Pennsylvania/` with the state-specific signs from PennDOT Publication 236 Handbook of Approved Signs; the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/Pennsylvania/` with the state-specific signs from PennDOT Publication 236 Handbook of Approved Signs; the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/Pennsylvania/` with the state-specific signs from PennDOT Publication
 
 ## Fix
 
-Download the state's sign sheets into `USA/Pennsylvania/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/Pennsylvania/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 

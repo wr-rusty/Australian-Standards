@@ -1,6 +1,6 @@
 ---
 id: SGN-007
-title: Australia/NT: state sign pack
+title: Processing/Australia/NT: state sign pack
 status: blocked
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `Australia/NT/` with the NT-specific signs (those not in AS 1743, or drawn differently) from NT Department of Infrastructure, Planning and Logistics sign standards. Russell's users work in every state, so every state pack is P1.
+Build `Processing/Australia/NT/` with the NT-specific signs (those not in AS 1743, or drawn differently) from NT Department of Infrastructure, Planning and Logistics sign standards. Russell's users work in every state, so every state pack is P1.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `Australia/NT/` with the NT-specific signs (those not in AS 1743, or drawn
 
 ## Fix
 
-Download the register into `Australia/NT/Original .../`, extract or transcribe into `SVGs/<family>/` with a manifest (same rules as the national set: exact artwork where vector, spec route where only dimensioned drawings), note licence terms in SOURCES.md.
+Download the register into `Processing/Australia/NT/Original .../`, extract or transcribe into `SVGs/<family>/` with a manifest (same rules as the national set: exact artwork where vector, spec route where only dimensioned drawings), note licence terms in SOURCES.md.
 
 ## Verify
 

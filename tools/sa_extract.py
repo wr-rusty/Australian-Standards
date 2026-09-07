@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""sa_extract.py — South Australian Standard Road Sign Index PDFs into Australia/SA/SVGs/<series>/<NAME>_<CODE>.svg with
+"""sa_extract.py — South Australian Standard Road Sign Index PDFs into Processing/Australia/SA/SVGs/<series>/<NAME>_<CODE>.svg with
 MANIFEST.csv, via sheet_extract. The sign's size comes from the register (the sheets' dimension figures are outlined),
 so the drawing is scaled to the register's first listed size for its code.
   python3 tools/sa_extract.py [limit]"""
@@ -7,7 +7,7 @@ import os, re, sys, csv, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sheet_extract as SE, shs_extract as X
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SA = os.path.join(ROOT, "Australia", "SA")
+SA = os.path.join(ROOT, "Processing", "Australia", "SA")
 
 def main(limit=None):
     out = os.path.join(SA, "SVGs"); rows = []; seen = {}; sheet_of = {}

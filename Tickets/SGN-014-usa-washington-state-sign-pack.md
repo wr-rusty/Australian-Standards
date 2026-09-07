@@ -1,6 +1,6 @@
 ---
 id: SGN-014
-title: USA/Washington: state sign pack
+title: Processing/USA/Washington: state sign pack
 status: open
 priority: P1
 area: sources
@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `USA/Washington/` with the state-specific signs from WSDOT Sign Fabrication Manual; the federal MUTCD pack already covers the national signs.
+Build `Processing/USA/Washington/` with the state-specific signs from WSDOT Sign Fabrication Manual; the federal MUTCD pack already covers the national signs.
 
 ## Evidence
 
@@ -20,7 +20,7 @@ Build `USA/Washington/` with the state-specific signs from WSDOT Sign Fabricatio
 
 ## Fix
 
-Download the state's sign sheets into `USA/Washington/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
+Download the state's sign sheets into `Processing/USA/Washington/Original PDFs/`; vector PDFs go through the SHS-style extractor, others through the spec route; family folders + MANIFEST.csv; SOURCES.md with licence (state DOT terms).
 
 ## Verify
 
