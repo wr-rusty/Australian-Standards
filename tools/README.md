@@ -42,9 +42,9 @@ SVG header matches the Illustrator speed-sign exports (`width`/`height` in mm at
 * Templates in `Design Templates/` supply the base geometry; their hairline keyline and `minus10` numeral tracking
   are off by default (`"keyline": true`, `"tracking": "minus10"` to enable).
 
-## MUTCD (USA) — `Processing/USA/Federal (MUTCD 2023)/`
+## MUTCD (USA) — `Complete/USA/Federal (MUTCD 2023)/`
 
-Source: FHWA Standard Highway Signs sheets in `Processing/USA/Federal (MUTCD 2023)/Original PDFs/` (2004 edition, 2012 supplement, 2024
+Source: FHWA Standard Highway Signs sheets in `Complete/USA/Federal (MUTCD 2023)/Original PDFs/` (2004 edition, 2012 supplement, 2024
 releases 1–6; see `SOURCES.md` there). The sheets are vector PDFs, so the artwork is lifted exactly rather than redrawn.
 
 * `shs_extract.py <pdf> <set> [pages]` — one sheet set: for each sign label on a page it takes the panel and every fill
@@ -55,12 +55,12 @@ releases 1–6; see `SOURCES.md` there). The sheets are vector PDFs, so the artw
   documented default written to the manifest with "check". Left/right variants drawn as thumbnails are scaled from the
   same table; variants not drawn at all are mirrored when the sign has no legend. Signs it cannot finish (duplicate shapes
   in FHWA's drawing, legends in a font it cannot outline) go to `SVGs/intervene/`.
-* `shs_run.py [sheets_dir]` — runs every set into `Processing/USA/Federal (MUTCD 2023)/SVGs/<set>/` with `_extract_manifest.csv`
+* `shs_run.py [sheets_dir]` — runs every set into `Complete/USA/Federal (MUTCD 2023)/SVGs/<set>/` with `_extract_manifest.csv`
   (code, name, file, drawn size, table A, page, note, panel rect) and builds review sheets.
 * `shs_sheets.py` — review sheets: page crop beside the extracted SVG, 12 pairs per image, driven by the manifest.
 * `shs_organise.py` — merges the sets into family folders (Regulatory, Parking, Warning, Temporary Traffic Control,
   School, Route Markers, Guide, Object Markers, Emergency Management); a code drawn in a newer edition supersedes the
-  older drawing; writes `Processing/USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv` and `intervene/INTERVENE_LIST.md`.
+  older drawing; writes `Complete/USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv` and `intervene/INTERVENE_LIST.md`.
 * `corner_check.py <folder> <report.csv>` — renders every SVG on magenta and lists files whose corners are painted
   (transparency check outside rounded, diamond and octagon outlines).
 
@@ -133,6 +133,6 @@ TCCS ACTSD sign drawings: the vector pay-parking sheets are extracted; scanned p
 ### One sign, one file — `tools/dedupe_pack.py`
 
 A state or regional pack holds only its own signs. After any rerun, `python3 tools/dedupe_pack.py <pack> <base>`
-(base = `Complete/Australia/National (AS 1743)` or `Processing/USA/Federal (MUTCD 2023)`) deletes every SVG whose code already exists in the
+(base = `Complete/Australia/National (AS 1743)` or `Complete/USA/Federal (MUTCD 2023)`) deletes every SVG whose code already exists in the
 base pack and leaves a manifest row pointing to the base file. Extraction is memoised (`SHEET_MEMO`, keyed on file, page
 and extractor version) and `tools/precache.py` fills the memo in parallel, so reruns cost minutes.

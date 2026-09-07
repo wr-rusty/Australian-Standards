@@ -16,7 +16,7 @@ The 2024 SHS tables have no conventional-road marker; 492 manifest rows carry a 
 
 ## Evidence
 
-- Processing/USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv — notes column
+- Complete/USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv — notes column
 - tools/shs_extract.py choose_row()
 
 ## Fix
@@ -30,3 +30,4 @@ No 'check' rows left, or each accepted in the Log.
 ## Log
 
 - 2026-09-06 — filed.
+- 2026-09-07 — Full review of the 1,441 SVGs: the letter I was being dropped from outlined legends by the background-mask rule (bg mis-read as black on white signs); rule now only fires at the panel edge. Reran all 11 sheet sets. Pack moved to Complete/.

@@ -263,8 +263,8 @@ for AS 1743, then 2–3 for AS 1319.
   `tools/specs/AS1319/*.json` and comparing against his 16 existing SVGs.
 * International: see `International/REVIEW.md` (USA first, then NZ, then UK).
   * USA (2026-09-05): FHWA Standard Highway Signs sheets (2004 edition, 2012 supplement, 2024 releases 1–6) downloaded to
-    `Processing/USA/Federal (MUTCD 2023)/Original PDFs/`; artwork lifted exactly from the vector PDFs by `tools/shs_extract.py` (see `tools/README.md`),
-    organised into family folders under `Processing/USA/Federal (MUTCD 2023)/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
+    `Complete/USA/Federal (MUTCD 2023)/Original PDFs/`; artwork lifted exactly from the vector PDFs by `tools/shs_extract.py` (see `tools/README.md`),
+    organised into family folders under `Complete/USA/Federal (MUTCD 2023)/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
     code. Open for Russell: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
     conventional-road marker), guide signs drawn at sheet scale (no size table), and `SVGs/intervene/INTERVENE_LIST.md`.
   * NZ (2026-09-05): NZTA sign-specifications register crawled with `tools/nz_crawl.py` (Russell passes the site's
@@ -278,6 +278,6 @@ for AS 1743, then 2–3 for AS 1319.
   * TODO — UK after NZ.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
 * Layout (2026-09-06, agreed with Russell): country → jurisdiction pack → `Original …/` + `SVGs/<family>/`:
-  `Complete/Australia/National (AS 1743)`, `Processing/Australia/<State>` (all eight states/territories, P1), `Processing/USA/Federal (MUTCD 2023)`,
+  `Complete/Australia/National (AS 1743)`, `Processing/Australia/<State>` (all eight states/territories, P1), `Complete/USA/Federal (MUTCD 2023)`,
   `Processing/USA/<State>` (major states first, minor states as tickets), `Complete/New Zealand/National (TCD Manual)`, `UK/<Region>`.
   Work is tracked in `Tickets/` (`python3 Tickets/tk.py list`, Akimbo format); Linear is not used.

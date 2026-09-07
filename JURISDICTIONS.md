@@ -16,6 +16,6 @@ The SitePilot upload takes the `SVGs/` folders; a jurisdiction's signs are the n
 | Australia | NT | `Processing/Australia/NT` | DLI standard drawings CS 3400–3599 hold the NT sign faces; PDFs need saving by hand past the bot wall (SGN-007) |
 | Australia | ACT | `Processing/Australia/ACT` | national pack + TCCS ACTSD parking sheets (scans; 5 pay-parking SVGs) (SGN-008) |
 | New Zealand | national | `Complete/New Zealand/National (TCD Manual)` | 1,266 signs (NZTA register swept by id; speed limits, priority and warning sets included) |
-| USA | federal | `Processing/USA/Federal (MUTCD 2023)` | 1,441 signs (FHWA SHS 2004/2012/2024) |
+| USA | federal | `Complete/USA/Federal (MUTCD 2023)` | 1,441 signs (FHWA SHS 2004/2012/2024); reviewed | 
 | USA | states | `Processing/USA/<State>` | see `Processing/USA/STATES.csv`; major states SGN-009..018, others SGN-019..059 |
 | UK | England, Wales, Scotland, Northern Ireland | `UK/<Region>` | blocked on the Transport/Motorway font licence (SGN-060..063) |

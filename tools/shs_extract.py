@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import signgen   # fonts, fmt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "Processing", "USA", "Federal (MUTCD 2023)", "SVGs")
+OUT = os.path.join(ROOT, "Complete", "USA", "Federal (MUTCD 2023)", "SVGs")
 IN_MM = 25.4
 CODE_RE = re.compile(r"^([A-Z]{1,2}\d{0,2}-\d{1,2}[a-zA-Z]{0,2}(?:\s?[LRVHC])?(?:\([^)]*\))?)$")
 EMBEDDED_CAP = 0.285   # cap height / em of the embedded FHWA Series 2000 Type 1 fonts (from their glyph bounds)
@@ -479,11 +479,12 @@ def extract_page(doc, pno, family):
                 r = f["rect"]; items = f["items"]
                 c = ((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
                 if not in_hull(hull, c): return True                                                            # outside the sign outline
+                near_edge = min(abs(r.x0 - pr.x0), abs(r.x1 - pr.x1), abs(r.y0 - pr.y0), abs(r.y1 - pr.y1)) < 0.08 * min(pr.width, pr.height)
                 if len(items) == 1 and items[0][0] == "re" and min(r.width, r.height) <= 0.8 and max(r.width, r.height) > 14 * min(r.width, r.height): return True   # dimension ticks (a small letter I is squatter than 1:14)
                 if min(r.width, r.height) <= 1.5 and colour_name(f["fill"]) == "WHITE" and max(r.width, r.height) > 12: return True   # white dimension-line masks
                 if is_triangle(items) and f["area"] < 60: return True                                            # dimension arrowheads
-                if f["area"] < 400 and any(r.x0 <= ax <= r.x1 and r.y0 <= ay <= r.y1 for ax, ay in ann): return True   # mask under a dimension letter/figure
-                if len(items) == 1 and items[0][0] == "re" and f["area"] < 120 and colour_name(f["fill"]) == bg: return True   # background-coloured mask square
+                if f["area"] < 400 and (near_edge or colour_name(f["fill"]) in (bg, "WHITE")) and any(r.x0 <= ax <= r.x1 and r.y0 <= ay <= r.y1 for ax, ay in ann): return True   # mask / tick under a dimension letter (interior ones only when background-coloured: a legend I is not a mask)
+                if len(items) == 1 and items[0][0] == "re" and f["area"] < 120 and colour_name(f["fill"]) == bg and near_edge: return True   # background-coloured mask square at the edge
                 if f["area"] < 30 and len(items) <= 4 and all(it[0] == "l" for it in items) and max(r.width, r.height) < 2.5 * min(r.width, r.height): return True   # arrowhead fragments
                 return False
             glyphs = page_glyphs(raw, pr, doc)
