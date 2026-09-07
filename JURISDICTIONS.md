@@ -18,4 +18,4 @@ The SitePilot upload takes the `SVGs/` folders; a jurisdiction's signs are the n
 | New Zealand | national | `Complete/New Zealand/National (TCD Manual)` | 1,266 signs (NZTA register swept by id; speed limits, priority and warning sets included) |
 | USA | federal | `Complete/USA/Federal (MUTCD 2023)` | 1,441 signs (FHWA SHS 2004/2012/2024); reviewed | 
 | USA | states | `Processing/USA/<State>` | see `Processing/USA/STATES.csv`; major states SGN-009..018, others SGN-019..059 |
-| UK | England, Wales, Scotland, Northern Ireland | `UK/<Region>` | blocked on the Transport/Motorway font licence (SGN-060..063) |
+| UK | national (England, Wales, Scotland) | `Processing/United Kingdom/National (TSRGD 2016)` | DfT working drawings downloaded (611); line-work extraction attempted and rejected — not usable (SGN-060..063) |
