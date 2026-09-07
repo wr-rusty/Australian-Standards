@@ -15,7 +15,7 @@ For every sign on a page:
     exact scaled copy); a variant not drawn at all is mirrored from its sibling when the sign has no legend
 Output: SVGs in the same header convention as the AS 1743 set (mm, viewBox 1 pt = 1 cm), plus a manifest.
 """
-import os, re, sys, json, math, csv
+import os, re, sys, math, json, math, csv
 import pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import signgen   # fonts, fmt
@@ -480,6 +480,17 @@ def extract_page(doc, pno, family):
                 c = ((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
                 if not in_hull(hull, c): return True                                                            # outside the sign outline
                 near_edge = min(abs(r.x0 - pr.x0), abs(r.x1 - pr.x1), abs(r.y0 - pr.y0), abs(r.y1 - pr.y1)) < 0.08 * min(pr.width, pr.height)
+                if r.width < 0.05 and r.height < 0.05: return True                                             # degenerate speck
+                side = min(pr.width, pr.height); cx, cy = (r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2
+                corner_d = min(math.hypot(cx - x, cy - y) for x in (pr.x0, pr.x1) for y in (pr.y0, pr.y1))
+                if min(r.width, r.height) <= 0.006 * side and max(r.width, r.height) < 0.06 * side and corner_d < 0.3 * side: return True   # corner cross-hair tick
+                if f["area"] < 0.0006 * pr.get_area() and corner_d < 0.12 * side: return True                   # any speck at a corner (registration marks)
+                if colour_name(f["fill"]) == "WHITE" and bg != "WHITE" and f["area"] < 0.12 * pr.get_area() and len(items) <= 16 and all(it[0] == "l" for it in items) and len(items) >= 3:
+                    pts = item_points(items)
+                    if len(pts) >= 3:
+                        area2 = abs(sum(pts[i][0] * pts[(i + 1) % len(pts)][1] - pts[(i + 1) % len(pts)][0] * pts[i][1] for i in range(len(pts)))) / 2
+                        if area2 < 0.12 * max(f["area"], 1e-9): return True                                    # a white sliver (diagonal leader line) on a coloured panel
+                if colour_name(f["fill"]) == "WHITE" and bg != "WHITE" and min(r.width, r.height) <= 1.2 and max(r.width, r.height) >= 4 * min(r.width, r.height) and max(r.width, r.height) < 0.4 * max(pr.width, pr.height): return True   # hairline white dimension bar across a coloured panel (legend strokes are several pt wide)
                 if len(items) == 1 and items[0][0] == "re" and min(r.width, r.height) <= 0.8 and max(r.width, r.height) > 14 * min(r.width, r.height): return True   # dimension ticks (a small letter I is squatter than 1:14)
                 if min(r.width, r.height) <= 1.5 and colour_name(f["fill"]) == "WHITE" and max(r.width, r.height) > 12: return True   # white dimension-line masks
                 if is_triangle(items) and f["area"] < 60: return True                                            # dimension arrowheads
