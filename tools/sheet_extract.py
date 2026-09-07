@@ -130,12 +130,16 @@ def stroke_band(items, width, closed):
         if it[0] == "re":
             r = it[1]; pts += [(r.x0, r.y0), (r.x1, r.y0), (r.x1, r.y1), (r.x0, r.y1), (r.x0, r.y0)]
         elif it[0] == "l": pts += [tuple(it[1]), tuple(it[2])]
-        elif it[0] == "c": pts += [tuple(it[1]), tuple(it[4])]
+        elif it[0] == "c":   # flatten the curve so a rounded corner stays round in the band
+            p0, p1, p2, p3 = (tuple(map(float, q)) for q in it[1:5])
+            for k in range(9):
+                t = k / 8; u = 1 - t
+                pts.append((u*u*u*p0[0] + 3*u*u*t*p1[0] + 3*u*t*t*p2[0] + t*t*t*p3[0], u*u*u*p0[1] + 3*u*u*t*p1[1] + 3*u*t*t*p2[1] + t*t*t*p3[1]))
         elif it[0] == "qu": q = it[1]; pts += [tuple(q.ul), tuple(q.ur), tuple(q.lr), tuple(q.ll), tuple(q.ul)]
     pts = [(float(x), float(y)) for x, y in pts]
     if len(pts) < 2: return None
     try:
-        line = LineString(pts); poly = line.buffer(width / 2, join_style=2, cap_style=2)
+        line = LineString(pts); poly = line.buffer(width / 2, join_style=1, cap_style=2)
     except Exception: return None
     geoms = list(poly.geoms) if hasattr(poly, "geoms") else [poly]
     out = []

@@ -16,7 +16,7 @@ The platform resolves a user's jurisdiction to packs. Provide a machine-readable
 
 ## Evidence
 
-- Proposed layout agreed 2026-09-06: Processing/Australia/<State>, Processing/USA/<State>, UK/<Region>, Processing/New Zealand/National
+- Proposed layout agreed 2026-09-06: Processing/Australia/<State>, Processing/USA/<State>, UK/<Region>, Complete/New Zealand/National
 
 ## Fix
 
@@ -24,7 +24,7 @@ Write Processing/USA/STATES.csv (51 rows) and JURISDICTIONS.md at the repo root;
 
 ## Verify
 
-Every folder under Processing/Australia/, Processing/USA/, UK/, Processing/New Zealand/ appears in the map.
+Every folder under Processing/Australia/, Processing/USA/, UK/, Complete/New Zealand/ appears in the map.
 
 ## Log
 

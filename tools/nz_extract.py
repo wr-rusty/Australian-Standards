@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import shs_extract as X
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NZ = os.path.join(ROOT, "Processing", "New Zealand", "National (TCD Manual)")
+NZ = os.path.join(ROOT, "Complete", "New Zealand", "National (TCD Manual)")
 GS = "/opt/homebrew/bin/gs"
 MM_PER_PT = 25.4 / 72
 DRAWN_SCALE = 10          # the EPS files are drawn at 1:10
@@ -28,6 +28,23 @@ def eps_to_pdf(eps, cache):
         r = subprocess.run([GS, "-q", "-dNOPAUSE", "-dBATCH", "-dEPSCrop", "-sDEVICE=pdfwrite", f"-sOutputFile={pdf}", eps], capture_output=True, text=True)
         if r.returncode or not os.path.exists(pdf): raise RuntimeError(f"ghostscript failed: {r.stderr.strip()[:200]}")
     return pdf
+
+def dimensioned_sign(pdf, widths):
+    """An EPS that is a dimensioned drawing (letters, arrows, a stroked border) rather than plain artwork: let the sheet
+    extractor pick the sign out, upright, scaled to the register's first width."""
+    import sheet_extract as SE
+    class Upright(SE.Frame):
+        def __init__(self, page, spans_raw):
+            import pymupdf as fz
+            self.M = fz.Matrix(1, 0, 0, 1, 0, 0); self.rect = page.rect; self.turned = 0
+    keep = SE.Frame; SE.Frame = Upright
+    try: signs = SE.extract_page(pdf, 0)
+    finally: SE.Frame = keep
+    if not signs: return None
+    s = max(signs, key=lambda x: x["panel"].get_area()); pr = s["panel"]
+    if widths: s["scale"] = (widths[0] / pr.width) / 25.4
+    s.setdefault("glyphs", []); s.setdefault("diamond", False); s.setdefault("missing_fonts", []); s.setdefault("strokes", 0); s.setdefault("notes_text", []); s.setdefault("bg", "WHITE")
+    return s
 
 def strokes_to_fills(pdf):
     """The sheet with every stroked path outlined (Inkscape stroke-to-path), for line-art symbols."""
@@ -262,6 +279,11 @@ def main(register=None):
             line_art = ""
             try:
                 pdf = eps_to_pdf(eps, cache); signs = extract(pdf, whole=(fam == "Symbols"))
+                ws = register_widths(r["dimensions"])
+                pieces = len(signs) >= 3 and fam != "Symbols" and ws and not any(abs(sg["panel"].width * DRAWN_SCALE * MM_PER_PT - w) <= 0.15 * w for sg in signs for w in ws)
+                if pieces:   # a dimensioned drawing (AB7 style) split into its parts: the sheet extractor reads it as one sign
+                    ds = dimensioned_sign(pdf, ws)
+                    if ds: signs = [ds]; line_art = "dimensioned drawing read with the sheet extractor; scaled to the register width"
                 if not signs:   # line art (stroked paths only, e.g. ST03, ST07): outline the strokes and read those fills
                     signs = extract(strokes_to_fills(pdf), whole=(fam == "Symbols")); line_art = "artwork is stroked line art on the sheet; strokes outlined with Inkscape"
             except RuntimeError as ex:

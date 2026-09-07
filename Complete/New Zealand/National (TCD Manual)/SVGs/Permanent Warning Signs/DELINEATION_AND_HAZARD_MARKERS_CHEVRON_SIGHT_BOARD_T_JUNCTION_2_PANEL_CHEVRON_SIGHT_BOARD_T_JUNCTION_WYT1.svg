@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="84.67mm" height="21.17mm" viewBox="0 0 240 60">
+<g transform="scale(0.1)">
+  <path fill="#231f20" d="M0 0L2400 0L2400 600L0 600L0 0"/>
+  <path fill="#ffffff" d="M1199.99 0L1499.99 300L1199.99 600L1399.99 600L1699.98 300L1399.99 0L1199.99 0"/>
+  <path fill="#ffffff" d="M1799.99 0L2099.98 300L1799.99 600L1999.98 600L2299.98 300L1999.98 0L1799.99 0"/>
+  <path fill="#ffffff" d="M1199.99 0L900 300L1199.99 600L1000 600L700 300L1000 0L1199.99 0"/>
+  <path fill="#ffffff" d="M600 0L300 300L600 600L400 600L100.01 300L400 0L600 0"/>
+</g>
+</svg>

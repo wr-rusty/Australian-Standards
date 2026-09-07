@@ -67,7 +67,7 @@ releases 1–6; see `SOURCES.md` there). The sheets are vector PDFs, so the artw
 Sizes: one file per drawing at the conventional-road size. Guide signs with no size table are drawn at the sheet's own
 scale (1 pt = 0.1 in) and say so in the manifest.
 
-## New Zealand — `Processing/New Zealand/National (TCD Manual)/`
+## New Zealand — `Complete/New Zealand/National (TCD Manual)/`
 
 Source: the NZTA sign-specifications register (Traffic Control Devices Manual), one entry per sign with an EPS drawing
 (Illustrator, 1:10, legends outlined) and a dimensions/colours table. NZTA states the files may be used commercially

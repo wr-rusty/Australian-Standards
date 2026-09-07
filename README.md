@@ -3,7 +3,7 @@
 Two top-level folders say what a pack is fit for:
 
 * `Complete/` — approved sign packs, ready to upload to SitePilot. Each pack is `<country>/<jurisdiction>/SVGs/<family>/…`
-  with a `MANIFEST.csv`. Today: `Complete/Australia/National (AS 1743)`.
+  with a `MANIFEST.csv`. Today: `Complete/Australia/National (AS 1743)` and `Complete/New Zealand/National (TCD Manual)`.
 * `Processing/` — packs still being built or checked: sources, registers, extraction output, review notes. Nothing here
   is approved. Australian states and territories, New Zealand and the USA sit here until their signs are clean.
 
