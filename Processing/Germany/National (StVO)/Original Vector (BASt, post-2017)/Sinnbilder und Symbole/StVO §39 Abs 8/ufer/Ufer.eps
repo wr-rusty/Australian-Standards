@@ -1,0 +1,1106 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: DV-Vision
+%%For: (DV-Vision)
+%%Title: (DV-Vision für Windows Konvertierungsdatei)
+%%CreationDate: (0/00/00) (00:00 AM)
+%%BoundingBox: -785.00000 282.00000 768.00000 963.00000
+%%DocumentProcessColors: Magenta Black
+%%DocumentSuppliedResources: procset Adobe_packedarray 2.0 0
+%%+ procset Adobe_cmykcolor 1.1 0
+%%+ procset Adobe_cshow 1.1 0
+%%+ procset Adobe_customcolor 1.0 0
+%%+ procset Adobe_IllustratorA_AI3 1.0 0
+%AI3_ColorUsage: Color
+%AI3_TemplateBox: -785.00000 282.00000 768.00000 963.00000
+%AI3_TileBox: -785.00000 282.00000 768.00000 963.00000
+%AI3_DocumentPreview: Header
+%%Template:
+%%PageOrigin:0 0
+%%AI3_PaperRect:-17.9997 801.1878 593.9909 -71.9989
+%%AI3_Margin:17.9997 -71.9989 -17.9997 71.9989
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset Adobe_packedarray 2.0 0
+%%Title: (Packed Array Operators)
+%%Version: 2.0
+%%CreationDate: (8/2/90) ()
+%%Copyright: ((C) 1987-1990 Adobe Systems Incorporated All Rights Reserved)
+
+userdict /Adobe_packedarray 5 dict dup begin put
+/initialize                     % - initialize -
+{
+/packedarray where
+        {
+        pop
+        }
+        {
+        Adobe_packedarray begin
+        Adobe_packedarray
+                {
+                dup xcheck
+                        {
+                        bind
+                        } if
+                userdict 3 1 roll put
+                } forall
+        end
+        } ifelse
+} def
+/terminate                      % - terminate -
+{
+} def
+/packedarray            % arguments count packedarray array
+{
+array astore readonly
+} def
+/setpacking                     % boolean setpacking -
+{
+pop
+} def
+/currentpacking         % - setpacking boolean
+{
+false
+} def
+currentdict readonly pop end
+%%EndResource
+Adobe_packedarray /initialize get exec
+%%BeginResource: procset Adobe_cmykcolor 1.1 0
+%%Title: (CMYK Color Operators)
+%%Version: 1.1
+%%CreationDate: (1/23/89) ()
+%%Copyright: ((C) 1987-1990 Adobe Systems Incorporated All Rights Reserved)
+
+currentpacking true setpacking
+userdict /Adobe_cmykcolor 4 dict dup begin put
+/initialize                     % - initialize -
+{
+/setcmykcolor where
+        {
+        pop
+        }
+        {
+        userdict /Adobe_cmykcolor_vars 2 dict dup begin put
+        /_setrgbcolor
+                /setrgbcolor load def
+        /_currentrgbcolor
+                /currentrgbcolor load def
+        Adobe_cmykcolor begin
+        Adobe_cmykcolor
+                {
+                dup xcheck
+                        {
+                        bind
+                        } if
+                pop pop
+                } forall
+        end
+        end
+        Adobe_cmykcolor begin
+        } ifelse
+} def
+/terminate                      % - terminate -
+{
+currentdict Adobe_cmykcolor eq
+        {
+        end
+        } if
+} def
+/setcmykcolor           % cyan magenta yellow black setcmykcolor -
+{
+1 sub 4 1 roll
+3
+        {
+        3 index add neg dup 0 lt
+                {
+                pop 0
+                } if
+        3 1 roll
+        } repeat
+Adobe_cmykcolor_vars /_setrgbcolor get exec
+pop
+} def
+/currentcmykcolor       % - currentcmykcolor cyan magenta yellow black
+{
+Adobe_cmykcolor_vars /_currentrgbcolor get exec
+3
+        {
+        1 sub neg 3 1 roll
+        } repeat
+0
+} def
+currentdict readonly pop end
+setpacking
+
+%%EndResource
+%%BeginResource: procset Adobe_cshow 1.1 0
+%%Title: (cshow Operator)
+%%Version: 1.1
+%%CreationDate: (1/23/89) ()
+%%Copyright: ((C) 1987-1990 Adobe Systems Incorporated All Rights Reserved)
+
+currentpacking true setpacking
+userdict /Adobe_cshow 3 dict dup begin put
+/initialize                     % - initialize -
+{
+/cshow where
+        {
+        pop
+        }
+        {
+        userdict /Adobe_cshow_vars 1 dict dup begin put
+        /_cshow         % - _cshow proc
+                {} def
+        Adobe_cshow begin
+        Adobe_cshow
+                {
+                dup xcheck
+                        {
+                        bind
+                        } if
+                userdict 3 1 roll put
+                } forall
+        end
+        end
+        } ifelse
+} def
+/terminate                      % - terminate -
+{
+} def
+/cshow                          % proc string cshow -
+{
+exch
+Adobe_cshow_vars
+        exch /_cshow
+        exch put
+        {
+        0 0 Adobe_cshow_vars /_cshow get exec
+        } forall
+} def
+currentdict readonly pop end
+setpacking
+
+%%EndResource
+%%BeginResource: procset Adobe_customcolor 1.0 0
+%%Title: (Custom Color Operators)
+%%Version: 1.0
+%%CreationDate: (5/9/88) ()
+%%Copyright: ((C) 1987-1990 Adobe Systems Incorporated All Rights Reserved)
+
+currentpacking true setpacking
+userdict /Adobe_customcolor 5 dict dup begin put
+/initialize                     % - initialize -
+{
+/setcustomcolor where
+        {
+        pop
+        }
+        {
+        Adobe_customcolor begin
+        Adobe_customcolor
+                {
+                dup xcheck
+                        {
+                        bind
+                        } if
+                pop pop
+                } forall
+        end
+        Adobe_customcolor begin
+        } ifelse
+} def
+/terminate                      % - terminate -
+{
+currentdict Adobe_customcolor eq
+        {
+        end
+        } if
+} def
+/findcmykcustomcolor    % cyan magenta yellow black name findcmykcustomcolor object
+{
+5 packedarray
+}  def
+/setcustomcolor         % object tint setcustomcolor -
+{
+exch
+aload pop pop
+4
+        {
+        4 index mul 4 1 roll
+        } repeat
+5 -1 roll pop
+setcmykcolor
+} def
+/setoverprint           % boolean setoverprint -
+{
+pop
+} def
+currentdict readonly pop end
+setpacking
+
+%%EndResource
+%%BeginResource: procset Adobe_IllustratorA_AI3 1.0 0
+%%Title: (Adobe Illustrator (R) Version 3.0 Abbreviated Prolog)
+%%Version: 1.0
+%%CreationDate: (7/22/89) ()
+%%Copyright: ((C) 1987-1990 Adobe Systems Incorporated All Rights Reserved)
+
+currentpacking true setpacking
+userdict /Adobe_IllustratorA_AI3 61 dict dup begin put
+% initialization
+/initialize                             % - initialize -
+{
+userdict /Adobe_IllustratorA_AI3_vars 46 dict dup begin put
+
+% paint operands
+/_lp /none def
+/_pf {} def
+/_ps {} def
+/_psf {} def
+/_pss {} def
+/_pjsf {} def
+/_pjss {} def
+/_pola 0 def
+/_doClip 0 def
+
+% paint operators
+/cf     currentflat def % - cf flatness
+
+% typography operands
+/_tm matrix def
+/_renderStart [/e0 /r0 /a0 /o0 /i0 /i0 /i0 /i0] def
+/_renderEnd [null null null null /e1 /r1 /a1 /clip] def
+/_render -1 def
+/_rise 0 def
+/_ax 0 def                      % x character spacing   (_ax, _ay, _cx, _cy follows awidthshow naming convention)
+/_ay 0 def                      % y character spacing
+/_cx 0 def                      % x word spacing
+/_cy 0 def                      % y word spacing
+/_leading [0 0] def
+/_ctm matrix def
+/_mtx matrix def
+/_sp 16#020 def
+/_hyphen (-) def
+/_fScl 0 def
+/_cnt 0 def
+/_hs 1 def
+/_nativeEncoding 0 def
+/_useNativeEncoding 0 def
+/_tempEncode 0 def
+/_pntr 0 def
+
+% typography operators
+/Tx {} def
+/Tj {} def
+
+% compound path operators
+/CRender {} def
+
+% printing
+/_AI3_savepage {} def
+
+% color operands
+/_gf null def
+/_cf 4 array def
+/_if null def
+/_of false def
+/_fc {} def
+/_gs null def
+/_cs 4 array def
+/_is null def
+/_os false def
+/_sc {} def
+/_i null def
+Adobe_IllustratorA_AI3 begin
+Adobe_IllustratorA_AI3
+        {
+        dup xcheck
+                {
+                bind
+                } if
+        pop pop
+        } forall
+end
+end
+Adobe_IllustratorA_AI3 begin
+Adobe_IllustratorA_AI3_vars begin
+newpath
+} def
+/terminate                              % - terminate -
+{
+end
+end
+} def
+% definition operators
+/_                                      % - _ null
+null def
+/ddef                           % key value ddef -
+{
+Adobe_IllustratorA_AI3_vars 3 1 roll put
+} def
+/xput                           % key value literal xput -
+{
+dup load dup length exch maxlength eq
+        {
+        dup dup load dup
+        length 2 mul dict copy def
+        } if
+load begin def end
+} def
+/npop                           % integer npop -
+{
+        {
+        pop
+        } repeat
+} def
+% marking operators
+/sw                                     % ax ay string sw x y
+{
+dup length exch stringwidth
+exch 5 -1 roll 3 index 1 sub mul add
+4 1 roll 3 1 roll 1 sub mul add
+} def
+/swj                            % cx cy fillchar ax ay string swj x y
+{
+dup 4 1 roll
+dup length exch stringwidth
+exch 5 -1 roll 3 index 1 sub mul add
+4 1 roll 3 1 roll 1 sub mul add
+6 2 roll /_cnt 0 ddef
+{1 index eq {/_cnt _cnt 1 add ddef} if} forall pop
+exch _cnt mul exch _cnt mul 2 index add 4 1 roll 2 index add 4 1 roll pop pop
+} def
+/ss                                     % ax ay string matrix ss -
+{
+4 1 roll
+        {                               % matrix ax ay char 0 0 {proc} -
+        2 npop
+        (0) exch 2 copy 0 exch put pop
+        gsave
+        false charpath currentpoint
+        4 index setmatrix
+        stroke
+        grestore
+        moveto
+        2 copy rmoveto
+        } exch cshow
+3 npop
+} def
+/jss                            % cx cy fillchar ax ay string matrix jss -
+{
+4 1 roll
+        {                               % cx cy fillchar matrix ax ay char 0 0 {proc} -
+        2 npop
+        (0) exch 2 copy 0 exch put
+        gsave
+        _sp eq
+                {
+                exch 6 index 6 index 6 index 5 -1 roll widthshow
+                currentpoint
+                }
+                {
+                false charpath currentpoint
+                4 index setmatrix stroke
+                }ifelse
+        grestore
+        moveto
+        2 copy rmoveto
+        } exch cshow
+6 npop
+} def
+
+% path operators
+/sp                                     % ax ay string sp -
+{
+        {
+        2 npop (0) exch
+        2 copy 0 exch put pop
+        false charpath
+        2 copy rmoveto
+        } exch cshow
+2 npop
+} def
+/jsp                                    % cx cy fillchar ax ay string jsp -
+{
+        {                                       % cx cy fillchar ax ay char 0 0 {proc} -
+        2 npop
+        (0) exch 2 copy 0 exch put
+        _sp eq
+                {
+                exch 5 index 5 index 5 index 5 -1 roll widthshow
+                }
+                {
+                false charpath
+                }ifelse
+        2 copy rmoveto
+        } exch cshow
+5 npop
+} def
+
+% path construction operators
+/pl                             % x y pl x y
+{
+transform
+0.25 sub round 0.25 add exch
+0.25 sub round 0.25 add exch
+itransform
+} def
+/setstrokeadjust where
+        {
+        pop true setstrokeadjust
+        /c                              % x1 y1 x2 y2 x3 y3 c -
+        {
+        curveto
+        } def
+        /C
+        /c load def
+        /v                              % x2 y2 x3 y3 v -
+        {
+        currentpoint 6 2 roll curveto
+        } def
+        /V
+        /v load def
+        /y                              % x1 y1 x2 y2 y -
+        {
+        2 copy curveto
+        } def
+        /Y
+        /y load def
+        /l                              % x y l -
+        {
+        lineto
+        } def
+        /L
+        /l load def
+        /m                              % x y m -
+        {
+        moveto
+        } def
+        }
+        {%else
+        /c
+        {
+        pl curveto
+        } def
+        /C
+        /c load def
+        /v
+        {
+        currentpoint 6 2 roll pl curveto
+        } def
+        /V
+        /v load def
+        /y
+        {
+        pl 2 copy curveto
+        } def
+        /Y
+        /y load def
+        /l
+        {
+        pl lineto
+        } def
+        /L
+        /l load def
+        /m
+        {
+        pl moveto
+        } def
+        }ifelse
+
+% graphic state operators
+/d                                      % array phase d -
+{
+setdash
+} def
+/cf     {} def                  % - cf flatness
+/i                                      % flatness i -
+{
+dup 0 eq
+        {
+        pop cf
+        } if
+setflat
+} def
+/j                                      % linejoin j -
+{
+setlinejoin
+} def
+/J                                      % linecap J -
+{
+setlinecap
+} def
+/M                                      % miterlimit M -
+{
+setmiterlimit
+} def
+/w                                      % linewidth w -
+{
+setlinewidth
+} def
+
+% path painting operators
+/H                                      % - H -
+{} def
+/h                                      % - h -
+{
+closepath
+} def
+/N                                      % - N -
+{
+_pola 0 eq
+        {
+        _doClip 1 eq {clip /_doClip 0 ddef} if
+        newpath
+        }
+        {
+        /CRender {N} ddef
+        }ifelse
+} def
+/n                                      % - n -
+{N} def
+/F                                      % - F -
+{
+_pola 0 eq
+        {
+        _doClip 1 eq
+                {
+                gsave _pf grestore clip newpath /_lp /none ddef _fc
+                /_doClip 0 ddef
+                }
+                {
+                _pf
+                }ifelse
+        }
+        {
+        /CRender {F} ddef
+        }ifelse
+} def
+/f                                      % - f -
+{
+closepath
+F
+} def
+/S                                      % - S -
+{
+_pola 0 eq
+        {
+        _doClip 1 eq
+                {
+                gsave _ps grestore clip newpath /_lp /none ddef _sc
+                /_doClip 0 ddef
+                }
+                {
+                _ps
+                }ifelse
+        }
+        {
+        /CRender {S} ddef
+        }ifelse
+} def
+/s                                      % - s -
+{
+closepath
+S
+} def
+/B                                      % - B -
+{
+_pola 0 eq
+        {
+        _doClip 1 eq    % F clears _doClip
+        gsave F grestore
+                {
+                gsave S grestore clip newpath /_lp /none ddef _sc
+                /_doClip 0 ddef
+                }
+                {
+                S
+                }ifelse
+        }
+        {
+        /CRender {B} ddef
+        }ifelse
+} def
+/b                                      % - b -
+{
+closepath
+B
+} def
+/W                                      % - W -
+{
+/_doClip 1 ddef
+} def
+/*                                      % - [string] * -
+{
+count 0 ne
+        {
+        dup type (stringtype) eq {pop} if
+        } if
+_pola 0 eq {newpath} if
+} def
+
+% group operators
+/u                                      % - u -
+{} def
+/U                                      % - U -
+{} def
+/q                                      % - q -
+{
+_pola 0 eq {gsave} if
+} def
+/Q                                      % - Q -
+{
+_pola 0 eq {grestore} if
+} def
+/*u                                     % - *u -
+{
+_pola 1 add /_pola exch ddef
+} def
+/*U                                     % - *U -
+{
+_pola 1 sub /_pola exch ddef
+_pola 0 eq {CRender} if
+} def
+/D                                      % polarized D -
+{pop} def
+/*w                                     % - *w -
+{} def
+/*W                                     % - *W -
+{} def
+
+% place operators
+/`                                      % matrix llx lly urx ury string ` -
+{
+/_i save ddef
+6 1 roll 4 npop
+concat
+userdict begin
+/showpage {} def
+false setoverprint
+pop
+} def
+/~                                      % - ~ -
+{
+end
+_i restore
+} def
+
+% color operators
+/O                                      % flag O -
+{
+0 ne
+/_of exch ddef
+/_lp /none ddef
+} def
+/R                                      % flag R -
+{
+0 ne
+/_os exch ddef
+/_lp /none ddef
+} def
+/g                                      % gray g -
+{
+/_gf exch ddef
+/_fc
+{
+_lp /fill ne
+        {
+        _of setoverprint
+        _gf setgray
+        /_lp /fill ddef
+        } if
+} ddef
+/_pf
+{
+_fc
+fill
+} ddef
+/_psf
+{
+_fc
+ashow
+} ddef
+/_pjsf
+{
+_fc
+awidthshow
+} ddef
+/_lp /none ddef
+} def
+/G                                      % gray G -
+{
+/_gs exch ddef
+/_sc
+{
+_lp /stroke ne
+        {
+        _os setoverprint
+        _gs setgray
+        /_lp /stroke ddef
+        } if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/k                                      % cyan magenta yellow black k -
+{
+_cf astore pop
+/_fc
+{
+_lp /fill ne
+        {
+        _of setoverprint
+        _cf aload pop setcmykcolor
+        /_lp /fill ddef
+        } if
+} ddef
+/_pf
+{
+_fc
+fill
+} ddef
+/_psf
+{
+_fc
+ashow
+} ddef
+/_pjsf
+{
+_fc
+awidthshow
+} ddef
+/_lp /none ddef
+} def
+/K                                      % cyan magenta yellow black K -
+{
+_cs astore pop
+/_sc
+{
+_lp /stroke ne
+        {
+        _os setoverprint
+        _cs aload pop setcmykcolor
+        /_lp /stroke ddef
+        } if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+/x                                      % cyan magenta yellow black name gray x -
+{
+/_gf exch ddef
+findcmykcustomcolor
+/_if exch ddef
+/_fc
+{
+_lp /fill ne
+        {
+        _of setoverprint
+        _if _gf 1 exch sub setcustomcolor
+        /_lp /fill ddef
+        } if
+} ddef
+/_pf
+{
+_fc
+fill
+} ddef
+/_psf
+{
+_fc
+ashow
+} ddef
+/_pjsf
+{
+_fc
+awidthshow
+} ddef
+/_lp /none ddef
+} def
+/X                                      % cyan magenta yellow black name gray X -
+{
+/_gs exch ddef
+findcmykcustomcolor
+/_is exch ddef
+/_sc
+{
+_lp /stroke ne
+        {
+        _os setoverprint
+        _is _gs 1 exch sub setcustomcolor
+        /_lp /stroke ddef
+        } if
+} ddef
+/_ps
+{
+_sc
+stroke
+} ddef
+/_pss
+{
+_sc
+ss
+} ddef
+/_pjss
+{
+_sc
+jss
+} ddef
+/_lp /none ddef
+} def
+
+% locked object operator
+/A                                      % value A -
+{
+pop
+} def
+
+currentdict readonly pop end
+setpacking
+
+% annotate page operator
+/annotatepage
+{
+} def
+%%EndResource
+%AI3-Grid.0 18 18 3 0.833333 0.833333 0.833333 3
+%%EndProlog
+%%BeginSetup
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_IllustratorA_AI3 /initialize get exec
+%%EndSetup
+0 A
+0 O
+1 g
+0 R
+0 G
+0 i 0 J 0 j 0.000 w 4 M []0 d
+%AI3_Note:
+*u
+0.000 0.000 0.000 1.000  k
+0 D
+  -784.611    283.463 m
+  -563.673    666.138 l
+  -283.463    666.138 l
+  -283.463    283.463 l
+  -784.611    283.463 l
+f
+1 D
+  -255.117    298.345 m
+  -255.117    342.990 l
+  -241.379    348.714 l
+  -226.870    354.759   -211.308    357.872   -195.589    357.872 c
+  -179.871    357.872   -164.308    354.759   -149.799    348.714 c
+  -122.325    337.266 l
+  -107.816    331.221    -92.253    328.108    -76.535    328.108 c
+   -60.817    328.108    -45.254    331.221    -30.745    337.266 c
+    -3.271    348.714 l
+    11.238    354.759     26.801    357.872     42.519    357.872 c
+    58.238    357.872     73.800    354.759     88.310    348.714 c
+   115.784    337.266 l
+   130.293    331.221    145.856    328.108    161.574    328.108 c
+   177.292    328.108    192.855    331.221    207.364    337.266 c
+   234.838    348.714 l
+   249.347    354.759    264.910    357.872    280.628    357.872 c
+   296.346    357.872    311.909    354.759    326.418    348.714 c
+   353.892    337.266 l
+   368.402    331.221    383.964    328.108    399.683    328.108 c
+   415.401    328.108    430.963    331.221    445.473    337.266 c
+   472.947    348.714 l
+   487.456    354.759    503.019    357.872    518.737    357.872 c
+   534.455    357.872    550.018    354.759    564.527    348.714 c
+   592.001    337.266 l
+   606.510    331.221    622.073    328.108    637.791    328.108 c
+   653.510    328.108    669.072    331.221    683.581    337.266 c
+   711.055    348.714 l
+   721.007    352.860    731.476    355.636    742.174    356.964 c
+   767.714    312.729 l
+   764.100    313.061    760.474    313.226    756.846    313.226 c
+   741.127    313.226    725.565    310.114    711.055    304.068 c
+   683.581    292.621 l
+   669.072    286.575    653.510    283.463    637.791    283.463 c
+   622.073    283.463    606.510    286.575    592.001    292.621 c
+   564.527    304.068 l
+   550.018    310.114    534.455    313.226    518.737    313.226 c
+   503.019    313.226    487.456    310.114    472.947    304.068 c
+   445.473    292.621 l
+   430.963    286.575    415.401    283.463    399.683    283.463 c
+   383.964    283.463    368.402    286.575    353.892    292.621 c
+   326.418    304.068 l
+   311.909    310.114    296.346    313.226    280.628    313.226 c
+   264.910    313.226    249.347    310.114    234.838    304.068 c
+   207.364    292.621 l
+   192.855    286.575    177.292    283.463    161.574    283.463 c
+   145.856    283.463    130.293    286.575    115.784    292.621 c
+    88.310    304.068 l
+    73.800    310.114     58.238    313.226     42.519    313.226 c
+    26.801    313.226     11.238    310.114     -3.271    304.068 c
+   -30.745    292.621 l
+   -45.254    286.575    -60.817    283.463    -76.535    283.463 c
+   -92.253    283.463   -107.816    286.575   -122.325    292.621 c
+  -149.799    304.068 l
+  -164.308    310.114   -179.871    313.226   -195.589    313.226 c
+  -211.308    313.226   -226.870    310.114   -241.379    304.068 c
+  -255.117    298.345 l
+f
+1 D
+  -255.117    387.635 m
+  -255.117    432.281 l
+  -241.379    438.005 l
+  -226.870    444.050   -211.308    447.163   -195.589    447.163 c
+  -179.871    447.163   -164.308    444.050   -149.799    438.005 c
+  -122.325    426.557 l
+  -107.816    420.511    -92.253    417.399    -76.535    417.399 c
+   -60.817    417.399    -45.254    420.511    -30.745    426.557 c
+    -3.271    438.005 l
+    11.238    444.050     26.801    447.163     42.519    447.163 c
+    58.238    447.163     73.800    444.050     88.310    438.005 c
+   115.784    426.557 l
+   130.293    420.511    145.856    417.399    161.574    417.399 c
+   177.292    417.399    192.855    420.511    207.364    426.557 c
+   234.838    438.005 l
+   249.347    444.050    264.910    447.163    280.628    447.163 c
+   296.346    447.163    311.909    444.050    326.418    438.005 c
+   353.892    426.557 l
+   368.402    420.511    383.964    417.399    399.683    417.399 c
+   415.401    417.399    430.963    420.511    445.473    426.557 c
+   472.947    438.005 l
+   487.456    444.050    503.019    447.163    518.737    447.163 c
+   534.455    447.163    550.018    444.050    564.527    438.005 c
+   592.001    426.557 l
+   606.510    420.511    622.073    417.399    637.791    417.399 c
+   653.510    417.399    669.072    420.511    683.581    426.557 c
+   698.425    432.742 l
+   719.369    396.465 l
+   716.560    395.533    713.787    394.497    711.055    393.359 c
+   683.581    381.912 l
+   669.072    375.866    653.510    372.754    637.791    372.754 c
+   622.073    372.754    606.510    375.866    592.001    381.912 c
+   564.527    393.359 l
+   550.018    399.405    534.455    402.517    518.737    402.517 c
+   503.019    402.517    487.456    399.405    472.947    393.359 c
+   445.473    381.912 l
+   430.963    375.866    415.401    372.754    399.683    372.754 c
+   383.964    372.754    368.402    375.866    353.892    381.912 c
+   326.418    393.359 l
+   311.909    399.405    296.346    402.517    280.628    402.517 c
+   264.910    402.517    249.347    399.405    234.838    393.359 c
+   207.364    381.912 l
+   192.855    375.866    177.292    372.754    161.574    372.754 c
+   145.856    372.754    130.293    375.866    115.784    381.912 c
+    88.310    393.359 l
+    73.800    399.405     58.238    402.517     42.519    402.517 c
+    26.801    402.517     11.238    399.405     -3.271    393.359 c
+   -30.745    381.912 l
+   -45.254    375.866    -60.817    372.754    -76.535    372.754 c
+   -92.253    372.754   -107.816    375.866   -122.325    381.912 c
+  -149.799    393.359 l
+  -164.308    399.405   -179.871    402.517   -195.589    402.517 c
+  -211.308    402.517   -226.870    399.405   -241.379    393.359 c
+  -255.117    387.635 l
+f
+1 D
+   176.125    635.626 m
+   182.766    660.411    205.226    677.645    230.886    677.645 c
+   262.196    677.645    287.578    652.263    287.578    620.952 c
+   287.578    589.642    262.196    564.260    230.886    564.260 c
+   199.575    564.260    174.193    589.642    174.193    620.952 c
+   174.193    625.907    174.842    630.840    176.125    635.626 c
+f
+1 D
+  -309.877    765.849 m
+  -303.236    790.635   -280.776    807.869   -255.117    807.869 c
+  -223.806    807.869   -198.424    782.487   -198.424    751.176 c
+  -198.424    719.866   -223.806    694.484   -255.117    694.484 c
+  -286.427    694.484   -311.809    719.866   -311.809    751.176 c
+  -311.809    756.131   -311.160    761.064   -309.877    765.849 c
+f
+1 D
+   299.337    602.611 m
+   300.939    608.593    301.751    614.759    301.751    620.952 c
+   301.751    660.090    270.024    691.818    230.886    691.818 c
+   198.811    691.818    170.736    670.275    162.435    639.294 c
+  -186.665    732.835 l
+  -185.063    738.817   -184.251    744.983   -184.251    751.176 c
+  -184.251    790.314   -215.978    822.042   -255.117    822.042 c
+  -287.191    822.042   -315.266    800.499   -323.568    769.518 c
+  -350.948    776.854 l
+  -357.144    778.515   -361.453    784.130   -361.453    790.545 c
+  -361.453    791.783   -361.290    793.016   -360.970    794.213 c
+  -337.055    883.464 l
+  -335.941    887.623   -332.996    891.050   -329.052    892.778 c
+  -173.598    960.888 l
+  -171.804    961.674   -169.868    962.079   -167.910    962.079 c
+  -166.671    962.079   -165.438    961.917   -164.241    961.596 c
+    99.090    891.037 l
+   102.720    890.064    105.816    887.689    107.696    884.433 c
+   174.914    768.008 l
+   360.167    683.730 l
+   365.225    681.429    368.472    676.386    368.472    670.829 c
+   368.472    669.591    368.309    668.358    367.989    667.161 c
+   350.920    603.462 l
+   349.260    597.266    343.645    592.957    337.230    592.957 c
+   335.992    592.957    334.758    593.120    333.562    593.440 c
+   299.337    602.611 l
+f
+1 D
+   -47.798    813.010 m
+   141.030    762.414 l
+   141.628    762.254    142.245    762.173    142.864    762.173 c
+   146.778    762.173    149.951    765.346    149.951    769.259 c
+   149.951    770.503    149.623    771.725    149.001    772.803 c
+   100.359    857.053 l
+    98.479    860.308     95.384    862.684     91.753    863.656 c
+   -25.788    895.152 l
+   -47.798    813.010 l
+f
+1 D
+   -68.333    818.513 m
+   -46.323    900.654 l
+  -143.329    926.647 l
+  -144.525    926.967   -145.759    927.130   -146.997    927.130 c
+  -149.485    927.130   -151.929    926.475   -154.084    925.231 c
+  -223.518    885.143 l
+  -227.903    882.611   -230.604    877.932   -230.604    872.869 c
+  -230.604    866.454   -226.296    860.839   -220.099    859.178 c
+   -68.333    818.513 l
+f
+*U
+%%PageTrailer
+gsave annotatepage grestore showpage
+%%Trailer
+Adobe_IllustratorA_AI3 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+%%EOF

@@ -29,6 +29,20 @@ source: manual
 ## Log
 
 - 2026-09-08 — filed.
+- 2026-09-08 — First build from the free BASt vector sets (`tools/de_bast.py`, uk_eps pipeline): 242 EPS unzipped
+  (Vz2017 69, VLT 2021 102, Sinnbilder/RWB/RWBA 65, Musterdateien 6), 232 distinct → **232 SVGs**: Gefahrzeichen 1,
+  Vorschriftzeichen 13, Richtzeichen 130, Verkehrseinrichtungen 2, Zusatzzeichen 22, Sinnbilder und Symbole 64
+  (`SVGs/MANIFEST.csv`). 551-28.eps is byte-identical to 551-27.eps (BASt error) — not built, row in the manifest.
+  Scale: every EPS is 1:1 (1 pt = 25.4/72 mm) — DVK extents are in cm and the EPS BoundingBox is 28.35 pt/cm;
+  checked Z 101 → 841.4 × 739.4 mm (900 mm triangle, r 40), Z 264-2.3 → 600 mm disc, Z 230 → 600 × 900, 1010-71 →
+  600 × 330. Names from `bezeichnung-der-vz.pdf` → `REGISTER.csv` (1,161 entries; sections match the number
+  ranges). **Gap:** 165 of 1,161 listed Zeichen have official vector; 644 have only the 1:10 JPG; 352 have neither
+  (per family in SOURCES.md "Build") — the stick or generation must cover 996 entries. Contact sheets inspected:
+  faces, colours and proportions correct; Z 342 is a plan illustration of the marking (grey road), the Carsharing
+  Plakette lacks its raster hologram, RWB/RWBA pictograms keep their white 150 mm symbol field. Unsure: whether
+  the pictogram set belongs in the sign pack at all, and whether 720 (Grünpfeil, JPG only) should sit with the
+  Verkehrseinrichtungen. Housekeeping: the 670 unzipped JPGs (2.1 GB) are **not** covered by `.gitignore` (only
+  the ZIPs are) — needs an ignore line before the next commit; not changed here (out of scope for this build).
 
 ## Sources found
 

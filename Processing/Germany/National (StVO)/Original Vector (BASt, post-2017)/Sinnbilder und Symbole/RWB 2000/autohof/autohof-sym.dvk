@@ -1,0 +1,33 @@
+99      X/Y Verschiebung  Division Multiplikation    Drehen  Spiegeln
+99    XXXX.xxxxxYYYY.yyyyyDDDD.dddddMMMM.mmmmm     DDDD.ddddd   Y   X A/E
+77     -40.0    -105.0       0.0       0.0            0.0       0   0Anf
+99 ***************************************************************************
+99
+99 Bundesanstalt für Straßenwesen
+99
+99 RWBA-/RWB-Symbol
+99
+99 Bezeichnung:
+99 Autohof
+99
+99 Eingeführt durch: 
+99 Dreiunddreißigste Verordnung zur Änderung straßenverkehrsrechtlicher
+99 Vorschriften (33. ÄndVStVR) vom 11. Dezember 2000
+99
+99 Ausdehnung in cm:
+99       X_min     X_max     Y_min     Y_max
+11       0.0      39.875     0.0      13.0    
+99
+99 ***************************************************************************
+99
+99    * Weißer Einsatz mit "Autohof"
+13
+43    FARB  1 SEG    1    10
+42       0.0       0.0         3
+42       0.0      13.0         2
+42      39.875    13.0         2
+42      39.875     0.0         2
+42       0.0       0.0         2
+43    FARB 10 SEG    1     0
+47       3.0       3.0       7.0       0.0       M
+47    Autohof

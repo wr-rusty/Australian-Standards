@@ -11,3 +11,5 @@ Processing/Australia/WA/Original PDFs/**/*.pdf
 Processing/United Kingdom/**/*.zip
 
 Processing/Germany/National (StVO)/Original JPG (BASt)/*.zip
+Processing/Germany/National (StVO)/Original JPG (BASt)/**/*.jpg
+Processing/Germany/National (StVO)/Original JPG (BASt)/**/*.JPG
