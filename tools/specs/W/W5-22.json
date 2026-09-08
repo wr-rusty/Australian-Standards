@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 318 left of centre, bottom 148 below centre. Width 652 = 135+368+149 (inset). Height not stated as one dim: body 195 + 15 + wheel R53 = 263 plus the cab roof rising ~17 above the body (from the grid) -> 280; illustration measures ~281. Missing dim: overall symbol height. QA: height 285 measured on the illustration (bottom kept at the stated position), replacing the 280 grid estimate."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dims: left edge 318 left of centre, bottom 148 below centre. Width 652 = 135+368+149 (inset). Height not stated as one dim: body 195 + 15 + wheel R53 = 263 plus the cab roof rising ~17 above the body (from the grid) -> 280; illustration measures ~281. Missing dim: overall symbol height. QA: height 285 measured on the illustration (bottom kept at the stated position), replacing the 280 grid estimate. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

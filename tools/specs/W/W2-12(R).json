@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right-hand drawing: stem near (right) edge 75 left of centreline, bottom 270 below (stated). FLAG: 37+20+20 = 77 deg (drawn symbol matches: tip 315 from centreline measured vs 307.6 computed, arm end 308 vs 318.9). Box from inset geometry: tip 382.6 right of stem near edge, arm end 243.9 left -> width 626.5, height 515.3."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right-hand drawing: stem near (right) edge 75 left of centreline, bottom 270 below (stated). FLAG: 37+20+20 = 77 deg (drawn symbol matches: tip 315 from centreline measured vs 307.6 computed, arm end 308 vs 318.9). Box from inset geometry: tip 382.6 right of stem near edge, arm end 243.9 left -> width 626.5, height 515.3. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

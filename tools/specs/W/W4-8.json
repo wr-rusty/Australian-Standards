@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -59,7 +59,7 @@
    "colour": "black"
   }
  ],
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right chain 80 D | 40 | 80 C | 90 | (34 | 160 Emod) = 200 D: numerals 200 D with top on the horizontal centreline (200 D bracket starts at the centreline), baseline +200; CLEARANCE 80 C baseline -90 (top -170); LOW 80 D baseline -210 (top -290). 'm' 160 Emod on the same baseline as runs (drawing shows its top 34 below the numeral top, i.e. 194 not 200 - 6 mm drawing inconsistency; common baseline used). Bottom rows: LOW 198, CLEARANCE 500, numerals Varies | 60 | m 175, group centred. Vary values chosen (not stated). QA: the drawing gives the 80/40/80/90/200 chain but no dimension from the sign edge or centreline to it; the illustration measures LOW top ~204, CLEARANCE 324-408, numeral baseline ~698 (numeral top ~498, i.e. ~30 above the centreline), so the centreline anchor used here is not confirmed - needs a decision.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Right chain 80 D | 40 | 80 C | 90 | (34 | 160 Emod) = 200 D: numerals 200 D with top on the horizontal centreline (200 D bracket starts at the centreline), baseline +200; CLEARANCE 80 C baseline -90 (top -170); LOW 80 D baseline -210 (top -290). 'm' 160 Emod on the same baseline as runs (drawing shows its top 34 below the numeral top, i.e. 194 not 200 - 6 mm drawing inconsistency; common baseline used). Bottom rows: LOW 198, CLEARANCE 500, numerals Varies | 60 | m 175, group centred. Vary values chosen (not stated). QA: the drawing gives the 80/40/80/90/200 chain but no dimension from the sign edge or centreline to it; the illustration measures LOW top ~204, CLEARANCE 324-408, numeral baseline ~698 (numeral top ~498, i.e. ~30 above the centreline), so the centreline anchor used here is not confirmed - needs a decision. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18).",
  "vary": {
   "key": "clearance",
   "values": [

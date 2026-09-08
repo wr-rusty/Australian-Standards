@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -93,5 +93,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow-green edge, 30 black border; centre 530.33. Fluorescent yellow-green ground. Circle centre 102 below the horizontal centreline (dim 102): annulus R225/R210. Arrow: head 250 wide x 125 high, shaft 81 wide x 94 high, shaft bottom 259 above the circle centre -> tip at y 154.33; drawn as a polygon with R8 on the two barb tips (per-vertex radii). Legs symbol bbox is not dimensioned: ~328 x 240, centred on the circle's vertical axis, measured from the illustration. Missing dims: legs bbox. Drawing note: arrow may also be aligned at 45 degrees (not generated). QA: legs bbox re-measured on the illustration with the corrected drawing scale: 337.5 x 242.5, top 502 (130 above the circle centre, bottom 112 below), centred on the vertical axis."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow-green edge, 30 black border; centre 530.33. Fluorescent yellow-green ground. Circle centre 102 below the horizontal centreline (dim 102): annulus R225/R210. Arrow: head 250 wide x 125 high, shaft 81 wide x 94 high, shaft bottom 259 above the circle centre -> tip at y 154.33; drawn as a polygon with R8 on the two barb tips (per-vertex radii). Legs symbol bbox is not dimensioned: ~328 x 240, centred on the circle's vertical axis, measured from the illustration. Missing dims: legs bbox. Drawing note: arrow may also be aligned at 45 degrees (not generated). QA: legs bbox re-measured on the illustration with the corrected drawing scale: 337.5 x 242.5, top 502 (130 above the circle centre, bottom 112 below), centred on the vertical axis. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellowgreen edge 10 + black border 20; border was 30 (pixel check 16-20)."
 }

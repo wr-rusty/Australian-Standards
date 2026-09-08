@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -58,5 +58,5 @@
    "expect": 549
   }
  ],
- "notes": "Right-hand dims are baseline-to-baseline: NO baseline 250 (top 100); HOOK TURN baseline 400 (top 310); BY 535 (445); BICYCLES 670 (580); 80 bottom. NO 232|281|237 -> centred."
+ "notes": "Right-hand dims are baseline-to-baseline: NO baseline 250 (top 100); HOOK TURN baseline 400 (top 310); BY 535 (445); BICYCLES 670 (580); 80 bottom. NO 232|281|237 -> centred. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20)."
 }

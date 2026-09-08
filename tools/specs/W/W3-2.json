@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -91,5 +91,5 @@
    ]
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Left chain 219 arrow | 88 | 83 | 444 triangle: triangle top 83 above centreline, arrow bottom 171 above, arrow top 390 above; centred. Arrow taken as the W3-1 arrow (only the triangle is in this inset). QA: emblem drawn as a white rounded triangle polygon (sharp side 540.6 = 504 - 50 + 2*25*sqrt3, R25, apex 915.53; bbox 504 x 443.2 vs stated 444) with the traced red band (box 480 x 420, 12 inside) on top; the white centre is the polygon showing through the band's hole. A combined red+white trace picked up the diamond corners/paper in the box's empty bottom corners as white."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Left chain 219 arrow | 88 | 83 | 444 triangle: triangle top 83 above centreline, arrow bottom 171 above, arrow top 390 above; centred. Arrow taken as the W3-1 arrow (only the triangle is in this inset). QA: emblem drawn as a white rounded triangle polygon (sharp side 540.6 = 504 - 50 + 2*25*sqrt3, R25, apex 915.53; bbox 504 x 443.2 vs stated 444) with the traced red band (box 480 x 420, 12 inside) on top; the white centre is the polygon showing through the band's hole. A combined red+white trace picked up the diamond corners/paper in the box's empty bottom corners as white. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

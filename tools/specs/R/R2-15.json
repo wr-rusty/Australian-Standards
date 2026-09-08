@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -43,5 +43,5 @@
    "expect": 347
   }
  ],
- "notes": "U 180 E top 79; TURN 90 E top 315 (53|342|55); PERMITTED 60 C top 461 (52|347|51); 79 bottom."
+ "notes": "U 180 E top 79; TURN 90 E top 315 (53|342|55); PERMITTED 60 C top 461 (52|347|51); 79 bottom. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20)."
 }

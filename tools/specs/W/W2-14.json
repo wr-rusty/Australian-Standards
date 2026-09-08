@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -48,5 +48,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Dimensions are on the (R) drawing: stem far (left) edge 125 left of centreline and crossbar right extreme 400 right (125 | 400 = 525 overall), bottom 340 below centreline, crossbar lowest corner 30 below centreline (340-30 = 310 as inset). Height 734.2 NOT stated: derived from the inset geometry (top-left crossbar corner); measured 737 on drawing. QA: symbol traced from the lower (R) panel of the drawing (which 1)."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Dimensions are on the (R) drawing: stem far (left) edge 125 left of centreline and crossbar right extreme 400 right (125 | 400 = 525 overall), bottom 340 below centreline, crossbar lowest corner 30 below centreline (340-30 = 310 as inset). Height 734.2 NOT stated: derived from the inset geometry (top-left crossbar corner); measured 737 on drawing. QA: symbol traced from the lower (R) panel of the drawing (which 1). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -36,7 +36,7 @@
    "colour": "red"
   }
  ],
- "notes": "R5-50A 600 x 800. CLEARWAY 70 D top 54 (61|478|61); C symbol 230 square (R230 sides, white C 180 D) at 185, 159 (54+70+35). Below it a 500 x 320 variable legend panel (dashed, at 50, 424) left empty: the drawing gives alternatives - AT ALL TIMES (100 D, AT 153 + 78 + ALL 239 at 65 from left, top 459; TIMES 359 top 609) and time-of-operation legends with '*variable' widths.",
+ "notes": "R5-50A 600 x 800. CLEARWAY 70 D top 54 (61|478|61); C symbol 230 square (R230 sides, white C 180 D) at 185, 159 (54+70+35). Below it a 500 x 320 variable legend panel (dashed, at 50, 424) left empty: the drawing gives alternatives - AT ALL TIMES (100 D, AT 153 + 78 + ALL 239 at 65 from left, top 459; TIMES 359 top 609) and time-of-operation legends with '*variable' widths. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18).",
  "symbols": {
   "r5_clearway_c": {
    "source": "R5-50",

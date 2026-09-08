@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 15
+  "width": 10
  },
  "elements": [
   {
@@ -35,5 +35,5 @@
    "expect": 582
   }
  ],
- "notes": "R9-5C (750 x 375) illustrated. Stack 62/100D/50/100D/63."
+ "notes": "R9-5C (750 x 375) illustrated. Stack 62/100D/50/100D/63. 2026-09-08 drawing check: the drawing's 15 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 5 + black border 10; border was 15 (pixel check 11)."
 }

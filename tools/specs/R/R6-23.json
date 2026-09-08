@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 45
+  "width": 30
  },
  "elements": [
   {
@@ -70,6 +70,6 @@
    "expect": 408
   }
  ],
- "notes": "R6-23A illustrated. R100, 15 white edge, 45 border. Stack 80/120E/55/115C/60/115C/55/120D/80. TRUCK & BUS gaps 63 and 59. Drawing gives & = 100 wide at 115 C; the FHWA font ampersand is 115 (kept as drawn series/height).",
- "accepted_drawing_discrepancy": "drawing gives & = 100 wide at 115 C; the FHWA Series C ampersand is 115 and no series/height gives 100; drawn as labelled \u2014 width check fails, routed to intervene"
+ "notes": "R6-23A illustrated. R100, 15 white edge, 45 border. Stack 80/120E/55/115C/60/115C/55/120D/80. TRUCK & BUS gaps 63 and 59. Drawing gives & = 100 wide at 115 C; the FHWA font ampersand is 115 (kept as drawn series/height). 2026-09-08 drawing check: the drawing's 45 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 15 + black border 30; border was 45 (pixel check 32).",
+ "accepted_drawing_discrepancy": "drawing gives & = 100 wide at 115 C; the FHWA Series C ampersand is 115 and no series/height gives 100; drawn as labelled — width check fails, routed to intervene"
 }

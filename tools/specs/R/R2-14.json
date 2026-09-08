@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -37,7 +37,7 @@
    "expect": 478
   }
  ],
- "notes": "Drawing file R2-14(L).png shows both hands. Arrow 92 from top, 408 high, 107|386|107. ONLY 120 E top 580 (92+408+80), 100 bottom; drawing 66|478|56 implies centre 305 (5 right) - centred. Curved arrow drawn as an exact path from the inset: stem 88 wide, 72 straight then 75 deg on inner R188 (outer R276); head 176 long (tip to barb line), 100+100 to the R16 barb centres = 232 overall, notch 12, R16 tip; corner arcs inscribed to those extremes. Computed outline 386.5 x 412.8 against the stated 386 x 408 box, centred in it.",
+ "notes": "Drawing file R2-14(L).png shows both hands. Arrow 92 from top, 408 high, 107|386|107. ONLY 120 E top 580 (92+408+80), 100 bottom; drawing 66|478|56 implies centre 305 (5 right) - centred. Curved arrow drawn as an exact path from the inset: stem 88 wide, 72 straight then 75 deg on inner R188 (outer R276); head 176 long (tip to barb line), 100+100 to the R16 barb centres = 232 overall, notch 12, R16 tip; corner arcs inscribed to those extremes. Computed outline 386.5 x 412.8 against the stated 386 x 408 box, centred in it. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18).",
  "symbols": {
   "r2-14_curve_arrow_left": {
    "source": "R2-14(L)",

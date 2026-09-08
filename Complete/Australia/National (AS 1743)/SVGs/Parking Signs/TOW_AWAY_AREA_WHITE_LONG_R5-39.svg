@@ -4,7 +4,7 @@
   <g id="panel">
     <path id="edge" fill="#fff" d="M25 0h550a25 25 0 0 1 25 25v175a25 25 0 0 1 -25 25h-550a25 25 0 0 1 -25 -25v-175a25 25 0 0 1 25 -25Z"/>
     <path id="border" fill="#000" d="M25 5h550a20 20 0 0 1 20 20v175a20 20 0 0 1 -20 20h-550a20 20 0 0 1 -20 -20v-175a20 20 0 0 1 20 -20Z"/>
-    <path id="ground" fill="#fff" d="M25 20h550a5 5 0 0 1 5 5v175a5 5 0 0 1 -5 5h-550a5 5 0 0 1 -5 -5v-175a5 5 0 0 1 5 -5Z"/>
+    <path id="ground" fill="#fff" d="M25 15h550a10 10 0 0 1 10 10v175a10 10 0 0 1 -10 10h-550a10 10 0 0 1 -10 -10v-175a10 10 0 0 1 10 -10Z"/>
   </g>
   <g id="legend">
     <g transform="translate(90 39.51) scale(0.99)">

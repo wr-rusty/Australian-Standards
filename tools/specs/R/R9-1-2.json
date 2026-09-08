@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 15
+  "width": 10
  },
  "elements": [
   {
@@ -143,5 +143,5 @@
    "x": 276
   }
  ],
- "notes": "R9-1-2A (450 x 450) illustrated. R50, 5 white edge, 15 border. Times vary. Line 1: 7/9 120 C top 40 (48|67|46|30|41|67|23|80|48), dash 30 x 12 at y 94, AM 45 D top 115 right at 402. Line 2 top 200: 4 (x 26), 30 60 C (x 120), dash 30 x 12 at x 210 y 254, 6 (x 255); right group 30 (60 C) and PM (45 D, top 275) right-aligned at 424 (73|26 and 78|26). Line-2 horizontal string 26|74|20|75|15|30|15|67|21|78|26 sums to 447 not 450, so the right group is anchored from the right margin. MON-FRI 45 E: left column 40|120|40|120|40|45|40 sums to 445; top taken as 365 so the line is centred on the dimensioned dash (y 384-392) with 40 below. Font widths: 30 at 60 C = 78 vs 75 drawn on the left, PM 72.5 vs 73."
+ "notes": "R9-1-2A (450 x 450) illustrated. R50, 5 white edge, 15 border. Times vary. Line 1: 7/9 120 C top 40 (48|67|46|30|41|67|23|80|48), dash 30 x 12 at y 94, AM 45 D top 115 right at 402. Line 2 top 200: 4 (x 26), 30 60 C (x 120), dash 30 x 12 at x 210 y 254, 6 (x 255); right group 30 (60 C) and PM (45 D, top 275) right-aligned at 424 (73|26 and 78|26). Line-2 horizontal string 26|74|20|75|15|30|15|67|21|78|26 sums to 447 not 450, so the right group is anchored from the right margin. MON-FRI 45 E: left column 40|120|40|120|40|45|40 sums to 445; top taken as 365 so the line is centred on the dimensioned dash (y 384-392) with 40 below. Font widths: 30 at 60 C = 78 vs 75 drawn on the left, PM 72.5 vs 73. 2026-09-08 drawing check: the drawing's 15 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 5 + black border 10; border was 15 (pixel check 10)."
 }

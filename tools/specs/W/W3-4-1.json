@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -53,5 +53,5 @@
    "grid_mm": 37.5
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Hump drawn as path (fully dimensioned): base 608 x 56, shoulders 86, R250 arc rising to 184 above the base bottom (chord 436, sagitta 128 -> R250 consistent); hump top 63 above centreline, bottom 121 below (63 | 121), centred. Arrow (same as W3-1: 250 x 219, 81 stem, R8) top 370 above centreline (stated), centred."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Hump drawn as path (fully dimensioned): base 608 x 56, shoulders 86, R250 arc rising to 184 above the base bottom (chord 436, sagitta 128 -> R250 consistent); hump top 63 above centreline, bottom 121 below (63 | 121), centred. Arrow (same as W3-1: 250 x 219, 81 stem, R8) top 370 above centreline (stated), centred. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

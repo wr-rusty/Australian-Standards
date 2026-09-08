@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Koala 583 x 437 (inset); left edge 309 left of centre, bottom 228 below centre."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Koala 583 x 437 (inset); left edge 309 left of centre, bottom 228 below centre. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

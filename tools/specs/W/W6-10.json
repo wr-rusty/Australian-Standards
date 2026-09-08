@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 16.57
   }
  },
- "notes": "Diamond 600 side (Illust. C) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26; grid 30. Symbol 529 x 312 (inset); left 302 / right 227 of centre, top 155 above / bottom 157 below centre."
+ "notes": "Diamond 600 side (Illust. C) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26; grid 30. Symbol 529 x 312 (inset); left 302 / right 227 of centre, top 155 above / bottom 157 below centre. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 20)."
 }

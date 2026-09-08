@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -93,7 +93,7 @@
    "x": 431
   }
  ],
- "notes": "R5-81 illustrated 600 x 800. Roundel 360 at 120, 70; AREA 100 E top 465 (95|410|95); 9AM - 6.30PM 80 E top 630: 119|65|16|54|32|32|32|65|16|49|120 = 600 (dash 32 long, 8 thick at 36|8|36); 30 in 45 C top-aligned, PM 25 E bottom-aligned (10 between); AM height not labelled - taken as 25 E like PM. The '57' above the 49 is read as the width of the 30 (PM 49). 90 bottom.",
+ "notes": "R5-81 illustrated 600 x 800. Roundel 360 at 120, 70; AREA 100 E top 465 (95|410|95); 9AM - 6.30PM 80 E top 630: 119|65|16|54|32|32|32|65|16|49|120 = 600 (dash 32 long, 8 thick at 36|8|36); 30 in 45 C top-aligned, PM 25 E bottom-aligned (10 between); AM height not labelled - taken as 25 E like PM. The '57' above the 49 is read as the width of the 30 (PM 49). 90 bottom. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20).",
  "symbols": {
   "r5-81_no_parking_360": {
    "source": "R5-81",

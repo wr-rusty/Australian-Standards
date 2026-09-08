@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -58,5 +58,5 @@
    "colour": "black"
   }
  ],
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). T symbol drawn as polygon (fully dimensioned): crossbar 626 (250+126+250) x 126, stem 126 x 312 centred; crossbar bottom on the horizontal centreline (126 above / 312 below; pixel check), centred horizontally (63 | 63). Square corners as drawn."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). T symbol drawn as polygon (fully dimensioned): crossbar 626 (250+126+250) x 126, stem 126 x 312 centred; crossbar bottom on the horizontal centreline (126 above / 312 below; pixel check), centred horizontally (63 | 63). Square corners as drawn. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

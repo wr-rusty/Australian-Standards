@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -27,6 +27,6 @@
    "expect": 410
   }
  ],
- "notes": "R7-2C (600 x 200) illustrated. R50, 10 white edge, 30 border. Drawing labels the line 100 E, but AHEAD at 100 E is 512 wide (would leave 4 each side of the 520 inner width); the drawn width 410 (95|410|95) is closest to series D (430, 5 pct over) - D used; see report.",
- "accepted_drawing_discrepancy": "drawing labels AHEAD 100 E but dimensions it 410; E gives 512, D 430, C 350 \u2014 D used, 5 % over; routed to intervene"
+ "notes": "R7-2C (600 x 200) illustrated. R50, 10 white edge, 30 border. Drawing labels the line 100 E, but AHEAD at 100 E is 512 wide (would leave 4 each side of the 520 inner width); the drawn width 410 (95|410|95) is closest to series D (430, 5 pct over) - D used; see report. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18).",
+ "accepted_drawing_discrepancy": "drawing labels AHEAD 100 E but dimensions it 410; E gives 512, D 430, C 350 — D used, 5 % over; routed to intervene"
 }

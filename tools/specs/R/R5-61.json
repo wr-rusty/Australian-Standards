@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -146,5 +146,5 @@
    ]
   }
  ],
- "notes": "R5-61A 600 x 900. PARKING 60 E top 60; AREA top 155; P 200 E green top 265 (219|162|219); TICKET 60 D top 500; 6.30AM - 7PM 100 E top 595: 78|162|37|37|37|170|79 -> '6' from 78 with '30' (60 C, top-aligned) and AM (30 E, bottom-aligned, 10 between) right-aligned at 240; dash 37 long, 10 thick (45|10|45) at 277; '7' from 351, PM right-aligned at 521. NOV - MAR 55 E top 725 spans 65|470|65 (NOV left at 65, MAR right-aligned at 535); its dash is 8 thick at 24|8|23 but its LENGTH is not dimensioned - drawn 37 long (as the line above) centred; flagged. EXCEPT AS SIGNED 40 D top 810: 65|184|21|64|20|181|65 (the width check identifies this row as EXCEPT/AS/SIGNED; single gap 20.5 used for 21/20); 50 bottom. Positions inside the 162/170 blocks are not sub-dimensioned (left/right-aligned to the block edges)."
+ "notes": "R5-61A 600 x 900. PARKING 60 E top 60; AREA top 155; P 200 E green top 265 (219|162|219); TICKET 60 D top 500; 6.30AM - 7PM 100 E top 595: 78|162|37|37|37|170|79 -> '6' from 78 with '30' (60 C, top-aligned) and AM (30 E, bottom-aligned, 10 between) right-aligned at 240; dash 37 long, 10 thick (45|10|45) at 277; '7' from 351, PM right-aligned at 521. NOV - MAR 55 E top 725 spans 65|470|65 (NOV left at 65, MAR right-aligned at 535); its dash is 8 thick at 24|8|23 but its LENGTH is not dimensioned - drawn 37 long (as the line above) centred; flagged. EXCEPT AS SIGNED 40 D top 810: 65|184|21|64|20|181|65 (the width check identifies this row as EXCEPT/AS/SIGNED; single gap 20.5 used for 21/20); 50 bottom. Positions inside the 162/170 blocks are not sub-dimensioned (left/right-aligned to the block edges). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 19)."
 }

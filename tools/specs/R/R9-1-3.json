@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 15
+  "width": 10
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "expect": 384
   }
  ],
- "notes": "R9-1-3B (600 x 400) illustrated. R25, 5 white edge, 15 border. Stack 77/90E/66/90E/77."
+ "notes": "R9-1-3B (600 x 400) illustrated. R25, 5 white edge, 15 border. Stack 77/90E/66/90E/77. 2026-09-08 drawing check: the drawing's 15 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 5 + black border 10; border was 15 (pixel check 9)."
 }

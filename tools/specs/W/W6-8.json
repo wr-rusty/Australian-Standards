@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 23
+  "width": 15
  },
  "elements": [
   {
@@ -35,5 +35,5 @@
    "expect": 316
   }
  ],
- "notes": "Diamond 450 side (Illust. B) drawn as bounding square 636.4; R30 outer, 8 yellow edge, 23 black border; centre 318.2. 90 C / 57 / 90 C; AHEAD top 12 below the centreline (dim 12). Both centred (= dims)."
+ "notes": "Diamond 450 side (Illust. B) drawn as bounding square 636.4; R30 outer, 8 yellow edge, 23 black border; centre 318.2. 90 C / 57 / 90 C; AHEAD top 12 below the centreline (dim 12). Both centred (= dims). 2026-09-08 drawing check: the drawing's 23 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 8 + black border 15; border was 23 (pixel check 15)."
 }

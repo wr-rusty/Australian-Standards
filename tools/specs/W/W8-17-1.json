@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -71,5 +71,5 @@
    50
   ]
  },
- "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. NEXT 125 E top 94, 144 | 461 | 145 -> cx 374.5. Second line top 281: numeral 125 E (Varies), gap 60, unit in Emod (capital height 105, on the numeral baseline: top 406-105 = 301), group centred (= dims). Numeral and km as runs on one baseline (406): numeral 125 E | 60 | km 105 Emod (216), centred as a group (= | Varies | 60 | 216 | =), so every vary value stays centred."
+ "notes": "750 x 500 (Illust. B). R50, 10 edge, 30 black border. NEXT 125 E top 94, 144 | 461 | 145 -> cx 374.5. Second line top 281: numeral 125 E (Varies), gap 60, unit in Emod (capital height 105, on the numeral baseline: top 406-105 = 301), group centred (= dims). Numeral and km as runs on one baseline (406): numeral 125 E | 60 | km 105 Emod (216), centred as a group (= | Varies | 60 | 216 | =), so every vary value stays centred. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

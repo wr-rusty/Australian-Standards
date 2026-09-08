@@ -9,6 +9,8 @@ re-emit the outline as an absolute SVG path whose viewBox is the symbol's ink ex
   python3 tools/trace_symbol.py --spec tools/specs/TM/TM10-1A.json           # all symbols in a spec
   python3 tools/trace_symbol.py --drawing TM10-1A --ground yellow --inset 25 --box 250 100 100 400 --id tm10-1a_up_arrow
 Add --force to overwrite, --show to also write a PNG preview next to the crop in the scratch dir.
+Other packs: a spec with "pack": "NSW" traces from that pack's drawings (signgen.PACKS); `--render-pngs NSW [--codes ...]`
+renders the pack's design-plan PDFs (first page, turned upright) to its PNG folder at --dpi (200).
 """
 import argparse, glob, json, os, re, subprocess, sys, tempfile
 from PIL import Image, ImageOps, ImageFilter
@@ -18,15 +20,60 @@ PNG_DIR = os.path.join(ROOT, "Complete", "Australia", "National (AS 1743)", "Ori
 SYM_DIR = os.path.join(ROOT, "tools", "symbols")
 UPSCALE = 6
 
+def png_dir(pack=None):
+    """Drawing folder: AS 1743 unless a pack (spec "pack", e.g. NSW) is named — see signgen.PACKS."""
+    if not pack: return PNG_DIR
+    import signgen
+    return signgen.PACKS[pack]["png"]
+
 def base_code(code): return code.split("(")[0]
-def resolve_png(code):
+def resolve_png(code, pack=None):
     """Drawing file for a code: exact name, else a file named <base>(...).png (handed drawings)."""
-    exact = os.path.join(PNG_DIR, code + ".png")
+    d = png_dir(pack)
+    exact = os.path.join(d, code + ".png")
     if os.path.exists(exact): return exact
     b = base_code(code)
-    for f in sorted(os.listdir(PNG_DIR)):
-        if (f.startswith(b + "(") or f == b + ".png") and f.endswith(".png"): return os.path.join(PNG_DIR, f)
+    for f in sorted(os.listdir(d)):
+        if (f.startswith(b + "(") or f == b + ".png") and f.endswith(".png"): return os.path.join(d, f)
     raise SystemExit(f"no drawing for {code}")
+
+def sheet_turn(page):
+    """Degrees to turn a design-plan page so its content reads upright (TfNSW sheets are often drawn sideways on a
+    portrait A3): from the text direction, else (all text outlined) from whether thin drawn boxes run up or across."""
+    import pymupdf
+    dirs = []
+    for b in page.get_text("dict")["blocks"]:
+        for l in b.get("lines", []):
+            if sum(len(sp["text"].strip()) for sp in l["spans"]) > 2: dirs.append(l["dir"])
+    vert = sum(1 for d in dirs if abs(d[1]) > abs(d[0])); horiz = len(dirs) - vert
+    if dirs:
+        if vert <= horiz: return 0
+        up = sum(1 for d in dirs if abs(d[1]) > abs(d[0]) and d[1] < 0)
+        return 90 if up >= vert / 2 else -90
+    if page.rect.width >= page.rect.height: return 0
+    rects = [d["rect"] for d in page.get_drawings()]
+    vert = sum(1 for r in rects if r.width < 14 and r.height > 3 * r.width and r.height > 30)
+    horiz = sum(1 for r in rects if r.height < 14 and r.width > 3 * r.height and r.width > 30)
+    return -90 if vert > horiz else 0
+
+def render_pack_pngs(pack, codes=None, dpi=200, force=False):
+    """Render each design plan of a pack (first page of PACKS[pack]["pdf"]/<local>, per the register's sign_no ->
+    local columns) upright into PACKS[pack]["png"]/<sign_no>.png. Existing files are kept unless force."""
+    import csv, pymupdf, signgen
+    P = signgen.PACKS[pack]; os.makedirs(P["png"], exist_ok=True); n = 0
+    want = set(codes or [])
+    with open(P["register"], newline="") as fh: rows = [r for r in csv.DictReader(fh) if r.get("local") and r.get("sign_no")]
+    for r in rows:
+        code = r["sign_no"].strip().rstrip("-").strip()
+        if want and code not in want and r["sign_no"].strip() not in want: continue
+        out = os.path.join(P["png"], code + ".png")
+        if os.path.exists(out) and not force: continue
+        pdf = os.path.join(os.path.dirname(P["register"]), r["local"])
+        if not os.path.exists(pdf): print(code, "missing", pdf); continue
+        page = pymupdf.open(pdf)[0]
+        pix = page.get_pixmap(matrix=pymupdf.Matrix(dpi / 72, dpi / 72) * pymupdf.Matrix(sheet_turn(page)), alpha=False)
+        pix.save(out); n += 1; print(code, pix.width, pix.height)
+    print(f"{n} rendered into {P['png']}")
 
 def reference_inset(spec):
     """mm inset (from the drawn outline) of the region the tracer detects. Coloured grounds: the
@@ -91,9 +138,10 @@ def is_ink(px, colour):
             "orange": r > 200 and 90 < g < 190 and b < 90,
             "brown": 100 < r < 190 and 50 < g < 120 and b < 90}[colour]
 
-def find_panel(img, ground, which=0):
+def find_panel(img, ground, which=0, sheet=False):
     """Pixel bbox of the `which`-th ground-coloured connected region, ordered top-to-bottom then
-    left-to-right (drawings that show (L) and (R) contain two panels). Only coloured grounds."""
+    left-to-right (drawings that show (L) and (R) contain two panels). Only coloured grounds.
+    sheet=True: a whole design-plan sheet (several sizes side by side) — candidates ordered left-to-right first."""
     w, h = img.size; px = img.load()
     mask = bytearray(w * h)
     for y in range(h):
@@ -125,19 +173,22 @@ def find_panel(img, ground, which=0):
                 cl[0] += n; cl[1] = min(cl[1], x0); cl[2] = min(cl[2], y0); cl[3] = max(cl[3], x1); cl[4] = max(cl[4], y1); placed = True; break
         if not placed: clusters.append([n, x0, y0, x1, y1])
     clusters = [cl for cl in clusters if cl[0] > big * 0.25]
-    clusters.sort(key=lambda c: (c[2] // 50, c[1]))             # top-to-bottom, then left-to-right
+    clusters.sort(key=lambda c: (c[1] // 40, c[2]) if sheet else (c[2] // 50, c[1]))   # top-to-bottom, then left-to-right (sheets: left-to-right first)
     n, x0, y0, x1, y1 = clusters[min(which, len(clusters) - 1)]
     return x0, y0, x1, y1
 
-def find_white_panel(img, which=0):
+def find_white_panel(img, which=0, sheet=False):
     """White-ground signs: bbox of the dark border ring (largest dark component by bbox area),
-    trimmed to its long straight runs so touching dimension lines don't widen it."""
+    trimmed to its long straight runs so touching dimension lines don't widen it.
+    sheet=True (a whole design-plan sheet rather than a cropped drawing): the sheet frame and title block — dark
+    components spanning more than 85 % of the image — are ignored, and candidates are ordered left-to-right then
+    top-to-bottom so `which` picks one sign of a multi-size sheet."""
     for dark in (90, 170):
-        try: return _find_white_panel(img, which, dark)
+        try: return _find_white_panel(img, which, dark, sheet)
         except SystemExit: pass
     raise SystemExit("no border ring found")
 
-def _find_white_panel(img, which, dark):
+def _find_white_panel(img, which, dark, sheet=False):
     w, h = img.size; px = img.load()
     mask = bytearray(w * h)
     for y in range(h):
@@ -156,7 +207,8 @@ def _find_white_panel(img, which, dark):
                     if 0 <= k < w * h and mask[k] and not seen[k] and abs((k % w) - jx) <= 1: seen[k] = 1; stack.append(k)
             if len(pts) < 2000: continue
             xs = [q % w for q in pts]; ys = [q // w for q in pts]
-            comps.append(((max(xs) - min(xs)) * (max(ys) - min(ys)), pts, min(ys)))
+            if sheet and (max(xs) - min(xs) > 0.85 * w or max(ys) - min(ys) > 0.85 * h): continue   # sheet frame / title block
+            comps.append(((max(xs) - min(xs)) * (max(ys) - min(ys)), pts, min(ys) if not sheet else (min(xs) // 40, min(ys))))
     if not comps: raise SystemExit("no border ring found")
     comps.sort(key=lambda c: -c[0]); big = comps[0][0]
     cands = [c for c in comps if c[0] > big * 0.3]; cands.sort(key=lambda c: c[2])
@@ -222,13 +274,13 @@ def parse_potrace(svg_text):
         out.append(segs)
     return out
 
-def trace(drawing, ground, inset, box, sid, panel=None, force=False, show=False, threshold=110, invert=False, which=0, colours=None, mask=None, open_px=0):
+def trace(drawing, ground, inset, box, sid, panel=None, force=False, show=False, threshold=110, invert=False, which=0, colours=None, mask=None, open_px=0, pack=None):
     outp = os.path.join(SYM_DIR, sid + ".svg")
     if os.path.exists(outp) and not force: return "exists"
-    img = Image.open(resolve_png(drawing)).convert("RGB")
+    img = Image.open(resolve_png(drawing, pack)).convert("RGB")
     if panel: x0, y0, x1, y1 = panel
-    elif ground == "white": x0, y0, x1, y1 = find_white_panel(img, which)
-    else: x0, y0, x1, y1 = find_panel(img, ground, which)
+    elif ground == "white": x0, y0, x1, y1 = find_white_panel(img, which, sheet=bool(pack))
+    else: x0, y0, x1, y1 = find_panel(img, ground, which, sheet=bool(pack))
     # the ground region corresponds to the mm rect inset by (edge+border) on every side
     Wmm = box[4] if len(box) > 4 else None
     return _trace_from_panel(img, (x0, y0, x1, y1), inset, box, sid, outp, show, threshold, invert, colours, mask, open_px)
@@ -307,7 +359,12 @@ def main():
     ap.add_argument("--box", nargs=4, type=float); ap.add_argument("--size", nargs=2, type=float); ap.add_argument("--id")
     ap.add_argument("--panel", nargs=4, type=int); ap.add_argument("--force", action="store_true"); ap.add_argument("--show")
     ap.add_argument("--threshold", type=int, default=110); ap.add_argument("--invert", action="store_true"); ap.add_argument("--which", type=int, default=0)
+    ap.add_argument("--pack", help="drawing folder of another pack (signgen.PACKS), e.g. NSW")
+    ap.add_argument("--render-pngs", metavar="PACK", help="render a pack's design-plan PDFs to its PNG folder (optionally only --codes), then exit")
+    ap.add_argument("--codes", nargs="*"); ap.add_argument("--dpi", type=int, default=200)
     a = ap.parse_args()
+    if a.render_pngs:
+        render_pack_pngs(a.render_pngs, a.codes, a.dpi, a.force); return
     if a.spec:
         specs = [json.load(open(sp)) for sp in sorted(glob.glob(a.spec))]
         done = set()
@@ -332,13 +389,14 @@ def main():
                     try:
                         r = trace(src, meta.get("ground", spec["ground"]), meta.get("inset", inset), (el["x"], el["y"], el["w"], el["h"], spec["size"][0], spec["size"][1]), el["id"],
                                   panel=meta.get("panel_px"), force=a.force, show=a.show, threshold=meta.get("threshold", a.threshold),
-                                  invert=meta.get("invert", meta.get("ground", spec["ground"]) == "black"), which=meta.get("which", 0), colours=meta.get("colours"),
-                                  mask=None if meta.get("nomask") else (spec.get("shape", "rect"), spec["size"][0], spec["size"][1], ground_inset(spec)), open_px=meta.get("open", 0))
+                                  invert=meta.get("invert", meta.get("ground", spec["ground"]) == "black"), which=meta.get("which", spec.get("which", 0)), colours=meta.get("colours"),
+                                  mask=None if meta.get("nomask") else (spec.get("shape", "rect"), spec["size"][0], spec["size"][1], ground_inset(spec)), open_px=meta.get("open", 0),
+                                  pack=meta.get("pack", spec.get("pack")))
                     except SystemExit as e: r = f"FAILED: {e}"
                     except Exception as e: r = f"FAILED: {type(e).__name__} {e}"
                     print(spec["code"], el["id"], r)
     else:
-        print(trace(a.drawing, a.ground, a.inset, tuple(a.box) + tuple(a.size), a.id, panel=a.panel, force=a.force, show=a.show, threshold=a.threshold, invert=a.invert, which=a.which))
+        print(trace(a.drawing, a.ground, a.inset, tuple(a.box) + tuple(a.size), a.id, panel=a.panel, force=a.force, show=a.show, threshold=a.threshold, invert=a.invert, which=a.which, pack=a.pack))
 
 if __name__ == "__main__":
     main()

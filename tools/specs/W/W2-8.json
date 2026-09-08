@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -47,5 +47,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 375 above centreline, then 125 | 80 (left arm) | 110 (sign chain, 690 total); width 410 centred (inset 150|110|150; pixel check 410). FLAG: sign bottom row reads '200 | 55 | 55' (copied from W2-4) but the inset and drawn symbol have 150 arms; inset used. Inset chain 240+280+80+110 = 710 vs sign 690 (same 20 discrepancy as W2-1)."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 375 above centreline, then 125 | 80 (left arm) | 110 (sign chain, 690 total); width 410 centred (inset 150|110|150; pixel check 410). FLAG: sign bottom row reads '200 | 55 | 55' (copied from W2-4) but the inset and drawn symbol have 150 arms; inset used. Inset chain 240+280+80+110 = 710 vs sign 690 (same 20 discrepancy as W2-1). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

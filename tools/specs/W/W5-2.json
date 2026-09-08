@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -35,5 +35,5 @@
    "expect": 563
   }
  ],
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 125 D / 63 / 125 D; OPENING bottom 12 above the horizontal centreline (drawing dim 12), BRIDGE top 63 below OPENING. Both words centred (= dims)."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. 125 D / 63 / 125 D; OPENING bottom 12 above the horizontal centreline (drawing dim 12), BRIDGE top 63 below OPENING. Both words centred (= dims). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

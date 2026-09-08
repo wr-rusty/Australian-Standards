@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -72,6 +72,6 @@
    "expect": 406
   }
  ],
- "notes": "R6-3A illustrated. Tonnage numerals 100 E are 'Variable' (80 shown; varies), t 85 Emod, gap 30, t width 52, group centred (runs, shared baseline). Drawing's t width 52 disagrees with Emod 85 (font gives 44; 52 corresponds to Emod 100).",
- "accepted_drawing_discrepancy": "drawing gives t = 52 wide at 85 Emod; the font gives 44 and 52 corresponds to Emod 100; stated 85 kept \u2014 width check fails, routed to intervene"
+ "notes": "R6-3A illustrated. Tonnage numerals 100 E are 'Variable' (80 shown; varies), t 85 Emod, gap 30, t width 52, group centred (runs, shared baseline). Drawing's t width 52 disagrees with Emod 85 (font gives 44; 52 corresponds to Emod 100). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20).",
+ "accepted_drawing_discrepancy": "drawing gives t = 52 wide at 85 Emod; the font gives 44 and 52 corresponds to Emod 100; stated 85 kept — width check fails, routed to intervene"
 }

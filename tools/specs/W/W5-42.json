@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -47,5 +47,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims for (L). Symbol 695 x 586 (inset); left edge 470 left of centre (x 60.33, at the diamond's left corner), bottom 246 below centre."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims for (L). Symbol 695 x 586 (inset); left edge 470 left of centre (x 60.33, at the diamond's left corner), bottom 246 below centre. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

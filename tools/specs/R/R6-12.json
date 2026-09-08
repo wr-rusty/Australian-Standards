@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -64,5 +64,5 @@
    ]
   }
  ],
- "notes": "R6-12 1500 x 600. As R6-11: numerals 160 E variable (3.3 shown; varies), 84 between numerals incl. 28 point, 80 gap, m 140 Emod 153; group centred (runs, shared baseline)."
+ "notes": "R6-12 1500 x 600. As R6-11: numerals 160 E variable (3.3 shown; varies), 84 between numerals incl. 28 point, 80 gap, m 140 Emod 153; group centred (runs, shared baseline). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18)."
 }

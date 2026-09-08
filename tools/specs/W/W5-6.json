@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -28,5 +28,5 @@
    "cx": 554.23
   }
  ],
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. FORD 200 E centred vertically (100 above/below centre). Bottom dims 157 | 753 | 109 (measured between the rounded tips, sum 1019) put the word 24 mm right of centre: cx 554.23 honours the drawing."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. FORD 200 E centred vertically (100 above/below centre). Bottom dims 157 | 753 | 109 (measured between the rounded tips, sum 1019) put the word 24 mm right of centre: cx 554.23 honours the drawing. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

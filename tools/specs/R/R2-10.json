@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -50,5 +50,5 @@
    "expect": 495
   }
  ],
- "notes": "Illustrated size R2-10B 600 x 600. GIVE WAY 100 C top 85 (53|230|49|215|53); TO 100 C top 258; PEDESTRIANS 85 B top 430 (53|495|52); 85 bottom."
+ "notes": "Illustrated size R2-10B 600 x 600. GIVE WAY 100 C top 85 (53|230|49|215|53); TO 100 C top 258; PEDESTRIANS 85 B top 430 (53|495|52); 85 bottom. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20)."
 }

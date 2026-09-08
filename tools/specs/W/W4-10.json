@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -162,5 +162,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Three arrows (left up, middle and right down = same arrow rotated 180 about its box centre). Axes: middle arrow axis 23 right of centreline; bottom row 256 | 206 is measured from that axis -> left axis -233, right axis +229 (pixel check -232 / +23 / +231). Vertical: 185 from centreline to arrow bottoms (stated) -> all arrows y -190..+185. Arrows drawn as polygons from the inset: 375 long, head 160 x 175, notch 16, shaft tapering 50 (at the notch) to 66 (tail), R10 barbs."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Three arrows (left up, middle and right down = same arrow rotated 180 about its box centre). Axes: middle arrow axis 23 right of centreline; bottom row 256 | 206 is measured from that axis -> left axis -233, right axis +229 (pixel check -232 / +23 / +231). Vertical: 185 from centreline to arrow bottoms (stated) -> all arrows y -190..+185. Arrows drawn as polygons from the inset: 375 long, head 160 x 175, notch 16, shaft tapering 50 (at the notch) to 66 (tail), R10 barbs. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

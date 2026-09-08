@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -47,5 +47,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims given for (L). Sign dims: shaft right edge 47.5 right of centre (shaft 95 centred), branch left tip 277.5 left of the shaft right edge -> left edge 230 left of centre; bottom 320 below centre. Head 275 wide centred on the shaft -> right extent 137.5 -> w 367.5; h 219 + 461 = 680 (inset)."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. One PNG shows (L) and (R); dims given for (L). Sign dims: shaft right edge 47.5 right of centre (shaft 95 centred), branch left tip 277.5 left of the shaft right edge -> left edge 230 left of centre; bottom 320 below centre. Head 275 wide centred on the shaft -> right extent 137.5 -> w 367.5; h 219 + 461 = 680 (inset). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -47,5 +47,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Curve family: stem near edge 75 right of centreline and bottom 270 below centreline (stated); no overall width/height is stated on the sign. Box derived from the inset geometry with the arrowhead 220 from barb line to tip (the inset's 240 runs to the 20 notch line) and inner R235 as W1-3: tip 372.4 from stem near edge (=297.4 from centreline; W1-3 states 300), height 510.9. Bar top 90 + 390 = 480 below the arrowhead's 510.9; bar flush with stem far edge -> width 372.4 + 110 = 482.4 (measured tip -297, bar edge +187)."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Curve family: stem near edge 75 right of centreline and bottom 270 below centreline (stated); no overall width/height is stated on the sign. Box derived from the inset geometry with the arrowhead 220 from barb line to tip (the inset's 240 runs to the 20 notch line) and inner R235 as W1-3: tip 372.4 from stem near edge (=297.4 from centreline; W1-3 states 300), height 510.9. Bar top 90 + 390 = 480 below the arrowhead's 510.9; bar flush with stem far edge -> width 372.4 + 110 = 482.4 (measured tip -297, bar edge +187). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

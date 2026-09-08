@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Camel 526 x 432 (inset); left 253 / right 273 of centre (sum 526), top 221 above centre. Drawing inconsistency: it also shows 221 below the centreline, but 221+221 = 442 != 432; the illustration measures the bottom ~211 below, so the top dim is used."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Camel 526 x 432 (inset); left 253 / right 273 of centre (sum 526), top 221 above centre. Drawing inconsistency: it also shows 221 below the centreline, but 221+221 = 442 != 432; the illustration measures the bottom ~211 below, so the top dim is used. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

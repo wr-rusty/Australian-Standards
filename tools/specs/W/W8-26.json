@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 45
+  "width": 30
  },
  "elements": [
   {
@@ -35,5 +35,5 @@
    "expect": 530
   }
  ],
- "notes": "900 x 600 (Illust. C). R60, 15 yellow edge, 45 black border. ADDED 165 D top 95, 98 | 704 | 98 centred; LANE 165 D top 340 (95+165+80), 185 | 530 | 185 centred."
+ "notes": "900 x 600 (Illust. C). R60, 15 yellow edge, 45 black border. ADDED 165 D top 95, 98 | 704 | 98 centred; LANE 165 D top 340 (95+165+80), 185 | 530 | 185 centred. 2026-09-08 drawing check: the drawing's 45 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 15 + black border 30; border was 45 (pixel check 28)."
 }

@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -35,5 +35,5 @@
    "expect": 514
   }
  ],
- "notes": "750 x 500 (Illust. B). R50, 10 yellow-green edge, 30 black border; fluorescent yellow-green ground. CROSSING 120 C top 97, 58 | 634 | 58 centred; AHEAD 120 D top 283 (97+120+66), 118 | 514 | 118 centred."
+ "notes": "750 x 500 (Illust. B). R50, 10 yellow-green edge, 30 black border; fluorescent yellow-green ground. CROSSING 120 C top 97, 58 | 634 | 58 centred; AHEAD 120 D top 283 (97+120+66), 118 | 514 | 118 centred. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellowgreen edge 10 + black border 20; border was 30 (pixel check 18)."
 }

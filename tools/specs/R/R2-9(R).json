@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -59,5 +59,5 @@
    "expect": 335
   }
  ],
- "notes": "Both hands in R2-9(L).png; text differs so two specs. Five lines 80 E, 75 top, 50 between, 75 bottom. Drawing left/right dims give centres 220.5-230 (0-5 off centre, varying line to line); treated as drafting rounding, all centred."
+ "notes": "Both hands in R2-9(L).png; text differs so two specs. Five lines 80 E, 75 top, 50 between, 75 bottom. Drawing left/right dims give centres 220.5-230 (0-5 off centre, varying line to line); treated as drafting rounding, all centred. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18)."
 }

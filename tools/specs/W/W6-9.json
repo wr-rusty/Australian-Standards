@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -63,5 +63,5 @@
    "inset": 16.57
   }
  },
- "notes": "Diamond 600 side (Illust. A) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26. Pedestrian 120 x 250 with left edge 59 left of centre; 50 gap; bicycle 303 x 200 with left edge 152 left of centre and its top on the horizontal centreline (the 50 gap ends on the centreline; illustration confirms)."
+ "notes": "Diamond 600 side (Illust. A) drawn as bounding square 848.53; R40 outer, 10 yellow edge, 30 black border; centre 424.26. Pedestrian 120 x 250 with left edge 59 left of centre; 50 gap; bicycle 303 x 200 with left edge 152 left of centre and its top on the horizontal centreline (the 50 gap ends on the centreline; illustration confirms). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 20)."
 }

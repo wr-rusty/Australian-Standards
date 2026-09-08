@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -36,7 +36,7 @@
    "expect": 422
   }
  ],
- "notes": "R7-1-6C illustrated. Bus 500 x 180 at y 80 (same symbol as R7-1-1); 50 gap; a dashed 180-high box of 'Variable' width at y 310-490 marks the 'symbol for other vehicle type' - not drawn on the drawing so nothing placed there; 50 gap; LANE 160 C top 540; 100 bottom.",
+ "notes": "R7-1-6C illustrated. Bus 500 x 180 at y 80 (same symbol as R7-1-1); 50 gap; a dashed 180-high box of 'Variable' width at y 310-490 marks the 'symbol for other vehicle type' - not drawn on the drawing so nothing placed there; 50 gap; LANE 160 C top 540; 100 bottom. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20).",
  "symbols": {
   "r7-1-1_bus": {
    "source": "R7-1-1",

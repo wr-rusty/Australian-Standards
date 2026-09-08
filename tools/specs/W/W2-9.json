@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -47,5 +47,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Curve family: stem near edge 75 right of centreline and bottom 270 below centreline (stated); no overall width/height is stated on the sign. Box derived from the inset geometry with the arrowhead 220 from barb line to tip (the inset's 240 runs to the 20 notch line) and inner R235 as W1-3: tip 372.4 from stem near edge (=297.4 from centreline; W1-3 states 300), height 510.9. FLAG: this inset states 285 (arc centre from stem edge) and 240 (arrowhead); the drawn sign symbol matches R235 / 220 (tip 297 and arm end 256 from centreline measured) - R235/220 used. Arm end = -235 + 495 cos37.5 + 40 sin37.5 = 182 right of stem near edge -> width 554.5."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Curve family: stem near edge 75 right of centreline and bottom 270 below centreline (stated); no overall width/height is stated on the sign. Box derived from the inset geometry with the arrowhead 220 from barb line to tip (the inset's 240 runs to the 20 notch line) and inner R235 as W1-3: tip 372.4 from stem near edge (=297.4 from centreline; W1-3 states 300), height 510.9. FLAG: this inset states 285 (arc centre from stem edge) and 240 (arrowhead); the drawn sign symbol matches R235 / 220 (tip 297 and arm end 256 from centreline measured) - R235/220 used. Arm end = -235 + 495 cos37.5 + 40 sin37.5 = 182 right of stem near edge -> width 554.5. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

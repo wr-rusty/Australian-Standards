@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -84,5 +84,5 @@
    "grid_mm": 37.5
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Hump drawn as path (fully dimensioned): base 608 x 56, shoulders 86, R250 arc rising to 184 above the base bottom (chord 436, sagitta 128 -> R250 consistent); hump top 63 above centreline, bottom 121 below (63 | 121), centred. Arrow = W3-1 arrow rotated 90 deg (points left for L): axis 382 above hump bottom (inset) = 261 above centreline; stem end 216 left of hump right edge (x = +88), tip at +88 - 219 = -131 -> rotated arrow spans x -131..+88, y -386..-136; box is the unrotated 250 x 219 arrow centred at (-21.5, -261). Per-hand elements with mirror:false (generator mirrors inside the rotation). Measured on drawing: x -128..90, y -385..-134. Arrow drawn geometrically (W3-1 dims) with heading 180 / 0; box is the rotated 219 x 250 extent about the same centre."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Hump drawn as path (fully dimensioned): base 608 x 56, shoulders 86, R250 arc rising to 184 above the base bottom (chord 436, sagitta 128 -> R250 consistent); hump top 63 above centreline, bottom 121 below (63 | 121), centred. Arrow = W3-1 arrow rotated 90 deg (points left for L): axis 382 above hump bottom (inset) = 261 above centreline; stem end 216 left of hump right edge (x = +88), tip at +88 - 219 = -131 -> rotated arrow spans x -131..+88, y -386..-136; box is the unrotated 250 x 219 arrow centred at (-21.5, -261). Per-hand elements with mirror:false (generator mirrors inside the rotation). Measured on drawing: x -128..90, y -385..-134. Arrow drawn geometrically (W3-1 dims) with heading 180 / 0; box is the rotated 219 x 250 extent about the same centre. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -71,7 +71,7 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 60 from vertical centreline, stem bottom 260 below horizontal centreline (both stated on drawing). Width 500 = 110 stem + 390 to tip; height 485 = 340 (bottom to tip level) + 125 + 20 (upper barb). Symbol id is the left-hand artwork; R mirrored by generator.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: stem near edge 60 from vertical centreline, stem bottom 260 below horizontal centreline (both stated on drawing). Width 500 = 110 stem + 390 to tip; height 485 = 340 (bottom to tip level) + 125 + 20 (upper barb). Symbol id is the left-hand artwork; R mirrored by generator. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 16-21).",
  "hand_values": {
   "L": {
    "dir": "LEFT"

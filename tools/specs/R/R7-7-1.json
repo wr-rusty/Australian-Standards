@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 45
+  "width": 30
  },
  "elements": [
   {
@@ -53,7 +53,7 @@
    "expect": 632
   }
  ],
- "notes": "R7-7-1D (900 x 1200) illustrated. R100, 15 white edge, 45 border. Stack 135/170C/140/240 symbols/140/240C/135. Symbol row: 112|badge 308|87|car 280|113. Badge height not dimensioned here (207 on R9-9-1 for the same 308-wide badge); bbox given as the 240 row, the symbol keeps its own aspect and is centred in it. QA: badge height is not dimensioned on this drawing; drawn badge measures 207 high, vertically centred on the 240 car band (top 462) - box set to y 461 / h 210 so the 308 width governs the scale.",
+ "notes": "R7-7-1D (900 x 1200) illustrated. R100, 15 white edge, 45 border. Stack 135/170C/140/240 symbols/140/240C/135. Symbol row: 112|badge 308|87|car 280|113. Badge height not dimensioned here (207 on R9-9-1 for the same 308-wide badge); bbox given as the 240 row, the symbol keeps its own aspect and is centred in it. QA: badge height is not dimensioned on this drawing; drawn badge measures 207 high, vertically centred on the 240 car band (top 462) - box set to y 461 / h 210 so the 308 width governs the scale. 2026-09-08 drawing check: the drawing's 45 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 15 + black border 30; border was 45 (pixel check 27).",
  "symbols": {
   "r7-7-1_t2_badge": {
    "source": "R7-7-1",

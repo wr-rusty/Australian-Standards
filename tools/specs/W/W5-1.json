@@ -1,4 +1,31 @@
-{"code":"W5-1","name":"FERRY_YELLOW_DIAMOND","legend":"FERRY","shape":"diamond","size":[1060.66,1060.66],"radius":50,
- "ground":"yellow","edge":{"colour":"yellow","width":10},"border":{"colour":"black","width":30},
- "elements":[{"type":"text","text":"FERRY","series":"D","height":175,"top":442.83,"expect":705}],
- "notes":"Diamond: 750 side, drawn as bounding square 750*sqrt2. R50 outer, 10 yellow edge, 30 black border. FERRY 175 D centred vertically (88 above/below centre)."}
+{
+ "code": "W5-1",
+ "name": "FERRY_YELLOW_DIAMOND",
+ "legend": "FERRY",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "FERRY",
+   "series": "D",
+   "height": 175,
+   "top": 442.83,
+   "expect": 705
+  }
+ ],
+ "notes": "Diamond: 750 side, drawn as bounding square 750*sqrt2. R50 outer, 10 yellow edge, 30 black border. FERRY 175 D centred vertically (88 above/below centre). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 16-20)."
+}

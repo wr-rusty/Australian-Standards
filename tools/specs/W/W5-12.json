@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Symbol placement is NOT dimensioned on the sign drawing (only the inset gives the wedge 610 x 278); the whole symbol incl. car measures ~610 x 320 on the illustration and sits centred on both centrelines, so it is placed centred (x 225.33, y 370.33). Missing dims: symbol offset from the sign centre. QA: box height 315 and top 365 from the illustration (car top 165 above centre, wedge bottom 150 below), replacing the earlier 320 centred estimate."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Symbol placement is NOT dimensioned on the sign drawing (only the inset gives the wedge 610 x 278); the whole symbol incl. car measures ~610 x 320 on the illustration and sits centred on both centrelines, so it is placed centred (x 225.33, y 370.33). Missing dims: symbol offset from the sign centre. QA: box height 315 and top 365 from the illustration (car top 165 above centre, wedge bottom 150 below), replacing the earlier 320 centred estimate. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

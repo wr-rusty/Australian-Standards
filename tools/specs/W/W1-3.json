@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -67,7 +67,7 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 300 left of centreline and stem near edge 75 right of centreline (both stated) -> width 485 (300+75+110); bottom 270 below centreline (stated). Height 511 is NOT stated: derived from the inset geometry (upper barb R20 extreme = 90 + 290*sin75 + 125*... computed 510.9); geometry check: tip works out 372.4 from stem near edge vs 375 (300+75) stated.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Box: tip 300 left of centreline and stem near edge 75 right of centreline (both stated) -> width 485 (300+75+110); bottom 270 below centreline (stated). Height 511 is NOT stated: derived from the inset geometry (upper barb R20 extreme = 90 + 290*sin75 + 125*... computed 510.9); geometry check: tip works out 372.4 from stem near edge vs 375 (300+75) stated. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18).",
  "hand_values": {
   "L": {
    "dir": "LEFT"

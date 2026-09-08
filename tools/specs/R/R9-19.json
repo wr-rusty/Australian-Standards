@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -148,5 +148,5 @@
    "colour": "black"
   }
  ],
- "notes": "R9-19B (900 x 750) illustrated. R50, 10 white edge, 30 border. GIVE WAY panel 756 x 192 at (72,60), R24, 18 red border (inner white panel radius 24-18 = 6), GIVE WAY 100 D centred in it (top 60+46 = 106; 66|271|81|272|66). Text block 90 D: IF GOING top 310 (106|92|75|341), STRAIGHT top 450 (90|541), AHEAD top 590 (163|386|129|arrow 132|90); the right-hand chain 60/192/60 puts the block top at 312 - the left chain (310, summing to 750) used. Broken arrow: head 132 wide x 107 high with tip at (744,312), barb back edges drop 6 to the 48-wide stem, stem to y 498 (186 from the tip); dashes 48 x 60 at y 528 and 618 (30 gaps) - bottom at 678 vs the dimensioned 312+368 = 680. R9 at the arrow tip (per-vertex radius)."
+ "notes": "R9-19B (900 x 750) illustrated. R50, 10 white edge, 30 border. GIVE WAY panel 756 x 192 at (72,60), R24, 18 red border (inner white panel radius 24-18 = 6), GIVE WAY 100 D centred in it (top 60+46 = 106; 66|271|81|272|66). Text block 90 D: IF GOING top 310 (106|92|75|341), STRAIGHT top 450 (90|541), AHEAD top 590 (163|386|129|arrow 132|90); the right-hand chain 60/192/60 puts the block top at 312 - the left chain (310, summing to 750) used. Broken arrow: head 132 wide x 107 high with tip at (744,312), barb back edges drop 6 to the 48-wide stem, stem to y 498 (186 from the tip); dashes 48 x 60 at y 528 and 618 (30 gaps) - bottom at 678 vs the dimensioned 312+368 = 680. R9 at the arrow tip (per-vertex radius). 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20)."
 }

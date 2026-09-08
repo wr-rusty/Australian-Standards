@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dim: post bottom 320 below centre; symbol symmetric about the vertical centreline. Width 400 from the arms (430 cos30 + 55 sin30). Height: inset 480 is from the post top, the arm tips rise above it; overall ~540 measured from the illustration. Missing dim: overall height. QA: height 546 measured on the illustration (post bottom kept 320 below centre), replacing the 540 estimate."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. Sign dim: post bottom 320 below centre; symbol symmetric about the vertical centreline. Width 400 from the arms (430 cos30 + 55 sin30). Height: inset 480 is from the post top, the arm tips rise above it; overall ~540 measured from the illustration. Missing dim: overall height. QA: height 546 measured on the illustration (post bottom kept 320 below centre), replacing the 540 estimate. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

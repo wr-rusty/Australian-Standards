@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -74,5 +74,5 @@
    "expect": 365
   }
  ],
- "notes": "Stack 60/100D/50/100D/50/100B/50/60C/30/60D/30/60D/50 = 800. ON RED 65|109|54|157|65."
+ "notes": "Stack 60/100D/50/100D/50/100B/50/60C/30/60D/30/60D/50 = 800. ON RED 65|109|54|157|65. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18)."
 }

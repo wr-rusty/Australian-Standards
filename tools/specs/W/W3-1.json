@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -133,5 +133,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Left chain 219 arrow | 88 | 63 | 375 octagon: octagon top 63 above centreline, arrow bottom 151 above, arrow top 370 above; all centred (12 | 351 | 12). Octagon (flat top) 375 across flats, white edge strip 12 -> red octagon 351 across flats; drawn as polygons with square corners (no corner radius stated for the octagon). Red octagon with white edge strip per drawing note."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Left chain 219 arrow | 88 | 63 | 375 octagon: octagon top 63 above centreline, arrow bottom 151 above, arrow top 370 above; all centred (12 | 351 | 12). Octagon (flat top) 375 across flats, white edge strip 12 -> red octagon 351 across flats; drawn as polygons with square corners (no corner radius stated for the octagon). Red octagon with white edge strip per drawing note. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18)."
 }

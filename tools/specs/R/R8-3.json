@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "hands": [
   "L",
@@ -104,5 +104,5 @@
    "grid_mm": 30
   }
  },
- "notes": "R8-3C(L,R) (600 x 600) illustrated; one drawing shows both hands. 10 divider from border to border at x 295-305 (295|10|295). (L): bicycle 230 x 152 at (45,144) left, pedestrian 110 x 260 at (385,90) right; (R): pedestrian at (105,90), bicycle at (325,144) = the (L) boxes mirrored. Symbols face left in both hands: the (R) elements use the (L) boxes with the automatic layout mirror plus flip h (which cancels the facing), so the tracer reads both from the (L) panel. ONLY 80 C top 420 (=144+152+124 = 90+260+70), widths 222 at 47|222|62|222|47 (centres 158 and 442) in both hands. Pedestrian drawn 115 wide in the picture vs 110 dimensioned (fitted to 110). QA: pedestrian dimensioned 110 wide (385..495) but drawn 116 wide (382..497); box set to the drawn extent so the dimensioned 260 height governs the scale."
+ "notes": "R8-3C(L,R) (600 x 600) illustrated; one drawing shows both hands. 10 divider from border to border at x 295-305 (295|10|295). (L): bicycle 230 x 152 at (45,144) left, pedestrian 110 x 260 at (385,90) right; (R): pedestrian at (105,90), bicycle at (325,144) = the (L) boxes mirrored. Symbols face left in both hands: the (R) elements use the (L) boxes with the automatic layout mirror plus flip h (which cancels the facing), so the tracer reads both from the (L) panel. ONLY 80 C top 420 (=144+152+124 = 90+260+70), widths 222 at 47|222|62|222|47 (centres 158 and 442) in both hands. Pedestrian drawn 115 wide in the picture vs 110 dimensioned (fitted to 110). QA: pedestrian dimensioned 110 wide (385..495) but drawn 116 wide (382..497); box set to the drawn extent so the dimensioned 260 height governs the scale. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 18)."
 }

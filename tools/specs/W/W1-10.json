@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "vary": {
   "key": "speed",
@@ -63,5 +63,5 @@
    "inset": 0
   }
  },
- "notes": "450 x 600, R50, 10 yellow edge + 30 black border (stated). Right chain 40 | 160 tram | 40 | 320 ring | 40. Ring: outer dia 320 (top 240), 20 thick (stated; pixel check 20) -> r 160/140 centred x 225, cy 400. Left chain inside ring 20 | 220 | 60 | 20: numerals 160 C baseline 260+220 = 480, top 320; 'Varies' centred (65 | = | Varies | = | 65). Vary values 10-60 chosen, not stated."
+ "notes": "450 x 600, R50, 10 yellow edge + 30 black border (stated). Right chain 40 | 160 tram | 40 | 320 ring | 40. Ring: outer dia 320 (top 240), 20 thick (stated; pixel check 20) -> r 160/140 centred x 225, cy 400. Left chain inside ring 20 | 220 | 60 | 20: numerals 160 C baseline 260+220 = 480, top 320; 'Varies' centred (65 | = | Varies | = | 65). Vary values 10-60 chosen, not stated. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -42,5 +42,5 @@
    "inset": 20.71
   }
  },
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Symbol centred on both centrelines (drawing). Box = the R312 construction circle square (624) centred; tracer must use that square as the viewBox so the centre lands on the sign centre. QA: box set to the drawn ink extent about the sign centre (318 left, 286 right, 304 above, 286 below; measured on the illustration) because the tracer's viewBox is the ink extent, not the R312 construction square; the arrows' extents are not dimensioned."
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 = 1060.66 (centre 530.33); R50 outer, 10 yellow edge, 30 black border (as drawing). Symbol centred on both centrelines (drawing). Box = the R312 construction circle square (624) centred; tracer must use that square as the viewBox so the centre lands on the sign centre. QA: box set to the drawn ink extent about the sign centre (318 left, 286 right, 304 above, 286 below; measured on the illustration) because the tracer's viewBox is the ink extent, not the R312 construction square; the arrows' extents are not dimensioned. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 19)."
 }

@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -57,6 +57,6 @@
    ]
   }
  ],
- "notes": "R9-12-2A (600 x 400) illustrated. OVER 100 E top 80, numerals line top 240, 80 below. Line 2 as R9-12-1. QA: with the stated gaps and word widths the line is 522 wide (4.2 = 174 at 80 E) against a 520 inner width, so the numerals/HIGH reach the border; 2.5 m WIDE (R9-13) clears by 2.",
+ "notes": "R9-12-2A (600 x 400) illustrated. OVER 100 E top 80, numerals line top 240, 80 below. Line 2 as R9-12-1. QA: with the stated gaps and word widths the line is 522 wide (4.2 = 174 at 80 E) against a 520 inner width, so the numerals/HIGH reach the border; 2.5 m WIDE (R9-13) clears by 2. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 10 + black border 20; border was 30 (pixel check 20).",
  "accepted_drawing_discrepancy": "as R9-12-1"
 }

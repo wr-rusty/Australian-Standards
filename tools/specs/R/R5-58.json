@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 45
+  "width": 30
  },
  "hands": [
   "L",
@@ -111,7 +111,7 @@
    "colour": "black"
   }
  ],
- "notes": "Drawing file R5-58(L-R).png. R100, 15 white edge, 45 black border. (L): text 160 D right-aligned 135 from the right edge, tops 110/350/590/830 (80 between, 110 bottom); arrow 345 square at 180 from left, 645 from top. (R) mirrors: text left-aligned at 135, arrow at right (text elements carry mirror:true). QA: widths re-read from the drawing: 135|1230|135 = EMERGENCY, 391|974 = STOPPING, 850|515 = LANE, 180|345|298|542 = ONLY (the earlier expects were shifted one row). Arrow drawn as an exact polygon from the inset (450 long, head 180 long x 210 wide, notch 15, shaft 76, R9 barbs, sharp tip) at the 45 deg the inset draws it; the 45 deg bbox is (450+38)/sqrt2 = 345 as stated.",
+ "notes": "Drawing file R5-58(L-R).png. R100, 15 white edge, 45 black border. (L): text 160 D right-aligned 135 from the right edge, tops 110/350/590/830 (80 between, 110 bottom); arrow 345 square at 180 from left, 645 from top. (R) mirrors: text left-aligned at 135, arrow at right (text elements carry mirror:true). QA: widths re-read from the drawing: 135|1230|135 = EMERGENCY, 391|974 = STOPPING, 850|515 = LANE, 180|345|298|542 = ONLY (the earlier expects were shifted one row). Arrow drawn as an exact polygon from the inset (450 long, head 180 long x 210 wide, notch 15, shaft 76, R9 barbs, sharp tip) at the 45 deg the inset draws it; the 45 deg bbox is (450+38)/sqrt2 = 345 as stated. 2026-09-08 drawing check: the drawing's 45 is the distance from the sign edge to the inside of the border (edge + border), so the white edge 15 + black border 30; border was 45 (pixel check 27).",
  "symbols": {
   "r5-58_arrow_down_left": {
    "source": "R5-58(L)",

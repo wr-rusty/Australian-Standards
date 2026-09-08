@@ -14,6 +14,7 @@ Rules (agreed with Russell, Sept 2026):
   (traced from the drawings, flagged in the manifest).
 
 Output: <repo>/AS 1743-2023/SVGs/<folder>/<NAME>_<CODE>[(L|R)].svg + MANIFEST.csv
+A spec with "pack": "NSW" (see PACKS) is written under that pack's "out" folder instead, with its own MANIFEST.csv.
 """
 import csv, glob, json, math, os, re, sys, xml.etree.ElementTree as ET
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -27,6 +28,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_DIR = os.path.join(ROOT, "Fonts", "fhwa-series-font-family")
 SYM_DIR = os.path.join(ROOT, "tools", "symbols")
 OUT_ROOT = os.path.join(ROOT, "Complete", "Australia", "National (AS 1743)", "SVGs")
+# Other packs built the same way (spec top-level "pack": "NSW"): generated SVGs go to "out" (kept apart from the
+# extractions), drawings for tracing/overlay checks are "png" (sheets rendered from "pdf", named by the register code).
+PACKS = {"NSW": {"out": os.path.join(ROOT, "Processing", "Australia", "NSW", "SVGs (generated)"),
+                 "png": os.path.join(ROOT, "Processing", "Australia", "NSW", "Original PNGs"),
+                 "pdf": os.path.join(ROOT, "Processing", "Australia", "NSW", "Original PDFs"),
+                 "register": os.path.join(ROOT, "Processing", "Australia", "NSW", "REGISTER.csv"),
+                 "credit": "\u00a9 State of New South Wales (Transport for NSW), CC BY 4.0"}}
+def out_root(spec):
+    """Where a spec's SVGs go: the AS 1743 pack unless the spec names another pack."""
+    return PACKS[spec["pack"]]["out"] if spec.get("pack") else OUT_ROOT
 SERIES_FILES = {"B": "Fhwaseriesb2025{t}.otf", "C": "Fhwaseriesc2024{t}.otf",
                 "D": "Fhwaseriesd2024{t}.otf", "E": "Fhwaseriese2024{t}.otf",
                 "Emod": "Fhwaseriesemod2024{t}.otf", "F": "Fhwaseriesf2025{t}.otf"}
@@ -307,36 +318,39 @@ def expand(spec):
 
 def main(argv):
     specs = argv or sorted(glob.glob(os.path.join(ROOT, "tools", "specs", "**", "*.json"), recursive=True))
-    rows = []; bad = 0; n = 0
+    rows = {}; bad = 0; n = 0    # manifest rows per output root (one MANIFEST.csv per pack touched)
     for sp in specs:
         with open(sp) as fh: spec = json.load(fh)
+        root = out_root(spec); rows.setdefault(root, [])
         if spec.get("skip"): 
-            rows.append([spec["code"], "", "", spec.get("legend", ""), "SKIPPED: " + spec.get("skip"), "", ""]); continue
+            rows[root].append([spec["code"], "", "", spec.get("legend", ""), "SKIPPED: " + spec.get("skip"), "", ""]); continue
         if folder_for(spec) in EXCLUDE_FOLDERS:
-            rows.append([spec["code"], "", "", spec.get("legend", ""), "EXCLUDED: " + folder_for(spec), "", ""]); continue
+            rows[root].append([spec["code"], "", "", spec.get("legend", ""), "EXCLUDED: " + folder_for(spec), "", ""]); continue
         for values, hand, fname in expand(spec):
             try:
                 svg, checks, flags = build(spec, values, hand)
             except FileNotFoundError as e:
-                rows.append([spec["code"], "", "", spec.get("legend", ""), f"BLOCKED: {e}", "symbol missing", ""]); continue
+                rows[root].append([spec["code"], "", "", spec.get("legend", ""), f"BLOCKED: {e}", "symbol missing", ""]); continue
             status = []
             for w, got, exp in checks:
                 if abs(got - exp) > max(3, 0.02 * exp): status.append(f"width {w}: {got} vs drawing {exp}"); bad += 1
             # signs needing a human decision go to intervene/<family>: QA-flagged specs, and width mismatches
             reason = spec.get("intervene") or ("; ".join(status) if status and WIDTH_MISMATCH_TO_INTERVENE else "")
             sub = os.path.join("intervene", folder_for(spec)) if reason else folder_for(spec)
-            folder = os.path.join(OUT_ROOT, sub); os.makedirs(folder, exist_ok=True)
+            folder = os.path.join(root, sub); os.makedirs(folder, exist_ok=True)
             with open(os.path.join(folder, fname), "w") as fh: fh.write(svg)
             n += 1
-            rows.append([spec["code"] + (f"({hand})" if hand else ""), os.path.relpath(os.path.join(folder, fname), OUT_ROOT),
+            rows[root].append([spec["code"] + (f"({hand})" if hand else ""), os.path.relpath(os.path.join(folder, fname), root),
                          f"{spec['size'][0]}x{spec['size'][1]}", spec.get("legend", "").format(**values),
                          "; ".join(status) or "ok", reason, " ".join(sorted(set(flags))) + ((" " + spec["notes"]) if spec.get("notes") else "")])
-    os.makedirs(OUT_ROOT, exist_ok=True)
-    with open(os.path.join(OUT_ROOT, "MANIFEST.csv"), "w", newline="") as fh:
-        w = csv.writer(fh); w.writerow(["code", "file", "drawn_size_mm", "legend", "check", "intervene", "notes"]); w.writerows(rows)
+    for root, rs in (rows or {OUT_ROOT: []}).items():
+        os.makedirs(root, exist_ok=True)
+        with open(os.path.join(root, "MANIFEST.csv"), "w", newline="") as fh:
+            w = csv.writer(fh); w.writerow(["code", "file", "drawn_size_mm", "legend", "check", "intervene", "notes"]); w.writerows(rs)
     print(f"{n} files written; width mismatches: {bad}")
-    for r in rows:
-        if r[4] != "ok": print("  ", r[0], r[4])
+    for rs in rows.values():
+        for r in rs:
+            if r[4] != "ok": print("  ", r[0], r[4])
 
 if __name__ == "__main__":
     main(sys.argv[1:])

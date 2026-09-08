@@ -15,7 +15,7 @@
  },
  "border": {
   "colour": "black",
-  "width": 30
+  "width": 20
  },
  "elements": [
   {
@@ -27,6 +27,6 @@
    "expect": 669
   }
  ],
- "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. WILDLIFE 150 C centred vertically and horizontally (= dims). Drawing inconsistency: the stated width 669 does not match 150 C at AS 1744 spacing (726) nor the drawing's own illustration (~721 measured); series/height kept as labelled, width mismatch left as flagged.",
+ "notes": "Diamond 750 side drawn as bounding square 750*sqrt2 (1060.66); R50 outer, 10 yellow edge, 30 black border; centre 530.33. WILDLIFE 150 C centred vertically and horizontally (= dims). Drawing inconsistency: the stated width 669 does not match 150 C at AS 1744 spacing (726) nor the drawing's own illustration (~721 measured); series/height kept as labelled, width mismatch left as flagged. 2026-09-08 drawing check: the drawing's 30 is the distance from the sign edge to the inside of the border (edge + border), so the yellow edge 10 + black border 20; border was 30 (pixel check 18).",
  "accepted_drawing_discrepancy": "stated WILDLIFE width 669 vs 150 C = 726, illustration ~721; series kept, width check fails; intervene set"
 }
