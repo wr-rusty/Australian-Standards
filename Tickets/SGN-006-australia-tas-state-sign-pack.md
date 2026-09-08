@@ -32,3 +32,5 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-06 — Transport Tasmania's standard drawings page (transport.tas.gov.au, blocks scripted requests) has a Signs section: SD-087-005 to SD-087-032 (sign standard drawings), 'Signage Guidelines and Drawings' PDF, G/10/649 frost/ice/snow warning sign, fingerboard details 3403-5/P406-1. Few Tasmania-only sign faces; download through the Browser pane when the pack is built.
 - 2026-09-06 — Signs section link list captured (17 PDFs, see SOURCES.md). curl and the pane's cookies both get the bot-check page; the pane hands each PDF to a save dialog — needs Russell to click save (or download by hand) into `Processing/Australia/TAS/Original PDFs/`.
 - 2026-09-05 — status → blocked.
+
+- 2026-09-08 — Russell saved the drawings through the browser pane (site bot wall). 15 sign-face drawings + 6 mounting-detail sheets in Original PDFs/. Black line-work sheets: build spec-driven (tools/specs/TAS/, pack routing as for NSW), not by extraction.
