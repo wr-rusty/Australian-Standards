@@ -25,7 +25,7 @@
   {
    "type": "annulus",
    "cx": 225,
-   "cy": 377,
+   "cy": 287,
    "r_outer": 223,
    "r_inner": 178,
    "colour": "red"
@@ -35,7 +35,7 @@
    "text": "{speed}",
    "series": "D",
    "height": 180,
-   "top": 287,
+   "top": 197,
    "colour": "black"
   },
   {
@@ -48,5 +48,5 @@
    "expect": 407
   }
  ],
- "notes": "Annulus R223/R178 centre (225,377). Numerals 180 D top 287 (Varies). AREA 120 D, 60 above bottom edge."
+ "notes": "Annulus R223/R178 centre (225,287): the 287 is from the top edge to the ring centre (measured on the drawing: centre 288, ring bottom 511, 60 to AREA). Numerals 180 D centred on the ring (top 197, Varies). AREA 120 D, 60 above bottom edge (top 570). Earlier spec had the centre at 377 (AREA overlapped the ring) - corrected 2026-09-08."
 }

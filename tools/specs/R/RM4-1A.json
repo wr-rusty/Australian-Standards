@@ -41,10 +41,10 @@
   {
    "type": "text",
    "text": "{speed}",
-   "series": "D",
+   "series": "speed",
    "height": 220,
    "top": 190
   }
  ],
- "notes": "RM4-1A 600 x 600, 25 black border, square corners. Red annulus R265/R215 centred (300 to centre, 265/215 radii); numerals 220 D 'Varies' centred (60 shown), top 190. Drawing states series D."
+ "notes": "RM4-1A 600 x 600, 25 black border, square corners. Red annulus R265/R215 centred (300 to centre, 265/215 radii); numerals 220 D 'Varies' centred (60 shown), top 190. Drawing states series D. Numeral series follows the R4-1 rule (D for 1-2 numerals and 110/115, C for other 3 numerals): the drawing states D but illustrates only 60; 100 in D at this height (460 wide) overruns the annulus, C (390) fits as on R4-1. Decided 2026-09-08 after Russell's review."
 }

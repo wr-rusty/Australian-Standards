@@ -49,10 +49,10 @@
   {
    "type": "text",
    "text": "{speed}",
-   "series": "D",
+   "series": "speed",
    "height": 220,
    "top": 465
   }
  ],
- "notes": "RM4-12D 600 x 900, 25 black border, square corners. END 160 E top 100 (74|451|75); black annulus R265/R215 centred at (300,575) (100+160+315 to centre, 265 to the outer edge, 60 to the bottom); numerals 220 D 'Varies' centred on the annulus (60 shown), top 465. Drawing states series D for the numerals (not the R4-1 speed rule)."
+ "notes": "RM4-12D 600 x 900, 25 black border, square corners. END 160 E top 100 (74|451|75); black annulus R265/R215 centred at (300,575) (100+160+315 to centre, 265 to the outer edge, 60 to the bottom); numerals 220 D 'Varies' centred on the annulus (60 shown), top 465. Drawing states series D for the numerals (not the R4-1 speed rule). Numeral series follows the R4-1 rule (D for 1-2 numerals and 110/115, C for other 3 numerals): the drawing states D but illustrates only 60; 100 in D at this height (460 wide) overruns the annulus, C (390) fits as on R4-1. Decided 2026-09-08 after Russell's review."
 }

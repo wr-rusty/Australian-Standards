@@ -29,18 +29,18 @@
   {
    "type": "text",
    "text": "PACIFIC",
-   "series": "D",
+   "series": "C",
    "height": 100,
    "top": 250
   },
   {
    "type": "text",
    "text": "HIGHWAY",
-   "series": "D",
+   "series": "C",
    "height": 100,
    "top": 410
   }
  ],
- "notes": "R9-8B (600 x 600) illustrated. R50, 10 white edge, 30 border. Stack 90/100D/60/100/60/100/90. Drawing gives AT = 148 (font 153, 3 pct). Road name lines are 'Varies' width, 'letter series to suit' (not stated) - PACIFIC HIGHWAY as shown in series D (assumed); varies.",
- "accepted_drawing_discrepancy": "drawing gives AT = 148 at 100 D; font gives 153, 3 % over; road-name lines \"series to suit\" drawn in D as shown \u2014 routed to intervene"
+ "notes": "R9-8B (600 x 600) illustrated. R50, 10 white edge, 30 border. Stack 90/100D/60/100/60/100/90. Drawing gives AT = 148 (font 153, 3 pct). Road name lines are 'Varies' width, 'letter series to suit' (not stated) - PACIFIC HIGHWAY in series C: the drawing's dashed placeholders measure ~388 and ~450 wide, which is Series C at 100 (D would be ~500 and ~560 and overrun the panel). Changed from D 2026-09-08 after Russell's review.",
+ "accepted_drawing_discrepancy": "drawing gives AT = 148 at 100 D; font gives 153, 3 % over; road-name lines \"series to suit\" drawn in C to match the placeholder widths \u2014 routed to intervene"
 }
