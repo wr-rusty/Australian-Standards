@@ -1,0 +1,45 @@
+{
+ "code": "W6-101",
+ "pack": "TAS",
+ "drawing": "G_10_444A",
+ "name": "SCHOOL_BUS_STOP_YELLOW_DIAMOND",
+ "legend": "",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "symbols": {
+  "tas_w6-101_bus_child": {
+   "source": "G_10_444A",
+   "pack": "TAS",
+   "panel_px": [
+    755,
+    162,
+    1623,
+    1030
+   ],
+   "desc": "front of a bus with a child (schoolgirl with a bag) walking at its right, traced from the sheet (black graphics); the same artwork at a smaller size on W6-102 (G/10/445A)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tas_w6-101_bus_child",
+   "x": 269.9,
+   "y": 240.9,
+   "w": 380,
+   "h": 356.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/444A 'General school bus stop sign W6-101' (1998, sideways A4): sizes A 600, B 750, C 900, D 1200; drawn at A (600, bounding square 848.53; the companion W6-102 sheet's 50 mm lettering note fits the 600 size), 'black graphics on yellow background'. The sheet draws the diamond as a single outline: no border drawn, so none generated; tip radius not stated, R40 as the AS 1743 600 diamonds. The sheet has no scale: the drawn diamond's rounded extent is taken as the 600 sign's, and the symbol box is its measured extent (bus + child 395 x 371 on the sheet's 848 diamond, i.e. 380 x 356 at 600, top-left 270 / 241). panel_px = the sheet's diamond extent widened by the tip rounding (R40: 16.6 each side) to the sharp bounding square.",
+ "panel_px": [
+  737,
+  144,
+  1641,
+  1048
+ ]
+}

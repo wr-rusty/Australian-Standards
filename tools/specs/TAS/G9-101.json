@@ -1,0 +1,111 @@
+{
+ "code": "G9-101",
+ "pack": "TAS",
+ "drawing": "G_10_484",
+ "name": "RESIDENTIAL_AREA_AVOID_USING_ENGINE_BRAKES_WHITE_LONG",
+ "legend": "RESIDENTIAL AREA AVOID USING ENGINE BRAKES",
+ "shape": "rect",
+ "size": [
+  2000,
+  1400
+ ],
+ "radius": 75,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  625,
+  420,
+  1694,
+  1147
+ ],
+ "symbols": {
+  "tas_g9-101_truck": {
+   "source": "G_10_484",
+   "pack": "TAS",
+   "panel_px": [
+    625,
+    420,
+    1694,
+    1147
+   ],
+   "inset": 0,
+   "desc": "side view of a rigid truck (cab left, box body, two wheels), 432 x 180 measured, traced from the scanned sheet"
+  }
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 222,
+   "y": 104,
+   "w": 1557,
+   "h": 447,
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "RESIDENTIAL",
+   "series": "Emod",
+   "height": 140,
+   "top": 140,
+   "expect": 1451,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "Emod",
+   "height": 140,
+   "top": 375,
+   "expect": 605,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "tas_g9-101_truck",
+   "x": 784,
+   "y": 610,
+   "w": 432,
+   "h": 180,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "AVOID",
+    "USING"
+   ],
+   "gap": 100,
+   "series": "Emod",
+   "height": 140,
+   "top": 885,
+   "expect": [
+    667,
+    646
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "ENGINE",
+    "BRAKES"
+   ],
+   "gap": 100,
+   "series": "Emod",
+   "height": 140,
+   "top": 1120,
+   "expect": [
+    799,
+    872
+   ]
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/484 'Truck engine brake sign G9-101' (scanned sheet, sideways A4). 2000 x 1400, 75 rad, black on Class 1 white; the 45 at the corner = 20 white edge + 25 black border (the P411-1 standard border). Vertical chain 45/95/140/95/140/95/180/95/140/95/140/95/25/20; horizontal figures are measured from inside the border (sums 1910): 230/1451/229, 653/605/652, 248/667/100/646/247, 70/799/100/872/69, truck 522/XXXX (width not stated: 432 measured, 180 high per the chain). 140 Series E Mod throughout (AS 1744 widths about 6% under the sheet's). Black panel behind RESIDENTIAL AREA not dimensioned: measured 1557 x 447 (R40), centred, placed symmetrically about the two lines (36 above / below). G9 family: excluded from generation like the national G9 signs (Russell, 2026-09-05); spec kept."
+}

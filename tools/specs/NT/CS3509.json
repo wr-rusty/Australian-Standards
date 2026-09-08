@@ -1,0 +1,7 @@
+{
+ "code": "CS3509",
+ "pack": "NT",
+ "drawing": "cs3509",
+ "legend": "(speed limit treatment layouts: R4-1 130/110/100/80/60, R4-11 80/60 AHEAD, xx km/h SPEED LIMIT 1km AHEAD plates)",
+ "skip": "remote-area speed treatment layouts (100, 80, 60 km/h), diagrammatic: the signs are the national R4-1 (B size) and R4-11 (Complete/Australia/National (AS 1743)/SVGs/Speed Signs/...) and the CS3504 advance plate (generated here at 60/80/100/110)"
+}

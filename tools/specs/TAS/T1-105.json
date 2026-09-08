@@ -1,0 +1,71 @@
+{
+ "code": "T1-105",
+ "pack": "TAS",
+ "drawing": "3403-3_P94",
+ "name": "SLIPPERY_ICE_GRIT_YELLOW_LONG",
+ "legend": "ICE/ GRIT",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  900
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  838,
+  410,
+  1497,
+  747
+ ],
+ "symbols": {
+  "w5-20_slippery_car": {
+   "source": "W5-20",
+   "desc": "AS 1743 W5-20 skidding car (national symbol reused; sheet: 'for details of slippery sign refer AS 1742-(W5-20)')"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 860,
+   "y": 10,
+   "w": 20,
+   "h": 880,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "w5-20_slippery_car",
+   "x": 106,
+   "y": 142,
+   "w": 729,
+   "h": 679,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ICE/",
+   "series": "D",
+   "height": 160,
+   "top": 221,
+   "cx": 1320
+  },
+  {
+   "type": "text",
+   "text": "GRIT",
+   "series": "D",
+   "height": 160,
+   "top": 523,
+   "cx": 1320
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet 3403-3/P94 'Symbolic slippery ice/grit temporary warning sign T1-105 (Spec. R100 type 5)' (2007), 1800 x 900, black on Class 1 yellow, 'border to be 20mm black with 10mm outer yellow'; corner radius not stated (measured about 60). Left panel 870 wide (sheet) with the W5-20 car symbol, divider drawn as a 20 black bar at 870 joining the border; symbol box = the sheet's ink extent (106-835 x 142-821). ICE/ over GRIT, '160DN' (Series D) black, centred in the right panel (cx 1320), cap tops 221 / 523 from the measured line centres 301 / 603 (the sheet's letters measure about 180 high and Series-E-wide: the letter note is followed)."
+}

@@ -1,0 +1,63 @@
+{
+ "code": "W6-102",
+ "pack": "TAS",
+ "drawing": "G_10_445A",
+ "name": "SCHOOL_BUS_ROUTE_YELLOW_DIAMOND",
+ "legend": "SCHOOL BUS ROUTE",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "symbols": {
+  "tas_w6-101_bus_child": {
+   "source": "G_10_444A",
+   "pack": "TAS",
+   "panel_px": [
+    755,
+    162,
+    1623,
+    1030
+   ],
+   "desc": "front of a bus with a child (schoolgirl with a bag) walking at its right, traced from the sheet (black graphics); the same artwork at a smaller size on W6-102 (G/10/445A)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "tas_w6-101_bus_child",
+   "x": 306.5,
+   "y": 167.7,
+   "w": 346.2,
+   "h": 324.6,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "SCHOOL",
+    "BUS"
+   ],
+   "gap": 41,
+   "series": "D",
+   "height": 50,
+   "top": 558
+  },
+  {
+   "type": "text",
+   "text": "ROUTE",
+   "series": "D",
+   "height": 50,
+   "top": 639
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/445A 'General school bus route sign W6-102' (1998, sideways A4): sizes A 600 to D 1200, drawn at A (600, bounding square 848.53); 'lettering 50mm high with gap between rows 40mm, black lettering & graphics on yellow background'; no border drawn (none generated), R40 as the AS 1743 600 diamonds. Letter series not stated: Series D fits the drawn widths within 4% (SCHOOL 264 / BUS 123 / ROUTE 207 measured; D: 255 / 119 / 199). Positions measured on the sheet (no scale given, the drawn diamond taken as the 600 sign): symbol 346 x 325 at (306, 168), SCHOOL BUS cap top 558 with a 41 word gap, ROUTE top 639 (40 row gap), both centred. Symbol reused from W6-101 (same artwork). panel_px = the sheet's diamond extent widened by the tip rounding (R40: 16.6 each side) to the sharp bounding square.",
+ "panel_px": [
+  729,
+  146,
+  1633,
+  1050
+ ]
+}

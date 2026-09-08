@@ -1,0 +1,156 @@
+{
+ "code": "CS1557",
+ "pack": "NT",
+ "drawing": "cs1557",
+ "name": "PREPARE_TO_STOP_SIGNALS_AHEAD_WHITE_TALL",
+ "legend": "PREPARE TO STOP",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  2600
+ ],
+ "radius": 300,
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  417,
+  210,
+  983,
+  1027
+ ],
+ "symbols": {
+  "w3-3_signals": {
+   "source": "W3-3-1",
+   "desc": "AS 1743 W3-3 traffic signal pictogram (national symbol reused; the sheet paints a 'W3-3-C standard warning sign')"
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 250,
+   "cy": 298,
+   "r_outer": 175,
+   "r_inner": 150,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 1550,
+   "cy": 298,
+   "r_outer": 175,
+   "r_inner": 150,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     900,
+     300.0
+    ],
+    [
+     1582.5,
+     982.5
+    ],
+    [
+     900,
+     1665.0
+    ],
+    [
+     217.5,
+     982.5
+    ]
+   ],
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     900,
+     314.14213562373095
+    ],
+    [
+     1568.357864376269,
+     982.5
+    ],
+    [
+     900,
+     1650.857864376269
+    ],
+    [
+     231.64213562373095,
+     982.5
+    ]
+   ],
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     900,
+     342.42640687119285
+    ],
+    [
+     1540.0735931288073,
+     982.5
+    ],
+    [
+     900,
+     1622.5735931288073
+    ],
+    [
+     259.92640687119285,
+     982.5
+    ]
+   ],
+   "radius": 20,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w3-3_signals",
+   "x": 603,
+   "y": 530,
+   "w": 590,
+   "h": 949,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 150,
+   "y": 1790,
+   "w": 1500,
+   "h": 660,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "D",
+   "height": 180,
+   "top": 1890,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "STOP"
+   ],
+   "gap": 260,
+   "series": "D",
+   "height": 180,
+   "top": 2170,
+   "colour": "white"
+  }
+ ],
+ "notes": "Department of Logistics and Infrastructure (DIPL) civil standard drawing, CAD sheet in colour; every dimension from the sheet unless stated; AS 1744 (plus0) spacing. Sheet CS1557 'Traffic signal advance warning sign' (mounting detail with the sign face): 1800 x 2600 board, R300, 25 wide black border strip, white; two 300 dia traffic lights at the top (drawn as rings: black annulus R175/R150 about (250, 298) and (1550, 298), positions measured), a painted W3-3-C standard warning sign 1365 across the diagonals (vertical chain 300/1365/125/660/150) centred, yellow paint Y14 with black border (yellow 10 / black 20 / R50 as AS 1743 W3-3) and the W3-3 signal pictogram (box measured 590 x 949 at (603, 530), larger than the national proportion), a 1500 x 660 rectangle of red paint R13 at 150 in / 1790 down with PREPARE / TO STOP in white. Letter height and series not stated: 180 measured, Series D by shape; cap tops 1890 / 2170 (measured 1885 / 2160, 95 in from the red panel), word gap 260 measured. The sheet's letters are spaced much wider than AS 1744 (PREPARE 1197 wide there, 1023 here), so no width check. Overlay: the sheet draws the diamond about 1400 across (its top tip at about 260, inside the 300 lamp zone); the stated 1365 is kept."
+}

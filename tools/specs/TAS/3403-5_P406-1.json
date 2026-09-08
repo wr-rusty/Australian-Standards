@@ -1,0 +1,6 @@
+{
+ "code": "3403-5_P406-1",
+ "pack": "TAS",
+ "legend": "(fingerboard sign details: A2 Destination 10 / B23 Place Name 5 Destination 10 / C234 Town 5 Destination 10 (City) 100)",
+ "skip": "standard fingerboard details: 1DL/1DR/2DL/2DR/3DL/3DR templates with variable widths (V1-V5, 'variable (V4)') and placeholder legends (Destination, Place Name, Town), plus route-code panels; direction (guide) signs are not generated for the platform (as G-series in the national pack) and a template with no fixed legend cannot be a sign file"
+}

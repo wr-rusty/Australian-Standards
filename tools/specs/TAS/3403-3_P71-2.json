@@ -1,0 +1,47 @@
+{
+ "code": "3403-3_P71-2",
+ "pack": "TAS",
+ "name": "NEW_ROUNDABOUT_AHEAD_YELLOW_LONG",
+ "legend": "NEW ROUNDABOUT AHEAD",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  1200
+ ],
+ "radius": 75,
+ "ground": "yellow",
+ "panel_px": [
+  440,
+  885,
+  1091,
+  1211
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEW",
+   "series": "D",
+   "height": 240,
+   "top": 120,
+   "expect": 646
+  },
+  {
+   "type": "text",
+   "text": "ROUNDABOUT",
+   "series": "D",
+   "height": 240,
+   "top": 480,
+   "expect": 2022
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 240,
+   "top": 840,
+   "expect": 1126
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet 3403-3/P71-2 'Standard warning sign \u2014 New roundabout ahead' (1994). B size 2400 x 1200, 75 rad, no border, black on Class 1 yellow; 240 Series D: rows 120/240/120/240/120/240/120; widths 877/646/877, ROUNDABOUT 2022 per the sheet's letter table (the dimension line says 189/1606/189, a figure copied from the New Junction sheet: 189 + 1606 + 189 is not 2400), 637/1126/637. A size 1800 x 900, 180 D (486/1518/844) not generated."
+}

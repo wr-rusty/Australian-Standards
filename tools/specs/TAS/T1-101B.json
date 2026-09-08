@@ -1,0 +1,59 @@
+{
+ "code": "T1-101B",
+ "pack": "TAS",
+ "drawing": "G_10_457",
+ "name": "SPEED_LIMIT_CHANGED_AHEAD_YELLOW_LONG",
+ "legend": "SPEED LIMIT CHANGED AHEAD",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  1170
+ ],
+ "radius": 30,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  863,
+  353,
+  1514,
+  760
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "SPEED",
+    "LIMIT"
+   ],
+   "gap": 120,
+   "series": "E",
+   "height": 160,
+   "top": 185,
+   "expect": [
+    744,
+    576
+   ]
+  },
+  {
+   "type": "text",
+   "text": "CHANGED",
+   "series": "E",
+   "height": 160,
+   "top": 505,
+   "expect": 1200
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 160,
+   "top": 825,
+   "expect": 880
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/457 'General temporary sign T1-101' (2000), table row T1-101B: A 1800 x B 1170, black legend on Class 1 yellow, 'border: outer corner radius 30mm', N 25 read as the border width (double line drawn). SPEED LIMIT 160 'EN' (normal spacing) cap top J 185, SPEED D 744 / gap I 120 / LIMIT O 576; CHANGED and AHEAD 160 'EM' (medium spacing) tops 505 / 825 (M 160 between lines), widths F 1200 / H 880 (E/G margins). AS 1744 normal spacing fits the DN line (SPEED/LIMIT) and runs about 7-9% narrower than the sheet's DM figures. The sheet draws one generic sign for both rows: the overlay check uses the same drawing for A and B."
+}

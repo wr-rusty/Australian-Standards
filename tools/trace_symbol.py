@@ -10,7 +10,8 @@ re-emit the outline as an absolute SVG path whose viewBox is the symbol's ink ex
   python3 tools/trace_symbol.py --drawing TM10-1A --ground yellow --inset 25 --box 250 100 100 400 --id tm10-1a_up_arrow
 Add --force to overwrite, --show to also write a PNG preview next to the crop in the scratch dir.
 Other packs: a spec with "pack": "NSW" traces from that pack's drawings (signgen.PACKS); `--render-pngs NSW [--codes ...]`
-renders the pack's design-plan PDFs (first page, turned upright) to its PNG folder at --dpi (200).
+renders the pack's design-plan PDFs (first page, turned upright) to its PNG folder at --dpi (200); packs without a register
+(TAS, NT) render every PDF in their "pdf" folder, named by the file stem; `--turn DEG` overrides the upright guess.
 """
 import argparse, glob, json, os, re, subprocess, sys, tempfile
 from PIL import Image, ImageOps, ImageFilter
@@ -56,22 +57,25 @@ def sheet_turn(page):
     horiz = sum(1 for r in rects if r.height < 14 and r.width > 3 * r.height and r.width > 30)
     return -90 if vert > horiz else 0
 
-def render_pack_pngs(pack, codes=None, dpi=200, force=False):
+def render_pack_pngs(pack, codes=None, dpi=200, force=False, turn=None):
     """Render each design plan of a pack (first page of PACKS[pack]["pdf"]/<local>, per the register's sign_no ->
-    local columns) upright into PACKS[pack]["png"]/<sign_no>.png. Existing files are kept unless force."""
+    local columns) upright into PACKS[pack]["png"]/<sign_no>.png. Existing files are kept unless force.
+    turn: degrees to apply instead of the sheet_turn guess (a sheet the guess gets wrong; use with --codes)."""
     import csv, pymupdf, signgen
     P = signgen.PACKS[pack]; os.makedirs(P["png"], exist_ok=True); n = 0
     want = set(codes or [])
-    with open(P["register"], newline="") as fh: rows = [r for r in csv.DictReader(fh) if r.get("local") and r.get("sign_no")]
-    for r in rows:
-        code = r["sign_no"].strip().rstrip("-").strip()
-        if want and code not in want and r["sign_no"].strip() not in want: continue
+    if P.get("register"):
+        with open(P["register"], newline="") as fh: rows = [r for r in csv.DictReader(fh) if r.get("local") and r.get("sign_no")]
+        rows = [(r["sign_no"].strip().rstrip("-").strip(), r["sign_no"].strip(), os.path.join(os.path.dirname(P["register"]), r["local"])) for r in rows]
+    else:   # no register (TAS, NT): every PDF in the pack's drawing folder, named by its stem
+        rows = [(f[:-4], f[:-4], os.path.join(P["pdf"], f)) for f in sorted(os.listdir(P["pdf"])) if f.lower().endswith(".pdf")]
+    for code, raw, pdf in rows:
+        if want and code not in want and raw not in want: continue
         out = os.path.join(P["png"], code + ".png")
         if os.path.exists(out) and not force: continue
-        pdf = os.path.join(os.path.dirname(P["register"]), r["local"])
         if not os.path.exists(pdf): print(code, "missing", pdf); continue
         page = pymupdf.open(pdf)[0]
-        pix = page.get_pixmap(matrix=pymupdf.Matrix(dpi / 72, dpi / 72) * pymupdf.Matrix(sheet_turn(page)), alpha=False)
+        pix = page.get_pixmap(matrix=pymupdf.Matrix(dpi / 72, dpi / 72) * pymupdf.Matrix(sheet_turn(page) if turn is None else turn), alpha=False)
         pix.save(out); n += 1; print(code, pix.width, pix.height)
     print(f"{n} rendered into {P['png']}")
 
@@ -364,9 +368,10 @@ def main():
     ap.add_argument("--pack", help="drawing folder of another pack (signgen.PACKS), e.g. NSW")
     ap.add_argument("--render-pngs", metavar="PACK", help="render a pack's design-plan PDFs to its PNG folder (optionally only --codes), then exit")
     ap.add_argument("--codes", nargs="*"); ap.add_argument("--dpi", type=int, default=200)
+    ap.add_argument("--turn", type=int, help="with --render-pngs: force this rotation (degrees) instead of the upright guess")
     a = ap.parse_args()
     if a.render_pngs:
-        render_pack_pngs(a.render_pngs, a.codes, a.dpi, a.force); return
+        render_pack_pngs(a.render_pngs, a.codes, a.dpi, a.force, a.turn); return
     if a.spec:
         specs = [json.load(open(sp)) for sp in sorted(glob.glob(a.spec))]
         done = set()
@@ -380,7 +385,8 @@ def main():
                     if el.get("type") != "symbol": continue
                     meta = spec["symbols"].get(el["id"], {})
                     src = meta.get("source", spec["code"])
-                    exact = src == spec["code"]; own = base_code(src) == base_code(spec["code"])
+                    own_codes = (spec["code"], spec.get("drawing") or spec["code"])   # pack specs name their sheet in "drawing"
+                    exact = src in own_codes; own = base_code(src) in {base_code(c) for c in own_codes}
                     if reuse_pass == 0 and not exact: continue
                     if reuse_pass == 1 and (exact or not own): continue
                     if reuse_pass == 2:

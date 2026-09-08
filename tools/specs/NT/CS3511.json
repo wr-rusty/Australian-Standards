@@ -1,0 +1,7 @@
+{
+ "code": "CS3511",
+ "pack": "NT",
+ "drawing": "cs3511",
+ "legend": "(rest area advance signage: STOP REVIVE SURVIVE 20 km, 5 km TAKE A BREAK, 500 m ON LEFT/RIGHT, rest area name chevron, DRIVE SAFELY / TOWN NAME XX km / ROADHOUSE 1 2 3 XXX km / PLAN YOUR NEXT REST XX km, 24 hour overnight camping allowed, fires not permitted on fire ban days, please leave rest area clean & tidy, alternative messages)",
+ "skip": "rest area advance signage layout, 'signs derived from TraSiCAD', no sign dimensions ('sign dimensions & font height to be finalised according to AS 1742-2007 & AS 1743-2001'); the coded signs are the national G7-3-1, G7-3-2, G7-1-2, G7-4-2 (Complete/Australia/National (AS 1743)/SVGs/Service Signs/); the NT message plates (DRIVE SAFELY, TAKE A BREAK, REST IF TIRED, ENJOY YOUR REST, DRIVE REFRESHED, STOP FOR REGULAR BREAKS, camping / fire-ban / clean & tidy plates) are undimensioned with placeholder names"
+}

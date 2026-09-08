@@ -1,0 +1,128 @@
+{
+ "code": "W5-102",
+ "pack": "TAS",
+ "drawing": "G_10_469B",
+ "name": "WARNING_GRAVEL_ROADS_DRIVE_CAREFULLY_YELLOW_TALL",
+ "legend": "WARNING GRAVEL ROADS SURFACE CONDITIONS CHANGE OFTEN DRIVE CAREFULLY",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  870,
+  426,
+  1358,
+  1077
+ ],
+ "symbols": {
+  "w5-20_slippery_car": {
+   "source": "W5-20",
+   "desc": "AS 1743 W5-20 skidding car (national symbol reused for the 300 x 300 'black lettering and symbol' box)"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 12,
+   "y": 75,
+   "w": 876,
+   "h": 200,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "WARNING",
+   "series": "D",
+   "height": 120,
+   "top": 115,
+   "expect": 745,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "GRAVEL",
+    "ROADS"
+   ],
+   "gap": 45,
+   "series": "C",
+   "height": 60,
+   "top": 325,
+   "expect": [
+    265,
+    215
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "w5-20_slippery_car",
+   "x": 300,
+   "y": 430,
+   "w": 300,
+   "h": 300,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "SURFACE",
+    "CONDITIONS"
+   ],
+   "gap": 45,
+   "series": "C",
+   "height": 60,
+   "top": 775,
+   "expect": [
+    310,
+    410
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "CHANGE",
+    "OFTEN"
+   ],
+   "gap": 45,
+   "series": "C",
+   "height": 60,
+   "top": 880,
+   "expect": [
+    270,
+    210
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 12,
+   "y": 985,
+   "w": 876,
+   "h": 150,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "DRIVE",
+    "CAREFULLY"
+   ],
+   "gap": 50,
+   "series": "C",
+   "height": 75,
+   "top": 1035,
+   "expect": [
+    235,
+    490
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/469B 'General warning sign detail W5-102' (2000). 900 x 1200, yellow retro-reflective with a 12 black edge line (drawn as the border), corner radius not stated (measured about 60). Red retro-reflective bands 75-275 and 985-1135 (outer chain 75/200/710/150/65) with white lettering; black lettering and symbol on the yellow. Vertical chain inside the edge line 235/150/45/300/105/105/170/90: WARNING bottom 235 (120 high, centred in the band: top 115), GRAVEL ROADS bottom 385 (top 325), symbol 430-730 (300 square, 300/300/300 across), SURFACE CONDITIONS bottom 835, CHANGE OFTEN bottom 940, DRIVE CAREFULLY bottom 1110 (75 high, centred in the lower band). Widths 80/745/75, 185/265/45/215/190, 70/310/45/410/65, 185/270/45/210/190, 65/235/50/490/60. Letter heights 60 / 75 / 120 and the series are not stated ('letters and numerals AS 1744'): Series C fits the 60/75 lines within 4-9% (D would be 10-15% wide), Series D the WARNING (D 684, E 804 against 745); heights from the chain and the drawn letters. The car symbol is the W5-20 artwork (the sheet draws the same skidding car) fitted in the 300 box."
+}

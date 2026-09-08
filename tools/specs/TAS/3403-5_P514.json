@@ -1,0 +1,73 @@
+{
+ "code": "3403-5_P514",
+ "pack": "TAS",
+ "name": "SPEED_CAMERAS_MAY_OPERATE_IN_THIS_AREA_WHITE_WIDE",
+ "legend": "SPEED CAMERAS MAY OPERATE IN THIS AREA",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  1500,
+  600
+ ],
+ "radius": 40,
+ "ground": "white",
+ "panel_px": [
+  726,
+  523,
+  1613,
+  879
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "SPEED",
+    "CAMERAS"
+   ],
+   "gap": 98,
+   "series": "D",
+   "height": 120,
+   "top": 60,
+   "expect": [
+    518,
+    784
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "MAY",
+    "OPERATE"
+   ],
+   "gap": 90,
+   "series": "D",
+   "height": 120,
+   "top": 240,
+   "expect": [
+    346,
+    733
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "THIS",
+    "AREA"
+   ],
+   "gap": [
+    90,
+    90
+   ],
+   "series": "D",
+   "height": 120,
+   "top": 420,
+   "expect": [
+    142,
+    357,
+    442
+   ]
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet 3403-5/P514 'Speed camera advisory sign' (sideways A4 sheet). 1500 x 600, black legend on Class 1 white, no border drawn, corner radius not stated (measured about 40). 120 Series D '75% spacing': rows 60/120/60/120/60/120/60; widths 50/518/98/784/50, 171/346/90/733/160, 195/142/90/357/90/442/184 (AS 1744 plus0: 473/719, 324/674, 130/324/408 \u2014 the sheet's spacing is about 9% wider). Filed under Regulatory Signs (speed enforcement advisory); no AS 1743 code on the sheet."
+}

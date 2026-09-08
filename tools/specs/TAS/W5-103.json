@@ -1,0 +1,47 @@
+{
+ "code": "W5-103",
+ "pack": "TAS",
+ "drawing": "G_9_351B",
+ "name": "CONCEALED_ENTRANCES_YELLOW_DIAMOND",
+ "legend": "CONCEALED ENTRANCES",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CONCEALED",
+   "series": "C",
+   "height": 80,
+   "top": 319.3,
+   "expect": 537
+  },
+  {
+   "type": "text",
+   "text": "ENTRANCES",
+   "series": "C",
+   "height": 80,
+   "top": 449.3,
+   "expect": 531
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/9/351B 'Concealed entrances sign W5-103' (sideways A4). 600 diamond (E & F 600) drawn as bounding square 848.53; Series C black letters on yellow reflectorised background, C = 80 letter height, D = 50 gap between the lines, A = 537 (CONCEALED), B = 531 (ENTRANCES); the two lines centred vertically (tops 319.3 / 449.3). Border drawn thick with a thin outer line but not dimensioned: yellow edge 10 / black border 20 / R40 as the AS 1743 600 diamonds (W6-10). AS 1744 C widths 506 / 494 (sheet about 6% wider). panel_px = the sheet's diamond extent widened by the tip rounding (R40: 16.6 each side) to the sharp bounding square.",
+ "panel_px": [
+  747,
+  203,
+  1517,
+  974
+ ]
+}

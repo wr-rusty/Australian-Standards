@@ -1,0 +1,7 @@
+{
+ "code": "CS3510",
+ "pack": "NT",
+ "drawing": "cs3510",
+ "legend": "PLEASE ARRIVE ALIVE X KM / PLAN A BREAK / TAKE A BREAK (name of town or roadhouse, rest-area numbers, service symbols)",
+ "skip": "highway service signs, 'signs derived from TraSiCAD': widths 'vary depending on image size and location name', placeholder legends (name of town or roadhouse, X km, 1-5); only heights 900 (60/200/500/350/50) given; the PLEASE ARRIVE ALIVE sign is not dimensioned at all"
+}

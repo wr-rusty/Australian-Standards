@@ -1,0 +1,150 @@
+{
+ "code": "3403-3_P92",
+ "pack": "TAS",
+ "name": "CAUTION_ICE_SLIPPERY_GREEN_TALL",
+ "legend": "CAUTION ICE",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1200,
+  2150
+ ],
+ "radius": 50,
+ "ground": "green",
+ "panel_px": [
+  1086,
+  227,
+  1422,
+  828
+ ],
+ "symbols": {
+  "w5-20_slippery_car": {
+   "source": "W5-20",
+   "desc": "AS 1743 W5-20 skidding car (national symbol reused; the sheet says 'for details of slippery sign refer AS 1742 W5-20B')"
+  }
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 0,
+   "y": 1100,
+   "w": 1200,
+   "h": 1050,
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "panel",
+   "x": 10,
+   "y": 1110,
+   "w": 1180,
+   "h": 1030,
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 30,
+   "y": 1130,
+   "w": 1140,
+   "h": 990,
+   "radius": 20,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     598.35,
+     50.0
+    ],
+    [
+     1103.7,
+     555.35
+    ],
+    [
+     598.35,
+     1060.7
+    ],
+    [
+     93.0,
+     555.35
+    ]
+   ],
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     598.35,
+     64.14213562373095
+    ],
+    [
+     1089.5578643762692,
+     555.35
+    ],
+    [
+     598.35,
+     1046.5578643762692
+    ],
+    [
+     107.14213562373095,
+     555.35
+    ]
+   ],
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     598.35,
+     92.42640687119285
+    ],
+    [
+     1061.273593128807,
+     555.35
+    ],
+    [
+     598.35,
+     1018.2735931288072
+    ],
+    [
+     135.42640687119285,
+     555.35
+    ]
+   ],
+   "radius": 20,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w5-20_slippery_car",
+   "x": 295.3,
+   "y": 245.7,
+   "w": 576.5,
+   "h": 527.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "CAUTION",
+   "series": "C",
+   "height": 200,
+   "top": 1270,
+   "expect": 962
+  },
+  {
+   "type": "text",
+   "text": "ICE",
+   "series": "E",
+   "height": 340,
+   "top": 1620,
+   "expect": 780
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet 3403-3/P92 'Slippery - ice warning sign type 1' (2002), hinged fold-out sign 1200 x 2150, 50 rad. Top panel 1100: a W5-20 slippery diamond (black on Class 1 yellow, yellow edge 10 / black border 20 / R50 as AS 1743 W5-20) on a standard green background; the diamond is not dimensioned: measured on the sheet 1010 across the diagonals (side 715; a W5-20 B size would be 750 / 1061), centred in the top panel (top 50). Lower panel 1050, Class 1 yellow with 20 black border and 10 outer yellow edge; CAUTION 200 Series C '75% spacing' top 1270 (170 below the panel joint), ICE 340 Series E top 1620 (rows 170/200/150/340/190). The sheet's width figures are swapped between the lines (220/780/200 against CAUTION, 110/962/128 against ICE): the drawn CAUTION measures 958 and ICE 780, so expect CAUTION 962 / ICE 780 (AS 1744: 900 / 748). Legend centred (the sheet's margins are 1 cm off-centre)."
+}

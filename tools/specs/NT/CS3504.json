@@ -1,0 +1,74 @@
+{
+ "code": "CS3504",
+ "pack": "NT",
+ "drawing": "cs3504",
+ "name": "{speed}_KMH_SPEED_LIMIT_1KM_AHEAD_RED_LONG",
+ "legend": "{speed}km/h SPEED LIMIT 1km AHEAD",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  2040,
+  1020
+ ],
+ "radius": 100,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 40
+ },
+ "border": {
+  "colour": "white",
+  "width": 40
+ },
+ "panel_px": [
+  303,
+  318,
+  1904,
+  1118
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   60,
+   80,
+   100,
+   110
+  ]
+ },
+ "drawn_value": 110,
+ "elements": [
+  {
+   "type": "text",
+   "text": "{speed}km/h",
+   "series": "Emod",
+   "height": 180,
+   "top": 160,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "SPEED",
+    "LIMIT"
+   ],
+   "gap": 180,
+   "series": "Emod",
+   "height": 180,
+   "top": 420,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "1km",
+    "AHEAD"
+   ],
+   "gap": 180,
+   "series": "Emod",
+   "height": 180,
+   "top": 680,
+   "colour": "white"
+  }
+ ],
+ "notes": "Department of Logistics and Infrastructure (DIPL) civil standard drawing, CAD sheet in colour; every dimension from the sheet unless stated; AS 1744 (plus0) spacing. Sheet CS3504 'Northern Territory standard speed limit sign' (2017): sign plate 2040 x 1020, background red Class 1, wording and border white Class 1: red edge 40, white border 40, 80 to the text (inner 1720); corner radius not stated (measured about 100). Three lines of 180 Mod E text, vertical chain 40/40/80/180/80/180/80/180/80/40/40, centred; word gaps not stated (measured 177: 180 used). The sheet shows 110km/h; CS3509 uses the same plate at 60, 80 and 100 km/h ('plate size to remain the same regardless of speed limit ahead'): generated for 60/80/100/110. Drawn text widths 1154 / 890+683 / 494+940 (E Mod here 1160 / 857+668 / 488+924)."
+}

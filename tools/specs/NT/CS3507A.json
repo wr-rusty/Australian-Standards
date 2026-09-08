@@ -1,0 +1,109 @@
+{
+ "code": "CS3507A",
+ "pack": "NT",
+ "drawing": "cs3507",
+ "name": "REDUCE_NOISE_PLEASE_LIMIT_COMPRESSION_BRAKING_WHITE_SQUARE",
+ "legend": "REDUCE NOISE PLEASE LIMIT COMPRESSION BRAKING",
+ "folder": "Other",
+ "shape": "rect",
+ "size": [
+  1600,
+  1600
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  1639,
+  339,
+  2963,
+  1663
+ ],
+ "symbols": {
+  "nt_cs3507_truck": {
+   "source": "cs3507",
+   "pack": "NT",
+   "panel_px": [
+    1639,
+    339,
+    2963,
+    1663
+   ],
+   "inset": 0,
+   "desc": "prime mover and semi-trailer, side view, four wheels; 1108 x 350 at type A (P x N), traced from the sheet's sign face (the sheet also gives it on a 25-square grid)"
+  }
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 110,
+   "y": 110,
+   "w": 1380,
+   "h": 280,
+   "radius": 50,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 130,
+   "y": 130,
+   "w": 1340,
+   "h": 240,
+   "radius": 30,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "words": [
+    "REDUCE",
+    "NOISE"
+   ],
+   "gap": 160,
+   "series": "D",
+   "height": 120,
+   "top": 190
+  },
+  {
+   "type": "symbol",
+   "id": "nt_cs3507_truck",
+   "x": 246.0,
+   "y": 475,
+   "w": 1108,
+   "h": 350,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "PLEASE",
+    "LIMIT"
+   ],
+   "gap": 140,
+   "series": "D",
+   "height": 140,
+   "top": 910
+  },
+  {
+   "type": "text",
+   "text": "COMPRESSION",
+   "series": "D",
+   "height": 140,
+   "top": 1130
+  },
+  {
+   "type": "text",
+   "text": "BRAKING",
+   "series": "D",
+   "height": 140,
+   "top": 1350
+  }
+ ],
+ "notes": "Department of Logistics and Infrastructure (DIPL) civil standard drawing, CAD sheet in colour; every dimension from the sheet unless stated; AS 1744 (plus0) spacing. Sheet CS3507 'Limited compression braking information sign' (2017), table type A: A 1600 square, R 200; B 20 black border with C 40 = edge + border (white edge 20); D 110 margin to the yellow panel (retroreflective yellow, black border H 20, gap K 60, REDUCE NOISE M 120 'DM' = Series D, cap top 190); G 85 to the truck, N 350 tall x P 1108 wide (P dimensioned over the truck), centred; G 85 to PLEASE LIMIT / COMPRESSION / BRAKING E 140 'DM' (Series D), F 80 between lines, D 110 at the bottom: chain D K H M H K G N G E F E F E D = 1600. Panel corner radii and word gaps not stated (panel R measured about 50 outer; REDUCE NOISE gap measured 162 at type A; the lower lines' word gap taken as the letter height). Type A for residential/urban perimeters, type B for multilane roads. The sheet's CAD text is letter-spaced wider than AS 1744 (no width check). Overlay against the type A sheet for both."
+}

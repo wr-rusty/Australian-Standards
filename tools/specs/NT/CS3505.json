@@ -1,0 +1,46 @@
+{
+ "code": "CS3505",
+ "pack": "NT",
+ "drawing": "cs3505",
+ "name": "ROAD_CLOSED_WHITE_LONG_SKINNY",
+ "legend": "ROAD CLOSED",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  600
+ ],
+ "radius": 75,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 25
+ },
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  547,
+  201,
+  1965,
+  556
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 160,
+   "top": 90
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "E",
+   "height": 160,
+   "top": 340
+  }
+ ],
+ "notes": "Department of Logistics and Infrastructure (DIPL) civil standard drawing, CAD sheet in colour; every dimension from the sheet unless stated; AS 1744 (plus0) spacing. Sheet CS3505 'Road closure sign' (2017): folding two-half sign (permanently attached top half, folding bottom half), background white Class 1; the sign face is drawn 'not to scale' with the border 25 and edge 25 and its size from the elevation (300 + 1800 post spacing + 300 = 2400 wide, 100/200/200/100 = 600 high; the face is drawn 4:1). Legend not specified: black ROAD over CLOSED, letters measured 160 high with cap tops 90 / 340 (rows 90/160/90/160/100), Series E by the drawn widths (ROAD 612, CLOSED 900 measured; E 634 / 914). Not the AS 1743 T2-4 / G9-20 ROAD CLOSED (one line, 1800 x 300)."
+}

@@ -1,0 +1,6 @@
+{
+ "code": "3403-5_P411-1",
+ "pack": "TAS",
+ "legend": "(direction sign standard details)",
+ "skip": "standard details, not a sign face: border width (25 black, 20 edge) and corner radii (75/55/30), word spacing example ('Hobart'), direction arrow dimension table, oblique arrow layout, national route shield"
+}

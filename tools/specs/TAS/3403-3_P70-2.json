@@ -1,0 +1,47 @@
+{
+ "code": "3403-3_P70-2",
+ "pack": "TAS",
+ "name": "NEW_JUNCTION_AHEAD_YELLOW_LONG",
+ "legend": "NEW JUNCTION AHEAD",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  2000,
+  1200
+ ],
+ "radius": 75,
+ "ground": "yellow",
+ "panel_px": [
+  403,
+  885,
+  945,
+  1211
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEW",
+   "series": "D",
+   "height": 240,
+   "top": 120,
+   "expect": 646
+  },
+  {
+   "type": "text",
+   "text": "JUNCTION",
+   "series": "D",
+   "height": 240,
+   "top": 480,
+   "expect": 1606
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 240,
+   "top": 840,
+   "expect": 1126
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet 3403-3/P70-2 'Standard warning sign \u2014 New junction ahead' (1994). B size 2000 x 1200, 75 rad, no border, black on Class 1 yellow; 240 Series D: rows 120/240/120/240/120/240/120; widths 677/646/677, 197/1606/197, 437/1126/437 (sheet letter tables). AS 1744 widths 603/1506/1033 (sheet about 7% wider). A size 1500 x 900, 180 D (486/1206/844) on the same sheet, not generated. Sign to remain about 3 months after completion of new work."
+}

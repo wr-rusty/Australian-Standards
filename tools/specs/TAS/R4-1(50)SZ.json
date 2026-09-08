@@ -1,0 +1,72 @@
+{
+ "code": "R4-1(50)SZ",
+ "pack": "TAS",
+ "drawing": "G_10_474",
+ "name": "50_SHOPPING_ZONE_SPEED_SIGN",
+ "legend": "50 SHOPPING ZONE",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  1100
+ ],
+ "radius": 50,
+ "ground": "white",
+ "panel_px": [
+  969,
+  242,
+  1328,
+  900
+ ],
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 400,
+   "r_outer": 297,
+   "r_inner": 237,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "50",
+   "series": "D",
+   "height": 240,
+   "top": 280
+  },
+  {
+   "type": "panel",
+   "x": 24,
+   "y": 816,
+   "w": 552,
+   "h": 260,
+   "radius": 20,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 29,
+   "y": 821,
+   "w": 542,
+   "h": 250,
+   "radius": 15,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "SHOPPING",
+   "series": "D",
+   "height": 80,
+   "top": 846
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 80,
+   "top": 966,
+   "expect": 260
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/474 'Shopping zone speed sign R4-1(50)SZ' (1999). 600 x 1100: an R4-1 600 x 800 speed sign (circle red retro-reflective, speed black non-reflective, background white retro-reflective Class 1) over a 300 zone carrying a bordered SHOPPING ZONE panel. The annulus and numerals are not dimensioned: AS 1743 R4-1 geometry used (annulus R297/R237 centred (300, 400), 240 D numerals top 280; the sheet's own ring measures about 535 dia). Lower panel from the chain 16/30/80/40/80/30/24 (top to bottom) and 24/29/494/29/24 across: panel 552 x 260 at (24, 816), black non-reflective border 5 wide (29 - 24; drawn as a thin double line, R20 outer measured), SHOPPING 80 Series D cap top 846, ZONE top 966 (40 between rows), ZONE 170/260/170. Corner radius R50 as R4-1 (measured about 50)."
+}

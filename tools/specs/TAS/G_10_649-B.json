@@ -1,0 +1,130 @@
+{
+ "code": "G_10_649-B",
+ "pack": "TAS",
+ "name": "EMERGENCY_TELEPHONE_NUMBERS_WHITE_WIDE_SKINNY",
+ "legend": "Emergency Telephone Numbers POLICE, FIRE & AMBULANCE 000 ROAD & BRIDGE EMERGENCY 1800 005 282 RACT ROADSIDE ASSIST 13 1111",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2100,
+  400
+ ],
+ "radius": 75,
+ "ground": "white",
+ "drawing": "G_10_649",
+ "panel_px": [
+  361,
+  1444,
+  1677,
+  1696
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "Emergency",
+    "Telephone",
+    "Numbers"
+   ],
+   "gap": 68,
+   "series": "Emod",
+   "height": 70,
+   "top": 46,
+   "align": "left",
+   "x": 171,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "POLICE,",
+    "FIRE",
+    "&",
+    "AMBULANCE"
+   ],
+   "gap": [
+    65,
+    40,
+    40
+   ],
+   "series": "Emod",
+   "height": 50,
+   "top": 158,
+   "align": "left",
+   "x": 171
+  },
+  {
+   "type": "text",
+   "text": "000",
+   "series": "Emod",
+   "height": 50,
+   "top": 158,
+   "align": "left",
+   "x": 1314
+  },
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "&",
+    "BRIDGE",
+    "EMERGENCY"
+   ],
+   "gap": [
+    38,
+    40,
+    50
+   ],
+   "series": "Emod",
+   "height": 50,
+   "top": 238,
+   "align": "left",
+   "x": 171
+  },
+  {
+   "type": "text",
+   "words": [
+    "1800",
+    "005",
+    "282"
+   ],
+   "gap": 51,
+   "series": "Emod",
+   "height": 50,
+   "top": 238,
+   "align": "left",
+   "x": 1314
+  },
+  {
+   "type": "text",
+   "words": [
+    "RACT",
+    "ROADSIDE",
+    "ASSIST"
+   ],
+   "gap": [
+    48,
+    50
+   ],
+   "series": "Emod",
+   "height": 50,
+   "top": 318,
+   "align": "left",
+   "x": 171
+  },
+  {
+   "type": "text",
+   "words": [
+    "13",
+    "1111"
+   ],
+   "gap": 51,
+   "series": "Emod",
+   "height": 50,
+   "top": 318,
+   "align": "left",
+   "x": 1314
+  }
+ ],
+ "notes": "Department of State Growth (formerly DIER) standard drawing, black line-work sheet; every dimension from the sheet unless stated. Series/heights as the sheet's letter-type note; AS 1744 (plus0) spacing, so widths differ from the sheet's figures where its spacing is wider (the TAS sheets' 'medium'/'75%' spacing runs about 7% wider than AS 1744 normal spacing). Sheet G/10/649 Panel B: 2100 x 400 Class 1 white, no border drawn, corner radius not stated (measured about 75). Line 1 70 Series E Modified in Class 1 red, other lines 50 Series E Modified black, 'spacing to suit' \u2014 nothing else is dimensioned: layout measured on the sheet (1:25): text column left at 171, numbers column at 1314, cap tops 46 / 158 / 238 / 318, word gaps as measured (40-68). The sheet's letters are about 12% narrower than E Mod at AS 1744 spacing, so the lines run a little longer here."
+}

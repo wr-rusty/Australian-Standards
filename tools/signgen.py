@@ -34,7 +34,17 @@ PACKS = {"NSW": {"out": os.path.join(ROOT, "Processing", "Australia", "NSW", "SV
                  "png": os.path.join(ROOT, "Processing", "Australia", "NSW", "Original PNGs"),
                  "pdf": os.path.join(ROOT, "Processing", "Australia", "NSW", "Original PDFs"),
                  "register": os.path.join(ROOT, "Processing", "Australia", "NSW", "REGISTER.csv"),
-                 "credit": "\u00a9 State of New South Wales (Transport for NSW), CC BY 4.0"}}
+                 "credit": "\u00a9 State of New South Wales (Transport for NSW), CC BY 4.0"},
+         # TAS / NT: no register \u2014 the drawings are the standard-drawing PDFs themselves (one sheet each, several signs on some);
+         # PNGs are named by the PDF stem and specs name their sheet with "drawing". Black line-work sheets, see the packs' SOURCES.md.
+         "TAS": {"out": os.path.join(ROOT, "Processing", "Australia", "TAS", "SVGs (generated)"),
+                 "png": os.path.join(ROOT, "Processing", "Australia", "TAS", "Original PNGs"),
+                 "pdf": os.path.join(ROOT, "Processing", "Australia", "TAS", "Original PDFs"),
+                 "credit": "\u00a9 State of Tasmania (Department of State Growth), standard drawings \u2014 Crown copyright, reuse per the site's copyright terms"},
+         "NT": {"out": os.path.join(ROOT, "Processing", "Australia", "NT", "SVGs (generated)"),
+                "png": os.path.join(ROOT, "Processing", "Australia", "NT", "Original PNGs"),
+                "pdf": os.path.join(ROOT, "Processing", "Australia", "NT", "Original PDFs"),
+                "credit": "\u00a9 Northern Territory of Australia (Department of Logistics and Infrastructure), standard drawings \u2014 Crown copyright, reuse per the site's copyright terms"}}
 def out_root(spec):
     """Where a spec's SVGs go: the AS 1743 pack unless the spec names another pack."""
     return PACKS[spec["pack"]]["out"] if spec.get("pack") else OUT_ROOT
