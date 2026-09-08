@@ -19,3 +19,6 @@ The SitePilot upload takes the `SVGs/` folders; a jurisdiction's signs are the n
 | USA | federal | `Complete/USA/Federal (MUTCD 2023)` | 1,441 signs (FHWA SHS 2004/2012/2024); reviewed | 
 | USA | states | `Processing/USA/<State>` | see `Processing/USA/STATES.csv`; major states SGN-009..018, others SGN-019..059 |
 | UK | national (England, Wales, Scotland) | `Processing/United Kingdom/National (TSRGD 2016)` | 658 SVGs from the DfT's own coloured EPS artwork (OGL v3), sizes from the working drawings where stated; in review (SGN-060) |
+| Germany | national | `Processing/Germany/National (StVO)` | sources to find (SGN-078) |
+| France | national | `Processing/France/National (IISR)` | sources to find (SGN-079) |
+| Italy | national | `Processing/Italy/National (Codice della Strada)` | sources to find (SGN-080) |

@@ -31,3 +31,5 @@ source: manual
 - 2026-09-08 — filed.
 
 - 2026-09-08 — Russell: imagery is TGS-style plan view; devices as the TGS legend symbols (AS 1742.3 / AGTTM Part 3), signs as faces, markings to scale. Sources needed: AS 1742.3 (Russell), AGTTM Part 3 and state TGS legends (free), then build.
+
+- 2026-09-08 — Russell: park the TGS/devices work (SGN-069..077) and finish the original sign process first; Europe added — Germany, France, Italy first (SGN-078..080).
