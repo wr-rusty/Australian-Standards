@@ -275,7 +275,8 @@ for AS 1743, then 2–3 for AS 1319.
   * Australian states (2026-09-06): NSW register crawled and extracting; QLD TC signs pack done (731); SA index and PDFs
     downloaded, extracting; WA index crawled (DWG conversion blocked); TAS/ACT/VIC/NT findings on their tickets.
     Generic sheet extractor in `tools/sheet_extract.py`; packs map in `JURISDICTIONS.md`; US states in `Processing/USA/STATES.csv`.
-  * TODO — UK after NZ.
+  * UK national built 2026-09-08 from the DfT EPS artwork (658 SVGs, in review).
+* TODO — variants for signs that need them (parking times, clearways, speed values; NZ signs composed from the symbol set) — SGN-068. Not every street-name sign; keep those as examples.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
 * Layout (2026-09-06, agreed with Russell): country → jurisdiction pack → `Original …/` + `SVGs/<family>/`:
   `Complete/Australia/National (AS 1743)`, `Processing/Australia/<State>` (all eight states/territories, P1), `Complete/USA/Federal (MUTCD 2023)`,

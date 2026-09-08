@@ -30,3 +30,5 @@ Font licence on file; review sheets checked against the working drawings.
 ## Log
 
 - 2026-09-06 — filed.
+
+- 2026-09-08 — Rebuilt from the DfT's own coloured EPS artwork ("Traffic sign images", OGL v3) instead of the line-work drawings: `tools/uk_eps.py`, 658 SVGs in the 18 DfT categories; sizes from the working drawings via `tools/uk_sizes.py` (137 with a stated size, the rest nominal at 1 pt = 10 mm, said in the manifest). Awaiting Russell's review before Complete/.
