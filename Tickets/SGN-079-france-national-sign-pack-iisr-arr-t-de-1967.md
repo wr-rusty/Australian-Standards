@@ -60,3 +60,5 @@ Researched 2026-09-08; full detail in `Processing/France/National (IISR)/SOURCES
 - **Russell decides:** attribution line for the platform ("Source : Cerema, licence Etalab 2.0, 2025"); whether
   the dynamic (9e partie) and temporary-direction (KC/KD) signs missing from the Cerema set are generated or
   left out; nothing to buy.
+
+- 2026-09-08 13:30 — build stopped at Russell's hard stop before the agent finished its contact-sheet inspection: 530 SVGs written (25 in intervene), tool tools/fr_cerema.py, MANIFEST.csv complete. Still to do: inspect all contact sheets (a random 48 looked right; J15a balise and Dc29 local-information example are Cerema illustrations, not faces — move to intervene), resolve the M1a row the agent was debugging, decide the attribution line.

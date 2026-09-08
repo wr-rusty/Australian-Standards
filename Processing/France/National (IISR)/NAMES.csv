@@ -1,0 +1,459 @@
+code,name,source
+A1,Pas de signalisation ou éventuellement signalisation avancée par panneau de type,IISR 2e partie
+A13a,Endroit fréquenté par les enfants,Wikipedia
+A13b,Passage(s) pour piétons,Wikipedia
+A14,Danger,Wikipedia
+A15,Passage d'animaux,"IISR 2e partie, article 40-1 heading"
+A15a1,Passage d'animaux domestiques,Wikipedia
+A15a2,Passage d'animaux domestiques,Wikipedia
+A15b,Passage d'animaux sauvages,Wikipedia
+A15c,Passage de cavaliers,Wikipedia
+A16,Descente dangereuse,Wikipedia
+A17,Feux tricolores,Wikipedia
+A18,Circulation dans les deux sens,Wikipedia
+A19,Risque de chutes de pierres,Wikipedia
+A1a,Virage à droite,Wikipedia
+A1b,Virage à gauche,Wikipedia
+A1c,Succession de virages,Wikipedia
+A1d,Succession de virages,Wikipedia
+A20,Débouché sur un quai ou une berge,Wikipedia
+A21,Débouché de cyclistes,Wikipedia
+A23,Traversée d'une aire de danger aérien,Wikipedia
+A24,Vent latéral,Wikipedia
+A2a,Cassis ou dos d'âne,Wikipedia
+A2b,Ralentisseur de type dos-d'âne,Wikipedia
+A3,Chaussée rétrécie,Wikipedia
+A3a,Chaussée rétrécie par la droite,Wikipedia
+A3b,Chaussée rétrécie par la gauche,Wikipedia
+A4,Chaussée glissante,Wikipedia
+A6,Pont mobile,Wikipedia
+A7,Passage à niveau muni de barrières,Wikipedia
+A8,Passage à niveau sans barrière,Wikipedia
+A9a,Traversée de voie de véhicules routiers des services réguliers de transport en commun,Wikipedia
+A9b,Traversée de voies de tramways,Wikipedia
+AB1,Priorité à droite,Wikipedia
+AB2,Priorité ponctuelle,Wikipedia
+AB25,Signalisation avancée d'un carrefour à sens giratoire avec priorité aux usagers circulant dans l'anneau,Wikipedia
+AB3,Distances d'implantation des panneaux avancés et indications de ces,"IISR 3e partie, article 42-6 heading"
+AB3a,Cédez le passage,Wikipedia
+AB3b,Signal avancé cédez-le-passage,Wikipedia
+AB4,Stop,Wikipedia
+AB5,Signal avancé stop,Wikipedia
+AB6,Route à caractère prioritaire,Wikipedia
+AB7,Fin du caractère prioritaire d'une route,Wikipedia
+AK14,Autres dangers,Wikipedia
+AK17,Annonce de signaux lumineux,Wikipedia
+AK2,"Cassis, dos d'âne",Wikipedia
+AK22,Projection de gravillons,Wikipedia
+AK3,Chaussée rétrécie,Wikipedia
+AK30,Bouchon,Wikipedia
+AK31,Accident,Wikipedia
+AK32,Annonce de nappes de brouillard ou de fumées épaisses,Wikipedia
+AK4,Chaussée glissante,Wikipedia
+AK5,Travaux,Wikipedia
+B0,Circulation interdite,"IISR 4e partie, article 50 heading"
+B1,"Des signaux de prescription de type XB, B0et",IISR 8e partie
+B10a,Limitation de longueur,"IISR 4e partie, article 59 heading"
+B11,Limitation de largeur,"IISR 4e partie, article 60 heading"
+B12,Limitation de hauteur,"IISR 4e partie, article 61 heading"
+B13,Limitation de tonnage,"IISR 4e partie, article 62 heading"
+B13a,Limitation de poids par essieu,"IISR 4e partie, article 62-1 heading"
+B14,Limitation de vitesse,"IISR 4e partie, article 63 heading"
+B15,Cédez le passage à la circulation venant en sens inverse,"IISR 4e partie, article 64 heading"
+B16,Signaux sonores interdits,"IISR 4e partie, article 64-1 heading"
+B17,Intervalle minimal,"IISR 4e partie, article 64-2 heading"
+B18a,Accès interdit aux véhicules transportant des marchandises explosives,"IISR 4e partie, article 64-3 heading"
+B18b,Accès interdit aux véhicules transportant des marchandises polluant,"IISR 4e partie, article 64-4 heading"
+B18c,Accès interdit aux véhicules transportant des marchandises,"IISR 4e partie, article 64-5 heading"
+B19,Autres interdictions,"IISR 4e partie, article 64-10 heading"
+B1j,Sens interdit,Wikipedia (page title)
+B2,Sens interdit,"IISR 4e partie, article 50-1 heading"
+B21,Sens interdit,"IISR 4e partie, article 50-1 heading"
+B21-1,Obligation de tourner à droite avant le panneau,IISR 4e partie
+B21-2,Obligation de tourner à gauche avant le panneau,IISR 4e partie
+B21a1,Contournement obligatoire par la droite,IISR 4e partie
+B21a2,Contournement obligatoire par la gauche,IISR 4e partie
+B21b,Direction obligatoire à la prochaine intersection : tout droit,IISR 4e partie
+B21c1,Direction obligatoire à la prochaine intersection : à droite,IISR 4e partie
+B21c2,Direction obligatoire à la prochaine intersection : à gauche,IISR 4e partie
+B21d1,Directions obligatoires à la prochaine intersection : tout droit ou à droite,IISR 4e partie
+B21d2,Directions obligatoires à la prochaine intersection : tout droit ou à gauche,IISR 4e partie
+B21e,Directions obligatoires à la prochaine intersection : à droite ou à gauche,IISR 4e partie
+B22a,Piste ou bande cyclable obligatoire,"IISR 4e partie, article 66 heading"
+B22b,Chemin pour piétons obligatoire,"IISR 4e partie, article 66-1 heading"
+B22c,Chemin pour cavaliers obligatoire,"IISR 4e partie, article 66-2 heading"
+B25,Vitesse minimale obligatoire,"IISR 4e partie, article 67 heading"
+B26,Chaînes à neige obligatoires,"IISR 4e partie, article 67-1 heading"
+B27a,Voie réservée aux véhicules de transports en commun,"IISR 4e partie, article 67-2 heading"
+B27b,Voie réservée aux véhicules de transports en commun,"IISR 4e partie, article 67-2 heading"
+B29,Voie réservée aux véhicules lents,"IISR 4e partie, article 67-3 heading"
+B2a,Interdiction de tourner,"IISR 4e partie, article 51 heading"
+B2b,Interdiction de tourner,"IISR 4e partie, article 51 heading"
+B2c,Interdiction de faire demi-tour,"IISR 4e partie, article 51-1 heading"
+B3,Interdiction de dépasser,"IISR 4e partie, article 52 heading"
+B30,Zone « 30,"IISR 4e partie, article 63-1 heading"
+B31,Fin de toutes interdictions précédemment signalées et imposées aux,"IISR 4e partie, article 68-1 heading"
+B33,Fin de limitation de vitesse,"IISR 4e partie, article 68-2 heading"
+B34,Fin d'interdiction de dépasser,"IISR 4e partie, article 68-3 heading"
+B34a,Fin d'interdiction de dépasser,"IISR 4e partie, article 68-3 heading"
+B35,Fin d'interdiction de l'usage des signaux sonores,"IISR 4e partie, article 68-4 heading"
+B39,Fin d'interdiction de l'usage des signaux sonores,"IISR 4e partie, article 68-4 heading"
+B3a,Interdiction de dépasser,"IISR 4e partie, article 52 heading"
+B4,"Douane, arrêt","IISR 4e partie, article 53 heading"
+B40,Fin de piste cyclable obligatoire,IISR 4e partie
+B41,Fin de chemin obligatoire pour piétons,IISR 4e partie
+B42,Fin de chemin obligatoire pour cavaliers,IISR 4e partie
+B43,Fin de vitesse minimale obligatoire,IISR 4e partie
+B44,Fin de l'obligation de l'usage de chaînes à neige,IISR 4e partie
+B45,Fin de voie réservée aux véhicules de transports en commun,IISR 4e partie
+B49,Autre fin d'obligation,IISR 4e partie
+B50a,Sortie de zone à stationnement interdit,IISR 4e partie
+B50b,Sortie de zone à stationnement unilatéral à alternance semi-mensuelle,IISR 4e partie
+B50c,Sortie de zone à stationnement de durée limitée avec contrôle par disque,IISR 4e partie
+B50d,Sortie de zone à stationnement payant,IISR 4e partie
+B50e,Sortie de zone à stationnement unilatéral à alternance semi-mensuelle et à durée limitée avec contrôle par disque,IISR 4e partie
+B51,Sortie de zone à vitesse limitée à 30 km/h,IISR 4e partie
+B52,Zone « 30,"IISR 4e partie, article 63-1 heading"
+B53,Sortie de zone de rencontre,IISR 4e partie
+B54,"S'il existe dans une rue une limitation de vitesse différente de la réglementation générale dans l'agglomération, la vitesse correspondante doit être signalée à tous les usagers abordant cette rue par",IISR 4e partie
+B55,Sortie d'aire piétonne,IISR 4e partie
+B56,Zone de circulation restreinte,Wikipedia (page title)
+B57,Zone de circulation restreinte,Wikipedia (page title)
+B58,Zone d'obligation d'équipements en période hivernale,Wikipedia (page title)
+B59,Zone d'obligation d'équipements en période hivernale,Wikipedia (page title)
+B5a,"Gendarmerie, police ou péage, arrêt","IISR 4e partie, article 54 heading"
+B5b,Panneaux de prescription,IISR 1e partie
+B5c,"Gendarmerie, police ou péage, arrêt","IISR 4e partie, article 54 heading"
+B6a,Stationnement interdit ou réglementé,"IISR 4e partie, article 55 heading"
+B6a1,Stationnement interdit ou réglementé,"IISR 4e partie, article 55 heading"
+B6a2,Stationnement interdit ou réglementé,"IISR 4e partie, article 55 heading"
+B6a3,Stationnement interdit ou réglementé,"IISR 4e partie, article 55 heading"
+B6b1,Dispositions complémentaires concernant le stationnement,"IISR 4e partie, article 55-1 heading"
+B6b2,Dispositions complémentaires concernant le stationnement,"IISR 4e partie, article 55-1 heading"
+B6b3,Dispositions complémentaires concernant le stationnement,"IISR 4e partie, article 55-1 heading"
+B6b4,Dispositions complémentaires concernant le stationnement,"IISR 4e partie, article 55-1 heading"
+B6d,Arrêt et stationnement interdits ou réglementés,"IISR 4e partie, article 55-3 heading"
+B7a,Accès interdit aux véhicules à moteur sauf les cyclomoteurs,"IISR 4e partie, article 56 heading"
+B7b,Accès interdit à tous véhicules à moteur,"IISR 4e partie, article 56-1 heading"
+B8,Accès interdit aux véhicules affectés au transport de marchandises,"IISR 4e partie, article 57 heading"
+B9a,Accès interdit aux piétons,"IISR 4e partie, article 58 heading"
+B9b,Accès interdit aux cycles,"IISR 4e partie, article 58-1 heading"
+B9c,Accès interdit aux véhicules à traction animale,"IISR 4e partie, article 58-2 heading"
+B9d,Accès interdit aux véhicules agricoles à moteur,"IISR 4e partie, article 58-3 heading"
+B9e,Accès interdit aux charrettes à bras,"IISR 4e partie, article 58-4 heading"
+B9f,Accès interdit aux véhicules de transport en commun,"IISR 4e partie, article 58-5 heading"
+B9g,Accès interdit aux cyclomoteurs,"IISR 4e partie, article 58-6 heading"
+B9h,Accès interdit aux cyclomoteurs,"IISR 4e partie, article 58-6 heading"
+B9i,Accès interdit aux véhicules tractant une caravane ou une remorque,"IISR 4e partie, article 58-8 heading"
+C107,Route à accès réglementé,Wikipedia
+C108,Fin de route à accès réglementé,Wikipedia
+C111,Indication d'un tunnel,Wikipedia (page title)
+C112,Indication d'un tunnel,Wikipedia (page title)
+C113,Piste ou bande cyclable conseillée et réservée aux cycles à deux ou trois roues,Wikipedia
+C114,Fin de piste ou de bande cyclable conseillée,Wikipedia
+C115,Voie verte,Wikipedia (page title)
+C116,Voie verte,Wikipedia (page title)
+C117,b21b,Wikipedia
+C12,Circulation à sens unique,"IISR 5e partie, article 71 heading"
+C13a,Impasse,"IISR 5e partie, article 71-1 heading"
+C13b,Impasse,"IISR 5e partie, article 71-1 heading"
+C13c,Impasse,"IISR 5e partie, article 71-1 heading"
+C13d,Impasse,"IISR 5e partie, article 71-1 heading"
+C14,Praticabilité de la route,"IISR 5e partie, article 71-2 heading"
+C18,Priorité par rapport à la circulation venant en sens inverse,"IISR 5e partie, article 72 heading"
+C1a,Lieux aménagés pour le stationnement,"IISR 5e partie, article 70 heading"
+C1b,ancien,Wikipedia
+C1c,Lieu aménagé pour le stationnement payant,Wikipedia
+C207,Début d'une section d'autoroute,Wikipedia
+C208,Fin d'une section d'autoroute,Wikipedia
+C20a,Traversées de chaussée,"IISR 5e partie, article 72-1 heading"
+C20b,Traversées de chaussée,"IISR 5e partie, article 72-1 heading"
+C20c,Traversées de chaussée,"IISR 5e partie, article 72-1 heading"
+C23,Stationnement réglementé pour les caravanes et les autocaravanes,Wikipedia
+C24a,Conditions particulières de circulation,"IISR 5e partie, article 72-3 heading"
+C24b,Conditions particulières de circulation,"IISR 5e partie, article 72-3 heading"
+C24c,Indication de conditions de circulation sur une route embranchée,Wikipedia (page title)
+C25a,Limitations générales de vitesse,"IISR 5e partie, article 72-4 heading"
+C25b,Limitations générales de vitesse,"IISR 5e partie, article 72-4 heading"
+C26a,Voie de détresse,"IISR 5e partie, article 72-5 heading"
+C26b,Voie de détresse,"IISR 5e partie, article 72-5 heading"
+C27,Aménagements de sécurité,"IISR 5e partie, article 72-6 heading"
+C28,Réduction du nombre de voies de circulation,"IISR 5e partie, article 72-7 heading"
+C29a,Créneau de dépassement,"IISR 5e partie, article 72-8 heading"
+C29b,Créneau de dépassement,"IISR 5e partie, article 72-8 heading"
+C29c,Créneau de dépassement,"IISR 5e partie, article 72-8 heading"
+C3,Risques d'incendie,"IISR 5e partie, article 70-1 heading"
+C30,Indication d'un créneau de dépassement,Wikipedia (page title)
+C4a,Vitesse conseillée,"IISR 5e partie, article 70-2 heading"
+C4b,Vitesse conseillée,"IISR 5e partie, article 70-2 heading"
+C5,Station de taxis,Wikipedia
+C50,Indications diverses,"IISR 5e partie, article 73 heading"
+C51a,Sections de route à vitesse régulée,"IISR 5e partie, article 73-1 heading"
+C51b,Sections de route à vitesse régulée,"IISR 5e partie, article 73-1 heading"
+C6,Station d'arrêt d'autobus,"IISR 5e partie, article 70-4 heading"
+C60,Présignalisation du début d'une section routière ou autoroutière à péage,Wikipedia
+C61,Présignalisation d'une gare de péage sur autoroute,Wikipedia
+C62,Retrait de tickets de péage,"IISR 5e partie, article 74 heading"
+C63,Présignalisation du paiement du péage sur autoroute,Wikipedia
+C64,Modes de paiement,"IISR 5e partie, article 74-1 heading"
+C64a,Indication du mode de paiement sur une route à péage,Wikipedia (page title)
+C64b,Indication du mode de paiement sur une route à péage,Wikipedia (page title)
+C64c1,Indication du mode de paiement sur une route à péage,Wikipedia (page title)
+C64c2,Indication du mode de paiement sur une route à péage,Wikipedia (page title)
+C64d,Indication du mode de paiement sur une route à péage,Wikipedia (page title)
+C65a,Présignalisation d'une aire de service ou de repos sur autoroute,Wikipedia
+C65b,Présignalisation d'une aire de service ou de repos sur route à chaussées séparées,Wikipedia
+C65c,Indication d'une zone à péage en flux libre,Wikipedia (page title)
+C8,Emplacement d'arrêt d'urgence,"IISR 5e partie, article 70-5 heading"
+C9,"Station pour les véhicules bénéficiant du label ""autopartage","IISR 5e partie, article 70-6 heading"
+CE1,Poste de secours,"IISR 5e partie, article 78 heading"
+CE10,Embarcadère,Wikipedia
+CE100,Poste de distribution de carburant et de recharge des véhicules,"IISR 5e partie, article 78-12 heading"
+CE12,Toilettes,Wikipedia
+CE14,Installations accessibles aux personnes handicapées ou à mobilité,"IISR 5e partie, article 78-11 heading"
+CE15,DSR/BSC – DGITM/DIT/MARRN,IISR 5e partie
+CE15a,Poste de distribution de carburant,Wikipedia
+CE15b,Enseignes commerciales,"IISR 5e partie, article 78-30 heading"
+CE15c,Carburant et GPL,Wikipedia
+CE15e,Marque du poste de distribution de carburant,Wikipedia
+CE15f,Marque du poste de distribution de carburant et GPL,Wikipedia
+CE15g,Carburant et recharge des véhicules électriques,Wikipedia
+CE15h,Carburant et GPL et recharge des véhicules électriques,Wikipedia
+CE15i,Recharge de véhicules électriques,Wikipedia
+CE15j,Recharge de véhicules électriques et GPL,Wikipedia
+CE16,Restaurant ouvert 7 jours sur 7,Wikipedia
+CE17,Hôtel ou motel ouvert 7 jours sur 7,Wikipedia
+CE18,Débit de boissons ou établissement proposant des collations sommaires ouvert 7 jours sur 7,Wikipedia
+CE19,Emplacement de mise à l'eau d'embarcations légères,Wikipedia
+CE20a,Gare de téléphérique,Wikipedia
+CE20b,Point de départ d'un télésiège ou d'une télécabine,Wikipedia
+CE21,Point de vue,Wikipedia
+CE22,Informations routières,Wikipedia
+CE23,Jeux d'enfants,Wikipedia
+CE24,Station de vidange,Wikipedia
+CE25,Banque,Wikipedia
+CE26,Station de gonflage,Wikipedia
+CE27,Point de détente,Wikipedia
+CE28,Poste de dépannage,Wikipedia
+CE29,Lutte contre l'incendie,Wikipedia
+CE2a,Poste d'appel d'urgence,Wikipedia
+CE2b,Cabine téléphonique publique,Wikipedia
+CE30,Emplacement d'arrêt d'urgence,"IISR 5e partie, article 70-5 heading"
+CE30a,Issue de secours vers la droite,Wikipedia
+CE30b,Issue de secours vers la gauche,Wikipedia
+CE3a,Lieux d'information relatifs aux services et au tourisme,Wikipedia
+CE3b,Relais d'information service,Wikipedia
+CE4a,Terrain de camping pour tentes,Wikipedia
+CE4b,Terrain de camping pour caravanes et autocaravanes,Wikipedia
+CE4c,"Terrain de camping pour tentes, caravanes et autocaravanes",Wikipedia
+CE50,Divers,Wikipedia
+CE51,Écotaxe,Wikipedia
+CE52,Covoiturage,Wikipedia
+CE5a,Auberge de jeunesse,Wikipedia
+CE5b,Chambre d'hôtes ou gîte,Wikipedia
+CE6a,Accès à un itinéraire pédestre,Wikipedia
+CE6b,Accès à un circuit de ski de fond,Wikipedia
+CE7,Pique-nique,Wikipedia
+CE8,Gare auto / train,Wikipedia
+CE9,Parking vidéosurveillé,Wikipedia
+D21a,Règles d'utilisation des panneaux suivant la géométrie du carrefour,"IISR 5e partie, article 84 heading"
+D21b,Règles d'utilisation des panneaux suivant la géométrie du carrefour,"IISR 5e partie, article 84 heading"
+D29,Règles d'utilisation des panneaux suivant la géométrie du carrefour,"IISR 5e partie, article 84 heading"
+D31,sortie ou bifurcation routière ou autoroutière,Wikipedia
+D32,sortie vers une aire de repos,Wikipedia
+D41,présignalisation de sortie,Wikipedia
+D42,présignalisation diagrammatique,Wikipedia
+D43,présignalisation de signalisation de position,Wikipedia
+D44,Signalisation des villages étapes,"IISR 5e partie, article 84-6 heading"
+D45,Signalisation des villages étapes,"IISR 5e partie, article 84-6 heading"
+D46,Parc de stationnement sous vidéoprotection,"IISR 5e partie, article 78-8 heading"
+D46a,Signalisation des aires annexes,"IISR 5e partie, article 84-2 heading"
+D47,signalisation des sections à péage et péages,Wikipedia
+D47a,"Signalisation des sections à péage, des gares et des postes de péage","IISR 5e partie, article 84-3 heading"
+D47b,Information service – Information de tourisme,"IISR 5e partie, article 78-2 heading"
+D47c,"Signalisation des sections à péage, des gares et des postes de péage","IISR 5e partie, article 84-3 heading"
+D48,Enseignes commerciales,"IISR 5e partie, article 78-30 heading"
+D48a,Signalisation des aires annexes,"IISR 5e partie, article 84-2 heading"
+D48b,Signalisation des aires annexes,"IISR 5e partie, article 84-2 heading"
+D48c,Signalisation des aires annexes,"IISR 5e partie, article 84-2 heading"
+D61a,Règles d'utilisation des panneaux suivant la géométrie du carrefour,"IISR 5e partie, article 84 heading"
+D61b,"Signalisation des sections à péage, des gares et des postes de péage","IISR 5e partie, article 84-3 heading"
+D69a,Signalisation des itinéraires de substitution,"IISR 5e partie, article 84-4 heading"
+D69b,Signalisation des itinéraires « Bis,"IISR 5e partie, article 84-5 heading"
+D79a,Signalisation des itinéraires de substitution,"IISR 5e partie, article 84-4 heading"
+D79b,Signalisation des itinéraires « Bis,"IISR 5e partie, article 84-5 heading"
+Da31,sortie ou bifurcation routière ou autoroutière,Wikipedia
+Da32,Signalisation d'entrée d'aires de service ou de repos,Wikipedia
+Da41,Signalisation des itinéraires « Bis,"IISR 5e partie, article 84-5 heading"
+Dp2a,Issue de secours,"IISR 5e partie, article 78-27 heading"
+Dp2b,Issue de secours,"IISR 5e partie, article 78-27 heading"
+Dv12,Logotypes,"IISR 5e partie, article 82-2 heading"
+E31,Panneaux de localisation d'entrée et de sortie d'agglomération de,"IISR 5e partie, article 99-2 heading"
+E32,Panneaux de localisation d'entrée et de sortie d'agglomération de,"IISR 5e partie, article 99-2 heading"
+E33a,"localisation d'un parc national, d'un parc naturel régional, d'une réserve naturelle ou d'un terrain du Conservatoire du littoral et des rivages lacustres",Wikipedia
+E33b,"appartenance d'une commune à un parc national, à un parc naturel régional, à une réserve naturelle ou à une zone du Conservatoire du littoral et des rivages lacustres",Wikipedia
+E34a,localisation d'une aire routière,Wikipedia
+E34b,fin de localisation d'une aire routière,Wikipedia
+E36,Logotypes,"IISR 5e partie, article 82-2 heading"
+E37a,Indication du nom d'une œuvre d'art et de son auteur sur des voiries où la circulation des piétons est interdite,Wikipedia
+E37b,Indication du nom de l'auteur d'une œuvre d'art sur les voiries où la circulation des piétons est interdite,Wikipedia
+E38,Logotypes,"IISR 5e partie, article 82-2 heading"
+E39,localisation d'un État membre à la Communauté économique européenne,Wikipedia
+E40,Éléments de repérage et de guidage placés au-dessus de certains,IISR 5e partie
+E42,Panneaux de localisation d'entrée et de sortie d'agglomération de,"IISR 5e partie, article 99-2 heading"
+E46,Signalisation des rocades,"IISR 5e partie, article 84-1 heading"
+E60,Identification de la voirie urbaine,"IISR 5e partie, article 99-6 heading"
+EB10,Panneaux de localisation d'entrée et de sortie d'agglomération de,"IISR 5e partie, article 99-2 heading"
+EB20,Panneaux de localisation d'entrée et de sortie d'agglomération de,"IISR 5e partie, article 99-2 heading"
+G1,Passage à niveau à voie unique,IISR 2e partie
+G1a,Passage à niveau à plusieurs voies (art,IISR 2e partie
+G2,Signalisation automatique avec un feu rouge clignotant et munie de demi-barrières à fonctionnement automatique interceptant la partie droite de la chaussée. Le fonctionnement du feu rouge clignotant annonce l'arrivée des trains et précède de peu la fermeture des demi-barrières55,Wikipedia
+G3,Signalisation des passages à niveau avec voies électrifiées lorsque la hauteur des fils de contact est inférieure à six mètres{{sfn|id=SignalPniveauG|texte=Sécu,Wikipedia
+H10,Suivantes,IISR 5e partie
+H11,indication par message littéral,Wikipedia
+H12,indication par message graphique,Wikipedia
+H13,indication par message littéral et graphique,Wikipedia
+H20,Logotypes,"IISR 5e partie, article 82-2 heading"
+H21,localisation d'un itinéraire touristique,Wikipedia
+H22,présignalisation d'un itinéraire touristique,Wikipedia
+H23,présignalisation d'un itinéraire touristique,Wikipedia
+H24,fin d'un itinéraire touristique,Wikipedia
+H31,"indication d'une curiosité ou d'un lieu touristique, complétée par la direction à suivre",Wikipedia
+H32,"indication d'une curiosité ou d'un lieu touristique, complétée par la direction à suivre ainsi que par un message graphique",Wikipedia
+H33,indication d'une curiosité ou d'un lieu touristique complétée par un message graphique,Wikipedia
+J1,Balise de virage,Wikipedia (page title)
+J10,Balise pour passage à niveau,Wikipedia (page title)
+J11,Balise routière de renforcement permanent d'un marquage,Wikipedia (page title)
+J12,Balise routière de renforcement d'un marquage en divergent,Wikipedia (page title)
+J13,Balise routière de signalisation d'obstacle,Wikipedia (page title)
+J14a,Balise de musoir,Wikipedia (page title)
+J14b,Balise de musoir,Wikipedia (page title)
+J3,Balise d'intersection,Wikipedia (page title)
+J4,Balise de virage à chevrons,Wikipedia (page title)
+J5,Balise de signalisation de tête d'îlot,Wikipedia (page title)
+J6,Délinéateur,Wikipedia (page title)
+J7,Manche à air,Wikipedia (page title)
+K1,signalisation d'un obstacle temporaire de faible importance ou signalisation de l'arrivée d'un train sur un passage à niveau sans barrière,IISR 8e partie
+K10,signal servant à régler manuellement la circulation,IISR 8e partie
+K14,signal de délimitation de chantier ou signal de fermeture d'un passage à niveau,IISR 8e partie
+K15,portique de présignalisation de gabarit limité,IISR 8e partie
+K16,séparateur modulaire de voies servant à séparer de façon continue des voies de circulation ou délimiter une zone de chantier et assurer une fonction de guidage,IISR 8e partie
+K2,"barrages de divers types, signalant la position de travaux ou de tout autre obstacle de caractère temporaire",IISR 8e partie
+K5,"signalisation de position des limites d'obstacles temporaires ou de chantier, qui comprend",IISR 8e partie
+K5a,dispositif conique,IISR 8e partie
+K5b,piquet,IISR 8e partie
+K5c,balise d'alignement,IISR 8e partie
+K5d,balise de guidage,IISR 8e partie
+K8,signal de position d'une déviation ou de rétrécissement temporaire de chaussée,IISR 8e partie
+KC1,panneau d'indication informant l'usager de la présence de chantiers importants ou de situations temporaires dont la nature est mentionnée par une inscription,IISR 8e partie
+KD10,"annonce de la réduction du nombre de voies laissées libres à la circulation, sur routes à chaussées séparées",Wikipedia
+KD10a,annonce de la réduction d'une voie,IISR 8e partie
+KD10b,"annonce, en signalisation d'urgence, de la réduction de plusieurs voies sur routes à chaussées séparées",IISR 8e partie
+KD21,panneau de direction d'une déviation avec mention de la ville,IISR 8e partie
+KD22,panneau de direction d'une déviation,IISR 8e partie
+KD22a,"1300 x 300 mm en présence de la mention « Déviation »,",IISR 8e partie
+KD22b,1600 x 300 mm,IISR 8e partie
+KD42,panneau de présignalisation de déviation,IISR 8e partie
+KD43,panneau de présignalisation courante,IISR 8e partie
+KD43a,"1300 x 300 mm en présence de la mention ""Déviation"",",IISR 8e partie
+KD43b,1600 x 300 mm,IISR 8e partie
+KD44,Encart de présignalisation de l'origine d'un itinéraire de déviation,IISR 8e partie
+KD62,panneau de confirmation de déviation,IISR 8e partie
+KD69,panneau de fin de déviation,IISR 8e partie
+KD69a,1000 x 400 mm,IISR 8e partie
+KD69b,dépend de la hauteur des caractères,IISR 8e partie
+KD79,panneau de signalisation complémentaire d'un itinéraire de déviation,IISR 8e partie
+KD8,présignalisation de changement de chaussée ou de trajectoire,IISR 8e partie
+KD9,panneau d'affectation des voies,IISR 8e partie
+KM9,Dangers temporaires et chantiers fixes,"IISR 8e partie, article 130 heading"
+KR1,Feux de balisage et d'alerte,IISR 8e partie
+KR11,Signal tricolore d'alternat temporaire,IISR 8e partie
+KR11j,Circulation alternée,"IISR 8e partie, article 127 heading"
+KR11v,Circulation alternée,"IISR 8e partie, article 127 heading"
+KR2,Feux de balisage et d'alerte,IISR 8e partie
+KR41,Rampe lumineuse,IISR 8e partie
+KR42,Flèche lumineuse,IISR 8e partie
+KR43,Flèche lumineuse,IISR 8e partie
+KR44,Signal mobile de position d'un rétrécissement temporaire de chaussée,IISR 8e partie
+KS1,symbole utilisé pour numéroter un itinéraire de déviation lorsque plusieurs itinéraires de déviations différents se croisent,Wikipedia
+KXC50,Message littéral utilisé pour préciser ou compléter une information délivrée par un signal ou pour délivrer une information lorsqu'on ne dispose pas du ou des signaux adéquats,IISR 8e partie
+M1,panonceaux de distance,IISR 1e partie
+M10,panonceaux d'identification,IISR 1e partie
+M10a,numéro d'une route ou d'une autoroute,Wikipedia
+M10b,numéro d'un échangeur,Wikipedia
+M10c1,accès à une rocade,Wikipedia
+M10c2,accès à une rocade,Wikipedia
+M10c3,accès à une rocade,Wikipedia
+M10z,nom propre d'un site ou de certains services,Wikipedia
+M11,panonceaux signalant des dérogations ou des prescriptions,IISR 1e partie
+M11a,dérogations aux prescriptions qui s'appliquent à une route à accès réglementé,Wikipedia
+M11b1,période durant laquelle la voie a le statut d'aire piétonne,Wikipedia
+M11b2,prescriptions particulières qui s'appliquent dans l'aire piétonne,Wikipedia
+M12,panonceaux d'autorisation conditionnelle de franchissement pour cycles,IISR 1e partie
+M1a,marque du distributeur de carburant et distance restant à parcourir jusqu'au prochain poste de distribution de carburant situé sur une aire de service d'autoroute ou de route à chaussées séparées sans accès riverain,Wikipedia
+M2,panonceaux d'étendue,IISR 1e partie
+M3,panonceaux de position ou directionnels,IISR 1e partie
+M3a,position de la voie concernée par le panneau complété,Wikipedia
+M3b,"direction à suivre, et éventuellement sur quelle distance, pour rencontrer le service indiqué par le panneau",Wikipedia
+M3d,position de la voie concernée par le panneau complété,Wikipedia
+M4,Un panonceau,IISR 4e partie
+M4a,véhicules ou ensembles de véhicules dont le poids total autorisé en charge ou le poids total roulant autorisé est inférieur à,Wikipedia
+M4b,véhicule de transport en commun de personnes,Wikipedia
+M4c,"motocyclette et motocyclette légère, au sens de l'article R.311-1 du code de la route",Wikipedia
+M4d1,cycle,Wikipedia
+M4d2,cyclomoteur,Wikipedia
+M4e,désigne les usagers concernés,Wikipedia
+M4f,"véhicule, véhicule articulé, train double ou ensemble de véhicules dont le poids total autorisé en charge ou le poids total roulant autorisé excède le nombre indiqué",Wikipedia
+M4g,véhicule affecté au transport de marchandises,Wikipedia
+M4h,"véhicule, véhicule articulé, train double ou ensemble de véhicules affectés au transport de marchandises et dont le poids total autorisé en charge et le poids total roulant autorisé excède le nombre indiqué",Wikipedia
+M4i,véhicule agricole à moteur,Wikipedia
+M4j,véhicule équipé de chaîne à neige,Wikipedia
+M4k,"véhicule transportant des marchandises explosives ou facilement inflammables, de nature et en quantité définies par l'arrêté du relatif au transport des marchandises dangereuses par route, et signalés comme tels",Wikipedia
+M4l,"véhicule transportant des marchandises de nature à polluer les eaux, de nature et en quantité définies par l'arrêté du relatif au transport des marchandises dangereuses par route, et signalés comme tels",Wikipedia
+M4m,"véhicule transportant des marchandises dangereuses définies par l'arrêté du relatif au transport des marchandises dangereuses par route, et signalés comme tels",Wikipedia
+M4n,installation aménagée pour handicapés physiques,Wikipedia
+M4p,piétons,Wikipedia
+M4q,"véhicule, véhicule articulés, train double ou ensemble de véhicules dont la longueur est supérieure au nombre indiqué",Wikipedia
+M4r,véhicule pesant sur un essieu plus que le nombre indiqué,Wikipedia
+M4s,véhicule à traction animale,Wikipedia
+M4t,charrettes à bras,Wikipedia
+M4u,"véhicule dont la largeur, chargement compris, est supérieure au nombre indiqué",Wikipedia
+M4v,"véhicule dont la hauteur, chargement compris, est supérieure au nombre indiqué",Wikipedia
+M4w,véhicule tractant une remorque dont le poids total autorisé en charge dépasse,Wikipedia
+M4x,"véhicule tractant une caravane ou une remorque de plus de et dont le poids total roulant, véhicule plus remorque, n'excède pas",Wikipedia
+M4y,cavaliers,Wikipedia
+M4z,véhicules bénéficiant du label « autopartage,Wikipedia
+M5,panonceaux relatifs au stop,IISR 1e partie
+M6,panonceaux complémentaires aux panneaux de stationnement et d'arrêts,IISR 1e partie
+M6a,ils indiquent que le stationnement ou l'arrêt est gênant au sens de l'article R,IISR 4e partie
+M6b,ils concernent le stationnement unilatéral à alternance semi-mensuelle et peuvent être associés au panneau B6a1 ou B6a2,IISR 4e partie
+M6c,ils concernent le stationnement à durée limitée contrôlé par disque,IISR 4e partie
+M6d,stationnement payant avec parcmètre,Wikipedia
+M6e,stationnement payant avec parcmètre,Wikipedia
+M6f,ils comportent des précisions concernant l'interdiction (cf,IISR 4e partie
+M6g,ils comportent des indications diverses ne concernant pas les interdictions,IISR 4e partie
+M6h,stationnement ou arrêt réservé aux véhicules utilisés par les personnes handicapées à mobilité réduite. Il comporte l'inscription,Wikipedia
+M6i,stationnement réservé aux véhicules électriques pendant la durée de recharge de leurs accumulateurs,Wikipedia
+M6j,ils signalent que le stationnement est réservé aux véhicules bénéficiant du label,IISR 4e partie
+M6k1,arrêt ou le stationnement réservé aux véhicules des usagers pratiquant le covoiturage,Wikipedia
+M6k2,ils signalent que le stationnement ou l'arrêt n'est autorisé que pour les véhicules des usagers pratiquant le covoiturage,IISR 4e partie
+M7,panonceaux schémas,IISR 1e partie
+M8,panonceaux d'application des prescriptions concernant les panneaux de stationnement et d'arrêts,IISR 1e partie
+M8a,section après le panneau sur laquelle s'applique la prescription,Wikipedia
+M8b,section avant le panneau sur laquelle s'applique la prescription,Wikipedia
+M8c,section de part et d'autre du panneau sur laquelle s'applique la prescription,Wikipedia
+M9,panonceaux d'indications diverses,IISR 1e partie
+M9b,"au passage à niveau, la voie ferrée est électrifiée",Wikipedia
+M9c,cédez le passage,Wikipedia
+M9d,passage pour piétons surélevé,Wikipedia
+M9e,emplacement d'arrêt d'urgence doté d'un poste d'appel d'urgence,Wikipedia
+M9f,emplacement d'arrêt d'urgence doté d'un poste d'appel d'urgence et d'un moyen de lutte contre l'incendie,Wikipedia
+M9j1,risque de heurt de véhicules lents en descente,Wikipedia
+M9j2,risque de heurt de véhicules lents en montée,Wikipedia
+SC2,Symbole,IISR 5e partie
+SR2a,Rappel de l'espacement à respecter entre véhicules,"IISR 5e partie, article 101-3 heading"
+SR2b,Rappel de l'espacement à respecter entre véhicules,"IISR 5e partie, article 101-3 heading"
+SR2c,Rappel de l'espacement à respecter entre véhicules,"IISR 5e partie, article 101-3 heading"
+SR3,Annonce d'une zone où la vitesse est contrôlée,"IISR 5e partie, article 101-4 heading"
+SR4,Zone sous vidéoprotection,"IISR 5e partie, article 101-5 heading"
+SR50,Message de sécurité routière,"IISR 5e partie, article 101-6 heading"

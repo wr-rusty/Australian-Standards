@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32.21mm" height="15.96mm" viewBox="0 0 91.31 45.25">
+<g transform="scale(0.1)">
+  <path fill="#ffffff" fill-rule="evenodd" d="M0.07 452.45L0.07 450.05L913.07 450.05L913.07 452.45Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M88.27 69.85L88.27 90.1L328.37 90.1L328.37 69.85Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M588.37 69.85L588.37 90.1L828.47 90.1L828.47 69.85Z"/>
+  <path fill="#c0c0c0" fill-rule="evenodd" d="M8.37 0L8.37 20L908.62 20L908.62 0Z"/>
+  <path fill="#c0c0c0" fill-rule="evenodd" d="M8.37 19.9L8.37 450.1L28.47 450.1L28.47 19.9Z"/>
+  <path fill="#c0c0c0" fill-rule="evenodd" d="M888.52 19.9L888.52 450.1L908.62 450.1L908.62 19.9Z"/>
+  <path fill="#1b1918" d="M0 449.97L0 452.52L913.15 452.52L913.15 449.97ZM0.15 450.12L913 450.12L913 452.37L0.15 452.37Z"/>
+  <path fill="#e30016" fill-rule="evenodd" d="M128.27 69.85L128.27 90.1L168.32 90.1L168.32 69.85Z"/>
+  <path fill="#e30016" fill-rule="evenodd" d="M208.27 69.85L208.27 90.1L248.32 90.1L248.32 69.85Z"/>
+  <path fill="#e30016" fill-rule="evenodd" d="M288.27 69.85L288.27 90.1L328.32 90.1L328.32 69.85Z"/>
+  <path fill="#1b1918" d="M88.2 69.77L88.2 90.17L328.45 90.17L328.45 69.77ZM88.35 69.92L328.3 69.92L328.3 90.02L88.35 90.02Z"/>
+  <path fill="#1b1918" d="M148.15 19.9L148.15 69.8L148.3 69.8L148.3 19.9Z"/>
+  <path fill="#1b1918" d="M268.3 19.9L268.3 69.8L268.45 69.8L268.45 19.9Z"/>
+  <path fill="#e30016" fill-rule="evenodd" d="M628.42 69.85L628.42 90.1L668.47 90.1L668.47 69.85Z"/>
+  <path fill="#e30016" fill-rule="evenodd" d="M708.42 69.85L708.42 90.1L748.47 90.1L748.47 69.85Z"/>
+  <path fill="#e30016" fill-rule="evenodd" d="M788.42 69.85L788.42 90.1L828.47 90.1L828.47 69.85Z"/>
+  <path fill="#1b1918" d="M588.3 69.77L588.3 90.17L828.55 90.17L828.55 69.77ZM588.45 69.92L828.4 69.92L828.4 90.02L588.45 90.02Z"/>
+  <path fill="#1b1918" d="M648.25 19.9L648.25 69.8L648.4 69.8L648.4 19.9Z"/>
+  <path fill="#1b1918" d="M768.4 19.9L768.4 69.8L768.55 69.8L768.55 19.9Z"/>
+</g>
+</svg>

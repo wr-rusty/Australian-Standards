@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="10.41mm" height="22.02mm" viewBox="0 0 29.51 62.42">
+<g transform="scale(0.1)">
+  <path fill="#eceded" fill-rule="evenodd" d="M198.55 596.9L198.55 624.25L113.05 624.25L113.05 596.9Z"/>
+  <path fill="#0000ff" fill-rule="evenodd" d="M215.5 1.75C212.7 0 208.15 2.5 207.75 2.75L100.8 64.5C97.6 66.8 96.35 68.95 94.95 71.2C93.55 73.5 92.7 76.55 92.8 79.6L92.8 169.2L217.8 97.05L217.8 6.6C217.8 5.55 218.3 3.65 215.5 1.75Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M217.85 97L92.85 169.15L92.85 269.15L217.85 196.95Z"/>
+  <path fill="#0000ff" fill-rule="evenodd" d="M217.85 196.95L92.85 269.1L92.85 369.1L217.85 296.9Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M217.85 297.05L92.85 369.2L92.85 469.2L217.85 397Z"/>
+  <path fill="#0000ff" fill-rule="evenodd" d="M217.85 397L92.85 469.15L92.85 569.15L217.85 496.95Z"/>
+  <path fill="#0000ff" fill-rule="evenodd" d="M217.85 397.2L92.85 468.95L92.85 592.4C92.85 594.8 95 596.95 97.15 596.95L213 596.95C215.95 596.95 217.85 595.2 217.85 592.4Z"/>
+  <path fill="#1b1918" d="M0 595.77L0 599.22L295.1 599.22L295.1 595.77Z"/>
+</g>
+</svg>

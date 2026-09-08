@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="9.13mm" height="9.12mm" viewBox="0 0 25.88 25.87">
+<g transform="scale(0.1)">
+  <path fill="#ffffff" fill-rule="evenodd" d="M2.4 1.75L2.4 255.8L256.45 255.8L256.45 1.75Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M0 0L0 258.65L258.8 258.65L258.8 0Z"/>
+  <path fill="#fefefe" fill-rule="evenodd" d="M4.3 22L4.3 236.6C4.3 248.5 10.25 254.45 22.1 254.45L236.75 254.45C248.6 254.45 254.55 248.5 254.55 236.6L254.55 22C254.55 10.15 248.6 4.2 236.75 4.2L22.1 4.2C10.25 4.2 4.3 10.15 4.3 22Z"/>
+  <path fill="#000000" fill-rule="evenodd" d="M124.3 36.65L124.3 104.3L134.4 104.3L134.4 36.65Z"/>
+  <path fill="#000000" fill-rule="evenodd" d="M215.1 36.65L143.65 108.15L150.7 115.25L222.2 43.7Z"/>
+  <path fill="#000000" fill-rule="evenodd" d="M36.8 111.85L36.8 146.8L100.5 146.8C105.65 146.8 111.9 153.1 111.9 158.8L111.9 221.9L146.85 221.9L146.85 158.8C146.85 132.55 124.1 111.85 100.5 111.85Z"/>
+</g>
+</svg>

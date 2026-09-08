@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="7.16mm" height="17.79mm" viewBox="0 0 20.29 50.43">
+<g transform="scale(0.1)">
+  <path fill="#ffffff" fill-rule="evenodd" d="M0 0L0 504.3L202.95 504.3L202.95 0Z"/>
+  <path fill="#fefefe" fill-rule="evenodd" d="M51.7 501.75L151.65 501.75C185.05 501.75 201.75 485.05 201.75 451.7L201.75 51.55C201.75 18.2 185.05 1.55 151.65 1.55L51.7 1.55C18.35 1.55 1.65 18.2 1.65 51.55L1.65 451.7C1.65 485.05 18.35 501.75 51.7 501.75Z"/>
+  <path fill="#000000" fill-rule="evenodd" d="M86.55 397.75L86.55 162.3L23.9 225.35L23.9 183.35L101.65 105.45L179.4 183.35L179.4 225.25L116.5 162.3L116.5 397.75Z"/>
+</g>
+</svg>

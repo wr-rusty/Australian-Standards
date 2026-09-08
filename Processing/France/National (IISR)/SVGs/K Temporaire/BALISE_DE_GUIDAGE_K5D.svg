@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15.56mm" height="28.21mm" viewBox="0 0 44.12 79.97">
+<g transform="scale(0.1)">
+  <path fill="#ffffff" fill-rule="evenodd" d="M123.9 75.4L123.9 175.6L304.3 175.6L304.3 75.4Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M123.9 225.6L123.9 325.3L304.3 325.3L304.3 225.6Z"/>
+  <path fill="#ffec00" fill-rule="evenodd" d="M314.3 25.5L114 25.5L214.4 0Z"/>
+  <path fill="#1b1918" d="M0 799.45L0 799.75L441.2 799.75L441.2 799.45Z"/>
+  <path fill="#ffec00" fill-rule="evenodd" d="M114 25.4L114 75.5L314.3 75.5L314.3 25.4Z"/>
+  <path fill="#1b1918" d="M123.75 75.25L123.75 175.75L304.45 175.75L304.45 75.25ZM124.05 75.55L304.15 75.55L304.15 175.45L124.05 175.45Z"/>
+  <path fill="#ffec00" fill-rule="evenodd" d="M114 175.5L114 225.6L314.3 225.6L314.3 175.5Z"/>
+  <path fill="#1b1918" d="M123.75 225.45L123.75 325.45L304.45 325.45L304.45 225.45ZM124.05 225.75L304.15 225.75L304.15 325.15L124.05 325.15Z"/>
+  <path fill="#ffec00" fill-rule="evenodd" d="M114 325.1L114 799.7L314.3 799.7L314.3 325.1Z"/>
+</g>
+</svg>
