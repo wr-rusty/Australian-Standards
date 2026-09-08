@@ -61,6 +61,7 @@ releases 1–6; see `SOURCES.md` there). The sheets are vector PDFs, so the artw
 * `shs_organise.py` — merges the sets into family folders (Regulatory, Parking, Warning, Temporary Traffic Control,
   School, Route Markers, Guide, Object Markers, Emergency Management); a code drawn in a newer edition supersedes the
   older drawing; writes `Complete/USA/Federal (MUTCD 2023)/SVGs/MANIFEST.csv` and `intervene/INTERVENE_LIST.md`.
+* `shs_palette.py` — one RGB value per MUTCD colour across the federal pack: the 2004 / 2012 sheet PDFs carry different yellow, blue, green, red, orange and black values from the 2024 sheets (#fff500 vs #ffd046 for yellow, etc.); every sign is mapped to the 2024 Edition values. Run after `shs_organise.py`. Special colours (scenic byway blue, blank-out yellow, toll green, FYG, purple, brown) are left as drawn.
 * `corner_check.py <folder> <report.csv>` — renders every SVG on magenta and lists files whose corners are painted
   (transparency check outside rounded, diamond and octagon outlines).
 
