@@ -31,3 +31,5 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 - 2026-09-06 — filed.
 - 2026-09-06 — DLI civil standard drawings have a 'Road furniture and signs CS 3500–3599' series (NT speed limit sign, school zone, road closure, truck bay, rest area / tourist advance signs, hazard markers) plus CS 3400–3449 traffic control devices; listed in SOURCES.md. Same bot wall as TAS: needs the PDFs saved by hand.
 - 2026-09-05 — status → blocked.
+
+- 2026-09-08 — Russell saved the 24 NT drawings through the browser pane (bot wall). Line-work sheets: spec-driven build (tools/specs/NT/) once the pack routing from the NSW rebuild lands.
