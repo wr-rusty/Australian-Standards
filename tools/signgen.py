@@ -343,9 +343,24 @@ def main(argv):
             rows[root].append([spec["code"] + (f"({hand})" if hand else ""), os.path.relpath(os.path.join(folder, fname), root),
                          f"{spec['size'][0]}x{spec['size'][1]}", spec.get("legend", "").format(**values),
                          "; ".join(status) or "ok", reason, " ".join(sorted(set(flags))) + ((" " + spec["notes"]) if spec.get("notes") else "")])
+    ran = {json.load(open(sp))["code"] for sp in specs}
     for root, rs in (rows or {OUT_ROOT: []}).items():
-        os.makedirs(root, exist_ok=True)
-        with open(os.path.join(root, "MANIFEST.csv"), "w", newline="") as fh:
+        os.makedirs(root, exist_ok=True); mpath = os.path.join(root, "MANIFEST.csv")
+        if argv and os.path.exists(mpath):   # partial run: replace only the rows of the specs just run, in place; keep the rest
+            new_by = {}
+            for r in rs: new_by.setdefault(r[0].split("(")[0] if r[0].split("(")[0] in ran else r[0], []).append(r)
+            merged = []; done = set()
+            for r in list(csv.reader(open(mpath)))[1:]:
+                if not r: continue
+                base = r[0].split("(")[0] if r[0].split("(")[0] in ran else r[0]
+                if base in new_by:
+                    if base not in done: merged += new_by[base]; done.add(base)
+                    continue
+                merged.append(r)
+            for base, rr in new_by.items():
+                if base not in done: merged += rr
+            rs = merged
+        with open(mpath, "w", newline="") as fh:
             w = csv.writer(fh); w.writerow(["code", "file", "drawn_size_mm", "legend", "check", "intervene", "notes"]); w.writerows(rs)
     print(f"{n} files written; width mismatches: {bad}")
     for rs in rows.values():
