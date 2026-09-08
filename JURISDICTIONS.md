@@ -22,3 +22,4 @@ The SitePilot upload takes the `SVGs/` folders; a jurisdiction's signs are the n
 | Germany | national | `Processing/Germany/National (StVO)` | sources to find (SGN-078) |
 | France | national | `Processing/France/National (IISR)` | sources to find (SGN-079) |
 | Italy | national | `Processing/Italy/National (Codice della Strada)` | sources to find (SGN-080) |
+| Canada | national + provinces | `Processing/Canada/National (MUTCDC)` | to do: TAC Manual of Uniform Traffic Control Devices for Canada (paid, TAC) and provincial books (Ontario Traffic Manual, Québec Tome V, BC MoTI, Alberta); sources to find (SGN-082) |

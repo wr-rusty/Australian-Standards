@@ -18,6 +18,7 @@ Everything below is blocked on Russell; the rest of the work continues around it
 |---|---|---|---|
 | BASt VzKat USB stick (DVKAZ vector set, ~1,000 signs + DIN 1451 glyphs + DV-Vision converter) | 297.50 € incl. MwSt, signed order form to Ref-V1@bast.de; converter needs a Windows VM | the full German catalogue as vector (the free download covers only post-2017 signs + pictograms, 166 variants) | SGN-078 |
 | Italian consolidated printed edition of D.P.R. 495/1992 with figures (Maggioli / Legislazione Tecnica) | ~50–100 € | clean figures and the post-1992 figure changes; otherwise generation works from the 1992 Gazzetta scan | SGN-080 |
+| TAC MUTCDC (Canada's national manual, sold by the Transportation Association of Canada; provincial manuals such as the Ontario Traffic Manual are free) | TAC price list | the Canadian national catalogue; check first whether Ontario/Québec/BC publish the sign drawings free | SGN-082 |
 | FGSV RWB 2000 / RWBA 2000 | FGSV price list | composition rules for German guide signs (only if composed guide signs are in scope) | SGN-078 |
 
 ## Decisions
