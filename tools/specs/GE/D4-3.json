@@ -19,20 +19,38 @@
    "type": "polygon",
    "points": [
     [
-     34.08,
-     0
-    ],
-    [
-     124.59,
+     200.5,
      0
     ],
     [
      225,
-     100.41
+     0
     ],
     [
      225,
-     190.92
+     24.5
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     19.5,
+     0
+    ],
+    [
+     110,
+     0
+    ],
+    [
+     225,
+     115
+    ],
+    [
+     225,
+     205.5
     ]
    ],
    "colour": "black"
@@ -42,19 +60,19 @@
    "points": [
     [
      0,
-     56.43
-    ],
-    [
-     225,
-     281.43
-    ],
-    [
-     225,
-     371.94
+     71
     ],
     [
      0,
-     146.94
+     161.5
+    ],
+    [
+     225,
+     386.5
+    ],
+    [
+     225,
+     296
     ]
    ],
    "colour": "black"
@@ -64,23 +82,41 @@
    "points": [
     [
      0,
-     237.45
-    ],
-    [
-     212.55,
-     450
-    ],
-    [
-     122.04,
-     450
+     252
     ],
     [
      0,
-     327.96
+     342.5
+    ],
+    [
+     107.5,
+     450
+    ],
+    [
+     198,
+     450
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     433
+    ],
+    [
+     0,
+     450
+    ],
+    [
+     17,
+     450
     ]
    ],
    "colour": "black"
   }
  ],
- "notes": "Illust. D4-3A(L,R) 225x450 R25. (L): black 45-degree stripes descending to the right. The perpendicular chain is read literally, from the top-right corner inwards along the diagonal: white 71 (corner), black 64, white 64, then black/white 64 alternating (64 perpendicular = 90.51 along an edge, 71 = 100.41). Boundaries (x - y): 124.59, 34.08, -56.43, -146.94, -237.45, -327.96; three black stripes; the bottom-left corner white (450 - 327.96 = 122 along the edge, 86 perpendicular) is not dimensioned and follows from the chain. The drawn image shows equal-width black and white stripes with larger whites at both corners, consistent with this reading. (R) is the mirror image."
+ "notes": "Illust. D4-3A(L,R) 225x450 R25. (L): black 45-degree stripes descending to the right. The perpendicular chain is read literally, from the top-right corner inwards along the diagonal: white 71 (corner), black 64, white 64, then black/white 64 alternating (64 perpendicular = 90.51 along an edge, 71 = 100.41). Boundaries (x - y): 124.59, 34.08, -56.43, -146.94, -237.45, -327.96; three black stripes; the bottom-left corner white (450 - 327.96 = 122 along the edge, 86 perpendicular) is not dimensioned and follows from the chain. The drawn image shows equal-width black and white stripes with larger whites at both corners, consistent with this reading. (R) is the mirror image. 2026-09-08 drawing check: stripes were three bands 64 perpendicular (90.5 horizontal) with 128 white between them, the first meeting the top edge at x 34.08. The drawing (D4-3(L,R).png, (L) panel, measured on rows 3/150/225/300/440/447) has equal 64 black and 64 white stripes (pitch 181 horizontal); a stripe's upper edge meets the left edge at y 71 (the drawing's 71), so the bands, as y - x, are [-291,-200.5] (top-right corner), [-110,-19.5], [71,161.5], [252,342.5], [433,523.5] (bottom-left corner, mostly under the R25). Polygons rewritten from those bands; (R) is the mirror via hands."
 }

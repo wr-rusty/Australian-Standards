@@ -40,9 +40,9 @@ def drawing_for(spec):
             hs = [t for t in re.findall(r"[A-Za-z]+", f[len(code):-4]) if t in ("L", "R")]
             if hs: cands.append((os.path.join(png_dir, f), hs))
     exact = os.path.join(png_dir, code + ".png")
-    if os.path.exists(exact): return exact, drawn, 0
-    for p, hs in cands:
+    for p, hs in cands:   # a PNG named for the hands first: T5-1.png is the straight-arrow sign, T5-1(L,R).png the handed pair
         if drawn in hs: return p, drawn, 0
+    if os.path.exists(exact): return exact, drawn, 0
     if cands: return cands[0][0], cands[0][1][0], 0
     return T.resolve_png(code), drawn, 0
 
@@ -162,16 +162,17 @@ def outline_box(img, aspect, which=0, soft=True):
         # the outline's sides are long straight runs; so are dimension lines touching it: take the pair of columns and
         # pair of rows among the long runs that box the sign's aspect (largest such box)
         rmax = max(c["rows"].values()); cmax = max(c["cols"].values())
-        ys = sorted(y for y, n in c["rows"].items() if n >= 0.5 * rmax)[:24]; xs = sorted(x for x, n in c["cols"].items() if n >= 0.5 * cmax)[:24]
+        ys = sorted(y for y, n in c["rows"].items() if n >= 0.5 * rmax); xs = sorted(x for x, n in c["cols"].items() if n >= 0.5 * cmax)
+        ys = ys[:12] + ys[-12:]; xs = xs[:12] + xs[-12:]   # the outline's sides are the extreme long runs; stripes joined to it (D4-5-1) fill the middle
         best = None
         for x0 in xs:
             for x1 in xs:
-                if x1 - x0 < 0.25 * w: continue
+                if x1 - x0 < 0.1 * w: continue   # 0.1: a narrow panel on a drawing that shows both hands (D4-3(L,R))
                 for y0 in ys:
                     for y1 in ys:
                         bw, bh = x1 - x0 + 1, y1 - y0 + 1
                         if bh > 20 and 0.95 < (bw / bh) / aspect < 1.05 and (best is None or bw * bh > best[0]): best = (bw * bh, (x0, y0, x1, y1))
-        if best and c["n"] < 0.5 * best[0]: cands.append(best)
+        if best and c["n"] < 0.8 * best[0]: cands.append(best)   # 0.8: stripes joined to the outline (D4-3, D4-5-1) still leave it hollow enough
     if not cands: raise SystemExit("no outline found")
     big = max(a for a, _ in cands)
     return _pick([b for a, b in cands if a > 0.3 * big], which, soft)
@@ -225,10 +226,22 @@ def panel_box(img, spec, which=0):
         if ground in ("white", "none"): return T.find_white_panel(img, which, sheet), ins
         return T.find_panel(img, ground, which, sheet), ins
     if ground not in ("white", "none"):
-        box = ground_box(img, ground, which, soft)
-        if spec.get("shape") == "diamond":   # the sharp ground diamond sits inset * sqrt2 along the diagonals (signgen.diamond_pts)
+        try: box = ground_box(img, ground, which, soft)
+        except SystemExit: box = None
+        if box and spec.get("shape") == "diamond":   # the sharp ground diamond sits inset * sqrt2 along the diagonals (signgen.diamond_pts)
             e0 = T.ground_inset(spec) * 2 ** 0.5; return diamond_box(img, ground, box), (e0, e0, e0, e0)
-        return box, ins
+        aspect = (W - ins[0] - ins[2]) / (H - ins[1] - ins[3])
+        if box and 0.9 < ((box[2] - box[0]) / max(1, box[3] - box[1])) / aspect < 1.1: return box, ins
+        # the ground is cut into wedges by big black symbols (chevron alignment markers T5-4, T5-5, T5-7): the black border
+        # band, else the drawing's thin outline, boxes the sign instead
+        if first == "black":
+            e_b = sum(l["width"] + l.get("inset", 0) for l in layers if l["colour"] != "black" and layers.index(l) < [l["colour"] for l in layers].index("black"))
+            try: return band_box(img, "black", (W - 2 * e_b) / (H - 2 * e_b), which, soft), (e_b, e_b, e_b, e_b)
+            except SystemExit: pass
+        try: return outline_box(img, W / H, which, soft), (0, 0, 0, 0)
+        except SystemExit: pass
+        if box: return box, ins
+        raise SystemExit("ground colour not found")
     if first not in (None, "black"): return band_box(img, first, (W - ins[0] - ins[2]) / (H - ins[1] - ins[3]), which, soft), ins
     if first == "black":
         boxes = []; aspect = (W - ins[0] - ins[2]) / (H - ins[1] - ins[3])
@@ -240,6 +253,7 @@ def panel_box(img, spec, which=0):
         big = max((b[2] - b[0]) * (b[3] - b[1]) for b in boxes) if boxes else 0   # rings only: not a big arrow or symbol
         boxes = [b for b in boxes if (b[2] - b[0]) * (b[3] - b[1]) > 0.5 * big and 0.85 < ((b[2] - b[0]) / max(1, b[3] - b[1])) / aspect < 1.15]
         return _pick(boxes, which, soft), ins
+    if ground == "none": raise SystemExit("no outline, border or ring found")   # a transparent ground has no rectangular outline: compare() falls back to colour_fit
     try: return outline_box(img, W / H, which, soft), (0, 0, 0, 0)
     except SystemExit: pass
     rings = [el for el in spec.get("elements", []) if el["type"] in ("annulus", "circle") and el.get("colour") in ("red", "black")]
@@ -258,6 +272,21 @@ def locate(spec, which, img):
     (x0, y0, x1, y1), (il, it, ir, ib) = panel_box(img, spec, which)
     W, H = spec["size"]; k = (x1 - x0) / (W - il - ir)
     return x0 - il * k, y0 - it * k, W * k, H * k
+
+def colour_fit(img, spec, svg, which=0):
+    """Last resort for signs with no detectable panel (a shield on a transparent ground, TRA): the sign's biggest
+    coloured element is found in the drawing and in a trial render, and the sign's box follows from the two bboxes."""
+    colours = [el.get("colour") for el in spec.get("elements", []) if el["type"] in ("polygon", "rect", "circle") and el.get("colour") not in (None, "white", "none")]
+    if not colours: raise SystemExit("no outline, border or ring found")
+    colour = colours[0]; W, H = spec["size"]; trial = render(svg, 1000, 1000 * H / W)
+    def biggest(im):
+        comps = _components(im, lambda p: T.is_ground(p, colour), 100)
+        if not comps: raise SystemExit(f"no {colour} element found")
+        return max(comps, key=lambda c: c["n"])["box"]
+    tx0, ty0, tx1, ty1 = biggest(trial); dx0, dy0, dx1, dy1 = _pick([biggest(img)], 0, True)
+    kx = (dx1 - dx0) / max(1, tx1 - tx0); ky = (dy1 - dy0) / max(1, ty1 - ty0); k = (kx + ky) / 2 * 1000 / W   # px per mm
+    ox = dx0 - tx0 * kx; oy = dy0 - ty0 * ky
+    return ox, oy, W * k, H * k
 
 def render(svg, pw, ph):
     with tempfile.TemporaryDirectory() as td:
@@ -287,8 +316,8 @@ def compare(spec, value=None, hand=None, margin=0.06, zoom=None):
     for w in ([0, 1] if spec.get("hands") and not spec.get("pack") else [which]):   # a pair drawing labels its panels in no fixed order
         try: px0, py0, pw, ph = locate(spec, w, img)
         except SystemExit:
-            if best is None: raise
-            break
+            if best is not None: break
+            px0, py0, pw, ph = colour_fit(img, spec, svg, w)
         gen = render(svg, pw, ph)
         m = int(margin * max(pw, ph))
         box = (int(px0 - m), int(py0 - m), int(px0 + pw + m), int(py0 + ph + m))

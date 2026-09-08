@@ -31,11 +31,11 @@
   {
    "type": "text",
    "text": "AHEAD",
-   "series": "E",
+   "series": "D",
    "height": 155,
    "top": 345,
-   "expect": 792
+   "expect": 667
   }
  ],
- "notes": "Drawing labels the lines 150 D and 155 D, but the widths are Series C (BURNING OFF 705/291; 150 D would be 829/348) and Series E (AHEAD 792, the same 155 E AHEAD as TM1-1C etc.; 155 D = 667); C and E used."
+ "notes": "Drawing labels the lines 150 D and 155 D, but the widths are Series C (BURNING OFF 705/291; 150 D would be 829/348) and Series E (AHEAD 792, the same 155 E AHEAD as TM1-1C etc.; 155 D = 667); C and E used. 2026-09-08 drawing check: AHEAD was Series E (expect 792): the drawn AHEAD measures 668 wide = 155 D, matching the drawing's '155 D' label; the 792 figure is the typo. Series D, expect 667 (AS 1744)."
 }

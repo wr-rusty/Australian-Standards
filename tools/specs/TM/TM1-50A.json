@@ -21,7 +21,7 @@
    ],
    "series": "C",
    "height": 80,
-   "top": 80,
+   "top": 100,
    "gap": 50,
    "expect": [
     275,
@@ -33,7 +33,7 @@
    "text": "WANDERING",
    "series": "C",
    "height": 80,
-   "top": 240,
+   "top": 260,
    "expect": 498
   },
   {
@@ -41,10 +41,10 @@
    "text": "ANIMALS",
    "series": "D",
    "height": 80,
-   "top": 400,
+   "top": 420,
    "expect": 450
   }
  ],
- "notes": "DRAWING INCONSISTENT: vertical dims 80|80|80|80|80|80|100 sum to 580 not 600. Tops measured down from the top edge (80, 240, 400); bottom margin then 120.",
+ "notes": "DRAWING INCONSISTENT: vertical dims 80|80|80|80|80|80|100 sum to 580 not 600. Tops measured down from the top edge (80, 240, 400); bottom margin then 120. 2026-09-08 drawing check: tops were 80/240/400 (read down from the top edge); the drawn lines measure 98/259/420, so the stack is read up from the 100 bottom margin: tops 100/260/420, top margin 100.",
  "accepted_drawing_discrepancy": "vertical dims sum to 580 not 600; tops taken from the top edge - needs confirmation (intervene set"
 }

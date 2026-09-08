@@ -16,10 +16,10 @@
   {
    "type": "text",
    "text": "LOOK",
-   "series": "D",
+   "series": "C",
    "height": 100,
    "top": 66,
-   "expect": 322
+   "expect": 275
   },
   {
    "type": "text",
@@ -52,6 +52,6 @@
    "grid_mm": 50
   }
  },
- "notes": "DRAWING INCONSISTENCY: LOOK is labelled 100 C with width 322 (139 | 322 | 139), but 100 C is 275 and 100 D is 329; D (2.2 % off) is used as the nearer match, so the width check reports LOOK. BOTH WAYS 80 C matches (210 / 225). Stack 66 | 100 C | 49 | 80 C | 86 | 101 | 118 = 600 gives a single 101-high arrow block (y 381-482), but the illustration and the grid inset draw two stacked arrows each about 103 high (the left-hand '105' dimension), 206 high in all and centred on y 431 (the centre of the stated block); box y 328, h 206, arrows 115 | 370 | 115.",
+ "notes": "DRAWING INCONSISTENCY: LOOK is labelled 100 C with width 322 (139 | 322 | 139), but 100 C is 275 and 100 D is 329; D (2.2 % off) is used as the nearer match, so the width check reports LOOK. BOTH WAYS 80 C matches (210 / 225). Stack 66 | 100 C | 49 | 80 C | 86 | 101 | 118 = 600 gives a single 101-high arrow block (y 381-482), but the illustration and the grid inset draw two stacked arrows each about 103 high (the left-hand '105' dimension), 206 high in all and centred on y 431 (the centre of the stated block); box y 328, h 206, arrows 115 | 370 | 115. 2026-09-08 drawing check: LOOK was Series D (expect 322): the drawn LOOK measures 275 wide = 100 C, matching the drawing's '100 C' label; the 322 figure is the typo. Series C, expect 275.",
  "accepted_drawing_discrepancy": "LOOK width 322 matches neither 100 C (275) nor 100 D (329; used); stack gives one 101-high arrow block but two arrows (206 high) are drawn - needs confirmation (intervene set"
 }
