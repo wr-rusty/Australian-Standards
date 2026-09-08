@@ -1,0 +1,50 @@
+{
+ "code": "RM4-12(D)",
+ "pack": "NSW",
+ "name": "END_{speed}_SPEED_MMS_WHITE_TALL",
+ "legend": "END {speed}",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   60
+  ]
+ },
+ "drawn_value": 60,
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 140,
+   "top": 85.6,
+   "expect": 394
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 585,
+   "r_outer": 265,
+   "r_inner": 210,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 210,
+   "top": 480,
+   "expect": null
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Numerals drawn dashed ('60', varies): height = dashed outline height minus the outline stroke (7.4, calibrated on RM4-212n(D) whose legend states 210); only the illustrated 60 is generated (the plan lists no other values). END 140 E top 85.6 (103/394/103). Black ring outer dia 530, 55 wide, centre (300, 585) (35/530/35, 320 down, 50 below). Numerals 210 D top 480."
+}

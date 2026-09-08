@@ -1,0 +1,40 @@
+{
+ "code": "R9-308n",
+ "pack": "NSW",
+ "name": "SLOW_ZONE_WHITE_LONG",
+ "legend": "SLOW ZONE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SLOW",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "expect": 410
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "E",
+   "height": 100,
+   "top": 225,
+   "expect": 406
+  }
+ ],
+ "notes": "RTA plan 2009 (text outlined, lettered dimension table). Size B 600 x 400 (A is 450 x 300): r 60, k 8 white edge, m 24 black border; SLOW 100 EM top g 75 (410 wide, c 95), ZONE top 225 (g 75, h 100, j 50, h 100, g 75), f 406 (e 97). 'EM' read as Series E (E-modified capitals)."
+}

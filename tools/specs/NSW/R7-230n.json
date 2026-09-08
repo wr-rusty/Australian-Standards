@@ -1,0 +1,109 @@
+{
+ "code": "R7-230n",
+ "pack": "NSW",
+ "name": "T3_TRANSIT_LANE_AHEAD_WHITE_SQUARE",
+ "legend": "TRANSIT LANE T3 AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  1280
+ ],
+ "radius": 150,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  414,
+  513,
+  1358,
+  1520
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRANSIT",
+   "series": "E",
+   "height": 160,
+   "top": 135.6,
+   "expect": 981
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 160,
+   "top": 375.8,
+   "expect": 612
+  },
+  {
+   "type": "path",
+   "d": "M152.5 656.7 L191.7 643.2 L244 630.5 L294.4 622.2 L346.1 620.1 L395.6 622.2 L451.7 631.3 L499 642.5 L541.1 657.6 L555.3 698 L562.7 732.5 L565.9 763.3 L565.1 792.5 L561.2 819.4 L550.9 859.8 L540.3 884 L502.2 897.3 L459.4 907.9 L406.8 916.8 L349 920 L301.8 917.6 L235.7 908.5 L184.9 895.2 L151.9 882.5 L136.8 842.7 L128.6 794 L127.9 754.1 L134.5 709.3 L145.1 675.4 L152.5 656.7Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "T3",
+   "series": "C",
+   "height": 210,
+   "top": 662.7,
+   "expect": 249.1,
+   "colour": "white",
+   "cx": 367.8
+  },
+  {
+   "type": "path",
+   "d": "M784.3 620.1 L1008.8 620.1 L1011.7 621.8 L1014.3 624.3 L1016.2 627.3 L1019.1 634.7 L1047.5 745.7 L1063.4 745.7 L1065.7 746.5 L1067.4 747.8 L1069.1 749.9 L1070.8 753.3 L1070.6 756.1 L1070.6 864.1 L1070.2 866.2 L1068.7 867.9 L1066.8 869.1 L1064 870.2 L1046.2 870.2 L1046.2 919.8 L994.6 919.8 L994.6 870.6 L797.4 870.6 L797.4 918.9 L746.8 918.9 L746.8 869.8 L729.2 869.8 L726.4 869.1 L724.7 867.5 L723.9 866.2 L723 863.4 L723 753.5 L724.5 749.9 L726.4 746.9 L729.8 745.9 L744.7 745.9 L773 632 L775.6 627.1 L777.9 623.9 L780.4 622 L782.4 620.9 L784.3 620.1Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M795.9 745.7 L795.9 709 L846.9 709 L846.9 744.8 L946.3 744.8 L945.9 708.2 L995.8 708 L995.8 744.4 L1023.8 744.4 L1026.3 742.9 L1028.9 740.6 L1030.4 738.3 L1030.8 733.8 L1029.9 728.1 L1009.8 644 L1008.5 640.4 L1005.6 636.4 L1003.2 634.5 L1000.3 633.6 L997.7 633.2 L794.2 633.2 L790.4 634.7 L787.6 637.5 L786 640.4 L784.3 644 L762.4 732.1 L762.4 737.2 L763.3 740.4 L764.1 742.5 L766.5 744.4 L768.4 745 L795.9 745.7Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M772.4 833.6 C786.4 833.6 797.6 822.1 797.6 808.4 C797.6 794.6 786.4 783.4 772.4 783.4 C758.6 783.4 747.2 794.6 747.2 808.4 C747.2 822.1 758.6 833.6 772.4 833.6Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M1020.8 833.6 C1034.6 833.6 1046 822.1 1046 808.4 C1046 794.6 1034.6 783.4 1020.8 783.4 C1006.8 783.4 995.6 794.6 995.6 808.4 C995.6 822.1 1006.8 833.6 1020.8 833.6Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M822.4 698.2 C837.4 698.2 849.7 686.2 849.7 671.3 C849.7 656.5 837.4 644.2 822.4 644.2 C807.3 644.2 795.1 656.5 795.1 671.3 C795.1 686.2 807.3 698.2 822.4 698.2Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M898 698.2 C913 698.2 925.3 686.2 925.3 671.3 C925.3 656.5 913 644.2 898 644.2 C883 644.2 870.7 656.5 870.7 671.3 C870.7 686.2 883 698.2 898 698.2Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M971.9 698.2 C986.9 698.2 999.2 686.2 999.2 671.3 C999.2 656.5 986.9 644.2 971.9 644.2 C956.9 644.2 944.6 656.5 944.6 671.3 C944.6 686.2 956.9 698.2 971.9 698.2Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M870.5 709H921.5V745H870.5Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 160,
+   "top": 995.9,
+   "expect": 817
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, upright sheet). Text placed from the plan's live text: cap top = baseline - stated font size; 'expect' = measured ink width of the plan's FHWA 2000EX text. 1200 x 1280 (title block 1280 x 1200), Cnr Rad 150, 'Border 10 x 20': white edge 10, black border 20 (the plan's 19.9 stroke centred 19.9 in). TRANSIT / LANE 160 E, tops 135.6 / 375.8 (baselines 295.6 / 535.8; 108/983/109, 294/613/293). Red T-symbol blob from the plan's vector path (438 x 300 at x 128, y 620; 128/438/156/350/128 across, 620/300/360 down) with the T legend in white: the plan says '210 D2000EX' but its glyphs measure 238-260 wide, i.e. Series C at 210 (D would be 300), so drawn in C 210, cap top 662.7 (baseline 872.7), centred on the measured white ink. Car symbol from the plan's vectors (350 x 300 at x 722, y 620): body, white windows and headlights, black heads (two for T2, three plus the middle body block for T3; the T2 sheets draw the windows as holes of the body path, the T3 sheets as white fills: the T3 sheets' decomposition is used for all four, heads from the sheet in question). AHEAD 160 E top 995.9 (191/818/191). T ink x 243.2-492.3. Plan r7-230n. The T legend's width check is against the plan's white ink (238-260): the plan's glyphs are spaced tighter/looser than AS 1744 C (244), so a few per cent difference is the letter spacing, not the size."
+}

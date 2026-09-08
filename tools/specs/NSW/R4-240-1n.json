@@ -1,0 +1,91 @@
+{
+ "code": "R4-240-1n",
+ "pack": "NSW",
+ "name": "LOCAL_TRAFFIC_AREA_{speed}_WHITE_TALL",
+ "legend": "{speed} LOCAL TRAFFIC AREA",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   30
+  ]
+ },
+ "drawn_value": 30,
+ "symbols": {
+  "nsw_r4-240n_children": {
+   "source": "R4-240n",
+   "desc": "adult holding a child's hand, walking left; 338 x 300 per the plan (grid 30)",
+   "grid_mm": 30,
+   "pack": "NSW"
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 240,
+   "r_outer": 175,
+   "r_inner": 135,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 140,
+   "top": 170,
+   "expect": 223
+  },
+  {
+   "type": "text",
+   "text": "LOCAL",
+   "series": "D",
+   "height": 40,
+   "top": 440,
+   "expect": 164,
+   "cx": 408
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "D",
+   "height": 40,
+   "top": 500,
+   "expect": 205,
+   "cx": 408
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 40,
+   "top": 560,
+   "expect": 136,
+   "cx": 408
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r4-240n_children",
+   "x": 86,
+   "y": 520,
+   "w": 338,
+   "h": 300,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). 600 x 900, white edge 8, black border 24, R60. Red ring outer dia 350, 40 wide (65/40/270/40 down, 125/350/125 across), centre (300, 240). Numerals 140 D top 170 (182/236/182). LOCAL / TRAFFIC / AREA 40 D at tops 440/500/560 (ring bottom 415, then 25/40/20/40/20/40/300), centred on x 408 (326/164/111 and 305/205/90). Children symbol traced from the plan's sign, box x 86, y 520, 338 x 300 (86/338/176, 520/300/80). Plan r4-240-1n (30): same layout as R4-240n with 30 (live text at the same baseline), symbol reused from R4-240n."
+}

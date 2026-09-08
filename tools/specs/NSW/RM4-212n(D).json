@@ -1,0 +1,58 @@
+{
+ "code": "RM4-212n(D)",
+ "pack": "NSW",
+ "name": "{speed}_ROAD_WORK_MMS_WHITE_TALL",
+ "legend": "{speed} ROAD WORK",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   60
+  ]
+ },
+ "drawn_value": 60,
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 260,
+   "r_inner": 200,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 210,
+   "top": 195,
+   "expect": null
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 90,
+   "top": 607.6,
+   "expect": 355
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "E",
+   "height": 90,
+   "top": 747.6,
+   "expect": 369
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Red ring outer dia 520, 60 wide, centre (300, 300) (from the plan's vectors: centre-line dia 460, stroke 60). Numerals 210 D (legend '60 D2000EX 210') top 195, drawn dashed; only the illustrated 60 generated. ROAD and WORK 90 E, tops 607.6 and 747.6 (ink widths 355 and 369)."
+}

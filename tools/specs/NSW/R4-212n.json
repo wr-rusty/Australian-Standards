@@ -1,0 +1,64 @@
+{
+ "code": "R4-212n",
+ "pack": "NSW",
+ "name": "{speed}_ROAD_WORK_WHITE_TALL",
+ "legend": "{speed} ROAD WORK",
+ "shape": "rect",
+ "size": [
+  1200,
+  2400
+ ],
+ "radius": 100,
+ "ground": "white",
+ "which": 3,
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   60,
+   80,
+   100
+  ]
+ },
+ "drawn_value": 60,
+ "panel_px": [
+  2341,
+  348,
+  2868,
+  1402
+ ],
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 800,
+   "r_outer": 594,
+   "r_inner": 474,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 480,
+   "top": 560
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 200,
+   "top": 1722,
+   "expect": 792
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "E",
+   "height": 200,
+   "top": 2028,
+   "expect": 820
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (D) 1200 x 2400 drawn (A, B, C also on the sheet), R100, no border. Red annulus R594 outer / R474 inner (ring 120), centre (600, 800) (800 from the top). Numerals variable, 480 D for 2 numerals + 110 & 115, 480 C for 3 numerals (the R4-1 rule), top 560 (560/480/682/200/106/200/172 = 2400), drawn dashed '60'. ROAD 200 E top 1722 (204/792/204), WORK 200 E top 2028 (190/820/190). Values 40/60/80/100 generated."
+}

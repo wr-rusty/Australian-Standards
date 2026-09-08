@@ -1,0 +1,96 @@
+{
+ "code": "R4-238n",
+ "pack": "NSW",
+ "name": "90_WHEN_RAINING_HERE_WHITE_TALL",
+ "legend": "90 WHEN RAINING HERE",
+ "shape": "rect",
+ "size": [
+  1350,
+  3960
+ ],
+ "radius": 45,
+ "ground": "white",
+ "which": 3,
+ "panel_px": [
+  1899,
+  333,
+  2332,
+  1603
+ ],
+ "symbols": {
+  "nsw_r4-238n_rain_cloud": {
+   "source": "R4-238n",
+   "pack": "NSW",
+   "which": 3,
+   "panel_px": [
+    1899,
+    333,
+    2332,
+    1603
+   ],
+   "grid_mm": 40,
+   "desc": "rain cloud: cloud outline with 16 slanted rain strokes, 1194 x 1055 on the sheet's 40 grid",
+   "keep_specks": true
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_r4-238n_rain_cloud",
+   "x": 90,
+   "y": 134,
+   "w": 1185.7,
+   "h": 1048.3,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 675,
+   "cy": 1930,
+   "r_outer": 670,
+   "r_inner": 550,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "90",
+   "series": "E",
+   "height": 480,
+   "top": 1690,
+   "expect": 868
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 2675,
+   "w": 1350,
+   "h": 75,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "D",
+   "height": 240,
+   "top": 2870,
+   "expect": 823
+  },
+  {
+   "type": "text",
+   "text": "RAINING",
+   "series": "D",
+   "height": 240,
+   "top": 3230,
+   "expect": 1215
+  },
+  {
+   "type": "text",
+   "text": "HERE",
+   "series": "D",
+   "height": 240,
+   "top": 3590,
+   "expect": 763
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (D) 1350 x 3960 drawn (A, B, C also on the sheet), R45, no border. The D outline is drawn 5 % taller than 3960 (1331 px for 1247 at 1:25) while the elements sit at the true scale from the top, so the overlay/tracing panel is the 1350 x 3960 box from the outline's top-left. Rain cloud symbol (grid 40) box x 78, y 130, 1194 x 1055 (78/1194/78 cloud, 120/1100/120 rain, 130/1055 down; ink 90-1275 x 134-1181), traced from the sheet's sign with a wider crop so the outer rain strokes are kept, placed on the measured ink box x 90, y 134, 1158 x 860. Red annulus R670 outer / R550 inner (5/1340/5), top 1260 (130/1055/75), centre (675, 1930). Numerals 90 in 480 E as the D legend states ('480E'; the smaller sizes say D; the drawn 90 measures 868 wide = E), top 1690 (430 below the ring top), 430 to the ring bottom 2600. Black bar full width 75 deep, 75 below the ring (y 2675-2750). WHEN / RAINING / HERE 240 D tops 2870/3230/3590 (120 between, 130 at the bottom), 263/823/264, 67/1215/68, 293/763/294. Fixed legend 90 as drawn."
+}

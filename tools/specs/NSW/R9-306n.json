@@ -1,0 +1,32 @@
+{
+ "code": "R9-306n",
+ "pack": "NSW",
+ "name": "BICYCLES_ONLY_WHITE_LONG_SKINNY",
+ "legend": "BICYCLES ONLY",
+ "shape": "rect",
+ "size": [
+  800,
+  200
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BICYCLES ONLY",
+   "series": "C",
+   "height": 80,
+   "top": 60,
+   "expect": 662
+  }
+ ],
+ "notes": "RTA plan 2009 (text outlined). 800 x 200, r50, white edge 8, black border 24. BICYCLES ONLY '80CN' (80 mm, an RTA narrow series not in the FHWA family: drawn here in Series C, which comes out wider than the plan's 662, 69/662/69), cap top 60 (60/80/60). CHECK: letter series."
+}

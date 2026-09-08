@@ -1,0 +1,159 @@
+{
+ "code": "R7-234n",
+ "pack": "NSW",
+ "name": "T3_TRANSIT_LANE_6-10AM_MON-FRI_WHITE_LONG",
+ "legend": "T3 6-10 AM MON-FRI TRANSIT LANE",
+ "shape": "rect",
+ "size": [
+  450,
+  225
+ ],
+ "radius": 25,
+ "ground": "white",
+ "panel_px": [
+  526,
+  675,
+  880,
+  852
+ ],
+ "elements": [
+  {
+   "type": "panel",
+   "x": 5,
+   "y": 5,
+   "w": 440,
+   "h": 188,
+   "radius": 20,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 10,
+   "y": 10,
+   "w": 430,
+   "h": 178,
+   "radius": 15,
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M38.8 32.6 L52.8 28 C90.8 17 123.9 17.1 162.1 27.8 L176.9 32.8 L182 47 C187.5 67.7 187 83.4 180.3 103.8 L176.7 112.1 L163.1 116.7 C126.5 127.9 86.7 127.1 50.2 116.1 L38.6 111.7 L33.3 97.7 L30.3 80.7 L30.1 66.7 L32.4 51.1 L36 39.2 L38.8 32.6Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "T3",
+   "series": "D",
+   "height": 70,
+   "top": 38.3,
+   "expect": 106.8,
+   "colour": "white",
+   "cx": 108.5
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "6",
+     "series": "E",
+     "height": 30
+    },
+    {
+     "text": "-",
+     "series": "E",
+     "height": 30
+    },
+    {
+     "text": "10",
+     "series": "E",
+     "height": 30
+    },
+    {
+     "text": "AM",
+     "series": "E",
+     "height": 20
+    }
+   ],
+   "gap": [
+    8.5,
+    8.5,
+    9
+   ],
+   "top": 35,
+   "cx": 319,
+   "expect": [
+    23,
+    null,
+    40,
+    43
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "MON",
+     "series": "E",
+     "height": 20
+    },
+    {
+     "text": "-",
+     "series": "E",
+     "height": 20
+    },
+    {
+     "text": "FRI",
+     "series": "E",
+     "height": 20
+    }
+   ],
+   "gap": [
+    18,
+    18
+   ],
+   "top": 88.9,
+   "cx": 320,
+   "expect": [
+    61,
+    null,
+    42
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "TRANSIT",
+    "LANE"
+   ],
+   "gap": 16.7,
+   "series": "C",
+   "height": 27,
+   "top": 143,
+   "expect": [
+    null,
+    null
+   ]
+  },
+  {
+   "type": "path",
+   "d": "M60.6 164.4 L60.6 150.2 L63.6 143.2 L58.7 139.4 L35.6 154.2 L35.6 160.4 L58.7 175.4 L63.6 171.4 L60.6 164.4Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M60.6 150.2H97.7V164.4H60.6Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M389.8 150.2 L389.8 164.4 L386.9 171.4 L391.7 175.4 L414.8 160.4 L414.8 154.2 L391.7 139.4 L386.9 143.2 L389.8 150.2Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M352.8 150.2H389.8V164.4H352.8Z",
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, upright sheet). Text placed from the plan's live text: cap top = baseline - stated font size; 'expect' = measured ink width of the plan's FHWA 2000EX text. Repeater plate 450 x 225, Cnr Rad 25, white; black border 5 wide 5 in from the edge (the plan's 5.1 stroke on a 435 x 183 rect) around the upper 193 only, the bottom 32 plain (mounting holes, not drawn). Red T3 symbol: the plan's vector blob (R105 / R156 rounded shape, 157 x 111 at x 30, y 17) with T3 in white 70 D ('70 Series D2000EX'), cap top 38.3 from the live text baseline 108.3, centred on the measured white ink (x 55.1-161.9; the plan's 'AS1744Series' glyphs are 4-6 % wider than FHWA D, hence the width note). Time plate (variable times, 'centre in available space', drawn 6-10 AM): 6 and 10 in 30 E with a hyphen, AM 20 E, one baseline 65 (time-plate detail 23/9/13/8/40/9/43; the font's hyphen is 10.5 so the gaps either side are 8.5 to keep the 93 run), centred on the space right of the symbol (ink centre 319); MON-FRI 20 E baseline 108.9, ink 247-393, hyphen gaps 18 (146 line less the words 61 + 42.2 and the font's 7 hyphen). TRANSIT LANE 27 C top 143 (122/207/121, ink 205; word gap 16.7 = 205 less the AS 1744 words 117 + 71.3). Arrows: the plan's vector heads and shafts (63 x 36 arrow detail: shaft 14, head 29 x 36, R3)."
+}

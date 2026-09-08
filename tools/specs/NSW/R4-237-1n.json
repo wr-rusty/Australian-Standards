@@ -1,0 +1,109 @@
+{
+ "code": "R4-237-1n",
+ "pack": "NSW",
+ "name": "HIGH_PEDESTRIAN_ACTIVITY_30_WHITE_LONG",
+ "legend": "HIGH PEDESTRIAN ACTIVITY 30",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 20,
+ "ground": "white",
+ "which": 1,
+ "symbols": {
+  "nsw_r4-236n_pedestrians": {
+   "source": "R4-236n",
+   "pack": "NSW",
+   "which": 1,
+   "panel_px": [
+    1825,
+    469,
+    2785,
+    1189
+   ],
+   "grid_mm": 20,
+   "desc": "four pedestrians walking left (woman, man, elderly man with stick, adult with child), 420 x 500 on the sheet's 20 grid"
+  }
+ },
+ "panel_px": [
+  1823,
+  511,
+  2782,
+  1231
+ ],
+ "elements": [
+  {
+   "type": "panel",
+   "x": 12,
+   "y": 12,
+   "w": 582,
+   "h": 876,
+   "radius": 25,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 24,
+   "y": 24,
+   "w": 558,
+   "h": 852,
+   "radius": 13,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r4-236n_pedestrians",
+   "x": 91,
+   "y": 55,
+   "w": 420,
+   "h": 500,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "HIGH",
+   "series": "D",
+   "height": 60,
+   "top": 610,
+   "expect": 172,
+   "cx": 300
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIAN",
+   "series": "D",
+   "height": 60,
+   "top": 695,
+   "expect": 456,
+   "cx": 300
+  },
+  {
+   "type": "text",
+   "text": "ACTIVITY",
+   "series": "D",
+   "height": 60,
+   "top": 780,
+   "expect": 338,
+   "cx": 300
+  },
+  {
+   "type": "annulus",
+   "cx": 900,
+   "cy": 450,
+   "r_outer": 293,
+   "r_inner": 246,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "D",
+   "height": 260,
+   "top": 320,
+   "expect": 414,
+   "cx": 900
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (B) 1200 x 900 drawn (A 900 x 675 also on the sheet); two panels side by side (600 each), the join not drawn. Corner radii not dimensioned: sign 20, left panel border 25 outer / 13 inner (read from the sheet). Left panel: white edge 12, black border 12 (the sheet's 12 / 24 read as edge / edge + border) drawn as elements x 12-594 (6 clear of the join), y 12-888; pedestrians symbol (grid 20) box x 91, y 55, 420 x 500 (91/420/89, 55/500/55; traced ink 92-513 x 52-554), traced from the sheet's sign; HIGH / PEDESTRIAN / ACTIVITY 60 D tops 610/695/780 (55/60/25/60/25/60/60), 214/172/214, 72/456/72, 131/338/131, centred on the left half. Right half: red annulus R293 outer / R246 inner centred on x 900, top 157 (157/587/156), centre y 450; numerals 30 260 D top 320 (centred on the ring), 414 wide. Plan r4-237-1n (30, A3 sheet issue 01): 93/414/93; symbol as R4-236n."
+}

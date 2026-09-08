@@ -1,0 +1,63 @@
+{
+ "code": "R4-239n",
+ "pack": "NSW",
+ "name": "100_UNLESS_RAINING_WHITE_TALL",
+ "legend": "100 UNLESS RAINING",
+ "shape": "rect",
+ "size": [
+  1200,
+  2160
+ ],
+ "radius": 70,
+ "ground": "white",
+ "which": 3,
+ "panel_px": [
+  2232,
+  469,
+  2873,
+  1620
+ ],
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 694,
+   "r_outer": 587,
+   "r_inner": 493,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "100",
+   "series": "C",
+   "height": 480,
+   "top": 454,
+   "expect": 848
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 1389,
+   "w": 1200,
+   "h": 53,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "UNLESS",
+   "series": "D",
+   "height": 200,
+   "top": 1549,
+   "expect": 957
+  },
+  {
+   "type": "text",
+   "text": "RAINING",
+   "series": "D",
+   "height": 200,
+   "top": 1856,
+   "expect": 1011
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (D) 1200 x 2160 drawn (A, B, C also on the sheet), R70, no border. Red annulus R587 outer / R493 inner (13/1173/13), top 107, centre (600, 694). Numerals 100 in 480 C, top 454 (453 as dimensioned from the top), 176/848/176. Black bar full width, 108 below the ring, 53 deep (y 1389-1442; the C size shows 39/81). UNLESS 200 D top 1549 (120/957/123), RAINING 200 D top 1856 (93/1011/96), 107 between and below (sums to 2163 as dimensioned). Fixed legend 100 as drawn (no 'variable' note on this sheet)."
+}

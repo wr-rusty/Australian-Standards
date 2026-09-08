@@ -1,0 +1,40 @@
+{
+ "code": "R4-201-1n",
+ "pack": "NSW",
+ "name": "NARROW_BRIDGE_WHITE_LONG",
+ "legend": "NARROW BRIDGE",
+ "shape": "rect",
+ "size": [
+  1200,
+  800
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 48
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NARROW",
+   "series": "C",
+   "height": 200,
+   "top": 150,
+   "expect": 878
+  },
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 200,
+   "top": 450,
+   "expect": 900
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Supplementary plate to R4-1. Size (D) 1200 x 800 drawn (B 600 x 400 and C 900 x 600 also on the sheet); white edge 16, black border 48, R100. NARROW 200 C top 150 (160/878/162), BRIDGE 200 D top 450 (150/900/150); vertical 150/200/100/200/150."
+}

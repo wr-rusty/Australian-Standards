@@ -1,0 +1,59 @@
+{
+ "code": "RM6-1n(D)",
+ "pack": "NSW",
+ "name": "NO_OVERTAKING_OR_PASSING_MMS_WHITE_TALL",
+ "legend": "NO OVER TAKING OR PASSING",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "C",
+   "height": 100,
+   "top": 63,
+   "expect": 135
+  },
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "C",
+   "height": 100,
+   "top": 228.1,
+   "expect": 271
+  },
+  {
+   "type": "text",
+   "text": "TAKING",
+   "series": "C",
+   "height": 100,
+   "top": 398,
+   "expect": 377
+  },
+  {
+   "type": "text",
+   "text": "OR",
+   "series": "C",
+   "height": 100,
+   "top": 568.1,
+   "expect": 135
+  },
+  {
+   "type": "text",
+   "text": "PASSING",
+   "series": "C",
+   "height": 100,
+   "top": 733.2,
+   "expect": 450
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Five lines 100 C: NO top 63 (135), OVER 228.1 (271), TAKING 398 (377), OR 568.1 (135), PASSING 733.2 (450)."
+}

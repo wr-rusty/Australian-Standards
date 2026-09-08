@@ -1,0 +1,94 @@
+{
+ "code": "R2-6n(R)",
+ "pack": "NSW",
+ "name": "NO_RIGHT_TURN_WHITE_TALL",
+ "legend": "NO RIGHT TURN",
+ "shape": "rect",
+ "size": [
+  600,
+  1200
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "which": 1,
+ "panel_px": [
+  1574,
+  345,
+  2054,
+  1306
+ ],
+ "symbols": {
+  "nsw_r2-6n_left_turn_arrow": {
+   "source": "R2-6n(L)",
+   "pack": "NSW",
+   "which": 1,
+   "panel_px": [
+    1716,
+    357,
+    2180,
+    1300
+   ],
+   "colours": [
+    "black"
+   ],
+   "desc": "left-turn arrow 272 x 280: bar and stem 77, elbow R77 / R16, 45 deg chevron head (symbol detail)"
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 247,
+   "r_inner": 205,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r2-6n_left_turn_arrow",
+   "x": 205.8,
+   "y": 184.6,
+   "w": 274.4,
+   "h": 281.9,
+   "colour": "black",
+   "flip": "h"
+  },
+  {
+   "type": "path",
+   "d": "M491.12 143.53L143.53 491.12A247 247 0 0 1 108.88 456.47L456.47 108.88A247 247 0 0 1 491.12 143.53Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 160,
+   "top": 609,
+   "expect": 301
+  },
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "E",
+   "height": 105,
+   "top": 832
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 105,
+   "top": 1000,
+   "expect": 406
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (B) 600 x 1200 drawn (A 450 x 900 also on the sheet), R60, white edge 10, black border 20 (sheet 10 / 30 read as edge / edge + border; measures about 23). Roundel per the symbol detail: red annulus R247 outer / R205 inner (ring 42; 55/490/55 across the sign), red slash 49 wide at 45 deg (detail 49 on R2-5n; measured 52 on both sheets), no white gap between slash and arrow; the black arrow traced from the sheet's sign (black layer only, box = measured ink). Ring top 55, centre (300, 300). Turn arrow detail 272 x 280 (bar/stem 77, R77 outer / R16 inner elbow, 45 deg head): own sheet r2-6n_r, the arrow the mirror of R2-6n(L) (traced ink box x 205.8, y 184.6, 274.4 x 281.9, i.e. drawn 6 right of the mirrored position: the (L) symbol is flipped and placed in the (R) sheet's box); slash from upper-right to lower-left. NO 160 E top 609 (149/301/149), RIGHT 105 E top 832, TURN 105 E top 1000 (97/406/97)."
+}

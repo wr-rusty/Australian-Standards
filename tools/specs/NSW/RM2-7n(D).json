@@ -1,0 +1,32 @@
+{
+ "code": "RM2-7n(D)",
+ "pack": "NSW",
+ "name": "NO_TURNS_ARROW_ONLY_MMS_WHITE_TALL",
+ "legend": "ONLY (straight arrow)",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M299.6 113.9L192.5 265.6C192.5 278.3 192.2 292 210.3 290.7L262.4 270.2L262.7 587.1L337.2 587.1L336.9 270.2L389.5 290.2C405.8 290.2 408.1 282 408.1 267.4L299.6 113.9Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 120,
+   "top": 662.3,
+   "expect": 479
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Straight arrow 216 wide x 473 high (192/217/191, 111/474/120/114) copied from the plan's vector path. ONLY 120 E top 662.3 (61/479/60)."
+}

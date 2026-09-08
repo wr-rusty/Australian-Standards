@@ -1,0 +1,63 @@
+{
+ "code": "RM2-6n(L)(D)",
+ "pack": "NSW",
+ "name": "NO_LEFT_TURN_MMS_WHITE_TALL",
+ "legend": "NO LEFT TURN",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M113.9 229.9a186.6 190.0 0 1 0 373.1 0a186.6 190.0 0 1 0 -373.1 0Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M145.9 230.2a155.2 158.4 0 1 0 310.5 0a155.2 158.4 0 1 0 -310.5 0Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M414.7 352.9L174.1 110.5L191.3 93.4L431.8 335.9Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M344 201.1L342.5 354.4L387.1 354.4L388.6 199L385.6 183.3L381.2 169.2L373 157.3L362.6 147.7L349.2 141.7L332 138L212.2 138L189.1 161.1L210.7 186.4L330.6 186.4L336.5 187.9L341 190.8L344 195.2Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 130,
+   "top": 441,
+   "expect": 242
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 90,
+   "top": 617.6,
+   "expect": 310
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 90,
+   "top": 757.6,
+   "expect": 344
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Roundel copied from the plan's vectors: red ring drawn as an ellipse 373 wide x 380 high (ring 31), slash 24 wide at 45 deg, arrow polygon vertices as drawn (the elbow is polygonised on the plan). Roundel centre (300.5, 230). NO 130 E top 441 (179/242/179), LEFT 90 E top 617.6 (145/310/145), TURN 90 E top 757.6 (128/344/128)."
+}

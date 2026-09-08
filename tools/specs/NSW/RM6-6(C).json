@@ -1,0 +1,60 @@
+{
+ "code": "RM6-6(C)",
+ "pack": "NSW",
+ "name": "STOP_HERE_ON_RED_SIGNAL_MMS_WHITE_LONG",
+ "legend": "STOP HERE ON RED SIGNAL",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 77.1,
+   "expect": [
+    369,
+    378
+   ],
+   "colour": "red",
+   "words": [
+    "STOP",
+    "HERE"
+   ],
+   "gap": 64.8
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 247.2,
+   "expect": [
+    188,
+    277
+   ],
+   "colour": "red",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "gap": 73.8
+  },
+  {
+   "type": "text",
+   "text": "SIGNAL",
+   "series": "E",
+   "height": 100,
+   "top": 417.3,
+   "expect": 537,
+   "colour": "red"
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Red legend, three lines 100 E: STOP HERE top 77.1 (812), ON RED 247.2 (539), SIGNAL 417.3 (537). STOP HERE: word gap 64.8 (line ink 812 on the plan less the two words' AS 1744 widths). ON RED: word gap 73.8 (line ink 539 on the plan less the two words' AS 1744 widths)."
+}

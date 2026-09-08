@@ -1,0 +1,76 @@
+{
+ "code": "R4-212n_VMS",
+ "pack": "NSW",
+ "name": "{speed}_ROAD_WORK_VMS_BLACK_LONG",
+ "legend": "{speed} ROAD WORK (VMS)",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110
+  ]
+ },
+ "drawn_value": 60,
+ "panel_px": [
+  354,
+  351,
+  1358,
+  1104
+ ],
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 342.8,
+   "cy": 449.8,
+   "r_outer": 300,
+   "r_inner": 250,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 230,
+   "top": 335.1,
+   "colour": "white",
+   "cx": 342.8
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 115,
+   "top": 300.9,
+   "expect": 452,
+   "colour": "white",
+   "cx": 908
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "E",
+   "height": 115,
+   "top": 496,
+   "expect": 468,
+   "colour": "white",
+   "cx": 908
+  }
+ ],
+ "notes": "TfNSW VMS plan (TraSiCAD, 'Border 0 x 25', Cnr Rad 0): black LED ground with a white border 25 (the plan's 25 stroke centred 12.3 in from the edge); LED details indicative only. Red annulus dia 600 at x 42.8, y 149.8 (ring 50, black disc 500), centre (342.8, 449.8). Numerals white D 230 (legend '60 D2000EX 230'), cap top 335.1 (live text baseline 565.1), ink 160-524.5 (365 wide; 67/365/68; 60 at 230 D generates 365, no width check on the other values); 2 numerals D, 3 numerals C. ROAD and WORK white E 115, tops 300.9 and 496 (baselines 415.9 / 611), centred on x 908 (682/452/66 and 673/470/57), ink widths 452 and 468. Values 40-110 generated."
+}

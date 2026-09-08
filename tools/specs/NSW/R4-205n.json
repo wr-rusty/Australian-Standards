@@ -1,0 +1,55 @@
+{
+ "code": "R4-205n",
+ "pack": "NSW",
+ "name": "STATE_LIMIT_100_WHITE_TALL",
+ "legend": "STATE LIMIT 100",
+ "shape": "rect",
+ "size": [
+  900,
+  1650
+ ],
+ "radius": 90,
+ "ground": "white",
+ "which": 1,
+ "panel_px": [
+  1787,
+  263,
+  2508,
+  1583
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "STATE",
+   "series": "D",
+   "height": 180,
+   "top": 105,
+   "expect": 672
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 180,
+   "top": 375,
+   "expect": 561
+  },
+  {
+   "type": "annulus",
+   "cx": 450,
+   "cy": 1100,
+   "r_outer": 446,
+   "r_inner": 356,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "100",
+   "series": "C",
+   "height": 360,
+   "top": 920,
+   "expect": 636
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (C) 900 x 1650 drawn (B 600 x 1100 also on the sheet), R90, no border. STATE 180 D top 105 (114/672/114), LIMIT 180 D top 375 (170/561/170) (105/180/90/180). Red annulus R446 outer / R356 inner (ring 90), centre (450, 1100): 365 below LIMIT to the numeral top 920, numerals 360 C (132/636/132), centred on the ring (446 to the ring bottom, 105 to the sign bottom; 920 + 360 + 371 = 1651 as dimensioned)."
+}

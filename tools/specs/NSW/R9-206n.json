@@ -1,0 +1,47 @@
+{
+ "code": "R9-206n",
+ "pack": "NSW",
+ "name": "ONTO_RED_T-WAY_WHITE_LONG",
+ "legend": "ONTO RED T-WAY",
+ "shape": "rect",
+ "size": [
+  900,
+  460
+ ],
+ "radius": 80,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ONTO",
+    "RED"
+   ],
+   "series": "E",
+   "height": 100,
+   "top": 100,
+   "gap": 72,
+   "expect": [
+    378,
+    276
+   ]
+  },
+  {
+   "type": "text",
+   "text": "T-WAY",
+   "series": "E",
+   "height": 100,
+   "top": 260,
+   "expect": 436
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (B) 900 x 460 drawn (the sheet's only size); white edge 12, black border 24, R80. Two lines 100 E: ONTO RED top 100 (100/100/60/100/100), ONTO 378, gap 72, RED 276 (86/378/72/276/88); T-WAY top 260, T 74, then 36 to WAY 326 (hyphen drawn 6/24?/8 within the 36): generated as one word with the AS 1744 hyphen, expect = 74+36+326 = 436."
+}

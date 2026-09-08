@@ -1,0 +1,55 @@
+{
+ "code": "R4-1n_VMS",
+ "pack": "NSW",
+ "name": "{speed}_SPEED_VMS_BLACK_LONG",
+ "legend": "{speed} (VMS)",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110
+  ]
+ },
+ "drawn_value": 60,
+ "panel_px": [
+  354,
+  305,
+  1476,
+  1146
+ ],
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 450,
+   "r_outer": 400,
+   "r_inner": 340,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 340,
+   "top": 280,
+   "colour": "white"
+  }
+ ],
+ "notes": "TfNSW VMS plan (TraSiCAD, 'Border 0 x 25', Cnr Rad 0): black LED ground with a white border 25 (the plan's 25 stroke centred 12.3 in from the edge); LED details indicative only. Red annulus dia 800 (200/800/200, 50/800/50), ring 60 (black disc 680), centre (600, 450). Numerals white, drawn 60 in D2000EX 340 (69/542/69, 170/340/170): the plan's outlines 541 x 351 (0 overshoot), cap top 280 (60 at 340 D generates 542 as drawn; no width check on the other values); 2 numerals D, 3 numerals C (R4-1 rule). Values 40-110 generated."
+}

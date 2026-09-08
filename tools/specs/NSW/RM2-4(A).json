@@ -1,0 +1,52 @@
+{
+ "code": "RM2-4(A)",
+ "pack": "NSW",
+ "name": "NO_ENTRY_MMS_WHITE_SQUARE",
+ "legend": "NO ENTRY",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "circle",
+   "cx": 300,
+   "cy": 300,
+   "r": 265,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 70,
+   "y": 255,
+   "w": 460,
+   "h": 90,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 90,
+   "top": 132.5,
+   "colour": "white",
+   "expect": 145
+  },
+  {
+   "type": "text",
+   "text": "ENTRY",
+   "series": "D",
+   "height": 90,
+   "top": 372.5,
+   "colour": "white",
+   "expect": 361
+  }
+ ],
+ "notes": "TfNSW MMS insert plan rm2-4_a (TraSiCAD, 1:4.4): 600 square, black border 25 (title block 'Border 0 x 25'), square corners. Red disc dia 530 inset 35 (the plan's 35/530/35). NO and ENTRY FHWA Series D 90: NO top 35+100 = 135 (193/145/192), ENTRY top 35+340 = 375 (85/361/84). White bar not dimensioned: measured from the plan's vectors 460 x 90 at x 70, y 255 (30 clear of both words). Text tops corrected to the plan's live text (baseline - 90): NO 132.5, ENTRY 372.5 (the dimension lines run to the text box)."
+}

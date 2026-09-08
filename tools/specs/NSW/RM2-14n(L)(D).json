@@ -1,0 +1,43 @@
+{
+ "code": "RM2-14n(L)(D)",
+ "pack": "NSW",
+ "name": "ALL_TRAFFIC_LEFT_ONLY_MMS_WHITE_TALL",
+ "legend": "ONLY (curved left arrow)",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "symbols": {
+  "nsw_rm2-14_curve_arrow_d": {
+   "source": "RM2-14n(L)(D)",
+   "desc": "left-curving arrow, 348 x 386, shaft 77, head 171 x 189",
+   "pack": "NSW"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_rm2-14_curve_arrow_d",
+   "x": 125.9,
+   "y": 175.8,
+   "w": 348.1,
+   "h": 386.1,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 110,
+   "top": 611.7,
+   "expect": 439
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Curved 'all traffic' arrow traced from the plan (shaft drawn as a thick stroke along an R198 arc, head a 7-vertex polygon); box from the plan's vector extents. Arrow box x 126, y 176, 348 x 386 (126/348/126, 175/387/338 down). ONLY 110 E top 611.7 (80/439/81)."
+}

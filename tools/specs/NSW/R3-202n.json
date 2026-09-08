@@ -1,0 +1,87 @@
+{
+ "code": "R3-202n",
+ "pack": "NSW",
+ "name": "CHILDREN_STOP_CROSSING_WHITE_SQUARE",
+ "legend": "CHILDREN STOP CROSSING",
+ "shape": "rect",
+ "size": [
+  400,
+  400
+ ],
+ "radius": 15,
+ "ground": "white",
+ "panel_px": [
+  1321,
+  559,
+  1962,
+  1200
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     124,
+     17
+    ],
+    [
+     276,
+     17
+    ],
+    [
+     383,
+     124
+    ],
+    [
+     383,
+     276
+    ],
+    [
+     276,
+     383
+    ],
+    [
+     124,
+     383
+    ],
+    [
+     17,
+     276
+    ],
+    [
+     17,
+     124
+    ]
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "CHILDREN",
+   "series": "C",
+   "height": 45,
+   "top": 65,
+   "expect": 238,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 120,
+   "top": 140,
+   "expect": 316,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 45,
+   "top": 290,
+   "expect": 238,
+   "colour": "white"
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). 400 x 400, R15, white ground, no border. Regular red octagon 366 across (17/107/152/107/17 both ways: vertices at 124 and 276 on each side). White legend Series C: CHILDREN 45 top 65 (81/238/81), STOP 120 top 140 (42/316/42), CROSSING 45 top 290 (81/238/81); vertical 65/45/30/120/30/45/65. Sheet scale note 1:15 but drawn at about 1:5 (the outline is 641 px at 200 dpi)."
+}

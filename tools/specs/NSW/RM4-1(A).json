@@ -1,0 +1,42 @@
+{
+ "code": "RM4-1(A)",
+ "pack": "NSW",
+ "name": "{speed}_SPEED_MMS_WHITE_SQUARE",
+ "legend": "{speed}",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   60
+  ]
+ },
+ "drawn_value": 60,
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 265,
+   "r_inner": 215,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 210,
+   "top": 195,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW MMS insert plan rm4-1_a (TraSiCAD): 600 square, black border 25, square corners. Red annulus outer dia 530 (35 inset), ring 50 wide (measured from the plan's vectors: centre-line dia 480, stroke 50). Numerals drawn dashed ('60', varies) with no font note: dashed outline 218 tall = 210 + the outline stroke (calibrated on RM4-212n(D), legend 210): 210 Series D, cap top 195, and '60' at 210 D is 334 wide as drawn. The plan lists no other values, so only the illustrated 60 is generated; add values to 'vary' as required."
+}

@@ -1,0 +1,40 @@
+{
+ "code": "R9-309n",
+ "pack": "NSW",
+ "name": "END_SLOW_ZONE_WHITE_LONG",
+ "legend": "END SLOW ZONE",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 100,
+   "top": 75,
+   "expect": 290
+  },
+  {
+   "type": "text",
+   "text": "SLOW ZONE",
+   "series": "B",
+   "height": 100,
+   "top": 225,
+   "expect": 486
+  }
+ ],
+ "notes": "RTA plan 2009 (text outlined, lettered table). Size B 600 x 400 (A is 450 x 300): r 60, edge m 8, border n 24; END 100EM top g 75 (d 290, c 155); SLOW ZONE '100BN' top 225 (g/k/j/h/g = 75/100/50/100/75), f 486 (e 57). 'BN' is an RTA narrow series not in the FHWA family: drawn in Series B, which comes out wider than 486. CHECK: letter series."
+}

@@ -1,0 +1,96 @@
+{
+ "code": "R4-220n",
+ "pack": "NSW",
+ "name": "END_{speed}_TRUCK_BUS_SPEED_LIMIT_WHITE_TALL",
+ "legend": "END {speed} TRUCK & BUS SPEED LIMIT",
+ "shape": "rect",
+ "size": [
+  1350,
+  3620
+ ],
+ "radius": 135,
+ "ground": "white",
+ "which": 3,
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   60,
+   80,
+   90,
+   100
+  ]
+ },
+ "drawn_value": 60,
+ "panel_px": [
+  2319,
+  394,
+  2752,
+  1552
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 400,
+   "top": 200,
+   "expect": 1130
+  },
+  {
+   "type": "annulus",
+   "cx": 675,
+   "cy": 1390,
+   "r_outer": 670,
+   "r_inner": 550,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 580,
+   "top": 1100
+  },
+  {
+   "type": "text",
+   "text": "TRUCK",
+   "series": "E",
+   "height": 240,
+   "top": 2180,
+   "expect": 1162
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUS"
+   ],
+   "gap": 148,
+   "series": "E",
+   "height": 240,
+   "top": 2540,
+   "expect": [
+    216,
+    680
+   ]
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 240,
+   "top": 2900,
+   "expect": 1128
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "E",
+   "height": 240,
+   "top": 3260,
+   "expect": 878
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (D) 1350 x 3620 drawn (A, B, C also on the sheet), R135, no border. END 400 E top 200 (110/1130/110). Black annulus R670 outer / R550 inner (5/1340/5), top 720 (200/400/120), centre (675, 1390). Numerals variable, drawn dashed '60': 2 numerals 580 D, 3 numerals 540 C (drawn at 580 with the R4-1 series rule), top 1100 (1100 from the top as dimensioned). TRUCK / & BUS / SPEED / LIMIT 240 E, tops 2180/2540/2900/3260 (120 between, 120 below the ring at 2060, 120 at the bottom): TRUCK 94/1162/94, & 216 gap 148 BUS 680, SPEED 111/1128/111, LIMIT 236/878/236. Values 40/60/80/90/100 generated."
+}

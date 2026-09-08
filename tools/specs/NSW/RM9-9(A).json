@@ -1,0 +1,35 @@
+{
+ "code": "RM9-9(A)",
+ "pack": "NSW",
+ "name": "ONE_LANE_MMS_WHITE_SQUARE",
+ "legend": "ONE LANE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ONE",
+   "series": "D",
+   "height": 140,
+   "top": 118,
+   "expect": 345
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 140,
+   "top": 338,
+   "expect": 450
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Text outlined on this plan: ink ONE 127-472 x 116-260 (140 D, cap top 118 allowing the O overshoot), LANE 75-525 x 338-478 (top 338)."
+}

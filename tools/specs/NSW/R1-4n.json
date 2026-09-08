@@ -1,0 +1,13 @@
+{
+ "code": "R1-4n", "pack": "NSW",
+ "name": "TRAFFIC_SIGNAL_STOP_SIGN", "legend": "STOP",
+ "shape": "octagon", "size": [450, 450], "ground": "red",
+ "edge": {"colour": "white", "width": 12},
+ "elements": [
+  {"type": "text", "text": "STOP", "series": "C", "height": 140, "top": 155, "colour": "white", "expect": 368},
+  {"type": "circle", "cx": 225, "cy": 97, "r": 50, "colour": "black"},
+  {"type": "circle", "cx": 225, "cy": 225, "r": 50, "colour": "black"},
+  {"type": "circle", "cx": 225, "cy": 353, "r": 50, "colour": "black"}
+ ],
+ "notes": "TfNSW plan r1-4n (1:5): 450 octagon (corner cuts 132/186/132), white edge 12 outside red. STOP 140 C white, cap top 155 (155/140/155), ink 41/368/41. Three black discs dia 100 on the centre line, vertical 47/100/28/100/28/100/47, drawn over the letters. Plan note: R9-201 to be mounted with this sign."
+}

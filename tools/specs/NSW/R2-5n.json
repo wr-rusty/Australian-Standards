@@ -1,0 +1,93 @@
+{
+ "code": "R2-5n",
+ "pack": "NSW",
+ "name": "NO_U_TURN_WHITE_TALL",
+ "legend": "NO U TURN",
+ "shape": "rect",
+ "size": [
+  600,
+  1000
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 11
+ },
+ "border": {
+  "colour": "black",
+  "width": 21
+ },
+ "which": 1,
+ "panel_px": [
+  1793,
+  357,
+  2274,
+  1157
+ ],
+ "symbols": {
+  "nsw_r2-5n_u_turn_arrow": {
+   "source": "R2-5n",
+   "pack": "NSW",
+   "which": 1,
+   "panel_px": [
+    1801,
+    365,
+    2265,
+    1148
+   ],
+   "colours": [
+    "black"
+   ],
+   "desc": "U-turn arrow 224 x 313: legs 63 / 50 gap / 49, inner R49, head 112 / 40 / 100 with 45 deg barbs (symbol detail)"
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 299.5,
+   "r_outer": 247,
+   "r_inner": 205,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r2-5n_u_turn_arrow",
+   "x": 185.5,
+   "y": 147.3,
+   "w": 225.3,
+   "h": 314.6,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M491.12 143.03L143.53 490.62A247 247 0 0 1 108.88 455.97L456.47 108.38A247 247 0 0 1 491.12 143.03Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "U"
+   ],
+   "gap": 101,
+   "series": "D",
+   "height": 160,
+   "top": 574,
+   "expect": [
+    257,
+    108
+   ]
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "D",
+   "height": 130,
+   "top": 787,
+   "expect": 419
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (B) 600 x 1000 drawn (A 450 x 750 also on the sheet), R60, white edge 11, black border 21 (sheet 11 / 32 read as edge / edge + border; the border measures about 24). Roundel per the symbol detail: red annulus R247 outer / R205 inner (ring 42; 55/490/55 across the sign), red slash 49 wide at 45 deg (detail 49 on R2-5n; measured 52 on both sheets), no white gap between slash and arrow; the black arrow traced from the sheet's sign (black layer only, box = measured ink). Ring top 53, centre (300, 299.5); slash from lower-left to upper-right. U-turn arrow detail 224 x 313 (legs 63/50/49, inner R49, head 112/40/100, 45 deg): traced ink box x 185.5, y 147.3, 225.3 x 314.6. NO U 160 D top 574 (53/493/28: 67/257/101/108/67 -> NO 257, gap 101, U 108), TURN 130 D top 787 (90/419/91); vertical 28/160/53/130/82."
+}

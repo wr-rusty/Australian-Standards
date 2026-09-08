@@ -1,0 +1,50 @@
+{
+ "code": "RM6-1(C)",
+ "pack": "NSW",
+ "name": "NO_OVERTAKING_OR_PASSING_MMS_WHITE_LONG",
+ "legend": "NO OVERTAKING OR PASSING",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 100,
+   "top": 77.1,
+   "expect": 188
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKING",
+   "series": "E",
+   "height": 100,
+   "top": 247.2,
+   "expect": 925
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 417.3,
+   "expect": [
+    188,
+    627
+   ],
+   "words": [
+    "OR",
+    "PASSING"
+   ],
+   "gap": 67.6
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Three lines 100 E: NO top 77.1 (ink 188), OVERTAKING top 247.2 (925), OR PASSING top 417.3 (883, word space as the font's). OR PASSING: word gap 67.6 (line ink 883 on the plan less the two words' AS 1744 widths)."
+}

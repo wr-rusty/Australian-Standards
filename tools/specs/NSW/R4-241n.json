@@ -1,0 +1,76 @@
+{
+ "code": "R4-241n",
+ "pack": "NSW",
+ "name": "END_LOCAL_TRAFFIC_AREA_WHITE_TALL",
+ "legend": "END LOCAL TRAFFIC AREA",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "nsw_r4-240n_children": {
+   "source": "R4-240n",
+   "desc": "adult holding a child's hand, walking left; 338 x 300 per the plan (grid 30)",
+   "grid_mm": 30,
+   "pack": "NSW"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 150,
+   "top": 125,
+   "expect": 424
+  },
+  {
+   "type": "text",
+   "text": "LOCAL",
+   "series": "D",
+   "height": 40,
+   "top": 340,
+   "expect": 164,
+   "cx": 408
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "D",
+   "height": 40,
+   "top": 405,
+   "expect": 205,
+   "cx": 408
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 40,
+   "top": 470,
+   "expect": 136,
+   "cx": 408
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r4-240n_children",
+   "x": 86,
+   "y": 510,
+   "w": 338,
+   "h": 300,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). 600 x 900, white edge 8, black border 24, R60. END 150 E top 125 (88/424/88); LOCAL / TRAFFIC / AREA 40 D tops 340/405/470 (125/150/65/40/25/40/25/40, then 300 symbol, 90), centred on x 408 (326/164/111, 305/205/90, 340/136/125). Children symbol as R4-240n, box x 86, y 510, 338 x 300."
+}

@@ -1,0 +1,40 @@
+{
+ "code": "R9-228n",
+ "pack": "NSW",
+ "name": "TAXIS_EXCEPTED_WHITE_LONG",
+ "legend": "TAXIS EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  280
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TAXIS",
+   "series": "D",
+   "height": 60,
+   "top": 60,
+   "expect": 208
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 60,
+   "top": 160,
+   "expect": 319
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). 450 x 280, white edge 8, black border 16, R50. TAXIS 60 D top 60 (121/208/121), EXCEPTED 60 C top 160 (65/319/66); vertical 60/60/40/60/60."
+}

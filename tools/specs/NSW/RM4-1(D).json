@@ -1,0 +1,42 @@
+{
+ "code": "RM4-1(D)",
+ "pack": "NSW",
+ "name": "{speed}_SPEED_MMS_WHITE_TALL",
+ "legend": "{speed}",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   60
+  ]
+ },
+ "drawn_value": 60,
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 450,
+   "r_outer": 265,
+   "r_inner": 215,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 210,
+   "top": 345,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW MMS insert plan rm4-1_d (TraSiCAD): 600 x 900, black border 25, square corners. Red annulus outer dia 530 centred (185 above/below), ring 50 wide (vectors). Dashed numerals 210 D (as RM4-1(A)), cap top 345. Only the illustrated 60 generated (plan lists no other values)."
+}

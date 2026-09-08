@@ -1,0 +1,66 @@
+{
+ "code": "RM2-6n(R)(C)",
+ "pack": "NSW",
+ "name": "NO_RIGHT_TURN_MMS_WHITE_LONG",
+ "legend": "NO RIGHT TURN",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M638.9 299.9a185.6 190.0 0 1 0 371.1 0a185.6 190.0 0 1 0 -371.1 0Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M669.4 300.1a154.9 157.6 0 1 0 309.9 0a154.9 157.6 0 1 0 -309.9 0Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M699.3 409.9L934.1 171.8L950.9 188.6L715.7 426.7Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M796.8 273.8L797.7 426.7L751.5 426.7L750 272.1L752.6 256.9L758.4 240.7L766.1 230.7L777.2 220.8L791 214.9L807.7 211.7L935.1 211.7L957.9 234.9L935.1 258.6L810.3 259.5L803.6 260.7L799.8 263.9L796.8 268.6Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 130,
+   "top": 94,
+   "expect": 242,
+   "cx": 378
+  },
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "E",
+   "height": 90,
+   "top": 270.6,
+   "expect": 376,
+   "cx": 378
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 90,
+   "top": 410.6,
+   "expect": 344,
+   "cx": 378
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): black border 25 ('Border 0 x 25'), square corners. Text placed from the plan's live text: cap top = baseline - stated font size (the plan's dimension lines run to the text box, not the ink); 'expect' = measured ink width of the plan's FHWA 2000EX text, so a small width difference is the two fonts' letter spacing. Roundel copied from the plan's vectors: red ring drawn as an ellipse 373 wide x 380 high (ring 31), slash 24 wide at 45 deg, arrow polygon vertices as drawn (the elbow is polygonised on the plan). Landscape (C) insert: text stack at left (NO 130 E top 94, 257/242/701; RIGHT 90 E top 270.6, 190/376/634; TURN 90 E top 410.6, 206/344/650), roundel at right, centre (824.5, 300) (639/371/190 across, 110/380/110 down)."
+}

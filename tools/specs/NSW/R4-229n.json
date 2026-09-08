@@ -1,0 +1,88 @@
+{
+ "code": "R4-229n",
+ "pack": "NSW",
+ "name": "{speed}_TRUCK_BUS_SPEED_LIMIT_WHITE_TALL",
+ "legend": "{speed} TRUCK & BUS SPEED LIMIT",
+ "shape": "rect",
+ "size": [
+  1350,
+  3020
+ ],
+ "radius": 135,
+ "ground": "white",
+ "which": 3,
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   60,
+   80,
+   90,
+   100
+  ]
+ },
+ "drawn_value": 60,
+ "panel_px": [
+  2419,
+  357,
+  2960,
+  1565
+ ],
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 675,
+   "cy": 790,
+   "r_outer": 670,
+   "r_inner": 550,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 580,
+   "top": 500
+  },
+  {
+   "type": "text",
+   "text": "TRUCK",
+   "series": "E",
+   "height": 240,
+   "top": 1580,
+   "expect": 1162
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUS"
+   ],
+   "gap": 149,
+   "series": "E",
+   "height": 240,
+   "top": 1940,
+   "expect": [
+    216,
+    679
+   ]
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 240,
+   "top": 2300,
+   "expect": 1128
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "E",
+   "height": 240,
+   "top": 2660,
+   "expect": 878
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (D) 1350 x 3020 drawn (A, B, C also on the sheet), R135, no border. Red annulus R670 outer / R550 inner (5/1340/5), top 120, centre (675, 790). Numerals variable ('centre by eye'), drawn dashed '60': 2 numerals 580 D, 3 numerals 560 C (drawn at 580 with the R4-1 series rule; 3-numeral values should be 560 C), top 500. TRUCK / & BUS / SPEED / LIMIT 240 E, tops 1580/1940/2300/2660 (120 between, 120 below the ring at 1460): TRUCK 94/1162/94, & 216 gap 149 BUS 679 (153/216/149/679/153), SPEED 111/1128/111, LIMIT 236/878/236. Values 40/60/80/90/100 generated."
+}

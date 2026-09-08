@@ -1,0 +1,62 @@
+{
+ "code": "R2-4n",
+ "pack": "NSW",
+ "name": "NO_ENTRY_WHITE_TALL",
+ "legend": "NO ENTRY",
+ "shape": "rect",
+ "size": [
+  750,
+  1200
+ ],
+ "radius": 75,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2156,
+  690,
+  2557,
+  1331
+ ],
+ "elements": [
+  {
+   "type": "circle",
+   "cx": 375,
+   "cy": 375,
+   "r": 310,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 125,
+   "y": 313,
+   "w": 500,
+   "h": 123,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 160,
+   "top": 737,
+   "expect": 300
+  },
+  {
+   "type": "text",
+   "text": "ENTRY",
+   "series": "D",
+   "height": 140,
+   "top": 972,
+   "expect": 560
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (C) 750 x 1200 drawn (A 450 x 750, B 600 x 1000 also on the sheet), R75. White edge 12, black border 24 (the sheet's 12 / 36 read as edge / edge + border, as the AS 1743 drawings; the border measures about 26 on the sheet). Red disc dia 620 (65 from the top; 67/617/67 across, 3 short), centre (375, 375); white bar 500 x 123 at x 125, y 313 (centred on the disc). NO 160 E top 737 (225/300/225), ENTRY 140 D top 972 (95/560/95); vertical 65/620/52/160/75/140/88."
+}

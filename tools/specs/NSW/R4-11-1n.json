@@ -1,0 +1,55 @@
+{
+ "code": "R4-11-1n",
+ "pack": "NSW",
+ "name": "END_30_AREA_WHITE_TALL",
+ "legend": "END 30 AREA",
+ "shape": "rect",
+ "size": [
+  600,
+  1000
+ ],
+ "radius": 70,
+ "ground": "white",
+ "which": 1,
+ "panel_px": [
+  1867,
+  493,
+  2347,
+  1294
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 160,
+   "top": 73,
+   "expect": 384
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 519,
+   "r_outer": 213,
+   "r_inner": 177,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "D",
+   "height": 180,
+   "top": 429,
+   "expect": 286
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 130,
+   "top": 804,
+   "expect": 442
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (B) 600 x 1000 drawn (A 450 x 750 also on the sheet), R70, no border. END 160 D top 73 (108/384/108). Black annulus outer R213, top 306 (73/160/73), centre (300, 519); the ring width is not dimensioned (the 87/70/286/70/87 chain is edge / ring outer to numeral / numerals, as the A size's 65/49/222 with 222 = '30' at 140 D): measured 36 on the sheet (29 px), inner R177. 30 in 180 D centred on the ring (top 429; the left column 180 + 390 = 1000 - 430 confirms), 286 wide (157/286/157). AREA 130 D top 804 (79/442/79), 66 below."
+}

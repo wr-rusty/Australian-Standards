@@ -274,7 +274,7 @@ def parse_potrace(svg_text):
         out.append(segs)
     return out
 
-def trace(drawing, ground, inset, box, sid, panel=None, force=False, show=False, threshold=110, invert=False, which=0, colours=None, mask=None, open_px=0, pack=None):
+def trace(drawing, ground, inset, box, sid, panel=None, force=False, show=False, threshold=110, invert=False, which=0, colours=None, mask=None, open_px=0, pack=None, keep_specks=False):
     outp = os.path.join(SYM_DIR, sid + ".svg")
     if os.path.exists(outp) and not force: return "exists"
     img = Image.open(resolve_png(drawing, pack)).convert("RGB")
@@ -283,9 +283,10 @@ def trace(drawing, ground, inset, box, sid, panel=None, force=False, show=False,
     else: x0, y0, x1, y1 = find_panel(img, ground, which, sheet=bool(pack))
     # the ground region corresponds to the mm rect inset by (edge+border) on every side
     Wmm = box[4] if len(box) > 4 else None
-    return _trace_from_panel(img, (x0, y0, x1, y1), inset, box, sid, outp, show, threshold, invert, colours, mask, open_px)
+    return _trace_from_panel(img, (x0, y0, x1, y1), inset, box, sid, outp, show, threshold, invert, colours, mask, open_px, keep_specks)
 
-def _trace_from_panel(img, ppx, inset, box, sid, outp, show, threshold, invert, colours=None, mask=None, open_px=0):
+def _trace_from_panel(img, ppx, inset, box, sid, outp, show, threshold, invert, colours=None, mask=None, open_px=0, keep_specks=False):
+    """keep_specks: keep small components near the crop edge (a symbol made of many small marks, e.g. rain strokes)."""
     x0, y0, x1, y1 = ppx
     bx, by, bw, bh, Wmm, Hmm = box
     kx = (x1 - x0 + 1) / (Wmm - 2 * inset); ky = (y1 - y0 + 1) / (Hmm - 2 * inset)   # px per mm
@@ -311,13 +312,14 @@ def _trace_from_panel(img, ppx, inset, box, sid, outp, show, threshold, invert, 
             for yy in range(h_):
                 for xx in range(w_):
                     if is_ink(cp[xx, yy], colour): mp[xx, yy] = 0
-            layers.append((INK_HEX[colour], drop_edge_specks(m)))
+            layers.append((INK_HEX[colour], m if keep_specks else drop_edge_specks(m)))
     else:
         big = bigc.convert("L")
         if invert: big = ImageOps.invert(big)
         if open_px:   # morphological opening: removes hairlines (drawing centre lines) thinner than open_px (upscaled px)
             k = open_px | 1; big = big.filter(ImageFilter.MaxFilter(k)).filter(ImageFilter.MinFilter(k))
-        layers.append(("currentColor", drop_edge_specks(big.point(lambda v: 0 if v < threshold else 255, "1"))))
+        bw1 = big.point(lambda v: 0 if v < threshold else 255, "1")
+        layers.append(("currentColor", bw1 if keep_specks else drop_edge_specks(bw1)))
     kx_mm = 1 / (UPSCALE * kx); ky_mm = 1 / (UPSCALE * ky)
     allpaths = []   # (fill, segs list)
     for fill, bw_img in layers:
@@ -391,7 +393,7 @@ def main():
                                   panel=meta.get("panel_px"), force=a.force, show=a.show, threshold=meta.get("threshold", a.threshold),
                                   invert=meta.get("invert", meta.get("ground", spec["ground"]) == "black"), which=meta.get("which", spec.get("which", 0)), colours=meta.get("colours"),
                                   mask=None if meta.get("nomask") else (spec.get("shape", "rect"), spec["size"][0], spec["size"][1], ground_inset(spec)), open_px=meta.get("open", 0),
-                                  pack=meta.get("pack", spec.get("pack")))
+                                  pack=meta.get("pack", spec.get("pack")), keep_specks=meta.get("keep_specks", False))
                     except SystemExit as e: r = f"FAILED: {e}"
                     except Exception as e: r = f"FAILED: {type(e).__name__} {e}"
                     print(spec["code"], el["id"], r)

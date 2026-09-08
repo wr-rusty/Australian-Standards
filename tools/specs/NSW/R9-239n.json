@@ -1,0 +1,55 @@
+{
+ "code": "R9-239n",
+ "pack": "NSW",
+ "name": "BUS_LANE_VEHICLES_EXCEPTED_WHITE_LONG",
+ "legend": "BUS LANE VEHICLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  600,
+  440
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BUS",
+    "LANE"
+   ],
+   "series": "D",
+   "height": 80,
+   "top": 60,
+   "gap": 48,
+   "expect": [
+    190,
+    257
+   ]
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "D",
+   "height": 80,
+   "top": 180,
+   "expect": 485
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 80,
+   "top": 300,
+   "expect": 497
+  }
+ ],
+ "notes": "TfNSW design plan (sideways A3 sheet, Roads & Maritime 2019 style). Size (B) 600 x 440 (the larger of two drawn), white edge 5, black border 10, R50. Three lines 80 D, tops 60/180/300 (60/80/40/80/40/80/60): BUS 190, gap 48, LANE 257 (53/190/48/257/53); VEHICLES 485 (58/485/58); EXCEPTED 497 (52/497/52)."
+}
