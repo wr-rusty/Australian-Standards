@@ -15,6 +15,11 @@ The platform needs the whole traffic-control and safety picture, not only sign f
 Signs came first because they are drawing-by-drawing standards; markings and devices need the same treatment
 (one SVG per standard drawing, dimensions from the standard, nothing invented).
 
+Form of the imagery (Russell, 2026-09-08): everything is drawn the way a Traffic Guidance Scheme (TGS) draws it — plan
+view. Markings to scale from the standard's plan drawings; signs as their faces; devices (cones, bollards, barrier boards,
+arrow boards, barriers, vehicles) as the standard TGS legend symbols of each jurisdiction (AS 1742.3 / AGTTM in Australia,
+CoPTTM in NZ, MUTCD Part 6 in the US, Chapter 8 in the UK), at the device's real plan size where the standard gives one.
+
 Two top-level folders say what a pack is fit for:
 
 * `Complete/` — approved sign packs, ready to upload to SitePilot. Each pack is `<country>/<jurisdiction>/SVGs/<family>/…`
