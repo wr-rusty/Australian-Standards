@@ -19,20 +19,20 @@
   "width": 20
  },
  "panel_px": [
-  423.5,
-  268.3,
-  1233.6,
-  1078.4
+  407.0,
+  251.8,
+  1250.1,
+  1094.9
  ],
  "symbols": {
   "qld_w6-q01_rider": {
    "source": "W6-Q01",
    "pack": "QLD",
    "panel_px": [
-    423.5,
-    268.3,
-    1233.6,
-    1078.4
+    407.0,
+    251.8,
+    1250.1,
+    1094.9
    ],
    "desc": "horse and rider (walking left), n 260 tall, bottom m 65 above the centreline; vector items 98 + 97",
    "colours": [
@@ -44,10 +44,10 @@
    "source": "W6-Q01",
    "pack": "QLD",
    "panel_px": [
-    423.5,
-    268.3,
-    1233.6,
-    1078.4
+    407.0,
+    251.8,
+    1250.1,
+    1094.9
    ],
    "desc": "walker with backpack (facing right), g 200 tall, bottom f 80 above the centreline; vector items 101 + 99 + 100",
    "colours": [

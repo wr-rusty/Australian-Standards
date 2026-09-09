@@ -19,20 +19,20 @@
   "width": 20
  },
  "panel_px": [
-  476.0,
-  154.7,
-  1286.2,
-  965.0
+  459.5,
+  138.2,
+  1302.7,
+  981.5
  ],
  "symbols": {
   "qld_w6-q04-2_scene": {
    "source": "W6-Q04-2",
    "pack": "QLD",
    "panel_px": [
-    476.0,
-    154.7,
-    1286.2,
-    965.0
+    459.5,
+    138.2,
+    1302.7,
+    981.5
    ],
    "desc": "cyclist (rear view, left), car (rear view, right), ground line and double-headed arrow between them, one scene; extent f 224 left / g 232 right of the centreline, e 167 above / d 133 below it; vector items 86-90",
    "colours": [

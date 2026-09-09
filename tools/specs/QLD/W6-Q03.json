@@ -19,20 +19,20 @@
   "width": 20
  },
  "panel_px": [
-  537.9,
-  279.0,
-  1186.1,
-  927.1
+  524.7,
+  265.8,
+  1199.3,
+  940.3
  ],
  "symbols": {
   "qld_w6-q03_bicycle": {
    "source": "W6-Q03",
    "pack": "QLD",
    "panel_px": [
-    537.9,
-    279.0,
-    1186.1,
-    927.1
+    524.7,
+    265.8,
+    1199.3,
+    940.3
    ],
    "desc": "bicycle (facing right) above the group, top d 306 above the centreline, centred; vector item 232",
    "colours": [
@@ -44,10 +44,10 @@
    "source": "W6-Q03",
    "pack": "QLD",
    "panel_px": [
-    537.9,
-    279.0,
-    1186.1,
-    927.1
+    524.7,
+    265.8,
+    1199.3,
+    940.3
    ],
    "desc": "horse and rider (walking left) with walker (facing right), one path; h 232 left and k 207 right of the centreline, bottom e 82 below it; vector item 231",
    "colours": [
