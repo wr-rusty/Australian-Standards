@@ -1,0 +1,45 @@
+{
+ "code": "R6-SA107A_FREEWAY",
+ "pack": "SA",
+ "drawing": "R6-SA107A",
+ "name": "END_FREEWAY_GREEN_LONG",
+ "legend": "END FREEWAY",
+ "shape": "rect",
+ "size": [
+  900,
+  450
+ ],
+ "radius": 50,
+ "ground": "green",
+ "edge": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  546,
+  875,
+  1257,
+  1231
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 100,
+   "top": 95,
+   "colour": "white",
+   "expect": 283
+  },
+  {
+   "type": "text",
+   "text": "FREEWAY",
+   "series": "E",
+   "height": 100,
+   "top": 255,
+   "colour": "white",
+   "expect": 700
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R6-SA107A (900 x 450) illustrated (B 1800 x 900), 2015, 1:10; R50, green ground with a 24 white edge, no border. END 100 E white, baseline 195 (top 95), ink 283 (308/283/309); second line 100 C, baseline 355 (top 255), 95 below: EXPRESSWAY ink 694 (103/694/103). The sheet also draws the alternative word FREEWAY 100 E ink 700 (100/700/100) — generated as its own file R6-SA107A_FREEWAY (same layout). This file: the FREEWAY alternative."
+}

@@ -1,0 +1,118 @@
+{
+ "code": "R3-SA57A",
+ "pack": "SA",
+ "name": "CHILDREN_CROSSING_25_WHEN_LIGHTS_FLASHING_YELLOWGREEN_TALL",
+ "legend": "CHILDREN CROSSING 25 WHEN LIGHTS FLASHING (FYG backing)",
+ "shape": "rect",
+ "size": [
+  650,
+  1400
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "elements": [
+  {
+   "type": "panel",
+   "x": 100,
+   "y": 100,
+   "w": 450,
+   "h": 1200,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 105,
+   "y": 105,
+   "w": 440,
+   "h": 290,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 115,
+   "y": 115,
+   "w": 420,
+   "h": 270,
+   "radius": 35,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "CHILDREN",
+   "series": "C",
+   "height": 60,
+   "top": 165,
+   "expect": 318
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 60,
+   "top": 275,
+   "expect": 317
+  },
+  {
+   "type": "annulus",
+   "cx": 325,
+   "cy": 700,
+   "r_outer": 220,
+   "r_inner": 184,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "25",
+   "series": "C",
+   "height": 200,
+   "top": 600,
+   "expect": 248,
+   "cx": 325
+  },
+  {
+   "type": "panel",
+   "x": 105,
+   "y": 1005,
+   "w": 440,
+   "h": 290,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 115,
+   "y": 1015,
+   "w": 420,
+   "h": 270,
+   "radius": 35,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "D",
+   "height": 50,
+   "top": 1045,
+   "expect": 172
+  },
+  {
+   "type": "text",
+   "text": "LIGHTS",
+   "series": "D",
+   "height": 50,
+   "top": 1125,
+   "expect": 213
+  },
+  {
+   "type": "text",
+   "text": "FLASHING",
+   "series": "D",
+   "height": 50,
+   "top": 1205,
+   "expect": 307
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R3-SA57A (650 x 1400) illustrated (B 800 x 1800), 2024, 1:10 ('Koala' pedestrian crossing on a fluorescent yellow-green backing): R50 FYG panel with the R3-SA56A 450 x 1200 white sign (R50) inset 100 on every side (100/450/100 across, 100 top and bottom); every element of R3-SA56A offset by (100, 100), the sheet repeating its dimensions unchanged. Top panel 295 tall (5 white edge + 10 black border, sheet 5 / 15; R45 / R35): CHILDREN 60 C baseline 125 (top 65) ink 318 (66/318/66), CROSSING 60 C baseline 235 (top 175) ink 317 (66/317/67), 60 below. 85 gap; red annulus outer dia 440 (5 margins), centre (225, 600); inner radius not stated — the ring measures 37 wide on the sheet, drawn R184 as the national R-series rings (36); 25 200 C centred (120 below the numerals; the sheet's '185' is not matched), ink 248 (101/248/101). 85 gap; bottom panel 295 tall (905-1200), same edge/border: WHEN 50 D baseline 995 (top 945) ink 172 (139/172/139), LIGHTS baseline 1075 (top 1025) ink 213 (118/213/119), FLASHING baseline 1155 (top 1105) ink 307 (71/307/72), 45 below."
+}

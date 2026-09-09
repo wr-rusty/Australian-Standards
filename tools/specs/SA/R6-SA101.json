@@ -1,0 +1,126 @@
+{
+ "code": "R6-SA101",
+ "pack": "SA",
+ "name": "NO_PEDS_BICYCLES_ANIMALS_SMALL_WHEELED_VEHICLES_WHITE_TALL",
+ "legend": "NO PEDESTRIANS BICYCLES ANIMALS SMALL WHEELED VEHICLES BEYOND THIS POINT EXCEPT IN EMERGENCY",
+ "shape": "rect",
+ "size": [
+  300,
+  600
+ ],
+ "ground": "white",
+ "radius": 25,
+ "edge": {
+  "colour": "white",
+  "width": 4
+ },
+ "border": {
+  "colour": "black",
+  "width": 8
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 40,
+   "top": 30,
+   "expect": 75
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "C",
+   "height": 30,
+   "top": 90,
+   "expect": 216
+  },
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "D",
+   "height": 30,
+   "top": 140,
+   "expect": 183
+  },
+  {
+   "type": "text",
+   "text": "ANIMALS",
+   "series": "D",
+   "height": 30,
+   "top": 190,
+   "expect": 169
+  },
+  {
+   "type": "text",
+   "text": "SMALL",
+   "series": "D",
+   "height": 30,
+   "top": 240,
+   "expect": 125
+  },
+  {
+   "type": "text",
+   "text": "WHEELED",
+   "series": "D",
+   "height": 30,
+   "top": 290,
+   "expect": 173
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "D",
+   "height": 30,
+   "top": 340,
+   "expect": 182
+  },
+  {
+   "type": "text",
+   "words": [
+    "BEYOND",
+    "THIS"
+   ],
+   "gap": 25,
+   "series": "C",
+   "height": 30,
+   "top": 390,
+   "expect": [
+    127,
+    69
+   ]
+  },
+  {
+   "type": "text",
+   "text": "POINT",
+   "series": "D",
+   "height": 30,
+   "top": 440,
+   "expect": 108
+  },
+  {
+   "type": "text",
+   "words": [
+    "EXCEPT",
+    "IN"
+   ],
+   "gap": 25,
+   "series": "D",
+   "height": 30,
+   "top": 490,
+   "expect": [
+    138,
+    32
+   ]
+  },
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "D",
+   "height": 30,
+   "top": 540,
+   "expect": 231
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R6-SA101 300 x 600 (2015, 1:5), R25, 4 / 12 (edge 4 + border 8). NO 40 E baseline 70 (top 30), then ten lines 30 at 50 pitch (baselines 120 ... 570, 30 below): PEDESTRIANS C top 90, BICYCLES D 140, ANIMALS D 190, SMALL D 240, WHEELED D 290, VEHICLES D 340, BEYOND THIS C 390 (39/127/25/69/40), POINT D 440, EXCEPT IN D 490 (52/138/25/32/53), EMERGENCY D 540. Widths NO 75 (112/75/113), PEDESTRIANS 216 (42/216/42), BICYCLES 183 (58/183/59), ANIMALS 169 (65/169/66), SMALL 125 (85/125/90), WHEELED 173 (63/173/64), VEHICLES 182 (59/182/59), POINT 108 (96/108/96), EMERGENCY 231 (34/231/35)."
+}

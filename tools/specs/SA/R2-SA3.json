@@ -1,0 +1,111 @@
+{
+ "code": "R2-SA3",
+ "pack": "SA",
+ "name": "KEEP_LEFT_WHITE_TALL_SKINNY",
+ "legend": "KEEP LEFT (arrow)",
+ "shape": "rect",
+ "size": [
+  150,
+  1150
+ ],
+ "ground": "white",
+ "radius": 25,
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  745,
+  472,
+  864,
+  1379
+ ],
+ "symbols": {
+  "sa_r2-sa3_arrow": {
+   "source": "R2-SA3",
+   "pack": "SA",
+   "panel_px": [
+    745,
+    472,
+    864,
+    1379
+   ],
+   "colours": [
+    "black"
+   ],
+   "desc": "compact block arrow pointing down-left, 81 x 80 on the sign; sheet says only 'A:60'"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "K",
+   "series": "D",
+   "height": 80,
+   "top": 55
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "D",
+   "height": 80,
+   "top": 165
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "D",
+   "height": 80,
+   "top": 275
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "D",
+   "height": 80,
+   "top": 385
+  },
+  {
+   "type": "text",
+   "text": "L",
+   "series": "D",
+   "height": 80,
+   "top": 545
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "D",
+   "height": 80,
+   "top": 655
+  },
+  {
+   "type": "text",
+   "text": "F",
+   "series": "D",
+   "height": 80,
+   "top": 765
+  },
+  {
+   "type": "text",
+   "text": "T",
+   "series": "D",
+   "height": 80,
+   "top": 875
+  },
+  {
+   "type": "symbol",
+   "id": "sa_r2-sa3_arrow",
+   "x": 34,
+   "y": 1015,
+   "w": 81,
+   "h": 80,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R2-SA3 150 x 1150 (1:10 sheet, undated), R25, 5 / 15 (edge 5 + border 10). Letters 80 D stacked one per line, centred: chain 55 / K / 30 / E / 30 / E / 30 / P / 80 (word gap) / L / 30 / E / 30 / F / 30 / T / 60 / arrow 80 / 55 = 1150 -> tops 55, 165, 275, 385, 545, 655, 765, 875; arrow 1015-1095. The arrow ('A:60' on the sheet, pointing down-left) is not dimensioned: traced from the sheet, ink box measured x 34-115, 81 x 80 (sheet at 1:10, so the trace is coarse — 63 px). Only where a back-to-back median is installed or R2-3 signs are frequently struck."
+}

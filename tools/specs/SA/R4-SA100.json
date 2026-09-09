@@ -1,0 +1,80 @@
+{
+ "code": "R4-SA100",
+ "pack": "SA",
+ "name": "{speed}_LINE_MARKING_WHITE_YELLOW_WIDE",
+ "legend": "{speed} LINE MARKING",
+ "shape": "rect",
+ "size": [
+  1200,
+  450
+ ],
+ "ground": "white",
+ "panel_px": [
+  384,
+  741,
+  1330,
+  1096
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   25,
+   40,
+   60
+  ]
+ },
+ "folder": "Speed Signs/Normal Speed Signs",
+ "elements": [
+  {
+   "type": "rect",
+   "x": 450,
+   "y": 0,
+   "w": 750,
+   "h": 450,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 470,
+   "y": 20,
+   "w": 710,
+   "h": 410,
+   "colour": "yellow"
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 225,
+   "r_outer": 223,
+   "r_inner": 178,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 180,
+   "top": 135,
+   "cx": 225
+  },
+  {
+   "type": "text",
+   "text": "LINE",
+   "series": "D",
+   "height": 120,
+   "top": 75,
+   "expect": 325,
+   "cx": 825
+  },
+  {
+   "type": "text",
+   "text": "MARKING",
+   "series": "C",
+   "height": 120,
+   "top": 255,
+   "expect": 565,
+   "cx": 825
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R4-SA100 1200 x 450 (1:10 sheet, 2016), square corners, no radius stated. Left half 450 x 450 white class 1 with the red annulus: outer R223, inner R178 (chain 2/223/225: 2 margin, centre x 225; 178 = inner radius), centre (225, 225); speed numerals 180 D centred (135/180/135). Right half 750 x 450: black border 20 round a yellow class 1 panel (x 450-1200): LINE 120 D baseline 195 (top 75), ink 325 (210/325/215 from the divide, centred on 825), MARKING 120 C baseline 375 (top 255), ink 565 (90/565/95). Sheet note: vehicle-mounted frames for mobile work sites only; only 25, 40 or 60 displayed -> generated at 25, 40, 60."
+}

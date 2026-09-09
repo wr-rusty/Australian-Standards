@@ -1,0 +1,88 @@
+{
+ "code": "R2-SA103B",
+ "pack": "SA",
+ "name": "NO_ENTRY_TO_BUSWAY_WHITE_TALL",
+ "legend": "NO ENTRY TO BUSWAY",
+ "shape": "rect",
+ "size": [
+  750,
+  1200
+ ],
+ "ground": "white",
+ "radius": 100,
+ "panel_px": [
+  607,
+  534,
+  1198,
+  1480
+ ],
+ "drawing": "R2-SA103A",
+ "elements": [
+  {
+   "type": "circle",
+   "cx": 375.0,
+   "cy": 375.0,
+   "r": 366.67,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 62.5,
+   "y": 312.5,
+   "w": 625.0,
+   "h": 125.0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 125.0,
+   "top": 137.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "ENTRY",
+   "series": "D",
+   "height": 125.0,
+   "top": 487.5,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 10,
+   "y": 760,
+   "w": 730,
+   "h": 430,
+   "radius": 90,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 30,
+   "y": 780,
+   "w": 690,
+   "h": 390,
+   "radius": 70,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "TO",
+   "series": "D",
+   "height": 100,
+   "top": 835,
+   "expect": 146
+  },
+  {
+   "type": "text",
+   "text": "BUSWAY",
+   "series": "D",
+   "height": 100,
+   "top": 1000,
+   "expect": 518
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet R2-SA103 (2015, 1:10): R2-SA103B 750 x 1200 illustrated (A 600 x 960, C 900 x 1440; the register lists A first, PNG R2-SA103A.png), R100, white, no outer border. Top: R2-4(C) NO ENTRY disc 734 dia at 8 margins (the national R2-4 spec scaled 750/450: disc R366.7 at (375, 375), white bar 625 x 125, NO / ENTRY 125 D white). Below (8 gap): TO BUSWAY panel 750 x 450 (y 750-1200) with 10 white edge + 20 black border (sheet 10 / 30), R90 / R70: TO 100 D baseline 935 (top 835), ink 146 (312/146/312); BUSWAY 100 D baseline 1100 (top 1000), ink 518 (126/518/126); 100 below."
+}

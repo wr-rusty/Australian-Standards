@@ -1,0 +1,59 @@
+{
+ "code": "R9-SA53-2A",
+ "pack": "SA",
+ "name": "AT_WEST_LAKES_BOULEVARD_WHITE_SQUARE",
+ "legend": "AT (road name, three lines)",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  629,
+  675,
+  1338,
+  1384
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "AT",
+   "series": "E",
+   "height": 45,
+   "top": 60,
+   "expect": 83
+  },
+  {
+   "type": "text",
+   "text": "WEST",
+   "series": "E",
+   "height": 50,
+   "top": 150
+  },
+  {
+   "type": "text",
+   "text": "LAKES",
+   "series": "E",
+   "height": 50,
+   "top": 245
+  },
+  {
+   "type": "text",
+   "text": "BOULEVARD",
+   "series": "E",
+   "height": 50,
+   "top": 340
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border (6 / 18 = edge 6 + border 12), as the AS 1743 drawings. R9-SA53-2A (450 x 450) illustrated (B 600, C 750 in the table), R50, 6 / 18. AT 45 E (183/83/184); road name three lines 50 'E>C' (Series E preferred, reduce to C where too wide, max. dimension 360). Sheet: '= offset' top/bottom and '= gap' between lines: resolved on the drawing itself — AT top 60, name lines top 150 / 245 / 340 (offset 60, gap 45; 60+45+45+50+45+50+45+50+60 = 450). Road name WEST LAKES BOULEVARD is the sheet's example ('Road Name is an example only', drawn in grey); drawn here in black as the sign would read. BOULEVARD at 50 E measures 374 on the sheet, over the stated 360 max — the sheet's own example exceeds its rule; kept in E. Only used with R2-6."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "RM4-SA12A",
+ "pack": "SA",
+ "name": "END_{speed}_MMS_WHITE_SQUARE",
+ "legend": "END {speed}",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  611,
+  588,
+  1084,
+  1061
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   25,
+   40,
+   60
+  ]
+ },
+ "drawn_value": 60,
+ "folder": "Speed Signs/End",
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 120,
+   "top": 40,
+   "expect": 311
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 370,
+   "r_outer": 180,
+   "r_inner": 155,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "C",
+   "height": 160,
+   "top": 290,
+   "cx": 300
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border (6 / 18 = edge 6 + border 12), as the AS 1743 drawings. RM4-SA12A 600 x 600 multi-message-frame module (1:10 sheet, 2024): black border 25, no white edge, square corners. END 120 E top 40 (baseline 160), ink 311 (145/311/144). Black ring centred (300, 370): outer R180 (370 + 180 + 50 = 600), inner R155 (ring 25). Speed numerals 160 C ('varies'; the sheet says Series C for these two-numeral values, so C is used rather than the R4-1 rule's D), vertical band 160-450 -> top 290, centred. Values drawn on the sheet: 25, 40, 60 (60 shown in the ring). White class 400. Multi-message frames only. Width check: END 120 E is 340 in the FHWA Series E font; the sheet states 311 and draws it about 308 (E 82, N 89, D 87 wide, gaps 21 / 28 — neither Series D (287) nor E). Kept as the sheet's 311, generated in E at 340, still centred."
+}

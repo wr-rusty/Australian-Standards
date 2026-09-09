@@ -1,0 +1,45 @@
+{
+ "code": "R6-SA108A_FREEWAY",
+ "pack": "SA",
+ "drawing": "R6-SA108A",
+ "name": "START_FREEWAY_GREEN_LONG",
+ "legend": "START FREEWAY",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "radius": 100,
+ "ground": "green",
+ "edge": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  430,
+  766,
+  1373,
+  1243
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "START",
+   "series": "E",
+   "height": 140,
+   "top": 120,
+   "colour": "white",
+   "expect": 645
+  },
+  {
+   "type": "text",
+   "text": "FREEWAY",
+   "series": "E",
+   "height": 140,
+   "top": 340,
+   "colour": "white",
+   "expect": 980
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R6-SA108A (1200 x 600) illustrated (B 1800 x 900), 2015, 1:10; R100, green ground with a 24 white edge, no border. START 140 E white, baseline 260 (top 120), ink 645 (277/645/278); second line 140 C, baseline 480 (top 340), 120 below: EXPRESSWAY ink 972 (114/972/114). The sheet also draws the alternative word FREEWAY 140 E ink 980 (110/980/110) — generated as its own file R6-SA108A_FREEWAY (same layout). This file: the FREEWAY alternative."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "R4-SA109",
+ "pack": "SA",
+ "name": "END_30_AREA_WHITE_WIDE",
+ "legend": "END 30 AREA",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  416,
+  864,
+  1362,
+  1180
+ ],
+ "folder": "Speed Signs/End",
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 55,
+   "top": 75,
+   "expect": 131,
+   "align": "left",
+   "x": 25
+  },
+  {
+   "type": "annulus",
+   "cx": 272,
+   "cy": 100,
+   "r_outer": 90,
+   "r_inner": 75,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "D",
+   "height": 80,
+   "top": 60,
+   "cx": 272
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 55,
+   "top": 75,
+   "expect": 187,
+   "align": "left",
+   "x": 388
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R4-SA109 600 x 200 (2026 sheet, 1:5), R50, white class 400, no border. One line: END 55 D, baseline 130 (chain 130/70) -> top 75, ink 131 from x 25 (131 and 187 are the Series D widths at 55, confirming the sheet's '55 D' is END / AREA and its '80 D' the ring numeral); black ring outer dia 180 (R90), ring 15 (inner R75), centre x 272 (chain 25/131/26/180/26/187/25 = 600), centre y 100; 30 80 D centred in the ring (60/80/60 -> top 60); AREA 55 D ink 187 from x 388. Single value 30 (sheet title 'End 30 Area', register: refer to R4-13)."
+}

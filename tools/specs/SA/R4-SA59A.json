@@ -1,0 +1,90 @@
+{
+ "code": "R4-SA59A",
+ "pack": "SA",
+ "name": "END_SCHOOL_ZONE_{speed}_WHITE_TALL",
+ "legend": "END SCHOOL ZONE {speed}",
+ "shape": "rect",
+ "size": [
+  450,
+  900
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  630,
+  443,
+  1340,
+  1861
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   50,
+   60,
+   80
+  ]
+ },
+ "folder": "Speed Signs/End",
+ "elements": [
+  {
+   "type": "panel",
+   "x": 5,
+   "y": 5,
+   "w": 440,
+   "h": 290,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 15,
+   "y": 15,
+   "w": 420,
+   "h": 270,
+   "radius": 35,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 50,
+   "top": 45,
+   "expect": 142
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 50,
+   "top": 125,
+   "expect": 255
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 50,
+   "top": 205,
+   "expect": 165
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 600,
+   "r_outer": 220,
+   "r_inner": 150,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "C",
+   "height": 200,
+   "top": 500,
+   "cx": 225
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R4-SA59A (450 x 900) illustrated (B 600 x 1200), R50, white ground, no outer border. END SCHOOL ZONE panel across the top: black border 10 inside a 5 white edge (sheet 5 / 15), outer 5..295 tall and the full width (R50 sign corners, R45 border, R35 inner), no edge below it (border 285-295, then the sign's white). END 50 E top 45 (95/50/80/50/80/40 chain of baselines 95, 175, 255; bottom 40), SCHOOL 50 D top 125, ZONE 50 D top 205; widths END 142 (154/142/154), SCHOOL 255 (97/255/98), ZONE 165 (142/165/143) — the sheet lists the three width chains bottom line first; the Series E/D widths confirm the order. Below: 85 gap, red annulus outer dia 440 (5 margins; 295 + 85 + 440 + 80 = 900): centre (225, 600), R220 / R150 (inner dia 300: 75/300/75). Speed numerals 200 C for two numerals (and 110), 200 B for three numerals — centred in the ring (dashed box measured 500-700 on the sheet, 120 above and below; the sheet's '185' beside the ring is not matched by the drawing). Generated at 40, 50, 60, 80 (two numerals, Series C); 100 / 110 would need Series B / C at 200 and are not generated. Pack rule: state signs only, no AS 1743 code redrawn."
+}

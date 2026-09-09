@@ -1,0 +1,7 @@
+{
+ "code": "R2-SA61",
+ "pack": "SA",
+ "drawing": "R2-SA61",
+ "legend": "RIGHT TURN FROM LEFT ONLY / ADELAIDE METRO BUSES ONLY",
+ "skip": "composite 300 x 700 of 'R2-21AA (modified)' (hook-turn panel, 395 tall) and 'R6-SA67 (modified)' (295 tall) with no letter sizes, panel geometry or symbol dimensions on the sheet beyond the 9 / 3 edge and the two panel heights; needs the R2-21 national spec adapted plus the R6-SA67 sheet — not readable accurately from this sheet alone"
+}

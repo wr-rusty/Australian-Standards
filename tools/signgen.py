@@ -51,7 +51,15 @@ PACKS = {"NSW": {"out": os.path.join(ROOT, "Processing", "Australia", "NSW", "SV
          "QLD": {"out": os.path.join(ROOT, "Processing", "Australia", "QLD", "SVGs (generated)"),
                  "png": os.path.join(ROOT, "Processing", "Australia", "QLD", "Original PNGs"),
                  "pdf": os.path.join(ROOT, "Processing", "Australia", "QLD", "Original PDFs"),
-                 "credit": "\u00a9 State of Queensland (Department of Transport and Main Roads), CC BY 4.0"}}
+                 "credit": "\u00a9 State of Queensland (Department of Transport and Main Roads), CC BY 4.0"},
+         # SA: DIT Standard Road Sign Index, one PDF per register row (REGISTER.csv: codes -> local); PNGs are rendered by the
+         # first code on the sheet (R2-SA51-1A.png) and specs name their sheet with "drawing". Sheets are outlined (no text),
+         # sizes from the register, see the pack's SOURCES.md.
+         "SA": {"out": os.path.join(ROOT, "Processing", "Australia", "SA", "SVGs (generated)"),
+                "png": os.path.join(ROOT, "Processing", "Australia", "SA", "Original PNGs"),
+                "pdf": os.path.join(ROOT, "Processing", "Australia", "SA", "Original PDFs"),
+                "register": os.path.join(ROOT, "Processing", "Australia", "SA", "REGISTER.csv"),
+                "credit": "\u00a9 Government of South Australia (Department for Infrastructure and Transport), CC BY 3.0 AU"}}
 def out_root(spec):
     """Where a spec's SVGs go: the AS 1743 pack unless the spec names another pack."""
     return PACKS[spec["pack"]]["out"] if spec.get("pack") else OUT_ROOT
@@ -233,7 +241,8 @@ def build(spec, values, hand=None):
             out.append(f'    <path fill="{colour}" d="{rounded_rect_path(el["x"], el["y"], el["w"], el["h"], el.get("radius", 0))}"/>')
         elif t == "path":    # raw path in mm coordinates (hand-entered geometry, e.g. bars, stripes)
             tr = f' transform="translate({fmt(W)} 0) scale(-1 1)"' if mirror and el.get("mirror", True) else ""
-            out.append(f'    <path fill="{colour}" d="{el["d"]}"{tr}/>')
+            fr = ' fill-rule="evenodd"' if el.get("fill_rule") == "evenodd" else ""   # paths with holes taken from a plan's own vectors
+            out.append(f'    <path fill="{colour}"{fr} d="{el["d"]}"{tr}/>')
         elif t == "polygon":
             pts = el["points"]
             if mirror and el.get("mirror", True): pts = [(W - x, y) for x, y in pts]

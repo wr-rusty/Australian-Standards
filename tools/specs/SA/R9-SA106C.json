@@ -1,0 +1,71 @@
+{
+ "code": "R9-SA106C",
+ "pack": "SA",
+ "name": "OVER_{mass}_t_WHITE_LONG",
+ "legend": "OVER {mass} t",
+ "shape": "rect",
+ "size": [
+  1800,
+  1050
+ ],
+ "ground": "white",
+ "radius": 150,
+ "edge": {
+  "colour": "white",
+  "width": 24
+ },
+ "border": {
+  "colour": "black",
+  "width": 48
+ },
+ "panel_px": [
+  444,
+  652,
+  1390,
+  1204
+ ],
+ "drawing": "R9-SA106B",
+ "vary": {
+  "key": "mass",
+  "values": [
+   "4.5",
+   "8",
+   "12",
+   "15",
+   "22.5"
+  ]
+ },
+ "drawn_value": "12",
+ "elements": [
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "E",
+   "height": 240,
+   "top": 215,
+   "expect": 919
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{mass}",
+     "series": "E",
+     "height": 240
+    },
+    {
+     "text": "t",
+     "series": "E",
+     "height": 200
+    }
+   ],
+   "gap": 100,
+   "top": 595,
+   "expect": [
+    null,
+    92
+   ]
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border (6 / 18 = edge 6 + border 12), as the AS 1743 drawings. Sheet R9-SA106 (1:15): R9-SA106C 1800 x 1050 illustrated (B 1200 x 700 also; register lists B first, PNG R9-SA106B.png), R150, 24 / 72 (edge 24 + border 48). OVER 240 E, baseline 455 (top 215), ink 919 (440/919/441). Line 2 baseline 835 (455 + 380): mass numerals 240 E ('Varies', dashed box) then 100 gap and lower-case t '200 E(lc)' 92 wide, the line centred ('=' both sides). The t is Series E lower case at cap height 200 (the FHWA Series E t at 200 is 92 wide, as the sheet states); its baseline is the numerals' baseline. The sheet gives no example mass: generated at 4.5, 8, 12, 15 and 22.5 t (gross-mass thresholds used on Australian load-limit plates; not confirmed against SA practice — add or drop values as needed). Only with R6-28; TASS to be contacted before use."
+}

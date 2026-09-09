@@ -1,0 +1,73 @@
+{
+ "code": "R8-SA100",
+ "pack": "SA",
+ "name": "PEDESTRIAN_CYCLIST_HORSE_WHITE_TALL",
+ "legend": "(pedestrian, bicycle and horse-rider symbols)",
+ "shape": "rect",
+ "size": [
+  300,
+  675
+ ],
+ "ground": "white",
+ "radius": 25,
+ "edge": {
+  "colour": "white",
+  "width": 4
+ },
+ "border": {
+  "colour": "black",
+  "width": 8
+ },
+ "symbols": {
+  "sa_r8-sa100_horse_rider": {
+   "source": "R8-SA100",
+   "pack": "SA",
+   "colours": [
+    "black"
+   ],
+   "desc": "horse and rider (AS 1743 WS129 modified), 240 x 220 on the sign",
+   "panel_px": [
+    726,
+    413,
+    1200,
+    1477
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r8-2_pedestrian",
+   "x": 110,
+   "y": 40,
+   "w": 80,
+   "h": 175,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "r8-2_bicycle",
+   "x": 60,
+   "y": 255,
+   "w": 185,
+   "h": 120,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_r8-sa100_horse_rider",
+   "x": 30,
+   "y": 415,
+   "w": 240,
+   "h": 220,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R8-SA100 300 x 675 (DTEI 2010, 1:5), R25, 4 / 12 (edge 4 + border 8). Three symbols stacked, chain 40/175/40/120/40/220/40 = 675: pedestrian 'R8-2 mod' 175 tall in an 80 box (110/80/110) at y 40 — the national R8-2 pedestrian symbol; bicycle 'R8-2 mod' 120 tall, 185 wide (60/185/55) at y 255 — the national R8-2 bicycle symbol; horse and rider 'WS129 mod' 220 tall, 240 wide (30/240/30) at y 415 — traced from this sheet (the AS 1743 WS129 symbol is not in the national set as drawn here). Symbols fitted to the sheet's boxes (aspect kept, centred).",
+ "panel_px": [
+  726,
+  413,
+  1200,
+  1477
+ ]
+}

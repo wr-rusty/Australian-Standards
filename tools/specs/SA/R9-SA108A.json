@@ -1,0 +1,62 @@
+{
+ "code": "R9-SA108A",
+ "pack": "SA",
+ "name": "BUS_LANE_VEHICLES_EXCEPTED_WHITE_SQUARE",
+ "legend": "BUS LANE VEHICLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  510,
+  778,
+  1219,
+  1488
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BUS",
+   "series": "D",
+   "height": 60,
+   "top": 45,
+   "expect": 143
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 60,
+   "top": 145,
+   "expect": 193
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "D",
+   "height": 60,
+   "top": 245,
+   "expect": 364
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 60,
+   "top": 345,
+   "expect": 373
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border (6 / 18 = edge 6 + border 12), as the AS 1743 drawings. R9-SA108A (450 x 450) illustrated (B 600), 2022 sheet, R50, 6 / 18. Four lines 60 D, chain 105/100/100/100/45 (baselines): tops 45, 145, 245, 345. Widths BUS 143 (153/143/154), LANE 193 (128/193/129), VEHICLES 364 (43/364/43), EXCEPTED 373 (38/373/39)."
+}

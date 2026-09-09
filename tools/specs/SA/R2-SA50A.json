@@ -1,0 +1,101 @@
+{
+ "code": "R2-SA50A",
+ "pack": "SA",
+ "name": "LEFT_LANE_MUST_TURN_LEFT_BUSES_BICYCLES_EXCEPTED_WHITE_TALL",
+ "legend": "LEFT LANE MUST TURN LEFT BUSES & BICYCLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  1050
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 7
+ },
+ "border": {
+  "colour": "black",
+  "width": 14
+ },
+ "panel_px": [
+  727,
+  603,
+  1082,
+  1430
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 80,
+   "top": 75,
+   "expect": 276
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 80,
+   "top": 205,
+   "expect": 305
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "E",
+   "height": 80,
+   "top": 335,
+   "expect": 310
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 80,
+   "top": 465,
+   "expect": 307
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 80,
+   "top": 595,
+   "expect": 276
+  },
+  {
+   "type": "text",
+   "words": [
+    "BUSES",
+    "&"
+   ],
+   "gap": 45,
+   "series": "D",
+   "height": 60,
+   "top": 725,
+   "expect": [
+    237,
+    54
+   ]
+  },
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "C",
+   "height": 60,
+   "top": 825,
+   "expect": 307
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 60,
+   "top": 925,
+   "expect": 319
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R2-SA50A (450 x 1050) illustrated (B 600 x 1400), 2015, 1:10; R50, 7 / 21 (edge 7 + border 14). Five lines 80 E at 130 pitch (baselines 155 ... 675): LEFT 276 (87/276/87), LANE 305 (72/305/73), MUST 310 (70/310/70), TURN 307 (71/307/72), LEFT 276; then BUSES & 60 D baseline 785 (57/237/45/54/57), BICYCLES 60 C baseline 885 (71/307/72), EXCEPTED 60 C baseline 985 (65/319/66), 65 below. Tops 75, 205, 335, 465, 595, 725, 825, 925 (measured on the sheet within 1 mm)."
+}

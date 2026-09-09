@@ -1,0 +1,93 @@
+{
+ "code": "R6-SA13",
+ "pack": "SA",
+ "name": "NO_PEDESTRIANS_BICYCLES_ANIMALS_AG_VEHICLES_WHITE_TALL",
+ "legend": "NO PEDESTRIANS BICYCLES ANIMALS AGRICULTURAL VEHICLES BEYOND THIS POINT",
+ "shape": "rect",
+ "size": [
+  1200,
+  1950
+ ],
+ "ground": "white",
+ "radius": 100,
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "E",
+   "height": 160,
+   "top": 145,
+   "expect": 300
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "D",
+   "height": 120,
+   "top": 395,
+   "expect": 1015
+  },
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "D",
+   "height": 120,
+   "top": 605,
+   "expect": 730
+  },
+  {
+   "type": "text",
+   "text": "ANIMALS",
+   "series": "D",
+   "height": 120,
+   "top": 815,
+   "expect": 675
+  },
+  {
+   "type": "text",
+   "text": "AGRICULTURAL",
+   "series": "C",
+   "height": 120,
+   "top": 1025,
+   "expect": 970
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "D",
+   "height": 120,
+   "top": 1235,
+   "expect": 730
+  },
+  {
+   "type": "text",
+   "words": [
+    "BEYOND",
+    "THIS"
+   ],
+   "gap": 92,
+   "series": "D",
+   "height": 120,
+   "top": 1445,
+   "expect": 1025,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "POINT",
+   "series": "D",
+   "height": 120,
+   "top": 1655,
+   "expect": 430
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R6-SA13 1200 x 1950 (2026 sheet, 1:15), R100, 15 / 45 (edge 15 + border 30), white class 400. NO 160 E baseline 305 (top 145), then seven lines 120 at 210 pitch (baselines 515 ... 1775, 175 below): PEDESTRIANS D top 395, BICYCLES D 605, ANIMALS D 815, AGRICULTURAL C 1025, VEHICLES D 1235, BEYOND THIS D 1445, POINT D 1655. Widths NO 300 (450/300/450), PEDESTRIANS 1015 (93/1015/93), BICYCLES 730 (235/730/235), ANIMALS 675 (265/675/260), AGRICULTURAL 970 (115/A 970 L/115), VEHICLES 730, BEYOND THIS 1025 overall (87/B 1025 S/88; word gap not stated, set so the pair spans 1025: 92), POINT 430 (385/430/385). The thin red line inside the border on the sheet is CAD line-work, not a colour (legend: black and white only). Approval required; see also R6-SA101."
+}

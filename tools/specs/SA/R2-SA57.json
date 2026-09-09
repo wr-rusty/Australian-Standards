@@ -1,0 +1,62 @@
+{
+ "code": "R2-SA57",
+ "pack": "SA",
+ "name": "RIGHT_LANE_BUSES_ONLY_WHITE_TALL",
+ "legend": "RIGHT LANE BUSES ONLY",
+ "shape": "rect",
+ "size": [
+  600,
+  750
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  390,
+  373,
+  1336,
+  1556
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "D",
+   "height": 100,
+   "top": 85,
+   "expect": 358
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 100,
+   "top": 245,
+   "expect": 322
+  },
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 100,
+   "top": 405,
+   "expect": 395
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "D",
+   "height": 100,
+   "top": 565,
+   "expect": 339
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R2-SA57 600 x 750 (2015, 1:5), R50, 8 / 24 (edge 8 + border 16). Four lines 100 D, chain 185/160/160/160/85 (baselines): tops 85, 245, 405, 565. Widths RIGHT 358 (121/358/121), LANE 322 (139/322/139) — the sheet's top chains are listed LANE first; the Series D widths settle which is which, BUSES 395 (102/395/103), ONLY 339 (130/339/131)."
+}

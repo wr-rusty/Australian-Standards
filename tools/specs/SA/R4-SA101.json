@@ -1,0 +1,56 @@
+{
+ "code": "R4-SA101",
+ "pack": "SA",
+ "name": "END_{speed}_WHITE_WIDE",
+ "legend": "END {speed}",
+ "shape": "rect",
+ "size": [
+  1200,
+  450
+ ],
+ "ground": "white",
+ "panel_px": [
+  384,
+  703,
+  1330,
+  1058
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   25,
+   40,
+   60
+  ]
+ },
+ "folder": "Speed Signs/End",
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 180,
+   "top": 135,
+   "expect": 510,
+   "align": "left",
+   "x": 120
+  },
+  {
+   "type": "annulus",
+   "cx": 975,
+   "cy": 225,
+   "r_outer": 223,
+   "r_inner": 178,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 180,
+   "top": 135,
+   "cx": 975
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R4-SA101 1200 x 450 (1:10 sheet, 2016), square corners, white class 1, no border. END 180 E, baseline 315 (top 135), ink 510 from x 120 (120/510/570). Black annulus outer R223 / inner R178, centre (975, 225) (975/223/2 chain, 178 inner radius); speed numerals 180 D centred in it (135/180/135). Vehicle-mounted frames for mobile work sites only; 25, 40 or 60 -> generated at 25, 40, 60."
+}

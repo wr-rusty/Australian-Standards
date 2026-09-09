@@ -1,0 +1,93 @@
+{
+ "code": "R2-SA102",
+ "pack": "SA",
+ "name": "{dir}_TURN_GIVE_WAY_TO_PEDESTRIANS_CYCLISTS_WHITE_SQUARE",
+ "legend": "{dir} TURN GIVE WAY TO PEDESTRIANS & CYCLISTS",
+ "shape": "rect",
+ "size": [
+  750,
+  750
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  545,
+  594,
+  1137,
+  1185
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "{dir}",
+    "TURN"
+   ],
+   "gap": 78,
+   "series": "B",
+   "height": 100,
+   "top": 80,
+   "expect": null
+  },
+  {
+   "type": "text",
+   "words": [
+    "GIVE",
+    "WAY",
+    "TO"
+   ],
+   "gap": [
+    76,
+    76
+   ],
+   "series": "B",
+   "height": 100,
+   "top": 245,
+   "expect": 620,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "B",
+   "height": 100,
+   "top": 410,
+   "expect": 580
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "CYCLISTS"
+   ],
+   "gap": 69,
+   "series": "B",
+   "height": 100,
+   "top": 575,
+   "expect": 545,
+   "expect_total": true
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R2-SA102 (L or R) 750 x 750 (2019, 1:10), R50, 10 / 30 (edge 10 + border 20). Four lines 100 B, chain 180/165/165/165/75 (baselines): tops 80, 245, 410, 575. Line widths (whole line): LEFT TURN 485 (130/485/135) or RIGHT TURN 545 (100/545/105), GIVE WAY TO 620 (65/620/65), PEDESTRIANS 580 (85/580/85), & CYCLISTS 545 (100/545/105). Word gaps are not stated: set from the Series B widths so the lines span the sheet's totals — LEFT/TURN gap 78 (188 + 78 + 219 = 485, and RIGHT + 78 + TURN = 545 exactly as the sheet), GIVE/WAY/TO 76 each (620), &/CYCLISTS 69 (545). (L) LEFT TURN, (R) RIGHT TURN, same layout (the sheet draws RIGHT TURN as the alternative first line). Replaces R2-SA10."
+}

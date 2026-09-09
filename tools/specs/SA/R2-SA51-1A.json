@@ -1,0 +1,154 @@
+{
+ "code": "R2-SA51-1A",
+ "pack": "SA",
+ "name": "NO_RIGHT_TURN_7-9_AM_MON-FRI_WHITE_TALL",
+ "legend": "(no right turn) 7 - 9.00 AM MON-FRI",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  589,
+  365,
+  1299,
+  1547
+ ],
+ "symbols": {
+  "r2-6_left_turn_arrow": {
+   "source": "R2-6(L)",
+   "desc": "left-turn arrow: head tip to stem right edge 243, head top (flush with bar top) to stem bottom 250, bar 56, stem 56, R69/R13 elbow",
+   "grid_mm": 22.5,
+   "panel_px": [
+    59,
+    98,
+    324,
+    363
+   ],
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 225,
+   "r_outer": 220,
+   "r_inner": 184,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "r2-6_left_turn_arrow",
+   "x": 136,
+   "y": 122,
+   "w": 243,
+   "h": 250,
+   "colour": "black",
+   "flip": "h"
+  },
+  {
+   "type": "path",
+   "d": "M328.83 73.09L73.09 328.82A184 184 0 0 0 121.18 376.91L376.91 121.17A184 184 0 0 0 328.83 73.09Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M364.23 54.66L54.66 364.23A220 220 0 0 0 85.77 395.34L395.34 85.77A220 220 0 0 0 364.23 54.66Z",
+   "colour": "red"
+  },
+  {
+   "type": "panel",
+   "x": 10.9,
+   "y": 460.8,
+   "w": 428.3,
+   "h": 278.4,
+   "radius": 19.2,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 20.6,
+   "y": 470.4,
+   "w": 408.8,
+   "h": 259.2,
+   "radius": 9.6,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "C",
+   "height": 115.2,
+   "top": 499.2,
+   "align": "left",
+   "x": 52.7
+  },
+  {
+   "type": "rect",
+   "x": 161.7,
+   "y": 551.0,
+   "w": 29.2,
+   "h": 11.5,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "C",
+   "height": 115.2,
+   "top": 499.2,
+   "align": "left",
+   "x": 229.9
+  },
+  {
+   "type": "text",
+   "text": "00",
+   "series": "C",
+   "height": 57.6,
+   "top": 499.2,
+   "align": "right",
+   "x": 395.3
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "D",
+   "height": 43.2,
+   "top": 571.2,
+   "align": "right",
+   "x": 395.3
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 43.2,
+   "top": 657.6,
+   "align": "left",
+   "x": 82.9
+  },
+  {
+   "type": "rect",
+   "x": 230.8,
+   "y": 675.8,
+   "w": 29.2,
+   "h": 7.7,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 43.2,
+   "top": 657.6,
+   "align": "left",
+   "x": 274.6
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R2-SA51-1A (450 x 750) illustrated (AA 300 x 500, B 600 x 1000, C 900 x 1500), 2015, 1:5; R50, white, no outer border. Composite sheet: the sheet dimensions only the assembly and names its parts as AS 1743 signs, so the parts are the national specs — the roundel (R2-6A(R) no right turn, elements copied from tools/specs/R/R2-6 mirrored for the (R) hand.json, its 440 ring at the sheet's 5 margin) and the times panel R9-1-1A (AS 1743 times of operation, one period, the national spec's layout scaled into the sheet's 438 x 288 box at x 6, y 456: border and edge as panels, letter heights and positions scaled). Vertical chain 5 / 440 (roundel) / 11 / 288 (panel) / 6 = 750; panel 6/438/6 across. The sheet's panel reads 7 - 9 00 AM MON-FRI (00 where the national R9-1-1 drawing shows 30) — drawn as the sheet. Times are the example; the R9-1-1 layout is the national one (its width figures not re-checked here)."
+}

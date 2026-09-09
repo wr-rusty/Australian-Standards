@@ -1,0 +1,102 @@
+{
+ "code": "R4-SA102",
+ "pack": "SA",
+ "name": "{speed}_9_30_AM_-_4_PM_WHITE_TALL",
+ "legend": "{speed} 9.30 AM - 4 PM",
+ "shape": "rect",
+ "size": [
+  450,
+  650
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  481,
+  436,
+  1191,
+  1460
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   25,
+   40,
+   50,
+   60
+  ]
+ },
+ "drawn_value": 40,
+ "folder": "Speed Signs/Normal Speed Signs",
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 250,
+   "r_outer": 220,
+   "r_inner": 190,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 180,
+   "top": 160,
+   "cx": 225
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "D",
+   "height": 100,
+   "top": 520,
+   "align": "left",
+   "x": 29
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "D",
+   "height": 50,
+   "top": 520,
+   "align": "left",
+   "x": 108
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "D",
+   "height": 40,
+   "top": 580,
+   "align": "right",
+   "x": 187
+  },
+  {
+   "type": "rect",
+   "x": 215,
+   "y": 564,
+   "w": 30,
+   "h": 12,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "D",
+   "height": 100,
+   "top": 520,
+   "align": "left",
+   "x": 272
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "D",
+   "height": 40,
+   "top": 580,
+   "align": "left",
+   "x": 356
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R4-SA102 450 x 650 (2017; sheet says 1:10 but is drawn 1:5), R50, white, no border. Red annulus: 30 top margin, ring 30 wide (chain 30/30/280/130/150/30 = 650): outer dia 440 (R220, 5 side margins), inner R190, centre (225, 250); speed numerals 180 D, baseline 340 (60 + 280), top 160, centred. Times line in the 150 band (470-620): 9 and 4 100 D, 30 50 D, AM and PM 40 D, '395 max.' wide and centred ('=' margins) — the sheet gives no horizontal positions, so they are measured on the drawing (1:5, +-1 mm): 9 x 29-97, 30 x 108-187 top-aligned with the 9 (top 520), AM under it on the baseline 620 (top 580) right-aligned at 187, dash 30 x 12 at x 215 y 564, 4 x 272-346, PM x 356-420 (top 580). Numerals top 520, baseline 620 (30 below). Times are the sheet's example ('Times may vary ... specify when ordering'). Speed 40 shown; generated at 25, 40, 50, 60."
+}

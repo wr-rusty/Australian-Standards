@@ -1,0 +1,102 @@
+{
+ "code": "R6-SA104",
+ "pack": "SA",
+ "name": "ALL_SKATERS_PROHIBITED_WHITE_TALL",
+ "legend": "(no skating symbol) ALL SKATERS PROHIBITED",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "ground": "white",
+ "radius": 25,
+ "panel_px": [
+  424,
+  382,
+  779,
+  856
+ ],
+ "symbols": {
+  "sa_r6-sa104_skater": {
+   "source": "R6-SA104",
+   "pack": "SA",
+   "panel_px": [
+    424,
+    382,
+    779,
+    856
+   ],
+   "colours": [
+    "black"
+   ],
+   "desc": "skateboard (112 x 25, R2.5 ends, two 16 wheels at 31/50/31) over an in-line skate boot (86 x 60, R5/R7, three 16 wheels at 14/29/29/14), per the sheet's symbol details"
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 112.5,
+   "cy": 95,
+   "r_outer": 90,
+   "r_inner": 75,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_r6-sa104_skater",
+   "x": 57,
+   "y": 57,
+   "w": 112,
+   "h": 96.5,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M170.61 26.28L43.78 153.11A90 90 0 0 1 54.39 163.72L181.22 36.89A90 90 0 0 1 170.61 26.28Z",
+   "colour": "red"
+  },
+  {
+   "type": "panel",
+   "x": 2,
+   "y": 190,
+   "w": 221,
+   "h": 108,
+   "radius": 23,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 5,
+   "y": 193,
+   "w": 215,
+   "h": 102,
+   "radius": 20,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "ALL",
+   "series": "E",
+   "height": 20,
+   "top": 205,
+   "expect": 57
+  },
+  {
+   "type": "text",
+   "text": "SKATERS",
+   "series": "E",
+   "height": 20,
+   "top": 235,
+   "expect": 133
+  },
+  {
+   "type": "text",
+   "text": "PROHIBITED",
+   "series": "E",
+   "height": 20,
+   "top": 265,
+   "expect": 172
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R6-SA104 225 x 300 (2015, 1:5), R25, white, no outer border. Red annulus outer dia 180 (23/180/23 -> centre x 112.5; 5 top margin -> centre y 95), ring 15 (inner R75), red slash 15 wide at 45 deg from upper right to lower left (annulus detail), ends on the outer circle, drawn over the symbol (no white gap on the sheet). Symbol per the sheet's SYMBOL DETAILS: skateboard 112 x 25 (x 57-169: 34 + 23 from the ring's left) at y 57 (5 + 52), 11 gap, rollerblade 86 x 60 (x 70-156: 13 in from the skateboard ends) at y 93; wheels 16 dia — traced from the sheet as one black symbol (box x 57, y 57, 112 x 96.5, the measured ink). Bottom panel: black border 3 inside a 2 white edge (sheet 3 / 5; outer edge measured 2 from the sign edge), y 190-298 (5 + 180 + 5 gap; 35/30/30/15 chain of baselines 225, 255, 285), corner radius not stated (R23 / R20 used); ALL / SKATERS / PROHIBITED 20 E, tops 205, 235, 265, widths 57 (84/57/84), 133 (46/133/46), 172 (26/172/27). Approval required."
+}

@@ -1,0 +1,53 @@
+{
+ "code": "R9-SA56",
+ "pack": "SA",
+ "name": "SAT-SUN_WHITE_WIDE",
+ "legend": "SAT - SUN",
+ "shape": "rect",
+ "size": [
+  450,
+  150
+ ],
+ "ground": "white",
+ "radius": 25,
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  459,
+  887,
+  1168,
+  1124
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "SAT",
+    "SUN"
+   ],
+   "gap": 73,
+   "series": "C",
+   "height": 75,
+   "top": 37,
+   "expect": [
+    139,
+    155
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 198,
+   "y": 70,
+   "w": 38,
+   "h": 10,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border (6 / 18 = edge 6 + border 12), as the AS 1743 drawings. R9-SA56 450 x 150 (one size), R25, 6 / 16 (edge 6 + border 10). SAT-SUN 75 C, top 37 (37/75/38), ink 366 (42/366/42). The dash is a spaced bar, not the AS 1744 hyphen: measured on the sheet SAT 42-181 (139), bar 198-236 (38 wide, y 70-80), SUN 254-409 (155); drawn as two words 73 apart with a 38 x 10 bar at x 198 (SAT and SUN widths are the Series C font's, 139 / 155)."
+}

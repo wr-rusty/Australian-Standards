@@ -1,0 +1,186 @@
+{
+ "code": "R4-SA105B",
+ "pack": "SA",
+ "name": "SCHOOL_{speed}_8-9_30_AM_2-4_PM_SCHOOL_DAYS_WHITE_TALL",
+ "legend": "SCHOOL {speed} 8 - 9.30 AM 2 - 4 PM SCHOOL DAYS",
+ "shape": "rect",
+ "size": [
+  600,
+  1800
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  694,
+  370,
+  1010,
+  1316
+ ],
+ "drawing": "R4-SA105A",
+ "vary": {
+  "key": "speed",
+  "values": [
+   40
+  ]
+ },
+ "drawn_value": 40,
+ "folder": "Speed Signs/Normal Speed Signs",
+ "elements": [
+  {
+   "type": "panel",
+   "x": 5,
+   "y": 5,
+   "w": 590,
+   "h": 240,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 15,
+   "y": 15,
+   "w": 570,
+   "h": 220,
+   "radius": 35,
+   "colour": "yellowgreen"
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 100,
+   "top": 75,
+   "expect": 510
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 600,
+   "r_outer": 297,
+   "r_inner": 237,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "D",
+   "height": 240,
+   "top": 480,
+   "cx": 300
+  },
+  {
+   "type": "panel",
+   "x": 5,
+   "y": 955,
+   "w": 590,
+   "h": 840,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 15,
+   "y": 965,
+   "w": 570,
+   "h": 820,
+   "radius": 35,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "8",
+   "series": "C",
+   "height": 160,
+   "top": 1020,
+   "align": "left",
+   "x": 85
+  },
+  {
+   "type": "rect",
+   "x": 214,
+   "y": 1092,
+   "w": 40,
+   "h": 15,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "C",
+   "height": 160,
+   "top": 1020,
+   "align": "left",
+   "x": 293
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "D",
+   "height": 80,
+   "top": 1020,
+   "align": "right",
+   "x": 515
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "D",
+   "height": 60,
+   "top": 1121,
+   "align": "right",
+   "x": 515
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "series": "C",
+   "height": 160,
+   "top": 1230,
+   "align": "left",
+   "x": 85
+  },
+  {
+   "type": "rect",
+   "x": 214,
+   "y": 1303,
+   "w": 40,
+   "h": 15,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "C",
+   "height": 160,
+   "top": 1230,
+   "align": "left",
+   "x": 295
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "D",
+   "height": 60,
+   "top": 1331,
+   "align": "right",
+   "x": 515
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "C",
+   "height": 110,
+   "top": 1450,
+   "expect": 475
+  },
+  {
+   "type": "text",
+   "text": "DAYS",
+   "series": "C",
+   "height": 110,
+   "top": 1615,
+   "expect": 295
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet R4-SA105 (1:15): R4-SA105B 600 x 1800 illustrated (A 450 x 1350 also; the register lists A first, PNG R4-SA105A.png), R50, white class 400, no outer border. R4-SA105 is the 40 km/h school speed limit (2024).  Three parts: (1) SCHOOL panel, black border 10 inside the 5 white edge (sheet 15 / 5), outer 5..245 tall, full width (R45 / R35), fluorescent yellow-green ground; SCHOOL 100 D baseline 175 (top 75), ink 510 (45/510/45). (2) Red annulus centre (300, 600) (175 + 425), outer R297, inner R237 (the sheet's 297 / 237 from the centre line; ring 60, 3 margins); speed 240 D centred (245/235/240/235 chain -> top 480). (3) Times panel 955..1795 (845 tall, 5 edge), black border 10, R45 / R35, white: line 1 8 - 9 30/AM: 8 and 9 160 C, top 1020 (65 below the panel top), baseline 1180; dash 40 x 15 at x 214 y 1092; 30 80 D top-aligned with the numerals (top 1020) and AM 60 D on the baseline (top 1121), both right-aligned at 515; line 2 2 - 4 PM: top 1230 (210 chain), dash y 1303, PM 60 D top 1331 right at 515; SCHOOL 110 C top 1450 (170 chain) ink 475 (65/475/60); DAYS 110 C top 1615 (165 chain, 75 below) ink 295 (150/295/155). Horizontal positions of the time fragments are measured on the sheet (8 x 85-174, dash 214-254, 9 x 293-382, 30/AM right edge 515, 2 x 85, 4 x 295-392, PM x 418-515); the sheet's 40/520/40 and 45/515/40 chains match nothing drawn and are ignored. Times are the sheet's example. Approval required (OI 4.13)."
+}

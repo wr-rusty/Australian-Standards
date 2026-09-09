@@ -1,0 +1,121 @@
+{
+ "code": "R9-SA57A",
+ "pack": "SA",
+ "name": "8-9_AM_3-4_PM_SCHOOL_DAYS_WHITE_SQUARE",
+ "legend": "8 - 9 AM 3 - 4 PM SCHOOL DAYS",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 4
+ },
+ "border": {
+  "colour": "black",
+  "width": 8
+ },
+ "panel_px": [
+  557,
+  776,
+  1266,
+  1486
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "8",
+   "series": "C",
+   "height": 120,
+   "top": 40,
+   "expect": 67,
+   "align": "left",
+   "x": 48
+  },
+  {
+   "type": "rect",
+   "x": 161,
+   "y": 94,
+   "w": 30,
+   "h": 12,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "C",
+   "height": 120,
+   "top": 40,
+   "expect": 74,
+   "align": "left",
+   "x": 232
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "D",
+   "height": 45,
+   "top": 115,
+   "expect": 72,
+   "align": "right",
+   "x": 401
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "C",
+   "height": 120,
+   "top": 200,
+   "expect": 67,
+   "align": "left",
+   "x": 48
+  },
+  {
+   "type": "rect",
+   "x": 161,
+   "y": 254,
+   "w": 30,
+   "h": 12,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "C",
+   "height": 120,
+   "top": 200,
+   "expect": 67,
+   "align": "left",
+   "x": 232
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "D",
+   "height": 45,
+   "top": 275,
+   "expect": 80,
+   "align": "right",
+   "x": 402
+  },
+  {
+   "type": "text",
+   "words": [
+    "SCHOOL",
+    "DAYS"
+   ],
+   "gap": 35,
+   "series": "C",
+   "height": 45,
+   "top": 360,
+   "expect": [
+    194,
+    120
+   ]
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border (6 / 18 = edge 6 + border 12), as the AS 1743 drawings. R9-SA57A (450 x 450) illustrated (B 600, C 900, D 1200), 4 / 12 (edge 4 + border 8); corner radius not stated on the sheet, drawn as the other 450 squares (R50). Laid out like the national R9-1-2 (times of operation). Line 1 120 C top 40 (band 160): 48|67|46|30|41|74|23|72|49, dash 30 x 12 at y 94-106; AM 45 D on the numeral baseline (top 115), right at 401. Line 2 120 C top 200 (band 160-320): 48|67|46|30|41|67|23|80|48, dash y 254-266; PM 45 D top 275, right at 402. SCHOOL DAYS 45 C top 360 (band 320-405, 45 below): 50|194|35|120|51. Times are the sheet's example (8-9 AM, 3-4 PM); other times are lettered to order. Width check: the sheet's line-1 figures 74 (9) and 72 (AM) and line-2 figures 67 (4) and 80 (PM) are exchanged relative to AS 1744 (9 = 67, 4 = 74, AM = 80, PM = 73, as the national R9-1-2 dimensions them) — the sheet's figures are kept as expect, generated with the font widths."
+}

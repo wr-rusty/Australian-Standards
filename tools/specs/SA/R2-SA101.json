@@ -1,0 +1,156 @@
+{
+ "code": "R2-SA101",
+ "pack": "SA",
+ "name": "NO_ENTRY_EMERGENCY_MAINTENANCE_VEHICLES_EXCEPTED_GATE_{gate}_WHITE_LONG",
+ "legend": "NO ENTRY / EMERGENCY & MAINTENANCE VEHICLES EXCEPTED / GATE {gate}",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  510,
+  627,
+  1220,
+  1101
+ ],
+ "vary": {
+  "key": "gate",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "drawn_value": 1,
+ "elements": [
+  {
+   "type": "circle",
+   "cx": 225,
+   "cy": 225,
+   "r": 220,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 37.5,
+   "y": 187.5,
+   "w": 375,
+   "h": 75,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 75,
+   "top": 82.5,
+   "colour": "white",
+   "cx": 225
+  },
+  {
+   "type": "text",
+   "text": "ENTRY",
+   "series": "D",
+   "height": 75,
+   "top": 292.5,
+   "colour": "white",
+   "cx": 225
+  },
+  {
+   "type": "panel",
+   "x": 461.8,
+   "y": 11.8,
+   "w": 426.3,
+   "h": 426.3,
+   "radius": 42.8,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 473.5,
+   "y": 23.5,
+   "w": 403.0,
+   "h": 403.0,
+   "radius": 31.1,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "EMERGENCY",
+    "&"
+   ],
+   "gap": 34.1,
+   "series": "C",
+   "height": 43.8,
+   "top": 64.4,
+   "cx": 675.0
+  },
+  {
+   "type": "text",
+   "text": "MAINTENANCE",
+   "series": "C",
+   "height": 43.8,
+   "top": 156.9,
+   "cx": 675.0
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "C",
+   "height": 43.8,
+   "top": 249.3,
+   "cx": 675.0
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 43.8,
+   "top": 341.8,
+   "cx": 675.0
+  },
+  {
+   "type": "panel",
+   "x": 234.9,
+   "y": 459.7,
+   "w": 430.2,
+   "h": 130.7,
+   "radius": 18.7,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 244.7,
+   "y": 469.0,
+   "w": 410.7,
+   "h": 112.0,
+   "radius": 9.3,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "GATE",
+     "series": "B",
+     "height": 74.7
+    },
+    {
+     "text": "{gate}",
+     "series": "B",
+     "height": 74.7
+    }
+   ],
+   "gap": 56.0,
+   "top": 487.7,
+   "cx": 450.0
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R2-SA101 900 x 600 (Transport SA, 2002, 1:10), R50, white, no outer border. Composite of three signs named on the sheet: R2-4A NO ENTRY (national spec's elements as they are: disc 440 dia at the 5 margin, x 5-445, y 5-445), R9-SA54A EMERGENCY & MAINTENANCE VEHICLES EXCEPTED fitted into 438 x 438 at x 456, y 6 (chain 5/440/11/438/6 across; the SA spec's layout scaled 438/450), and G6-SA101A GATE (its own sheet: 450 x 150, R25, 5 / 15, GATE 80 B ink 163 then 60 gap and an 80 B gate numeral, the pair centred, baseline 115) fitted into 440 x 140 at x 230, y 455 (chain 5/440/10/140/5 down, 230/440/230 across). Gate number varies: generated 1-5. The NO / ENTRY lines are centred on the disc (cx 225), not the 900 sign; the national R2-4 width figure for NO (116, 4 % under the font) is not re-checked here."
+}
