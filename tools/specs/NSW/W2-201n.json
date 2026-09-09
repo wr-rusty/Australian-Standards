@@ -1,0 +1,56 @@
+{
+ "code": "W2-201n",
+ "pack": "NSW",
+ "name": "T_JUNCTION_DUAL_CARRIAGEWAY_YELLOW_DIAMOND",
+ "legend": "(T junction with dual carriageway arrows)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 1,
+ "panel_px": [
+  1700,
+  591,
+  2372,
+  1262
+ ],
+ "symbols": {
+  "nsw_w2-201n_t_dual": {
+   "source": "W2-201n",
+   "pack": "NSW",
+   "which": 1,
+   "panel_px": [
+    1700,
+    591,
+    2372,
+    1262
+   ],
+   "inset": 0,
+   "desc": "T-junction symbol with a right arrow above and a left arrow below the stem, 702 x 722 (symbol detail on the sheet's 36 grid: bar 660, head 210, stem 192 wide)",
+   "grid_mm": 36
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w2-201n_t_dual",
+   "x": 286,
+   "y": 344,
+   "w": 702,
+   "h": 722,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 702 x 722 at 286 / 344 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (C) generated (B 750 also on the sheet)."
+}

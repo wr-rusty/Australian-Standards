@@ -1,0 +1,60 @@
+{
+ "code": "W5-231n",
+ "pack": "NSW",
+ "name": "QUEUED_TRAFFIC_YELLOW_DIAMOND",
+ "legend": "(three queued cars, red brake lights)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2116,
+  346,
+  2794,
+  1023
+ ],
+ "symbols": {
+  "nsw_w5-231n_queued_cars": {
+   "source": "W5-231n",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2116,
+    346,
+    2794,
+    1023
+   ],
+   "inset": 0,
+   "desc": "three queued cars seen from behind with Cl.400 red brake lights, 616 x 428 (symbol detail on the sheet's 45 grid)",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "grid_mm": 45
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w5-231n_queued_cars",
+   "x": 355,
+   "y": 423,
+   "w": 616,
+   "h": 428,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 616 x 428 at 355 / 423 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (C) generated (A 600, B 750 also on the sheet); black and red layers."
+}

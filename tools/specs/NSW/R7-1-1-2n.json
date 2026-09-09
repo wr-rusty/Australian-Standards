@@ -1,0 +1,191 @@
+{
+ "code": "R7-1-1-2n",
+ "pack": "NSW",
+ "name": "BUS_LANE_{t}_MON-FRI_WHITE_TALL",
+ "legend": "BUS LANE {t} MON-FRI",
+ "shape": "rect",
+ "size": [
+  750,
+  890
+ ],
+ "radius": 90,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "hands": [
+  "AM",
+  "PM"
+ ],
+ "drawn_hand": "AM",
+ "hand_values": {
+  "AM": {
+   "t": "6-10AM"
+  },
+  "PM": {
+   "t": "3-7PM"
+  }
+ },
+ "symbols": {
+  "nsw_bus_side": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "grid_mm": 10,
+   "desc": "bus, side view facing left, 457 x 146 (symbol detail on the sheet's 10 grid); windows and wheels white"
+  },
+  "nsw_bus_b_r150": {
+   "source": "R7-8-1n",
+   "pack": "NSW",
+   "colours": [
+    "red"
+   ],
+   "desc": "red 'B' blob 150 x 150, sides R150, white B"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_bus_b_r150",
+   "x": 64,
+   "y": 95,
+   "w": 150,
+   "h": 150,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_bus_side",
+   "x": 248,
+   "y": 100,
+   "w": 438,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 120,
+   "top": 326,
+   "expect": 461
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 120,
+   "top": 536,
+   "expect": 97,
+   "align": "left",
+   "x": 103,
+   "hand": "AM"
+  },
+  {
+   "type": "rect",
+   "x": 275,
+   "y": 588,
+   "w": 43,
+   "h": 24,
+   "colour": "black",
+   "hand": "AM"
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "series": "E",
+   "height": 120,
+   "top": 536,
+   "expect": 164,
+   "align": "left",
+   "x": 393,
+   "hand": "AM"
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 35,
+   "top": 621,
+   "expect": 75,
+   "align": "left",
+   "x": 572,
+   "hand": "AM"
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "E",
+   "height": 120,
+   "top": 536,
+   "expect": 97,
+   "align": "left",
+   "x": 146,
+   "hand": "PM"
+  },
+  {
+   "type": "rect",
+   "x": 315,
+   "y": 588,
+   "w": 43,
+   "h": 24,
+   "colour": "black",
+   "hand": "PM"
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 120,
+   "top": 536,
+   "expect": 97,
+   "align": "left",
+   "x": 425,
+   "hand": "PM"
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 35,
+   "top": 621,
+   "expect": 67,
+   "align": "left",
+   "x": 537,
+   "hand": "PM"
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 70,
+   "top": 716,
+   "expect": 213,
+   "align": "left",
+   "x": 135
+  },
+  {
+   "type": "rect",
+   "x": 378,
+   "y": 746,
+   "w": 60,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 70,
+   "top": 716,
+   "expect": 147,
+   "align": "left",
+   "x": 468
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:10). 750 x 890. 'B' 150 square at 64 / 95 (R150), bus 438 x 140 at 248 / 100 (64/150/34/438/64; 100/140/86/120/90/120/60/70/104 down). LANE 120 E top 326 (144/461/145); times line top 536; MON-FRI top 716. Times are the sheet's example ('times may vary, this is an example only'): 6 - 10 AM / 3 - 7 PM in 120 E with AM / PM 35 E on the baseline (24 / 52: dash 24 deep, 52 below the numerals' top), 544 box at 103 / 103; MON-FRI 70 E with a 60 x 14 dash 30 below the cap top (135 / 213 / 30 / 60 / 30 / 147 / 135). Generated twice, the AM example and the PM example ('AM or PM' sign), as (AM) / (PM). White edge 10, black border 20 (10 / 20 at the corner; measured 10 / 23), R90. 'B' symbol Cl.400 white on Cl.400 red, bus black, both traced from the sheet's sign."
+}

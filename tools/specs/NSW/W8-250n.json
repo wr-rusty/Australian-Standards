@@ -1,0 +1,69 @@
+{
+ "code": "W8-250n",
+ "pack": "NSW",
+ "name": "CROSS_TRACKS_AT_90_DEGREES_YELLOW_LONG",
+ "legend": "CROSS TRACKS AT 90 DEGREES",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "which": 2,
+ "panel_px": [
+  2129,
+  545,
+  2925,
+  1075
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "CROSS",
+    "TRACKS"
+   ],
+   "gap": 31,
+   "series": "C",
+   "height": 65,
+   "top": 57,
+   "expect": [
+    224,
+    263
+   ]
+  },
+  {
+   "type": "text",
+   "text": "AT",
+   "series": "C",
+   "height": 65,
+   "top": 167,
+   "expect": 78
+  },
+  {
+   "type": "text",
+   "words": [
+    "90",
+    "DEGREES"
+   ],
+   "gap": 39,
+   "series": "C",
+   "height": 65,
+   "top": 277,
+   "expect": [
+    84,
+    310
+   ]
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (C) 600 x 400 generated (A 300 x 200, B 450 x 300 also on the sheet), R40, yellow edge 5, black border 10 (5 / 10; measured 5 / 11). CROSS TRACKS / AT / 90 DEGREES 65 C tops 57 / 167 / 277 (57/65/45/65/45/65/58), 41/224/31/263/41, 261/78/261, 83/84/39/310/84. Used with W6-10."
+}

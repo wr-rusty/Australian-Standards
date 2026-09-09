@@ -1,0 +1,68 @@
+{
+ "code": "W7-12-1n",
+ "pack": "NSW",
+ "name": "RAIL_CROSSING_SIDE_ROAD_{dir}_OBLIQUE_YELLOW_DIAMOND",
+ "legend": "(T junction with an oblique rail crossing, {dir})",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2199,
+  211,
+  2876,
+  888
+ ],
+ "symbols": {
+  "nsw_w7-12-1n_rail_oblique_l": {
+   "source": "W7-12-1n(L)",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2199,
+    211,
+    2876,
+    888
+   ],
+   "inset": 0,
+   "desc": "T-junction stem with an oblique railway track across it, 657 x 756 (symbol detail on the sheet's 60 grid)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w7-12-1n_rail_oblique_l",
+   "x": 261,
+   "y": 259,
+   "w": 657,
+   "h": 756,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 657 x 756 at 261 / 259 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (C) generated (A 600, B 750 also on the sheet); the (L) sheet's symbol traced, (R) mirrored (its own sheet W7-12-1n(R) shows the mirror image at the same place: ink 357-1014 across). Sheet marks 300 / 150 / 301 down and 128 / 647 / 128 along the edge.",
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "code": "W3-204-5n",
+ "pack": "NSW",
+ "name": "PREPARE_TO_STOP_T_JUNCTION_DUAL_CARRIAGEWAY_BLACK_TALL",
+ "legend": "PREPARE TO STOP (T junction with dual carriageway)",
+ "shape": "rect",
+ "size": [
+  1620,
+  2400
+ ],
+ "radius": 120,
+ "ground": "black",
+ "edge": {
+  "colour": "black",
+  "width": 14
+ },
+ "border": {
+  "colour": "white",
+  "width": 28
+ },
+ "panel_px": [
+  2974,
+  1153,
+  3223,
+  1519
+ ],
+ "drawing": "W3-204-2n",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     174.0
+    ],
+    [
+     1445.79,
+     810.39
+    ],
+    [
+     809.39,
+     1446.79
+    ],
+    [
+     173.0,
+     810.39
+    ]
+   ],
+   "radius": 60,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     190.97
+    ],
+    [
+     1428.82,
+     810.39
+    ],
+    [
+     809.39,
+     1429.82
+    ],
+    [
+     189.97,
+     810.39
+    ]
+   ],
+   "radius": 48,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     224.91
+    ],
+    [
+     1394.88,
+     810.39
+    ],
+    [
+     809.39,
+     1395.88
+    ],
+    [
+     223.91,
+     810.39
+    ]
+   ],
+   "radius": 24,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_w2-201n_t_dual",
+   "x": 459,
+   "y": 518,
+   "w": 702,
+   "h": 722,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 144,
+   "y": 1518,
+   "w": 1332,
+   "h": 720,
+   "radius": 90,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 168,
+   "y": 1542,
+   "w": 1284,
+   "h": 672,
+   "radius": 66,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "D",
+   "height": 190,
+   "top": 1638,
+   "expect": 1079,
+   "colour": "white",
+   "cx": 810.0
+  },
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "STOP"
+   ],
+   "gap": 110,
+   "series": "D",
+   "height": 190,
+   "top": 1928,
+   "expect": [
+    277,
+    593
+   ],
+   "colour": "white",
+   "cx": 810.0
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (C) 1620 x 2400 generated (B 1350 x 2000 also on the sheet; sheet W3-204-2n carries W3-204-1n, -2n, -3n and -5n), R120, Cl.400 white border 28 inside a 14 black edge (14 / 28). Warning sign: the 900 AS 1743 diamond (bounding square 1272.8 at 173 / 174) as polygons (yellow edge 12, black border 24, R60) with the W2-201n(C) T-junction symbol (nsw_w2-201n_t_dual at its W2-201n box 286 / 344, 702 x 722). PREPARE TO STOP panel 1332 x 720 at 144 / 1518 (72 below the diamond; white border 24, R90, red ground), PREPARE / TO STOP 190 D white tops 1638 / 1928 (120/190/100/190/120), 1079 (144/126/1079/126/145) and 277 / 110 / 593 (144/175/277/110/593/176/145); 162 at the bottom."
+}

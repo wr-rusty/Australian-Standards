@@ -1,0 +1,107 @@
+{
+ "code": "R7-1-1-7n",
+ "pack": "NSW",
+ "name": "BUS_LANE_24_HRS_OVERHEAD_WHITE_TALL",
+ "legend": "BUS LANE 24 hrs (overhead, down arrow)",
+ "shape": "rect",
+ "size": [
+  750,
+  1070
+ ],
+ "radius": 90,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "nsw_bus_side": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "grid_mm": 10,
+   "desc": "bus, side view facing left, 457 x 146 (symbol detail on the sheet's 10 grid); windows and wheels white"
+  },
+  "nsw_bus_b_r160": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "colours": [
+    "red"
+   ],
+   "desc": "red 'B' blob 155 x 155, sides R160, white B (Cl.400 white on Cl.400 red)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_bus_b_r160",
+   "x": 55,
+   "y": 119,
+   "w": 155,
+   "h": 155,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_bus_side",
+   "x": 238,
+   "y": 124,
+   "w": 457,
+   "h": 146,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 125,
+   "top": 354,
+   "expect": 480
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "24",
+     "series": "E",
+     "height": 125
+    },
+    {
+     "text": "hrs",
+     "series": "Emod",
+     "height": 125
+    }
+   ],
+   "gap": 48,
+   "top": 563,
+   "expect": [
+    232,
+    293
+   ]
+  },
+  {
+   "type": "arrow",
+   "width": 73,
+   "heading": 90,
+   "x": 189,
+   "y": 770,
+   "w": 372,
+   "h": 225,
+   "path": [
+    {
+     "line": 56
+    }
+   ],
+   "head": {
+    "length": 169,
+    "width": 372,
+    "notch": 31,
+    "barb_r": 10
+   }
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:10). 750 x 1070, header and LANE / 24 hrs as R7-1-1-6n (124/146/84/125/84/125/82/225/75 down). Down arrow from the sheet's detail: shaft 73 wide, barbs 56 below the top, head base meets the shaft 87 below the top (notch 31), tip 138 below that (head 169 x 372), barb R10, 189 / 372 / 189 across. White edge 10, black border 20 (10 / 20 at the corner; measured 10 / 23), R90. 'B' symbol Cl.400 white on Cl.400 red, bus black, both traced from the sheet's sign."
+}

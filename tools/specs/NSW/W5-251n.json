@@ -1,0 +1,56 @@
+{
+ "code": "W5-251n",
+ "pack": "NSW",
+ "name": "BUS_YELLOW_DIAMOND",
+ "legend": "(bus, side view)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2234,
+  460,
+  2910,
+  1135
+ ],
+ "symbols": {
+  "nsw_w5-251n_bus": {
+   "source": "W5-251n",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2234,
+    460,
+    2910,
+    1135
+   ],
+   "inset": 0,
+   "desc": "bus, side view facing left, 870 x 283 (symbol detail on the sheet's 36 grid)",
+   "grid_mm": 36
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w5-251n_bus",
+   "x": 201,
+   "y": 522.5,
+   "w": 870,
+   "h": 264,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 870 x 264 at 201 / 522.5 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (C) generated (A 600, B 750 also on the sheet)."
+}

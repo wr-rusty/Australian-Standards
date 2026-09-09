@@ -1,0 +1,47 @@
+{
+ "code": "W5-25n",
+ "pack": "NSW",
+ "name": "TURNING_TRAFFIC_YELLOW_DIAMOND",
+ "legend": "TURNING TRAFFIC",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2210,
+  572,
+  2886,
+  1247
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "C",
+   "height": 150,
+   "top": 467,
+   "expect": 693
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 150,
+   "top": 695,
+   "expect": 642
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Size (C) generated (A 600, B 750 also on the sheet). TURNING / TRAFFIC 150 high, chain '150D' but the plan's widths 693 / 642 are Series C at 150 (D would be 817 / 770), drawn in C; 76 between, centred (tops 467 / 695); 290/693/290, 315/642/315."
+}

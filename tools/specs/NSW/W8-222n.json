@@ -1,0 +1,55 @@
+{
+ "code": "W8-222n",
+ "pack": "NSW",
+ "name": "SCHOOL_BUS_TURNING_YELLOW_LONG",
+ "legend": "SCHOOL BUS TURNING",
+ "shape": "rect",
+ "size": [
+  900,
+  675
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2229,
+  616,
+  2946,
+  1152
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 120,
+   "top": 105,
+   "expect": 611
+  },
+  {
+   "type": "text",
+   "text": "BUS",
+   "series": "D",
+   "height": 120,
+   "top": 278,
+   "expect": 285
+  },
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "D",
+   "height": 120,
+   "top": 451,
+   "expect": 653
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (C) 900 x 675 generated (A 600 x 450, B 750 x 560 also on the sheet), R60, yellow edge 12, black border 24 (12 / 24). SCHOOL / BUS / TURNING 120 D tops 105 / 278 / 451 (105/120/53/120/53/120/104), 144/611/145, 307/285/308, 123/653/124."
+}

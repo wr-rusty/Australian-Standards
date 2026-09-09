@@ -1,0 +1,98 @@
+{
+ "code": "R9-210n",
+ "pack": "NSW",
+ "name": "T{t}_TRANSIT_LANE_DIAGRAMMATIC_2_LANES_WHITE_SQUARE",
+ "legend": "(two lane arrows, T{t} on the right lane)",
+ "shape": "rect",
+ "size": [
+  1200,
+  1080
+ ],
+ "radius": 125,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  460,
+  423,
+  1092,
+  993
+ ],
+ "vary": {
+  "key": "t",
+  "values": [
+   2,
+   3
+  ]
+ },
+ "drawn_value": 2,
+ "elements": [
+  {
+   "type": "arrow",
+   "width": 75,
+   "heading": -90,
+   "x": 262.5,
+   "y": 85,
+   "w": 150,
+   "h": 910,
+   "path": [
+    {
+     "line": 760
+    }
+   ],
+   "head": {
+    "length": 150,
+    "width": 150,
+    "notch": 0
+   }
+  },
+  {
+   "type": "arrow",
+   "width": 75,
+   "heading": -90,
+   "x": 787.5,
+   "y": 85,
+   "w": 150,
+   "h": 282,
+   "path": [
+    {
+     "line": 132
+    }
+   ],
+   "head": {
+    "length": 150,
+    "width": 150,
+    "notch": 0
+   }
+  },
+  {
+   "type": "rect",
+   "x": 825,
+   "y": 698,
+   "w": 75,
+   "h": 297,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M688.9 431.7 L723.8 420.0 L770.4 409.0 L815.3 401.8 L861.3 400.0 L905.4 401.8 L955.3 409.7 L997.4 419.4 L1034.9 432.5 L1047.6 467.5 L1054.2 497.4 L1057.0 524.1 L1056.3 549.4 L1052.8 572.7 L1043.6 607.7 L1034.2 628.7 L1000.3 640.2 L962.2 649.4 L915.3 657.1 L863.9 659.9 L821.8 657.8 L763.0 649.9 L717.8 638.4 L688.4 627.4 L674.9 592.9 L667.6 550.7 L667.0 516.1 L672.9 477.3 L682.3 447.9 L688.9 431.7Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "T{t}",
+   "series": "D",
+   "height": 180,
+   "top": 440,
+   "colour": "white",
+   "cx": 862
+  }
+ ],
+ "notes": "RTA plan (2007, 1:15, all text outlined). 1200 x 1080, R125, white edge 12, black border 24 (12 / 24; measured 8 / 28). Up arrows 75 wide from 85 to 995 (85 top margin; 400 / 260 / 335 / 85 = 1080 places the T blob 400-660), head 150 long x 150 wide, flat base, from the symbol detail's 50 grid (3 squares; the sheet's head widens 1 per 1); the blob's arrow is broken 367-698 (grid detail, measured 369 / 696). T symbol 390 x 260 (R460 top and bottom, R230 sides): Cl.1 white legend on Cl.1 red ground, drawn as the R7-233n plan's blob path scaled to 390 x 260 (its arcs are not dimensioned beyond the two radii), 'T2' 180 Series D ('use appropriate number': T2 and T3 generated), centred on the blob. Shafts at 300 and 825 (300/75/450/75/300), blob at 667-1057 (390 / 143 from the right)."
+}

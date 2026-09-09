@@ -1,0 +1,152 @@
+{
+ "code": "R4-246n",
+ "pack": "NSW",
+ "name": "{truck}_TRUCKS_BUSES_{other}_ALL_OTHER_VEHICLES_WHITE_SQUARE",
+ "legend": "{truck} TRUCKS AND BUSES / {other} ALL OTHER VEHICLES",
+ "shape": "rect",
+ "size": [
+  2440,
+  2520
+ ],
+ "radius": 250,
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  592,
+  502,
+  1030,
+  979
+ ],
+ "vary": {
+  "keys": [
+   "truck",
+   "other"
+  ],
+  "values": [
+   [
+    40,
+    60
+   ],
+   [
+    60,
+    80
+   ],
+   [
+    80,
+    100
+   ],
+   [
+    90,
+    110
+   ],
+   [
+    100,
+    110
+   ]
+  ]
+ },
+ "drawn_value": [
+  40,
+  60
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 1200,
+   "y": 0,
+   "w": 40,
+   "h": 2520,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 810,
+   "r_outer": 590,
+   "r_inner": 470,
+   "colour": "red"
+  },
+  {
+   "type": "annulus",
+   "cx": 1840,
+   "cy": 810,
+   "r_outer": 590,
+   "r_inner": 470,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{truck}",
+   "series": "speed",
+   "height": 480,
+   "top": 560,
+   "cx": 600
+  },
+  {
+   "type": "text",
+   "text": "{other}",
+   "series": "speed",
+   "height": 480,
+   "top": 560,
+   "cx": 1840
+  },
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "C",
+   "height": 200,
+   "top": 1500,
+   "expect": 860,
+   "cx": 600
+  },
+  {
+   "type": "text",
+   "text": "AND",
+   "series": "D",
+   "height": 200,
+   "top": 1800,
+   "expect": 540,
+   "cx": 600
+  },
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 200,
+   "top": 2100,
+   "expect": 850,
+   "cx": 600
+  },
+  {
+   "type": "text",
+   "text": "ALL",
+   "series": "D",
+   "height": 200,
+   "top": 1500,
+   "expect": 500,
+   "cx": 1840
+  },
+  {
+   "type": "text",
+   "text": "OTHER",
+   "series": "D",
+   "height": 200,
+   "top": 1800,
+   "expect": 840,
+   "cx": 1840
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "C",
+   "height": 200,
+   "top": 2100,
+   "expect": 1080,
+   "cx": 1840
+  }
+ ],
+ "notes": "RMS plan R4-246 (2013, lettered table, sizes A-D; D 2440 x 2520 generated, the largest, as for the other multi-size sheets; A 915 x 945, B 1220 x 1260, C 1830 x 1890). D: a 2440 = b 1200 + m 40 + b 1200 (black divider bar m 40 full height), c 2520, r 250, n 10 black border (no white edge drawn). Each half: red annulus r2 590 outer / r1 470 inner, top g 220, centre (600 / 1840, 810); numerals e '2 numerals 480DN / 3 numerals 480CN' (the R4-1 rule), top f 560 (f + e + d = 560 + 480 + 1480 = 2520; 'centre by eye'); three lines 200 high, j 100 apart, tops 1500 / 1800 / 2100, g 220 at the bottom: TRUCKS 200 C (k 200CM, o 170 / p 860 / o 170), AND 200 D (h 200DM, t 330 / u 540 / t 330), BUSES 200 D (x 175 / y 850 / x 175); ALL 200 D (q 350 / s 500 / q 350), OTHER 200 D (v 180 / w 840 / v 180), VEHICLES 200 C (z 60 / a1 1080 / z 60). The plan's word widths are 4-7 % wider than the AS 1744 spacing at 200 (TRUCKS 860 vs 828, BUSES 850 vs 791, VEHICLES 1080 vs 1032: the 'DM' / 'CM' medium spacing), kept as the font. The sheet's single figure is the lettered drawing, not to the D proportions (overlay approximate). Both limits 'variable, centre speed limit as required' (dashed boxes): pairs 40/60, 60/80, 80/100, 90/110, 100/110 generated (vary keys truck / other)."
+}

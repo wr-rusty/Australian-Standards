@@ -1,0 +1,90 @@
+{
+ "code": "W4-205n",
+ "pack": "NSW",
+ "name": "S_LANE_{d}_M_YELLOW_TALL",
+ "legend": "S-LANE (lane arrows) {d} m",
+ "shape": "rect",
+ "size": [
+  1200,
+  1800
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 24
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  914,
+  463,
+  1555,
+  1424
+ ],
+ "vary": {
+  "key": "d",
+  "values": [
+   200,
+   300,
+   400,
+   500,
+   600
+  ]
+ },
+ "drawn_value": 500,
+ "symbols": {
+  "nsw_w4-205n_lane_arrows": {
+   "source": "W4-205n",
+   "pack": "NSW",
+   "panel_px": [
+    914,
+    463,
+    1555,
+    1424
+   ],
+   "inset": 0,
+   "colours": [
+    "black",
+    "red"
+   ],
+   "grid_mm": 0,
+   "desc": "two bent lane arrows, curved turn arrow and red lane-ending bar, 860 x 1255"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w4-205n_lane_arrows",
+   "x": 240,
+   "y": 100,
+   "w": 860,
+   "h": 1255,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d}",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 160
+    }
+   ],
+   "gap": 75,
+   "top": 1490,
+   "expect": [
+    null,
+    176
+   ]
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 1200 x 1800, R150, yellow edge 24, black border 24 (24 / 24; measured 22 / 24). Lane arrows (two bent lane arrows, a curved turn arrow and the Cl.400 red lane-ending bar) 860 x 1255 at 240 / 100 (240/285/225/350/100 across; 100 / 905 / 350 to the arrow bottoms at 1355, 185 to the outer arrows' tips) traced from the sheet's sign (black and red layers; the symbol detail gives radii R150 / R110 / R60 / R20, 28 degree bends, shafts 90 / 195 / 90, heads 240 x 200 and 200 x 260); distance numerals 180 E (dashed '500' = variable) with m 160 EMod, gap 75, m 176 wide, top 1490 (1355/135/180/130), the group centred ('= / variable / 75 / 176 / ='). Values 200-600 m generated."
+}

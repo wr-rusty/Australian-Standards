@@ -1,0 +1,53 @@
+{
+ "code": "W4-9-3n(R)",
+ "pack": "NSW",
+ "name": "RIGHT_LANE_ENDS_{d}_M_YELLOW_WIDE_SKINNY",
+ "legend": "RIGHT LANE ENDS {d}m",
+ "shape": "rect",
+ "size": [
+  3650,
+  450
+ ],
+ "radius": 75,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "vary": {
+  "key": "d",
+  "values": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600
+  ]
+ },
+ "drawn_value": 300,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "RIGHT",
+    "LANE",
+    "ENDS",
+    "{d}m"
+   ],
+   "gap": 161.2,
+   "series": "E",
+   "height": 180,
+   "top": 135,
+   "expect": [
+    3352
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, backlit tunnel sign, sheet rendered turned upright). 450 x 3650. RIGHT LANE ENDS 300m 180 E top 135, 149/3352/149: overall width only, word gaps 161.2 each; distance variable, 100-600 generated. Border '12 x 24' = yellow edge 12, black border 24, Cnr Rad 75."
+}

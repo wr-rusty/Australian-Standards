@@ -1,0 +1,60 @@
+{
+ "code": "W5-235n",
+ "pack": "NSW",
+ "name": "LANES_MERGE_WITH_BARRIER_YELLOW_DIAMOND",
+ "legend": "(lanes merge, red centre barrier)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2061,
+  300,
+  2737,
+  975
+ ],
+ "symbols": {
+  "nsw_w5-235n_merge_barrier": {
+   "source": "W5-235n",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2061,
+    300,
+    2737,
+    975
+   ],
+   "inset": 0,
+   "desc": "two lanes merging into one arrow with a Cl.400 red barrier between them, 275 x 867 (symbol detail on the sheet's 36 grid)",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "grid_mm": 36
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w5-235n_merge_barrier",
+   "x": 501,
+   "y": 164,
+   "w": 275,
+   "h": 867,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 275 x 867 at 501 / 164 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Sheet W5-235n: sizes labelled A 600, B 750, C '1200 x 1200' although the C sign's edges are drawn 900 (as the other 900 diamonds on the 2019 sheets): generated as the 900 diamond and noted. Black and red layers."
+}

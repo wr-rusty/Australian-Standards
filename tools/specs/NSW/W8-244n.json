@@ -1,0 +1,39 @@
+{
+ "code": "W8-244n",
+ "pack": "NSW",
+ "name": "AHEAD_YELLOW_WIDE",
+ "legend": "AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  400
+ ],
+ "radius": 80,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 32
+ },
+ "which": 4,
+ "panel_px": [
+  2069,
+  448,
+  2666,
+  645
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 160,
+   "top": 120,
+   "expect": 819
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (E) 1200 x 400 generated (A 600 x 200, B 750 x 250, C 900 x 300, D 1050 x 350 also on the sheet), R80, yellow edge 16, black border 32 (16 / 32). AHEAD 160 E top 120 (120/160/120), 190/819/191."
+}

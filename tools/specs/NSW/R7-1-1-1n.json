@@ -1,0 +1,75 @@
+{
+ "code": "R7-1-1-1n",
+ "pack": "NSW",
+ "name": "BUS_LANE_AHEAD_WHITE_SQUARE",
+ "legend": "BUS LANE AHEAD",
+ "shape": "rect",
+ "size": [
+  750,
+  810
+ ],
+ "radius": 90,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "r7-1-1-1n",
+ "symbols": {
+  "nsw_bus_side": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "grid_mm": 10,
+   "desc": "bus, side view facing left, 457 x 146 (symbol detail on the sheet's 10 grid); windows and wheels white"
+  },
+  "nsw_bus_b_r160": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "colours": [
+    "red"
+   ],
+   "desc": "red 'B' blob 155 x 155, sides R160, white B (Cl.400 white on Cl.400 red)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_bus_b_r160",
+   "x": 55,
+   "y": 119,
+   "w": 155,
+   "h": 155,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_bus_side",
+   "x": 238,
+   "y": 124,
+   "w": 457,
+   "h": 146,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 125,
+   "top": 354,
+   "expect": 480
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 125,
+   "top": 563,
+   "expect": 640
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:10). 750 x 810. 'B' 155 square at 55 / 119 (R160), bus 457 x 146 at 238 / 124 (55 / 155 / 28 / 457 / 55; 124 / 146 / 84 / 125 / 84 / 125 / 122 down). LANE / AHEAD 125 E tops 354 / 563, 135/480/135, 55/640/55. Register code r7-1-1-1n (lower case). White edge 10, black border 20 (10 / 20 at the corner; measured 10 / 23), R90. 'B' symbol Cl.400 white on Cl.400 red, bus black, both traced from the sheet's sign."
+}

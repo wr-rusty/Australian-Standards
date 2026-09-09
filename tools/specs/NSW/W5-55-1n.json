@@ -1,0 +1,47 @@
+{
+ "code": "W5-55-1n",
+ "pack": "NSW",
+ "name": "CONCEALED_DRIVEWAY_YELLOW_DIAMOND",
+ "legend": "CONCEALED DRIVEWAY",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2075,
+  562,
+  2751,
+  1237
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CONCEALED",
+   "series": "C",
+   "height": 130,
+   "top": 467,
+   "expect": 811
+  },
+  {
+   "type": "text",
+   "text": "DRIVEWAY",
+   "series": "C",
+   "height": 130,
+   "top": 674,
+   "expect": 687
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Size (C) generated (A 600, B 750 also on the sheet). CONCEALED / DRIVEWAY 130 C, tops 467 / 674 measured on the sheet (77 between; the 36 at the tip is the border mark); 207/811/206, 269/687/268. Register plan w5-55-1 (code W5-55-1n)."
+}

@@ -1,0 +1,186 @@
+{
+ "code": "W2-211-6n",
+ "pack": "NSW",
+ "name": "REDUCE_SPEED_SLIPPERY_WHEN_WET_BLACK_TALL",
+ "legend": "REDUCE SPEED (slippery) WHEN WET",
+ "shape": "rect",
+ "size": [
+  1620,
+  2830
+ ],
+ "radius": 120,
+ "ground": "black",
+ "edge": {
+  "colour": "black",
+  "width": 14
+ },
+ "border": {
+  "colour": "white",
+  "width": 28
+ },
+ "panel_px": [
+  1973,
+  352,
+  2619,
+  1485
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     174.0
+    ],
+    [
+     1445.79,
+     810.39
+    ],
+    [
+     809.39,
+     1446.79
+    ],
+    [
+     173.0,
+     810.39
+    ]
+   ],
+   "radius": 60,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     190.97
+    ],
+    [
+     1428.82,
+     810.39
+    ],
+    [
+     809.39,
+     1429.82
+    ],
+    [
+     189.97,
+     810.39
+    ]
+   ],
+   "radius": 48,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     224.91
+    ],
+    [
+     1394.88,
+     810.39
+    ],
+    [
+     809.39,
+     1395.88
+    ],
+    [
+     223.91,
+     810.39
+    ]
+   ],
+   "radius": 24,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w5-20_slippery_car",
+   "colour": "black",
+   "x": 427.8,
+   "y": 420.4,
+   "w": 726.0,
+   "h": 663.6
+  },
+  {
+   "type": "panel",
+   "x": 193,
+   "y": 1518,
+   "w": 1234,
+   "h": 289,
+   "radius": 30,
+   "colour": "yellow"
+  },
+  {
+   "type": "panel",
+   "x": 205,
+   "y": 1530,
+   "w": 1210,
+   "h": 265,
+   "radius": 18,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 229,
+   "y": 1554,
+   "w": 1162,
+   "h": 217,
+   "radius": 6,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "WET"
+   ],
+   "gap": 97,
+   "series": "E",
+   "height": 145,
+   "top": 1590,
+   "expect": [
+    588,
+    410
+   ]
+  },
+  {
+   "type": "panel",
+   "x": 144,
+   "y": 1951,
+   "w": 1332,
+   "h": 720,
+   "radius": 90,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 168,
+   "y": 1975,
+   "w": 1284,
+   "h": 672,
+   "radius": 66,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "REDUCE",
+   "series": "E",
+   "height": 190,
+   "top": 2071,
+   "expect": 1107,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 190,
+   "top": 2361,
+   "expect": 893,
+   "colour": "white"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (C) 1620 x 2830 generated (B 1350 wide also on the sheet), R120, Cl.400 white border 28 on the black ground with a 14 black edge outside it (14 / 28; measured 22 / 28 at 1:20). Warning sign: the 900 AS 1743 diamond (bounding square 1272.8 at 173 / 174: 173/1272/175 across, 174 down) drawn as polygons (yellow edge 12, black border 24, R60) with the W5-20 slippery symbol (w5-20_slippery_car, box 212.33 / 205.33, 605 x 553 at 750, scaled 1.2). WHEN WET plate 1234 x 289 at 193 / 1518 (yellow, black border 24 inside a 12 yellow edge as the 12 / 24 marks, R30), WHEN WET 145 E top 1590 (72/145/72), 193/69/588/97/410/69/193. REDUCE SPEED panel 1332 x 720 at 144 / 1951 (144/111/1107/111/145 across; white border 24, R90, Cl.400 red ground R66), REDUCE / SPEED 190 E white tops 2071 / 2360 (120/190/100/190/120), 1107 and 893 wide; 160 below the panel. Chain 174 / 1272 / 72 / 289 / 144 / 720 / 160 = 2831."
+}

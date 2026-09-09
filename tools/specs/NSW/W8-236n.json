@@ -1,0 +1,69 @@
+{
+ "code": "W8-236n",
+ "pack": "NSW",
+ "name": "{dir}_TURN_YELLOW_SQUARE",
+ "legend": "(curved turn arrow, {dir})",
+ "shape": "rect",
+ "size": [
+  1200,
+  1200
+ ],
+ "radius": 120,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 32
+ },
+ "which": 3,
+ "panel_px": [
+  2258,
+  322,
+  2895,
+  959
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ },
+ "symbols": {
+  "nsw_w8-236n_turn_arrow_l": {
+   "source": "W8-236n(L)",
+   "pack": "NSW",
+   "which": 3,
+   "panel_px": [
+    2258,
+    322,
+    2895,
+    959
+   ],
+   "inset": 0,
+   "grid_mm": 48,
+   "desc": "curved 90 degree turn arrow (left), 770 x 820 (symbol detail on the sheet's 48 grid)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w8-236n_turn_arrow_l",
+   "x": 214,
+   "y": 190,
+   "w": 770,
+   "h": 820,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (D) 1200 x 1200 generated (A, B, C also on the sheet), R120, yellow edge 16, black border 32 (measured 14 / 33; the sheet gives the grid 48 only). Symbol box 770 x 820 at 214 / 190 (214/770/216; 190/820/190 down), traced from the (L) sheet's (D) sign; (R) is the mirror image (separate sheet W8-236n(R), same dimensions). Supplementary plate."
+}

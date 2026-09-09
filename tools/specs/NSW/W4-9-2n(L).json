@@ -1,0 +1,88 @@
+{
+ "code": "W4-9-2n(L)",
+ "pack": "NSW",
+ "name": "LEFT_LANE_ENDS_MERGE_RIGHT_YELLOW_WIDE_SKINNY",
+ "legend": "LEFT LANE ENDS MERGE RIGHT (right arrow)",
+ "shape": "rect",
+ "size": [
+  2710,
+  750
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  517,
+  422,
+  1940,
+  815
+ ],
+ "symbols": {
+  "nsw_w4-9-2n_arrow_r": {
+   "source": "W4-9-2n(L)",
+   "pack": "NSW",
+   "panel_px": [
+    517,
+    422,
+    1940,
+    815
+   ],
+   "inset": 0,
+   "desc": "block arrow pointing right, 401 x 247"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LEFT",
+    "LANE",
+    "ENDS"
+   ],
+   "gap": 139.3,
+   "series": "E",
+   "height": 180,
+   "top": 130,
+   "expect": [
+    2277
+   ],
+   "expect_total": true,
+   "align": "left",
+   "x": 218
+  },
+  {
+   "type": "text",
+   "words": [
+    "MERGE",
+    "RIGHT"
+   ],
+   "gap": 153.7,
+   "series": "E",
+   "height": 180,
+   "top": 440,
+   "expect": [
+    1794
+   ],
+   "expect_total": true,
+   "align": "left",
+   "x": 184
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_w4-9-2n_arrow_r",
+   "x": 2128,
+   "y": 406,
+   "w": 401,
+   "h": 247,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, backlit tunnel sign, sheet rendered turned upright). 750 x 2710. LEFT LANE ENDS 180 E top 130 from x 218 (218/2277/215), word gaps 139.3; MERGE RIGHT 180 E top 440 (130/180/130/180/130) from x 184, 1794 wide (184/1794/732), gaps 153.7; right arrow 401 x 247 at 2128 / 406 (2128/401/181; 406/247/97 down) traced from the sheet. Border '10 x 20' = yellow edge 10, black border 20, Cnr Rad 100."
+}

@@ -1,0 +1,55 @@
+{
+ "code": "W4-9n(R)",
+ "pack": "NSW",
+ "name": "RIGHT_LANE_ENDS_YELLOW_DIAMOND",
+ "legend": "RIGHT LANE ENDS",
+ "shape": "diamond",
+ "size": [
+  1697.06,
+  1697.06
+ ],
+ "radius": 80,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 32
+ },
+ "which": 2,
+ "panel_px": [
+  2161,
+  625,
+  2837,
+  1300
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "D",
+   "height": 180,
+   "top": 479,
+   "expect": 644
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 180,
+   "top": 744,
+   "expect": 690
+  },
+  {
+   "type": "text",
+   "text": "ENDS",
+   "series": "E",
+   "height": 180,
+   "top": 1009,
+   "expect": 684
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 1200 diamond (side 1200, bounding square 1697.06), R80, yellow edge 16, black border 32 (the sheet's 16 and 48 marks at the tips; measured 16 / 36). Size (D) generated (B 750, C 900 also on the sheet). RIGHT 180 D, LANE / ENDS 180 E, 85 between, tops 479 / 744 / 1009 measured on the sheet; 526/644/526, 503/690/503, 506/684/506. Register code W4-9n(R) (sheet w4-9n_r)."
+}

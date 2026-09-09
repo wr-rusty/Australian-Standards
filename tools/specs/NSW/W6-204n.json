@@ -1,0 +1,56 @@
+{
+ "code": "W6-204n",
+ "pack": "NSW",
+ "name": "SCHOOL_BUS_FRONT_YELLOWGREEN_DIAMOND",
+ "legend": "(school bus front view, child)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2098,
+  342,
+  2773,
+  1016
+ ],
+ "symbols": {
+  "nsw_w6-204n_school_bus_front": {
+   "source": "W6-204n",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2098,
+    342,
+    2773,
+    1016
+   ],
+   "inset": 0,
+   "desc": "school bus front view with a child crossing, 613 x 555 (symbol detail on the sheet's 30 grid)",
+   "grid_mm": 30
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w6-204n_school_bus_front",
+   "x": 358,
+   "y": 361,
+   "w": 613,
+   "h": 555,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellowgreen edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 613 x 555 at 358 / 361 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Cl.1100 fluoro yellow-green ground (drawn 'yellowgreen'). Size (C) generated (A 600, B 750 also on the sheet); the sheet marks 276 / 330 across and 273 down."
+}

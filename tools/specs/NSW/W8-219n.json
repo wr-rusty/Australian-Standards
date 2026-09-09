@@ -1,0 +1,46 @@
+{
+ "code": "W8-219n",
+ "pack": "NSW",
+ "name": "SCHOOL_BUS_YELLOW_LONG",
+ "legend": "SCHOOL BUS",
+ "shape": "rect",
+ "size": [
+  650,
+  400
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  1125,
+  500,
+  2162,
+  1136
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 100,
+   "top": 75,
+   "expect": 509
+  },
+  {
+   "type": "text",
+   "text": "BUS",
+   "series": "D",
+   "height": 100,
+   "top": 225,
+   "expect": 238
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 650 x 400 (the sheet's only size), R50, yellow edge 10, black border 20 (10 / 20; measured 9 / 19). SCHOOL / BUS 100 D tops 75 / 225 (75/100/50/100/75), 70/509/71, 206/238/206."
+}

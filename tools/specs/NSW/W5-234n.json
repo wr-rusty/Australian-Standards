@@ -1,0 +1,62 @@
+{
+ "code": "W5-234n",
+ "pack": "NSW",
+ "name": "WATCH_FOR_HEAVY_VEHICLES_YELLOW_SQUARE",
+ "legend": "WATCH FOR HEAVY VEHICLES",
+ "shape": "rect",
+ "size": [
+  900,
+  800
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  1302,
+  527,
+  2020,
+  1164
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "WATCH",
+   "series": "D",
+   "height": 120,
+   "top": 70,
+   "expect": 503
+  },
+  {
+   "type": "text",
+   "text": "FOR",
+   "series": "D",
+   "height": 120,
+   "top": 250,
+   "expect": 283
+  },
+  {
+   "type": "text",
+   "text": "HEAVY",
+   "series": "D",
+   "height": 120,
+   "top": 430,
+   "expect": 505
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "D",
+   "height": 120,
+   "top": 610,
+   "expect": 728
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 x 800 (the sheet's only size), R100, yellow edge 8, black border 16 (8 / 16). WATCH / FOR / HEAVY / VEHICLES 120 D tops 70 / 250 / 430 / 610 (70/120/60/120/60/120/60/120/70), 198/503/199, 308/283/309, 197/505/198, 86/728/86."
+}

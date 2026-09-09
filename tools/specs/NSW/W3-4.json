@@ -1,0 +1,55 @@
+{
+ "code": "W3-4",
+ "pack": "NSW",
+ "name": "ROAD_HUMP_AHEAD_YELLOW_DIAMOND",
+ "legend": "(hump and up arrow)",
+ "shape": "diamond",
+ "size": [
+  1697.06,
+  1697.06
+ ],
+ "radius": 80,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 32
+ },
+ "which": 3,
+ "panel_px": [
+  2405,
+  317,
+  3081,
+  993
+ ],
+ "symbols": {
+  "nsw_w3-4_hump_arrow": {
+   "source": "W3-4",
+   "pack": "NSW",
+   "which": 3,
+   "panel_px": [
+    2405,
+    317,
+    3081,
+    993
+   ],
+   "inset": 0,
+   "desc": "road hump (R400 dome on a 973 x 90 base, 294 tall) with an up arrow 400 x 350 above it (symbol detail dimensioned on the sheet)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w3-4_hump_arrow",
+   "x": 361,
+   "y": 253,
+   "w": 980,
+   "h": 794,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 1200 diamond (side 1200, bounding square 1697.06), R80, yellow edge 16, black border 32 (the sheet's 16 and 48 marks at the tips; measured 16 / 36). Symbol 980 x 794 at 361 / 253 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Sheet W3-4 (RMS 2019): A 600 and B 750 are the AS 1743 W3-4A/B, C 900 and D 1200 the NSW W3-4n(C)/(D); D generated. Arrow 400 wide x 350 (head 200 x 400, shaft 130, R13 barbs), hump 973 x 294 with the R400 dome 138 from each end and a 90 base; 592 from the top tip to the arrow tip, 101 from the hump to the bottom tip."
+}

@@ -1,0 +1,96 @@
+{
+ "code": "R4-231n",
+ "pack": "NSW",
+ "name": "END_SCHOOL_ZONE_{speed}_WHITE_SQUARE",
+ "legend": "END SCHOOL ZONE {speed}",
+ "shape": "rect",
+ "size": [
+  1800,
+  1700
+ ],
+ "radius": 90,
+ "ground": "white",
+ "which": 2,
+ "panel_px": [
+  2156,
+  638,
+  2876,
+  1318
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   50,
+   60,
+   70,
+   80,
+   90,
+   100
+  ]
+ },
+ "drawn_value": 60,
+ "elements": [
+  {
+   "type": "panel",
+   "x": 12,
+   "y": 12,
+   "w": 888,
+   "h": 1676,
+   "radius": 78,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 36,
+   "y": 36,
+   "w": 840,
+   "h": 1628,
+   "radius": 54,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 160,
+   "top": 410,
+   "expect": 382,
+   "cx": 450
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 160,
+   "top": 770,
+   "expect": 814,
+   "cx": 450
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 160,
+   "top": 1130,
+   "expect": 528,
+   "cx": 450
+  },
+  {
+   "type": "annulus",
+   "cx": 1350,
+   "cy": 850,
+   "r_outer": 440,
+   "r_inner": 370,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 360,
+   "top": 670,
+   "cx": 1350
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:20). Size (C) 1800 x 1700 generated (A 900 x 850, B 1200 x 1135 also on the sheet), R90, thin outline only (no border on the sign itself). Left panel 900 wide: black border 24 with a white edge 12 outside it on the sign's edges (12 / 36 read as edge / edge + border; measured 28 on the sheet), drawn as panel elements x 12-900, y 12-1688 (the border's outer edge meets the ring half at x 900 with no white gap: measured 876-902), radius 78 outer / 54 inner (read from the sheet). END / SCHOOL / ZONE 160 D tops 410 / 770 / 1130 (410/160/200/160/200/160/410), 258/382/260, 42/814/44, 186/528/186, centred on x 450. Red annulus r440 outer / r370 inner centred on the right half (1350, 850), 670 / 360 / 670 down; numerals 360 D (dashed '60' = variable), top 670. Values 50-100 generated."
+}

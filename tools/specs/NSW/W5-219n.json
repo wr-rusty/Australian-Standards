@@ -1,0 +1,54 @@
+{
+ "code": "W5-219n",
+ "pack": "NSW",
+ "name": "SNOW_PLOUGH_TURNING_YELLOW_DIAMOND",
+ "legend": "SNOW PLOUGH TURNING",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  1208,
+  236,
+  2221,
+  1250
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SNOW",
+   "series": "D",
+   "height": 120,
+   "top": 346,
+   "expect": 418
+  },
+  {
+   "type": "text",
+   "text": "PLOUGH",
+   "series": "D",
+   "height": 120,
+   "top": 516,
+   "expect": 599
+  },
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "D",
+   "height": 120,
+   "top": 687,
+   "expect": 653
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Size (C), the sheet's only size. SNOW / PLOUGH / TURNING 120 D, 50 between, tops 346 / 516 / 687 measured on the sheet (the stack sits above the centre); 427/418/427, 336/599/337, 310/653/309."
+}

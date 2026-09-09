@@ -1,0 +1,6 @@
+{
+ "code": "R4-235-1n",
+ "pack": "NSW",
+ "legend": "School Zone (times) School Days (with flashing lights)",
+ "skip": "times variable: the plan draws the hours as dashed boxes ('*variable', 'for standard times use R4-230n'); the fixed-time versions are R4-230n / R4-230-1-2n"
+}

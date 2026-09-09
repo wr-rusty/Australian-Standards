@@ -1,0 +1,46 @@
+{
+ "code": "W8-221n",
+ "pack": "NSW",
+ "name": "CHILDREN_CROSSING_YELLOW_LONG",
+ "legend": "CHILDREN CROSSING",
+ "shape": "rect",
+ "size": [
+  950,
+  600
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  816,
+  332,
+  2332,
+  1289
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CHILDREN",
+   "series": "C",
+   "height": 140,
+   "top": 118,
+   "expect": 739
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 140,
+   "top": 342,
+   "expect": 742
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 950 x 600, R60, yellow edge 12, black border 24 (12 / 24; measured 11 / 23). CHILDREN / CROSSING 140 C tops 118 / 342 (118/140/84/140/118), 105/739/106, 104/742/104."
+}

@@ -1,0 +1,142 @@
+{
+ "code": "R7-1-6-1n",
+ "pack": "NSW",
+ "name": "TRUCK_BUS_ONLY_LANE_WHITE_TALL",
+ "legend": "TRUCK & BUS ONLY LANE",
+ "shape": "rect",
+ "size": [
+  1200,
+  2400
+ ],
+ "radius": 130,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2243,
+  464,
+  2725,
+  1425
+ ],
+ "symbols": {
+  "nsw_r7-1-6-1n_truck": {
+   "source": "R7-1-6-1n",
+   "pack": "NSW",
+   "panel_px": [
+    2243,
+    464,
+    2725,
+    1425
+   ],
+   "desc": "truck, side view facing left, 634 x 274 on the (E) sign"
+  },
+  "nsw_r7-1-6-1n_b": {
+   "source": "R7-1-6-1n",
+   "pack": "NSW",
+   "panel_px": [
+    2243,
+    464,
+    2725,
+    1425
+   ],
+   "colours": [
+    "red"
+   ],
+   "desc": "red 'B' blob 260 x 260 with white B, (E) sign"
+  },
+  "nsw_bus_side": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "grid_mm": 10,
+   "desc": "bus, side view facing left, 457 x 146 (symbol detail on the sheet's 10 grid); windows and wheels white"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_r7-1-6-1n_truck",
+   "x": 284,
+   "y": 138,
+   "w": 634,
+   "h": 274,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r7-1-6-1n_b",
+   "x": 82,
+   "y": 495,
+   "w": 260,
+   "h": 260,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_bus_side",
+   "x": 366,
+   "y": 496,
+   "w": 752,
+   "h": 244,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "TRUCK",
+   "series": "E",
+   "height": 200,
+   "top": 890,
+   "expect": 968
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUS"
+   ],
+   "gap": 126,
+   "series": "E",
+   "height": 200,
+   "top": 1184,
+   "expect": [
+    null,
+    null
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "rect",
+   "x": 116,
+   "y": 1510,
+   "w": 968,
+   "h": 400,
+   "colour": "red",
+   "rx": 40
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 200,
+   "top": 1610,
+   "expect": 768,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 200,
+   "top": 2036,
+   "expect": 798,
+   "cx": 599
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:20). Size (E) 1200 x 2400 generated (C 600 x 1200, D 900 x 1800 also on the sheet), R130, white edge 12, black border 24 (12 / 24; measured 12 / 27). Truck 634 x 274 at 284 / 138 (284/634/282), 'B' blob 260 wide at 82 (82/260/24/752/82), measured 260 tall at y 495, bus 752 x 244 at 366 / 496 (138/274/84/244/150 down; the bus is the R7-1-1-1n symbol reused at 752 x 244). TRUCK 200 E top 890 (116/968/116), & BUS top 1184 (164/872/164: & 180 + gap 126 + BUS 566 = 872), red ONLY patch 968 x 400 at 116 / 1510 (116/100/768/100/116; 126/100/200/100/126 down), corner radius about 40 (read from the sheet), ONLY 200 E white top 1610; LANE 200 E top 2036 (200/798/202), 164 at the bottom."
+}

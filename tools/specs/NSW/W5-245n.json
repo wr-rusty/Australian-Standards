@@ -1,0 +1,72 @@
+{
+ "code": "W5-245n",
+ "pack": "NSW",
+ "name": "EMERGENCY_STOP_YELLOW_DIAMOND",
+ "legend": "EMERGENCY STOP (car and bollard)",
+ "shape": "diamond",
+ "size": [
+  1697.06,
+  1697.06
+ ],
+ "radius": 80,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 32
+ },
+ "which": 3,
+ "panel_px": [
+  2391,
+  481,
+  3067,
+  1157
+ ],
+ "symbols": {
+  "nsw_w5-245n_car_bollard": {
+   "source": "W5-245n",
+   "pack": "NSW",
+   "which": 3,
+   "panel_px": [
+    2391,
+    481,
+    3067,
+    1157
+   ],
+   "inset": 0,
+   "desc": "broken-down car and emergency bollard on a ground line, 618 x 414 (symbol detail on the sheet's 48 grid)",
+   "grid_mm": 48
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w5-245n_car_bollard",
+   "x": 541,
+   "y": 354,
+   "w": 618,
+   "h": 309,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "C",
+   "height": 200,
+   "top": 763,
+   "expect": 1294
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 200,
+   "top": 1063,
+   "expect": 526
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 1200 diamond (side 1200, bounding square 1697.06), R80, yellow edge 16, black border 32 (the sheet's 16 and 48 marks at the tips; measured 16 / 36). Symbol 618 x 309 at 541 / 354 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (D) generated (A 600, B 750, C 900 also on the sheet). Symbol 618 wide (541/618/537), 309 tall by tracing, bottom (ground line) measured at 663; EMERGENCY / STOP 200 C, 100 below the symbol and 100 between (tops 763 / 1063), 202/1294/200, 586/526/584."
+}

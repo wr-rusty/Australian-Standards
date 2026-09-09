@@ -1,0 +1,54 @@
+{
+ "code": "WM3-2(A)",
+ "pack": "NSW",
+ "name": "GIVE_WAY_AHEAD_MMS_YELLOW_SQUARE",
+ "legend": "(up arrow, give way triangle)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "symbols": {
+  "nsw_wm3-2_up_arrow": {
+   "source": "WM3-2(A)",
+   "pack": "NSW",
+   "desc": "up arrow 175 x 153 (head 175 wide, shaft about 50)"
+  },
+  "nsw_wm3-2_give_way": {
+   "source": "WM3-2(A)",
+   "pack": "NSW",
+   "colours": [
+    "red",
+    "white"
+   ],
+   "keep_specks": true,
+   "desc": "give way triangle 340 x 300: white edge strip, red band, white centre"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_wm3-2_up_arrow",
+   "x": 213,
+   "y": 50,
+   "w": 175,
+   "h": 153,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_wm3-2_give_way",
+   "x": 145.5,
+   "y": 260.5,
+   "w": 311,
+   "h": 279,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW MMS insert plan (TraSiCAD, upright sheet): 600 x 600, black border 25 ('Border 0 x 25'), square corners, Cl.400 yellow ground. Up arrow 175 x 153 at 213 / 50 (213/175/212); give way triangle 340 x 300 at 131 / 250 (131/340/129; 250/300/50 down), Cl.400 white triangle and edge strip with the Cl.400 red outer triangle: both traced from the WM3-2(A) sheet (red and white layers for the triangle) and reused on the (D) insert. The triangle as drawn measures 311 x 279 inside the 340 x 300 dimension (Patch CR 20): placed at its drawn size centred in the dimensioned box."
+}

@@ -1,0 +1,47 @@
+{
+ "code": "W5-217n",
+ "pack": "NSW",
+ "name": "BUS_ENTERING_YELLOW_DIAMOND",
+ "legend": "BUS ENTERING",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 1,
+ "panel_px": [
+  1972,
+  523,
+  2648,
+  1199
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BUS",
+   "series": "E",
+   "height": 140,
+   "top": 348,
+   "expect": 396
+  },
+  {
+   "type": "text",
+   "text": "ENTERING",
+   "series": "D",
+   "height": 140,
+   "top": 614,
+   "expect": 842
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Size (C) generated (B 750 also on the sheet). BUS 140 E, ENTERING 140 D, 120 between (the sheet's 140 / 120 / 140 chain); the stack sits above the centre: tops 348 / 614 measured on the sheet; 438/396/438, 215/842/215."
+}

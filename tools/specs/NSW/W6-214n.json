@@ -1,0 +1,56 @@
+{
+ "code": "W6-214n",
+ "pack": "NSW",
+ "name": "SHARE_THE_ROAD_YELLOW_DIAMOND",
+ "legend": "(cyclist and car)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2176,
+  352,
+  2852,
+  1027
+ ],
+ "symbols": {
+  "nsw_w6-214n_share_road": {
+   "source": "W6-214n",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2176,
+    352,
+    2852,
+    1027
+   ],
+   "inset": 0,
+   "desc": "cyclist and car side by side on a ground line, 716 x 460 (symbol detail on the sheet's 30 grid)",
+   "grid_mm": 30
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w6-214n_share_road",
+   "x": 286,
+   "y": 379,
+   "w": 716,
+   "h": 460,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 716 x 460 at 286 / 379 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (C) generated (A 600, B 750 also on the sheet); the sheet marks 345 / 360 across, 251 / 200 down."
+}

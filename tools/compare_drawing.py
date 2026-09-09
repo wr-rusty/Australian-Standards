@@ -63,7 +63,9 @@ def drawn_value(spec):
 def svg_for(spec, value, hand=None):
     name = spec["name"]; code = spec["code"] + (f"({hand})" if hand else "")
     v = dict(spec.get("hand_values", {}).get(hand, {}))
-    if value is not None: v[spec["vary"]["key"]] = value
+    if value is not None:
+        if spec["vary"].get("keys"): v.update(zip(spec["vary"]["keys"], value if isinstance(value, (list, tuple)) else str(value).split("/")))
+        else: v[spec["vary"]["key"]] = value
     try: name = name.format(**v)
     except (KeyError, IndexError): pass
     fs = glob.glob(os.path.join(glob.escape(G.out_root(spec)), "**", glob.escape(f"{name}_{code}.svg")), recursive=True)

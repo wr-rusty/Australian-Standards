@@ -1,0 +1,54 @@
+{
+ "code": "W5-241n",
+ "pack": "NSW",
+ "name": "GAPS_IN_DECK_YELLOW_DIAMOND",
+ "legend": "GAPS IN DECK",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2308,
+  487,
+  2984,
+  1162
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "GAPS",
+    "IN"
+   ],
+   "gap": 91,
+   "series": "D",
+   "height": 150,
+   "top": 454,
+   "expect": [
+    487,
+    162
+   ]
+  },
+  {
+   "type": "text",
+   "text": "DECK",
+   "series": "D",
+   "height": 150,
+   "top": 672,
+   "expect": 491
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Size (C) generated (A 600, B 750 also on the sheet). GAPS IN / DECK 150 D, tops 454 / 672 measured on the sheet (68 between; the 36 at the tip is the border mark); 266/487/91/162/265, 390/491/391."
+}

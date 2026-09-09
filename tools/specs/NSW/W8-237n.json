@@ -1,0 +1,69 @@
+{
+ "code": "W8-237n",
+ "pack": "NSW",
+ "name": "WINDING_ROAD_{dir}_YELLOW_TALL",
+ "legend": "(winding road arrow, {dir})",
+ "shape": "rect",
+ "size": [
+  1200,
+  1500
+ ],
+ "radius": 120,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 32
+ },
+ "which": 3,
+ "panel_px": [
+  2222,
+  339,
+  2699,
+  936
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ },
+ "symbols": {
+  "nsw_w8-237n_winding_arrow_l": {
+   "source": "W8-237n(L)",
+   "pack": "NSW",
+   "which": 3,
+   "panel_px": [
+    2222,
+    339,
+    2699,
+    936
+   ],
+   "inset": 0,
+   "grid_mm": 48,
+   "desc": "winding road arrow (left first), 512 x 1280 (symbol detail on the sheet's 48 grid)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w8-237n_winding_arrow_l",
+   "x": 344,
+   "y": 110,
+   "w": 512,
+   "h": 1280,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (D) 1200 x 1500 generated (A, B, C also on the sheet), R120, yellow edge 16, black border 32 (measured 14 / 33; the sheet gives the grid 48 only). Symbol box 512 x 1280 at 344 / 110 (344/512/344; 110/1280/110 down), traced from the (L) sheet's (D) sign; (R) is the mirror image (separate sheet W8-237n(R), same dimensions). Supplementary plate."
+}

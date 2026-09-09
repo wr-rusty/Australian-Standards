@@ -22,3 +22,14 @@ the overlay check (`tools/compare_drawing.py`; specs carry `panel_px`, the sign'
 sign's index on a multi-size sheet). Where a sheet draws several sizes the largest is generated and the others noted.
 Codes that also exist in the national AS 1743 set are not redrawn here (see `SVGs/MANIFEST.csv`). Attribution for the
 generated files as for the plans: © State of New South Wales (Transport for NSW), CC BY 4.0.
+
+State of the generated set (2026-09-09): 188 specs, 296 SVGs — Regulatory complete for the NSW-only codes (128 SVGs from 87
+specs; 7 skipped: R4-1-1n and R9-232n example-only, R2-19-1n without a plan of its own, R4-235n / -1n / -1-1n / -1-2n with
+variable times), Warning 168 SVGs from 93 built specs (5 skipped: W5-240n, W5-247n, W3-205n / -1n / -2n — undimensioned
+patch legends or symbols not in the pack; 6 codes still to do: W7-12-3n and W7-13-2n with their (L) / (R)). The black-ground
+assemblies (W2-211, W3-204, W7-12-2n, W7-13-1n series) carry the AS 1743 warning diamond drawn as polygons with the national
+symbol scaled from the 750 drawing to the 900 size, or the NSW symbol traced from the sheet. Sheet conventions recorded in
+the specs' notes: the corner pair 'a / b' is edge + border on the 2019 RMS bus, warning and W2-211 sheets and cumulative on
+the school-zone sheets (12 / 36 = 12 + 24); 900 diamonds are edge 12 / border 24 (R60), 1200 ones 16 / 32 (R80); several
+sheets are drawn at half the labelled scale. Overlay scores are in the ticket log (SGN-001). Temporary, Service, Parking and
+Hazard families not started; Guide and Freeway excluded.

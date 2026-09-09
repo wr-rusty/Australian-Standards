@@ -1,0 +1,70 @@
+{
+ "code": "W8-243n",
+ "pack": "NSW",
+ "name": "WATCH_FOR_BICYCLES_YELLOW_SQUARE",
+ "legend": "WATCH FOR (bicycle)",
+ "shape": "rect",
+ "size": [
+  1200,
+  1070
+ ],
+ "radius": 130,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "which": 1,
+ "panel_px": [
+  1790,
+  357,
+  2427,
+  922
+ ],
+ "symbols": {
+  "nsw_w8-243n_bicycle": {
+   "source": "W8-243n",
+   "pack": "NSW",
+   "panel_px": [
+    1790,
+    357,
+    2427,
+    922
+   ],
+   "inset": 0,
+   "grid_mm": 30,
+   "desc": "bicycle, side view facing left, 933 x 600 (symbol detail on the sheet's 30 grid)"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "WATCH",
+    "FOR"
+   ],
+   "gap": 101,
+   "series": "D",
+   "height": 133,
+   "top": 140,
+   "expect": [
+    559,
+    315
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_w8-243n_bicycle",
+   "x": 133,
+   "y": 373,
+   "w": 933,
+   "h": 600,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (B) 1200 x 1070 generated (A 900 x 800 also on the sheet), R130, yellow edge 20, black border 40 (20 / 40; measured 19 / 39). WATCH FOR 133 D top 140 (the chain's 140 / 100 / 133 / 600 / 97 read as gap / text 133 / gap: the plan's 559 / 315 are D at 133, not at 100), 112/559/101/315/113; bicycle symbol 933 x 600 at 133 / 373 (133/933/134), traced from the sheet's sign (symbol detail on a 30 grid)."
+}

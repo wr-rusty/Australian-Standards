@@ -1,0 +1,201 @@
+{
+ "code": "W2-211-12n",
+ "pack": "NSW",
+ "name": "REDUCE_SPEED_WINDING_ROAD_LEFT_{s}_KMH_BLACK_TALL",
+ "legend": "REDUCE SPEED (winding road left) {s} km/h",
+ "shape": "rect",
+ "size": [
+  1620,
+  3070
+ ],
+ "radius": 120,
+ "ground": "black",
+ "edge": {
+  "colour": "black",
+  "width": 14
+ },
+ "border": {
+  "colour": "white",
+  "width": 28
+ },
+ "drawing": "W2-211-10n",
+ "vary": {
+  "key": "s",
+  "values": [
+   35,
+   45,
+   55,
+   65,
+   75,
+   85
+  ]
+ },
+ "drawn_value": 65,
+ "panel_px": [
+  1163,
+  399,
+  1682,
+  1379
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     174.0
+    ],
+    [
+     1445.79,
+     810.39
+    ],
+    [
+     809.39,
+     1446.79
+    ],
+    [
+     173.0,
+     810.39
+    ]
+   ],
+   "radius": 60,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     190.97
+    ],
+    [
+     1428.82,
+     810.39
+    ],
+    [
+     809.39,
+     1429.82
+    ],
+    [
+     189.97,
+     810.39
+    ]
+   ],
+   "radius": 48,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     809.39,
+     224.91
+    ],
+    [
+     1394.88,
+     810.39
+    ],
+    [
+     809.39,
+     1395.88
+    ],
+    [
+     223.91,
+     810.39
+    ]
+   ],
+   "radius": 24,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w1-5_winding_road_l",
+   "colour": "black",
+   "x": 617.4,
+   "y": 300.4,
+   "w": 384.0,
+   "h": 960.0
+  },
+  {
+   "type": "panel",
+   "x": 360,
+   "y": 1458,
+   "w": 900,
+   "h": 600,
+   "radius": 30,
+   "colour": "yellow"
+  },
+  {
+   "type": "panel",
+   "x": 372,
+   "y": 1470,
+   "w": 876,
+   "h": 576,
+   "radius": 18,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 396,
+   "y": 1494,
+   "w": 828,
+   "h": 528,
+   "radius": 6,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "text": "{s}",
+   "series": "E",
+   "height": 290,
+   "top": 1536,
+   "cx": 810
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 100,
+   "top": 1880,
+   "expect": 418,
+   "cx": 810
+  },
+  {
+   "type": "panel",
+   "x": 144,
+   "y": 2178,
+   "w": 1332,
+   "h": 720,
+   "radius": 90,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 168,
+   "y": 2202,
+   "w": 1284,
+   "h": 672,
+   "radius": 66,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "REDUCE",
+   "series": "E",
+   "height": 190,
+   "top": 2298,
+   "expect": 1107,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 190,
+   "top": 2588,
+   "expect": 893,
+   "colour": "white"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (C) 1620 x 3070 generated (B 1350 wide also on the sheet), R120, Cl.400 white border 28 on the black ground with a 14 black edge outside it (14 / 28; measured 22 / 28 at 1:20). Warning sign: the 900 AS 1743 diamond (bounding square 1272.8 at 173 / 174: 173/1272/175 across, 174 down) drawn as polygons (yellow edge 12, black border 24, R60) with the W1-5 winding road symbol (w1-5_winding_road_l, box 370.33 / 105.33, 320 x 800 at 750, scaled 1.2). Speed advisory plate 900 x 600 at 360 / 1458 (360/900/360; 12 below the diamond; yellow, 12 edge / 24 border, R30): numerals 290 E (dashed '65' = variable) top 1536 (78/290/54/100/78), km/h 100 EMod top 1880, 600/418/600. REDUCE SPEED panel 1332 x 720 at 144 / 2178 (144/111/1107/111/145 across; white border 24, R90, Cl.400 red ground R66), REDUCE / SPEED 190 E white tops 2298 / 2587 (120/190/100/190/120), 1107 and 893 wide; 173 below the panel. Chain 173 / 1272 / 12 / 600 / 120 / 720 / 173 = 3070. Advisory speeds 35-85 generated (W2-211-10n to -13-1n are the eight curve symbols on the one sheet, W2-211-10n: 1350 x 2560 (B) or 1620 x 3070 (C))."
+}

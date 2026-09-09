@@ -1,0 +1,101 @@
+{
+ "code": "R9-208n",
+ "pack": "NSW",
+ "name": "BUS_LANE_DIAGRAMMATIC_2_LANES_WHITE_SQUARE",
+ "legend": "(two lane arrows, B symbol on the right lane)",
+ "shape": "rect",
+ "size": [
+  750,
+  675
+ ],
+ "radius": 75,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 9
+ },
+ "border": {
+  "colour": "black",
+  "width": 18
+ },
+ "panel_px": [
+  1091,
+  614,
+  1693,
+  1156
+ ],
+ "symbols": {
+  "nsw_r9-208n_b": {
+   "source": "R9-208n",
+   "pack": "NSW",
+   "panel_px": [
+    1091,
+    614,
+    1693,
+    1156
+   ],
+   "colours": [
+    "red"
+   ],
+   "desc": "red 'B' blob 188 x 188, sides R190, white B 150 D (symbol detail: 43 / 102 / 43 across, 19 / 150 / 19 down)"
+  }
+ },
+ "elements": [
+  {
+   "type": "arrow",
+   "width": 46,
+   "heading": -90,
+   "x": 170.5,
+   "y": 53,
+   "w": 95,
+   "h": 569,
+   "path": [
+    {
+     "line": 474
+    }
+   ],
+   "head": {
+    "length": 95,
+    "width": 95,
+    "notch": 0
+   }
+  },
+  {
+   "type": "arrow",
+   "width": 46,
+   "heading": -90,
+   "x": 484.5,
+   "y": 53,
+   "w": 95,
+   "h": 179,
+   "path": [
+    {
+     "line": 84
+    }
+   ],
+   "head": {
+    "length": 95,
+    "width": 95,
+    "notch": 0
+   }
+  },
+  {
+   "type": "rect",
+   "x": 509,
+   "y": 470,
+   "w": 46,
+   "h": 152,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_r9-208n_b",
+   "x": 439,
+   "y": 254,
+   "w": 188,
+   "h": 188,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet; labelled 1:5 but drawn at 1:10). 750 x 675, R75, white edge 9, black border 18 (9 / 18; measured 7 / 20). Two up arrows, shafts 46 wide at 195 / 509 (195/46/268/46/195), from 53 to 622 (53/569/53); head 95 long x 95 wide with a flat base, read from the symbol detail's 20 grid (4.75 squares) and the sheet (the head widens 1 per 1). The right arrow is broken by the 'B' blob 188 x 188 at 439 / 254 (439/188/124; 254/188/233): upper piece 53-232, lower piece 470-622 (grid detail: 9 and 21 squares below the tip)."
+}

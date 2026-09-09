@@ -1,0 +1,56 @@
+{
+ "code": "W8-200n",
+ "pack": "NSW",
+ "name": "BICYCLE_CROSSING_SIDE_STREET_YELLOW_DIAMOND",
+ "legend": "(bicycle, two-way arrow, side-street arrow)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "which": 2,
+ "panel_px": [
+  2239,
+  312,
+  2915,
+  988
+ ],
+ "symbols": {
+  "nsw_w8-200n_bicycle_side_street": {
+   "source": "W8-200n",
+   "pack": "NSW",
+   "which": 2,
+   "panel_px": [
+    2239,
+    312,
+    2915,
+    988
+   ],
+   "inset": 0,
+   "desc": "bicycle with a two-way arrow and a curved side-street arrow, 735 x 558 (symbol detail on the sheet's 36 grid)",
+   "grid_mm": 36
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w8-200n_bicycle_side_street",
+   "x": 175,
+   "y": 359,
+   "w": 735,
+   "h": 558,
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Symbol 735 x 558 at 175 / 359 (ink box measured on the sheet's sign from the diamond's bounding square; the red-bar symbols' boxes take the red bar's measured extent, which is longer than the arrows; the bus box is the traced extent), traced from the sheet's sign. Size (C) generated (A 600, B 750 also on the sheet); the sheet marks the symbol 276 below the top tip and 270 from the left tip on the 36 grid."
+}

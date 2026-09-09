@@ -1,0 +1,70 @@
+{
+ "code": "W5-34-1n(L)",
+ "pack": "NSW",
+ "name": "MERGING_TRAFFIC_LEFT_YELLOW_WIDE_SKINNY",
+ "legend": "MERGING TRAFFIC (merge from the left symbol)",
+ "shape": "rect",
+ "size": [
+  3400,
+  600
+ ],
+ "radius": 75,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  365,
+  549,
+  2150,
+  864
+ ],
+ "symbols": {
+  "nsw_w5-34-1n_merge_l": {
+   "source": "W5-34-1n(L)",
+   "pack": "NSW",
+   "panel_px": [
+    365,
+    549,
+    2150,
+    864
+   ],
+   "inset": 0,
+   "desc": "merging traffic symbol, side road joining from the lower left, 282 x 450"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w5-34-1n_merge_l",
+   "x": 126,
+   "y": 74,
+   "w": 282,
+   "h": 450,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "MERGING",
+    "TRAFFIC"
+   ],
+   "gap": 173.2,
+   "series": "E",
+   "height": 200,
+   "top": 201,
+   "expect": [
+    2684
+   ],
+   "expect_total": true,
+   "align": "left",
+   "x": 556
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, backlit tunnel sign, sheet rendered turned upright). 600 x 3400. Merge symbol 282 x 450 at 126 / 74 (126/282; 74/450/76 down) traced from the sheet; MERGING TRAFFIC 200 E top 201 (201/200/199) from x 556, 2684 wide (556/2684/160), word gap 173.2. Border '12 x 24' = yellow edge 12, black border 24, Cnr Rad 75."
+}

@@ -1,0 +1,70 @@
+{
+ "code": "W5-35-1n(L)",
+ "pack": "NSW",
+ "name": "ADDED_LANE_LEFT_YELLOW_WIDE_SKINNY",
+ "legend": "ADDED LANE (lane added from the left symbol)",
+ "shape": "rect",
+ "size": [
+  2400,
+  450
+ ],
+ "radius": 75,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  313,
+  529,
+  2203,
+  883
+ ],
+ "symbols": {
+  "nsw_w5-35-1n_added_l": {
+   "source": "W5-35-1n(L)",
+   "pack": "NSW",
+   "panel_px": [
+    313,
+    529,
+    2203,
+    883
+   ],
+   "inset": 0,
+   "desc": "added lane symbol, lane joining from the lower left, 350 x 302"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_w5-35-1n_added_l",
+   "x": 90,
+   "y": 74,
+   "w": 350,
+   "h": 302,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ADDED",
+    "LANE"
+   ],
+   "gap": 145.8,
+   "series": "E",
+   "height": 180,
+   "top": 138,
+   "expect": [
+    1743
+   ],
+   "expect_total": true,
+   "align": "left",
+   "x": 565
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, backlit tunnel sign, sheet rendered turned upright). 450 x 2400. Added-lane symbol 350 x 302 at 90 / 74 (90/350; 74/302/74 down) traced from the sheet; ADDED LANE 180 E top 138 (138/180/132) from x 565, 1743 wide (565/1743/92), gap 145.8. Border '12 x 24' = yellow edge 12, black border 24, Cnr Rad 75."
+}

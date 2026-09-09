@@ -1,0 +1,222 @@
+{
+ "code": "R4-230n",
+ "pack": "NSW",
+ "name": "SCHOOL_ZONE_40_SCHOOL_DAYS_YELLOWGREEN_SQUARE",
+ "legend": "SCHOOL ZONE 8-9.30 AM 2.30-4 PM SCHOOL DAYS 40",
+ "shape": "rect",
+ "size": [
+  2400,
+  2500
+ ],
+ "radius": 150,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "which": 3,
+ "panel_px": [
+  2175,
+  666,
+  2944,
+  1466
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     32,
+     32
+    ],
+    [
+     2368,
+     32
+    ],
+    [
+     2368,
+     848
+    ],
+    [
+     32,
+     848
+    ]
+   ],
+   "radius": [
+    118,
+    118,
+    0,
+    0
+   ],
+   "colour": "yellowgreen"
+  },
+  {
+   "type": "rect",
+   "x": 32,
+   "y": 848,
+   "w": 2336,
+   "h": 32,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1184,
+   "y": 880,
+   "w": 32,
+   "h": 1588,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "E",
+   "height": 240,
+   "top": 150,
+   "expect": 1422
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "E",
+   "height": 240,
+   "top": 510,
+   "expect": 930
+  },
+  {
+   "type": "text",
+   "text": "8",
+   "series": "D",
+   "height": 340,
+   "top": 960,
+   "expect": 231,
+   "align": "left",
+   "x": 114
+  },
+  {
+   "type": "rect",
+   "x": 438,
+   "y": 1110,
+   "w": 84,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "D",
+   "height": 340,
+   "top": 960,
+   "expect": 231,
+   "align": "left",
+   "x": 608
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 170,
+   "top": 960,
+   "expect": 221,
+   "align": "left",
+   "x": 881
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "C",
+   "height": 130,
+   "top": 1170,
+   "expect": 187,
+   "align": "left",
+   "x": 899
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "series": "C",
+   "height": 340,
+   "top": 1420,
+   "expect": 190,
+   "align": "left",
+   "x": 67
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 170,
+   "top": 1420,
+   "expect": 221,
+   "align": "left",
+   "x": 299
+  },
+  {
+   "type": "rect",
+   "x": 583,
+   "y": 1570,
+   "w": 84,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "series": "C",
+   "height": 340,
+   "top": 1420,
+   "expect": 210,
+   "align": "left",
+   "x": 732
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "C",
+   "height": 130,
+   "top": 1630,
+   "expect": 184,
+   "align": "left",
+   "x": 985
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "E",
+   "height": 180,
+   "top": 1880,
+   "expect": 1066,
+   "cx": 608
+  },
+  {
+   "type": "text",
+   "text": "DAYS",
+   "series": "E",
+   "height": 180,
+   "top": 2150,
+   "expect": 718,
+   "cx": 608
+  },
+  {
+   "type": "annulus",
+   "cx": 1800,
+   "cy": 1690,
+   "r_outer": 590,
+   "r_inner": 470,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "40",
+   "series": "D",
+   "height": 480,
+   "top": 1450,
+   "expect": 805,
+   "cx": 1800
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:25). Size (D) 2400 x 2500 generated (A 900 x 850, B 1200 x 1135, C 1800 x 1700 also on the sheet), R150; white edge 16, black border 16 (16 / 32 read as edge / edge + border; both measure about 19 on the sheet). Top panel Cl.400 fluorescent yellow-green (drawn 'yellowgreen'), y 32-848 inside the border, bottom panels Cl.400 white: SCHOOL / ZONE 240 E tops 150 / 510 (150/240/120/240/98), 489/1422/489, 735/930/735. Black bar 32 under the yellow panel (98 / 32 / 80 in the chain; measures about 22) and a 32 divider at x 1184-1216 between the times panel and the ring panel (the SCHOOL / DAYS centre 608 = the middle of 32-1184 confirms it). Times panel: '8 - 9 30 AM' 340 D numerals top 960 (880 + 80), the 30 in 170 C top-aligned, AM in 130 C on the numerals' baseline (170 / 40 / 130 = 340): 114 / 231 / 93 / 84 dash / 86 / 231 / 42 / 221 / 97 across, AM 187 wide under the 30 (899-1086, from the sheet), dash 84 x 40 centred on the numerals' mid-height (measured); '2 30 - 4 PM' 340 C (the chain's 340C; C gives the plan's 190 / 210 exactly) top 1420 (120 below): 67 / 190 / 42 / 221, dash 583-667, 4 at 732 (210), PM 985-1169 (184, 40 after the 4) read from the sheet (the chain's 210 / 184 / 40 / 52 leaves the dash gaps undimensioned). SCHOOL / DAYS 180 E tops 1880 / 2150 (120/180/90/180/170), 75/1066/59, 249/718/233. Ring panel: red annulus r590 outer / r470 inner centred (1800, 1690) = 570 / 480 / 570 down the 1620 panel, numerals 40 480 D top 1450, 805 wide. Plan r4-230n; 'for non standard times use R4-235n'."
+}

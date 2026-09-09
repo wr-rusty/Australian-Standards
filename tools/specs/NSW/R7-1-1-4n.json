@@ -1,0 +1,211 @@
+{
+ "code": "R7-1-1-4n",
+ "pack": "NSW",
+ "name": "BUS_LANE_{t}_MON-FRI_OVERHEAD_WHITE_TALL",
+ "legend": "BUS LANE {t} MON-FRI (overhead, down arrow)",
+ "shape": "rect",
+ "size": [
+  750,
+  1220
+ ],
+ "radius": 90,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "hands": [
+  "AM",
+  "PM"
+ ],
+ "drawn_hand": "AM",
+ "hand_values": {
+  "AM": {
+   "t": "6-10AM"
+  },
+  "PM": {
+   "t": "3-7PM"
+  }
+ },
+ "symbols": {
+  "nsw_bus_side": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "grid_mm": 10,
+   "desc": "bus, side view facing left, 457 x 146 (symbol detail on the sheet's 10 grid); windows and wheels white"
+  },
+  "nsw_bus_b_r160": {
+   "source": "r7-1-1-1n",
+   "pack": "NSW",
+   "colours": [
+    "red"
+   ],
+   "desc": "red 'B' blob 155 x 155, sides R160, white B (Cl.400 white on Cl.400 red)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_bus_b_r160",
+   "x": 55,
+   "y": 119,
+   "w": 155,
+   "h": 155,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_bus_side",
+   "x": 238,
+   "y": 125,
+   "w": 457,
+   "h": 143,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 125,
+   "top": 352,
+   "expect": 480
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 120,
+   "top": 577,
+   "expect": 97,
+   "align": "left",
+   "x": 103,
+   "hand": "AM"
+  },
+  {
+   "type": "rect",
+   "x": 275,
+   "y": 629,
+   "w": 43,
+   "h": 24,
+   "colour": "black",
+   "hand": "AM"
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "series": "E",
+   "height": 120,
+   "top": 577,
+   "expect": 164,
+   "align": "left",
+   "x": 393,
+   "hand": "AM"
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 35,
+   "top": 662,
+   "expect": 75,
+   "align": "left",
+   "x": 572,
+   "hand": "AM"
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "E",
+   "height": 120,
+   "top": 577,
+   "expect": 97,
+   "align": "left",
+   "x": 146,
+   "hand": "PM"
+  },
+  {
+   "type": "rect",
+   "x": 315,
+   "y": 629,
+   "w": 43,
+   "h": 24,
+   "colour": "black",
+   "hand": "PM"
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 120,
+   "top": 577,
+   "expect": 97,
+   "align": "left",
+   "x": 425,
+   "hand": "PM"
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 35,
+   "top": 662,
+   "expect": 67,
+   "align": "left",
+   "x": 537,
+   "hand": "PM"
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 75,
+   "top": 765,
+   "expect": 228,
+   "align": "left",
+   "x": 118
+  },
+  {
+   "type": "rect",
+   "x": 378,
+   "y": 795,
+   "w": 64,
+   "h": 15,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 75,
+   "top": 765,
+   "expect": 157,
+   "align": "left",
+   "x": 474
+  },
+  {
+   "type": "arrow",
+   "width": 73,
+   "heading": 90,
+   "x": 189,
+   "y": 920,
+   "w": 372,
+   "h": 225,
+   "path": [
+    {
+     "line": 56
+    }
+   ],
+   "head": {
+    "length": 169,
+    "width": 372,
+    "notch": 31,
+    "barb_r": 10
+   }
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet, 1:10). 750 x 1220. 'B' 155 at 55 / 119, bus 457 x 143 at 238 / 125 (125/143/84/125/100/120/68/75/80/225/75 down). LANE 125 E top 352 (135/480/135); times line top 577 (103/544/103); MON-FRI 75 E top 765 with a 64 x 15 dash 30 below the cap top (118/228/32/64/32/157/119); arrow top 920. Times are the sheet's example ('times may vary, this is an example only'): 6 - 10 AM / 3 - 7 PM in 120 E with AM / PM 35 E on the baseline (24 / 52: dash 24 deep, 52 below the numerals' top), 544 box at 103 / 103; MON-FRI 70 E with a 60 x 14 dash 30 below the cap top (135 / 213 / 30 / 60 / 30 / 147 / 135). Down arrow from the sheet's detail: shaft 73 wide, barbs 56 below the top, head base meets the shaft 87 below the top (notch 31), tip 138 below that (head 169 x 372), barb R10, 189 / 372 / 189 across. Generated as (AM) / (PM). White edge 10, black border 20 (10 / 20 at the corner; measured 10 / 23), R90. 'B' symbol Cl.400 white on Cl.400 red, bus black, both traced from the sheet's sign."
+}

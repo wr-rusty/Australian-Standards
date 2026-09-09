@@ -1,0 +1,62 @@
+{
+ "code": "W5-218n",
+ "pack": "NSW",
+ "name": "WATCH_FOR_LOGGING_TRUCKS_YELLOW_DIAMOND",
+ "legend": "WATCH FOR LOGGING TRUCKS",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  1208,
+  236,
+  2221,
+  1250
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "WATCH",
+   "series": "C",
+   "height": 120,
+   "top": 326,
+   "expect": 416
+  },
+  {
+   "type": "text",
+   "text": "FOR",
+   "series": "C",
+   "height": 120,
+   "top": 496,
+   "expect": 237
+  },
+  {
+   "type": "text",
+   "text": "LOGGING",
+   "series": "C",
+   "height": 120,
+   "top": 665,
+   "expect": 549
+  },
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "C",
+   "height": 120,
+   "top": 837,
+   "expect": 496
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 900 diamond (side 900, bounding square 1272.79), R60, yellow edge 12, black border 24 (the sheet's 12 and 36 marks at the tips; measured 12 / 28). Size (C), the sheet's only size. Four lines 120 C, 50 between, tops 326 / 496 / 665 / 837 measured on the sheet; 428/416/428, 518/237/517, 362/549/361, 388/496/388."
+}

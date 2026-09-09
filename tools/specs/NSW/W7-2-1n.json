@@ -1,0 +1,78 @@
+{
+ "code": "W7-2-1n",
+ "pack": "NSW",
+ "name": "{n}_TRACKS_WHITE_LONG",
+ "legend": "{n} TRACKS",
+ "shape": "rect",
+ "size": [
+  800,
+  367
+ ],
+ "ground": "none",
+ "which": 1,
+ "vary": {
+  "key": "n",
+  "values": [
+   2,
+   3,
+   4
+  ]
+ },
+ "drawn_value": 2,
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     300,
+     0
+    ],
+    [
+     500,
+     0
+    ],
+    [
+     500,
+     200
+    ],
+    [
+     800,
+     200
+    ],
+    [
+     800,
+     367
+    ],
+    [
+     0,
+     367
+    ],
+    [
+     0,
+     200
+    ],
+    [
+     300,
+     200
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "{n}",
+   "series": "E",
+   "height": 130,
+   "top": 33
+  },
+  {
+   "type": "text",
+   "text": "TRACKS",
+   "series": "E",
+   "height": 110,
+   "top": 263,
+   "expect": 633
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). Size (B) 800 x 367 generated (A 600 x 275 also on the sheet): a T-shaped white panel, black legend, no border: 200 wide tab 200 deep centred (300/200/300) over the 800 x 167 base. Number of tracks 130 E (dashed '2' = variable) top 33 in the tab; TRACKS 110 E top 263 (200/63/110/31), 83/633/84. Values 2 / 3 / 4 generated. Everything outside the T is transparent."
+}

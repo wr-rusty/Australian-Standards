@@ -1,0 +1,196 @@
+{
+ "code": "W7-13-1n(R)",
+ "pack": "NSW",
+ "name": "TRUCKS_TURNING_PREPARE_TO_STOP_RAIL_CROSSROAD_RIGHT_BLACK_TALL",
+ "legend": "TRUCKS TURNING PREPARE TO STOP (rail crossing on side road, crossroad, crossing on the right)",
+ "shape": "rect",
+ "size": [
+  1600,
+  2280
+ ],
+ "radius": 150,
+ "ground": "black",
+ "edge": {
+  "colour": "black",
+  "width": 12
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  483,
+  272,
+  1351,
+  1510
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     800.39,
+     130.0
+    ],
+    [
+     1436.79,
+     766.39
+    ],
+    [
+     800.39,
+     1402.79
+    ],
+    [
+     164.0,
+     766.39
+    ]
+   ],
+   "radius": 60,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     800.39,
+     146.97
+    ],
+    [
+     1419.82,
+     766.39
+    ],
+    [
+     800.39,
+     1385.82
+    ],
+    [
+     180.97,
+     766.39
+    ]
+   ],
+   "radius": 48,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     800.39,
+     180.91
+    ],
+    [
+     1385.88,
+     766.39
+    ],
+    [
+     800.39,
+     1351.88
+    ],
+    [
+     214.91,
+     766.39
+    ]
+   ],
+   "radius": 24,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_w7-13-1nr_rail",
+   "x": 396.3,
+   "y": 505.1,
+   "w": 798.2,
+   "h": 538.2,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 152,
+   "y": 1472,
+   "w": 1295,
+   "h": 648,
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "panel",
+   "x": 160,
+   "y": 1480,
+   "w": 1279,
+   "h": 632,
+   "radius": 42,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 176,
+   "y": 1496,
+   "w": 1247,
+   "h": 600,
+   "radius": 26,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TRUCKS",
+    "TURNING"
+   ],
+   "gap": 125.4,
+   "series": "C",
+   "height": 120,
+   "top": 1556,
+   "expect": [
+    1177
+   ],
+   "expect_total": true,
+   "align": "left",
+   "x": 212
+  },
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "D",
+   "height": 120,
+   "top": 1736,
+   "expect": 728,
+   "cx": 799.5
+  },
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "STOP"
+   ],
+   "gap": 133.0,
+   "series": "D",
+   "height": 120,
+   "top": 1916,
+   "cx": 799.5,
+   "expect": [
+    683
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD, upright A4 sheet, 1:14.5): 'Border 12 x 24', Cnr Rad 150, Patch CR 50; TRUCKS TURNING AS 1744 Series C Medium 120, PREPARE / TO STOP Series D Medium 120. Plate 152/1295/153 across; TRUCKS TURNING 60/1177/58 (plate-relative, overall width only: the plan's word gap follows), PREPARE 284/728/283 (the plan's 728 against the font's 682: its 'Medium' spacing), TO STOP 306/683/306 overall. 1600 x 2280, R150, Cl.400 white border 24 inside a 12 black edge (12 / 24). Warning sign 'Use W7-12 / W7-13 size C': the 900 AS 1743 diamond (bounding square 1272.8 at 164 / 130: 164/1272/164 across, 130 down) as polygons (yellow edge 12, black border 24, R60) with its symbol traced from this sheet's diamond (ink box 232.3 / 375.1, 798.2 x 538.2 within the diamond's bounding square; traced with a scratch diamond spec so the diamond mask applies). Supplementary plate 1295 x 648 at 152 / 1472 (70 below the diamond; yellow edge 8, black border 16, R50), TRUCKS TURNING 120 C top 1556, PREPARE 120 D top 1736, TO STOP 120 D top 1916 (84/120/60/120/60/120/84), 160 below the plate.",
+ "symbols": {
+  "nsw_w7-13-1nr_rail": {
+   "source": "W7-13-1n(R)",
+   "pack": "NSW",
+   "diamond_px": [
+    572,
+    343,
+    1262,
+    1033
+   ],
+   "box_in_diamond": [
+    232.3,
+    375.1,
+    798.2,
+    538.2
+   ],
+   "desc": "crossroad with a railway track (crossroad, crossing on the right), from the W7-13-1n sheet's sign; traced through a scratch 900-diamond spec (see the notes)"
+  }
+ }
+}

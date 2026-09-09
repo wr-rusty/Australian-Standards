@@ -1,0 +1,98 @@
+{
+ "code": "R9-216n",
+ "pack": "NSW",
+ "name": "VEHICLES_OVER_{height}_M_IN_HEIGHT_EXCEPTED_WHITE_SQUARE",
+ "legend": "VEHICLES OVER {height} m IN HEIGHT EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  410
+ ],
+ "radius": 45,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  611,
+  601,
+  1087,
+  1036
+ ],
+ "vary": {
+  "key": "height",
+  "values": [
+   "4.0",
+   "4.3",
+   "4.6",
+   "5.0"
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "VEHICLES",
+    "OVER"
+   ],
+   "gap": 29,
+   "series": "B",
+   "height": 60,
+   "top": 45,
+   "expect": [
+    216,
+    112
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{height}",
+     "series": "B",
+     "height": 50
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 50
+    }
+   ],
+   "gap": 30,
+   "top": 135,
+   "expect": [
+    null,
+    62
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "HEIGHT"
+   ],
+   "gap": 43.5,
+   "series": "C",
+   "height": 60,
+   "top": 215,
+   "expect": [
+    52.5,
+    214
+   ]
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 60,
+   "top": 305,
+   "expect": 309
+  }
+ ],
+ "notes": "RTA plan R9-216 (2004, lettered dimension table, one size). a 450 x b 410, r 45; y 6 white edge, z 18 read as edge + border (border 12). Lines: VEHICLES OVER 60 high, table 's 60CN', c 46.5 / d 216 / e 29 / f 112 / c 46.5: at 60 Series C measures 310 + 163 (does not fit the 450), Series B 250 + 129, so drawn in B (the plan's widths 216 / 112 are 14 % narrower still: the plan's own letter spacing); height numerals 50 B ('u 50BM'), the lower-case 'm' drawn in EMod 50 (55 wide against the plan's h 62; a Series B 'm' at 50 is only 30 wide, x-height w 32LC), box variable, g 30 gap, 'centre legend in space available'; IN HEIGHT 60 C, j 70 / k 52.5 / m 43.5 / n 214 / j 70; EXCEPTED 60 C, o 70.5 / p 309 / o 70.5. Vertical chain q 40 / s 60 / t 30 / u 50 / t 30 / s 60 / t 30 / s 60 / q 40 = 400 against b 410: the 400 stack is centred (tops 45 / 135 / 215 / 305), x 146 and v 220 agree with that reading. Height values 4.0 / 4.3 / 4.6 / 5.0 m generated (the plan leaves the box blank)."
+}

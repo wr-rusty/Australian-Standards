@@ -1,0 +1,167 @@
+{
+ "code": "W3-204n",
+ "pack": "NSW",
+ "name": "PREPARE_TO_STOP_SIGNALS_LANTERNS_BLACK_LONG",
+ "legend": "PREPARE TO STOP (traffic signals, two flashing lanterns)",
+ "shape": "rect",
+ "size": [
+  2500,
+  1200
+ ],
+ "radius": 150,
+ "ground": "black",
+ "edge": {
+  "colour": "black",
+  "width": 12
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  495,
+  302,
+  1824,
+  940
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     630.33,
+     70.0
+    ],
+    [
+     1160.66,
+     600.33
+    ],
+    [
+     630.33,
+     1130.66
+    ],
+    [
+     100.0,
+     600.33
+    ]
+   ],
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     630.33,
+     84.14
+    ],
+    [
+     1146.52,
+     600.33
+    ],
+    [
+     630.33,
+     1116.52
+    ],
+    [
+     114.14,
+     600.33
+    ]
+   ],
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     630.33,
+     126.57
+    ],
+    [
+     1104.09,
+     600.33
+    ],
+    [
+     630.33,
+     1074.09
+    ],
+    [
+     156.57,
+     600.33
+    ]
+   ],
+   "radius": 10,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "w3-3_signals",
+   "x": 420.33,
+   "y": 295.33,
+   "w": 420,
+   "h": 672,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 1291,
+   "y": 100,
+   "w": 1109,
+   "h": 600,
+   "radius": 75,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 1315,
+   "y": 124,
+   "w": 1061,
+   "h": 552,
+   "radius": 51,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "D",
+   "height": 160,
+   "top": 200,
+   "expect": 909,
+   "colour": "white",
+   "cx": 1845.5
+  },
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "STOP"
+   ],
+   "gap": 93,
+   "series": "D",
+   "height": 160,
+   "top": 440,
+   "expect": [
+    275,
+    500
+   ],
+   "colour": "white",
+   "cx": 1845.5
+  },
+  {
+   "type": "circle",
+   "cx": 1602,
+   "cy": 932,
+   "r": 100,
+   "colour": "yellow"
+  },
+  {
+   "type": "circle",
+   "cx": 2088,
+   "cy": 932,
+   "r": 100,
+   "colour": "yellow"
+  }
+ ],
+ "notes": "TfNSW design plan (Roads & Maritime 2019 style, upright A3 sheet). 2500 x 1200 (the sheet's only size), R150, Cl.400 white border 24 with a 12 black edge outside it (12 / 24). Warning sign 'See W3-3(B)': the 750 AS 1743 diamond (bounding square 1060.66 at 100 / 70: 100/1060/131 across, 70/1060/70 down) as polygons (yellow edge 10, black border 30, R50 as the AS 1743 W3-3 drawing) with the w3-3_signals symbol at the AS 1743 box (320.33 / 225.33, 420 x 672). PREPARE TO STOP panel 1109 x 600 at 1291 / 100 (1291/100/909/100/100 across, 100/600 down; white border 24, R75, red ground), PREPARE / TO STOP 160 D white tops 200 / 440 (100/160/80/160/100), 909 and 275 / 93 / 500. Lantern housing 770 x 244 at 1460 / 810 (1460/42/200/43/200/43/200/42/270 across; 110 / 244 / 146 down): two 200 mm amber lanterns drawn as yellow discs R100 at 1602 / 932 and 2088 / 932; the centre lantern position is blanked out (dashed on the plan) and the housing outline is not drawn. 'Lanterns to flash alternately when amber/red is showing on traffic signals.'"
+}

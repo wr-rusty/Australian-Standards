@@ -1,0 +1,117 @@
+{
+ "code": "R9-211-1n",
+ "pack": "NSW",
+ "name": "T{t}_TRANSIT_LANE_DIAGRAMMATIC_3_LANES_CENTRE_WHITE_SQUARE",
+ "legend": "(three lane arrows, T{t} on the centre lane)",
+ "shape": "rect",
+ "size": [
+  1200,
+  1080
+ ],
+ "radius": 125,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  500,
+  434,
+  1132,
+  1004
+ ],
+ "vary": {
+  "key": "t",
+  "values": [
+   2,
+   3
+  ]
+ },
+ "drawn_value": 2,
+ "elements": [
+  {
+   "type": "arrow",
+   "width": 75,
+   "heading": -90,
+   "x": 117.5,
+   "y": 85,
+   "w": 150,
+   "h": 910,
+   "path": [
+    {
+     "line": 760
+    }
+   ],
+   "head": {
+    "length": 150,
+    "width": 150,
+    "notch": 0
+   }
+  },
+  {
+   "type": "arrow",
+   "width": 75,
+   "heading": -90,
+   "x": 524.5,
+   "y": 85,
+   "w": 150,
+   "h": 282,
+   "path": [
+    {
+     "line": 132
+    }
+   ],
+   "head": {
+    "length": 150,
+    "width": 150,
+    "notch": 0
+   }
+  },
+  {
+   "type": "rect",
+   "x": 562,
+   "y": 698,
+   "w": 75,
+   "h": 297,
+   "colour": "black"
+  },
+  {
+   "type": "arrow",
+   "width": 75,
+   "heading": -90,
+   "x": 932.5,
+   "y": 85,
+   "w": 150,
+   "h": 910,
+   "path": [
+    {
+     "line": 760
+    }
+   ],
+   "head": {
+    "length": 150,
+    "width": 150,
+    "notch": 0
+   }
+  },
+  {
+   "type": "path",
+   "d": "M426.9 431.7 L461.8 420.0 L508.4 409.0 L553.3 401.8 L599.3 400.0 L643.4 401.8 L693.3 409.7 L735.4 419.4 L772.9 432.5 L785.6 467.5 L792.2 497.4 L795.0 524.1 L794.3 549.4 L790.8 572.7 L781.6 607.7 L772.2 628.7 L738.3 640.2 L700.2 649.4 L653.3 657.1 L601.9 659.9 L559.8 657.8 L501.0 649.9 L455.8 638.4 L426.4 627.4 L412.9 592.9 L405.6 550.7 L405.0 516.1 L410.9 477.3 L420.3 447.9 L426.9 431.7Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "T{t}",
+   "series": "D",
+   "height": 180,
+   "top": 440,
+   "colour": "white",
+   "cx": 600
+  }
+ ],
+ "notes": "RTA plan (2007, 1:15, all text outlined). 1200 x 1080, R125, white edge 12, black border 24 (12 / 24; measured 8 / 28). Up arrows 75 wide from 85 to 995 (85 top margin; 400 / 260 / 335 / 85 = 1080 places the T blob 400-660), head 150 long x 150 wide, flat base, from the symbol detail's 50 grid (3 squares; the sheet's head widens 1 per 1); the blob's arrow is broken 367-698 (grid detail, measured 369 / 696). T symbol 390 x 260 (R460 top and bottom, R230 sides): Cl.1 white legend on Cl.1 red ground, drawn as the R7-233n plan's blob path scaled to 390 x 260 (its arcs are not dimensioned beyond the two radii), 'T2' 180 Series D ('use appropriate number': T2 and T3 generated), centred on the blob. Shafts at 155, 562 and 970 (155/75/332/75/333/75/155), blob at 405-795 (405 / 390)."
+}
