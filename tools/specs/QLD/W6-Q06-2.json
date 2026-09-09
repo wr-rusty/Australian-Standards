@@ -1,0 +1,238 @@
+{
+ "code": "W6-Q06-2",
+ "pack": "QLD",
+ "name": "CYCLIST_ROUTE_{rn}_OR_IN_TRAFFIC",
+ "legend": "{r1} {r2} {d1} km / IN TRAFFIC {d2} km (bicycle, arrows)",
+ "shape": "rect",
+ "size": [
+  500,
+  450
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 5
+ },
+ "panel_px": [
+  422.2,
+  283.1,
+  1209.6,
+  991.7
+ ],
+ "vary": {
+  "keys": [
+   "r1",
+   "r2",
+   "rn",
+   "d1",
+   "d2"
+  ],
+  "values": [
+   [
+    "SHARED",
+    "PATH",
+    "SHARED_PATH",
+    "0.6",
+    "0.8"
+   ],
+   [
+    "BIKE",
+    "PATH",
+    "BIKE_PATH",
+    "0.6",
+    "0.8"
+   ],
+   [
+    "ALT",
+    "ROUTE",
+    "ALT_ROUTE",
+    "0.6",
+    "0.8"
+   ]
+  ]
+ },
+ "symbols": {
+  "qld_w6-q06-1_bicycle": {
+   "source": null,
+   "pack": "QLD",
+   "panel_px": [
+    578.3,
+    432.2,
+    1050.7,
+    1062.1
+   ],
+   "desc": "bicycle as W6-Q06_1 (same artwork, 179 x 120 here)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w6-q06-2_arrow_up": {
+   "source": null,
+   "pack": "QLD",
+   "panel_px": [
+    422.2,
+    283.1,
+    1209.6,
+    991.7
+   ],
+   "desc": "straight-ahead arrow 44 x 50 (blue), from the sheet's grid inset artwork; vector item 154",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w6-q06-2_arrow_up_left": {
+   "source": null,
+   "pack": "QLD",
+   "panel_px": [
+    422.2,
+    283.1,
+    1209.6,
+    991.7
+   ],
+   "desc": "the same arrow turned 45 degrees up-left as the sheet draws it in the left panel, 40.7 square; vector item 153",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 10,
+   "y": 155,
+   "w": 480,
+   "h": 5,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M10 160H247.5V440H25A15 15 0 0 1 10 425Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M252.5 160H490V425A15 15 0 0 1 475 440H252.5Z",
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 247.5,
+   "y": 160,
+   "w": 5,
+   "h": 285,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q06-1_bicycle",
+   "x": 160.45,
+   "y": 22,
+   "w": 179.1,
+   "h": 120,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q06-2_arrow_up_left",
+   "x": 108.4,
+   "y": 170,
+   "w": 40.7,
+   "h": 40.7,
+   "colour": "blue"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q06-2_arrow_up",
+   "x": 349.25,
+   "y": 170,
+   "w": 44,
+   "h": 50,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "{r1}",
+   "series": "C",
+   "height": 40,
+   "top": 240,
+   "cx": 128.75,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "{r2}",
+   "series": "C",
+   "height": 40,
+   "top": 310,
+   "cx": 128.75,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d1}",
+     "series": "D",
+     "height": 40,
+     "slot": 80
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 32
+    }
+   ],
+   "gap": 14.5,
+   "top": 380,
+   "cx": 128.75,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "IN",
+   "series": "C",
+   "height": 40,
+   "top": 240,
+   "cx": 371.25,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 40,
+   "top": 310,
+   "cx": 371.25,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d2}",
+     "series": "D",
+     "height": 40,
+     "slot": 80
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 32
+    }
+   ],
+   "gap": 14.5,
+   "top": 380,
+   "cx": 371.25,
+   "colour": "blue"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this sign the 10 / 5 pair is the edge + border and the yellow edge (edge 5 + black border 5, as the sheet's vectors draw it: black 5-495, yellow from 10). Q-series sheet W6-Q06_2 'Cyclist warning sign SHARED PATH .. km / IN TRAFFIC .. km' page 2 of 2 (2021; with W6-Q06_1), one size dimensioned directly: 500 x 450, R 25. Yellow bicycle panel above a 5 black bar (y 155-160), two white panels below (10-247.5 and 252.5-490, the 5 black divider between, the panels following the inner corner radius 15 at the bottom). Chain (right): 22 / 120 (bicycle) / 13 / 5 (bar) / 10 / 50 (arrow) / 20 / 40CM / 30 / 40CM / 30 / 40DM-24LC / 30 = 450: bicycle top 22, arrows top 170, cap tops 240, 310, 380. Bicycle 179 x 120 (the W6-Q06_1 artwork), centred (the sheet draws it 7 left of centre; not dimensioned). Arrows centred in their panels as drawn (left panel centre 128.75, right 371.25): the sheet shows an up-left arrow in the left panel and a straight arrow in the right ('insert the appropriate directional arrow' \u2014 generated as drawn). Text blue: route name in two lines 40C ('CM' read as Series C), IN / TRAFFIC 40C, distances '40DM/24LC' = numerals 40 Series D in the sheet's dashed 80-wide box (slot 80) + 'km' lower case whose x-height is 24 (Series E(M) at cap 32, as the sheet's k is 32 tall and its m 24), gap box to km 14.5 measured, each line centred in its panel. Variants: the route name is the sheet's list (SHARED PATH / BIKE PATH / ALT ROUTE); the distances are the sheet's example values 0.6 and 0.8 km ('insert the appropriate distance', no list). Bicycle and arrows extracted from the sheet PDF (not traced). Black, blue and white on yellow / white."
+}

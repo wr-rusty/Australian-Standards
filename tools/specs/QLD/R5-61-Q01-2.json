@@ -1,0 +1,45 @@
+{
+ "code": "R5-61-Q01-2",
+ "pack": "QLD",
+ "drawing": "R5-61-Q01-2",
+ "name": "PENALTIES_APPLY_WHITE_LONG",
+ "legend": "PENALTIES APPLY",
+ "shape": "rect",
+ "size": [
+  1050,
+  450
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  503,
+  533,
+  1247,
+  852
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "PENALTIES",
+   "series": "E",
+   "height": 100,
+   "top": 90
+  },
+  {
+   "type": "text",
+   "text": "APPLY",
+   "series": "E",
+   "height": 100,
+   "top": 260
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-61-Q01_2 'Penalties apply' supplementary plate (2019, installed under R5-61-Q01_1), one size 1050 x 450, R100, 15 / 45 (edge 15 + border 30). Chain 90 / 100E PENALTIES / 70 / 100E APPLY / 90 = 450: cap tops 90, 260. Black on white."
+}

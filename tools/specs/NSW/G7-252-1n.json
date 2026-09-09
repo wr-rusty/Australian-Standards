@@ -1,0 +1,82 @@
+{
+ "code": "G7-252-1n",
+ "pack": "NSW",
+ "name": "EVERY_TWO_HOURS_STOP_REVIVE_SURVIVE_BLUE_SQUARE",
+ "legend": "EVERY TWO HOURS STOP REVIVE SURVIVE",
+ "shape": "rect",
+ "size": [
+  1800,
+  1860
+ ],
+ "radius": 250,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 24
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  443,
+  403,
+  1387,
+  1379
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "EVERY",
+    "TWO"
+   ],
+   "series": "E",
+   "height": 160,
+   "gap": 92.7,
+   "top": 290.8,
+   "colour": "white",
+   "expect": [
+    1327
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "HOURS",
+   "series": "E",
+   "height": 160,
+   "top": 571.0,
+   "colour": "white",
+   "expect": 789
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "E",
+   "height": 130,
+   "top": 971.1,
+   "colour": "white",
+   "expect": 477
+  },
+  {
+   "type": "text",
+   "text": "REVIVE",
+   "series": "E",
+   "height": 130,
+   "top": 1201.1,
+   "colour": "white",
+   "expect": 669
+  },
+  {
+   "type": "text",
+   "text": "SURVIVE",
+   "series": "E",
+   "height": 130,
+   "top": 1431.1,
+   "colour": "white",
+   "expect": 815
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1860 x 1800' (H x W) = 1800 x 1860, Cnr Rad 250, Border '24 x 24' = edge 24 (blue) + border 24 (white) (drawn as a 24.1 stroke centred 35.9 in), Patch CR NA; Aluminium Sign; Cl.400 White refl lgd(AS1906.1); Cl.400 Blue refl grd(AS1906.1). Fonts: EVERY TWO: FHWA Series E2000EX 160; HOURS: FHWA Series E2000EX 160; STOP: FHWA Series E2000EX 130; REVIVE: FHWA Series E2000EX 130; SURVIVE: FHWA Series E2000EX 130. EVERY TWO 160 E top 290.8 (baseline 451; plan advance box 215-1579, dims [1327]) HOURS 160 E top 571.0 (baseline 731; plan advance box 485-1305, dims 789) STOP 130 E top 971.1 (baseline 1101; plan advance box 653-1144, dims 477) REVIVE 130 E top 1201.1 (baseline 1331; plan advance box 549-1246, dims 669) SURVIVE 130 E top 1431.1 (baseline 1561; plan advance box 483-1318, dims 815)"
+}

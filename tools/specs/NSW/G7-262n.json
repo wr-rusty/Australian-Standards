@@ -1,0 +1,119 @@
+{
+ "code": "G7-262n",
+ "pack": "NSW",
+ "name": "TRUCK_STOPPING_BAY_500_M_ON_LEFT_BLUE_TALL",
+ "legend": "STOPPING BAY m 500 ON LEFT",
+ "shape": "rect",
+ "size": [
+  1415,
+  1500
+ ],
+ "radius": 125,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 24
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  544,
+  543,
+  1286,
+  1330
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M361.53 178.54L371.7 169.65L447.95 167.42L461.29 172.82L464.47 186.17L463.51 290.05L475.58 305.3L480.03 315.47L567.4 315.47L564.22 319.92L560.73 337.39L560.73 341.84L463.51 341.84L460.02 320.87L450.17 306.57L435.87 296.72L419.04 293.23L401.56 297.68L384.72 306.57L376.15 322.14L372.65 341.84L311.97 341.84L321.82 243.67L325 235.73L342.79 224.93Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M373.92 191.57L384.72 181.72L432.38 181.72L441.27 184.9L443.5 189.34L445.72 223.66L439.05 233.5L432.38 235.73L367.25 234.77L361.53 230.33L360.58 227.15Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M418.08 376.15C439.05 376.15 455.57 358.36 455.57 337.39C455.57 316.42 439.05 299.9 418.08 299.9C398.07 299.9 380.28 316.42 380.28 337.39C380.28 358.36 398.07 376.15 418.08 376.15Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M607.11 375.19C628.39 375.19 644.91 358.36 644.91 337.39C644.91 316.42 628.39 298.95 607.11 298.95C586.14 298.95 569.62 316.42 569.62 337.39C569.62 358.36 586.14 375.19 607.11 375.19Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M920.35 379.32C942.59 379.32 957.84 361.85 957.84 340.88C957.84 319.92 942.59 303.4 920.35 303.4C899.39 303.4 882.55 319.92 882.55 340.88C882.55 361.85 899.39 379.32 920.35 379.32Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M1016.61 378.37C1037.58 378.37 1054.1 361.85 1054.1 340.88C1054.1 319.92 1037.58 302.13 1016.61 302.13C994.38 302.13 978.81 319.92 978.81 340.88C978.81 361.85 994.38 378.37 1016.61 378.37Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M558.5 129.94H1103.03V293.23H558.5Z",
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "STOPPING",
+   "series": "E",
+   "height": 160,
+   "top": 456.0,
+   "colour": "white",
+   "expect": 1136
+  },
+  {
+   "type": "text",
+   "text": "BAY",
+   "series": "E",
+   "height": 160,
+   "top": 695.9,
+   "colour": "white",
+   "expect": 486
+  },
+  {
+   "type": "text",
+   "text": "500",
+   "series": "E",
+   "height": 160,
+   "top": 936.0,
+   "cx": 601.6,
+   "colour": "white",
+   "expect": 457
+  },
+  {
+   "type": "text",
+   "text": "m",
+   "series": "Emod",
+   "height": 140,
+   "top": 951.9,
+   "cx": 966.6,
+   "colour": "white",
+   "expect": 153
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "LEFT"
+   ],
+   "series": "E",
+   "height": 160,
+   "gap": 121.5,
+   "top": 1175.9,
+   "colour": "white",
+   "expect": [
+    973
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1500 x 1415' (H x W) = 1415 x 1500, Cnr Rad 125, Border '24 x 24' = edge 24 (blue) + border 24 (white) (drawn as a 24.1 stroke centred 35.9 in), Patch CR NA; ALUMINIUM SIGN:; Cl.400 White refl legend, arrow and border(AS1906.1).; Cl.400 Blue refl ground(AS1906.1).. Fonts: STOPPING: FHWA Series E2000EX 160; BAY: FHWA Series E2000EX 160; 500: FHWA Series E2000EX 160; m: FHWA Series Em2000EX 140; ON LEFT: FHWA Series E2000EX 160. STOPPING 160 E top 456.0 (baseline 616; plan advance box 129-1292, dims 1136) BAY 160 E top 695.9 (baseline 856; plan advance box 444-957, dims 486) m 140 Emod top 951.9 (baseline 1092; plan advance box 862-1071, dims 153) 500 160 E top 936.0 (baseline 1096; plan advance box 362-846, dims 457) ON LEFT 160 E top 1175.9 (baseline 1336; plan advance box 205-1199, dims [973]) symbol: 7 filled paths from the sheet's own vector artwork (bbox [312.0, 129.9, 1103.0, 379.3])"
+}

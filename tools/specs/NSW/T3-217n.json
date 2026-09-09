@@ -1,0 +1,57 @@
+{
+ "code": "T3-217n",
+ "pack": "NSW",
+ "name": "BITUMEN_SPRAYING_POSSIBLE_SHORT_DELAY_YELLOW_LONG_SKINNY",
+ "legend": "BITUMEN SPRAYING POSSIBLE SHORT DELAY",
+ "shape": "rect",
+ "size": [
+  2400,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "panel_px": [
+  651,
+  655,
+  2570,
+  1135
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "BITUMEN",
+    "SPRAYING"
+   ],
+   "gap": 107.2,
+   "expect": [
+    961,
+    1140
+   ],
+   "series": "D",
+   "height": 180,
+   "top": 111.3
+  },
+  {
+   "type": "text",
+   "words": [
+    "POSSIBLE",
+    "SHORT",
+    "DELAY"
+   ],
+   "gap": [
+    63.4,
+    68.0
+   ],
+   "expect": [
+    714,
+    487,
+    495
+   ],
+   "series": "D",
+   "height": 120,
+   "top": 379.0
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 2400 x 600 (the sheet's caption; drawn at 1:9.85), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. BITUMEN SPRAYING 180 D top 111.3 (raster of the outlines: cap 180.1, widths [960.7, 1140.0] vs ours [961.8, 1142.1]) POSSIBLE SHORT DELAY 120 D top 379.0 (raster of the outlines: cap 120.1, widths [714.2, 487.4, 495.3] vs ours [713.3, 487.6, 497.1]) (sheet PNG re-rendered turned -90 so the sign reads upright)"
+}

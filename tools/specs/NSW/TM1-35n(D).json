@@ -1,0 +1,62 @@
+{
+ "code": "TM1-35n(D)",
+ "pack": "NSW",
+ "name": "STOP_HERE_WHEN_DIRECTED_WHITE_TALL",
+ "legend": "STOP HERE WHEN DIRECTED",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1212,
+  1597
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "D",
+   "height": 130,
+   "top": 98.9,
+   "colour": "red",
+   "expect": 404
+  },
+  {
+   "type": "text",
+   "text": "HERE",
+   "series": "D",
+   "height": 130,
+   "top": 294.1,
+   "colour": "red",
+   "expect": 412
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "C",
+   "height": 120,
+   "top": 489.3,
+   "colour": "red",
+   "expect": 351
+  },
+  {
+   "type": "text",
+   "text": "DIRECTED",
+   "series": "B",
+   "height": 120,
+   "top": 674.4,
+   "colour": "red",
+   "expect": 494
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (white) + border 25 (black) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; Aluminium Sign; Cl.400 Red refl lgd(AS1906.1); Cl.400 White refl grd(AS1906.1); Black Border. Fonts: STOP: FHWA Series D2000EX 130; HERE: FHWA Series D2000EX 130; WHEN: FHWA Series C2000EX 120; DIRECTED: FHWA Series B2000EX 120. STOP 130 D top 98.9 (baseline 229; plan advance box 91-506, dims 404) HERE 130 D top 294.1 (baseline 424; plan advance box 79-514, dims 412) WHEN 120 C top 489.3 (baseline 609; plan advance box 121-489, dims 351) DIRECTED 120 B top 674.4 (baseline 794; plan advance box 40-556, dims 494)"
+}

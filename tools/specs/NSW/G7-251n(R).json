@@ -1,0 +1,98 @@
+{
+ "code": "G7-251n(R)",
+ "pack": "NSW",
+ "name": "BIRDCAGE_DRIVER_REVIVER_M_500_ON_RIGHT_BLUE_LONG",
+ "legend": "BIRDCAGE DRIVER REVIVER m 500 ON RIGHT",
+ "shape": "rect",
+ "size": [
+  1800,
+  1700
+ ],
+ "radius": 225,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 24
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  590,
+  609,
+  1299,
+  1278
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M1567.85 259.68C1567.85 215.63 1531.84 180.04 1487.79 180.04L311.79 180.04C267.73 180.04 232.15 215.63 232.15 259.68L232.15 899.79C232.15 943.85 267.73 979.85 311.79 979.85L1487.79 979.85C1531.84 979.85 1567.85 943.85 1567.85 899.79L1567.85 259.68Z",
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "BIRDCAGE",
+   "series": "E",
+   "height": 160,
+   "top": 256.0,
+   "colour": "blue",
+   "expect": 1176
+  },
+  {
+   "type": "text",
+   "text": "DRIVER",
+   "series": "E",
+   "height": 160,
+   "top": 496.2,
+   "colour": "blue",
+   "expect": 839
+  },
+  {
+   "type": "text",
+   "text": "REVIVER",
+   "series": "E",
+   "height": 160,
+   "top": 736.0,
+   "colour": "blue",
+   "expect": 988
+  },
+  {
+   "type": "text",
+   "text": "500",
+   "series": "E",
+   "height": 180,
+   "top": 1065.0,
+   "cx": 779.1,
+   "colour": "white",
+   "expect": 514
+  },
+  {
+   "type": "text",
+   "text": "m",
+   "series": "Emod",
+   "height": 160,
+   "top": 1081.2,
+   "cx": 1189.9,
+   "colour": "white",
+   "expect": 175
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RIGHT"
+   ],
+   "series": "E",
+   "height": 180,
+   "gap": 136.8,
+   "top": 1335.3,
+   "colour": "white",
+   "expect": [
+    1228
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1700 x 1800' (H x W) = 1800 x 1700, Cnr Rad 225, Border '24 x 24' = edge 24 (blue) + border 24 (white) (drawn as a 24.1 stroke centred 36.0 in), Patch CR 80; Aluminium Sign; Cl.400 White refl lgd(AS1906.1); Cl.400 Blue refl grd(AS1906.1); Driver Reviver Patch:-Cl.400 Blue refl lgd/Cl.400 White refl. Fonts: BIRDCAGE: FHWA Series E2000EX 160; DRIVER: FHWA Series E2000EX 160; REVIVER: FHWA Series E2000EX 160; 500: FHWA Series E2000EX 180; m: FHWA Series Em2000EX 160; ON RIGHT: FHWA Series E2000EX 180. BIRDCAGE 160 E top 256.0 (baseline 416; plan advance box 291-1499, dims 1176) DRIVER 160 E top 496.2 (baseline 656; plan advance box 459-1330, dims 839) REVIVER 160 E top 736.0 (baseline 896; plan advance box 385-1405, dims 988) m 160 Emod top 1081.2 (baseline 1241; plan advance box 1071-1309, dims 175) 500 180 E top 1065.0 (baseline 1245; plan advance box 510-1054, dims 514) ON RIGHT 180 E top 1335.3 (baseline 1515; plan advance box 268-1521, dims [1228]) symbol: 1 filled paths from the sheet's own vector artwork (bbox [232.1, 180.0, 1567.9, 979.9])"
+}

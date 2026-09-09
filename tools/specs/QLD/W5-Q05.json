@@ -1,0 +1,18 @@
+{
+ "code": "W5-Q05",
+ "pack": "QLD",
+ "name": "SOFT_EDGES_YELLOW_DIAMOND",
+ "legend": "SOFT EDGES",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 10},
+ "border": {"colour": "black", "width": 20},
+ "panel_px": [587, 282, 1235, 930],
+ "elements": [
+  {"type": "text", "text": "SOFT", "series": "D", "height": 120, "top": 289.27},
+  {"type": "text", "text": "EDGES", "series": "D", "height": 120, "top": 469.27}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q05 'Soft edges' warning sign (1995/2016, rev B). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Legend two lines f 120D (Series D, cap 120), gap d 60 between the lines, e 15 from the bottom of SOFT down to the horizontal centreline (the same chain as W5-Q04: f / e to the centreline, d across it / f): SOFT cap top 424.27 - 15 - 120 = 289.27, EDGES cap top 409.27 + 60 = 469.27. Black on retroreflective yellow."
+}

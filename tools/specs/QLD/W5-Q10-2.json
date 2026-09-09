@@ -1,0 +1,139 @@
+{
+ "code": "W5-Q10-2",
+ "pack": "QLD",
+ "name": "WANDERING_STOCK_WHITE_SQUARE",
+ "legend": "WANDERING STOCK (W5-38A symbol)",
+ "shape": "rect",
+ "size": [
+  1700,
+  1600
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "panel_px": [
+  517,
+  405,
+  1320,
+  1161
+ ],
+ "symbols": {
+  "qld_w5-q10-1_stock": {
+   "source": "W5-Q10-1",
+   "pack": "QLD",
+   "panel_px": [
+    424,
+    363,
+    1413,
+    956
+   ],
+   "desc": "as W5-Q10-1 (the same W5-38A inset, the sheet draws the same vector); reused, do not re-extract",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "WANDERING",
+   "series": "D",
+   "height": 180,
+   "top": 150
+  },
+  {
+   "type": "text",
+   "text": "STOCK",
+   "series": "D",
+   "height": 180,
+   "top": 420
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     850.0,
+     631.47
+    ],
+    [
+     1274.26,
+     1055.74
+    ],
+    [
+     850.0,
+     1480.0
+    ],
+    [
+     425.74,
+     1055.74
+    ]
+   ],
+   "radius": 40,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     850.0,
+     645.61
+    ],
+    [
+     1260.12,
+     1055.74
+    ],
+    [
+     850.0,
+     1465.86
+    ],
+    [
+     439.88,
+     1055.74
+    ]
+   ],
+   "radius": 30,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     850.0,
+     673.9
+    ],
+    [
+     1231.84,
+     1055.74
+    ],
+    [
+     850.0,
+     1437.57
+    ],
+    [
+     468.16,
+     1055.74
+    ]
+   ],
+   "radius": 10,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q10-1_stock",
+   "x": 572.93,
+   "y": 893.37,
+   "w": 554.1,
+   "h": 316.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q10_2 'Wandering stock' warning sign (2011/2023, rev E, page 2 of 2), fully dimensioned, one size 1700 x 1600, R200, white edge 20 + black border 40 (the sheet's 60 / 20). Vertical chain 150 / 180D / 90 / 180D / 880 / 120 = 1600: WANDERING cap top 150, STOCK 420, both centred on the sign as drawn (measured centres 851 / 852 on the 1700 sign; the sheet's '130' at the bottom left does not match any drawn edge and is not used); the inset W5-38A diamond's bottom corner 880 below STOCK = 120 above the bottom edge (y 1480), centred horizontally -> bbox x 425.735, y 631.47; 600 side, 10 yellow edge + 20 black border, r 40, drawn as polygons, with the stock symbol placed as drawn (the same vector as W5-Q10-1). Black with the yellow / black diamond on retroreflective white."
+}

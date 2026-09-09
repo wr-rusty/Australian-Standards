@@ -1,0 +1,6 @@
+{
+ "code": "tram_only_signalised_leg",
+ "pack": "NSW",
+ "legend": "Tram Only Pavement Marking Signalised Leg",
+ "skip": "pavement marking (tram-only signalised leg), not a sign: belongs to the markings scope"
+}

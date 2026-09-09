@@ -1,0 +1,44 @@
+{
+ "code": "W8-Q03",
+ "pack": "QLD",
+ "name": "BUS_STOP_YELLOWGREEN",
+ "legend": "BUS STOP",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  494.5,
+  458.5,
+  1203.1,
+  931.0
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BUS",
+   "series": "E",
+   "height": 100,
+   "top": 75
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "E",
+   "height": 100,
+   "top": 225
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this plate 'c' is the yellow/green edge and 'd' the edge + black border. Q-series sheet W8-Q03 'Supplementary plate BUS STOP' (1995/2022; only with W6-3). Size A 600 x 400 generated (B 750 x 500, C 900 x 600 also tabled), r 25, c 5 / d 15 (edge 5 + border 10). Chain e 75 / f 100E / g 50 / f 100E / e 75 = 400: cap tops 75, 225. Black legend and border on fluorescent yellow/green."
+}

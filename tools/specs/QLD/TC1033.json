@@ -1,0 +1,58 @@
+{
+ "code": "TC1033",
+ "pack": "QLD",
+ "drawing": "TC1033",
+ "name": "NARROW_SHOULDERS_TRUCK_CAR_YELLOW_DIAMOND",
+ "legend": "(truck and car between cones symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  476,
+  280,
+  1253,
+  1057
+ ],
+ "symbols": {
+  "qld_tc1033_truck_car_cones": {
+   "source": "TC1033",
+   "pack": "QLD",
+   "panel_px": [
+    476,
+    280,
+    1253,
+    1057
+   ],
+   "desc": "truck (rear view) and car (rear view) between two traffic cones on a baseline, box d 608 x (e 140 + f 225); vector paths from the PDF (items 294, 297, 298, 299)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed) so the windows render under nonzero"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1033_truck_car_cones",
+   "x": 226.33,
+   "y": 305.33,
+   "w": 608,
+   "h": 365,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1033_1 'Narrow shoulders' special hazard warning sign, two lanes (truck and car) (1998/2002, approved 2014; page 1 of 3, pages 2 and 3 are the two-car and three-car options, TC1033_p2 / TC1033_p3). Diamond, table a / b / c / d / e / f / r: size B 750 side generated (C 900, D 1200 also tabled; no size A), drawn as the bounding square 750 x 1.41421 = 1060.66 (centre 530.33), r 40, yellow edge b 10 + black border c 20 (the sheet's diamond is drawn with a thinner edge and border than tabled; the table governs). Symbol box d wide, e below and f above the sign's horizontal centreline, centred. d 608, e 140, f 225: box x 226.33, y 305.33, 608 x 365. The sheet draws this symbol 665.7 x 377 (aspect 1.77) while the tabled box is 608 x 365 (aspect 1.67): the vector artwork is fitted to the tabled width (608 x 344.3) and centred in the box, 10.3 short of the tabled f and e each. Symbol extracted from the sheet PDF's own filled vector paths (tools/symbols/qld_tc1033_truck_car_cones.svg). Black on retroreflective yellow."
+}

@@ -1,0 +1,50 @@
+{
+ "code": "TM8-3n(D)",
+ "pack": "NSW",
+ "name": "USE_OTHER_FOOTPATH_YELLOW_TALL",
+ "legend": "USE OTHER FOOTPATH",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1266,
+  1677
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "USE",
+   "series": "C",
+   "height": 100,
+   "top": 228.1,
+   "expect": 197
+  },
+  {
+   "type": "text",
+   "text": "OTHER",
+   "series": "C",
+   "height": 100,
+   "top": 398.1,
+   "expect": 338
+  },
+  {
+   "type": "text",
+   "text": "FOOTPATH",
+   "series": "C",
+   "height": 90,
+   "top": 567.6,
+   "expect": 479
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: USE: FHWA Series C2000EX 100; OTHER: FHWA Series C2000EX 100; FOOTPATH: FHWA Series C2000EX 90. USE 100 C top 228.1 (baseline 328; plan advance box 191-405, dims 197) OTHER 100 C top 398.1 (baseline 498; plan advance box 122-475, dims 338) FOOTPATH 90 C top 567.6 (baseline 658; plan advance box 50-550, dims 479)"
+}

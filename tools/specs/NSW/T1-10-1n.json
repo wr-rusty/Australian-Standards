@@ -1,0 +1,50 @@
+{
+ "code": "T1-10-1n",
+ "pack": "NSW",
+ "name": "TRAFFIC_HAZARD_AHEAD_YELLOW_LONG",
+ "legend": "TRAFFIC HAZARD AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  600,
+  757,
+  1230,
+  1229
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "E",
+   "height": 160,
+   "top": 115.5,
+   "expect": 974
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "E",
+   "height": 160,
+   "top": 365.6,
+   "expect": 960
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 160,
+   "top": 615.7,
+   "expect": 818
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1200' (H x W) = 1200 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.1 stroke centred 12.1 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: TRAFFIC: FHWA Series E2000EX 160; HAZARD: FHWA Series E2000EX 160; AHEAD: FHWA Series E2000EX 160. TRAFFIC 160 E top 115.5 (baseline 276; plan advance box 108-1103, dims 974) HAZARD 160 E top 365.6 (baseline 526; plan advance box 99-1096, dims 960) AHEAD 160 E top 615.7 (baseline 776; plan advance box 185-1024, dims 818)"
+}

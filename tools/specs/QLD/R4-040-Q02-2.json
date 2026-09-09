@@ -1,0 +1,178 @@
+{
+ "code": "R4-040-Q02-2",
+ "pack": "QLD",
+ "drawing": "R4-040-Q02-2",
+ "name": "SCHOOL_ZONE_ARROWS_{speed}_ALL_DAY_SCHOOL_DAYS_ORANGE_TALL",
+ "legend": "SCHOOL ZONE (double arrow) {speed} 7 AM - 4 PM SCHOOL DAYS",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  1550
+ ],
+ "radius": 100,
+ "ground": "orange",
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   60,
+   80
+  ]
+ },
+ "panel_px": [
+  363,
+  264,
+  836,
+  1484
+ ],
+ "symbols": {
+  "qld_r4-040-q02_double_arrow": {
+   "source": "R4-040-Q02-1",
+   "pack": "QLD",
+   "desc": "double-headed arrow c 300 wide x n 66 (the sheet's grid inset)",
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 75,
+   "y": 75,
+   "w": 450,
+   "h": 1400,
+   "radius": 45,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 79,
+   "y": 79,
+   "w": 442,
+   "h": 296,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 91,
+   "y": 91,
+   "w": 418,
+   "h": 272,
+   "radius": 33,
+   "colour": "yellowgreen"
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 60,
+   "top": 109
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 60,
+   "top": 199
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r4-040-q02_double_arrow",
+   "x": 150,
+   "y": 289,
+   "w": 300,
+   "h": 66,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 625,
+   "r_outer": 220,
+   "r_inner": 185,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 200,
+   "top": 525
+  },
+  {
+   "type": "panel",
+   "x": 79,
+   "y": 875,
+   "w": 442,
+   "h": 596,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 91,
+   "y": 887,
+   "w": 418,
+   "h": 572,
+   "radius": 33,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "align": "left",
+   "x": 101.4,
+   "top": 1000,
+   "runs": [
+    {
+     "text": "7",
+     "series": "C",
+     "height": 120
+    },
+    {
+     "text": "AM",
+     "series": "D",
+     "height": 45
+    },
+    {
+     "text": "4",
+     "series": "C",
+     "height": 120
+    },
+    {
+     "text": "PM",
+     "series": "D",
+     "height": 45
+    }
+   ],
+   "gap": [
+    19,
+    64,
+    20
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 284.7,
+   "y": 1056,
+   "w": 30,
+   "h": 8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 75,
+   "top": 1240
+  },
+  {
+   "type": "text",
+   "text": "DAYS",
+   "series": "D",
+   "height": 75,
+   "top": 1355
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q02_2 'School zone speed limit (double arrow)', the all-day-times version (2025; note 2: all-day times shall be 7 am and 4 pm, option 5 of page 3). Size A generated (target board a1 600 x b1 1550, r3 100, fluorescent orange edge strip c1 75 all round; the white sign a 450 x b 1400, r 45; B 800 x 2100 / 600 x 1900 and C 1200 x 3100 / 900 x 2800 also tabled). Sections c 300 (school zone plate) / d 500 (speed) / e 600 (times and SCHOOL DAYS) = 1400. Plate: f 4 white gap from the sign edge, black border g 12, fluorescent yellow-green inside, r 45 (sign coordinates y 4-300, x 4-446); chain f 4 / k1 30 / m 60D SCHOOL / k1 30 / m 60D ZONE / k1 30 / n 66 (double-headed arrow, c 300 wide, centred; tools/symbols/qld_r4-040-q02_double_arrow.svg) / k 20 = 300: SCHOOL cap top 34, ZONE 124, arrow y 214-280, x 75-375. Speed: o 150 / p 200D / o 150 = 500: numerals cap top 450, red annulus r2 220 outside / r1 185 inside centred (225, 550). Times panel: black border g 12, y 800-1396 (the white gap f 4 only below it, as the sheet's vectors draw it), r 45. Chain q 245 (times block) / s1 120 / t 75D SCHOOL / s 40 / t 75D DAYS / u 45 = 600: SCHOOL cap top 1165, DAYS 1280. Times block: one line 7 AM - 4 PM per option 5 of page 3: z 125 above the numerals (cap top 925), numerals v 120C, AM/PM x 45D on the numerals' baseline; horizontal spacing measured from the option-5 drawing (7 / 19 / AM / 17 / dash 30 x 8 at the cap mid-height / 17 / 4 / 20 / PM, AS 1744 ink widths), the line centred. DISAGREEMENT: the table also lists w 60C and y 40 (the split-row values) which this layout does not use. Speed 'insert appropriate' (40 shown): 40 generated with 60 and 80, the school zone limits used in Queensland (Russell: the variants that make sense, not every value). Colours: fluorescent orange (drawn as the pack's orange), fluorescent yellow-green, red, white, black. All elements offset (75, 75) for the target board."
+}

@@ -1,0 +1,119 @@
+{
+ "code": "TC1210_p4",
+ "pack": "QLD",
+ "drawing": "TC1210_p4",
+ "name": "B-DOUBLE_ROUTE_BEWARE_WHEN_OVERTAKING_YELLOW_RED_TALL",
+ "legend": "B-DOUBLE ROUTE (symbol) BEWARE WHEN OVERTAKING OR APPROACHING",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1500,
+  1700
+ ],
+ "radius": 175,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  434,
+  247,
+  1261,
+  1184
+ ],
+ "symbols": {
+  "qld_tc1210_truck_car_hill": {
+   "source": "TC1210",
+   "pack": "QLD",
+   "panel_px": [
+    434,
+    219,
+    1261,
+    1282
+   ],
+   "desc": "road train prime mover (front view) cresting a rise with a small car pulled onto the shoulder beside it, box n 1270 x m 750; vector paths from the PDF (page 1 items 306-309, the same artwork on all four pages)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed)"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "B-DOUBLE",
+    "ROUTE"
+   ],
+   "gap": 82.5,
+   "series": "D",
+   "height": 100,
+   "top": 105
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1210_truck_car_hill",
+   "x": 115,
+   "y": 285,
+   "w": 1270,
+   "h": 750,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M0 1100H1500V1525a175 175 0 0 1 -175 175H175a175 175 0 0 1 -175 -175Z",
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "path",
+   "d": "M16 1100H1484V1525a159 159 0 0 1 -159 159H175a159 159 0 0 1 -159 -159Z",
+   "colour": "white",
+   "mirror": false
+  },
+  {
+   "type": "path",
+   "d": "M32 1100H1468V1525a143 143 0 0 1 -143 143H175a143 143 0 0 1 -143 -143Z",
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1170,
+   "colour": "white",
+   "words": [
+    "BEWARE",
+    "WHEN"
+   ],
+   "gap": 90.7
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1335,
+   "colour": "white",
+   "text": "OVERTAKING"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1500,
+   "colour": "white",
+   "words": [
+    "OR",
+    "APPROACHING"
+   ],
+   "gap": 90.1
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1210_4 'Road train route' special warning sign, page 4 of 4 (2008; pages 1/3 are the 'Smaller vehicles use shoulder' legends for road trains / B-doubles, pages 2/4 the 'Beware when overtaking' legends). Size A generated (B 2100 x 2380 also tabled): r 175, c 16 / d 32 (edge 16 + border 16). Two panels on one outline: top yellow with black border and legend, bottom red with white border and legend, meeting at y 1100 with no divider (the red panel is drawn as three paths with the bottom corners R175 / 159 / 143 over the yellow panel's outline, as the sheet draws it). Right chain p 105 / f 100DM / o 80 / m 750 / k 65 / j 70 / f 100DM / g 65 / f / g 65 / f / e 100 = 1700 (b): title cap top 105, symbol y 285, split 1100, red-panel cap tops 1170, 1335, 1500. Symbol box n 1270 wide centred (x 115) x m 750. 'DN' (the sheet's 'AS1744 Series D Narrow', title and first red line) and 'DM' ('Series D Medium') are both read as plain Series D. Word gaps measured on the sheet: BEWARE-WHEN 90.7, OR-APPROACHING 90.1, B-DOUBLE-ROUTE 82.5. Symbol extracted from the sheet PDF's own filled vector paths (tools/symbols/qld_tc1210_truck_car_hill.svg, drawn n x m exactly). Black on retroreflective yellow, white on retroreflective red."
+}

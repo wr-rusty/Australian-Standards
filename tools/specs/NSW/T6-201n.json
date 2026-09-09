@@ -1,0 +1,38 @@
+{
+ "code": "T6-201n",
+ "pack": "NSW",
+ "name": "GRASS_CUTTING_YELLOW_LONG",
+ "legend": "GRASS CUTTING",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "panel_px": [
+  588,
+  278,
+  2507,
+  1238
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "GRASS",
+   "expect": 775,
+   "series": "E",
+   "height": 165,
+   "top": 87.6
+  },
+  {
+   "type": "text",
+   "text": "CUTTING",
+   "expect": 969,
+   "series": "E",
+   "height": 160,
+   "top": 350.3
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 600 (the sheet's caption; drawn at 1:4.93), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. GRASS 165 E top 87.6 (raster of the outlines: cap 165.4, widths [775.0] vs ours [800.7]) CUTTING 160 E top 350.3 (raster of the outlines: cap 159.9, widths [968.8] vs ours [969.9])"
+}

@@ -1,0 +1,80 @@
+{
+ "code": "ETM14",
+ "pack": "QLD",
+ "name": "CYCLIST_TRAINING_CIRCUIT_YELLOW_LONG",
+ "legend": "TRAINING CIRCUIT (two cyclist symbols)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  900,
+  750
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  401,
+  380,
+  1252,
+  1089
+ ],
+ "symbols": {
+  "qld_etm14_cyclist": {
+   "source": "ETM14",
+   "pack": "QLD",
+   "panel_px": [
+    401,
+    380,
+    1252,
+    1089
+   ],
+   "desc": "racing cyclist (side view, facing left, crouched rider) filling the 300 x 200 box; vector paths from the PDF (items 346-350, left cyclist: bike, rider, head, arm)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_etm14_cyclist",
+   "x": 115,
+   "y": 90.5,
+   "w": 300,
+   "h": 200.0,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_etm14_cyclist",
+   "x": 485,
+   "y": 90.5,
+   "w": 300,
+   "h": 200.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "TRAINING",
+   "series": "D",
+   "height": 120,
+   "top": 370
+  },
+  {
+   "type": "text",
+   "text": "CIRCUIT",
+   "series": "D",
+   "height": 120,
+   "top": 550
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet ETM14 'Cyclist training circuit' warning sign (2019; single size, dimensions on the drawing, no lettered table). 900 x 750, R50, yellow edge 10 + black border 20 (the sheet's 10 / 30). Horizontal chain 115 / 300 / 70 / 300 / 115 = 900: two cyclist symbol boxes 300 wide at x 115 and 485. Vertical chain 90 / 200 / 80 / 120D / 60 / 120D / 80 = 750: symbol boxes 200 tall from y 90, cap tops TRAINING 370, CIRCUIT 550, both 120 Series D, centred. Cyclist symbol extracted from the sheet PDF's own filled vector paths (tools/symbols/qld_etm14_cyclist.svg, the left cyclist; the right one is the same artwork): its ink on the sheet's sign spans x 115.0-415.0 and y 90.5-290.5, i.e. the full 300 x 200 box (head at the top, wheels on the bottom edge), so the element boxes are the tabled boxes. Black on retroreflective yellow."
+}

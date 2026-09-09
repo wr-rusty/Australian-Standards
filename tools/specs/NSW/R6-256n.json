@@ -1,0 +1,119 @@
+{
+ "code": "R6-256n",
+ "pack": "NSW",
+ "name": "STOP_HERE_ON_RED_ARROW_OTHERWISE_TURN_LEFT_WITH_CARE_BLACK_TALL",
+ "legend": "STOP HERE ON RED ARROW OTHERWISE TURN LEFT WITH CARE",
+ "shape": "rect",
+ "size": [
+  450,
+  1050
+ ],
+ "radius": 45,
+ "ground": "black",
+ "border": {
+  "colour": "white",
+  "width": 18.0
+ },
+ "panel_px": [
+  827,
+  467,
+  1181,
+  1293
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M450 44.92C450 20.13 429.66 0 404.87 0L44.92 0C20.13 0 0 20.13 0 44.92L0 1005.08C0 1029.87 20.13 1050.21 44.92 1050.21L404.87 1050.21C429.66 1050.21 450 1029.87 450 1005.08L450 44.92Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M18.01 720.34H432.2V726.27H18.01Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "D",
+   "height": 110,
+   "top": 58.0,
+   "colour": "red",
+   "expect": 343
+  },
+  {
+   "type": "text",
+   "text": "HERE",
+   "series": "D",
+   "height": 110,
+   "top": 238.1,
+   "colour": "red",
+   "expect": 351
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED"
+   ],
+   "series": "C",
+   "height": 100,
+   "gap": 62.0,
+   "top": 418.2,
+   "colour": "red",
+   "expect": [
+    394
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "ARROW",
+   "series": "C",
+   "height": 100,
+   "top": 568.2,
+   "colour": "red",
+   "expect": 369
+  },
+  {
+   "type": "text",
+   "text": "OTHERWISE",
+   "series": "C",
+   "height": 60,
+   "top": 759.1,
+   "expect": 354
+  },
+  {
+   "type": "text",
+   "words": [
+    "TURN",
+    "LEFT"
+   ],
+   "series": "C",
+   "height": 60,
+   "gap": 37.1,
+   "top": 849.1,
+   "cx": 220.0,
+   "expect": [
+    345
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "WITH",
+    "CARE"
+   ],
+   "series": "C",
+   "height": 60,
+   "gap": 35.9,
+   "top": 939.2,
+   "cx": 217.9,
+   "expect": [
+    340
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1050 x 450' (H x W) = 450 x 1050, Cnr Rad 45, Border '6 x 12' = edge 0 (black) + border 18.0 (white) (drawn as a 12.1 stroke centred 12.1 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Top Panel:- Cl.400 Red refl lgd(AS1906.1). Fonts: STOP: FHWA Series D2000EX 110; HERE: FHWA Series D2000EX 110; ON RED: FHWA Series C2000EX 100; ARROW: FHWA Series C2000EX 100; OTHERWISE: FHWA Series C2000EX 60; TURN LEFT: FHWA Series C2000EX 60; WITH CARE: FHWA Series C2000EX 60. VMS panel: the sheet draws a white outer rect with the black face inset 18.0 (its 'Border 6 x 12' is not what is drawn): white border 18.0, black ground. STOP 110 D top 58.0 (baseline 168; plan advance box 47-400, dims 343) HERE 110 D top 238.1 (baseline 348; plan advance box 36-406, dims 351) ON RED 100 C top 418.2 (baseline 518; plan advance box 19-431, dims [394]) ARROW 100 C top 568.2 (baseline 668; plan advance box 38-413, dims 369) OTHERWISE 60 C top 759.1 (baseline 819; plan advance box 44-407, dims 354) TURN LEFT 60 C top 849.1 (baseline 909; plan advance box 46-394, dims [345]) WITH CARE 60 C top 939.2 (baseline 999; plan advance box 46-392, dims [340]) symbol: 2 filled paths from the sheet's own vector artwork (bbox [0.0, 0.0, 450.0, 1050.2])"
+}

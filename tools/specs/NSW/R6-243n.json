@@ -1,0 +1,48 @@
+{
+ "code": "R6-243n",
+ "pack": "NSW",
+ "name": "END_MOTORWAY_GREEN_LONG",
+ "legend": "END MOTORWAY",
+ "shape": "rect",
+ "size": [
+  900,
+  450
+ ],
+ "radius": 75,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 16
+ },
+ "border": {
+  "colour": "white",
+  "width": 16
+ },
+ "panel_px": [
+  675,
+  862,
+  1147,
+  1098
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 100,
+   "top": 92.3,
+   "colour": "white",
+   "expect": 282
+  },
+  {
+   "type": "text",
+   "text": "MOTORWAY",
+   "series": "D",
+   "height": 100,
+   "top": 253.4,
+   "colour": "white",
+   "expect": 700
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '450 x 900' (H x W) = 900 x 450, Cnr Rad 75, Border '16 x 16' = edge 16 (green) + border 16 (white) (drawn as a 15.9 stroke centred 24.2 in), Patch CR NA; Aluminium Sign; Cl.400 White refl lgd(AS1906.1); Cl.400 Dark Green refl grd(AS1906.1). Fonts: END: FHWA Series E2000EX 100; MOTORWAY: FHWA Series D2000EX 100. END 100 E top 92.3 (baseline 192; plan advance box 297-602, dims 282) MOTORWAY 100 D top 253.4 (baseline 353; plan advance box 88-804, dims 700)"
+}

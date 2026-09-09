@@ -1,0 +1,83 @@
+{
+ "code": "R4-040-Q09",
+ "pack": "QLD",
+ "drawing": "R4-040-Q09",
+ "name": "PMD_SPEED_LIMIT_{speed}_ON_PATH_WHITE_TALL",
+ "legend": "{speed} (e-scooter) ON PATH",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  300,
+  500
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   12,
+   25
+  ]
+ },
+ "panel_px": [
+  628,
+  321,
+  1100,
+  1108
+ ],
+ "symbols": {
+  "qld_r4-040-q08_escooter": {
+   "source": "R4-040-Q08",
+   "pack": "QLD",
+   "desc": "electric scooter with lightning bolt (side view, facing right), 200 x 200 on R4-040-Q08 (the sheet's grid inset)",
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 150,
+   "cy": 135,
+   "r_outer": 100,
+   "r_inner": 83,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 80,
+   "top": 95
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r4-040-q08_escooter",
+   "x": 75,
+   "y": 255,
+   "w": 150,
+   "h": 150,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "PATH"
+   ],
+   "gap": 28,
+   "series": "C",
+   "height": 40,
+   "top": 425
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q09 'Speed limit for personal mobility devices on path' (2025), one size: 300 x 500, R25, 5 / 15 (edge 5 + border 10). Chain 35 / 200 (red annulus r 100 / 83 as R4-040-Q08) / 20 / 150 (e-scooter symbol, 150 square, centred x 75-225) / 20 / 40C ON PATH / 35 = 500: annulus centre (150, 135), numerals 80D cap top 95, symbol y 255-405, ON PATH cap top 425 (word gap 28 measured from the sheet). E-scooter: the R4-040-Q08 vector (tools/symbols/qld_r4-040-q08_escooter.svg). Speed 'insert appropriate' (25 shown in the example): 10, 12 and 25 generated, the personal mobility device limits of the Queensland road rules (12 on footpaths, 25 on paths and roads, 10 in shared zones) (Russell: the variants that make sense, not every value). Red and black on white."
+}

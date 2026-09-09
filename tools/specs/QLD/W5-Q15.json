@@ -1,0 +1,157 @@
+{
+ "code": "W5-Q15",
+ "pack": "QLD",
+ "name": "WEAVING_TRAFFIC_YELLOW_RED_TALL",
+ "legend": "WEAVING TRAFFIC (symbol)",
+ "shape": "rect",
+ "size": [
+  1100,
+  1600
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  514,
+  245,
+  1207,
+  1253
+ ],
+ "symbols": {
+  "qld_w5-q15_weaving": {
+   "source": "W5-Q15",
+   "pack": "QLD",
+   "panel_px": [
+    514,
+    245,
+    1207,
+    1253
+   ],
+   "desc": "two crossing (weaving) block arrows with a white dashed centre line between the merged shafts; box m 200 each side, n 700 wide, k 950 tall; vector paths from the PDF (items 173 arrows, 174-176 white dashes), drawn exactly 700 x 950 at the tabled position",
+   "colours": [
+    "black",
+    "white"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     1140
+    ],
+    [
+     1100,
+     1140
+    ],
+    [
+     1100,
+     1600
+    ],
+    [
+     0,
+     1600
+    ]
+   ],
+   "radius": [
+    0,
+    0,
+    100,
+    100
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     20,
+     1140
+    ],
+    [
+     1080,
+     1140
+    ],
+    [
+     1080,
+     1580
+    ],
+    [
+     20,
+     1580
+    ]
+   ],
+   "radius": [
+    0,
+    0,
+    80,
+    80
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     40,
+     1140
+    ],
+    [
+     1060,
+     1140
+    ],
+    [
+     1060,
+     1560
+    ],
+    [
+     40,
+     1560
+    ]
+   ],
+   "radius": [
+    0,
+    0,
+    60,
+    60
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q15_weaving",
+   "x": 200,
+   "y": 100,
+   "w": 700,
+   "h": 950,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "WEAVING",
+   "series": "E",
+   "height": 120,
+   "top": 1200,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "E",
+   "height": 120,
+   "top": 1380,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q15 'Weaving traffic' special warning sign (2023). Size A 1100 x 1600 generated (B 2200 x 3200 also tabled; note 2: A up to 80 km/h, B above), r 100. Two-part panel read from the sheet's vectors and the c / d dims: upper part yellow with c 20 yellow edge + black border to d 40 (edge + border), lower part red with a 20 red edge + 20 white border, the parts meeting on a straight line 1140 from the top (chain e 100 / k 950 arrows / h 90 = 1140; then g 60 / f 120E WEAVING / g 60 / f 120E TRAFFIC / e 100 = 1600). Drawn as a yellow panel with the standard edge + border and the red part laid over it as three polygons (red 0-1100 x 1140-1600 with the sign's R100 bottom corners and square top corners, white inset 20 R80, red inset 40 R60). Arrows: the sheet's own vector paths (tools/symbols/qld_w5-q15_weaving.svg, vec2sym2, not traced; the three white centre-line dashes 15 x 50 are white fills on the black shaft), drawn on the sheet exactly at the tabled box m 200 / n 700 / m 200 across, e 100 down, k 950 tall (x 200, y 100, 700 x 950). Legend WEAVING / TRAFFIC 120E (Series E, cap 120) white, cap tops 1200 and 1380, centred. Black and white on retroreflective yellow (top) and white on retroreflective red (bottom)."
+}

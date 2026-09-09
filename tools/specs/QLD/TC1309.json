@@ -1,0 +1,114 @@
+{
+ "code": "TC1309",
+ "pack": "QLD",
+ "name": "DRIVER_FATIGUE_CRASH_ZONE_NEXT_{dist}_KM_YELLOW_LONG",
+ "legend": "DRIVER FATIGUE CRASH ZONE NEXT {dist} km (crash symbol)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  1800
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  258,
+  310,
+  1391,
+  1160
+ ],
+ "symbols": {
+  "qld_tc1279_crash": {
+   "source": "TC1279",
+   "pack": "QLD",
+   "panel_px": [
+    258,
+    307,
+    1391,
+    1063
+   ],
+   "desc": "two cars in a head-on collision (side view) with impact fragments above, box n 2088 x m 770; vector path from the PDF (TC1279 item 104; TC1309 draws the same path)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed)"
+  }
+ },
+ "vary": {
+  "key": "dist",
+  "values": [
+   2,
+   3,
+   5,
+   10
+  ]
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1279_crash",
+   "x": 156,
+   "y": 80,
+   "w": 2088,
+   "h": 770,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "DRIVER",
+    "FATIGUE"
+   ],
+   "gap": 170.5,
+   "series": "E",
+   "height": 160,
+   "top": 970
+  },
+  {
+   "type": "text",
+   "words": [
+    "CRASH",
+    "ZONE"
+   ],
+   "gap": 183.0,
+   "series": "E",
+   "height": 160,
+   "top": 1240
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "{dist}",
+     "series": "E",
+     "height": 160,
+     "slot": 145
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 160
+    }
+   ],
+   "gap": [
+    223.8,
+    83.4
+   ],
+   "top": 1510
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1309 'Driver fatigue crash zone next ... km' special warning sign (2001). Size TC1309A 2400 x 1800 generated (B 3600 x 2700 also tabled): r 200, c 12 / d 32 (yellow edge 12 + black border 20; drawn to 36, the table governs), e 130, f 160EM, g 120LC, h 110, k 120, m 770, n 2088, o 80. Chain o 80 / m 770 / k 120 / f 160 / h 110 / f 160 / h 110 / f 160 / e 130 = 1800: symbol box y 80, n 2088 x m 770 centred (x 156); cap tops DRIVER FATIGUE 970, CRASH ZONE 1240, NEXT ... km 1510, 160 Series E ('EM' read as plain E); 'km' lower case '120LC' = Series E modified at the 160 cap height (120 x-height). Word gaps measured on the sheet: DRIVER-FATIGUE 170.5, CRASH-ZONE 183.0; third line NEXT / gap 223.8 / dashed value box 145 wide (one numeral, slot) / gap 83.4 / km, the group centred. Distance variants 2, 3, 5 and 10 km as TC1279 (the sheet gives no list). Crash symbol: the same vector path as TC1279 (tools/symbols/qld_tc1279_crash.svg), drawn n x m exactly on this sheet too. Black on retroreflective yellow."
+}

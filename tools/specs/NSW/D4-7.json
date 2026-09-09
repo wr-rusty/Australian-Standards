@@ -1,0 +1,45 @@
+{
+ "code": "D4-7",
+ "pack": "NSW",
+ "name": "CHEVRON_{speed}_KMH_BLACK_ON_YELLOW_LONG",
+ "legend": "65 km/h",
+ "shape": "rect",
+ "size": [
+  1400,
+  750
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "panel_px": [
+  519,
+  1119,
+  1254,
+  1512
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M810.39 29.86L1080.26 29.86L1350.12 374.86L1080.26 719.85L810.39 719.85L1081.53 375.04L810.39 29.86Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "65",
+   "series": "E",
+   "height": 400,
+   "top": 86.2,
+   "cx": 405.6
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 90,
+   "top": 560.1,
+   "cx": 405.3,
+   "expect": 378
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '750 x 1400' (H x W) = 1400 x 750, Cnr Rad 50, Border '0 x 0' = edge 0 (yellow) + border 0 (black), Patch CR 0; . Fonts: 65: FHWA Series E2000EX 400; km/h: FHWA Series Em2000EX 90; Aluminium Sign: Aluminium Sign None; Black lgd & Chevron: Black lgd & Chevron None; Cl.400 Yellow re\ufb02grd(AS1906.1): Cl.400 Yellow re\ufb02grd(AS1906.1) None; 750 x 1400: 750 x 1400 29/9/22; 1.05 sq.m: 1.05 sq.m 1:15; 0 x 0: 0 x 0 daviesm; 50: 50 None; 0: 0 d4-7_a_l; H:\\Signs\\TTT\\DRAWINGS\\D\\TrasiCAD: H:\\Signs\\TTT\\DRAWINGS\\D\\TrasiCAD None. 65 400 E top 86.2 (baseline 486; plan advance box 9-791, no width figure matched) km/h 90 Emod top 560.1 (baseline 650; plan advance box 199-612, dims 378) symbol: 1 filled paths from the sheet's own vector artwork (bbox [810.4, 29.9, 1350.1, 719.9])",
+ "_dashed": 1
+}

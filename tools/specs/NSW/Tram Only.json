@@ -1,0 +1,6 @@
+{
+ "code": "Tram Only",
+ "pack": "NSW",
+ "legend": "Tram Only Pavement Marking",
+ "skip": "pavement marking (TRAM ONLY), not a sign: belongs to the markings scope (AS 1742.2 / SGN-069)"
+}

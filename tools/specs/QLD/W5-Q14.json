@@ -1,0 +1,56 @@
+{
+ "code": "W5-Q14",
+ "pack": "QLD",
+ "name": "BUS_ENTERING_YELLOW_DIAMOND",
+ "legend": "BUS ENTERING (symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  528,
+  386,
+  1176,
+  1035
+ ],
+ "symbols": {
+  "qld_w5-q14_bus": {
+   "source": "W5-Q14",
+   "pack": "QLD",
+   "panel_px": [
+    528,
+    386,
+    1176,
+    1035
+   ],
+   "desc": "bus (side view, facing left, windows as yellow gaps), box e 258 each side of centre, d 82 above and below; vector path from the PDF (item 119), 531.5 x 169.1 as drawn on the sheet's 600 sign",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q14_bus",
+   "x": 166.27,
+   "y": 342.27,
+   "w": 516,
+   "h": 164,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q14 'Bus entering' warning sign (2023). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Symbol box from the table: e 258 each side of the vertical centreline (516 wide), d 82 above and below the horizontal centreline (164 tall), i.e. centred on the sign: x 166.27, y 342.27. The symbol is the sheet PDF's own vector path (tools/symbols/qld_w5-q14_bus.svg, vec2sym2, not traced; the windows are gaps showing the yellow ground), drawn 531.5 x 169.1 on the sheet's sign (3 % larger than the tabled box), scaled into the box. The sheet's colour legend lists white and yellow only (no black entry): the bus is drawn black, as on every other Q-series warning sign. Black on retroreflective yellow."
+}

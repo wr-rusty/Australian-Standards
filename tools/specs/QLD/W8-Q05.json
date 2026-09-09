@@ -1,0 +1,52 @@
+{
+ "code": "W8-Q05",
+ "pack": "QLD",
+ "name": "WAIT_TILL_ROAD_CLEAR_YELLOW",
+ "legend": "WAIT TILL ROAD CLEAR",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  488.7,
+  630.2,
+  1197.9,
+  1103.3
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "WAIT",
+    "TILL"
+   ],
+   "series": "D",
+   "height": 50,
+   "gap": 24,
+   "top": 80
+  },
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "CLEAR"
+   ],
+   "series": "C",
+   "height": 50,
+   "gap": 29,
+   "top": 170
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q05 'Supplementary plate WAIT TILL ROAD CLEAR' (1995/2016), one size dimensioned directly: 450 x 300, r 25, edge 5 + border 10 (the 15 / 5 pair). Chain 80 / 50D / 40 / 50C / 80 = 300: cap tops 80 (WAIT TILL 50D) and 170 (ROAD CLEAR 50C). Word gaps measured on the sheet: WAIT-TILL 24, ROAD-CLEAR 29. Black on yellow."
+}

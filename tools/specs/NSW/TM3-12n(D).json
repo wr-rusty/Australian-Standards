@@ -1,0 +1,80 @@
+{
+ "code": "TM3-12n(D)",
+ "pack": "NSW",
+ "name": "NO_LINES_DO_NOT_OVERTAKE_UNLESS_SAFE_YELLOW_TALL",
+ "legend": "NO LINES DO NOT OVERTAKE UNLESS SAFE",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  356,
+  1159,
+  1564
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "series": "C",
+   "height": 90,
+   "gap": 54.0,
+   "top": 102.5,
+   "expect": [
+    442
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT"
+   ],
+   "series": "C",
+   "height": 90,
+   "gap": 54.0,
+   "top": 252.6,
+   "expect": [
+    351
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKE",
+   "series": "C",
+   "height": 90,
+   "top": 402.6,
+   "expect": 485
+  },
+  {
+   "type": "text",
+   "text": "UNLESS",
+   "series": "C",
+   "height": 90,
+   "top": 552.7,
+   "expect": 366
+  },
+  {
+   "type": "text",
+   "text": "SAFE",
+   "series": "C",
+   "height": 90,
+   "top": 702.8,
+   "expect": 233
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: NO LINES: FHWA Series C2000EX 90; DO NOT: FHWA Series C2000EX 90; OVERTAKE: FHWA Series C2000EX 90; UNLESS: FHWA Series C2000EX 90; SAFE: FHWA Series C2000EX 90. NO LINES 90 C top 102.5 (baseline 192; plan advance box 69-528, dims [442]) DO NOT 90 C top 252.6 (baseline 343; plan advance box 114-478, dims [351]) OVERTAKE 90 C top 402.6 (baseline 493; plan advance box 50-548, dims 485) UNLESS 90 C top 552.7 (baseline 643; plan advance box 107-490, dims 366) SAFE 90 C top 702.8 (baseline 793; plan advance box 179-423, dims 233)"
+}

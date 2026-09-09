@@ -1,0 +1,124 @@
+{
+ "code": "R5-40-Q01-1",
+ "pack": "QLD",
+ "drawing": "R5-40-Q01",
+ "name": "NO_PARKING_EV_CHARGING_EXCEPTED_WHITE_TALL",
+ "legend": "(no parking) (EV) EXCEPTED WHILE CHARGING (arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "radius": 25,
+ "ground": "white",
+ "hands": [
+  "R",
+  "L"
+ ],
+ "drawn_hand": "R",
+ "panel_px": [
+  281,
+  200,
+  813,
+  1263
+ ],
+ "symbols": {
+  "r5-82_no_parking_290": {
+   "source": "R5-82",
+   "desc": "AS 1743 no-parking roundel (red annulus, black P, red slash with white halo), the national traced symbol reused at 140 dia (note 2: symbol as per AS 1743)"
+  },
+  "qld_r5-40-q01_ev_car": {
+   "source": "R5-40-Q01",
+   "pack": "QLD",
+   "desc": "electric vehicle (car, side view, facing right, with charging cable and plug) 75 tall per the sheet's grid inset (SQ07)",
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-82_no_parking_290",
+   "x": 42.5,
+   "y": 25,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r5-40-q01_ev_car",
+   "x": 60,
+   "y": 180,
+   "w": 104.7,
+   "h": 75,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 30,
+   "top": 285,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "WHILE",
+   "series": "C",
+   "height": 30,
+   "top": 330,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "CHARGING",
+   "series": "C",
+   "height": 30,
+   "top": 375,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     175,
+     421
+    ],
+    [
+     153.25,
+     405
+    ],
+    [
+     133,
+     405
+    ],
+    [
+     146.59,
+     415
+    ],
+    [
+     50,
+     415
+    ],
+    [
+     50,
+     427
+    ],
+    [
+     146.59,
+     427
+    ],
+    [
+     133,
+     437
+    ],
+    [
+     153.25,
+     437
+    ]
+   ],
+   "colour": "red"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-40-Q01 'No parking - electric vehicles while charging excepted' special parking sign (2022/2024), 225 x 450, r 25, unbordered white, drawn as R5-40-Q01_1(R) with the (L) and (B) options. Chain 25 / 140 (no-parking roundel, centred x 42.5-182.5: note 2 'symbol and arrow dimensions as per AS 1743', so the national traced roundel is placed at 140 dia; the sheet's own ring reads 140 outside / 116 inside with the P tabled 80E) / 15 / 75 (EV symbol, the sheet's vector path 104.7 x 75 at x 60, from the grid inset per SQ07) / 15 / 30C EXCEPTED / 15 / 30C WHILE / 15 / 30C CHARGING / 15 / 32 (arrow) / 13 = 450: EXCEPTED cap top 285, WHILE 330, CHARGING 375, arrow y 405-437. Arrows per the sheet's details (= the AS 1743 parking-sign open chevrons, geometry as tools/specs/R/R5-10.json): single 125 long (83 shaft + 42 head, 32 high, 12 shaft, barbs 12) at x 50-175; double 155 long (42 + 71 + 42) at x 35-190. (R) as drawn (arrow right, car facing right); (L) mirrored (note 4: the EV symbol faces the arrow's direction), text unmirrored. Red legend and arrow, black car, roundel red / black, on white."
+}

@@ -1,0 +1,62 @@
+{
+ "code": "T2-6-1n_VMS",
+ "pack": "NSW",
+ "name": "LEFT_LANE_CLOSED_1_LANE_VMS_BLACK_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "black",
+ "border": {
+  "colour": "yellow",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  306,
+  1417,
+  1103
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M828.6 337.54L892.57 337.54L942.62 348.64L967.64 315.52L880.53 161.62L840.64 161.62L753.53 315.52L778.55 348.64Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M970.46 326.43C970.46 313.83 960.11 303.48 947.51 303.48C934.9 303.48 924.55 313.83 924.55 326.43C924.55 339.04 934.9 349.39 947.51 349.39C960.11 349.39 970.46 339.04 970.46 326.43Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M883.35 172.34C883.35 159.74 873 149.39 860.4 149.39C847.79 149.39 837.44 159.74 837.44 172.34C837.44 184.95 847.79 195.3 860.4 195.3C873 195.3 883.35 184.95 883.35 172.34Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M796.24 326.43C796.24 313.83 785.89 303.48 773.28 303.48C760.68 303.48 750.33 313.83 750.33 326.43C750.33 339.04 760.68 349.39 773.28 349.39C785.89 349.39 796.24 339.04 796.24 326.43Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M828.6 337.54L892.57 337.54L903.67 749.76L815.62 749.76Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M230.1 245.16H589.84V364.82H230.1Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M367.07 445.16H452.68V744.87H367.07Z",
+   "colour": "yellow"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1200' (H x W) = 1200 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (black) + border 25 (yellow) (drawn as a 25.0 stroke centred 12.2 in), Patch CR 0; VMS Sign; Yellow LED Symbols & Border; Red LED Horizontal Line; Black Background. Fonts: . symbol: 7 filled paths from the sheet's own vector artwork (bbox [230.1, 149.4, 970.5, 749.8])",
+ "_dashed": 2
+}

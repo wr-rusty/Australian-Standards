@@ -1,0 +1,42 @@
+{
+ "code": "TM3-7(D)",
+ "pack": "NSW",
+ "name": "ROUGH_SURFACE_YELLOW_TALL",
+ "legend": "ROUGH SURFACE",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1319,
+  1710
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROUGH",
+   "series": "C",
+   "height": 100,
+   "top": 298.2,
+   "expect": 358
+  },
+  {
+   "type": "text",
+   "text": "SURFACE",
+   "series": "C",
+   "height": 100,
+   "top": 498.2,
+   "expect": 484
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: ROUGH: FHWA Series C2000EX 100; SURFACE: FHWA Series C2000EX 100. ROUGH 100 C top 298.2 (baseline 398; plan advance box 110-490, dims 358) SURFACE 100 C top 498.2 (baseline 598; plan advance box 52-548, dims 484)"
+}

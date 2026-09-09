@@ -1,0 +1,58 @@
+{
+ "code": "TM8-1(D)",
+ "pack": "NSW",
+ "name": "PEDESTRIANS_WATCH_YOUR_STEP_YELLOW_TALL",
+ "legend": "PEDESTRIANS WATCH YOUR STEP",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  413,
+  309,
+  1271,
+  1597
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "B",
+   "height": 90,
+   "top": 127.5,
+   "expect": 523
+  },
+  {
+   "type": "text",
+   "text": "WATCH",
+   "series": "C",
+   "height": 100,
+   "top": 308.1,
+   "expect": 347
+  },
+  {
+   "type": "text",
+   "text": "YOUR",
+   "series": "C",
+   "height": 100,
+   "top": 488.2,
+   "expect": 289
+  },
+  {
+   "type": "text",
+   "text": "STEP",
+   "series": "C",
+   "height": 100,
+   "top": 668.2,
+   "expect": 254
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: PEDESTRIANS: FHWA Series B2000EX 90; WATCH: FHWA Series C2000EX 100; YOUR: FHWA Series C2000EX 100; STEP: FHWA Series C2000EX 100. PEDESTRIANS 90 B top 127.5 (baseline 218; plan advance box 28-566, dims 523) WATCH 100 C top 308.1 (baseline 408; plan advance box 123-484, dims 347) YOUR 100 C top 488.2 (baseline 588; plan advance box 153-451, dims 289) STEP 100 C top 668.2 (baseline 768; plan advance box 167-436, dims 254)"
+}

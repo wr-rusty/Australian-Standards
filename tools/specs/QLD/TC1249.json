@@ -1,0 +1,35 @@
+{
+ "code": "TC1249",
+ "pack": "QLD",
+ "name": "TARGET_BOARD_BLANK_WARNING_PLATE_ORANGE_DIAMOND",
+ "legend": "(fluorescent orange target board with a blank standard warning plate)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "orange",
+  "width": 75
+ },
+ "borders": [
+  {
+   "colour": "yellow",
+   "width": 10
+  },
+  {
+   "colour": "black",
+   "width": 20
+  }
+ ],
+ "panel_px": [
+  588,
+  275,
+  1327,
+  1014
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1249 'Warning sign with target board' (2000/2011). Table a / b / r: TC1249A 750 / 75 / 100 generated (B 900 / 75 / 125, C 1200 / 150 / 150, D 1500 / 150 / 200 also tabled): a diamond target board a 750 side (bounding square 750 x 1.41421 = 1060.66) with r 100 corners and a retroreflective fluorescent orange edge strip b 75 wide (the only colour in the sheet's legend), carrying a 'standard warning plate as required (e.g. W2-1, W2-3 etc.)' of 600 side inside the strip. The plate is drawn as the sheet draws it, blank: yellow ground with the national 600 diamond's yellow edge 10 and black border 20 (the plate's own dimensions are not on this sheet; AS 1743 W-series at 600), inner corner radii following the board's r 100 minus the insets. No legend: the sheet is the target board itself; the platform places the wanted warning plate on it. Fluorescent orange (signgen 'orange'), yellow and black."
+}

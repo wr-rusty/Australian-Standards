@@ -1,0 +1,45 @@
+{
+ "code": "W8-Q06",
+ "pack": "QLD",
+ "name": "WATCH_FOR_TRAFFIC_YELLOW_WIDE_SKINNY",
+ "legend": "WATCH FOR TRAFFIC",
+ "shape": "rect",
+ "size": [
+  1200,
+  200
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  374.6,
+  850.7,
+  1319.4,
+  1008.1
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "WATCH",
+    "FOR",
+    "TRAFFIC"
+   ],
+   "series": "F",
+   "height": 60,
+   "gap": [
+    47,
+    38
+   ],
+   "top": 70
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q06 'Supplementary plate WATCH FOR TRAFFIC' (1995/2016), one size dimensioned directly: 1200 x 200, R 25, edge 5 + border 10 (the 15 / 5 pair). Chain 70 / 60F / 70 = 200: cap top 70, Series F. Word gaps measured on the sheet: WATCH-FOR 47, FOR-TRAFFIC 38. Black on yellow."
+}

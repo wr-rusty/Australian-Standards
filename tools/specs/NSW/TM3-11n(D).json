@@ -1,0 +1,65 @@
+{
+ "code": "TM3-11n(D)",
+ "pack": "NSW",
+ "name": "NEW_WORK_NO_LINES_MARKED_YELLOW_TALL",
+ "legend": "NEW WORK NO LINES MARKED",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1212,
+  1597
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEW",
+   "series": "D",
+   "height": 100,
+   "top": 135.1,
+   "expect": 251
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 100,
+   "top": 310.1,
+   "expect": 350
+  },
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "series": "C",
+   "height": 100,
+   "gap": 60.1,
+   "top": 485.2,
+   "expect": [
+    493
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "MARKED",
+   "series": "C",
+   "height": 100,
+   "top": 660.3,
+   "expect": 428
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: NEW: FHWA Series D2000EX 100; WORK: FHWA Series D2000EX 100; NO LINES: FHWA Series C2000EX 100; MARKED: FHWA Series C2000EX 100. NEW 100 D top 135.1 (baseline 235; plan advance box 163-429, dims 251) WORK 100 D top 310.1 (baseline 410; plan advance box 122-480, dims 350) NO LINES 100 C top 485.2 (baseline 585; plan advance box 42-552, dims [493]) MARKED 100 C top 660.3 (baseline 760; plan advance box 75-524, dims 428)"
+}

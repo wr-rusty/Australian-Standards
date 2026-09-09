@@ -1,0 +1,27 @@
+{
+ "code": "W3-Q01",
+ "pack": "QLD",
+ "name": "SIGNALS_AHEAD_YELLOW_DIAMOND",
+ "legend": "SIGNALS AHEAD (symbol)",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 8},
+ "border": {"colour": "black", "width": 16},
+ "panel_px": [184, 295, 898, 1009],
+ "symbols": {
+  "qld_w3-q01_signals": {
+   "source": "W3-Q01",
+   "pack": "QLD",
+   "panel_px": [184, 295, 898, 1009],
+   "desc": "two-aspect traffic signal (black housing with visors, two yellow lenses), 336 wide (h 20 / g 92 / f 28 / e 56 / f / g / h) x 364 tall (n 24 / m 44 / q 100 / f 28 / q / m / n), lens dia i 96, k 112 / p 132 / s 116, t 80, u 12, v 4; vector paths from the PDF (items 176 housing, 177-178 lenses)",
+   "colours": ["black", "yellow"],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {"type": "symbol", "id": "qld_w3-q01_signals", "x": 256.27, "y": 242.27, "w": 336, "h": 364, "colour": "black"}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W3-Q01 'Signals ahead' warning sign (1995/2019, rev B; note: only at emergency service facilities per AS 1742.14 cl 7.1(a)). Size A 600 diamond generated (B 750 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 8 yellow edge + c 16 black border (separate spans on the sheet). Symbol box from the detail chains: width h 20 + g 92 + f 28 + e 56 + f 28 + g 92 + h 20 = 336 = 2 x y 168 (y each side of the vertical centreline), height n 24 + m 44 + q 100 + f 28 + q 100 + m 44 + n 24 = 364 = d (x 182 above the centreline, so centred on the sign): box x 256.27, y 242.27. The symbol is the sheet PDF's own vector paths (tools/symbols/qld_w3-q01_signals.svg, vec2sym, not traced): black housing with the two lenses as yellow-filled circles (the sheet draws them in the sign's yellow); drawn 344.9 x 375.3 on the sheet's 600 sign, i.e. 2.6 % larger than the tabled box, scaled into it. Black on retroreflective yellow."
+}

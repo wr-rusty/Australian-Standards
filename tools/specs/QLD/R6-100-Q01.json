@@ -11,36 +11,37 @@
  "radius": 60,
  "ground": "white",
  "panel_px": [
-  600,
-  247,
-  1072,
-  719
+  625,
+  248,
+  1097,
+  721
  ],
  "symbols": {
   "qld_r6-100-q01_skaters": {
    "source": "R6-100-Q01",
    "pack": "QLD",
    "panel_px": [
-    600,
-    247,
-    1072,
-    719
+    625,
+    248,
+    1097,
+    721
    ],
-   "desc": "skateboarder and roller-skater (two figures), box c 227 left / d 306 right of centre, g 273 above and below, from the sheet's grid inset",
+   "desc": "skateboarder and roller-skater (two figures), box c 227 left / d 306 right of centre, g 273 above and below, from the sheet's grid inset; vector paths from the PDF (items 273 + 274, top sign)",
    "colours": [
     "black"
    ],
-   "nomask": true
+   "nomask": true,
+   "vector": "extracted from the sheet PDF (not traced); do not re-trace"
   }
  },
  "elements": [
   {
    "type": "symbol",
    "id": "qld_r6-100-q01_skaters",
-   "x": 162.7,
-   "y": 97.9,
-   "w": 373.7,
-   "h": 408.1,
+   "x": 128.4,
+   "y": 93.2,
+   "w": 403.5,
+   "h": 413.4,
    "colour": "black"
   },
   {
@@ -98,6 +99,5 @@
    "colour": "red"
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-100-Q01 'Wheeled recreational devices and wheeled toys prohibited' (2025). Size B 600 x 600 generated (A 450, C 750 also tabled): r 60, unbordered white, margin b 6, r1 293 / r2 244, slash f 50, gap e 25; symbol box c 227 left and d 306 right of the centre line, g 273 above and below (533 x 546 in the table; the figures run under the ring, which is drawn over the symbol, so the visible ink is placed where the sheet draws it: ink extent measured after removing hairlines, x 162.7, y 97.9, 373.7 x 408.1). Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Figures traced from the sheet (tools/symbols/qld_r6-100-q01_skaters.svg). Red and black on white.",
- "intervene": "the sheet draws its slash about 24 mm off the sign centre (up-right; measured x + y = 634 against 600), so the figures traced from the sheet carry a white cut that does not coincide with the centred slash the detail specifies: needs the symbol traced without the cut (grid inset) or a decision to follow the sheet's slash position"
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-100-Q01 'Wheeled recreational devices and wheeled toys prohibited' (2025). Size B 600 x 600 generated (A 450, C 750 also tabled): r 60, unbordered white, margin b 6, r1 293 / r2 244, slash f 50, gap e 25; symbol box c 227 left and d 306 right of the centre line, g 273 above and below (533 x 546 in the table; the figures run under the ring, which is drawn over the symbol, so the visible ink is placed where the sheet draws it: ink extent measured after removing hairlines, x 162.7, y 97.9, 373.7 x 408.1). Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Figures traced from the sheet (tools/symbols/qld_r6-100-q01_skaters.svg). Red and black on white. 2026-09-09: symbol replaced by the sheet PDF's own vector path (pymupdf get_drawings, scratch vec2sym.py: the sheet draws the symbol as a complete filled path with the white slash gap laid over it, so the extracted path has no cut), exact geometry, no potrace; box = the path's extent on the sheet's sign in mm. The two vector figures span x 128.4-531.9, y 93.2-506.6 on the sheet's sign (the left skateboard's tail runs under the red ring, which is drawn over it); the earlier 373.7 x 408.1 box was the extent after the sheet's slash cut. panel_px re-measured from the ring's pixels ([600, 247, 1072, 719] -> [625, 248, 1097, 721]). The sheet's red slash read from its vector path: edges x + y = 564.0 and 635.8, i.e. 50 wide centred on the sign centre, so the sheet agrees with the detail (the earlier '24 mm off-centre' reading was mistaken); slash and gap coincide with the sheet."
 }

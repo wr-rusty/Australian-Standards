@@ -1,0 +1,59 @@
+{
+ "code": "TM8-2(L)(D)",
+ "pack": "NSW",
+ "name": "PEDESTRIANS_LEFT_ARROW_YELLOW_TALL",
+ "legend": "PEDESTRIANS",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1341,
+  1743
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M300.96 383.93L300.96 346.95L313.93 293.97L302.99 286.88L211.92 360.93L211.92 370.96L302.99 442.98L313.93 437.01Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M313.83 291.85C313.83 288 310.69 284.86 306.84 284.86C302.99 284.86 299.85 288 299.85 291.85C299.85 295.69 302.99 298.84 306.84 298.84C310.69 298.84 313.83 295.69 313.83 291.85Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M222.76 365.9C222.76 362.05 219.62 358.91 215.77 358.91C211.92 358.91 208.78 362.05 208.78 365.9C208.78 369.75 211.92 372.89 215.77 372.89C219.62 372.89 222.76 369.75 222.76 365.9Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M313.83 437.92C313.83 434.07 310.69 430.93 306.84 430.93C302.99 430.93 299.85 434.07 299.85 437.92C299.85 441.77 302.99 444.91 306.84 444.91C310.69 444.91 313.83 441.77 313.83 437.92Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M300.96 383.93L300.96 346.95L391.02 339.96L391.02 390.01Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "PEDESTRIANS",
+   "series": "B",
+   "height": 90,
+   "top": 522.6,
+   "expect": 523
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: PEDESTRIANS: FHWA Series B2000EX 90. PEDESTRIANS 90 B top 522.6 (baseline 613; plan advance box 28-565, dims 523) symbol: 5 filled paths from the sheet's own vector artwork (bbox [208.8, 284.9, 391.0, 444.9])"
+}

@@ -1,0 +1,98 @@
+{
+ "code": "R6-244n",
+ "pack": "NSW",
+ "name": "ROAD_CLOSED_FOR_VEHICLES_OVER_XX_T_GVM_WHITE_LONG",
+ "legend": "ROAD CLOSED FOR VEHICLES OVER XX t GVM",
+ "shape": "rect",
+ "size": [
+  1600,
+  860
+ ],
+ "radius": 150,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  466,
+  694,
+  1306,
+  1145
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "CLOSED"
+   ],
+   "series": "D",
+   "height": 140,
+   "gap": 87.4,
+   "top": 149.8,
+   "expect": [
+    1229
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "FOR",
+    "VEHICLES"
+   ],
+   "series": "D",
+   "height": 140,
+   "gap": 70.6,
+   "top": 359.8,
+   "expect": [
+    1250
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "OVER",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "XX",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 120
+    },
+    {
+     "text": "GVM",
+     "series": "D",
+     "height": 140
+    }
+   ],
+   "gap": [
+    100.6,
+    47.0,
+    107.2
+   ],
+   "top": 569.7,
+   "expect": [
+    449,
+    204,
+    63,
+    349
+   ]
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '860 x 1600' (H x W) = 1600 x 860, Cnr Rad 150, Border '20 x 20' = edge 20 (white) + border 20 (black) (drawn as a 20.0 stroke centred 29.9 in), Patch CR NA; . Fonts: ROAD CLOSED: FHWA Series D2000EX 140; FOR VEHICLES: FHWA Series D2000EX 140; XX: FHWA Series D2000EX 140; GVM: FHWA Series D2000EX 140; OVER: FHWA Series D2000EX 140; t: FHWA Series Em2000EX 120. ROAD CLOSED 140 D top 149.8 (baseline 290; plan advance box 168-1430, dims [1229]) FOR VEHICLES 140 D top 359.8 (baseline 500; plan advance box 159-1432, dims [1250]) OVER XX t GVM 140 D top 569.7 (baseline 710; plan advance box 126-1477, dims [449, 204, 63, 349])",
+ "_dashed": 1
+}

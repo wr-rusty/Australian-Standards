@@ -1,0 +1,38 @@
+{
+ "code": "T6-207n",
+ "pack": "NSW",
+ "name": "WEED_SPRAYING_YELLOW_LONG",
+ "legend": "WEED SPRAYING",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "panel_px": [
+  588,
+  278,
+  2507,
+  1238
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "WEED",
+   "expect": 628,
+   "series": "E",
+   "height": 160,
+   "top": 90.3
+  },
+  {
+   "type": "text",
+   "text": "SPRAYING",
+   "expect": 1014,
+   "series": "D",
+   "height": 160,
+   "top": 350.3
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 600 (the sheet's caption; drawn at 1:4.93), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. WEED 160 E top 90.3 (raster of the outlines: cap 159.9, widths [628.3] vs ours [630.6]) SPRAYING 160 D top 350.3 (raster of the outlines: cap 159.9, widths [1014.0] vs ours [1015.2])"
+}

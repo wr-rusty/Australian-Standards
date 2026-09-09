@@ -1,0 +1,41 @@
+{
+ "code": "W1-8-Q01",
+ "pack": "QLD",
+ "name": "TILTING_TRUCK_{speed}_YELLOW_LONG",
+ "legend": "TILTING TRUCK (symbol) {speed}",
+ "shape": "rect",
+ "size": [3000, 1700],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 20},
+ "border": {"colour": "black", "width": 40},
+ "panel_px": [525, 156, 1358, 627],
+ "hands": ["L", "R"],
+ "drawn_hand": "L",
+ "vary": {"key": "speed", "values": [20, 30, 40, 50, 60, 70, 80]},
+ "symbols": {
+  "qld_w1-8-q01_arrow": {
+   "source": "W1-8-Q01",
+   "pack": "QLD",
+   "panel_px": [525, 156, 1358, 627],
+   "desc": "curve arrow turning left (stem vertical 220 wide, inner radius R470, head 440 long x 580 wide (40 + 250 + 250 + 40), barb ends R40, '30' and '125' in the detail not resolved), 1140 tall; vector path from the PDF (item 260, (L) sign) 1130 x 1140 mm",
+   "colours": ["black"],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w1-8-q01_truck": {
+   "source": "W1-8-Q01",
+   "pack": "QLD",
+   "panel_px": [525, 156, 1358, 627],
+   "desc": "tilting truck: body 680 x 1150 rectangle tilted 30 degrees, two axles of 200 x 250 R20 wheels 280 apart on a 69 axle (detail); vector paths from the PDF (items 262 body, 264-267 wheels, 268 axle, (L) sign) 1158.5 x 1331.4 mm",
+   "colours": ["black"],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {"type": "symbol", "id": "qld_w1-8-q01_arrow", "x": 192, "y": 412, "w": 1150, "h": 1140, "colour": "black"},
+  {"type": "symbol", "id": "qld_w1-8-q01_truck", "x": 1652, "y": 147, "w": 1156, "h": 1336, "colour": "black"},
+  {"type": "rect", "x": 1680, "y": 1483, "w": 1100, "h": 69, "colour": "black"},
+  {"type": "text", "text": "{speed}", "series": "E", "height": 400, "top": 1152, "cx": 579, "mirror": true}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W1-8-Q01 'Tilting truck (symbol) (L & R)' warning sign (2020), both hands drawn and fully dimensioned (no size table: one size, 3000 x 1700, R200); (L) is the drawn hand, (R) the mirror image (the sheet's (R) drawing is the mirror, with the speed numeral again under the arrow). Border read from the sheet's vectors: black band from 20 to 60 in from the edge, i.e. yellow edge 20 + black border 40 (the sheet's '60' is edge + border, the same reading as 'd' on the tabled sheets). Horizontal chain 192 / 1150 arrow / 310 / 1156 truck / 192 = 3000; vertical: arrow 412 from the top, 1140 tall, 148 to the bottom (= 1700); truck 147 / 1336 / 69 road bar / 148 = 1700 (the '20' next to the 69 is not part of the chain; the bar is drawn 69 thick, 1100 long, x 1680-2780, 30 in from the truck's extremes, as measured on the sheet). Arrow and truck are the sheet PDF's own filled vector paths (tools/symbols/qld_w1-8-q01_arrow.svg, qld_w1-8-q01_truck.svg, extracted with vec2sym, not traced): the drawn arrow is 1130 wide (440 head + 690 outer radius, agreeing with the detail: shaft 220, R470 inner, head 440 x 580, barb ends R40; the detail's '30' and '125' could not be resolved), 20 less than the dimensioned 1150, so it is centred in the 1150 box at x 192 (drawn at x 216 on the sheet); truck drawn 1158.5 x 1331.4, placed in its 1156 x 1336 box (right edge 192 from the sign edge as dimensioned). Speed numerals 400E (Series E, cap height 400) 'insert appropriate speed limit, if applicable', '40' shown dashed in a 774 x 400 box at x 196 (192 nominal), cap top 1152 = 1700 - 148 - 400, centred on the box (cx 579); the numeral mirrors with the hand (under the arrow on both hands). Speed values 20-80 in steps of 10 (note 3: multiples of 10 km/h): the curve advisory speeds used in Queensland practice, not every value (Russell 2026-09-09). Black on retroreflective yellow."
+}

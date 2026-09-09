@@ -1,0 +1,53 @@
+{
+ "code": "R6-6-1n",
+ "pack": "NSW",
+ "name": "STOP_HERE_ON_RED_SIGNAL_WHITE_WIDE",
+ "legend": "RED SIGNAL STOP HERE ON",
+ "shape": "rect",
+ "size": [
+  700,
+  2400
+ ],
+ "radius": 0,
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 3
+ },
+ "panel_px": [
+  367,
+  136,
+  918,
+  2025
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "RED",
+    "SIGNAL"
+   ],
+   "series": "D",
+   "height": 200,
+   "gap": -248.5,
+   "top": 1899.6,
+   "cx": 474.7,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "STOP",
+    "HERE",
+    "ON"
+   ],
+   "series": "D",
+   "height": 200,
+   "gap": -248.5,
+   "top": 2089.4,
+   "cx": 158.3,
+   "colour": "red"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '700 x 2400 (largest a x b figure on the sheet)' (H x W) = 700 x 2400, Cnr Rad Patch CR:, Border 'Cnr Rad:' = edge 0 (white) + border 3 (black) (drawn as a 3.0 stroke centred -0.4 in), Patch CR Prepared using TraSiCAD; Red legend. Fonts: . border as drawn: black stroke 3 wide from 0 in (the title block's 'Cnr Rad:' read as edge 0 + border 0); the drawn values are used RED SIGNAL 200 D top 1899.6 (baseline 2100; plan advance box 326-605, no width figure matched) STOP HERE ON 200 D top 2089.4 (baseline 2289; plan advance box 26-304, no width figure matched)"
+}

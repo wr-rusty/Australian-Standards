@@ -1,0 +1,92 @@
+{
+ "code": "G7-249-1n",
+ "pack": "NSW",
+ "name": "REST_AREA_5_KM_STOP_REVIVE_SURVIVE_BLUE_SQUARE",
+ "legend": "km 5 STOP REVIVE SURVIVE",
+ "shape": "rect",
+ "size": [
+  1800,
+  1860
+ ],
+ "radius": 250,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 24
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  473,
+  594,
+  1181,
+  1326
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M277.9 277.48L283.83 263.07L336.79 216.9L339.75 199.53L346.95 189.36L360.08 180.89L397.79 168.18L412.19 157.59L464.3 147.85L485.48 155.05L507.08 157.59L518.52 157.59L526.15 160.56L535.89 165.22L548.6 177.92L553.26 195.29L551.57 201.22L565.97 201.22L583.34 206.73L597.74 220.29L608.33 234.27L621.04 245.7L635.44 251.64L644.76 257.14L652.81 264.77L658.74 279.17L662.13 299.51L655.78 315.18L644.76 329.58L629.51 334.24L611.3 334.24L589.27 329.58L585.03 334.24L567.66 336.36L548.6 329.58L529.11 318.99L494.38 342.29L472.35 362.63L457.94 382.96L450.74 402.87L445.23 435.91L432.53 528.69L433.37 546.06L442.27 563.43L456.67 576.56L478.7 581.64L575.29 581.64L575.29 514.71L523.18 513.01L521.49 485.06L662.56 486.75L662.56 514.71L610.03 514.71L608.33 583.34L727.79 580.37L727.79 597.74L277.9 597.74L277.9 581.64L338.06 581.64L357.12 577.83L369.83 565.97L377.45 551.57L415.16 411.77L415.16 394.4L413.46 377.03L405.84 362.63L396.09 349.92L377.45 329.58L360.08 338.06L346.95 342.29L336.79 335.51L334.24 323.65L329.58 320.69L306.28 320.69L280.87 291.88Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M387.2 320.69L405.84 338.06L417.27 351.61L423.21 359.66L427.87 361.36L429.56 358.39L454.98 304.59L445.23 299.51L427.87 302.47L412.19 306.28L399.06 315.18L394.82 318.15Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M452.01 355.42L469.38 312.21L475.31 313.91L511.74 313.91L454.98 358.39L452.01 356.7Z",
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "5",
+   "series": "E",
+   "height": 200,
+   "top": 273.2,
+   "cx": 1009.0,
+   "colour": "white",
+   "expect": 162
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "Emod",
+   "height": 180,
+   "top": 283.0,
+   "cx": 1337.0,
+   "colour": "white",
+   "expect": 371
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "E",
+   "height": 180,
+   "top": 730.0,
+   "colour": "white",
+   "expect": 662
+  },
+  {
+   "type": "text",
+   "text": "REVIVE",
+   "series": "E",
+   "height": 180,
+   "top": 1090.0,
+   "colour": "white",
+   "expect": 930
+  },
+  {
+   "type": "text",
+   "text": "SURVIVE",
+   "series": "E",
+   "height": 180,
+   "top": 1450.1,
+   "colour": "white",
+   "expect": 1132
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1860 x 1800' (H x W) = 1800 x 1860, Cnr Rad 250, Border '24 x 24' = edge 24 (blue) + border 24 (white) (drawn as a 24.1 stroke centred 36.0 in), Patch CR NA; Aluminium Sign; Cl.400 White refl lgd(AS1906.1); Cl.400 Blue refl grd(AS1906.1). Fonts: 5: FHWA Series E2000EX 200; km: FHWA Series Em2000EX 180; STOP: FHWA Series E2000EX 180; REVIVE: FHWA Series E2000EX 180; SURVIVE: FHWA Series E2000EX 180. km 180 Emod top 283.0 (baseline 463; plan advance box 1115-1559, dims 371) 5 200 E top 273.2 (baseline 473; plan advance box 914-1104, dims 162) STOP 180 E top 730.0 (baseline 910; plan advance box 557-1238, dims 662) REVIVE 180 E top 1090.0 (baseline 1270; plan advance box 412-1379, dims 930) SURVIVE 180 E top 1450.1 (baseline 1630; plan advance box 322-1480, dims 1132) symbol: 3 filled paths from the sheet's own vector artwork (bbox [277.9, 147.8, 727.8, 597.7])"
+}

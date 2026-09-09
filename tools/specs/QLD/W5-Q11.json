@@ -1,0 +1,57 @@
+{
+ "code": "W5-Q11",
+ "pack": "QLD",
+ "name": "BOOM_BARRIER_YELLOW_DIAMOND",
+ "legend": "BOOM BARRIER (symbol)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  436,
+  239,
+  1240,
+  1049
+ ],
+ "symbols": {
+  "qld_w5-q11_boom": {
+   "source": "W5-Q11",
+   "pack": "QLD",
+   "panel_px": [
+    436,
+    239,
+    1240,
+    1049
+   ],
+   "desc": "boom barrier: post with rounded top, hatched boom (black with yellow diagonal stripes) and red disc with black rim; box d 280 left / e 360 right of centre, g 128 above / f 206 below; vector paths from the PDF (items 46 boom, 50 post, 51 rim, 52 red disc), 664 x 328.2 as drawn on the sheet's 750 sign",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q11_boom",
+   "x": 250.33,
+   "y": 402.33,
+   "w": 640,
+   "h": 334,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q11 'Boom barrier' warning sign (2023). Size B 750 diamond generated, the smallest tabled (C 900 also tabled; no A): a 750 side drawn as the bounding square 1060.66, r 50, b 10 yellow edge + c 20 black border (separate spans on the sheet). Symbol box from the table: d 280 left and e 360 right of the vertical centreline (640 wide), g 128 above and f 206 below the horizontal centreline (334 tall): x 250.33, y 402.33. The symbol is the sheet PDF's own vector paths (tools/symbols/qld_w5-q11_boom.svg, vec2sym2, not traced): black post and hatched boom (the yellow stripes are gaps in the black path), black rim and red disc (retroreflective red per the legend); drawn 664 x 328.2 on the sheet's sign (3.7 % wider than the tabled box, as the other Q-series symbols), scaled into the box. Black and red on retroreflective yellow."
+}

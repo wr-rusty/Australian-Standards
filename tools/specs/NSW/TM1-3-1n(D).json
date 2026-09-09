@@ -1,0 +1,50 @@
+{
+ "code": "TM1-3-1n(D)",
+ "pack": "NSW",
+ "name": "ROAD_PLANT_AHEAD_YELLOW_TALL",
+ "legend": "ROAD PLANT AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1266,
+  1677
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 110,
+   "top": 172.7,
+   "expect": 369
+  },
+  {
+   "type": "text",
+   "text": "PLANT",
+   "series": "D",
+   "height": 110,
+   "top": 392.7,
+   "expect": 437
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 110,
+   "top": 612.8,
+   "expect": 473
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: ROAD: FHWA Series D2000EX 110; PLANT: FHWA Series D2000EX 110; AHEAD: FHWA Series D2000EX 110. ROAD 110 D top 172.7 (baseline 283; plan advance box 103-496, dims 369) PLANT 110 D top 392.7 (baseline 503; plan advance box 69-522, dims 437) AHEAD 110 D top 612.8 (baseline 723; plan advance box 61-549, dims 473)"
+}

@@ -1,0 +1,29 @@
+{
+ "code": "W2-Q01",
+ "pack": "QLD",
+ "name": "SIDE_ROAD_JUNCTION_ON_CURVE_YELLOW_DIAMOND",
+ "legend": "SUCCESSIVE SIDE ROAD JUNCTION ON A CURVE (symbol)",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 8},
+ "border": {"colour": "black", "width": 16},
+ "panel_px": [200, 363, 767, 930],
+ "hands": ["L", "R"],
+ "drawn_hand": "L",
+ "symbols": {
+  "qld_w2-q01_arrow": {
+   "source": "W2-Q01",
+   "pack": "QLD",
+   "panel_px": [200, 363, 767, 930],
+   "desc": "curve arrow (left) with two side roads: stem g 88 wide, arc centre f 188 / h 72 from the stem, side roads k 120 long x m 64 wide at 15 and 40 degrees, head 20 degrees off; arrow head A 232 x 192, notch 16, R16; vector path from the PDF (item 207, (L) sign), 514.3 x 425.9 mm on the 600 sign",
+   "colours": ["black"],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {"type": "symbol", "id": "qld_w2-q01_arrow", "x": 177.2, "y": 214.4, "w": 514.3, "h": 425.9, "colour": "black"}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W2-Q01 'Successive side road junction on a curve' warning sign (2013, rev B), (L) and (R) drawn side by side with a detail of each arrow; (L) is the drawn hand, (R) the mirror image. Size A 600 diamond generated (B 750, C 900, D 1200 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 8 yellow edge + c 16 black border (b and c are dimensioned as separate spans on this sheet: b the outer yellow strip, c the black band; the sheet's vectors draw them in the ratio 1:2). Arrow: d 216 from the horizontal centreline down to the stem bottom, e 60 from the vertical centreline to the stem's near (inner) edge, stem g 88 wide, arc centre f 188 across / h 72 up from the stem bottom corner, side roads k 120 x m 64 at 15 and 40 degrees, arrow head A a 232 x b 192, c 16 notch, r 16. The arrow is the sheet PDF's own filled vector path (tools/symbols/qld_w2-q01_arrow.svg, vec2sym, not traced; the sheet also strokes it 2.4 mm, fill only taken): measured on the sheet it is at the tabled A geometry (stem 90.7, branch 124 x 66, stem inner edge 61.6 from the centreline, stem bottom 222 below the centreline), so the drawn path is placed with its stem bottom at d 216 and its inner edge at e 60 (box x 177.2, y 214.4, 514.3 x 425.9). Black on retroreflective yellow."
+}

@@ -1,0 +1,88 @@
+{
+ "code": "R4-040-Q11",
+ "pack": "QLD",
+ "drawing": "R4-040-Q11",
+ "name": "{speed}_DRIVE_TO_PREVAILING_BEACH_CONDITIONS_YELLOW_TALL",
+ "legend": "{speed} DRIVE TO PREVAILING BEACH CONDITIONS",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  1100,
+  1600
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   60,
+   80
+  ]
+ },
+ "panel_px": [
+  516,
+  260,
+  1209,
+  1268
+ ],
+ "elements": [
+  {
+   "type": "panel",
+   "x": 250,
+   "y": 75,
+   "w": 600,
+   "h": 800,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "annulus",
+   "cx": 550,
+   "cy": 475,
+   "r_outer": 297,
+   "r_inner": 237,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 240,
+   "top": 355
+  },
+  {
+   "type": "text",
+   "words": [
+    "DRIVE",
+    "TO"
+   ],
+   "gap": 50,
+   "series": "D",
+   "height": 100,
+   "top": 975
+  },
+  {
+   "type": "text",
+   "text": "PREVAILING",
+   "series": "D",
+   "height": 100,
+   "top": 1130
+  },
+  {
+   "type": "text",
+   "text": "BEACH",
+   "series": "D",
+   "height": 100,
+   "top": 1285
+  },
+  {
+   "type": "text",
+   "text": "CONDITIONS",
+   "series": "D",
+   "height": 100,
+   "top": 1440
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q11 'Speed limit - drive to prevailing beach conditions' (2025). Size A 1100 x 1600 generated (B 1650 x 2400 also tabled): r 100, yellow, no border. Chain d 75 / h 800 (the R4-1B inset: the national R4-1 at its 600 x 800 size, tools/specs/R/R4-1.json: white panel r 50, red annulus R297 / R237 centred, numerals 240D; the sheet says 'R4-1B or R4-1C', B fits h 800) / g 100 / e 100D DRIVE TO / f 55 / e 100D PREVAILING / f 55 / e 100D BEACH / f 55 / e 100D CONDITIONS / c 60 = 1600: inset x 250-850 (centred), y 75-875, annulus centre (550, 475), numerals cap top 355; lines cap tops 975, 1130, 1285, 1440; word gap DRIVE-TO 50 measured from the sheet. Speed 'insert appropriate' (R4-1 inset): 40, 60 and 80 generated, the beach driving limits used in Queensland (80 on the K'gari beaches, 40 / 60 near camping and access zones) (Russell: the variants that make sense, not every value). Yellow, black legend, red annulus on the white inset."
+}

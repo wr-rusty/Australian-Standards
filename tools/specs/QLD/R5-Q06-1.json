@@ -1,0 +1,161 @@
+{
+ "code": "R5-Q06-1",
+ "pack": "QLD",
+ "drawing": "R5-Q06-1",
+ "name": "2P_METER_9AM_5PM_MON_FRI_INC_PUBLIC_HOLS_WHITE_TALL",
+ "legend": "2P METER 9AM - 5PM MON - FRI INCLUDING PUBLIC HOLS (arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "radius": 25,
+ "ground": "white",
+ "hands": [
+  "R",
+  "L"
+ ],
+ "drawn_hand": "R",
+ "panel_px": [
+  692,
+  277,
+  1046,
+  986
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "2P",
+   "series": "E",
+   "height": 100,
+   "top": 25,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "METER",
+   "series": "D",
+   "height": 35,
+   "top": 145,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "align": "left",
+   "x": 22.1,
+   "top": 200,
+   "colour": "green",
+   "runs": [
+    {
+     "text": "9",
+     "series": "E",
+     "height": 50
+    },
+    {
+     "text": "AM",
+     "series": "E",
+     "height": 15
+    },
+    {
+     "text": "5",
+     "series": "E",
+     "height": 50
+    },
+    {
+     "text": "PM",
+     "series": "E",
+     "height": 15
+    }
+   ],
+   "gap": [
+    0,
+    39,
+    0
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 104.6,
+   "y": 220.7,
+   "w": 20,
+   "h": 8.6,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "MON",
+    "-",
+    "FRI"
+   ],
+   "gap": 15,
+   "series": "C",
+   "height": 27,
+   "top": 275,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "INCLUDING",
+   "series": "C",
+   "height": 27,
+   "top": 317,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "PUBLIC",
+    "HOLS"
+   ],
+   "gap": 16,
+   "series": "C",
+   "height": 27,
+   "top": 359,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     169,
+     421
+    ],
+    [
+     147.25,
+     405
+    ],
+    [
+     127,
+     405
+    ],
+    [
+     140.59,
+     415
+    ],
+    [
+     56,
+     415
+    ],
+    [
+     56,
+     427
+    ],
+    [
+     140.59,
+     427
+    ],
+    [
+     127,
+     437
+    ],
+    [
+     147.25,
+     437
+    ]
+   ],
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-Q06_1 'Weekday public holidays' special parking sign (2016), 225 x 450, R25, unbordered white, green legend. Chain 25 / 100E 2P / 20 / 35D METER / 20 / 50E 9AM - 5PM / 25 / 27C MON - FRI / 15 / 27C INCLUDING / 15 / 27C PUBLIC HOLS / 19 / 32 (arrow) / 13 = 450: cap tops 25, 145, 200, 275, 317, 359, arrow y 405-437. The sheet's hours '2' and times '9 - 5' are 'insert appropriate' (notes 2, 3): the sheet's example 2P 9AM - 5PM is generated. Times line as the national parking signs (tools/specs/R/R5-1_R5-35_Example_1.json): AM / PM 15E on the numerals' baseline immediately after them (their size is not tabled and the sheet draws them about 25 tall; the national 15E is used), dash a 20 x 8.6 bar at the cap mid-height with 10 / 9 clear, the group centred (the sheet's 201 legend width is the 2P line: AS 1744 E gives 182, the sheet draws 180). MON - FRI with the Series C hyphen and 15 gaps, PUBLIC HOLS gap 16 (measured from the sheet; INCLUDING 154 on the sheet, AS 1744 155). Arrow per the sheet's details (the AS 1743 parking open chevron, as tools/specs/R/R5-10.json): single 113 long (71 shaft + 42 head, 32 high, shaft 12, barbs 12) centred x 56-169; double 155 (42 + 71 + 42) x 35-190. (R) as drawn, (L) the arrow mirrored (note 4), text unmirrored. Green on white."
+}

@@ -1,0 +1,83 @@
+{
+ "code": "R4-040-Q07-2",
+ "pack": "QLD",
+ "drawing": "R4-040-Q07-2",
+ "name": "WELCOME_TO_{speed}_GATTON_BLUE_TALL",
+ "legend": "Welcome to {speed} GATTON (township entry)",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  1200,
+  1600
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   50,
+   60
+  ]
+ },
+ "panel_px": [
+  535,
+  228,
+  1196,
+  1110
+ ],
+ "elements": [
+  {
+   "type": "panel",
+   "x": 220,
+   "y": 160,
+   "w": 760,
+   "h": 760,
+   "radius": 60,
+   "colour": "white"
+  },
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 540,
+   "r_outer": 357,
+   "r_inner": 285,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 300,
+   "top": 390
+  },
+  {
+   "type": "text",
+   "words": [
+    "Welcome",
+    "to"
+   ],
+   "gap": 109,
+   "series": "Emod",
+   "height": 100,
+   "top": 1090,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "GATTON",
+   "series": "D",
+   "height": 160,
+   "top": 1280,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q07_2 'Township entry treatment - welcome - one line - short town name' (2025). Size A 1200 wide generated (B 1500 also tabled): r 100, blue with a white keyline c 20 wide whose inner edge is d 40 from the sign edge (blue edge 20 + white 20, blue field). The speed panel g 760 square, white, centred (x 220-980), per page 7 (R4-040-Q07_7, speed annulus details): panel r 60, red annulus r2 357 outside / r1 285 inside centred (d 380, d 380), numerals c 300D with cap top b 230 (the sheet: 'centre numerals by eye'), page 7's example 60. Chain e 160 / g 760 / (gap by difference 170) / m 100Em Welcome to / k 90 / f 160D GATTON / e 160 = 1600: panel y 160-920, Welcome to cap top 1090 (lower case Series E modified; word gap 109 measured from the sheet), GATTON 1280. Township name 'insert appropriate' (the sheet's example generated; names are not varied); speed 'insert appropriate' (60 shown on page 7): 50 and 60 generated, the township entry limits used in Queensland under TN170 (Russell: the variants that make sense, not every value). Blue, white keyline and legend, red annulus, black numerals."
+}

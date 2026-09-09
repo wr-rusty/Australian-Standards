@@ -1,0 +1,53 @@
+{
+ "code": "TM4-3n(D)",
+ "pack": "NSW",
+ "name": "END_BLASTING_AREA_RED_TALL",
+ "legend": "END BLASTING AREA",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "red",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1266,
+  1677
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 110,
+   "top": 157.7,
+   "colour": "white",
+   "expect": 263
+  },
+  {
+   "type": "text",
+   "text": "BLASTING",
+   "series": "C",
+   "height": 100,
+   "top": 398.1,
+   "colour": "white",
+   "expect": 501
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 110,
+   "top": 627.9,
+   "colour": "white",
+   "expect": 375
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (red) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Cl.400 White refl lgd(AS1906.1); Cl.400 Red refl grd(AS1906.1); Black Border. Fonts: END: FHWA Series D2000EX 110; BLASTING: FHWA Series C2000EX 100; AREA: FHWA Series D2000EX 110. END 110 D top 157.7 (baseline 268; plan advance box 155-443, dims 263) BLASTING 100 C top 398.1 (baseline 498; plan advance box 38-559, dims 501) AREA 110 D top 627.9 (baseline 738; plan advance box 109-489, dims 375)"
+}

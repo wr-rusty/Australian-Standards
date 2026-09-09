@@ -1,0 +1,61 @@
+{
+ "code": "R6-247n",
+ "pack": "NSW",
+ "name": "EMERGENCY_CONTACT_131_700_WHITE_LONG",
+ "legend": "EMERGENCY CONTACT 131 700",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  472,
+  678,
+  1417,
+  1308
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "C",
+   "height": 80,
+   "top": 42.8,
+   "expect": 514
+  },
+  {
+   "type": "text",
+   "text": "CONTACT",
+   "series": "D",
+   "height": 80,
+   "top": 157.8,
+   "expect": 457
+  },
+  {
+   "type": "text",
+   "words": [
+    "131",
+    "700"
+   ],
+   "series": "D",
+   "height": 80,
+   "gap": 49.2,
+   "top": 272.9,
+   "expect": [
+    381
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '400 x 600' (H x W) = 600 x 400, Cnr Rad 60, Border '6 x 12' = edge 6 (white) + border 12 (black) (drawn as a 12.0 stroke centred 12.0 in), Patch CR NA; Aluminium Sign; Black lgd; Cl.400 White refl grd(AS1906.1). Fonts: EMERGENCY: FHWA Series C2000EX 80; CONTACT: FHWA Series D2000EX 80; 131 700: FHWA Series D2000EX 80. EMERGENCY 80 C top 42.8 (baseline 123; plan advance box 34-562, dims 514) CONTACT 80 D top 157.8 (baseline 238; plan advance box 64-532, dims 457) 131 700 80 D top 272.9 (baseline 353; plan advance box 102-499, dims [381])"
+}

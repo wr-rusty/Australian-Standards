@@ -1,0 +1,77 @@
+{
+ "code": "R5-61-Q01-1",
+ "pack": "QLD",
+ "drawing": "R5-61-Q01-1",
+ "name": "PARKING_AREA_2P_ROAD_TRAINS_ONLY_WHITE_TALL",
+ "legend": "PARKING AREA 2P ROAD TRAINS ONLY",
+ "shape": "rect",
+ "size": [
+  1050,
+  1400
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  501,
+  310,
+  1245,
+  1302
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "E",
+   "height": 100,
+   "top": 115
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 100,
+   "top": 265
+  },
+  {
+   "type": "text",
+   "text": "2P",
+   "series": "E",
+   "height": 350,
+   "top": 450,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 100,
+   "top": 885,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "TRAINS",
+   "series": "E",
+   "height": 100,
+   "top": 1035,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 100,
+   "top": 1185,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-61-Q01_1 'Parking area - road trains only' regulatory sign (2019, version B; for the Toowoomba Second Range Crossing heavy vehicle decoupling bay, installed with R5-63 and the R5-61-Q01_2 plate), one size 1050 x 1400, R100, 15 / 45 (edge 15 + border 30). Chain 115 / 100E PARKING / 50 / 100E AREA / 85 / 350E 2P / 85 / 100E ROAD / 50 / 100E TRAINS / 50 / 100E ONLY / 115 = 1400: cap tops 115, 265, 450, 885, 1035, 1185. PARKING AREA black; 2P and ROAD TRAINS ONLY green (note 3, version B per AS 1742.11 cl. 3.3.4). Black border, white."
+}

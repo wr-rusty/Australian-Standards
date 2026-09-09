@@ -1,0 +1,115 @@
+{
+ "code": "TM8-5n(D)",
+ "pack": "NSW",
+ "name": "LOOK_BOTH_WAYS_TWOWAY_TRAFFIC_YELLOW_TALL",
+ "legend": "LOOK BOTH WAYS TWO-WAY TRAFFIC",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  413,
+  356,
+  1209,
+  1550
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M329.6 354.49L329.6 389.44L318.54 424.51L328.6 432.43L426.65 378.5L426.65 366.44L328.6 311.5L318.54 319.42Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M332.5 426.4C332.5 422.5 329.35 419.36 325.46 419.36C321.56 419.36 318.42 422.5 318.42 426.4C318.42 430.3 321.56 433.44 325.46 433.44C329.35 433.44 332.5 430.3 332.5 426.4Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M430.55 372.34C430.55 368.45 427.4 365.3 423.51 365.3C419.61 365.3 416.47 368.45 416.47 372.34C416.47 376.24 419.61 379.38 423.51 379.38C427.4 379.38 430.55 376.24 430.55 372.34Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M332.5 317.28C332.5 313.39 329.35 310.25 325.46 310.25C321.56 310.25 318.42 313.39 318.42 317.28C318.42 321.18 321.56 324.32 325.46 324.32C329.35 324.32 332.5 321.18 332.5 317.28Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M329.6 354.49L329.6 389.44L167.57 394.47L167.57 347.45Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M268.64 546.57L268.64 511.5L279.57 476.56L269.52 468.51L171.59 522.56L171.59 534.51L269.52 589.57L279.57 581.52Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M279.45 474.42C279.45 470.52 276.3 467.38 272.41 467.38C268.51 467.38 265.37 470.52 265.37 474.42C265.37 478.32 268.51 481.46 272.41 481.46C276.3 481.46 279.45 478.32 279.45 474.42Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M181.4 528.35C181.4 524.45 178.25 521.31 174.36 521.31C170.46 521.31 167.32 524.45 167.32 528.35C167.32 532.24 170.46 535.39 174.36 535.39C178.25 535.39 181.4 532.24 181.4 528.35Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M279.45 583.41C279.45 579.51 276.3 576.37 272.41 576.37C268.51 576.37 265.37 579.51 265.37 583.41C265.37 587.3 268.51 590.45 272.41 590.45C276.3 590.45 279.45 587.3 279.45 583.41Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M268.64 546.57L268.64 511.5L430.67 506.47L430.67 553.49Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "LOOK",
+    "BOTH"
+   ],
+   "series": "D",
+   "height": 70,
+   "gap": 41.6,
+   "top": 88.3,
+   "expect": [
+    491
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "WAYS",
+   "series": "D",
+   "height": 70,
+   "top": 195.2,
+   "expect": 242
+  },
+  {
+   "type": "text",
+   "text": "TWO-WAY",
+   "series": "D",
+   "height": 70,
+   "top": 631.4,
+   "expect": 395
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "D",
+   "height": 70,
+   "top": 738.5,
+   "expect": 357
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: LOOK BOTH: FHWA Series D2000EX 70; WAYS: FHWA Series D2000EX 70; TWO-WAY: FHWA Series D2000EX 70; TRAFFIC: FHWA Series D2000EX 70. LOOK BOTH 70 D top 88.3 (baseline 158; plan advance box 46-552, dims [491]) WAYS 70 D top 195.2 (baseline 265; plan advance box 177-425, dims 242) TWO-WAY 70 D top 631.4 (baseline 701; plan advance box 100-500, dims 395) TRAFFIC 70 D top 738.5 (baseline 809; plan advance box 120-487, dims 357) symbol: 10 filled paths from the sheet's own vector artwork (bbox [167.3, 310.2, 430.7, 590.4])"
+}

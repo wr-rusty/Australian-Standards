@@ -1,0 +1,107 @@
+{
+ "code": "TC1019",
+ "pack": "QLD",
+ "name": "UNDERPASS_SUBJECT_TO_FLOODING_BLUE_TALL",
+ "legend": "UNDERPASS SUBJECT TO FLOODING (flooded underpass cyclist symbol)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "panel_px": [
+  628,
+  233,
+  1174,
+  1144
+ ],
+ "symbols": {
+  "qld_tc1019_underpass_cyclist": {
+   "source": "TC1019",
+   "pack": "QLD",
+   "panel_px": [
+    628,
+    233,
+    1174,
+    1144
+   ],
+   "desc": "cyclist riding up a ramp out of a flooded underpass (wall, waves, ramp, cyclist), white on blue; vector paths from the PDF (items 96 cyclist + 97 scene)",
+   "colours": [
+    "white"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed) so the wheels' holes render under nonzero"
+  }
+ },
+ "elements": [
+  {
+   "type": "path",
+   "d": "M0 400H450V700a50 50 0 0 1 -50 50H50a50 50 0 0 1 -50 -50Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M8 400H442V700a42 42 0 0 1 -42 42H50a42 42 0 0 1 -42 -42Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M24 400H426V700a26 26 0 0 1 -26 26H50a26 26 0 0 1 -26 -26Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M0 400V50a50 50 0 0 1 50 -50H400a50 50 0 0 1 50 50V400Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M8 400V50a42 42 0 0 1 42 -42H400a42 42 0 0 1 42 42V400Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M24 400V50a26 26 0 0 1 26 -26H400a26 26 0 0 1 26 26V400Z",
+   "colour": "blue"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1019_underpass_cyclist",
+   "x": 30,
+   "y": 35.3,
+   "w": 390,
+   "h": 353.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "UNDERPASS",
+   "series": "C",
+   "height": 60,
+   "top": 450,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "words": [
+    "SUBJECT",
+    "TO"
+   ],
+   "gap": 34.6,
+   "series": "B",
+   "height": 60,
+   "top": 540,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "FLOODING",
+   "series": "B",
+   "height": 60,
+   "top": 630,
+   "colour": "blue"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1019 'Underpass subject to flooding' warning sign for bikepaths (1998, approved 2012; single size, dimensions on the drawing). 450 x 750, R50, two panels: top 400 blue (blue edge 8, white border 16 to 24, blue ground inside; the sheet's 24 and 8), bottom 350 white (white edge 8, blue border 16 to 24, white ground inside), the panels meeting at y 400 with no divider; read from the sheet's vector rectangles (inset 8.1 and 23.9). Drawn as paths on a white panel: bottom white outline / blue band / white inner, top blue outline / white band / blue ground (inner radii 42 and 26). Right chain 38 / 348 / 14 / 50 / 60CN / 30 / 60BM / 30 / 60BM / 60 = 750: cap tops UNDERPASS 450 (60 Series C; the sheet's font is 'AS1744 Series C Narrow'), SUBJECT TO 540 and FLOODING 630 (60 Series B, sheet font 'AS1744 Series B Medium'), blue, centred; word gap SUBJECT-TO 34.6 measured on the sheet. Symbol: the sheet draws the white scene 390 wide with 30 margins each side, y 35.3-388.8 (353.5 tall), while the chain tables it as 348 tall from 38; the drawn vectors (exact, 30 side margins) are placed as drawn and the 5.5 difference noted. Symbol extracted from the sheet PDF's own vector paths (tools/symbols/qld_tc1019_underpass_cyclist.svg, cyclist + scene, white). White and retroreflective blue."
+}

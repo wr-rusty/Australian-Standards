@@ -1,0 +1,143 @@
+{
+ "code": "R6-246n",
+ "pack": "NSW",
+ "name": "ALL_VEHICLES_OVER_T_20_GVM_OR_HIGH_45_M_MUST_USE_RIGHT_LANE_WHITE_LONG",
+ "legend": "ALL VEHICLES OVER t 20 GVM OR HIGH 4.5 m MUST USE RIGHT LANE",
+ "shape": "rect",
+ "size": [
+  2900,
+  2300
+ ],
+ "radius": 250,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 40
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "panel_px": [
+  488,
+  475,
+  1401,
+  1199
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ALL",
+    "VEHICLES"
+   ],
+   "series": "E",
+   "height": 220,
+   "gap": 127.8,
+   "top": 210.5,
+   "expect": [
+    2339
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "OVER",
+   "series": "E",
+   "height": 220,
+   "top": 540.4,
+   "expect": 844
+  },
+  {
+   "type": "text",
+   "words": [
+    "20",
+    "GVM",
+    "OR"
+   ],
+   "series": "E",
+   "height": 220,
+   "gap": [
+    339.1,
+    180.9
+   ],
+   "top": 870.2,
+   "expect": [
+    400,
+    659,
+    412
+   ]
+  },
+  {
+   "type": "text",
+   "text": "t",
+   "series": "Emod",
+   "height": 180,
+   "top": 900.2,
+   "cx": 980.9,
+   "expect": 93
+  },
+  {
+   "type": "text",
+   "text": "HIGH",
+   "series": "E",
+   "height": 220,
+   "top": 1190.0,
+   "cx": 1911.8,
+   "expect": 733
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "4.5",
+     "series": "E",
+     "height": 220
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 180
+    }
+   ],
+   "gap": 98.0,
+   "top": 1200.6,
+   "cx": 1012.5,
+   "expect": [
+    481,
+    197
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "MUST",
+    "USE"
+   ],
+   "series": "E",
+   "height": 220,
+   "gap": 147.6,
+   "top": 1530.5,
+   "expect": [
+    1610
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "RIGHT",
+    "LANE"
+   ],
+   "series": "E",
+   "height": 220,
+   "gap": 147.6,
+   "top": 1860.9,
+   "expect": [
+    1915
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '2300 x 2900' (H x W) = 2900 x 2300, Cnr Rad 250, Border '40 x 40' = edge 40 (white) + border 40 (black) (drawn as a 40.2 stroke centred 59.8 in), Patch CR NA; Aluminium Sign; Black lgd; Cl.400 White refl grd(AS1906.1). Fonts: ALL VEHICLES: FHWA Series E2000EX 220; OVER: FHWA Series E2000EX 220; OR: FHWA Series E2000EX 220; GVM: FHWA Series E2000EX 220; 20: FHWA Series E2000EX 220; t: FHWA Series Em2000EX 180; HIGH: FHWA Series E2000EX 220; 4.5: FHWA Series E2000EX 220; m: FHWA Series Em2000EX 180; MUST USE: FHWA Series E2000EX 220. ALL VEHICLES 220 E top 210.5 (baseline 430; plan advance box 271-2635, dims [2339]) OVER 220 E top 540.4 (baseline 760; plan advance box 1007-1890, dims 844) t 180 Emod top 900.2 (baseline 1080; plan advance box 918-1049, dims 93) 20 GVM OR 220 E top 870.2 (baseline 1090; plan advance box 439-2463, dims [400, 659, 412]) HIGH 220 E top 1190.0 (baseline 1410; plan advance box 1517-2307, dims 733) 4.5 m 220 E top 1200.6 (baseline 1421; plan advance box 615-1437, dims [481, 197]) MUST USE 220 E top 1530.5 (baseline 1750; plan advance box 617-2271, dims [1610]) RIGHT LANE 220 E top 1860.9 (baseline 2081; plan advance box 464-2423, dims [1915])"
+}

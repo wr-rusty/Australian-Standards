@@ -1,0 +1,42 @@
+{
+ "code": "TM8-4n(D)",
+ "pack": "NSW",
+ "name": "FOOTPATH_CLOSED_WHITE_TALL",
+ "legend": "FOOTPATH CLOSED",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1319,
+  1710
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "FOOTPATH",
+   "series": "B",
+   "height": 110,
+   "top": 277.7,
+   "expect": 469
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "series": "C",
+   "height": 110,
+   "top": 507.8,
+   "expect": 450
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (white) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 White refl grd(AS1906.1). Fonts: FOOTPATH: FHWA Series B2000EX 110; CLOSED: FHWA Series C2000EX 110. FOOTPATH 110 B top 277.7 (baseline 388; plan advance box 53-546, dims 469) CLOSED 110 C top 507.8 (baseline 618; plan advance box 64-535, dims 450)"
+}

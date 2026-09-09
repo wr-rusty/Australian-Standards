@@ -1,0 +1,29 @@
+{
+ "code": "W5-35-Q01",
+ "pack": "QLD",
+ "name": "LANE_SUBTRACTED_YELLOW_DIAMOND",
+ "legend": "LANE SUBTRACTED (symbol)",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 8},
+ "border": {"colour": "black", "width": 16},
+ "panel_px": [170, 146, 754, 729],
+ "hands": ["L", "R"],
+ "drawn_hand": "L",
+ "symbols": {
+  "qld_w5-35-q01_lanes": {
+   "source": "W5-35-Q01",
+   "pack": "QLD",
+   "panel_px": [170, 146, 754, 729],
+   "desc": "lane-subtracted symbol (L): curved arrow (stem p 60, straight s 100, 45-degree curve r2 160 inner / r3 300 outer, taper t 244), lane line n 20 wide with taper, gap o 18, straight arrow h 365 tall, head j 145 with k 12 barb step, r1 12; overall f 660 tall, g 96 line below the arrows; vector paths from the PDF (items 42 curved arrow, 43 line + taper, 44 straight arrow, (L) sign), 469.1 x 680.4 mm as drawn",
+   "colours": ["black"],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {"type": "symbol", "id": "qld_w5-35-q01_lanes", "x": 172.97, "y": 80.27, "w": 455.3, "h": 660, "colour": "black"}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-35-Q01 'Lane subtracted (L & R)' warning sign (2023), both hands drawn with one detail; (L) is the drawn hand, (R) the mirror image. Size A 600 diamond generated (B 750, C 900, D 1200 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 8 yellow edge + c 16 black border (separate spans on the sheet). Symbol placement: d 316 from the horizontal centreline down to the bottom of the symbol (the lane line's foot), e 204 from the vertical centreline to the straight arrow's outer extreme; overall height f 660 (the detail chain: g 96 below the arrows, h 365 straight arrow, taper t 244 above; j 145 head, k 12, m 176, n 20 line, o 18 gap, p 60 stem, s 100, r1 12, r2 160, r3 300, 45 degrees). The three parts are the sheet PDF's own filled vector paths taken as one symbol (tools/symbols/qld_w5-35-q01_lanes.svg, vec2sym, not traced): on the sheet's 600 sign they are drawn 469.1 x 680.4 with the straight arrow's outer edge exactly e 204 from the centreline but ~3 % larger than the table (line 680 for f 660, straight arrow 182 x 376 for m 176 x h 365), so the group is scaled to f 660 tall (455.3 wide) with its foot at d 316 below the centreline and its outer edge at e 204: box x 172.97, y 80.27. Black on retroreflective yellow."
+}

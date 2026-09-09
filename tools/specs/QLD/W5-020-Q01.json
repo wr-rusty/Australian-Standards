@@ -1,0 +1,18 @@
+{
+ "code": "W5-020-Q01",
+ "pack": "QLD",
+ "name": "RUMBLE_STRIPS_YELLOW_DIAMOND",
+ "legend": "RUMBLE STRIPS",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 10},
+ "border": {"colour": "black", "width": 20},
+ "panel_px": [518, 371, 1166, 1019],
+ "elements": [
+  {"type": "text", "text": "RUMBLE", "series": "C", "height": 110, "top": 289.27},
+  {"type": "text", "text": "STRIPS", "series": "C", "height": 110, "top": 449.27}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-020-Q01 'Rumble strips' (2025, previously W5-Q09). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet, as the national W-series 10 + 20 at 600). Legend two lines d 110C (Series C, cap 110), gap e 50, the pair centred on the horizontal centreline as drawn (d above / e / d below the centreline): cap tops 289.27 and 449.27 (424.27 - 135 and + 25). Black on Class 400 retroreflective yellow."
+}

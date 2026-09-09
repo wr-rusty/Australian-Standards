@@ -1,0 +1,54 @@
+{
+ "code": "W8-Q02",
+ "pack": "QLD",
+ "name": "CROSSING_300_M_YELLOW",
+ "legend": "CROSSING 300 m",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  449.5,
+  478.4,
+  1335.3,
+  1069.0
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "D",
+   "height": 100,
+   "top": 120
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "300",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 100
+    }
+   ],
+   "gap": 69,
+   "top": 280
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q02 'Supplementary plate CROSSING 300m' (1995/2016). Only sizes B and C are tabled: size B 750 x 500 generated (C 900 x 600 also tabled), r 50, c 10 / d 30 (edge 10 + border 20). Chain e 120 / h 100D / g 60 / f 100E/100E(lc) / e 120 = 500: cap tops 120 (CROSSING 100D) and 280 (300 in 100E with 'm' lower case 100 Series E(M) on the same baseline). Gap 300 to m 69 measured on the sheet. Black on yellow."
+}

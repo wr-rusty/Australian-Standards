@@ -1,0 +1,41 @@
+{
+ "code": "T1-34n_VMS",
+ "pack": "NSW",
+ "name": "TRAFFIC_CONTROLLER_VMS_BLACK_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "black",
+ "border": {
+  "colour": "orange",
+  "width": 25
+ },
+ "panel_px": [
+  295,
+  258,
+  1476,
+  1143
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M310.74 542.08L350.2 557.33L426.57 388.15L429.62 801.36L473.14 801.36L502.61 564.95L535.63 801.36L580 801.02L577.8 381.88L785.41 350.89L785.41 801.86L801.67 801.86L801.67 274.68L785.41 274.68L785.41 311.77L585.25 305.17L527.84 284.85C513.45 288.91 492.78 297.38 469.92 286.2L391.35 314.31L310.74 542.08Z",
+   "colour": "orange"
+  },
+  {
+   "type": "path",
+   "d": "M498.54 279.6C539.36 279.6 572.55 248.27 572.55 209.82C572.55 171.55 539.36 140.22 498.54 140.22C457.9 140.22 424.71 171.55 424.71 209.82C424.71 248.27 457.9 279.6 498.54 279.6Z",
+   "colour": "orange"
+  },
+  {
+   "type": "path",
+   "d": "M793.2 278.92C846.72 278.92 890.75 237.77 890.75 187.3C890.75 136.67 846.72 95.69 793.2 95.69C739.52 95.69 695.66 136.67 695.66 187.3C695.66 237.77 739.52 278.92 793.2 278.92Z",
+   "colour": "orange"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1200' (H x W) = 1200 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (black) + border 25 (orange) (drawn as a 25.1 stroke centred 12.4 in), Patch CR NA; VMS Sign; Orange LED Symbol & Border; Black Background; VMS Panel is 96 pixels wide by 72 pixels deep. Fonts: . symbol: 3 filled paths from the sheet's own vector artwork (bbox [310.7, 95.7, 890.7, 801.9])"
+}

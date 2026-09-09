@@ -1,0 +1,66 @@
+{
+ "code": "TM1-27n(D)",
+ "pack": "NSW",
+ "name": "ROAD_PLANT_ON_SIDE_ROAD_YELLOW_TALL",
+ "legend": "ROAD PLANT ON SIDE ROAD",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  413,
+  356,
+  1218,
+  1564
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 120,
+   "top": 77.2,
+   "expect": 402
+  },
+  {
+   "type": "text",
+   "text": "PLANT",
+   "series": "D",
+   "height": 120,
+   "top": 257.3,
+   "expect": 477
+  },
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 100,
+   "top": 438.2,
+   "expect": 161
+  },
+  {
+   "type": "text",
+   "text": "SIDE",
+   "series": "D",
+   "height": 100,
+   "top": 578.3,
+   "expect": 277
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 718.3,
+   "expect": 335
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: ROAD: FHWA Series D2000EX 100; PLANT: FHWA Series D2000EX 120; ON: FHWA Series D2000EX 100; SIDE: FHWA Series D2000EX 100. ROAD 120 D top 77.2 (baseline 197; plan advance box 85-514, dims 402) PLANT 120 D top 257.3 (baseline 377; plan advance box 48-542, dims 477) ON 100 D top 438.2 (baseline 538; plan advance box 210-393, dims 161) SIDE 100 D top 578.3 (baseline 678; plan advance box 157-445, dims 277) ROAD 100 D top 718.3 (baseline 818; plan advance box 120-477, dims 335)"
+}

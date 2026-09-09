@@ -1,0 +1,16 @@
+{
+ "code": "W5-Q07",
+ "pack": "QLD",
+ "name": "CANE_HAULING_AHEAD_FLAG_YELLOW_LONG",
+ "legend": "CANE HAULING AHEAD",
+ "shape": "rect",
+ "size": [1100, 900],
+ "ground": "yellow",
+ "panel_px": [434, 318, 1216, 958],
+ "elements": [
+  {"type": "text", "text": "CANE", "series": "D", "height": 140, "top": 120},
+  {"type": "text", "text": "HAULING", "series": "D", "height": 140, "top": 380},
+  {"type": "text", "text": "AHEAD", "series": "D", "height": 140, "top": 640}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q07 'Cane hauling ahead' warning flag (1995/2016, rev B): a 1100 x 900 reflectorised PVC-coated nylon flag, black letters on yellow ground (note 2), fully dimensioned (no size table, one size), no border, square corners. Legend three lines 140DM (Series D, cap 140; DM read as the plain series as on the other QLD sheets), chain 120 / 140 / 120 / 140 / 120 / 140 / 120 = 900: cap tops 120, 380, 640, each line centred on the flag's centreline. The sheet's dashed rod-pocket lines (50 from the top and bottom edges), the two 100 dia wind-relief holes on the centreline and the support hardware are construction details of the flag, not legend, and are not drawn. Black on yellow."
+}

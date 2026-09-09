@@ -1,0 +1,306 @@
+{
+ "code": "W7-12-3n",
+ "pack": "NSW",
+ "name": "KEEP_TRACKS_CLEAR_{d}_M_T_JUNCTION_YELLOW_TALL",
+ "legend": "KEEP TRACKS CLEAR {d} m (rail crossing between the sign and a T junction)",
+ "shape": "rect",
+ "size": [
+  1400,
+  1500
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  531,
+  450,
+  1476,
+  1463
+ ],
+ "vary": {
+  "key": "d",
+  "values": [
+   20,
+   30,
+   40,
+   50,
+   60,
+   80,
+   100
+  ]
+ },
+ "drawn_value": 50,
+ "elements": [
+  {
+   "type": "rect",
+   "x": 160,
+   "y": 160,
+   "w": 1080,
+   "h": 130,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 630,
+   "y": 290,
+   "w": 120,
+   "h": 490,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 160,
+   "y": 820,
+   "w": 1080,
+   "h": 17.5,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 160,
+   "y": 910,
+   "w": 1080,
+   "h": 17.5,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 189.7,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 265.7,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 341.7,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 417.6,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 493.6,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 569.6,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 645.6,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 721.6,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 797.5,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 873.5,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 949.5,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1025.5,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1101.5,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1177.4,
+   "y": 800,
+   "w": 27.5,
+   "h": 147,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 630,
+   "y": 970,
+   "w": 120,
+   "h": 115,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     360.7,
+     345
+    ],
+    [
+     430.7,
+     345
+    ],
+    [
+     395.7,
+     290
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 385.7,
+   "y": 345,
+   "w": 20,
+   "h": 85,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 385.7,
+   "y": 650,
+   "w": 20,
+   "h": 85,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     360.7,
+     735
+    ],
+    [
+     430.7,
+     735
+    ],
+    [
+     395.7,
+     790
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d}",
+     "series": "D",
+     "height": 100,
+     "slot": 285
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 100
+    }
+   ],
+   "gap": 43,
+   "top": 495,
+   "align": "left",
+   "x": 120,
+   "expect": [
+    null,
+    110
+   ]
+  },
+  {
+   "type": "panel",
+   "x": 100,
+   "y": 1185,
+   "w": 1201,
+   "h": 170,
+   "radius": 20,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 105,
+   "y": 1190,
+   "w": 1191,
+   "h": 160,
+   "radius": 15,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "KEEP",
+    "TRACKS",
+    "CLEAR"
+   ],
+   "gap": 53.35,
+   "series": "C",
+   "height": 100,
+   "top": 1220,
+   "cx": 700.5,
+   "expect": [
+    1113
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths; every figure below read from the sheet's chains and its own paths). 1400 x 1500 ('Size 1500 x 1400' = H x W), Cnr Rad 150, 'Border 15 x 30' = yellow edge 15 + black border 30 (the sheet draws the border as a 30 stroke centred 30 in, i.e. 15-45). KEEP TRACKS CLEAR plate 1201 x 170 at 100 / 1185 (100/1201/99 across, 1185 down = 375 + 145 + 170 from the bottom chains), drawn on the sheet as a white patch with a 5 black outline (4.9 stroke centred 2.5 in; 'Patch CR 0' but drawn R20): black R20 with the white inset 5. KEEP TRACKS CLEAR 100 high ('AS1744 Series C Narrow' / 'C2000EX'), 35 below the plate top, 44/1113/44: overall width only, word gaps 53.35 each (the sheet's narrow spacing; our Series C at plus0 would give 1233). Distance: the sheet draws a dashed box 285 x 100 at 120 / 495 for the numerals and the lower-case m (FHWA Series Em2000EX 100) on the box's baseline; no value or list given, so the numerals are drawn in Series D at the box height (100) centred in the box's width, and the sign is generated for 20-100 m (values that exist in NSW practice for the crossing-to-intersection distance; 50 shown as the check value). Layout: crossbar 1080 x 130 at 160 / 160 (160/130 chain), stem 120 wide at 630 (630/120/650) from 290 to 780 (290/490), stub 970-1085 (115) below the track; track 160-1240: rails 17.5 thick at 820 and 910, 14 sleepers 27.5 x 147 at y 800 on a 75.98 pitch from x 189.7 (sheet paths; the 190/115 chain reads sleepers 800-947... the sheet's 800 = 290 + 490 + 20); double arrow on x 395.7 (360/70/970): heads 70 x 55 (tips 290 and 790), shafts 20 x 85 (345-430, 650-735; 140/220/140 chain); numerals box 120-405 x 495-595 (120/285 and 495/100/905 chains), m 100 high on the same baseline 43 clear of the box."
+}

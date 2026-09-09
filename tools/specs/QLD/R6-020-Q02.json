@@ -11,19 +11,19 @@
  "radius": 50,
  "ground": "white",
  "panel_px": [
-  594,
-  250,
-  1069,
-  1042
+  612,
+  247,
+  1084,
+  1035
  ],
  "elements": [
   {
    "type": "symbol",
    "id": "qld_r6-020-q01_filtering",
-   "x": 93.5,
-   "y": 223.4,
-   "w": 448.4,
-   "h": 362.5,
+   "x": 49,
+   "y": 179.4,
+   "w": 502.2,
+   "h": 434.5,
    "colour": "black"
   },
   {
@@ -88,6 +88,5 @@
    "top": 760
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-020-Q02 'End lane filtering prohibited' (issued 2026). Size B 600 x 1000 generated (C 800 x 1350 also tabled): r 50, unbordered white, side margins c 50. Chain g 50 / f 588 (black annulus r1 294 / r2 244, centre (300, 344)) / (gap not tabled: 122 by difference) / e 160E END / d 80 = 1000: END cap top 760. Black slash g 50 at 45 degrees with white gap h 30 (as R6-020-Q01, in black), the R6-020-Q01 symbol reused (traced there) inside the ring. Black on white. Slash from upper-right to lower-left as this sheet draws it (measured; TC9998 / TC2345 slope the other way).",
- "intervene": "uses the R6-020-Q01 scene traced from that sheet, whose slash cut is off-centre (see R6-020-Q01): same decision needed"
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-020-Q02 'End lane filtering prohibited' (issued 2026). Size B 600 x 1000 generated (C 800 x 1350 also tabled): r 50, unbordered white, side margins c 50. Chain g 50 / f 588 (black annulus r1 294 / r2 244, centre (300, 344)) / (gap not tabled: 122 by difference) / e 160E END / d 80 = 1000: END cap top 760. Black slash g 50 at 45 degrees with white gap h 30 (as R6-020-Q01, in black), the R6-020-Q01 symbol reused (traced there) inside the ring. Black on white. Slash from upper-right to lower-left as this sheet draws it (measured; TC9998 / TC2345 slope the other way). 2026-09-09: symbol replaced by the sheet PDF's own vector path (pymupdf get_drawings, scratch vec2sym.py: the sheet draws the symbol as a complete filled path with the white slash gap laid over it, so the extracted path has no cut), exact geometry, no potrace; box = the path's extent on the sheet's sign in mm. Box = the R6-020-Q01 vector scene's box moved down 44 with the ring centre (300, 344). panel_px re-measured from the sheet PDF's ring path (item 145, 222.0-388.7 x 103.3-269.9 pt at 200 dpi): [594, 250, 1069, 1042] -> [612, 247, 1084, 1035]. R6-020-Q01's slash verified centred from the sheet vectors, so this sign's centred slash (about (300, 344)) is as the sheets draw it."
 }

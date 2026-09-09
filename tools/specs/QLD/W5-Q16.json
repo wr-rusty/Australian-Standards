@@ -1,0 +1,70 @@
+{
+ "code": "W5-Q16",
+ "pack": "QLD",
+ "name": "OVERHEAD_WIRES_YELLOW_DIAMOND",
+ "legend": "OVERHEAD WIRES (lightning symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  508,
+  246,
+  1156,
+  894
+ ],
+ "symbols": {
+  "qld_w5-q16_bolt": {
+   "source": "W5-Q16",
+   "pack": "QLD",
+   "panel_px": [
+    508,
+    246,
+    1156,
+    894
+   ],
+   "desc": "lightning bolt, f 240 tall, centred; vector path from the PDF (item 416), 103.1 x 247.4 as drawn on the sheet's 600 sign (grid inset also on the sheet)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q16_bolt",
+   "x": 374.27,
+   "y": 79.27,
+   "w": 100,
+   "h": 240,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "OVERHEAD",
+   "series": "C",
+   "height": 100,
+   "top": 344.27
+  },
+  {
+   "type": "text",
+   "text": "WIRES",
+   "series": "C",
+   "height": 100,
+   "top": 504.27
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q16 'Overhead wires' warning sign (2014/2023; used with the W8-Q17 clearance plate or the W8-Q16 BOATS LOWER MASTS plate per the notes and examples). Size A 600 diamond generated (B 750 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Vertical chain on the sheet, read about the horizontal centreline and checked against the drawn text (PDF spans: Series C, OVERHEAD baseline 21.5 below centre, WIRES cap top 73 below centre, at the drawing's 1.14 scale): bolt f 240 tall ending e 105 above the centreline (bolt box y 79.27-319.27, 100 wide as drawn 103 x 247, centred), OVERHEAD g 100C with its baseline d 20 below the centreline (cap top 344.27), WIRES g 100C with its cap top h 80 below the centreline (504.27); the drawn OVERHEAD-WIRES gap is 45 at the sheet's scale for the 60 the chain gives, the chain is used. The bolt is the sheet's own vector path (tools/symbols/qld_w5-q16_bolt.svg, vec2sym2, not traced). Black on retroreflective yellow."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "TM5-1n(D)(S)",
+ "pack": "NSW",
+ "name": "DETOUR_UP_ARROW_YELLOW_TALL",
+ "legend": "DETOUR",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1341,
+  1743
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M280.9 356.98L317.98 356.98L370.96 369.95L377.95 359.01L303.9 267.94L293.97 267.94L221.95 359.01L227.93 369.95Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M379.88 362.86C379.88 359.01 376.73 355.87 372.89 355.87C369.04 355.87 365.9 359.01 365.9 362.86C365.9 366.71 369.04 369.85 372.89 369.85C376.73 369.85 379.88 366.71 379.88 362.86Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M305.82 271.79C305.82 267.94 302.68 264.8 298.84 264.8C294.99 264.8 291.85 267.94 291.85 271.79C291.85 275.64 294.99 278.78 298.84 278.78C302.68 278.78 305.82 275.64 305.82 271.79Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M233.8 362.86C233.8 359.01 230.66 355.87 226.81 355.87C222.96 355.87 219.82 359.01 219.82 362.86C219.82 366.71 222.96 369.85 226.81 369.85C230.66 369.85 233.8 366.71 233.8 362.86Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M280.9 356.98L317.98 356.98L324.97 447.04L274.93 447.04Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "C",
+   "height": 120,
+   "top": 512.4,
+   "expect": 495
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: DETOUR: FHWA Series C2000EX 120. DETOUR 120 C top 512.4 (baseline 632; plan advance box 39-555, dims 495) symbol: 5 filled paths from the sheet's own vector artwork (bbox [219.8, 264.8, 379.9, 447.0])"
+}

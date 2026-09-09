@@ -1,0 +1,51 @@
+{
+ "code": "TM5-6n(D)",
+ "pack": "NSW",
+ "name": "LEFT_ARROW_YELLOW_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  295,
+  262,
+  1336,
+  1823
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M302.02 497.18L302.02 405.12L334.02 273.09L305.96 254.07L78.89 437.12L78.89 465.18L305 647.18L332.96 629.21Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M334.4 268C334.4 258.39 326.52 250.51 316.91 250.51C307.3 250.51 299.42 258.39 299.42 268C299.42 277.61 307.3 285.49 316.91 285.49C326.52 285.49 334.4 277.61 334.4 268Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M107.34 451.06C107.34 441.45 99.46 433.57 89.85 433.57C80.24 433.57 72.36 441.45 72.36 451.06C72.36 460.67 80.24 468.55 89.85 468.55C99.46 468.55 107.34 460.67 107.34 451.06Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M333.34 633.06C333.34 623.45 325.46 615.57 315.86 615.57C306.25 615.57 298.37 623.45 298.37 633.06C298.37 642.67 306.25 650.54 315.86 650.54C325.46 650.54 333.34 642.67 333.34 633.06Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M302.02 497.18L302.02 405.12L527.07 388.12L527.07 514.19Z",
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black Arrow & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: . symbol: 5 filled paths from the sheet's own vector artwork (bbox [72.4, 250.5, 527.1, 650.5])"
+}

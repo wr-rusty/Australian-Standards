@@ -1,0 +1,7 @@
+{
+ "code": "PS001",
+ "pack": "QLD",
+ "drawing": "PS001",
+ "legend": "THIS IS PRIVATE PROPERTY / IT IS AN OFFENCE TO TRESPASS ON THIS PROPERTY AND OFFENDERS WILL BE PROSECUTED / WARNING: COVERT CCTV SURVEILLANCE UTILISED IN THIS AREA ...",
+ "skip": "TC-series sheet PS001 'Private property trespassing' special warning sign (2022), 1200 x 900: the legend is Arial Bold (140 / 100 / 80 / 60 pt, not an AS 1744 series, so signgen cannot set it), the sign carries raster logos (Queensland Police crest, Crime Stoppers, Neighbourhood Watch Queensland) and a dashed 'insert local government logo or Qld government crest' box, plus a blue/white checkerboard band; it cannot be generated faithfully from the sheet"
+}

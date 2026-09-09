@@ -1,0 +1,91 @@
+{
+ "code": "R4-040-Q07-4",
+ "pack": "QLD",
+ "drawing": "R4-040-Q07-4",
+ "name": "WELCOME_TO_{speed}_MOUNT_LARCOM_BLUE_TALL",
+ "legend": "Welcome to {speed} MOUNT LARCOM (township entry, two lines)",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  1200,
+  1800
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   50,
+   60
+  ]
+ },
+ "panel_px": [
+  535,
+  219,
+  1196,
+  1211
+ ],
+ "elements": [
+  {
+   "type": "panel",
+   "x": 220,
+   "y": 140,
+   "w": 760,
+   "h": 760,
+   "radius": 60,
+   "colour": "white"
+  },
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 520,
+   "r_outer": 357,
+   "r_inner": 285,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 300,
+   "top": 370
+  },
+  {
+   "type": "text",
+   "words": [
+    "Welcome",
+    "to"
+   ],
+   "gap": 109,
+   "series": "Emod",
+   "height": 100,
+   "top": 1030,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "MOUNT",
+   "series": "D",
+   "height": 160,
+   "top": 1260,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "LARCOM",
+   "series": "D",
+   "height": 160,
+   "top": 1500,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q07_4 'Township entry treatment - welcome - two lines - town name' (2025). Size A 1200 wide generated (B 1500 also tabled): r 100, blue with a white keyline c 20 wide whose inner edge is d 40 from the sign edge (blue edge 20 + white 20, blue field). The speed panel g 760 square, white, centred (x 220-980), per page 7 (R4-040-Q07_7, speed annulus details): panel r 60, red annulus r2 357 outside / r1 285 inside centred (d 380, d 380), numerals c 300D with cap top b 230 (the sheet: 'centre numerals by eye'), page 7's example 60. DISAGREEMENT: the table gives b = 1600 (2000 for B) but the tabled chain e 140 / g 760 / gap / m 100Em / h 130 / f 160D / k 80 / f 160D / e 140 already sums to 1670 without the gap between the panel and Welcome to, and the sheet draws the sign 1.5:1 (1200 x 1800, like page 3's two-line sign), so 1200 x 1800 is generated with that gap by difference = 130: panel y 140-900, Welcome to cap top 1030 (word gap 109 as page 2), MOUNT 1260, LARCOM 1500. Township name 'insert appropriate' (the sheet's example generated; names are not varied); speed 'insert appropriate' (60 shown on page 7): 50 and 60 generated, the township entry limits used in Queensland under TN170 (Russell: the variants that make sense, not every value). Blue, white keyline and legend, red annulus, black numerals."
+}

@@ -1,0 +1,190 @@
+{
+ "code": "TC1152",
+ "pack": "QLD",
+ "name": "DRIVE_ON_LEFT_IN_AUSTRALIA_WHITE_TALL",
+ "legend": "DRIVE ON LEFT IN AUSTRALIA (two-lane road with cars and arrows symbol)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  425,
+  348,
+  992,
+  1199
+ ],
+ "symbols": {
+  "qld_tc1152_car_front": {
+   "source": "TC1152",
+   "pack": "QLD",
+   "panel_px": [
+    425,
+    348,
+    992,
+    1199
+   ],
+   "desc": "car, front view (grille, headlights, driver), ink 160.2 x 130.6 centred in its w 180 x n 140 box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced; item 763); subpath windings normalised (holes reversed)"
+  },
+  "qld_tc1152_car_rear": {
+   "source": "TC1152",
+   "pack": "QLD",
+   "panel_px": [
+    425,
+    348,
+    992,
+    1199
+   ],
+   "desc": "car, rear view (tail lights, driver), ink 160.2 x 130.6 centred in its w 180 x n 140 box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced; item 768); subpath windings normalised (holes reversed)"
+  },
+  "qld_tc1152_arrow_up": {
+   "source": "TC1152",
+   "pack": "QLD",
+   "panel_px": [
+    425,
+    348,
+    992,
+    1199
+   ],
+   "desc": "straight arrow pointing up, v 106 x o 120 (the sheet's grid inset)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced; item 774); subpath windings normalised (holes reversed)"
+  },
+  "qld_tc1152_arrow_down": {
+   "source": "TC1152",
+   "pack": "QLD",
+   "panel_px": [
+    425,
+    348,
+    992,
+    1199
+   ],
+   "desc": "straight arrow pointing down, v 106 x o 120",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced; item 773); subpath windings normalised (holes reversed)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1152_arrow_up",
+   "x": 107,
+   "y": 70,
+   "w": 106,
+   "h": 120,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1152_car_rear",
+   "x": 79.89,
+   "y": 239.69,
+   "w": 160.23,
+   "h": 130.62,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1152_car_front",
+   "x": 359.89,
+   "y": 69.69,
+   "w": 160.23,
+   "h": 130.62,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1152_arrow_down",
+   "x": 387,
+   "y": 250,
+   "w": 106,
+   "h": 120,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 292.5,
+   "y": 70,
+   "w": 15,
+   "h": 60,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 292.5,
+   "y": 190,
+   "w": 15,
+   "h": 60,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 292.5,
+   "y": 310,
+   "w": 15,
+   "h": 60,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 410,
+   "w": 540,
+   "h": 15,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DRIVE",
+   "series": "C",
+   "height": 100,
+   "top": 475
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "LEFT"
+   ],
+   "gap": 72.4,
+   "series": "C",
+   "height": 100,
+   "top": 625
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "AUSTRALIA"
+   ],
+   "gap": 43.7,
+   "series": "C",
+   "height": 60,
+   "top": 775
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1152_1 'Drive on left in Australia' warning sign (2011, approved 2016; page 1 of 2, page 2 is the 150 x 100 warning sticker). Size A 600 x 900 generated (B 750 x 1125 also tabled): r 60, c 10 / d 30 (white edge 10 + black border 20). Table a 600 b 900 c 10 d 30 e 65 f 60CN g 50 h 100CN k 15 m 35 n 140 o 120 p 45 q 70 r 60 s 40 t 60 u 107 v 106 w 180. Left chain q 70 / o 120 / p 45 / n 140 / m 35 / k 15 / g 50 / h 100 / g 50 / h 100 / g 50 / f 60 / e 65 = 900: up-arrow box y 70 (o 120 tall), rear-view car box y 235 (n 140), black divider bar k 15 at y 410 across the inside of the border (x 30-570, as drawn), cap tops DRIVE 475 and ON LEFT 625 (100 Series C, 'CN' = the sheet's 'AS1744 Series C Narrow' read as plain C), IN AUSTRALIA 775 (60 C), e 65 below. Right chain e 65 / n 140 / p 45 / o 120: front-view car box y 65, down-arrow box y 250; dashed centreline q 70 / t / t / t / t / t / s 40 = 410: three dashes k 15 wide x t 60 long at y 70, 190, 310, centred (x 292.5). Horizontal q 70 / w 180 / = / k 15 / = / w 180 / q 70 (= 42.5): car boxes x 70 and 350; u 107 / v 106 / = / k / = / v 106 / u 107: arrows x 107 and 387 (each centred over its car box). Word gaps measured on the sheet: ON-LEFT 72.4, IN-AUSTRALIA 43.7. Cars: the sheet's ink is 160.2 x 130.6 inside the 180 x 140 box (the grid insets show the box as corner brackets), so each car is placed at its ink size centred in its tabled box (the sheet draws the left car 5 lower than centred; the tabled box governs). Arrows fill their v x o boxes exactly as drawn. Symbols extracted from the sheet PDF's own filled vector paths (tools/symbols/qld_tc1152_*.svg). Black on retroreflective white."
+}

@@ -1,0 +1,94 @@
+{
+ "code": "W6-Q01",
+ "pack": "QLD",
+ "name": "NATIONAL_TRAIL_YELLOW_DIAMOND",
+ "legend": "NATIONAL TRAIL (symbols)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  423.5,
+  268.3,
+  1233.6,
+  1078.4
+ ],
+ "symbols": {
+  "qld_w6-q01_rider": {
+   "source": "W6-Q01",
+   "pack": "QLD",
+   "panel_px": [
+    423.5,
+    268.3,
+    1233.6,
+    1078.4
+   ],
+   "desc": "horse and rider (walking left), n 260 tall, bottom m 65 above the centreline; vector items 98 + 97",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w6-q01_walker": {
+   "source": "W6-Q01",
+   "pack": "QLD",
+   "panel_px": [
+    423.5,
+    268.3,
+    1233.6,
+    1078.4
+   ],
+   "desc": "walker with backpack (facing right), g 200 tall, bottom f 80 above the centreline; vector items 101 + 99 + 100",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w6-q01_rider",
+   "x": 300.4,
+   "y": 205.33,
+   "w": 270.6,
+   "h": 260,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q01_walker",
+   "x": 618.6,
+   "y": 250.33,
+   "w": 90.7,
+   "h": 200,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "NATIONAL",
+   "series": "D",
+   "height": 100,
+   "top": 530.33
+  },
+  {
+   "type": "text",
+   "text": "TRAIL",
+   "series": "D",
+   "height": 100,
+   "top": 680.33
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On the yellow diamonds the table's 'b' is the yellow edge and 'c' the black border width (b 10 / c 20 at the 600-750 sizes, as the national W-series 10 yellow edge + 20 black border); the drawn diamond's bounding box is the sharp diamond's bounding square less the apex rounding r(sqrt2 - 1), which is how the sheet's vectors were mapped to sign mm. Q-series sheet W6-Q01 'Warning sign NATIONAL TRAIL (with symbols)' (1995/2016). Only sizes B and C are tabled: size B 750 side generated (bounding square 1060.66; C 900 also tabled), r 50, b 10 yellow edge / c 20 black border. Vertical chain on the centreline: left n 260 (rider height) / m 65 (rider bottom to the centreline) / h 100D (NATIONAL, cap top on the centreline 530.33) / k 50 / h 100D (TRAIL, top 680.33); right g 200 (walker height) / f 80 (walker bottom to the centreline). Symbol heights and bottoms from the table, widths by the artwork's aspect (rider 281.8 x 270.7 and walker 90.0 x 198.4 as drawn, i.e. the drawn rider is 10 taller than tabled), horizontal positions from the sheet's vectors (rider centre 435.7, walker centre 663.9; not dimensioned). The apex figures d 45 / e 90 (corner detail at the top vertex) are not used: the corner is the tabled r 50. Symbols extracted from the sheet PDF (not traced). Black on yellow."
+}

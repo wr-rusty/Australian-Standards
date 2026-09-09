@@ -1,0 +1,101 @@
+{
+ "code": "W8-Q19-2",
+ "pack": "QLD",
+ "name": "{an}_NEXT_{km}_KM_WHITE",
+ "legend": "{l1} {l2} NEXT {km} km",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "green",
+  "width": 20
+ },
+ "panel_px": [
+  476.5,
+  280.3,
+  1185.2,
+  752.7
+ ],
+ "vary": {
+  "keys": [
+   "l1",
+   "l2",
+   "an",
+   "km"
+  ],
+  "values": [
+   [
+    "TREE",
+    "KANGAROOS",
+    "TREE_KANGAROOS",
+    5
+   ],
+   [
+    "MAHOGANY",
+    "GLIDERS",
+    "MAHOGANY_GLIDERS",
+    5
+   ],
+   [
+    "ROCK",
+    "WALLABIES",
+    "ROCK_WALLABIES",
+    5
+   ]
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{l1}",
+   "series": "C",
+   "height": 80,
+   "top": 75,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "{l2}",
+   "series": "C",
+   "height": 80,
+   "top": 210,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "C",
+     "height": 80
+    },
+    {
+     "text": "{km}",
+     "series": "C",
+     "height": 80,
+     "slot": 90
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 70
+    }
+   ],
+   "gap": [
+    65,
+    33.5
+   ],
+   "top": 345,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet W8-Q19_2 'Supplementary plate ANIMAL NAME NEXT ...km' page 2 of 2 (2023; under W5-Q20, two-line animal name). Size A 750 x 500 generated (B 900 x 600 also tabled), r 50, c 10 / d 30 (white edge 10 + green border 20). Chain e 75 / f 80C / g 55 / f 80C / g 55 / f 80C / e 75 = 500: cap tops 75 and 210 (the two name lines, dashed boxes 614 x 81 on the sheet) and 345 (NEXT 80C, numeral 80C, 'km' h 70 Series E(M) on the same baseline). Third line as the sheet draws it (same as W8-Q19_1): NEXT ink to 312.9, numeral dashed box x 377.4-467.7 (90 wide), km ink from 501.3, i.e. gaps 65 and 33.5 and a 90 numeral slot, the line centred as a group. Values: the sheet says 'insert appropriate animal name and distance' with the example TREE KANGAROOS NEXT 5 km, so that plus two-line names used on Queensland wildlife plates are generated (MAHOGANY GLIDERS, ROCK WALLABIES; Russell: the variants that make sense, not every value). Green legend and border on white."
+}

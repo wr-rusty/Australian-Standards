@@ -1,0 +1,63 @@
+{
+ "code": "R6-252n",
+ "pack": "NSW",
+ "name": "ARRESTER_BED_YELLOW_WIDE_SKINNY",
+ "legend": "ARRESTER BED",
+ "shape": "rect",
+ "size": [
+  300,
+  2300
+ ],
+ "radius": 0,
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 3
+ },
+ "panel_px": [
+  589,
+  105,
+  825,
+  1918
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M156.77 2100L116.78 2060.01L72.78 1988.93L51.62 1992.95L34.7 2169.18L47.81 2182.09L222.99 2165.16L227.86 2145.06Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M62.62 1983.85C56.49 1983.85 51.41 1988.93 51.41 1995.06C51.41 2001.2 56.49 2006.28 62.62 2006.28C68.76 2006.28 73.84 2001.2 73.84 1995.06C73.84 1988.93 68.76 1983.85 62.62 1983.85Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M46.54 2160.08C40.41 2160.08 35.33 2165.16 35.33 2171.3C35.33 2177.43 40.41 2182.51 46.54 2182.51C52.68 2182.51 57.76 2177.43 57.76 2171.3C57.76 2165.16 52.68 2160.08 46.54 2160.08Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M221.72 2143.16C215.59 2143.16 210.51 2148.24 210.51 2154.37C210.51 2160.51 215.59 2165.59 221.72 2165.59C227.86 2165.59 232.93 2160.51 232.93 2154.37C232.93 2148.24 227.86 2143.16 221.72 2143.16Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M156.77 2100L116.78 2060.01L210.93 1952.96L264.88 2006.91Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ARRESTER",
+    "BED"
+   ],
+   "series": "D",
+   "height": 180,
+   "gap": -219.7,
+   "top": 1626.3,
+   "cx": 168.5
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '300 x 2300 (largest a x b figure on the sheet)' (H x W) = 300 x 2300, Cnr Rad Patch CR:, Border 'Cnr Rad:' = edge 0 (white) + border 3 (black) (drawn as a 3.0 stroke centred 0.0 in), Patch CR Prepared using TraSiCAD; Black lgd. Fonts: . border as drawn: black stroke 3 wide from 0 in (the title block's 'Cnr Rad:' read as edge 0 + border 0); the drawn values are used ARRESTER BED 180 D top 1626.3 (baseline 1806; plan advance box 50-300, no width figure matched) symbol: 5 filled paths from the sheet's own vector artwork (bbox [34.7, 1953.0, 264.9, 2182.5])"
+}

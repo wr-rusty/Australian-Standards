@@ -1,0 +1,42 @@
+{
+ "code": "TM1-4n(D)",
+ "pack": "NSW",
+ "name": "GRADER_AHEAD_YELLOW_TALL",
+ "legend": "GRADER AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1319,
+  1710
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "GRADER",
+   "series": "D",
+   "height": 100,
+   "top": 283.1,
+   "expect": 503
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 100,
+   "top": 513.3,
+   "expect": 430
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: GRADER: FHWA Series D2000EX 100; AHEAD: FHWA Series D2000EX 100. GRADER 100 D top 283.1 (baseline 383; plan advance box 38-556, dims 503) AHEAD 100 D top 513.3 (baseline 613; plan advance box 82-525, dims 430)"
+}

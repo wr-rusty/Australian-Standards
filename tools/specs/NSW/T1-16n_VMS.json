@@ -1,0 +1,77 @@
+{
+ "code": "T1-16n_VMS",
+ "pack": "NSW",
+ "name": "ROADWORK_{d}_KM_AHEAD_VMS_BLACK_LONG",
+ "legend": "ROADWORK {d} km AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "black",
+ "border": {
+  "colour": "yellow",
+  "width": 25.0
+ },
+ "panel_px": [
+  414,
+  356,
+  1477,
+  1154
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROADWORK",
+   "series": "D",
+   "height": 150,
+   "top": 127.1,
+   "colour": "yellow",
+   "expect": 1044
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d}",
+     "series": "E",
+     "height": 150
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 125
+    }
+   ],
+   "gap": 57,
+   "top": 370.0,
+   "colour": "yellow",
+   "expect": [
+    null,
+    258
+   ]
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 150,
+   "top": 615.2,
+   "colour": "yellow",
+   "expect": 765
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1200' (H x W) = 1200 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (black) + border 25.0 (yellow) (drawn as a 0.7 stroke centred -0.2 in), Patch CR NA; . Fonts: ROADWORK: FHWA Series D2000EX 150; 2: FHWA Series E2000EX 150; km: FHWA Series Em2000EX 125; AHEAD: FHWA Series E2000EX 150. VMS panel: the sheet draws a yellow outer rect with the black face inset 25.0 (its 'Border 0 x 25' is not what is drawn): yellow border 25.0, black ground. ROADWORK 150 D top 127.1 (baseline 277; plan advance box 60-1130, dims 1044) 2 km 150 E top 370.0 (baseline 520; plan advance box 371-844, no width figure matched) AHEAD 150 E top 615.2 (baseline 765; plan advance box 212-998, dims 765) The sheet draws the numeral in a dashed box ('*** variable', the box outline dropped) with km 258 wide 57 clear of it, the pair centred ('=' margins): generated for 1, 2, 3, 5 and 10 km with the numeral 150 E and km 125 Emod on the 520 baseline.",
+ "vary": {
+  "key": "d",
+  "values": [
+   1,
+   2,
+   3,
+   5,
+   10
+  ]
+ },
+ "drawn_value": 2
+}

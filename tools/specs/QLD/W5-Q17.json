@@ -1,0 +1,51 @@
+{
+ "code": "W5-Q17",
+ "pack": "QLD",
+ "name": "SLOW_TURNING_TRAFFIC_YELLOW_DIAMOND",
+ "legend": "SLOW TURNING TRAFFIC",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  373,
+  223,
+  1345,
+  1195
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SLOW",
+   "series": "C",
+   "height": 100,
+   "top": 194.27
+  },
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "C",
+   "height": 100,
+   "top": 344.27
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 494.27
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q17 'Slow turning traffic' warning sign (2023). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Legend three lines d 100C (Series C, cap 100) with gaps e 50; f 20 is the offset of TURNING's baseline below the horizontal centreline (measured on the drawn text: the PDF's TURNING baseline is 20.5 / 1.14 = 18 below centre at the drawing's scale, SLOW and TRAFFIC at -118 and +154 against the chain's -130 and +170): TURNING cap top 424.27 + 20 - 100 = 344.27, SLOW 344.27 - 50 - 100 = 194.27, TRAFFIC 444.27 + 50 = 494.27. Black on retroreflective yellow."
+}

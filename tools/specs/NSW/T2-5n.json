@@ -1,0 +1,49 @@
+{
+ "code": "T2-5n",
+ "pack": "NSW",
+ "name": "PART_ROAD_CLOSED_YELLOW_WIDE",
+ "legend": "PART ROAD CLOSED",
+ "shape": "rect",
+ "size": [
+  1500,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  1091,
+  745,
+  2290,
+  1225
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "PART",
+    "ROAD"
+   ],
+   "gap": 132.6,
+   "expect": [
+    498,
+    535
+   ],
+   "series": "D",
+   "height": 160,
+   "top": 95.9
+  },
+  {
+   "type": "text",
+   "text": "CLOSED",
+   "expect": 774,
+   "series": "D",
+   "height": 165,
+   "top": 337.4
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1500 x 600 (the sheet's caption; drawn at 1:9.85), yellow face with a 25 black border. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. PART ROAD 160 D top 95.9 (raster of the outlines: cap 160.1, widths [498.3, 535.0] vs ours [499.6, 536.4]) CLOSED 165 D top 337.4 (raster of the outlines: cap 165.6, widths [773.6] vs ours [797.5])"
+}

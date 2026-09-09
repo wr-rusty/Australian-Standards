@@ -1,0 +1,84 @@
+{
+ "code": "W6-Q06-1",
+ "pack": "QLD",
+ "name": "{shoulder}_SHOULDER_AHEAD_YELLOW_TALL",
+ "legend": "{shoulder} SHOULDER AHEAD (bicycle symbol)",
+ "shape": "rect",
+ "size": [
+  300,
+  400
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  578.3,
+  432.2,
+  1050.7,
+  1062.1
+ ],
+ "vary": {
+  "key": "shoulder",
+  "values": [
+   "NARROW",
+   "NO"
+  ]
+ },
+ "symbols": {
+  "qld_w6-q06-1_bicycle": {
+   "source": null,
+   "pack": "QLD",
+   "panel_px": [
+    578.3,
+    432.2,
+    1050.7,
+    1062.1
+   ],
+   "desc": "bicycle (facing right) 194 x 130, top 30, centred; vector item 37",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w6-q06-1_bicycle",
+   "x": 53,
+   "y": 30,
+   "w": 194,
+   "h": 130,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{shoulder}",
+   "series": "C",
+   "height": 40,
+   "top": 190
+  },
+  {
+   "type": "text",
+   "text": "SHOULDER",
+   "series": "C",
+   "height": 40,
+   "top": 260
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 40,
+   "top": 330
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow sign the 10 is the edge + border and the 5 the yellow edge (edge 5 + border 10). Q-series sheet W6-Q06_1 'Cyclist warning sign NARROW SHOULDER AHEAD' page 1 of 2 (2021; with W6-Q06_2), one size dimensioned directly: 300 x 400, R 25. Chain 30 / 130 (bicycle) / 30 / 40CN / 30 / 40CN / 30 / 40CN / 30 = 400: bicycle top 30, cap tops 190, 260, 330; 'CN' read as Series C. Bicycle 194 wide as drawn (centred; only its height 130 is dimensioned), extracted from the sheet PDF (not traced). The first word is the sheet's variable ('insert either NARROW or NO'): both generated. Black on yellow."
+}

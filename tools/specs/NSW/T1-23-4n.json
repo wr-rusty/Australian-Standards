@@ -1,0 +1,6 @@
+{
+ "code": "T1-23-4n",
+ "pack": "NSW",
+ "legend": "Wide Centre Line Treatment (Overtaking Permitted When Safe) Both Directions",
+ "skip": "older outlined sheet: the road-perspective symbol panel and the text are drawn as composite paths the outline reader misreads; needs hand work (remaining)"
+}

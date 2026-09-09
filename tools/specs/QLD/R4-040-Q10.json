@@ -1,0 +1,73 @@
+{
+ "code": "R4-040-Q10",
+ "pack": "QLD",
+ "drawing": "R4-040-Q10",
+ "name": "PMD_{speed}_PLATE_WHITE_LONG",
+ "legend": "(e-scooter) {speed}",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  300,
+  150
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   12,
+   25
+  ]
+ },
+ "panel_px": [
+  486,
+  398,
+  1194,
+  753
+ ],
+ "symbols": {
+  "qld_r4-040-q08_escooter": {
+   "source": "R4-040-Q08",
+   "pack": "QLD",
+   "desc": "electric scooter with lightning bolt (side view, facing right), 200 x 200 on R4-040-Q08 (the sheet's grid inset)",
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_r4-040-q08_escooter",
+   "x": 30,
+   "y": 25,
+   "w": 100,
+   "h": 100,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 220,
+   "cy": 75,
+   "r_outer": 50,
+   "r_inner": 42,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 40,
+   "top": 55,
+   "cx": 220
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q10 'Speed limit for personal mobility devices supplementary plate' (2025; the example use shows it under a shared-path sign), one size: 300 x 150, R25, 5 / 15 (edge 5 + border 10). Horizontal 30 / 100 (e-scooter symbol) / 40 / 100 (red annulus) / 30 = 300; vertical 25 / 100 / 25 = 150: symbol x 30-130, y 25-125; annulus centre (220, 75), outer dia 100, inner dia 83 read from the sheet's vector ring (r 50 / 42); numerals 40D centred in the annulus (cap top 55). E-scooter: the R4-040-Q08 vector (tools/symbols/qld_r4-040-q08_escooter.svg). Speed 'insert appropriate' (25 shown in the example): 10, 12 and 25 generated, the personal mobility device limits of the Queensland road rules (12 on footpaths, 25 on paths and roads, 10 in shared zones) (Russell: the variants that make sense, not every value). Red and black on white."
+}

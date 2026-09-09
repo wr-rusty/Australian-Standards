@@ -1,0 +1,43 @@
+{
+ "code": "T6-233n",
+ "pack": "NSW",
+ "name": "SNOW_CLEARING_YELLOW_WIDE",
+ "legend": "SNOW CLEARING",
+ "shape": "rect",
+ "size": [
+  1500,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  403,
+  338,
+  2801,
+  1298
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SNOW",
+   "expect": 653,
+   "series": "E",
+   "height": 165,
+   "top": 75.9,
+   "cx": 757.9
+  },
+  {
+   "type": "text",
+   "text": "CLEARING",
+   "expect": 1168,
+   "series": "E",
+   "height": 160,
+   "top": 335.9
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1500 x 600 (the sheet's caption; drawn at 1:4.93), yellow face with a 25 black border. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. SNOW 165 E top 75.9 (raster of the outlines: cap 165.3, widths [653.0] vs ours [675.2], centre 757.9) CLEARING 160 E top 335.9 (raster of the outlines: cap 159.9, widths [1168.1] vs ours [1170.0])"
+}

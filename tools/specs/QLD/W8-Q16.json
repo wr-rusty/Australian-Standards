@@ -1,0 +1,51 @@
+{
+ "code": "W8-Q16",
+ "pack": "QLD",
+ "name": "BOATS_LOWER_MASTS_YELLOW",
+ "legend": "BOATS LOWER MASTS",
+ "shape": "rect",
+ "size": [
+  650,
+  550
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  547.9,
+  216.1,
+  1177.9,
+  767.2
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BOATS",
+   "series": "D",
+   "height": 100,
+   "top": 75
+  },
+  {
+   "type": "text",
+   "text": "LOWER",
+   "series": "D",
+   "height": 100,
+   "top": 225
+  },
+  {
+   "type": "text",
+   "text": "MASTS",
+   "series": "D",
+   "height": 100,
+   "top": 375
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q16 'Supplementary plate BOATS LOWER MASTS' (1998/2023; under W5-Q16). Size A 650 x 550 generated (B 800 x 800 also tabled), r 50, c 10 / d 30 (edge 10 + border 20). Chain h 75 / f 100D / g 50 / f 100D / g 50 / f 100D / e 75 = 550: cap tops 75, 225, 375 (h and e are both 75 at size A). The sheet draws the plate at about 650 x 569 (not to scale); the tabled 550 is used. Black on yellow."
+}

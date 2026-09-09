@@ -1,0 +1,72 @@
+{
+ "code": "T3-218n",
+ "pack": "NSW",
+ "name": "NO_LINES_MARKED_DO_NOT_OVERTAKE_YELLOW_LONG",
+ "legend": "NO LINES MARKED DO NOT OVERTAKE",
+ "shape": "rect",
+ "size": [
+  1300,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  433,
+  599,
+  1456,
+  1307
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "NO",
+    "LINES"
+   ],
+   "series": "E",
+   "height": 130,
+   "gap": 94.7,
+   "top": 75.9,
+   "expect": [
+    872
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "MARKED",
+   "series": "E",
+   "height": 130,
+   "top": 271.0,
+   "expect": 783
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT"
+   ],
+   "series": "E",
+   "height": 140,
+   "gap": 102.1,
+   "top": 475.6,
+   "expect": [
+    745
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKE",
+   "series": "E",
+   "height": 140,
+   "top": 675.6,
+   "expect": 1077
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1300' (H x W) = 1300 x 900, Cnr Rad 0, Border '0 x 24' = edge 0 (yellow) + border 24 (black) (drawn as a 23.9 stroke centred 11.9 in), Patch CR NA; Aluminium Sign; Black lgd; Cl.400 Yellow refl grd(AS1906.1). Fonts: NO LINES: FHWA Series E2000EX 130; MARKED: FHWA Series E2000EX 130; DO NOT: FHWA Series E2000EX 140; OVERTAKE: FHWA Series E2000EX 140. NO LINES 130 E top 75.9 (baseline 206; plan advance box 197-1095, dims [872]) MARKED 130 E top 271.0 (baseline 401; plan advance box 241-1054, dims 783) DO NOT 140 E top 475.6 (baseline 616; plan advance box 260-1029, dims [745]) OVERTAKE 140 E top 675.6 (baseline 816; plan advance box 98-1198, dims 1077)"
+}

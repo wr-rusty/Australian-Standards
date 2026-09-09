@@ -1,0 +1,41 @@
+{
+ "code": "TM1-34n(D)",
+ "pack": "NSW",
+ "name": "TRAFFIC_CONTROLLER_ORANGE_TALL",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  295,
+  262,
+  1336,
+  1823
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M116.37 515.25L141.74 525.72L190.55 410.51L192.57 691.96L220.44 691.96L239.27 530.91L260.41 691.96L288.85 691.86L287.41 406.28L420.31 385.14L420.31 692.34L430.78 692.34L430.78 333.15L420.31 333.15L420.31 358.42L292.22 353.91L255.32 340.07C246.19 342.86 232.83 348.62 218.32 341.13L167.87 360.15L116.37 515.25Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M236.68 336.42C262.72 336.42 284.05 315.18 284.05 289.05C284.05 263 262.72 241.67 236.68 241.67C210.54 241.67 189.3 263 189.3 289.05C189.3 315.18 210.54 336.42 236.68 336.42Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M425.3 336.03C459.71 336.03 487.76 307.98 487.76 273.57C487.76 239.17 459.71 211.21 425.3 211.21C390.9 211.21 362.84 239.17 362.84 273.57C362.84 307.98 390.9 336.03 425.3 336.03Z",
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (orange) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Fluorescent Orange refl grd(AS1906.1). Fonts: . symbol: 3 filled paths from the sheet's own vector artwork (bbox [116.4, 211.2, 487.8, 692.3])"
+}

@@ -1,0 +1,55 @@
+{
+ "code": "T2-207n",
+ "pack": "NSW",
+ "name": "CYCLE_HAZARD_GROOVED_ROAD_YELLOW_LONG",
+ "legend": "CYCLE HAZARD GROOVED ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "panel_px": [
+  1144,
+  443,
+  2103,
+  1163
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CYCLE",
+   "expect": 675,
+   "series": "E",
+   "height": 140,
+   "top": 71.7
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "expect": 840,
+   "series": "E",
+   "height": 140,
+   "top": 278.9,
+   "cx": 603.1
+  },
+  {
+   "type": "text",
+   "text": "GROOVED",
+   "expect": 826,
+   "series": "E",
+   "height": 120,
+   "top": 522.0
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "expect": 474,
+   "series": "E",
+   "height": 120,
+   "top": 711.3
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 900 (the sheet's caption; drawn at 1:9.85), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. CYCLE 140 E top 71.7 (raster of the outlines: cap 140.1, widths [674.6] vs ours [675.0]) HAZARD 140 E top 278.9 (raster of the outlines: cap 140.1, widths [840.2] vs ours [846.1], centre 603.1) GROOVED 120 E top 522.0 (raster of the outlines: cap 120.1, widths [826.4] vs ours [827.1]) ROAD 120 E top 711.3 (raster of the outlines: cap 120.1, widths [473.7] vs ours [475.5])"
+}

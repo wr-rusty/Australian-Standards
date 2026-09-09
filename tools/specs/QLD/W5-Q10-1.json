@@ -1,0 +1,195 @@
+{
+ "code": "W5-Q10-1",
+ "pack": "QLD",
+ "name": "WANDERING_STOCK_NEXT_{km}_KM_WHITE_LONG",
+ "legend": "DULKANINNA STATION / WANDERING STOCK / NEXT {km} km (W5-38A symbol)",
+ "shape": "rect",
+ "size": [
+  2600,
+  1500
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "panel_px": [
+  424,
+  363,
+  1413,
+  956
+ ],
+ "vary": {
+  "key": "km",
+  "values": [
+   5,
+   10,
+   15,
+   20,
+   30,
+   40,
+   50
+  ]
+ },
+ "symbols": {
+  "qld_w5-q10-1_stock": {
+   "source": "W5-Q10-1",
+   "pack": "QLD",
+   "panel_px": [
+    424,
+    363,
+    1413,
+    956
+   ],
+   "desc": "stock symbol of the inset W5-38A diamond (cow and sheep), vector path from the PDF (item 166); 560.7 x 320.5 on the sheet's drawn 607 diamond = 554.1 x 316.7 on a 600 diamond, centred, bottom 154 below the diamond centre (as drawn)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 356,
+   "y": 170,
+   "w": 1888,
+   "h": 200,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DULKANINNA STATION",
+   "series": "D",
+   "height": 120,
+   "top": 210,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "WANDERING",
+   "series": "D",
+   "height": 180,
+   "top": 565,
+   "cx": 795.55
+  },
+  {
+   "type": "text",
+   "text": "STOCK",
+   "series": "D",
+   "height": 180,
+   "top": 865,
+   "cx": 795.55
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "{km}",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": [
+    122,
+    62
+   ],
+   "top": 1195,
+   "cx": 795.55
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2045.74,
+     451.47
+    ],
+    [
+     2470.0,
+     875.74
+    ],
+    [
+     2045.74,
+     1300.0
+    ],
+    [
+     1621.47,
+     875.74
+    ]
+   ],
+   "radius": 40,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2045.74,
+     465.61
+    ],
+    [
+     2455.86,
+     875.74
+    ],
+    [
+     2045.74,
+     1285.86
+    ],
+    [
+     1635.61,
+     875.74
+    ]
+   ],
+   "radius": 30,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2045.74,
+     493.9
+    ],
+    [
+     2427.57,
+     875.74
+    ],
+    [
+     2045.74,
+     1257.57
+    ],
+    [
+     1663.9,
+     875.74
+    ]
+   ],
+   "radius": 10,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q10-1_stock",
+   "x": 1768.67,
+   "y": 713.37,
+   "w": 554.1,
+   "h": 316.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q10_1 'Wandering stock next ...km' warning sign (2011/2023, rev E, page 1 of 2), fully dimensioned, one size 2600 x 1500, R200. Border from the sheet's vectors and the '60' / '20' dims: white edge 20 + black border 40. Vertical chain 170 / 40 / 120D / 40 / 195 / 180D / 120 / 180D / 150 / 140D-120Em / 165 = 1500: station panel (black rectangle) y 170, 200 tall with its 120D name in white (cap top 210), WANDERING cap top 565, STOCK 865, NEXT line 1195 (NEXT and the numeral 140 Series D, km 120 Series E modified lower case, one baseline 1335). Horizontal: WANDERING 130 from the left sign edge (the sheet's '130'), and the sheet centres STOCK and the NEXT line on WANDERING (measured: centres 824 / 824 / 839 on the drawn sign), so the three lines are centred on cx = 130 + 1331.1 / 2 = 795.55; NEXT-line word gaps 122 and 62 measured from the sheet; the station panel is centred on the sign (drawn 1888 wide, i.e. 75 each side of the name; the width is not dimensioned, taken as drawn). Inset W5-38A diamond (600 side, 848.53 bounding, 10 yellow edge + 20 black border, r 40, as the 600 row of the QLD W-series tables) with its right corner 130 from the sign edge and its bottom corner 200 above the bottom edge (the sheet's '200'; drawn at 144) -> bbox x 1621.47, y 451.47; drawn as polygons. Stock symbol = the sheet's own vector (tools/symbols/qld_w5-q10-1_stock.svg), placed as drawn on the inset diamond (centred, 554.1 x 316.7). Station / property name: 'insert appropriate station / property name' with no list, so the sheet's example DULKANINNA STATION is generated (note 2; * marker not legend); distance 'NEXT X km' (40 shown, dashed) generated for 5, 10, 15, 20, 30, 40, 50 km, the distances used in Queensland practice. The sheet's two examples (no station panel: height reduced by 300; no NEXT line: legend centred vertically) are not generated: their chains are not dimensioned. Black and white with the yellow / black diamond on retroreflective white."
+}

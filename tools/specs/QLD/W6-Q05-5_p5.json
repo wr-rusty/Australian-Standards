@@ -1,0 +1,99 @@
+{
+ "code": "W6-Q05-5_p5",
+ "pack": "QLD",
+ "drawing": "W6-Q05-5_p5",
+ "name": "SHARE_BICYCLE_LANE_FOR_LEFT_TURN_WHITE_TALL",
+ "legend": "SHARE BICYCLE LANE FOR LEFT TURN (symbol)",
+ "shape": "rect",
+ "size": [
+  800,
+  1500
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  396.4,
+  180.0,
+  1026.4,
+  1361.1
+ ],
+ "symbols": {
+  "qld_w6-q05-5_scene": {
+   "source": "W6-Q05-5_p5",
+   "pack": "QLD",
+   "panel_px": [
+    396.4,
+    180.0,
+    1026.4,
+    1361.1
+   ],
+   "desc": "left-turn lane scene: two black lane lines, green bicycle lane, car (rear view) with yellow indicator flash, cyclist ahead; 450 x 450 (drawn 450 x 453.5); vector items 115-132 with the sheet's colours",
+   "colours": [
+    "black",
+    "green",
+    "yellow",
+    "white"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "SHARE",
+   "series": "C",
+   "height": 110,
+   "top": 105
+  },
+  {
+   "type": "text",
+   "text": "BICYCLE",
+   "series": "C",
+   "height": 110,
+   "top": 275
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "C",
+   "height": 110,
+   "top": 445
+  },
+  {
+   "type": "text",
+   "words": [
+    "FOR",
+    "LEFT"
+   ],
+   "series": "C",
+   "height": 110,
+   "gap": 63,
+   "top": 615
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "C",
+   "height": 110,
+   "top": 785
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q05-5_scene",
+   "x": 175,
+   "y": 950,
+   "w": 450,
+   "h": 450,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet W6-Q05 'Retrofit bicycle lane in a left turn lane' page 5 of 6 (W6-Q05_5, 2021): the sign SHARE BICYCLE LANE FOR LEFT TURN (pages 1-4 and 6 are layouts and marking details, skipped; the book's page 3 carries the manifest code W6-Q05-5, so this page is filed as W6-Q05-5_p5). One size dimensioned directly: 800 x 1500, r 100, 45 / 15 = white edge 15 + black border 30. Chain 105 / 110C / 60 / 110C / 60 / 110C / 60 / 110C / 60 / 110C / 55 / 450 (scene) / 100 = 1500: cap tops 105, 275, 445, 615, 785, scene 950-1400; scene 450 wide centred (175 each side, as the sheet's vectors). Word gap FOR-LEFT 63 measured on the sheet. The scene keeps the sheet's colours (green lane, yellow flash, white headlamp) and is extracted from the sheet PDF (not traced). Black on white with green and yellow in the symbol."
+}

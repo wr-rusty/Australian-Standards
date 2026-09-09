@@ -1,0 +1,44 @@
+{
+ "code": "W8-Q01",
+ "pack": "QLD",
+ "name": "CANE_RAILWAY_YELLOW",
+ "legend": "CANE RAILWAY",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  499.4,
+  408.9,
+  1208.1,
+  881.4
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CANE",
+   "series": "C",
+   "height": 100,
+   "top": 75
+  },
+  {
+   "type": "text",
+   "text": "RAILWAY",
+   "series": "C",
+   "height": 100,
+   "top": 225
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q01 'Supplementary plate CANE RAILWAY' (1995/2016; note: only with W7-7). Size A 600 x 400 generated (B 750 x 500, C 900 x 600 also tabled), r 25, c 5 / d 15 (edge 5 + border 10). Chain e 75 / f 100CN / g 50 / f 100CN / e 75 = 400: cap tops 75, 225. The table's series 'CN' read as Series C (the N is not an AS 1744 series letter; the sheet's letters are Series C proportions). Black on yellow."
+}

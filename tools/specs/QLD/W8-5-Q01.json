@@ -1,0 +1,57 @@
+{
+ "code": "W8-5-Q01",
+ "pack": "QLD",
+ "name": "{km}_KM_YELLOW_WIDE",
+ "legend": "{km} km",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 5
+ },
+ "panel_px": [
+  580.9,
+  638.8,
+  1171.5,
+  835.7
+ ],
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 110
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 110
+    }
+   ],
+   "gap": 87,
+   "top": 45
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-5-Q01 'Supplementary plate X km' (2013/2016). Size A 600 x 200 generated (B 750 x 250, C 900 x 300, D 1200 x 400 also tabled), r 25, c 5 / d 10 (edge 5 + border 5). Chain e 45 / f 110E / e 45 = 200: cap top 45; f '110E/110(lc)' = numerals 110 Series E, 'km' lower case 110 (Series E(M) lower case, as the national W8-5 'm'), both on one baseline. Gap numeral to km 87 measured on the sheet (the sheet's dashed numeral box x 100.9-198.2, km ink from 284.8); numeral and km centred as a group. Distance: the sheet says 'insert appropriate distance in kilometers, e.g. 1' with no list, so 1 (the sheet's example) to 5 km are generated (the plate's use under a warning sign; Russell: the variants that make sense, not every value). Black on yellow."
+}

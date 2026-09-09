@@ -1,0 +1,42 @@
+{
+ "code": "TM1-10n(D)",
+ "pack": "NSW",
+ "name": "TRAFFIC_HAZARD_YELLOW_TALL",
+ "legend": "TRAFFIC HAZARD",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1319,
+  1710
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 298.2,
+   "expect": 428
+  },
+  {
+   "type": "text",
+   "text": "HAZARD",
+   "series": "C",
+   "height": 100,
+   "top": 498.2,
+   "expect": 414
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: TRAFFIC: FHWA Series C2000EX 100; HAZARD: FHWA Series C2000EX 100. TRAFFIC 100 C top 298.2 (baseline 398; plan advance box 83-523, dims 428) HAZARD 100 C top 498.2 (baseline 598; plan advance box 82-517, dims 414)"
+}

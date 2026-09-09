@@ -1,0 +1,56 @@
+{
+ "code": "W5-Q12",
+ "pack": "QLD",
+ "name": "HIGH_WIND_AREA_YELLOW_DIAMOND",
+ "legend": "HIGH WIND AREA (windsock symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  524,
+  353,
+  1172,
+  1001
+ ],
+ "symbols": {
+  "qld_w5-q12_windsock": {
+   "source": "W5-Q12",
+   "pack": "QLD",
+   "panel_px": [
+    524,
+    353,
+    1172,
+    1001
+   ],
+   "desc": "windsock on a mast (mast left, sock streaming right with a yellow tie triangle), box e 190 left / f 286 right of centre, d 170 above and below; vector path from the PDF (item 188), 490.8 x 350.5 as drawn on the sheet's 600 sign",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q12_windsock",
+   "x": 234.27,
+   "y": 254.27,
+   "w": 476,
+   "h": 340,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q12 'High wind area' warning sign (2023; used with the W8-Q14 plate per note 2 and the example). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Symbol box from the table: e 190 left and f 286 right of the vertical centreline (476 wide), d 170 above and below the horizontal centreline (340 tall): x 234.27, y 254.27. The symbol is the sheet PDF's own vector path (tools/symbols/qld_w5-q12_windsock.svg, vec2sym2, not traced), drawn 490.8 x 350.5 on the sheet's sign (3 % larger than the tabled box, as the other Q-series symbols), scaled into the box. Black on retroreflective yellow."
+}

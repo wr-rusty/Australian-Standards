@@ -1,0 +1,42 @@
+{
+ "code": "TM1-6n(D)",
+ "pack": "NSW",
+ "name": "DETOUR_AHEAD_YELLOW_TALL",
+ "legend": "DETOUR AHEAD",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1319,
+  1710
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "B",
+   "height": 140,
+   "top": 252.7,
+   "expect": 463
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "B",
+   "height": 140,
+   "top": 502.8,
+   "expect": 407
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: DETOUR: FHWA Series B2000EX 140; AHEAD: FHWA Series B2000EX 140. DETOUR 140 B top 252.7 (baseline 393; plan advance box 53-538, dims 463) AHEAD 140 B top 502.8 (baseline 643; plan advance box 92-513, dims 407)"
+}

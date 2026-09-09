@@ -1,0 +1,99 @@
+{
+ "code": "R5-62-Q01",
+ "pack": "QLD",
+ "drawing": "R5-62-Q01",
+ "name": "YOU_ARE_WITHIN_A_PARKING_AREA_2P_ROAD_TRAINS_ONLY_WHITE_TALL",
+ "legend": "YOU ARE WITHIN A PARKING AREA 2P ROAD TRAINS ONLY",
+ "shape": "rect",
+ "size": [
+  1050,
+  1700
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  503,
+  226,
+  1247,
+  1430
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "YOU",
+    "ARE"
+   ],
+   "gap": 68,
+   "series": "E",
+   "height": 100,
+   "top": 115
+  },
+  {
+   "type": "text",
+   "words": [
+    "WITHIN",
+    "A"
+   ],
+   "gap": 68,
+   "series": "E",
+   "height": 100,
+   "top": 265
+  },
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "E",
+   "height": 100,
+   "top": 415
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "E",
+   "height": 100,
+   "top": 565
+  },
+  {
+   "type": "text",
+   "text": "2P",
+   "series": "E",
+   "height": 350,
+   "top": 750,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 100,
+   "top": 1185,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "TRAINS",
+   "series": "E",
+   "height": 100,
+   "top": 1335,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "E",
+   "height": 100,
+   "top": 1485,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-62-Q01 'You are within a parking area - road trains only' regulatory sign (2019, version B; Toowoomba Second Range Crossing decoupling bay, installed with R5-61-Q01), one size 1050 x 1700, R100, 15 / 45 (edge 15 + border 30). Chain 115 / 100E YOU ARE / 50 / 100E WITHIN A / 50 / 100E PARKING / 50 / 100E AREA / 85 / 350E 2P / 85 / 100E ROAD / 50 / 100E TRAINS / 50 / 100E ONLY / 115 = 1700: cap tops 115, 265, 415, 565, 750, 1185, 1335, 1485; word gaps 68 measured from the sheet. YOU ARE WITHIN A PARKING AREA black; 2P and ROAD TRAINS ONLY green (note 3). Black border, white."
+}

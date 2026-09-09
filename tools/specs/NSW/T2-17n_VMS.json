@@ -1,0 +1,53 @@
+{
+ "code": "T2-17n_VMS",
+ "pack": "NSW",
+ "name": "END_ROAD_WORK_VMS_BLACK_LONG",
+ "legend": "END ROAD WORK",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "black",
+ "border": {
+  "colour": "yellow",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  305,
+  1476,
+  1146
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 100.6,
+   "colour": "yellow",
+   "expect": 451
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 160,
+   "top": 365.7,
+   "colour": "yellow",
+   "expect": 631
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "E",
+   "height": 160,
+   "top": 630.7,
+   "colour": "yellow",
+   "expect": 657
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1200' (H x W) = 1200 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (black) + border 25 (yellow) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; VMS Sign; Yellow LED legend & Border; Black background; VMS Panel is 96 pixels wide by 72 pixels deep. Fonts: END: FHWA Series E2000EX 160; ROAD: FHWA Series E2000EX 160; WORK: FHWA Series E2000EX 160. END 160 E top 100.6 (baseline 261; plan advance box 352-839, dims 451) ROAD 160 E top 365.7 (baseline 526; plan advance box 262-930, dims 631) WORK 160 E top 630.7 (baseline 791; plan advance box 265-932, dims 657)"
+}

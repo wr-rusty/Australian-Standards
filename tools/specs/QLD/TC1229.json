@@ -1,0 +1,84 @@
+{
+ "code": "TC1229",
+ "pack": "QLD",
+ "name": "LONG_VEHICLES_TURNING_{dist}_M_AHEAD_YELLOW_LONG",
+ "legend": "LONG VEHICLES TURNING {dist} m AHEAD",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2200,
+  1100
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  290,
+  590,
+  1398,
+  1144
+ ],
+ "vary": {
+  "key": "dist",
+  "values": [
+   100,
+   200,
+   300,
+   500
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LONG",
+    "VEHICLES"
+   ],
+   "gap": 167.4,
+   "series": "D",
+   "height": 200,
+   "top": 130
+  },
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "D",
+   "height": 200,
+   "top": 450
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{dist}",
+     "series": "D",
+     "height": 200,
+     "slot": 507
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 200
+    },
+    {
+     "text": "AHEAD",
+     "series": "D",
+     "height": 200
+    }
+   ],
+   "gap": [
+    68.5,
+    282
+   ],
+   "top": 770
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1229 'Long vehicles turning ...m ahead' special warning sign (2000; single size, dimensions on the drawing). 2200 x 1100, R150, yellow edge 12 + black border 24 (the sheet's 12 and 36). Right chain 130 / 200DN / 120 / 200DM / 120 / 200DM-150LC / 130 = 1100: cap tops LONG VEHICLES 130 (200 Series D, the sheet's 'DN' = 'AS1744 Series D Narrow' read as plain D), TURNING 450 (200 D), '... m AHEAD' 770 (numerals and AHEAD 200 D; 'm' lower case '150LC' = 150 x-height, i.e. lower-case Series E modified at the 200 cap height on the same baseline, the sheet's 'AS1744 LowerCase' m measures 151 tall). Word gap LONG-VEHICLES 167.4 measured on the sheet. Third line as drawn: dashed value box x 100-607 (507 wide, 200 tall) / gap 68.5 / m (ink 675-881) / gap 282 / AHEAD (ink 1163-2095), the group centred; the numeral run takes the box as a 507 slot. The sheet leaves the distance blank ('insert appropriate value', no list): variants 100, 200, 300 and 500 m generated as the values used in Queensland practice for advance turning warnings (Russell: the variants that make sense, not every value). Black on retroreflective yellow."
+}

@@ -1,0 +1,91 @@
+{
+ "code": "R6-240-1n",
+ "pack": "NSW",
+ "name": "TRUCKS_BUSES_MUST_USE_LEFT_2_LANES_WHITE_SQUARE",
+ "legend": "TRUCKS & BUSES MUST USE LEFT 2 LANES",
+ "shape": "rect",
+ "size": [
+  1800,
+  1800
+ ],
+ "radius": 175,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 18
+ },
+ "border": {
+  "colour": "black",
+  "width": 36
+ },
+ "panel_px": [
+  443,
+  488,
+  1387,
+  1432
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "E",
+   "height": 200,
+   "top": 200.0,
+   "expect": 1151
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUSES"
+   ],
+   "series": "E",
+   "height": 200,
+   "gap": 126.1,
+   "top": 500.2,
+   "expect": [
+    1252
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "E",
+   "height": 200,
+   "top": 800.1,
+   "expect": 777
+  },
+  {
+   "type": "text",
+   "words": [
+    "USE",
+    "LEFT"
+   ],
+   "series": "E",
+   "height": 200,
+   "gap": 140.1,
+   "top": 1100.3,
+   "expect": [
+    1385
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "2",
+    "LANES"
+   ],
+   "series": "E",
+   "height": 200,
+   "gap": 140.1,
+   "top": 1400.2,
+   "expect": [
+    1260
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1800 x 1800' (H x W) = 1800 x 1800, Cnr Rad 175, Border '18 x 36' = edge 18 (white) + border 36 (black) (drawn as a 35.9 stroke centred 35.9 in), Patch CR NA; Aluminium Sign; Black lgd; Cl.400 White refl grd(AS1906.1). Fonts: TRUCKS: FHWA Series E2000EX 200; & BUSES: FHWA Series E2000EX 200; MUST: FHWA Series E2000EX 200; USE LEFT: FHWA Series E2000EX 200; 2 LANES: FHWA Series E2000EX 200. TRUCKS 200 E top 200.0 (baseline 400; plan advance box 317-1488, dims 1151) & BUSES 200 E top 500.2 (baseline 700; plan advance box 254-1539, dims [1252]) MUST 200 E top 800.1 (baseline 1000; plan advance box 486-1295, dims 777) USE LEFT 200 E top 1100.3 (baseline 1300; plan advance box 182-1598, dims [1385]) 2 LANES 200 E top 1400.2 (baseline 1600; plan advance box 256-1543, dims [1260])"
+}

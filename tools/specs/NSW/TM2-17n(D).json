@@ -1,0 +1,50 @@
+{
+ "code": "TM2-17n(D)",
+ "pack": "NSW",
+ "name": "END_ROAD_WORK_YELLOW_TALL",
+ "legend": "END ROAD WORK",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1266,
+  1677
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 100,
+   "top": 227.0,
+   "expect": 282
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 100,
+   "top": 397.1,
+   "expect": 395
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "E",
+   "height": 100,
+   "top": 567.2,
+   "expect": 411
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: END: FHWA Series E2000EX 100; ROAD: FHWA Series E2000EX 100; WORK: FHWA Series E2000EX 100. END 100 E top 227.0 (baseline 327; plan advance box 146-451, dims 282) ROAD 100 E top 397.1 (baseline 497; plan advance box 89-507, dims 395) WORK 100 E top 567.2 (baseline 667; plan advance box 90-508, dims 411)"
+}

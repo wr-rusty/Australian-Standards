@@ -1,0 +1,52 @@
+{
+ "code": "T2-237n",
+ "pack": "NSW",
+ "name": "WET_PAINT_ON_ROAD_YELLOW_LONG",
+ "legend": "WET PAINT ON ROAD",
+ "shape": "rect",
+ "size": [
+  1800,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "panel_px": [
+  1931,
+  718,
+  2890,
+  1197
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "WET",
+    "PAINT"
+   ],
+   "gap": 137.6,
+   "expect": [
+    566,
+    861
+   ],
+   "series": "D",
+   "height": 240,
+   "top": 150.1
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "ROAD"
+   ],
+   "gap": 160.1,
+   "expect": [
+    386,
+    802
+   ],
+   "series": "D",
+   "height": 240,
+   "top": 512.9
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1800 x 900 (the sheet's caption; drawn at 1:14.77, sizes on the sheet [(1803, 902), (1199, 599), (902, 401)]), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. WET PAINT 240 D top 150.1 (raster of the outlines: cap 240.2, widths [566.0, 860.6] vs ours [566.6, 862.1]) ON ROAD 240 D top 512.9 (raster of the outlines: cap 240.2, widths [386.5, 801.8] vs ours [386.7, 804.6]) (sheet PNG re-rendered turned -90 so the sign reads upright)"
+}

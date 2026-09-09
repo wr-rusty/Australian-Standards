@@ -1,0 +1,47 @@
+{
+ "code": "G7-254n",
+ "pack": "NSW",
+ "name": "DRIVER_REVIVER_OPEN_BLUE_WIDE",
+ "legend": "DRIVER REVIVER OPEN",
+ "shape": "rect",
+ "size": [
+  1600,
+  490
+ ],
+ "radius": 50,
+ "ground": "blue",
+ "panel_px": [
+  496,
+  850,
+  1335,
+  1107
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "DRIVER",
+    "REVIVER"
+   ],
+   "series": "D",
+   "height": 140,
+   "gap": 83.2,
+   "top": 67.8,
+   "colour": "white",
+   "expect": [
+    1421
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "OPEN",
+   "series": "D",
+   "height": 140,
+   "top": 277.8,
+   "colour": "white",
+   "expect": 452
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '490 x 1600' (H x W) = 1600 x 490, Cnr Rad 50, Border '0 x 0' = edge 0 (blue) + border 0 (black), Patch CR NA; . Fonts: DRIVER REVIVER: FHWA Series D2000EX 140; OPEN: FHWA Series D2000EX 140. DRIVER REVIVER 140 D top 67.8 (baseline 208; plan advance box 73-1520, dims [1421]) OPEN 140 D top 277.8 (baseline 418; plan advance box 560-1043, dims 452)"
+}

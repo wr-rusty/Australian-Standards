@@ -1,0 +1,36 @@
+{
+ "code": "TM5-5n(A)",
+ "pack": "NSW",
+ "name": "CHEVRON_RIGHT_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  295,
+  262,
+  1476,
+  1443
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M301.74 301.31L575.2 300.96L300.07 578.06L22.02 576.65L301.74 301.31Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M299.79 24.78L23.81 24.78L301.41 301.78L577.31 301.78L299.79 24.78Z",
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '600 x 600' (H x W) = 600 x 600, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; . Fonts: . symbol: 2 filled paths from the sheet's own vector artwork (bbox [22.0, 24.8, 577.3, 578.1])"
+}

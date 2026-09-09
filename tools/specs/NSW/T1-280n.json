@@ -1,0 +1,176 @@
+{
+ "code": "T1-280n",
+ "pack": "NSW",
+ "name": "TURN_ON_HAZARD_LIGHTS_WHEN_STOPPED_YELLOW_LONG",
+ "legend": "TURN ON HAZARD LIGHTS WHEN STOPPED",
+ "shape": "rect",
+ "size": [
+  900,
+  740
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  561,
+  726,
+  1269,
+  1308
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M370.34 639.19L370.34 638.98L529.45 638.98L529.45 678.6L569.07 678.6L569.07 638.98L579.03 638.98L586.02 636.23L588.77 629.24L588.77 550L586.02 543.01L579.03 540.25L570.76 540.25L570.76 540.04L570.55 540.04L546.82 448.52L543.43 443.22L537.5 441.1L362.29 441.1L356.36 443.22L352.75 448.52L329.24 540.04L329.03 540.04L329.03 540.25L320.55 540.25L313.77 543.01L310.8 550L310.8 629.24L313.77 636.23L320.55 638.98L330.51 638.98L330.51 639.19L330.72 639.19L330.72 678.6L370.13 678.6L370.13 639.19Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M529.24 639.41L370.55 639.41L370.55 678.81L370.34 678.81L370.34 679.03L330.51 679.03L330.51 678.81L330.3 678.81L330.3 639.41L320.55 639.41L320.55 639.19L320.55 639.41L313.56 636.44L313.35 636.23L310.59 629.24L310.59 549.79L313.35 543.01L313.56 542.8L320.55 539.83L320.55 540.04L320.55 539.83L328.81 539.83L352.54 448.31L355.93 442.8L356.14 442.8L362.29 440.68L362.29 440.89L362.29 440.68L537.5 440.68L537.5 440.89L537.5 440.68L543.64 442.8L547.25 448.31L547.03 448.31L547.25 448.31L570.76 539.83L579.03 539.83L579.03 540.04L579.24 539.83L586.23 542.8L586.23 543.01L589.19 549.79L588.98 550L589.19 550L589.19 629.24L588.98 629.24L589.19 629.24L586.23 636.23L586.23 636.44L579.24 639.41L579.03 639.19L579.03 639.41L569.28 639.41L569.28 678.81L569.07 678.81L569.07 679.03L529.45 679.03L529.45 678.81L529.24 678.81Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M337.08 567.37H360.81V607.2H337.08Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M535.59 455.08L553.6 525.42L552.54 531.14L547.25 533.69L351.69 533.69L346.19 531.14L345.13 525.42L363.14 455.08L365.47 452.12L369.49 451.06L422.46 450.85L469.07 451.06L518.22 450.85L529.24 451.06L533.05 452.12Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M308.47 583.69H330.51V590.89H308.47Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M345.34 540.68H352.75V562.5H345.34Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M345.34 612.71H352.75V634.75H345.34Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M369.7 604.87L385.17 620.55L379.87 625.64L364.62 609.96Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M326.69 604.87L311.44 620.55L316.53 625.64L331.99 609.96Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M379.45 547.03L363.98 562.71L369.28 567.8L384.53 552.12Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M317.16 547.03L332.42 562.71L327.12 567.8L311.86 552.12Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M366.53 583.69H388.35V590.89H366.53Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M539.83 567.37H563.56V607.2H539.83Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M511.23 583.69H533.05V590.89H511.23Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M548.09 540.68H555.3V562.5H548.09Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M548.09 612.71H555.3V634.75H548.09Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M572.46 604.87L587.71 620.55L582.63 625.64L567.16 609.96Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M529.45 604.87L513.98 620.55L519.28 625.64L534.53 609.96Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M581.99 547.03L566.74 562.71L571.82 567.8L587.29 552.12Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M519.7 547.03L535.17 562.71L529.87 567.8L514.62 552.12Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M569.07 583.69H591.1V590.89H569.07Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TURN",
+    "ON"
+   ],
+   "series": "C",
+   "height": 85,
+   "gap": 51.0,
+   "top": 58.0,
+   "expect": [
+    396
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "HAZARD",
+    "LIGHTS"
+   ],
+   "series": "C",
+   "height": 85,
+   "gap": 51.0,
+   "top": 183.0,
+   "expect": [
+    709
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "STOPPED"
+   ],
+   "series": "C",
+   "height": 85,
+   "gap": 48.4,
+   "top": 308.0,
+   "expect": [
+    707
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '740 x 900' (H x W) = 900 x 740, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1); Flashing Light:- Cl.400 Red refl lgd. Fonts: TURN ON: FHWA Series C2000EX 85; HAZARD LIGHTS: FHWA Series C2000EX 85; WHEN STOPPED: FHWA Series C2000EX 85. TURN ON 85 C top 58.0 (baseline 143; plan advance box 250-659, dims [396]) HAZARD LIGHTS 85 C top 183.0 (baseline 268; plan advance box 87-811, dims [709]) WHEN STOPPED 85 C top 308.0 (baseline 393; plan advance box 94-811, dims [707]) symbol: 21 filled paths from the sheet's own vector artwork (bbox [308.5, 440.7, 591.1, 679.0])"
+}

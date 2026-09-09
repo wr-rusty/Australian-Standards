@@ -1,0 +1,44 @@
+{
+ "code": "T1-278n",
+ "pack": "NSW",
+ "name": "REDUCE_SPEED_RED_LONG",
+ "legend": "REDUCE SPEED",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "radius": 0,
+ "ground": "red",
+ "border": {
+  "colour": "white",
+  "width": 25
+ },
+ "panel_px": [
+  600,
+  829,
+  1230,
+  1143
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "REDUCE",
+   "series": "E",
+   "height": 160,
+   "top": 95.5,
+   "colour": "white",
+   "expect": 930
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "E",
+   "height": 160,
+   "top": 335.8,
+   "colour": "white",
+   "expect": 748
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '600 x 1200' (H x W) = 1200 x 600, Cnr Rad 0, Border '0 x 25' = edge 0 (red) + border 25 (white) (drawn as a 25.1 stroke centred 12.1 in), Patch CR NA; Aluminium Sign; Cl.400 White refl lgd(AS1906.1); Cl.400 Red refl grd(AS1906.1). Fonts: REDUCE: FHWA Series E2000EX 160; SPEED: FHWA Series E2000EX 160. REDUCE 160 E top 95.5 (baseline 256; plan advance box 114-1075, dims 930) SPEED 160 E top 335.8 (baseline 496; plan advance box 215-990, dims 748)"
+}

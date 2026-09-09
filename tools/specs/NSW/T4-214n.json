@@ -1,0 +1,56 @@
+{
+ "code": "T4-214n",
+ "pack": "NSW",
+ "name": "START_OF_OIL_SPILL_YELLOW_LONG",
+ "legend": "START OF OIL SPILL",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  706,
+  323,
+  2624,
+  1282
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "START",
+    "OF"
+   ],
+   "gap": 88.6,
+   "expect": [
+    610,
+    248
+   ],
+   "series": "D",
+   "height": 160,
+   "top": 99.9
+  },
+  {
+   "type": "text",
+   "words": [
+    "OIL",
+    "SPILL"
+   ],
+   "gap": 80.9,
+   "expect": [
+    313,
+    556
+   ],
+   "series": "D",
+   "height": 160,
+   "top": 338.6
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 600 (the sheet's caption; drawn at 1:4.93), yellow face with a 25 black border. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. START OF 160 D top 99.9 (raster of the outlines: cap 159.9, widths [610.1, 248.1] vs ours [611.6, 248.1]) OIL SPILL 160 D top 338.6 (raster of the outlines: cap 159.9, widths [312.6, 555.9] vs ours [312.1, 555.5])"
+}

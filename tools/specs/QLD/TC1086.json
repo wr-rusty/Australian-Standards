@@ -1,0 +1,57 @@
+{
+ "code": "TC1086",
+ "pack": "QLD",
+ "name": "OLYMPIC_TRAINING_ROUTE_CYCLIST_YELLOW_DIAMOND",
+ "legend": "(racing cyclist symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  356,
+  288,
+  1328,
+  1260
+ ],
+ "symbols": {
+  "qld_tc1086_cyclist": {
+   "source": "TC1086",
+   "pack": "QLD",
+   "panel_px": [
+    356,
+    288,
+    1328,
+    1260
+   ],
+   "desc": "racing cyclist (side view, facing left, crouched rider) 750 wide x 500 tall (250 above and below the centreline); vector paths from the PDF (items 84-88)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed) so the wheels' holes render under nonzero"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1086_cyclist",
+   "x": 261.39,
+   "y": 386.39,
+   "w": 750,
+   "h": 500,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1086 'Olympic training route' temporary warning sign (1998; page 1 of 2, page 2 is the symbol detail grid; used with the TC1087 plate). Single size, dimensions on the drawing: diamond 900 side drawn as the bounding square 900 x 1.41421 = 1272.79 (centre 636.4), R60, yellow edge 12 + black border 24 (the sheet's 12 and 24, as the national 900 diamonds). Cyclist symbol 750 wide (the drawing's 750), 250 above and 250 below the horizontal centreline: box x 261.4, y 386.4, 750 x 500 (the sheet draws it 773 x 515, the same 1.5 aspect). Symbol extracted from the sheet PDF's own filled vector paths (tools/symbols/qld_tc1086_cyclist.svg). Black on retroreflective yellow."
+}

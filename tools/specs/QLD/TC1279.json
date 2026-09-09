@@ -1,0 +1,103 @@
+{
+ "code": "TC1279",
+ "pack": "QLD",
+ "name": "CRASH_ZONE_NEXT_{dist}_KM_YELLOW_LONG",
+ "legend": "CRASH ZONE NEXT {dist} km (crash symbol)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  1600
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  258,
+  307,
+  1391,
+  1063
+ ],
+ "symbols": {
+  "qld_tc1279_crash": {
+   "source": "TC1279",
+   "pack": "QLD",
+   "panel_px": [
+    258,
+    307,
+    1391,
+    1063
+   ],
+   "desc": "two cars in a head-on collision (side view) with impact fragments above, box n 2088 x m 770; vector path from the PDF (TC1279 item 104; TC1309 draws the same path)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed)"
+  }
+ },
+ "vary": {
+  "key": "dist",
+  "values": [
+   2,
+   3,
+   5,
+   10
+  ]
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1279_crash",
+   "x": 156,
+   "y": 110,
+   "w": 2088,
+   "h": 770,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "CRASH",
+    "ZONE"
+   ],
+   "gap": 178.6,
+   "series": "E",
+   "height": 160,
+   "top": 1040
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 160
+    },
+    {
+     "text": "{dist}",
+     "series": "E",
+     "height": 160,
+     "slot": 145
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 160
+    }
+   ],
+   "gap": [
+    220,
+    83.4
+   ],
+   "top": 1310
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1279 'Crash zone next ... km' special warning sign (2001). Size TC1279A 2400 x 1600 generated (B 3600 x 2400 also tabled): r 200, c 12 / d 32 (yellow edge 12 + black border 20; the sheet draws the border to 36, the table's 32 governs), e 130, f 160EM, g 120LC, h 110, k 160, m 770, n 2088. Chain h 110 / m 770 / k 160 / f 160 / h 110 / f 160 / e 130 = 1600: symbol box y 110, n 2088 x m 770 centred (x 156); cap tops CRASH ZONE 1040 and NEXT ... km 1310, 160 Series E ('EM' read as plain E); 'km' lower case '120LC' = 120 x-height = Series E modified at the 160 cap height on the same baseline. Word gap CRASH-ZONE 178.6 measured on the sheet; third line as drawn: NEXT (ink 506-1128) / gap 220 / dashed value box x 1348-1493 (145 wide, one numeral) / gap 83.4 / km (ink 1577-1894), the group centred, the numeral run taking the box as a 145 slot. The sheet leaves the distance blank ('insert appropriate value', no list): variants 2, 3, 5 and 10 km generated as the crash-zone lengths signed in Queensland practice (Russell: the variants that make sense, not every value); 10 overruns the one-numeral box, the group is re-centred. Symbol extracted from the sheet PDF's own filled vector path (tools/symbols/qld_tc1279_crash.svg, drawn n x m exactly). Black on retroreflective yellow."
+}

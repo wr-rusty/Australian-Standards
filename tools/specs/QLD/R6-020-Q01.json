@@ -11,38 +11,39 @@
  "radius": 50,
  "ground": "white",
  "panel_px": [
-  594,
-  336,
-  1069,
-  811
+  624,
+  390,
+  1095,
+  861
  ],
  "symbols": {
   "qld_r6-020-q01_filtering": {
    "source": "R6-020-Q01",
    "pack": "QLD",
    "panel_px": [
-    594,
-    336,
-    1069,
-    811
+    624,
+    390,
+    1095,
+    861
    ],
-   "desc": "motorcyclist filtering between two cars over a two-lane road (black, fills the ring), from the sheet's grid inset",
+   "desc": "motorcyclist filtering between two cars over a two-lane road (black, fills the ring), from the sheet's grid inset; vector paths from the PDF (items 22-24, 29, 31 black; 26-28 the white centre-line dashes kept as white fills), top sign",
    "colours": [
     "black"
    ],
    "nomask": true,
    "keep_specks": true,
-   "open": 9
+   "open": 9,
+   "vector": "extracted from the sheet PDF (not traced); do not re-trace"
   }
  },
  "elements": [
   {
    "type": "symbol",
    "id": "qld_r6-020-q01_filtering",
-   "x": 93.5,
-   "y": 179.4,
-   "w": 448.4,
-   "h": 362.5,
+   "x": 49,
+   "y": 135.4,
+   "w": 502.2,
+   "h": 434.5,
    "colour": "black"
   },
   {
@@ -100,6 +101,5 @@
    "colour": "red"
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-020-Q01 'Lane filtering prohibited' (issued 2026). Size A 600 x 600 generated (B 900, C 1200 also tabled): r 50, unbordered white, margin b 6 (annulus outer dia 588), ring c 50 (r1 294 / r2 244), slash c 50 at 45 degrees, white gap d 30 each side. Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). The symbol (two cars, a motorcyclist between them and the black road with a broken centre line) fills the inside of the ring: traced from the sheet inside the r2 circle (tools/symbols/qld_r6-020-q01_filtering.svg; traced inside the r2 circle; the traced extent 460 x 374 (traced with keep_specks so the road pieces the slash cuts off, which touch the crop edge, are kept; the sheet's hairline ring outline that the trace picked up was then removed from tools/symbols/qld_r6-020-q01_filtering.svg by dropping the subpath spanning the ring) is fitted to the black ink's extent inside the ring measured on the sheet after removing hairlines, x 93.5, y 179.4, 448 x 362 (the road is clipped by the ring at the bottom and both sides)). Red and black on white.",
- "intervene": "the sheet draws its slash well off the sign centre (up-right; the symbol's cut measures x + y about 690 against 600), so the traced scene carries a white cut that does not coincide with the centred slash of the detail: needs the scene traced without the cut (grid inset) or a decision to follow the sheet's slash position"
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-020-Q01 'Lane filtering prohibited' (issued 2026). Size A 600 x 600 generated (B 900, C 1200 also tabled): r 50, unbordered white, margin b 6 (annulus outer dia 588), ring c 50 (r1 294 / r2 244), slash c 50 at 45 degrees, white gap d 30 each side. Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). The symbol (two cars, a motorcyclist between them and the black road with a broken centre line) fills the inside of the ring: traced from the sheet inside the r2 circle (tools/symbols/qld_r6-020-q01_filtering.svg; traced inside the r2 circle; the traced extent 460 x 374 (traced with keep_specks so the road pieces the slash cuts off, which touch the crop edge, are kept; the sheet's hairline ring outline that the trace picked up was then removed from tools/symbols/qld_r6-020-q01_filtering.svg by dropping the subpath spanning the ring) is fitted to the black ink's extent inside the ring measured on the sheet after removing hairlines, x 93.5, y 179.4, 448 x 362 (the road is clipped by the ring at the bottom and both sides)). Red and black on white. 2026-09-09: symbol replaced by the sheet PDF's own vector path (pymupdf get_drawings, scratch vec2sym.py: the sheet draws the symbol as a complete filled path with the white slash gap laid over it, so the extracted path has no cut), exact geometry, no potrace; box = the path's extent on the sheet's sign in mm. The vector scene spans x 49.0-551.2, y 135.4-569.9 on the sheet's sign: the road polygon is chamfered to the ring and runs under the red ring band (drawn over it); the earlier 448 x 362 box was the cut extent. panel_px re-measured from the ring's pixels ([594, 336, 1069, 811] -> [624, 390, 1095, 861]). The sheet's red slash read from its vector path: edges x + y = 564.8 and 635.5, i.e. 50 wide centred on the sign centre, so the sheet agrees with the detail (the earlier 'well off-centre' reading was the white gap and the road's chamfer seen in the raster); slash and gap coincide with the sheet."
 }

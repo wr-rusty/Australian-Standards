@@ -1,0 +1,51 @@
+{
+ "code": "W8-Q11",
+ "pack": "QLD",
+ "name": "SHARE_THE_ROAD_YELLOW",
+ "legend": "SHARE THE ROAD",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  559.2,
+  299.4,
+  1149.0,
+  693.1
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SHARE",
+   "series": "E",
+   "height": 80,
+   "top": 60
+  },
+  {
+   "type": "text",
+   "text": "THE",
+   "series": "E",
+   "height": 50,
+   "top": 175
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "E",
+   "height": 80,
+   "top": 260
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q11 'Supplementary plate SHARE THE ROAD' (2021/2023; only under W6-Q04_1 / W6-Q04_2). Size A 600 x 400 generated (B 750 x 500, C 900 x 600 also tabled), r 25, c 5 / d 15 (edge 5 + border 10). Chain e 60 / f 80E / g 35 / h 50E / g 35 / f 80E / e 60 = 400: cap tops 60, 175, 260. Black on yellow."
+}

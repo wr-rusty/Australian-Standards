@@ -1,0 +1,73 @@
+{
+ "code": "W6-Q04-1",
+ "pack": "QLD",
+ "name": "CYCLIST_MOTORIST_SEPARATION_1_M_YELLOW_DIAMOND",
+ "legend": "1 m (cyclist / motorist separation, symbols)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  475.2,
+  154.7,
+  1285.5,
+  965.0
+ ],
+ "symbols": {
+  "qld_w6-q04-1_scene": {
+   "source": "W6-Q04-1",
+   "pack": "QLD",
+   "panel_px": [
+    475.2,
+    154.7,
+    1285.5,
+    965.0
+   ],
+   "desc": "cyclist (rear view, left), car (rear view, right), ground line and double-headed arrow between them, one scene; extent f 224 left / g 232 right of the centreline, e 167 above / d 133 below it; vector items 87-91",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w6-q04-1_scene",
+   "x": 200.26,
+   "y": 257.26,
+   "w": 456,
+   "h": 300,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "1",
+     "series": "D",
+     "height": 80
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 60
+    }
+   ],
+   "gap": 23,
+   "top": 320
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On the yellow diamonds the table's 'b' is the yellow edge and 'c' the black border width (b 10 / c 20 at the 600-750 sizes, as the national W-series 10 yellow edge + 20 black border); the drawn diamond's bounding box is the sharp diamond's bounding square less the apex rounding r(sqrt2 - 1), which is how the sheet's vectors were mapped to sign mm. Q-series sheet W6-Q04_1 'Warning sign CYCLIST/MOTORIST SEPARATION' 60 km/h or less speed zones (1 m); page 1 of 2 (2021/2023; only with the SHARE THE ROAD plate W8-Q11). Size A 600 side generated (bounding square 848.53; B 750, C 900 also tabled), r 40, b 10 yellow edge / c 20 black border. The scene's extent by the table: f 224 left and g 232 right of the centreline (456 wide), e 167 above and d 133 below it (300 tall; the artwork is 451.7 x 297.2 as drawn); h '80D/60Em' = the distance in 80 Series D with 'm' in 60 Series E(M) lower case on one baseline, cap top 320 measured on the sheet (the text's vertical position is not tabled; the sheet's live text sits 319.6-396.8), gap numeral to m 23 measured on the sheet (page 1), the pair centred. The distance is the sheet's own (1 m on page 1, 1.5 m on page 2), not a variant; page 2 draws its arrow longer, so it has its own scene symbol. Symbol extracted from the sheet PDF (not traced). Black on yellow."
+}

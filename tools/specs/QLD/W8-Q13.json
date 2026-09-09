@@ -1,0 +1,44 @@
+{
+ "code": "W8-Q13",
+ "pack": "QLD",
+ "name": "WANDERING_STOCK_YELLOW",
+ "legend": "WANDERING STOCK",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  493.2,
+  489.3,
+  1201.8,
+  961.7
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "WANDERING",
+   "series": "D",
+   "height": 65,
+   "top": 100
+  },
+  {
+   "type": "text",
+   "text": "STOCK",
+   "series": "D",
+   "height": 65,
+   "top": 235
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q13 'Supplementary warning plate WANDERING STOCK' (2023; only below W5-38). Size A 600 x 400 generated (B 750 x 500, C 900 x 600 also tabled), r 25, c 5 / d 15 (edge 5 + border 10). Chain e 100 / f 65D / g 70 / f 65D / e 100 = 400: cap tops 100, 235. Black legend and border on yellow."
+}

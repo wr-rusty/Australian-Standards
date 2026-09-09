@@ -1,0 +1,72 @@
+{
+ "code": "R5-Q06-2-B",
+ "pack": "QLD",
+ "drawing": "R5-Q06-2",
+ "name": "XMAS_GOOD_FRIDAY_ANZAC_DAY_EXCEPTED_WHITE_SQUARE",
+ "legend": "XMAS DAY GOOD FRIDAY & ANZAC DAY EXCEPTED",
+ "shape": "rect",
+ "size": [
+  225,
+  180
+ ],
+ "radius": 25,
+ "ground": "white",
+ "panel_px": [
+  620,
+  983,
+  977,
+  1264
+ ],
+ "which": 1,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "XMAS",
+    "DAY"
+   ],
+   "gap": 13,
+   "series": "B",
+   "height": 27,
+   "top": 13,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "GOOD",
+    "FRIDAY"
+   ],
+   "gap": 13.5,
+   "series": "B",
+   "height": 27,
+   "top": 55,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "ANZAC",
+    "DAY"
+   ],
+   "gap": [
+    10.4,
+    13.5
+   ],
+   "series": "B",
+   "height": 27,
+   "top": 97,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "B",
+   "height": 27,
+   "top": 139,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-Q06_2 'Exceptions supplementary plate' (2016), the lower of the two options (the one the page-1 example uses): 225 wide, R25, unbordered white, green 27B. DISAGREEMENT: the sheet dimensions the plate 225 tall but its chain 13 / 27B / 15 / 27B / 15 / 27B / 15 / 27B / 14 sums to 180 and the drawing is 225 x 180 (0.8 of the upper plate's height), so 225 x 180 is generated: cap tops 13, 55, 97, 139. Word gaps measured from the sheet (XMAS DAY 13, GOOD FRIDAY 13.5, & ANZAC DAY 10.4 / 13.5). Green on white."
+}

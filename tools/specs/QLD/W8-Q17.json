@@ -1,0 +1,67 @@
+{
+ "code": "W8-Q17",
+ "pack": "QLD",
+ "name": "CLEARANCE_{clr}_M_YELLOW",
+ "legend": "CLEARANCE {clr} m",
+ "shape": "rect",
+ "size": [
+  750,
+  400
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  518.9,
+  379.2,
+  1227.6,
+  757.2
+ ],
+ "vary": {
+  "key": "clr",
+  "values": [
+   "4.0",
+   "4.5",
+   "4.6",
+   "5.0",
+   "5.5",
+   "6.0",
+   "7.0"
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "CLEARANCE",
+   "series": "C",
+   "height": 100,
+   "top": 60
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{clr}",
+     "series": "D",
+     "height": 120,
+     "slot": 233
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 80
+    }
+   ],
+   "gap": 41,
+   "top": 220
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q17 'Supplementary plate CLEARANCE ... m' (2014/2023; with W5-Q16). Size A 750 x 400 generated (B 950 x 500 also tabled), r 50, c 5 / d 15 (edge 5 + border 10). Chain e 60 / g 100C / e 60 / f 120D/80Em / e 60 = 400: cap tops 60 (CLEARANCE 100C) and 220 (numerals 120D with 'm' 80 Series E(M) on the same baseline). The sheet draws the numerals as a dashed box 233 wide (x 178.8-411.4) and the m 41 to its right, the pair centred: numeral slot 233 (numeral centred in it) + gap 41 + m. Clearance: the sheet says 'insert appropriate clearance, e.g. 4.6' with no list, so 4.6 (the sheet's example) and 4.0, 4.5, 5.0, 5.5, 6.0, 7.0 are generated (typical overhead-wire clearances; Russell: the variants that make sense, not every value). Black on yellow."
+}

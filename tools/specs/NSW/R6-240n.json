@@ -1,0 +1,84 @@
+{
+ "code": "R6-240n",
+ "pack": "NSW",
+ "name": "TRUCKS_BUSES_MUST_USE_LEFT_LANE_WHITE_SQUARE",
+ "legend": "TRUCKS & BUSES MUST USE LEFT LANE",
+ "shape": "rect",
+ "size": [
+  1200,
+  1200
+ ],
+ "radius": 125,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "panel_px": [
+  600,
+  645,
+  1230,
+  1275
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "E",
+   "height": 140,
+   "top": 105.9,
+   "expect": 803
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUSES"
+   ],
+   "series": "E",
+   "height": 140,
+   "gap": 88.1,
+   "top": 315.9,
+   "expect": [
+    874
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "E",
+   "height": 140,
+   "top": 525.9,
+   "expect": 540
+  },
+  {
+   "type": "text",
+   "words": [
+    "USE",
+    "LEFT"
+   ],
+   "series": "E",
+   "height": 140,
+   "gap": 97.9,
+   "top": 735.9,
+   "expect": [
+    965
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 140,
+   "top": 945.9,
+   "expect": 540
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1200 x 1200' (H x W) = 1200 x 1200, Cnr Rad 125, Border '12 x 24' = edge 12 (white) + border 24 (black) (drawn as a 24.1 stroke centred 24.1 in), Patch CR NA; Aluminium Sign; Black lgd; Cl.400 White refl grd(AS1906.1). Fonts: TRUCKS: FHWA Series E2000EX 140; & BUSES: FHWA Series E2000EX 140; MUST: FHWA Series E2000EX 140; USE LEFT: FHWA Series E2000EX 140; LANE: FHWA Series E2000EX 140. TRUCKS 140 E top 105.9 (baseline 246; plan advance box 192-1010, dims 803) & BUSES 140 E top 315.9 (baseline 456; plan advance box 148-1045, dims [874]) MUST 140 E top 525.9 (baseline 666; plan advance box 311-876, dims 540) USE LEFT 140 E top 735.9 (baseline 876; plan advance box 99-1088, dims [965]) LANE 140 E top 945.9 (baseline 1086; plan advance box 313-877, dims 540)"
+}

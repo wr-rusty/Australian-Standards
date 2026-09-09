@@ -1,0 +1,140 @@
+{
+ "code": "R4-040-Q05",
+ "pack": "QLD",
+ "drawing": "R4-040-Q05",
+ "name": "SCHOOL_ARROWS_{speed}_CHECK_YOUR_SPEED_ORANGE_TALL",
+ "legend": "SCHOOL (double arrow) {speed} CHECK YOUR SPEED",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  1550
+ ],
+ "radius": 100,
+ "ground": "orange",
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   60,
+   80
+  ]
+ },
+ "panel_px": [
+  323,
+  269,
+  701,
+  1246
+ ],
+ "symbols": {
+  "qld_r4-040-q02_double_arrow": {
+   "source": "R4-040-Q02-1",
+   "pack": "QLD",
+   "desc": "double-headed arrow c 300 wide x n 66 (the sheet's grid inset, same as R4-040-Q02)",
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 75,
+   "y": 75,
+   "w": 450,
+   "h": 1400,
+   "radius": 45,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 79,
+   "y": 79,
+   "w": 442,
+   "h": 296,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 91,
+   "y": 91,
+   "w": 418,
+   "h": 272,
+   "radius": 33,
+   "colour": "yellowgreen"
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 60,
+   "top": 109
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r4-040-q02_double_arrow",
+   "x": 150,
+   "y": 289,
+   "w": 300,
+   "h": 66,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 625,
+   "r_outer": 220,
+   "r_inner": 185,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 200,
+   "top": 525
+  },
+  {
+   "type": "panel",
+   "x": 79,
+   "y": 875,
+   "w": 442,
+   "h": 596,
+   "radius": 45,
+   "colour": "blue"
+  },
+  {
+   "type": "panel",
+   "x": 91,
+   "y": 887,
+   "w": 418,
+   "h": 572,
+   "radius": 33,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "CHECK",
+   "series": "D",
+   "height": 80,
+   "top": 970,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "YOUR",
+   "series": "D",
+   "height": 80,
+   "top": 1130,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "D",
+   "height": 80,
+   "top": 1290,
+   "colour": "blue"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q05 'School speed limit sign (double arrow)' (issued 2026), the static sign with a CHECK YOUR SPEED panel. Size A generated (target board a1 600 x b1 1550, r3 100, fluorescent orange edge strip c1 75 all round; the white sign a 450 x b 1400, r 45; B and C also tabled). Sections c 300 / d 500 / e 600 = 1400. Plate: f 4 white gap, black border g 12, fluorescent yellow-green inside, r 45 (y 4-300); chain f 4 / x 30 / m 60D SCHOOL / y 120 / n 66 (double-headed arrow, c 300 wide, centred; the R4-040-Q02 vector, tools/symbols/qld_r4-040-q02_double_arrow.svg) / k 20 = 300: SCHOOL cap top 34, arrow y 214-280, x 75-375. Speed: o 150 / p 200D / o 150 = 500: numerals cap top 450, red annulus r2 220 / r1 185 centred (225, 550). Lower panel: blue border g 12 (y 800-1396, the f 4 gap below it as the school zone sheets draw it), white inside, r 45; chain (gap by difference 95) / t 80D CHECK / s 80 / t 80D YOUR / s 80 / t 80D SPEED / u 105 = 600: cap tops 895, 1055, 1215, blue legend. The table's q 325 and z 45 are not used by this sign. Speed 'insert appropriate' (40 shown): 40, 60 and 80 generated, the school limits used in Queensland (Russell: the variants that make sense, not every value). Colours: fluorescent orange (drawn as the pack's orange), fluorescent yellow-green, red, blue, white, black. All elements offset (75, 75) for the target board."
+}

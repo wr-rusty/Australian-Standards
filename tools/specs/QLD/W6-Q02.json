@@ -1,0 +1,94 @@
+{
+ "code": "W6-Q02",
+ "pack": "QLD",
+ "name": "ROAD_CROSSING_YELLOW_DIAMOND",
+ "legend": "ROAD CROSSING (symbols)",
+ "shape": "diamond",
+ "size": [
+  636.39,
+  636.39
+ ],
+ "radius": 30,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "panel_px": [
+  512.1,
+  301.9,
+  1241.2,
+  1031.0
+ ],
+ "symbols": {
+  "qld_w6-q02_rider": {
+   "source": "W6-Q02",
+   "pack": "QLD",
+   "panel_px": [
+    512.1,
+    301.9,
+    1241.2,
+    1031.0
+   ],
+   "desc": "horse and rider (walking left), 156 tall, bottom 43 above the centreline; vector items 122 + 121",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w6-q02_walker": {
+   "source": "W6-Q02",
+   "pack": "QLD",
+   "panel_px": [
+    512.1,
+    301.9,
+    1241.2,
+    1031.0
+   ],
+   "desc": "walker with backpack (facing right), 120 tall, bottom 51 above the centreline; vector items 125 + 123 + 124",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w6-q02_rider",
+   "x": 180.2,
+   "y": 119.2,
+   "w": 162.4,
+   "h": 156,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q02_walker",
+   "x": 386.1,
+   "y": 147.2,
+   "w": 54.5,
+   "h": 120,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 60,
+   "top": 300.2
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 60,
+   "top": 380.2
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On the yellow diamonds the table's 'b' is the yellow edge and 'c' the black border width (b 10 / c 20 at the 600-750 sizes, as the national W-series 10 yellow edge + 20 black border); the drawn diamond's bounding box is the sharp diamond's bounding square less the apex rounding r(sqrt2 - 1), which is how the sheet's vectors were mapped to sign mm. Q-series sheet W6-Q02 'Sign on national trail ROAD CROSSING (with symbols)' (1995/2016), one size dimensioned directly: 450 side (bounding square 636.40), R 30, 8 yellow edge / 15 black border (the 8 / 15 pair at the right corner). Vertical dimensions: rider 156 tall with its bottom 43 above the centreline (318.2), walker 120 tall with its bottom 51 above the centreline; ROAD 60D with its cap top 18 above the centreline (the '18' on the sheet runs from the 60D cap top to the centreline) then 20 / 60C (CROSSING, top 380.2). Symbol widths by the artwork's aspect (rider 169.4 x 162.7 and walker 54.0 x 119.0 as drawn), horizontal positions from the sheet's vectors (rider centre 261.4, walker centre 413.3; not dimensioned). The apex figures 27 / 69 (corner detail at the top vertex) are not used: the corner is the stated R 30. Symbols extracted from the sheet PDF (not traced). Black on yellow."
+}

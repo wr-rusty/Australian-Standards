@@ -1,0 +1,85 @@
+{
+ "code": "R5-Q06-2-A",
+ "pack": "QLD",
+ "drawing": "R5-Q06-2",
+ "name": "SAT_SUN_XMAS_GOOD_FRIDAY_ANZAC_DAY_EXCEPTED_WHITE_SQUARE",
+ "legend": "SAT & SUN XMAS DAY GOOD FRIDAY & ANZAC DAY EXCEPTED",
+ "shape": "rect",
+ "size": [
+  225,
+  225
+ ],
+ "radius": 25,
+ "ground": "white",
+ "panel_px": [
+  620,
+  351,
+  977,
+  702
+ ],
+ "which": 0,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "SAT",
+    "&",
+    "SUN"
+   ],
+   "gap": 10.6,
+   "series": "B",
+   "height": 27,
+   "top": 15,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "XMAS",
+    "DAY"
+   ],
+   "gap": 13,
+   "series": "B",
+   "height": 27,
+   "top": 57,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "GOOD",
+    "FRIDAY"
+   ],
+   "gap": 13.5,
+   "series": "B",
+   "height": 27,
+   "top": 99,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "ANZAC",
+    "DAY"
+   ],
+   "gap": [
+    10.4,
+    13.5
+   ],
+   "series": "B",
+   "height": 27,
+   "top": 141,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "B",
+   "height": 27,
+   "top": 183,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-Q06_2 'Exceptions supplementary plate' (2016), the upper of the two options: 225 x 225, R25, unbordered white, green 27B. Chain 15 / 27B / 15 / 27B / 15 / 27B / 15 / 27B / 15 / 27B / 15 = 225: cap tops 15, 57, 99, 141, 183. Word gaps measured from the sheet (SAT & SUN 10.6 / 10.6, XMAS DAY 13, GOOD FRIDAY 13.5, & ANZAC DAY 10.4 / 13.5). Green on white."
+}

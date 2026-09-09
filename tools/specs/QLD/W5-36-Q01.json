@@ -1,0 +1,18 @@
+{
+ "code": "W5-36-Q01",
+ "pack": "QLD",
+ "name": "EMERGENCY_VEHICLES_YELLOW_DIAMOND",
+ "legend": "EMERGENCY VEHICLES",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 10},
+ "border": {"colour": "black", "width": 20},
+ "panel_px": [467, 374, 1245, 1152],
+ "elements": [
+  {"type": "text", "text": "EMERGENCY", "series": "C", "height": 80, "top": 321.27},
+  {"type": "text", "text": "VEHICLES", "series": "C", "height": 80, "top": 476.27}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-36-Q01 'Emergency vehicles' warning sign (2023). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Legend two lines d 80C (Series C, cap 80); the vertical chain is drawn about the horizontal centreline: d EMERGENCY / f 23 down to the centreline / e 52 / d VEHICLES, so the cap tops are 424.27 - 23 - 80 = 321.27 and 424.27 + 52 = 476.27 (the sheet places the pair 29 below centre, as drawn). Black on retroreflective yellow."
+}

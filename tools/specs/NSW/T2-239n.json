@@ -1,0 +1,49 @@
+{
+ "code": "T2-239n",
+ "pack": "NSW",
+ "name": "SURVEYORS_ON_ROAD_ORANGE_LONG",
+ "legend": "SURVEYORS ON ROAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "orange",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  1689,
+  556,
+  2649,
+  1276
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SURVEYORS",
+   "expect": 1070,
+   "series": "C",
+   "height": 170,
+   "top": 186.4
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "ROAD"
+   ],
+   "gap": 120.1,
+   "expect": [
+    290,
+    602
+   ],
+   "series": "D",
+   "height": 180,
+   "top": 534.5
+  }
+ ],
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 900 (the sheet's caption; drawn at 1:9.85, sizes on the sheet [(1150, 851), (848, 549)]), orange face with a 25 black border. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. SURVEYORS 170 C top 186.4 (raster of the outlines: cap 170.1, widths [1070.3] vs ours [1073.1]) ON ROAD 180 D top 534.5 (raster of the outlines: cap 180.1, widths [290.2, 601.7] vs ours [290.0, 603.5]) (sheet PNG re-rendered turned -90 so the sign reads upright)"
+}

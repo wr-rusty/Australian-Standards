@@ -12,35 +12,36 @@
  "radius": 60,
  "ground": "white",
  "panel_px": [
-  600,
-  247,
-  1072,
-  719
+  625,
+  248,
+  1097,
+  721
  ],
  "symbols": {
   "qld_tc2247_caravan": {
    "source": "TC2247",
    "pack": "QLD",
    "panel_px": [
-    600,
-    247,
-    1072,
-    719
+    625,
+    248,
+    1097,
+    721
    ],
-   "desc": "caravan (side view, drawbar left) 2c 420 x 2d 260, from the sheet's grid inset",
+   "desc": "caravan (side view, drawbar left) 2c 420 x 2d 260, from the sheet's grid inset; vector path from the PDF (item 418, top sign)",
    "colours": [
     "black"
-   ]
+   ],
+   "vector": "extracted from the sheet PDF (not traced); do not re-trace"
   }
  },
  "elements": [
   {
    "type": "symbol",
    "id": "qld_tc2247_caravan",
-   "x": 122,
-   "y": 172.9,
-   "w": 419.5,
-   "h": 258.1,
+   "x": 90.1,
+   "y": 167.7,
+   "w": 422.6,
+   "h": 262.1,
    "colour": "black"
   },
   {
@@ -98,6 +99,5 @@
    "colour": "red"
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2247 'No caravans' regulatory sign (2017). Size B 600 x 600 generated (A 450, C 750 also tabled): r 60, unbordered white, margin b 6 (annulus outer dia 588), r1 294 / r2 244, slash f 50, gap e 25, symbol box 2c 420 x 2d 260 (the drawn caravan's ink measured at x 122, y 173, 419.5 x 258: centred 32 right of the centre line, as drawn). Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Caravan traced from the sheet (tools/symbols/qld_tc2247_caravan.svg). Red and black on white.",
- "intervene": "the sheet draws its slash about 24 mm off the sign centre (up-right; measured x + y = 634 against 600), so the caravan traced from the sheet carries a white cut that does not coincide with the centred slash the detail specifies: needs the caravan traced without the cut (from the sheet's grid inset) or a decision to place the slash where the sheet draws it"
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2247 'No caravans' regulatory sign (2017). Size B 600 x 600 generated (A 450, C 750 also tabled): r 60, unbordered white, margin b 6 (annulus outer dia 588), r1 294 / r2 244, slash f 50, gap e 25, symbol box 2c 420 x 2d 260 (the drawn caravan's ink measured at x 122, y 173, 419.5 x 258: centred 32 right of the centre line, as drawn). Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Caravan traced from the sheet (tools/symbols/qld_tc2247_caravan.svg). Red and black on white. 2026-09-09: symbol replaced by the sheet PDF's own vector path (pymupdf get_drawings, scratch vec2sym.py: the sheet draws the symbol as a complete filled path with the white slash gap laid over it, so the extracted path has no cut), exact geometry, no potrace; box = the path's extent on the sheet's sign in mm. The vector caravan measures 422.6 x 262.1 on the sheet (table 2c 420 x 2d 260) and sits at x 90.1 (centred, as the table's c / c and the detail place it; the earlier ink measurement 122 was the cut symbol), y 167.7. panel_px re-measured from the ring's pixels ([600, 247, 1072, 719] -> [625, 248, 1097, 721]). The sheet's red slash read from its vector path: edges x + y = 564.8 and 635.5 on the 600 sign, i.e. 50 wide centred on the sign centre, so the sheet agrees with the detail (the earlier '24 mm off-centre' reading was the white gap seen in the raster); slash and gap as the spec draws them coincide with the sheet."
 }

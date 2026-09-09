@@ -1,0 +1,66 @@
+{
+ "code": "TM1-28n(D)",
+ "pack": "NSW",
+ "name": "NEXT_{d}_KM_YELLOW_TALL",
+ "legend": "NEXT {d} km",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1266,
+  1630
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "E",
+   "height": 120,
+   "top": 256.3,
+   "expect": 443
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d}",
+     "series": "E",
+     "height": 120
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 100
+    }
+   ],
+   "gap": 47.5,
+   "top": 516.4,
+   "expect": [
+    null,
+    207
+   ]
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: NEXT: FHWA Series E2000EX 120; 2: FHWA Series E2000EX 120; km: FHWA Series Em2000EX 100. NEXT 120 E top 256.3 (baseline 376; plan advance box 62-525, dims 443) 2 km 120 E top 516.4 (baseline 636; plan advance box 116-496, dims [98, 207]) The sheet's '2' is the example value ('Next (x)km'): generated for 1, 2, 3, 5 and 10 km (the values used for roadwork lengths), the numeral 120 E with km 100 Emod 47.5 clear, centred as a pair (2 shown: 98 and 207 wide).",
+ "vary": {
+  "key": "d",
+  "values": [
+   1,
+   2,
+   3,
+   5,
+   10
+  ]
+ },
+ "drawn_value": 2
+}

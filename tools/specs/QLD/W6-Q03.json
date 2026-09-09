@@ -1,0 +1,87 @@
+{
+ "code": "W6-Q03",
+ "pack": "QLD",
+ "name": "TRAIL_PEDESTRIAN_CYCLIST_HORSE_YELLOW_DIAMOND",
+ "legend": "TRAIL (symbols)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  537.9,
+  279.0,
+  1186.1,
+  927.1
+ ],
+ "symbols": {
+  "qld_w6-q03_bicycle": {
+   "source": "W6-Q03",
+   "pack": "QLD",
+   "panel_px": [
+    537.9,
+    279.0,
+    1186.1,
+    927.1
+   ],
+   "desc": "bicycle (facing right) above the group, top d 306 above the centreline, centred; vector item 232",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w6-q03_rider_walker": {
+   "source": "W6-Q03",
+   "pack": "QLD",
+   "panel_px": [
+    537.9,
+    279.0,
+    1186.1,
+    927.1
+   ],
+   "desc": "horse and rider (walking left) with walker (facing right), one path; h 232 left and k 207 right of the centreline, bottom e 82 below it; vector item 231",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w6-q03_bicycle",
+   "x": 315.31,
+   "y": 118.26,
+   "w": 217.9,
+   "h": 146.0,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w6-q03_rider_walker",
+   "x": 192.26,
+   "y": 265.56,
+   "w": 439,
+   "h": 240.7,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "TRAIL",
+   "series": "D",
+   "height": 90,
+   "top": 540.26
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On the yellow diamonds the table's 'b' is the yellow edge and 'c' the black border width (b 10 / c 20 at the 600-750 sizes, as the national W-series 10 yellow edge + 20 black border); the drawn diamond's bounding box is the sharp diamond's bounding square less the apex rounding r(sqrt2 - 1), which is how the sheet's vectors were mapped to sign mm. Q-series sheet W6-Q03 'Warning sign TRAIL (PEDESTRIAN/CYCLIST/HORSE)' (2002/2021). Size A 600 side generated (bounding square 848.53; B 750, C 900, D 1200 also tabled), r 40, b 10 yellow edge / c 20 black border. Chain: d 306 (bicycle top to the centreline 424.26) / e 82 (centreline to the bottom of the rider-and-walker group) / f 34 / g 90D (TRAIL, cap top 540.26); h 232 / k 207 = the group's extent left / right of the centreline (439 wide). Bicycle centred, its size from the artwork (217.9 x 146.0 as drawn, not tabled); the group 439 wide by the table with the artwork's aspect (438.3 x 240.3 drawn). Symbols extracted from the sheet PDF (not traced). Black legend and border on yellow."
+}

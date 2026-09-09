@@ -1,0 +1,58 @@
+{
+ "code": "W5-Q13",
+ "pack": "QLD",
+ "name": "QUEUED_TRAFFIC_YELLOW_DIAMOND",
+ "legend": "QUEUED TRAFFIC (symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  477,
+  204,
+  1288,
+  1014
+ ],
+ "symbols": {
+  "qld_w5-q13_queued_cars": {
+   "source": "W5-Q13",
+   "pack": "QLD",
+   "panel_px": [
+    477,
+    204,
+    1288,
+    1014
+   ],
+   "desc": "three queued cars seen from behind, stepped up to the right (black bodies, yellow rear windows, red tail lights), box f 210 left / g 222 right of centre, e 158 above / d 142 below; vector paths from the PDF (items 22-33), 445.4 x 309.2 as drawn on the sheet's 600 sign",
+   "colours": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q13_queued_cars",
+   "x": 214.27,
+   "y": 266.27,
+   "w": 432,
+   "h": 300,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q13 'Queued traffic - symbolic' warning sign (2023). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Symbol box from the table: f 210 left and g 222 right of the vertical centreline (432 wide), e 158 above and d 142 below the horizontal centreline (300 tall): x 214.27, y 266.27. The symbol is the sheet PDF's own vector paths (tools/symbols/qld_w5-q13_queued_cars.svg, vec2sym2, not traced): black car bodies, yellow rear windows (the sign's yellow) and red tail lights as the sheet draws them; drawn 445.4 x 309.2 on the sheet's sign (3 % larger than the tabled box), scaled into the box. The sheet's colour legend has its labels swapped (a yellow swatch labelled 'Retroreflective white', a red one 'Retroreflective yellow'): the drawing and the sign are black, yellow and red, and the lights are taken as retroreflective red. Black and red on retroreflective yellow."
+}

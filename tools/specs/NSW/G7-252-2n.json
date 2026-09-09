@@ -1,0 +1,57 @@
+{
+ "code": "G7-252-2n",
+ "pack": "NSW",
+ "name": "STOP_REVIVE_SURVIVE_BLUE_SQUARE",
+ "legend": "STOP REVIVE SURVIVE",
+ "shape": "rect",
+ "size": [
+  1800,
+  1860
+ ],
+ "radius": 225,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 24
+ },
+ "border": {
+  "colour": "white",
+  "width": 24
+ },
+ "panel_px": [
+  532,
+  620,
+  1240,
+  1352
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "E",
+   "height": 180,
+   "top": 385.1,
+   "colour": "white",
+   "expect": 662
+  },
+  {
+   "type": "text",
+   "text": "REVIVE",
+   "series": "E",
+   "height": 180,
+   "top": 835.0,
+   "colour": "white",
+   "expect": 930
+  },
+  {
+   "type": "text",
+   "text": "SURVIVE",
+   "series": "E",
+   "height": 180,
+   "top": 1285.3,
+   "colour": "white",
+   "expect": 1132
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '1860 x 1800' (H x W) = 1800 x 1860, Cnr Rad 225, Border '24 x 24' = edge 24 (blue) + border 24 (white) (drawn as a 24.1 stroke centred 36.0 in), Patch CR NA; . Fonts: STOP: FHWA Series E2000EX 180; REVIVE: FHWA Series E2000EX 180; SURVIVE: FHWA Series E2000EX 180. STOP 180 E top 385.1 (baseline 565; plan advance box 557-1238, dims 662) REVIVE 180 E top 835.0 (baseline 1015; plan advance box 412-1379, dims 930) SURVIVE 180 E top 1285.3 (baseline 1465; plan advance box 322-1480, dims 1132)"
+}

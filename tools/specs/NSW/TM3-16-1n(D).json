@@ -1,0 +1,65 @@
+{
+ "code": "TM3-16-1n(D)",
+ "pack": "NSW",
+ "name": "{speed}_KM_H_YELLOW_TALL",
+ "legend": "{speed} km/h",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  262,
+  1341,
+  1743
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "E",
+   "height": 170,
+   "top": 280
+  },
+  {
+   "type": "text",
+   "text": "km/h",
+   "series": "Emod",
+   "height": 100,
+   "top": 514.3,
+   "expect": 419
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.4 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: km/h: FHWA Series Em2000EX 100. km/h 100 Emod top 514.3 (baseline 614; plan advance box 70-529, dims 419) Numerals: the sheet's dashed '60' placeholder spans 170.6-428.3 x 280.6-449.3 (170 high, 258 wide = Series E at 170 gives 60 = 271 in our spacing, D 270; drawn 170 E as the AS 1743 TM3-16-1 numerals are Series E), top 280, centred; generated for 5-110 km/h as the national TM3-16-1A.",
+ "_placeholder": [
+  170.6,
+  280.6,
+  428.3,
+  449.3
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110
+  ]
+ },
+ "drawn_value": 60
+}

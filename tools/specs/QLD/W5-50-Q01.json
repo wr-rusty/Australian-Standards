@@ -1,0 +1,27 @@
+{
+ "code": "W5-50-Q01",
+ "pack": "QLD",
+ "name": "CANE_VEHICLE_CROSSING_YELLOW_DIAMOND",
+ "legend": "CANE VEHICLE CROSSING (symbol)",
+ "shape": "diamond",
+ "size": [848.53, 848.53],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {"colour": "yellow", "width": 10},
+ "border": {"colour": "black", "width": 20},
+ "panel_px": [470, 222, 1118, 870],
+ "symbols": {
+  "qld_w5-50-q01_cane_train": {
+   "source": "W5-50-Q01",
+   "pack": "QLD",
+   "panel_px": [470, 222, 1118, 870],
+   "desc": "cane tractor with beacon towing a cane bin trailer (side view, facing left), black with yellow wheel rings, hubs, beacon and body/rail lines; box d 291 left / e 269 right of centre, g 105 above / f 107 below; vector paths from the PDF (items 134-150), the sheet's yellow stroked lines outlined with Inkscape (scratch vec2sym2.py), 579.2 x 220.6 mm as drawn",
+   "colours": ["black", "yellow"],
+   "vector": "extracted from the sheet PDF (not traced); strokes outlined"
+  }
+ },
+ "elements": [
+  {"type": "symbol", "id": "qld_w5-50-q01_cane_train", "x": 133.27, "y": 319.27, "w": 560, "h": 212, "colour": "black"}
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-50-Q01 'Cane vehicle crossing' warning sign (1999/2023; used with the supplementary plate W8-Q15 / Q8-Q15 per the sheet's note and example). Size A 600 diamond generated (B 750, C 900 also tabled): a 600 side drawn as the bounding square 848.53, r 40, b 10 yellow edge + c 20 black border (separate spans on the sheet). Symbol box from the table: d 291 left and e 269 right of the vertical centreline (560 wide), g 105 above and f 107 below the horizontal centreline (212 tall): x 133.27, y 319.27. The symbol is the sheet PDF's own vector artwork (tools/symbols/qld_w5-50-q01_cane_train.svg): filled paths taken exactly, and the sheet's yellow stroked detail lines (wheel rings 2.7 mm, body and rail lines 1.9 mm, cabin line 1.4 mm at the sheet's 600 size, the beacon's 2 mm outline) converted to outlines with Inkscape so the symbol is fills only; the yellow parts are the sign's yellow (#ffe40d), black strokes that duplicate a black fill were dropped. Drawn 579.2 x 220.6 on the sheet's sign (3 % larger than the tabled box, as the other Q-series symbols), scaled into the box. Black and yellow on retroreflective yellow."
+}

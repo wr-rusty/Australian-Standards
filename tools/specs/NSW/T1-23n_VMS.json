@@ -1,0 +1,53 @@
+{
+ "code": "T1-23n_VMS",
+ "pack": "NSW",
+ "name": "CHANGED_TRAFFIC_CONDITIONS_VMS_BLACK_LONG",
+ "legend": "CHANGED TRAFFIC CONDITIONS",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 0,
+ "ground": "black",
+ "border": {
+  "colour": "yellow",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  305,
+  1476,
+  1146
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CHANGED",
+   "series": "D",
+   "height": 160,
+   "top": 96.7,
+   "colour": "yellow",
+   "expect": 959
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "D",
+   "height": 160,
+   "top": 366.7,
+   "colour": "yellow",
+   "expect": 820
+  },
+  {
+   "type": "text",
+   "text": "CONDITIONS",
+   "series": "C",
+   "height": 160,
+   "top": 636.8,
+   "colour": "yellow",
+   "expect": 1024
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 1200' (H x W) = 1200 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (black) + border 25 (yellow) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; VMS Sign; Yellow LED Legend & Border; Black Background; VMS Panel is 96 pixels wide by 72 pixels deep. Fonts: CHANGED: FHWA Series D2000EX 160; TRAFFIC: FHWA Series D2000EX 160; CONDITIONS: FHWA Series C2000EX 160. CHANGED 160 D top 96.7 (baseline 257; plan advance box 104-1096, dims 959) TRAFFIC 160 D top 366.7 (baseline 527; plan advance box 186-1027, dims 820) CONDITIONS 160 C top 636.8 (baseline 797; plan advance box 74-1123, dims 1024)"
+}

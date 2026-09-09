@@ -1,0 +1,65 @@
+{
+ "code": "TM4-5n(D)",
+ "pack": "NSW",
+ "name": "POWER_LINE_WORKS_IN_PROGRESS_YELLOW_TALL",
+ "legend": "POWER LINE WORKS IN PROGRESS",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  354,
+  309,
+  1212,
+  1597
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "POWER",
+   "series": "C",
+   "height": 90,
+   "top": 147.4,
+   "expect": 322
+  },
+  {
+   "type": "text",
+   "text": "LINE",
+   "series": "C",
+   "height": 90,
+   "top": 317.5,
+   "expect": 206
+  },
+  {
+   "type": "text",
+   "words": [
+    "WORKS",
+    "IN"
+   ],
+   "series": "C",
+   "height": 90,
+   "gap": 51.3,
+   "top": 487.6,
+   "expect": [
+    460
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "PROGRESS",
+   "series": "C",
+   "height": 90,
+   "top": 657.7,
+   "expect": 503
+  }
+ ],
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '900 x 600' (H x W) = 600 x 900, Cnr Rad 0, Border '0 x 25' = edge 0 (yellow) + border 25 (black) (drawn as a 25.0 stroke centred 12.3 in), Patch CR NA; Aluminium Sign; Black lgd & Border; Cl.400 Yellow refl grd(AS1906.1). Fonts: POWER: FHWA Series C2000EX 90; LINE: FHWA Series C2000EX 90; WORKS IN: FHWA Series C2000EX 90; PROGRESS: FHWA Series C2000EX 90. POWER 90 C top 147.4 (baseline 237; plan advance box 129-467, dims 322) LINE 90 C top 317.5 (baseline 408; plan advance box 187-410, dims 206) WORKS IN 90 C top 487.6 (baseline 578; plan advance box 67-541, dims [460]) PROGRESS 90 C top 657.7 (baseline 748; plan advance box 39-558, dims 503)"
+}

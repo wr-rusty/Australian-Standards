@@ -1,0 +1,177 @@
+{
+ "code": "TC1088",
+ "pack": "QLD",
+ "name": "HIGH_VEHICLE_DETOUR_YELLOW_WIDE",
+ "legend": "DETOUR (left arrow, truck striking overhead structure symbol)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  3000,
+  1880
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "panel_px": [
+  327,
+  310,
+  1473,
+  1029
+ ],
+ "symbols": {
+  "qld_tc1088_truck_hitting": {
+   "source": "TC1088",
+   "pack": "QLD",
+   "panel_px": [
+    327,
+    310,
+    1473,
+    1029
+   ],
+   "desc": "truck (rear view) with its top striking an overhead structure, impact stars and fragments, box 1375 x 1410; vector paths from the PDF (items 90-108)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced); subpath windings normalised (holes reversed)"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 250,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 500,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 750,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1000,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1250,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 1500,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 1750,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 2000,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 2250,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 2500,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 2750,
+   "y": 0,
+   "w": 250,
+   "h": 380,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "DETOUR",
+   "series": "D",
+   "height": 250,
+   "top": 672,
+   "align": "left",
+   "x": 115
+  },
+  {
+   "type": "arrow",
+   "width": 100,
+   "width_head": 75,
+   "heading": 180,
+   "path": [
+    {
+     "line": 763
+    }
+   ],
+   "head": {
+    "length": 237,
+    "width": 266,
+    "notch": 25,
+    "tip_r": 13,
+    "barb_r": 13
+   },
+   "x": 260,
+   "y": 1322,
+   "w": 1000,
+   "h": 266,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1088_truck_hitting",
+   "x": 1545,
+   "y": 425,
+   "w": 1375,
+   "h": 1410,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1088 'High vehicle detour' warning sign (1998; single size, dimensions on the drawing). The sign is a 3000 x 380 black/white striped band (12 stripes 250 wide, black first, as drawn) over a 3000 x 1500 yellow panel: 3000 x 1880 overall, square corners, no border or edge shown. Yellow-panel chain (from the panel top at y 380) 292 / 250DM / 400 / 266 / 292 = 1500: DETOUR cap top 672, 250 Series D ('DM' read as plain D, the sheet's font is 'AS1744 Series D Medium'), left-aligned with its ink at x 115 (the sheet's 115); arrow box y 1322, 266 tall. Bottom chain 260 / 1000 / 285 / 1375 / 80 = 3000: arrow box x 260, 1000 long; truck symbol box x 1545, 1375 wide, 45 below the panel top and 45 above its bottom (1410 tall, y 425). Arrow from the sheet's detail: 1000 overall, head 266 wide x 237 long with R13 tips, shaft 100 wide at the tail tapering to 75 at the head, base meeting the shaft 25 ahead of the barb line; drawn geometrically (heading 180, shaft centreline 763 = 1000 - 237). Truck symbol extracted from the sheet PDF's own filled vector paths (tools/symbols/qld_tc1088_truck_hitting.svg; the sheet draws it 1375.8 x 1410.0 at x 1545, y 424.8 exactly as tabled). Black on retroreflective yellow, white stripes."
+}
