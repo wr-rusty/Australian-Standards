@@ -29,6 +29,7 @@ A4,Chaussée glissante,Wikipedia
 A6,Pont mobile,Wikipedia
 A7,Passage à niveau muni de barrières,Wikipedia
 A8,Passage à niveau sans barrière,Wikipedia
+A9,Traversée de voies de tramways,IISR 2e partie art. 35-2 (A9b)
 A9a,Traversée de voie de véhicules routiers des services réguliers de transport en commun,Wikipedia
 A9b,Traversée de voies de tramways,Wikipedia
 AB1,Priorité à droite,Wikipedia
@@ -115,7 +116,7 @@ B50e,Sortie de zone à stationnement unilatéral à alternance semi-mensuelle et
 B51,Sortie de zone à vitesse limitée à 30 km/h,IISR 4e partie
 B52,Zone « 30,"IISR 4e partie, article 63-1 heading"
 B53,Sortie de zone de rencontre,IISR 4e partie
-B54,"S'il existe dans une rue une limitation de vitesse différente de la réglementation générale dans l'agglomération, la vitesse correspondante doit être signalée à tous les usagers abordant cette rue par",IISR 4e partie
+B54,Entrée d'aire piétonne,Wikipedia
 B55,Sortie d'aire piétonne,IISR 4e partie
 B56,Zone de circulation restreinte,Wikipedia (page title)
 B57,Zone de circulation restreinte,Wikipedia (page title)
@@ -355,13 +356,13 @@ KD22a,"1300 x 300 mm en présence de la mention « Déviation »,",IISR 8e parti
 KD22b,1600 x 300 mm,IISR 8e partie
 KD42,panneau de présignalisation de déviation,IISR 8e partie
 KD43,panneau de présignalisation courante,IISR 8e partie
-KD43a,"1300 x 300 mm en présence de la mention ""Déviation"",",IISR 8e partie
-KD43b,1600 x 300 mm,IISR 8e partie
+KD43a,Panneau de présignalisation courante,IISR 8e partie (KD43)
+KD43b,Panneau de présignalisation courante,IISR 8e partie (KD43)
 KD44,Encart de présignalisation de l'origine d'un itinéraire de déviation,IISR 8e partie
 KD62,panneau de confirmation de déviation,IISR 8e partie
 KD69,panneau de fin de déviation,IISR 8e partie
-KD69a,1000 x 400 mm,IISR 8e partie
-KD69b,dépend de la hauteur des caractères,IISR 8e partie
+KD69a,Panneau de fin de déviation,IISR 8e partie (KD69)
+KD69b,Panneau de fin de déviation,IISR 8e partie (KD69)
 KD79,panneau de signalisation complémentaire d'un itinéraire de déviation,IISR 8e partie
 KD8,présignalisation de changement de chaussée ou de trajectoire,IISR 8e partie
 KD9,panneau d'affectation des voies,IISR 8e partie
@@ -425,16 +426,16 @@ M4y,cavaliers,Wikipedia
 M4z,véhicules bénéficiant du label « autopartage,Wikipedia
 M5,panonceaux relatifs au stop,IISR 1e partie
 M6,panonceaux complémentaires aux panneaux de stationnement et d'arrêts,IISR 1e partie
-M6a,ils indiquent que le stationnement ou l'arrêt est gênant au sens de l'article R,IISR 4e partie
-M6b,ils concernent le stationnement unilatéral à alternance semi-mensuelle et peuvent être associés au panneau B6a1 ou B6a2,IISR 4e partie
-M6c,ils concernent le stationnement à durée limitée contrôlé par disque,IISR 4e partie
+M6a,Stationnement ou arrêt gênant (art. R. 417-10),"IISR 4e partie, shortened"
+M6b,Stationnement unilatéral à alternance semi-mensuelle,"IISR 4e partie, shortened"
+M6c,Stationnement à durée limitée contrôlé par disque,"IISR 4e partie, shortened"
 M6d,stationnement payant avec parcmètre,Wikipedia
 M6e,stationnement payant avec parcmètre,Wikipedia
-M6f,ils comportent des précisions concernant l'interdiction (cf,IISR 4e partie
+M6f,Précisions concernant l'interdiction de stationner,"IISR 4e partie, shortened"
 M6g,ils comportent des indications diverses ne concernant pas les interdictions,IISR 4e partie
 M6h,stationnement ou arrêt réservé aux véhicules utilisés par les personnes handicapées à mobilité réduite. Il comporte l'inscription,Wikipedia
 M6i,stationnement réservé aux véhicules électriques pendant la durée de recharge de leurs accumulateurs,Wikipedia
-M6j,ils signalent que le stationnement est réservé aux véhicules bénéficiant du label,IISR 4e partie
+M6j,Stationnement réservé aux véhicules bénéficiant du label autopartage,"IISR 4e partie, shortened"
 M6k1,arrêt ou le stationnement réservé aux véhicules des usagers pratiquant le covoiturage,Wikipedia
 M6k2,ils signalent que le stationnement ou l'arrêt n'est autorisé que pour les véhicules des usagers pratiquant le covoiturage,IISR 4e partie
 M7,panonceaux schémas,IISR 1e partie

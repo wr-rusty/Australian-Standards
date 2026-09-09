@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15.35mm" height="14.11mm" viewBox="0 0 43.51 40">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="15.35mm" height="13.66mm" viewBox="0 0 43.51 38.73">
 <g transform="scale(0.1)">
-  <path fill="#ffffff" fill-rule="evenodd" d="M70.4 37.7L70.4 87.8L160.6 87.8L160.6 37.7Z"/>
-  <path fill="#ffffff" fill-rule="evenodd" d="M70.4 112.8L70.4 162.65L160.6 162.65L160.6 112.8Z"/>
-  <path fill="#1b1918" d="M0 399.87L0 400.02L435.1 400.02L435.1 399.87Z"/>
-  <path fill="#ffffff" fill-rule="evenodd" d="M165.6 12.75L65.45 12.75L115.65 0Z"/>
-  <path fill="#ffffff" fill-rule="evenodd" d="M65.45 12.7L65.45 37.75L165.6 37.75L165.6 12.7Z"/>
-  <path fill="#1b1918" d="M70.32 37.62L70.32 87.87L160.67 87.87L160.67 37.62ZM70.47 37.77L160.52 37.77L160.52 87.72L70.47 87.72Z"/>
-  <path fill="#ffffff" fill-rule="evenodd" d="M65.45 87.75L65.45 112.8L165.6 112.8L165.6 87.75Z"/>
-  <path fill="#1b1918" d="M70.32 112.72L70.32 162.72L160.67 162.72L160.67 112.72ZM70.47 112.87L160.52 112.87L160.52 162.57L70.47 162.57Z"/>
-  <path fill="#ffffff" fill-rule="evenodd" d="M65.45 162.55L65.45 399.85L165.6 399.85L165.6 162.55Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M70.4 25L70.4 75.1L160.6 75.1L160.6 25Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M70.4 100.1L70.4 149.95L160.6 149.95L160.6 100.1Z"/>
+  <path fill="#1b1918" d="M0 387.17L0 387.32L435.1 387.32L435.1 387.17Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M65.45 0L65.45 25.05L165.6 25.05L165.6 0Z"/>
+  <path fill="#1b1918" d="M70.32 24.92L70.32 75.17L160.67 75.17L160.67 24.92ZM70.47 25.07L160.52 25.07L160.52 75.02L70.47 75.02Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M65.45 75.05L65.45 100.1L165.6 100.1L165.6 75.05Z"/>
+  <path fill="#1b1918" d="M70.32 100.02L70.32 150.02L160.67 150.02L160.67 100.02ZM70.47 100.17L160.52 100.17L160.52 149.87L70.47 149.87Z"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M65.45 149.85L65.45 387.15L165.6 387.15L165.6 149.85Z"/>
 </g>
 </svg>

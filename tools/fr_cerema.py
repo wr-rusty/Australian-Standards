@@ -16,14 +16,27 @@ What the converter does with each file:
 * live <text> is never faked: strings in the road alphabets (Caractères L1/L4, alphabl1/alphabl4 — no free licensed
   digitisation exists, see SOURCES.md) mean the sign goes to SVGs/intervene/<family>/ with the strings in the manifest;
   strings in Arial/AvantGarde are the drawing's own annotations (sizes, "exemple", "Avers/Envers") and are dropped;
-* composite or dimensioned drawings (several examples on one sheet, a sign with its panonceau at 1/10, cotation) go
-  to intervene/ as well, listed in COMPOSITE.
+* composite or dimensioned drawings (several examples on one sheet, a sign with its panonceau at 1/10, cotation),
+  signpost assemblies, perspective illustrations (J15a, J15b, K16) and sign-plus-light assemblies (G1*_bis) go to
+  intervene/ as well, listed in COMPOSITE;
+* white paint that touches nothing else is invisible on Cerema's white page (a stray white pointer in KR41, a white
+  guide line in KS1 that stretched the drawing) and is not carried; strokes thinner than 0.03 mm (J16's hatched head) are
+  not carried either; both are counted in the manifest;
+* devices the catalogue draws in elevation (cones, piquets, balises, lamps, barriers, the K15 portal) are kept as drawn
+  with a manifest note that they are not sign faces (DEVICE).
 
 Scale: the panels are drawn at 1:5 (IISR 1re partie art. 5-3 gamme normale: triangle 1000, disc 850, octagon 800,
-square 700 mm — the files measure 185/170/160/140 mm; panonceaux M9z 900x500 -> 180x100 mm). The K5 site devices
-are the exception (K5a cone 750 mm high -> 75 mm file, K5b piquet 1100 -> 110, K5d 800 -> 80: 1:10; K5c fits 1:5),
-see SCALE. Output header as the other packs: viewBox in pt at 1 pt = 1 cm of sign, width/height in mm at 72 pt/in,
-one <g transform="scale(0.1)"> with the paths in real mm.
+square 700 mm — the files measure 185/170/160/140 mm; panonceaux M9z 900x500 -> 180x100 mm). Exceptions, each checked
+against an IISR size (SCALE / SCALE_WHY): the K5 devices 1:10 (K5a 750 mm high -> 75 mm file, K5b 1100 -> 110, K5d
+800 -> 80; K5c fits 1:5), AB5 1:10 (its AB3a triangle is half the size of AB3b's), G1/G1a/G1b/G1c 1:10 (IISR 2e partie
+1150x750, 1150x950, 750x1150, 750x1550), KD69a and KD43a_ex2 1:10 (IISR 8e partie 1000x400, 1300x400), M9zex1cdr 1:10 and
+M11b_ex1_dc/ex2_dc 1:15 (they give the tabled 700x200 mm panonceau). Legend-driven series (D, Dv, Dc, Dp, E, H, SR, KD, KC,
+the C60-C65 toll signs) have no fixed panel size in the IISR — the manifest says so — and the files whose letter heights
+or IISR size cannot be 1:5 but whose scale is not certain carry a "SIZE TO CHECK" note (SIZE_DOUBT, 45 files: D64/D73/D74
+motorway panels, Dv44, SR2/SR3/SR4/SR50, the small M10/M11 examples, the remaining KD files). Output header as the other
+packs: viewBox in pt at 1 pt = 1 cm of sign, width/height in mm at 72 pt/in, one <g transform="scale(0.1)"> with the
+paths in real mm. Cerema's odd file names are mapped to IISR codes in ALIAS (auou.svg = A13a, KX50 = KXC50).
+The output folder is not cleaned by this tool: after a rerun delete SVGs/ files the manifest no longer lists.
   python3 tools/fr_cerema.py [limit|pattern]     FR_CACHE=<dir> for the Inkscape PNG/stroke cache"""
 import os, re, sys, csv, json, math, subprocess, unicodedata, collections, tempfile
 from lxml import etree
@@ -42,8 +55,53 @@ FAMILY = [("Panneaux_A/", "A Danger"), ("Panneaux_AB/", "AB Intersections et pri
           ("panneaux_K/", "K Temporaire"), ("Panonceaux_M/", "M Panonceaux"), ("Panneaux_SR/", "SR Securite routiere"),
           ("Symboles_", "S Symboles"), ("Ideogrammes_ID/", "ID Ideogrammes")]
 # real mm per file mm; the panels are 1:5, the K5 devices (checked against IISR 8e partie heights) 1:10 except K5c
-SCALE = {"K5A": 10, "K5B": 10, "K5D": 10}
+SCALE = {"K5A": 10, "K5B": 10, "K5D": 10,
+         "AB5": 10,                                                     # same AB3a triangle as AB3b, drawn at half its size
+         "G1": 10, "G1_bis": 10, "G1A": 10, "G1a_bis": 10, "G1B": 10, "G1b_bis": 10, "G1C": 10, "G1c_bis": 10,
+         "M9zex1cdr": 10, "M11b_ex1_dc": 15, "M11b_ex2_dc": 15,
+         "KD69a": 10, "KD43a_ex2": 10}                               # IISR 8e partie sizes: KD69a 1000x400, KD43a with KS1 1300x400
+SCALE_WHY = {"K5A": "K5 device; IISR 8e partie heights K5a 750, K5b 1100, K5d 800 mm", "K5B": "K5 device; IISR 8e partie heights K5a 750, K5b 1100, K5d 800 mm",
+             "K5D": "K5 device; IISR 8e partie heights K5a 750, K5b 1100, K5d 800 mm",
+             "AB5": "the AB3a triangle in this file is 95 mm against 190 mm in AB3b (both the 1000 mm gamme normale)",
+             "G1": "IISR 2e partie annexe: G1 and G1b 1150x750, G1a 1150x950, G1c 1550x750 mm; the files are drawn at half of that",
+             "M9zex1cdr": "x2 gives the 700x200 mm panonceau of the IISR 1re partie table (700x204)",
+             "M11b_ex1_dc": "x3 gives the 700x200 mm panonceau of the IISR 1re partie table (702x198)"}
+for _k in ("G1_bis", "G1A", "G1a_bis", "G1B", "G1b_bis", "G1C", "G1c_bis"): SCALE_WHY[_k] = SCALE_WHY["G1"]
+SCALE_WHY["M11b_ex2_dc"] = SCALE_WHY["M11b_ex1_dc"]
+SCALE_WHY["KD69a"] = "IISR 8e partie: KD69a is 1000x400 mm; the file is 100x40"
+SCALE_WHY["KD43a_ex2"] = "IISR 8e partie: KD43a with the KS1 symbol is 1300x400 mm; the file is 129.6x40"
 DEFAULT_SCALE = 5
+# legend-driven series: the IISR fixes the letter heights, not the panel; the size in the manifest is Cerema's example at 1:5
+LEGEND_DRIVEN = ("D", "Da", "DA", "Dc", "Dp", "Dv", "E", "EB", "H", "SR", "KD", "KC", "KM", "C60", "C61", "C63", "C64", "C65")
+# files whose drawn size cannot be 1:5 (letter heights or the IISR size table say a smaller scale) but whose scale is not certain
+SIZE_DOUBT = {"D64": "the '17 km' legend is 50-80 mm at 1:5; a motorway D64 uses Hc 250-400 mm, so the file is at a smaller scale (1:20-1:50), which one is not certain",
+              "D73": "legends 40-60 mm at 1:5; a motorway D73 uses Hc >= 250 mm, so the file is at a smaller scale, which one is not certain",
+              "D74a": "legends 50-80 mm at 1:5; a motorway D74 uses Hc >= 250 mm, so the file is at a smaller scale, which one is not certain",
+              "D74b": "legends 50-80 mm at 1:5; a motorway D74 uses Hc >= 250 mm, so the file is at a smaller scale, which one is not certain",
+              "Dv44": "letters 40/60 mm at 1:5 against 50/100 mm in the other Dv43/Dv44 drawings: smaller scale, which one is not certain",
+              "SR2a": "332 mm wide at 1:5 for a motorway sign; scale not certain", "SR2b": "331 mm wide at 1:5 for a motorway sign; scale not certain",
+              "SR2c": "330 mm wide at 1:5 for a motorway sign; scale not certain",
+              "SR3_18_12": "the file-name suffix reads as a size (18_12, 24_16, 36_24) that 1:5 does not give (404x605); scale not certain",
+              "SR3_24_16": "the file-name suffix reads as a size (18_12, 24_16, 36_24) that 1:5 does not give (533x800); scale not certain",
+              "SR3_36_24": "the file-name suffix reads as a size (18_12, 24_16, 36_24) that 1:5 does not give (800x1200); scale not certain",
+              "SR4_ex1_dc": "letters 110 mm at 1:5 for a motorway message; scale not certain", "SR4_ex2_dc": "letters 110 mm at 1:5 for a motorway message; scale not certain",
+              "SR50_ex1": "letters 150 mm at 1:5 for a motorway message; scale not certain", "SR50_ex2": "letters 150 mm at 1:5 for a motorway message; scale not certain",
+              "M10c1": "135x41 mm at 1:5 is no panonceau size (IISR table: 350/500/700 x 150-700); scale not certain",
+              "M10c2": "135x41 mm at 1:5 is no panonceau size (IISR table: 350/500/700 x 150-700); scale not certain",
+              "M10c3": "136x41 mm at 1:5 is no panonceau size (IISR table: 350/500/700 x 150-700); scale not certain",
+              "M10a_ex1": "387x113 mm at 1:5 is no panonceau size of the IISR table; scale not certain", "M10a_ex2": "347x101 mm at 1:5 is no panonceau size of the IISR table; scale not certain",
+              "M10b": "306x154 mm at 1:5 against 700x350 for M10BL; scale not certain", "M1a": "385x112 mm at 1:5 is no panonceau size of the IISR table; scale not certain",
+              "M11a": "304x152 mm at 1:5 is no panonceau size of the IISR table; scale not certain", "M11b_ex2": "274x164 mm at 1:5 is no panonceau size of the IISR table; scale not certain",
+              "M2_ex4": "512x143 mm at 1:5 is no panonceau size of the IISR table; scale not certain",
+              "E53c_ex2": "125x135 mm at 1:5 against 251x251 for the E53c_dc plaque; scale not certain", "E_46_dc": "125x62 mm at 1:5 for an E46 cartouche; scale not certain",
+              }
+for _k in ("KD62", "KD69b", "KD79a", "KD79b", "KD43d", "KD8_ex1", "KD8_ex2", "KD8_ex3", "KD8_ex4", "KD8_ex5", "KD8_ex6", "KD44a", "KD44b", "KD44c",
+           "KD44a_ex2", "KD44b_ex2", "KD44b", "KC1_ex1", "KC1_ex3"):
+    SIZE_DOUBT[_k] = "KD69a and KD43a_ex2 are drawn at 1:10 against the IISR 8e partie sizes; this file may be too (the IISR gives it no fixed size); scale not certain"
+# devices the catalogue draws in elevation: kept as drawn, they are not sign faces
+DEVICE = {"K5A", "K5B", "K5c", "K5D", "K1", "K10", "K15_ex1", "K15_ex2", "K2_ex2", "KR1", "KR2", "KR11j", "KR11v", "KR41",
+          "J1", "J1_bis", "J3", "J7", "J10-d", "J10-g", "J11", "J12", "J13", "J16"}
+HAIRLINE = 3                  # stroke-only paths thinner than 0.03 mm on the page (J16's hatched head, 320 of them) are not carried
 ROAD_FONTS = ("caracteres l", "alphabl")
 COMPOSITE = {"E52c_ex1": "dimensioned drawing of the E52c plaque (cotes, notes), not a sign face",
              "E52c_ex2": "dimensioned drawing of the E52c plaque (cotes, notes), not a sign face",
@@ -61,7 +119,32 @@ COMPOSITE = {"E52c_ex1": "dimensioned drawing of the E52c plaque (cotes, notes),
              "E53a_ex2": "front and side faces of the borne drawn side by side (the single-face drawing is E53a_ex1)",
              "E53b_ex2": "front and side faces of the borne drawn side by side (the single-face drawing is E53b_ex1)",
              "E54a_ex": "front and side faces of the borne drawn side by side",
-             "E54b_ex2": "front and side faces of the borne drawn side by side (the single-face drawing is E54b_ex1)"}
+             "E54b_ex2": "front and side faces of the borne drawn side by side (the single-face drawing is E54b_ex1)",
+             "J15a": "perspective rendering of the J15a kerb balise (3D illustration), not a face",
+             "J15b": "perspective rendering of the J15b dome balise on its base (3D illustration), not a face",
+             "K16": "perspective rendering of the K16 modular separators (3D illustration), not a face",
+             "Dc29_ex1": "signpost assembly drawn on its post (the face alone is Dc29_ex1_dc)",
+             "Dc29_ex2": "signpost assembly drawn on its post (the face alone is Dc29_ex2_dc)",
+             "Dc43_ex1": "signpost assembly drawn on its post (the face alone is Dc43_ex1_dc)",
+             "Dc43_ex2": "signpost assembly drawn on its post (the face alone is Dc43_ex2_dc)",
+             "K8": "two drawings on one sheet: the K8 chevron bar and a single K8 chevron panel",
+             "KD9_ex4": "two KD9 lane-allocation examples on one sheet",
+             "KC1_ex2": "two KC1 examples ('CIRCULATION ALTERNEE', 'BARRIERE DE DEGEL') on one sheet",
+             "KR43": "two arrow-board examples on one sheet; the single drawing is KR43ex1_dc",
+             "M3a1": "two drawings on one sheet: the arrow alone and the arrow on its rounded panonceau",
+             "M3a2": "two drawings on one sheet: the filled arrow panonceau and an outline-only version",
+             "M3b1": "two drawings on one sheet: the filled arrow panonceau and an outline-only version",
+             "M3b2": "two drawings on one sheet: the filled arrow panonceau and an outline-only version",
+             "M8ad": "the M8a and M8d panonceaux drawn together as an assembly (each exists as its own file)",
+             "SR2": "SR2a, SR2b and SR2c on one sheet; each exists as its own file",
+             "G1_bis": "G1 drawn with its R24 flashing light and bell housing: the level-crossing assembly, not the sign alone (G1 is its own file)",
+             "G1a_bis": "G1a drawn with its R24 flashing light and bell housing: the level-crossing assembly, not the sign alone (G1A is its own file)",
+             "G1b_bis": "G1b drawn with its R24 flashing light and bell housing: the level-crossing assembly, not the sign alone (G1B is its own file)",
+             "G1c_bis": "G1c drawn with its R24 flashing light and bell housing: the level-crossing assembly, not the sign alone (G1C is its own file)"}
+NOTE = {"G1": "the 1150x750 panel is drawn light grey by Cerema, kept as drawn", "G1A": "the 1150x950 panel is drawn light grey by Cerema, kept as drawn",
+        "G1B": "the 750x1150 panel is drawn light grey by Cerema, kept as drawn", "G1C": "the 750x1550 panel is drawn light grey by Cerema, kept as drawn",
+        "M6j": "the panonceau body is drawn grey by Cerema (an unfilled outline on the page); filled white here like the other panonceaux",
+        "KD44a_ex2": "pale yellow background as drawn by Cerema", "KD44b_ex2": "pale yellow background as drawn by Cerema"}
 GENERIC = [("AK", "Panneau de danger temporaire"), ("AB", "Panneau d'intersection et de priorite"), ("A", "Panneau de danger"),
            ("B", "Panneau de prescription"), ("CE", "Panneau de services"), ("C", "Panneau d'indication"),
            ("Da", "Panneau de direction avec affectation de voies"), ("DA", "Panneau de direction avec affectation de voies"), ("Dc", "Panneau d'information locale"),
@@ -266,7 +349,7 @@ def read_source(path):
 # ---------- strokes -> fills with Inkscape ----------
 def outline_strokes(src_items, cache_key, cache):
     """Outline the stroke-only items with Inkscape; returns {index: (fill colour, segs)} in file units."""
-    idx = [i for i, it in enumerate(src_items) if it["fill"] is None and it["stroke"]]
+    idx = [i for i, it in enumerate(src_items) if it["fill"] is None and it["stroke"] and it["sw"] >= HAIRLINE]
     if not idx: return {}
     tmp = os.path.join(cache, cache_key + "_strokes.svg"); out = os.path.join(cache, cache_key + "_outlined.svg")
     if not os.path.exists(out):
@@ -287,7 +370,7 @@ def outline_strokes(src_items, cache_key, cache):
                 i = int(ch.get("id")[1:]); fill = style_get(ch, "fill")
                 res[i] = (norm_colour(fill or src_items[i]["stroke"], root)[0], transform_segs(parse_path(ch.get("d")), mm))
     walk(root, [1, 0, 0, 1, 0, 0])
-    return res
+    return {i: v for i, v in res.items() if i in idx}   # a cached outline file may hold hairlines from an earlier run
 
 # ---------- unpainted test for closed unfilled outlines ----------
 def raster(path, src, cache_key, cache):
@@ -298,8 +381,8 @@ def raster(path, src, cache_key, cache):
     from PIL import Image
     return Image.open(png).convert("RGB")
 
-def unpainted_fraction(segs, src, img):
-    """Sample the interior of a closed outline (inset from its edge) in the rasterised source; 1.0 = all unpainted."""
+def unpainted_fraction(segs, src, img, sw=0.0):
+    """Sample the interior of a closed outline (inset from its edge and clear of its own stroke) in the rasterised source; 1.0 = all unpainted."""
     from shapely.geometry import Polygon
     from shapely.ops import unary_union
     from svgpathtools import parse_path as sp
@@ -320,7 +403,7 @@ def unpainted_fraction(segs, src, img):
     polys = [p for p in polys if not p.is_empty and p.area > 0]
     if not polys: return 0.0
     poly = unary_union(polys)
-    inset = poly.buffer(-max(30.0, 2.0 * 100 / PX_PER_MM))   # 0.3 mm of paper or two pixels, whichever is more
+    inset = poly.buffer(-max(30.0, 2.0 * 100 / PX_PER_MM, sw / 2 + 10))   # 0.3 mm of paper, two pixels or half the stroke, whichever is more
     if inset.is_empty: inset = poly.buffer(-min(10.0, math.sqrt(poly.area) / 6))
     if inset.is_empty: return 0.0
     pts = []
@@ -343,7 +426,7 @@ def load_names():
     if not os.path.exists(p): return {}
     return {r["code"]: (r["name"], r["source"]) for r in csv.DictReader(open(p, encoding="utf-8"))}
 
-ALIAS = {"KX50": "KXC50"}   # Cerema file name -> IISR code
+ALIAS = {"KX50": "KXC50", "auou": "A13a"}   # Cerema file name -> IISR code (auou.svg is the A13a children sign)
 
 def base_code(stem):
     s = ALIAS.get(stem, stem)
@@ -412,14 +495,26 @@ def convert(rel, cache, names):
             empty += 1; continue
         if is_closed(it["segs"]):
             if img is None: img = raster(path, src, key, cache)
-            if unpainted_fraction(it["segs"], src, img) >= 0.15:   # painted at the back: shows only where nothing else paints
+            if unpainted_fraction(it["segs"], src, img, it["sw"]) >= 0.15:   # painted at the back: shows only where nothing else paints
                 backing.append({"fill": "#ffffff", "segs": it["segs"], "evenodd": True})
         col, segs = outlined[i]
         fills.append({"fill": col, "segs": segs, "evenodd": False})
     whitened = len(backing); fills = backing + fills
+    hair = sum(1 for it in src["items"] if it["fill"] is None and it["stroke"] and it["sw"] < HAIRLINE)
+    # white paint that touches nothing else is invisible on the white page (stray pointers, guide lines): not carried
+    fb = [segs_bbox(f["segs"]) for f in fills]
+    dark = [b for f, b in zip(fills, fb) if b and f["fill"] not in ("#ffffff", "#fefefe")]
+    def meets(a):
+        return any(not (b[2] < a[0] - 50 or b[0] > a[2] + 50 or b[3] < a[1] - 50 or b[1] > a[3] + 50) for b in dark)
+    if dark:
+        keep = [f for f, b in zip(fills, fb) if f["fill"] not in ("#ffffff", "#fefefe") or (b and meets(b))]
+        invisible = len(fills) - len(keep); fills = keep
+    else: invisible = 0
     if outlined: notes.append(f"{len(outlined)} stroked path(s) outlined with Inkscape")
     if whitened: notes.append(f"{whitened} unfilled closed outline(s) filled white (drawn on a white page)")
     if empty: notes.append(f"{empty} empty outline frame(s) with nothing drawn inside dropped")
+    if hair: notes.append(f"{hair} hairline stroke(s) under 0.03 mm not carried")
+    if invisible: notes.append(f"{invisible} white shape(s) touching nothing else (invisible on the white page) dropped")
     road = [t for t, f in src["texts"] if f.lower().startswith(ROAD_FONTS)]
     other = [t for t, f in src["texts"] if not f.lower().startswith(ROAD_FONTS)]
     if road:
@@ -441,10 +536,18 @@ def convert(rel, cache, names):
     fam = family_of(rel)
     fw, fh = (bb[2] - bb[0]) / src["upm"], (bb[3] - bb[1]) / src["upm"]
     size_note = f"drawn {fw:.1f}x{fh:.1f} mm at 1:{scale}"
-    if scale != DEFAULT_SCALE: size_note += " (K5 device; IISR 8e partie heights K5a 750, K5b 1100, K5d 800 mm)"
+    if scale != DEFAULT_SCALE: size_note += f" ({SCALE_WHY[stem]})"
+    code = ALIAS.get(stem, stem)
+    if code != stem: notes.append(f"Cerema file name {stem}.svg")
+    pre = re.match(r"[A-Za-z]+", base_code(stem)).group(0)
+    if stem in SIZE_DOUBT: notes.append("SIZE TO CHECK: " + SIZE_DOUBT[stem])
+    elif pre in LEGEND_DRIVEN or stem.startswith(("C60", "C61", "C63", "C64", "C65")):
+        notes.append("legend-driven sign: the IISR fixes letter heights, not the panel; size is Cerema's example at 1:5")
+    if stem in DEVICE: notes.append("device drawn in elevation as in the Cerema catalogue, not a sign face")
+    if stem in NOTE: notes.append(NOTE[stem])
     if nsrc == "generic": notes.append("name is the series' generic title (no sign title found in the IISR text or the Wikipedia lists)")
     elif nsrc: notes.append(f"name from {nsrc}")
-    return {"stem": stem, "code": stem, "name": name, "family": fam, "svg": svg, "W": W, "H": H, "notes": [size_note] + notes, "reasons": reasons, "rel": rel}
+    return {"stem": stem, "code": code, "name": name, "family": fam, "svg": svg, "W": W, "H": H, "notes": [size_note] + notes, "reasons": reasons, "rel": rel}
 
 def main(arg=None):
     cache = os.environ.get("FR_CACHE", os.path.join(FR, ".cache")); os.makedirs(cache, exist_ok=True)

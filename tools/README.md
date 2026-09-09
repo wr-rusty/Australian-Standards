@@ -137,3 +137,5 @@ A state or regional pack holds only its own signs. After any rerun, `python3 too
 (base = `Complete/Australia/National (AS 1743)` or `Complete/USA/Federal (MUTCD 2023)`) deletes every SVG whose code already exists in the
 base pack and leaves a manifest row pointing to the base file. Extraction is memoised (`SHEET_MEMO`, keyed on file, page
 and extractor version) and `tools/precache.py` fills the memo in parallel, so reruns cost minutes.
+* `fr_cerema.py` — France national pack from Cerema's official IISR SVGs (Licence Ouverte 2.0): sizes from the file's mm dimensions at the drawn scale (1:5 default; 1:10/1:15 where Cerema drew so, set from the IISR size tables), strokes to fills, text outlined, artboards dropped; illustrations, assemblies and multi-drawing sheets go to intervene. Output Processing/France/National (IISR)/SVGs.
+* `de_bast.py` — Germany national pack from BASt's free vector artwork (EPS at 1:1 via the uk_eps route); REGISTER.csv of every Zeichen with the vector/JPG/none gap.
