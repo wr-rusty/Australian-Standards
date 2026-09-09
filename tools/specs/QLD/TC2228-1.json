@@ -15,20 +15,13 @@
  "vary": {
   "key": "speed",
   "values": [
-   5,
-   10,
-   20,
-   30,
    40,
    50,
    60,
    70,
    80,
    90,
-   100,
-   110,
-   120,
-   130
+   100
   ]
  },
  "elements": [
@@ -69,7 +62,7 @@
    "top": 1035
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2228_1 'Trucks and buses' speed regulatory sign (2016; TC2228_2 is the END sign). Size B 600 x 1200 generated to match the national R4-1 (600 wide; A 450 x 900 and C 900 x 1800 also tabled): r 75, unbordered white as R4-1. Chain c 65 / f 587 (red annulus, g 467 inside) / k 73 / d 100DN / e 55 / d / e / d / c 65 = 1200: annulus centre (300, 358.5), R293.5 / R233.5; numerals h 240DN centred on the annulus (cap top 238.5), 'insert appropriate speed' (30 shown): speeds generated as R4-1, two numerals Series D and three Series C; TRUCKS / AND / BUSES 100 D cap tops 725, 880, 1035. Red and black on white.",
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2228_1 'Trucks and buses' speed regulatory sign (2016; TC2228_2 is the END sign). Size B 600 x 1200 generated to match the national R4-1 (600 wide; A 450 x 900 and C 900 x 1800 also tabled): r 75, unbordered white as R4-1. Chain c 65 / f 587 (red annulus, g 467 inside) / k 73 / d 100DN / e 55 / d / e / d / c 65 = 1200: annulus centre (300, 358.5), R293.5 / R233.5; numerals h 240DN centred on the annulus (cap top 238.5), 'insert appropriate speed' (30 shown): speeds generated as R4-1, two numerals Series D and three Series C; TRUCKS / AND / BUSES 100 D cap tops 725, 880, 1035. Red and black on white. 2026-09-09: speed values trimmed from 5-130 to 40-100: the sheet says only 'insert appropriate speed'; a trucks-and-buses limit below the general limit: 40-100 generated (Russell: make the variants that make sense, not every value).",
  "panel_px": [
   694,
   325,

@@ -14,20 +14,10 @@
  "vary": {
   "key": "speed",
   "values": [
-   5,
-   10,
-   20,
    30,
    40,
    50,
-   60,
-   70,
-   80,
-   90,
-   100,
-   110,
-   120,
-   130
+   60
   ]
  },
  "elements": [
@@ -68,7 +58,7 @@
    "top": 1040
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2089 'Speed restriction when bicycles present' regulatory sign (2015/2024), one size drawn: 600 x 1200, r60, unbordered white. Red annulus centre 353 from the top on the sign's centre line, R297 / R237 (the R4-1B annulus); numerals 240D 'insert appropriate speed limit' (40 in the sheet's example) centred on the annulus (cap top 233), speeds generated as R4-1 (two numerals Series D, three Series C). Chain below the annulus 90 / 100C / 50 / 100C / 50 / 100C / 60 = to 1200: WHEN / BICYCLES / PRESENT cap tops 740, 890, 1040. Red and black on white.",
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2089 'Speed restriction when bicycles present' regulatory sign (2015/2024), one size drawn: 600 x 1200, r60, unbordered white. Red annulus centre 353 from the top on the sign's centre line, R297 / R237 (the R4-1B annulus); numerals 240D 'insert appropriate speed limit' (40 in the sheet's example) centred on the annulus (cap top 233), speeds generated as R4-1 (two numerals Series D, three Series C). Chain below the annulus 90 / 100C / 50 / 100C / 50 / 100C / 60 = to 1200: WHEN / BICYCLES / PRESENT cap tops 740, 890, 1040. Red and black on white. 2026-09-09: speed values trimmed from 5-130 to 30-60: the sheet says only 'insert appropriate speed'; a limit that applies when bicycles are present is a low urban value: 30-60 generated (Russell: make the variants that make sense, not every value).",
  "panel_px": [
   647,
   403,

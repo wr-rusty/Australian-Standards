@@ -14,20 +14,13 @@
  "vary": {
   "key": "speed",
   "values": [
-   5,
-   10,
-   20,
-   30,
    40,
    50,
    60,
    70,
    80,
    90,
-   100,
-   110,
-   120,
-   130
+   100
   ]
  },
  "elements": [
@@ -90,7 +83,7 @@
    "top": 1040
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2071 'Speed limit vehicles ...t GVM and over' regulatory sign (2013/2022; page 2 is the set-out with G9-49). Size B generated to match the national R4-1 (600 wide; A 450 also tabled): r 75, unbordered white. Chain c 60 / h 586 (red annulus, k 466 inside: R293 / R233, centre (300, 353)) / g 74 / d 100C VEHICLES / c 60 / e 100C numerals + 85Em t + 100C GVM / c 60 / d 100C AND OVER / c 60 = 1200. DISAGREEMENT: the table gives b = 1600 for size B (1200 for A) but the chain sums to 1200 (900 for A) and the drawing is 2:1, so the chain's 600 x 1200 is generated. Numerals m 240D centred on the annulus (cap top 233), speeds generated as R4-1; VEHICLES cap top 720, '20t GVM' 880 ('insert appropriate weight', 20 shown; gaps 5 and 86 measured from the sheet), AND OVER 1040 (gap 56 measured). Red and black on white.",
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2071 'Speed limit vehicles ...t GVM and over' regulatory sign (2013/2022; page 2 is the set-out with G9-49). Size B generated to match the national R4-1 (600 wide; A 450 also tabled): r 75, unbordered white. Chain c 60 / h 586 (red annulus, k 466 inside: R293 / R233, centre (300, 353)) / g 74 / d 100C VEHICLES / c 60 / e 100C numerals + 85Em t + 100C GVM / c 60 / d 100C AND OVER / c 60 = 1200. DISAGREEMENT: the table gives b = 1600 for size B (1200 for A) but the chain sums to 1200 (900 for A) and the drawing is 2:1, so the chain's 600 x 1200 is generated. Numerals m 240D centred on the annulus (cap top 233), speeds generated as R4-1; VEHICLES cap top 720, '20t GVM' 880 ('insert appropriate weight', 20 shown; gaps 5 and 86 measured from the sheet), AND OVER 1040 (gap 56 measured). Red and black on white. 2026-09-09: speed values trimmed from 5-130 to 40-100: the sheet says only 'insert appropriate speed'; a heavy-vehicle limit below the general limit: 40-100 generated; the weight is the sheet's example 20 t (Russell: make the variants that make sense, not every value).",
  "panel_px": [
   653,
   258,
