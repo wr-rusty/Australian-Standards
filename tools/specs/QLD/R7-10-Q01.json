@@ -1,0 +1,99 @@
+{
+ "code": "R7-10-Q01",
+ "pack": "QLD",
+ "name": "{speed}_TRAMWAY_ONLY_WHITE_TALL",
+ "legend": "{speed} (tram) ONLY",
+ "folder": "Speed Signs/Normal Speed Signs",
+ "shape": "rect",
+ "size": [
+  450,
+  900
+ ],
+ "radius": 15,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "panel_px": [
+  658,
+  272,
+  1011,
+  981
+ ],
+ "symbols": {
+  "qld_r7-10-q01_tram": {
+   "source": "R7-10-Q01",
+   "pack": "QLD",
+   "panel_px": [
+    658,
+    272,
+    1011,
+    981
+   ],
+   "desc": "tram (side view, trolley pole) 200 tall, from the sheet's grid inset; box measured on the drawing",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 240,
+   "r_outer": 220,
+   "r_inner": 175,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 180,
+   "top": 150
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r7-10-q01_tram",
+   "x": 30,
+   "y": 470,
+   "w": 380,
+   "h": 200,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 25,
+   "y": 700,
+   "w": 400,
+   "h": 170,
+   "radius": 25,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 120,
+   "top": 725,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R7-10-Q01 'Speed - tramway only' regulatory sign (2022). Size A 450 x 900 generated (B 600 x 1200, C 900 x 1800, D 1200 x 2400 also tabled): corner r1 15, unbordered white. Chain k 20 / g 440 (red annulus, h 350 inside: R220 / R175, centre (225, 240)) / o 10 / f 200 (tram symbol) / c 30 / e 25 / d 120C ONLY / e 25 / c 30 = 900. Numerals m 180D centred on the annulus (cap top 150), 'insert appropriate speed' (60 shown): generated as R4-1 (two numerals D, three C; tramway limits may be multiples of 5). Red ONLY panel n 400 wide (x 25-425), y 700-870, r2 25, white ONLY 120 C cap top 725. Tram symbol 200 tall from the grid inset, width not stated: traced from the sheet (tools/symbols/qld_r7-10-q01_tram.svg), box 380 wide measured on the drawing. Red, black and white."
+}

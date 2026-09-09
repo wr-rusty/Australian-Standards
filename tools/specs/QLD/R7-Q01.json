@@ -1,0 +1,79 @@
+{
+ "code": "R7-Q01",
+ "pack": "QLD",
+ "name": "AHEAD_ARROW_WHITE_LONG",
+ "legend": "AHEAD (arrow)",
+ "shape": "rect",
+ "size": [
+  600,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 80,
+   "top": 50
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     150.0,
+     210.0
+    ],
+    [
+     219.0,
+     250.0
+    ],
+    [
+     212.25,
+     221.6
+    ],
+    [
+     450.0,
+     225.6
+    ],
+    [
+     450.0,
+     194.4
+    ],
+    [
+     212.25,
+     198.4
+    ],
+    [
+     219.0,
+     170.0
+    ]
+   ],
+   "radius": [
+    5,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R7-Q01 'AHEAD - arrow (L & R)' (1995/2016), for use with the R7-1 signs. Size R7-Q01C 600 x 300 generated (D 900 x 450 also tabled), r 25, c 5 / d 15. Chain e 50 / h 80E / g 40 / f 80 (arrow) / e 50 = 300: AHEAD cap top 50, arrow 170-250, k 300 long centred (150 each side). The arrow's own geometry is not detailed on the sheet: the AS 1743 W8-3 supplementary-plate arrow (400 x 100: head 92 long, shaft 39 tapering to 29, notch 9, R5) fitted to the 300 x 80 box, as R9-Q05 refers to it for the same arrow. Drawn (L), the arrow pointing left; (R) mirrored. Black on white."
+}

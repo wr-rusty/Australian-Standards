@@ -1,0 +1,44 @@
+{
+ "code": "R6-6-Q01",
+ "pack": "QLD",
+ "name": "STOP_HERE_ON_RED_SIGNAL_RED_LONG",
+ "legend": "STOP HERE ON RED SIGNAL",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "STOP",
+    "HERE"
+   ],
+   "gap": 87,
+   "series": "D",
+   "height": 150,
+   "top": 120,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "RED",
+    "SIGNAL"
+   ],
+   "gap": 66,
+   "series": "D",
+   "height": 110,
+   "top": 370,
+   "colour": "red"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-6-Q01 'Stop here on red signal' multi-message sign plate (2017/2020), 1200 x 600 across two 600 x 600 panels of a multi-message frame, used in lieu of R6-6. Black border 25, square corners (drawn without radius or edge, as the national RM plates). Chain 120 / 150D / 100 / 110D / 120 = 600: cap tops 120 and 370. Red legend on white. Word gaps not stated: 87 and 66 measured from the sheet's drawing (lines 1045 and 1041 wide inside the 1150)."
+}

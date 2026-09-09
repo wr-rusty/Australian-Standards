@@ -1,0 +1,33 @@
+{
+ "code": "RM4-Q01",
+ "pack": "QLD",
+ "name": "RAMP_SPEED_WHITE_SQUARE",
+ "legend": "RAMP SPEED",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "RAMP",
+   "series": "D",
+   "height": 120,
+   "top": 130
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "D",
+   "height": 120,
+   "top": 350
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM4-Q01 'Ramp speed' multi-message sign plate (2021), used only with a speed limit sign in a multi-message frame. 600 x 600, black border 25, square corners. Chain 130 / 120D / 100 / 120D / 130 = 600: cap tops 130 and 350. Black on white."
+}

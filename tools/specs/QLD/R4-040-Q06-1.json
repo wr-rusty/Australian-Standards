@@ -1,0 +1,38 @@
+{
+ "code": "R4-040-Q06-1",
+ "pack": "QLD",
+ "name": "{veh}_WHITE_WIDE",
+ "legend": "{veh}",
+ "shape": "rect",
+ "size": [
+  450,
+  150
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "veh",
+  "values": [
+   "BUSES",
+   "TRUCKS"
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{veh}",
+   "series": "D",
+   "height": 60,
+   "top": 45
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q06_1 'Class of vehicle supplementary plate' page 1 (2025): two plates, R4-040-Q06_1_1 BUSES and _1_2 TRUCKS, generated as the two values of one spec (under a speed sign, see the sheet's examples). Size A 450 x 150 generated (B 600 x 200, C 900 x 300, D 1200 x 400 also tabled), r 25, c 5 / d 15. Chain e 45 / f 60D / e 45 = 150: cap top 45. Black on white."
+}

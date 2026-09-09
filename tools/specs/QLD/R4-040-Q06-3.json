@@ -1,0 +1,45 @@
+{
+ "code": "R4-040-Q06-3",
+ "pack": "QLD",
+ "name": "TRUCKS_AND_BUSES_WHITE_LONG",
+ "legend": "TRUCKS AND BUSES",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "D",
+   "height": 50,
+   "top": 40
+  },
+  {
+   "type": "text",
+   "text": "AND",
+   "series": "D",
+   "height": 50,
+   "top": 125
+  },
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 50,
+   "top": 210
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q06_3 'Class of vehicle supplementary plate' page 3, TRUCKS AND BUSES (2025). Size A 450 x 300 generated (B 600 x 400, C 900 x 600, D 1200 x 800 also tabled), r 25, c 5 / d 15. Chain e 40 / f 50D / g 35 / f / g / f / e 40 = 300: cap tops 40, 125, 210. Black on white."
+}

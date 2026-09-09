@@ -1,0 +1,39 @@
+{
+ "code": "RM7-Q01",
+ "pack": "QLD",
+ "name": "FOUR_WHEEL_DRIVE_VEHICLES_EXCEPTED_WHITE_LONG_SKINNY",
+ "legend": "FOUR WHEEL DRIVE VEHICLES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "FOUR",
+    "WHEEL",
+    "DRIVE",
+    "VEHICLES"
+   ],
+   "gap": 33,
+   "series": "C",
+   "height": 65,
+   "top": 60
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 75,
+   "top": 165
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM7-Q01 'Four wheel drive vehicles excepted' multi-message sign plate (2021), 1200 x 300, used with the ROAD CLOSED / NO ENTRY plates. Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). Chain 60 / 65C / 40 / 75D / 60 = 300: cap tops 60 and 165. Word gaps not stated: 33 measured from the sheet's drawing (line 1035 wide). Black on white."
+}

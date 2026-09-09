@@ -1,0 +1,59 @@
+{
+ "code": "R2-9-Q01",
+ "pack": "QLD",
+ "name": "RIGHT_LANE_MUST_U_TURN_WHITE_TALL",
+ "legend": "RIGHT LANE MUST U TURN",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "E",
+   "height": 80,
+   "top": 61
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 80,
+   "top": 178
+  },
+  {
+   "type": "text",
+   "text": "MUST",
+   "series": "E",
+   "height": 80,
+   "top": 295
+  },
+  {
+   "type": "text",
+   "text": "U",
+   "series": "E",
+   "height": 160,
+   "top": 412
+  },
+  {
+   "type": "text",
+   "text": "TURN",
+   "series": "E",
+   "height": 80,
+   "top": 609
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R2-9-Q01 'Right lane must U turn' (traffic instruction sign, 2023). Size A 450 x 750 generated (B 600 x 1000 also tabled), r 50, c 10 / d 30. Vertical chain e 61 / f 80E / g 37 / f / g / f / g / h 160E / g / f / e 61 = 750: cap tops 61, 178, 295, 412 (U), 609. Black on white."
+}

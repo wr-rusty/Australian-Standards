@@ -1,0 +1,130 @@
+{
+ "code": "R6-100-Q03-2",
+ "pack": "QLD",
+ "name": "PERSONAL_MOBILITY_DEVICES_PROHIBITED_WHITE_TALL",
+ "legend": "PERSONAL MOBILITY DEVICES PROHIBITED (symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  1100
+ ],
+ "radius": 50,
+ "ground": "white",
+ "panel_px": [
+  361,
+  233,
+  833,
+  1100
+ ],
+ "symbols": {
+  "qld_r6-100-q03_escooter": {
+   "source": "R6-100-Q03-2",
+   "pack": "QLD",
+   "panel_px": [
+    361,
+    233,
+    833,
+    1100
+   ],
+   "desc": "electric scooter (side view, lightning bolt) k 177 left / m 183 right of centre, from the sheet's grid inset; ink box measured on the sheet",
+   "colours": [
+    "black"
+   ],
+   "nomask": true
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_r6-100-q03_escooter",
+   "x": 122,
+   "y": 82.6,
+   "w": 358.5,
+   "h": 359.7,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     168.2,
+     94.66
+    ],
+    [
+     505.34,
+     431.8
+    ],
+    [
+     431.8,
+     505.34
+    ],
+    [
+     94.66,
+     168.2
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     111.31,
+     74.54
+    ],
+    [
+     525.46,
+     488.69
+    ],
+    [
+     488.69,
+     525.46
+    ],
+    [
+     74.54,
+     111.31
+    ]
+   ],
+   "radius": 0,
+   "colour": "red"
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "PERSONAL",
+   "series": "C",
+   "height": 80,
+   "top": 628
+  },
+  {
+   "type": "text",
+   "text": "MOBILITY",
+   "series": "C",
+   "height": 80,
+   "top": 748
+  },
+  {
+   "type": "text",
+   "text": "DEVICES",
+   "series": "C",
+   "height": 80,
+   "top": 868
+  },
+  {
+   "type": "text",
+   "text": "PROHIBITED",
+   "series": "C",
+   "height": 80,
+   "top": 988
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-100-Q03_2 'Personal mobility devices prohibited' (2025; page 1 is the 300 square symbol-only sign). Size B 600 x 1100 generated (A 450 x 825 also tabled): r 50, unbordered white. Chain c 6 / d 588 (red annulus r1 294 / r2 244, centre (300, 300)) / e 34 / f 80C / g 40 / f / g / f / g / f / h 32 = 1100: PERSONAL / MOBILITY / DEVICES / PROHIBITED cap tops 628, 748, 868, 988. Slash p 52 at 45 degrees, white gap o 26. Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-left to lower-right (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Symbol box k 177 left / m 183 right of the centre line in the table (n 144 below); the drawn e-scooter's ink measured on the sheet at x 122, y 82.6, 358.5 x 359.7 is used (tools/symbols/qld_r6-100-q03_escooter.svg). Red and black on white."
+}

@@ -1,0 +1,8 @@
+{
+ "code": "TC2204",
+ "pack": "QLD",
+ "drawing": "TC2204",
+ "legend": "ROAD CLOSED - NO ENTRY (LED)",
+ "folder": "Regulatory Signs",
+ "skip": "electronic LED sign (black background, LED red annulus and LED white legend, rows of LEDs per MRTS206): not a static sign face for the library; the static ROAD CLOSED / NO ENTRY faces are the national TM2-4 / R2-4"
+}

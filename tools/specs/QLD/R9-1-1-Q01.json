@@ -1,0 +1,88 @@
+{
+ "code": "R9-1-1-Q01",
+ "pack": "QLD",
+ "name": "2.30-3.30_PM_SCHOOL_DAYS_WHITE_LONG",
+ "legend": "2.30 - 3.30 PM SCHOOL DAYS",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "2",
+   "series": "C",
+   "height": 120,
+   "top": 50,
+   "align": "left",
+   "x": 40
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 60,
+   "top": 50,
+   "align": "left",
+   "x": 119
+  },
+  {
+   "type": "rect",
+   "x": 212,
+   "y": 97,
+   "w": 34,
+   "h": 10,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "C",
+   "height": 120,
+   "top": 50,
+   "align": "left",
+   "x": 255
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 60,
+   "top": 50,
+   "align": "left",
+   "x": 331
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "D",
+   "height": 45,
+   "top": 125,
+   "align": "left",
+   "x": 338
+  },
+  {
+   "type": "text",
+   "words": [
+    "SCHOOL",
+    "DAYS"
+   ],
+   "gap": 24,
+   "series": "C",
+   "height": 45,
+   "top": 210
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R9-1-1-Q01 'Times of operation school days' supplementary plate (2017), 'insert appropriate times' (2.30 - 3.30 PM shown). Size A 450 x 300 generated (B 600 x 400 also tabled), r 50, c 6 / d 18 (edge 6 + border 12). Chains: left k 50 / h 120C (hour numerals) / g 40 / f 45E SCHOOL DAYS / e 45 = 300; right k 50 / p 60C (minutes, superscript) / o 15 / n 45D PM / m 130 = 300: hours and minutes cap top 50, PM top 125, SCHOOL DAYS top 210. Horizontal positions are not dimensioned: ink lefts 40 (2), 119 (30), 255 (3), 331 (30), 338 (PM) and the dash 34 x 10 at x 212, y 97 measured from the sheet's live text and line-work; SCHOOL DAYS gap 24 measured. DISAGREEMENT: the table gives SCHOOL DAYS as 45E, but Series E at 45 is 446 of ink and cannot fit the 414 inside the border; the sheet's drawn line measures 336 (312 of letters + 24 gap), which is Series C at 45 (314) exactly, so Series C is used. Black on white."
+}

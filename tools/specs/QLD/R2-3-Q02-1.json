@@ -1,0 +1,112 @@
+{
+ "code": "R2-3-Q02-1",
+ "pack": "QLD",
+ "drawing": "R2-3-Q02",
+ "name": "KEEP_LEFT_WHITE_TALL",
+ "legend": "KEEP LEFT (arrow)",
+ "shape": "rect",
+ "size": [
+  180,
+  1200
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  286,
+  303,
+  458,
+  1436
+ ],
+ "symbols": {
+  "qld_r2-3-q02_arrow": {
+   "source": "R2-3-Q02",
+   "pack": "QLD",
+   "panel_px": [
+    286,
+    303,
+    458,
+    1436
+   ],
+   "desc": "arrow pointing down-left, 100 tall, from the sheet's grid inset; width measured on the drawing",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "K",
+   "series": "D",
+   "height": 90,
+   "top": 65
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "D",
+   "height": 90,
+   "top": 175
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "D",
+   "height": 90,
+   "top": 285
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "D",
+   "height": 90,
+   "top": 395
+  },
+  {
+   "type": "text",
+   "text": "L",
+   "series": "D",
+   "height": 90,
+   "top": 555
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "D",
+   "height": 90,
+   "top": 665
+  },
+  {
+   "type": "text",
+   "text": "F",
+   "series": "D",
+   "height": 90,
+   "top": 775
+  },
+  {
+   "type": "text",
+   "text": "T",
+   "series": "D",
+   "height": 90,
+   "top": 885
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r2-3-q02_arrow",
+   "x": 38.7,
+   "y": 1035,
+   "w": 101.5,
+   "h": 100,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R2-3-Q02 'Keep left' regulatory sign (2008/2022), three sizes drawn side by side: R2-3-Q02_1 180 x 1200 generated (the leftmost; _2 100 x 1050 with 70D letters and _3 150 x 1150 with 80D also drawn, same layout). R25, 15 / 5 (edge 5 + border 10). Letters stacked one per line, centred: chain 65 / 90D K / 20 / E / 20 / E / 20 / P / 70 / L / 20 / E / 20 / F / 20 / T / 60 / 100 (arrow) / 65 = 1200: cap tops 65, 175, 285, 395, 555, 665, 775, 885; arrow 1035-1135 pointing down-left, width not stated: traced from the sheet (tools/symbols/qld_r2-3-q02_arrow.svg), ink box measured x 38.7, 101.5 wide. Black on white."
+}

@@ -1,0 +1,59 @@
+{
+ "code": "R3-Q01",
+ "pack": "QLD",
+ "name": "WALK_TO_ISLAND_AND_WAIT_FOR_FURTHER_SIGNAL_WHITE_LONG",
+ "legend": "WALK TO ISLAND AND WAIT FOR FURTHER SIGNAL",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "WALK",
+    "TO",
+    "ISLAND"
+   ],
+   "gap": 23,
+   "series": "B",
+   "height": 55,
+   "top": 36
+  },
+  {
+   "type": "text",
+   "words": [
+    "AND",
+    "WAIT",
+    "FOR"
+   ],
+   "gap": 23,
+   "series": "B",
+   "height": 55,
+   "top": 123
+  },
+  {
+   "type": "text",
+   "words": [
+    "FURTHER",
+    "SIGNAL"
+   ],
+   "gap": 23,
+   "series": "B",
+   "height": 55,
+   "top": 210
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R3-Q01 (1995/2016). 450 x 300, R25, 5 / 15. Chain 36 / 55B / 32 / 55B / 32 / 55B / 35 = 300: cap tops 36, 123, 210. Word gaps are not stated: 23 measured from the sheet's drawing (word gaps 22-27, lines 388 / 333 / 394 wide at 55 B), so each line fits the 420 inside the border; the font's own space glyph would overflow the sign. Black on white."
+}

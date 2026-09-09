@@ -1,0 +1,38 @@
+{
+ "code": "RM9-9-Q01-B",
+ "pack": "QLD",
+ "drawing": "RM9-9-Q01",
+ "name": "ONE_LANE_WHITE_LONG_SKINNY",
+ "legend": "ONE LANE",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "which": 1,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ONE",
+    "LANE"
+   ],
+   "gap": 71,
+   "series": "D",
+   "height": 120,
+   "top": 90
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM9-9-Q01 'One lane' multi-message sign plates (2025), lower plate RM9-9-Q01B 1200 x 300. Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). Chain 90 / 120D / 90 = 300: cap top 90. Word gap not stated: 71 measured from the sheet's drawing. Black on white.",
+ "panel_px": [
+  384,
+  1103,
+  1322,
+  1342
+ ]
+}

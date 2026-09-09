@@ -1,0 +1,86 @@
+{
+ "code": "TC2228-2",
+ "pack": "QLD",
+ "drawing": "TC2228_p2",
+ "name": "END_{speed}_TRUCKS_AND_BUSES_WHITE_TALL",
+ "legend": "END {speed} TRUCKS AND BUSES",
+ "folder": "Speed Signs/End",
+ "shape": "rect",
+ "size": [
+  600,
+  1500
+ ],
+ "radius": 75,
+ "ground": "white",
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 88
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 641.5,
+   "r_outer": 293.5,
+   "r_inner": 233.5,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 240,
+   "top": 521.5
+  },
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "D",
+   "height": 100,
+   "top": 1035
+  },
+  {
+   "type": "text",
+   "text": "AND",
+   "series": "D",
+   "height": 100,
+   "top": 1190
+  },
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 100,
+   "top": 1345
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2228_2 'End trucks and buses' speed regulatory sign (2016), used with TC2228_1. Size B 600 x 1500 generated (A 450 x 1200, C 900 x 2400 also tabled): r 75, unbordered white. Chain n 88 / m 160EM END / e 100 / f 587 (black annulus, g 467 inside) / e 100 / d 100DN / c 55 / d / c / d / c 55 = 1500: END cap top 88 ('EM' read as Series E, M suffix as TMR's modified-series label); annulus centre (300, 641.5), R293.5 / R233.5, black; numerals 240DN centred on the annulus (cap top 521.5), speeds generated as R4-1; TRUCKS / AND / BUSES 100 D cap tops 1035, 1190, 1345. Black on white.",
+ "panel_px": [
+  617,
+  302,
+  971,
+  1170
+ ]
+}

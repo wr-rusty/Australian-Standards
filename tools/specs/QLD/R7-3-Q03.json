@@ -1,0 +1,38 @@
+{
+ "code": "R7-3-Q03",
+ "pack": "QLD",
+ "name": "KERB_LANES_WHITE_LONG",
+ "legend": "KERB LANES",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "KERB",
+   "series": "E",
+   "height": 100,
+   "top": 75
+  },
+  {
+   "type": "text",
+   "text": "LANES",
+   "series": "E",
+   "height": 100,
+   "top": 225
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R7-3-Q03 'Kerb lanes' supplementary plate (2019). Size B 600 x 400 generated to match the national R6-10-2 (600) it sits under (A 450 x 300, C 900 x 600, D 1200 x 800 also tabled): r 25, c 5 / d 15 (edge 5 + border 10 at size B per the table); chain e 75 / f 100E / g 50 / f 100E / e 75 = 400: cap tops 75 and 225. Black on white."
+}

@@ -1,0 +1,62 @@
+{
+ "code": "R6-33-Q01",
+ "pack": "QLD",
+ "name": "OVERALL_WIDTH_LIMIT_3.5_m_WHITE_TALL",
+ "legend": "OVERALL WIDTH LIMIT 3.5 m",
+ "shape": "rect",
+ "size": [
+  1200,
+  1350
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "OVERALL",
+   "series": "D",
+   "height": 180,
+   "top": 135
+  },
+  {
+   "type": "text",
+   "text": "WIDTH",
+   "series": "D",
+   "height": 180,
+   "top": 435
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 180,
+   "top": 735
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "3.5",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 150
+    }
+   ],
+   "top": 1035,
+   "gap": 75
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-33-Q01 'Overall width limit ...m' traffic instruction sign (2022). 1200 x 1350, R100, 15 / 45 (edge 15 + border 30). Chain 135 / 180D / 120 / 180D / 120 / 180D / 120 / 180E numerals with 150Em 'm' / 135 = 1350: cap tops 135, 435, 735, 1035 (numerals and m share the baseline). Width numerals 'insert appropriate width, e.g. 3.5' (3.5 shown, dashed box on the sheet); numeral-to-m gap not stated, 75 measured from the sheet's live text. Black on white."
+}

@@ -1,0 +1,71 @@
+{
+ "code": "R5-Q01",
+ "pack": "QLD",
+ "name": "TOW-AWAY_ZONE_RED_SQUARE",
+ "legend": "TOW-AWAY ZONE IF TOWED PHONE POLICE",
+ "folder": "Parking Signs",
+ "shape": "rect",
+ "size": [
+  225,
+  200
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "red",
+  "width": 10
+ },
+ "panel_px": [
+  569,
+  694,
+  1100,
+  1167
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TOW-AWAY",
+   "series": "D",
+   "height": 30,
+   "top": 38,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 30,
+   "top": 92,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "IF",
+    "TOWED",
+    "PHONE"
+   ],
+   "gap": 7,
+   "series": "B",
+   "height": 15,
+   "top": 146,
+   "align": "left",
+   "x": 23,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "POLICE",
+   "series": "B",
+   "height": 15,
+   "top": 146,
+   "cx": 172.5,
+   "colour": "red"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R5-Q01 'Tow-away zone' regulatory (parking) sign (1995/2016). 225 x 200, R25, 5 / 15: white edge 5, red border 10 (legend and border red on white). Chain 38 / 30D TOW-AWAY / 24 / 30D ZONE / 24 / 15B IF TOWED PHONE / 39 = 200: cap tops 38, 92, 146. Bottom line: IF TOWED PHONE 15 B left-aligned (ink left 23 and word gaps 7 measured from the sheet's drawing) and the dashed 65-wide box 20 in from the right edge (x 140-205) for 'POLICE or phone number': POLICE 15 B centred in the box (the sheet leaves it blank). Red on white."
+}

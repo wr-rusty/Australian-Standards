@@ -44,7 +44,14 @@ PACKS = {"NSW": {"out": os.path.join(ROOT, "Processing", "Australia", "NSW", "SV
          "NT": {"out": os.path.join(ROOT, "Processing", "Australia", "NT", "SVGs (generated)"),
                 "png": os.path.join(ROOT, "Processing", "Australia", "NT", "Original PNGs"),
                 "pdf": os.path.join(ROOT, "Processing", "Australia", "NT", "Original PDFs"),
-                "credit": "\u00a9 Northern Territory of Australia (Department of Logistics and Infrastructure), standard drawings \u2014 Crown copyright, reuse per the site's copyright terms"}}
+                "credit": "\u00a9 Northern Territory of Australia (Department of Logistics and Infrastructure), standard drawings \u2014 Crown copyright, reuse per the site's copyright terms"},
+         # QLD: no register \u2014 TMR TC-series design sheets (one PDF per sign under "pdf"/TC signs/<collection>/<category>/) and the
+         # Q-series book (q-series.pdf, one sign per page); PNGs are rendered by code (TC2255.png, R2-9-Q01.png; multi-page sheets
+         # CODE_p2.png) and specs name their sheet with "drawing". Dimensioned colour sheets with a size table, see the pack's SOURCES.md.
+         "QLD": {"out": os.path.join(ROOT, "Processing", "Australia", "QLD", "SVGs (generated)"),
+                 "png": os.path.join(ROOT, "Processing", "Australia", "QLD", "Original PNGs"),
+                 "pdf": os.path.join(ROOT, "Processing", "Australia", "QLD", "Original PDFs"),
+                 "credit": "\u00a9 State of Queensland (Department of Transport and Main Roads), CC BY 4.0"}}
 def out_root(spec):
     """Where a spec's SVGs go: the AS 1743 pack unless the spec names another pack."""
     return PACKS[spec["pack"]]["out"] if spec.get("pack") else OUT_ROOT
@@ -318,7 +325,10 @@ def folder_for(spec):
 
 def expand(spec):
     vary = spec.get("vary")
-    valsets = [{vary["key"]: v} for v in vary["values"]] if vary else [{}]
+    # "vary": {"key": "speed", "values": [40, 60]} — one placeholder; or {"keys": ["truck", "other"], "values": [[40, 60], ...]}
+    # for legends with several values that change together (R4-246n's two speed rings)
+    if vary and vary.get("keys"): valsets = [dict(zip(vary["keys"], v)) for v in vary["values"]]
+    else: valsets = [{vary["key"]: v} for v in vary["values"]] if vary else [{}]
     hands = spec.get("hands") or [None]
     for values in valsets:
         for hand in hands:

@@ -1,0 +1,65 @@
+{
+ "code": "R2-Q02",
+ "pack": "QLD",
+ "name": "THROUGH_TRAFFIC_KEEP_{dir}_WHITE_TALL",
+ "legend": "THROUGH TRAFFIC KEEP {dir}",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "THROUGH",
+   "series": "B",
+   "height": 100,
+   "top": 80
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "C",
+   "height": 100,
+   "top": 260
+  },
+  {
+   "type": "text",
+   "text": "KEEP",
+   "series": "D",
+   "height": 100,
+   "top": 440
+  },
+  {
+   "type": "text",
+   "text": "{dir}",
+   "series": "D",
+   "height": 100,
+   "top": 620
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R2-Q02 'Through traffic keep left (right) (L & R)' (1995/2016), both hands drawn side by side ((L) left). Size A 600 x 800 generated (B 900 x 1200, C 1200 x 1600 also tabled), r 50, c 10 / d 30. Chain e 80 / h 100B / e / g 100C / e / f 100D / e / f 100D / e = 800: cap tops 80, 260, 440, 620. Black on white; the two hands differ only in the word LEFT / RIGHT."
+}

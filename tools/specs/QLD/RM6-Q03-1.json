@@ -1,0 +1,41 @@
+{
+ "code": "RM6-Q03-1",
+ "pack": "QLD",
+ "drawing": "RM6-Q03",
+ "name": "GROSS_LOAD_LIMIT_WHITE_SQUARE",
+ "legend": "GROSS LOAD LIMIT",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "GROSS",
+   "series": "C",
+   "height": 120,
+   "top": 60
+  },
+  {
+   "type": "text",
+   "text": "LOAD",
+   "series": "C",
+   "height": 120,
+   "top": 240
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "C",
+   "height": 120,
+   "top": 420
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM6-Q03 'Load information boards' multi-message sign plates, upper plate RM6-Q03_1 (2021), 600 x 600. Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). Chain 60 / 120C / 60 / 120C / 60 / 120C / 60 = 600: cap tops 60, 240, 420. Black on white."
+}

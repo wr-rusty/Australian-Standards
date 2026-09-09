@@ -1,0 +1,7 @@
+{
+ "code": "R2-4-Q01-4",
+ "pack": "QLD",
+ "drawing": "R2-4-Q01-4",
+ "legend": "ROAD CLOSED - NO ENTRY (LED)",
+ "skip": "electronic LED sign (black background, LED red annulus and LED white legend, rows of LEDs per MRTS206): not a static sign face for the library; the static ROAD CLOSED / NO ENTRY faces are the national TM2-4 / R2-4"
+}

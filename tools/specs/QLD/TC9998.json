@@ -1,0 +1,102 @@
+{
+ "code": "TC9998",
+ "pack": "QLD",
+ "name": "NO_MOTORCYCLES_WHITE_SQUARE",
+ "legend": "NO MOTORCYCLES (symbol)",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "panel_px": [
+  625,
+  300,
+  1097,
+  772
+ ],
+ "symbols": {
+  "qld_tc9998_motorcycle": {
+   "source": "TC9998",
+   "pack": "QLD",
+   "panel_px": [
+    625,
+    300,
+    1097,
+    772
+   ],
+   "desc": "motorcycle (side view, facing right) 2c 440 x 2d 256, from the sheet's grid inset",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc9998_motorcycle",
+   "x": 80,
+   "y": 172,
+   "w": 440,
+   "h": 256,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     166.48,
+     95.77
+    ],
+    [
+     504.23,
+     433.52
+    ],
+    [
+     433.52,
+     504.23
+    ],
+    [
+     95.77,
+     166.48
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     110.54,
+     75.19
+    ],
+    [
+     524.81,
+     489.46
+    ],
+    [
+     489.46,
+     524.81
+    ],
+    [
+     75.19,
+     110.54
+    ]
+   ],
+   "radius": 0,
+   "colour": "red"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC9998_1 'No motorcycles' regulatory sign (2019; page 2 is the supplementary plate). Size B 600 x 600 generated (A 450, C 750 also tabled): r 50, unbordered white, margin b 6 (annulus outer dia 588), r1 294 / r2 244, slash f 50, gap e 25, symbol box 2c 440 x 2d 256 centred (x 80, y 172); g 114 not used (the slash end offset in the detail). Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-left to lower-right (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Motorcycle traced from the sheet (tools/symbols/qld_tc9998_motorcycle.svg). Red and black on white."
+}

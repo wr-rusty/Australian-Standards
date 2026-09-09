@@ -1,0 +1,119 @@
+{
+ "code": "R2-3-Q01",
+ "pack": "QLD",
+ "name": "KEEP_LEFT_DELINEATOR_WHITE_TALL",
+ "legend": "KEEP LEFT (arrow)",
+ "shape": "rect",
+ "size": [
+  250,
+  1200
+ ],
+ "radius": 20,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  736,
+  317,
+  933,
+  1261
+ ],
+ "symbols": {
+  "qld_r2-3-q01_arrow": {
+   "source": "R2-3-Q01",
+   "pack": "QLD",
+   "panel_px": [
+    736,
+    317,
+    933,
+    1261
+   ],
+   "desc": "arrow pointing down-left, 150 tall, from the sheet's grid inset; width measured on the drawing",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "K",
+   "series": "E",
+   "height": 80,
+   "top": 50
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "E",
+   "height": 80,
+   "top": 150
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "E",
+   "height": 80,
+   "top": 250
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 80,
+   "top": 350
+  },
+  {
+   "type": "text",
+   "text": "L",
+   "series": "E",
+   "height": 80,
+   "top": 510
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "E",
+   "height": 80,
+   "top": 610
+  },
+  {
+   "type": "text",
+   "text": "F",
+   "series": "E",
+   "height": 80,
+   "top": 710
+  },
+  {
+   "type": "text",
+   "text": "T",
+   "series": "E",
+   "height": 80,
+   "top": 810
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r2-3-q01_arrow",
+   "x": 38.1,
+   "y": 905,
+   "w": 175.1,
+   "h": 150,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 15,
+   "y": 1070,
+   "w": 220,
+   "h": 115,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R2-3-Q01 'Keep left delineator' temporary collapsible sign (2016), mounted in a weighted base. 250 x 1200, R20, 5 / 15 (edge 5 + border 10). Letters stacked one per line, centred: chain 50 / 80E K / 20 / E / 20 / E / 20 / P / 80 / L / 20 / E / 20 / F / 20 / T / 15 / 150 (arrow) / 15 / 130 (black band) = 1200: cap tops 50, 150, 250, 350, 510, 610, 710, 810; arrow 905-1055; black band the bottom 130 inside the border (x 15-235, y 1070-1185). Arrow pointing down-left, 150 tall, width not stated: traced from the sheet (tools/symbols/qld_r2-3-q01_arrow.svg), ink box measured x 38.1, 175.1 wide. Black on white."
+}

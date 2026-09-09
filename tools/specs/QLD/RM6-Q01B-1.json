@@ -1,0 +1,45 @@
+{
+ "code": "RM6-Q01B-1",
+ "pack": "QLD",
+ "drawing": "RM6-Q01",
+ "name": "46_t_MAX_WHITE_LONG_SKINNY",
+ "legend": "46 t MAX",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "46",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 120
+    },
+    {
+     "text": "MAX",
+     "series": "D",
+     "height": 140
+    }
+   ],
+   "top": 80,
+   "gap": [
+    35,
+    135
+   ]
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM6-Q01 'Load information board' multi-message sign plate, upper plate RM6-Q01B_1 '...t MAX' (2021), 1200 x 300. Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). Chain 80 / 140D numerals with 120Em unit / 80 = 300: cap top 80, the t on the same baseline. 'Insert appropriate number' (46 shown in the sheet's example) and 'centre legend on the sign': the group is centred as a whole; gaps numeral-t 35 and t-MAX 135 measured from the sheet's drawing. Black on white."
+}

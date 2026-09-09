@@ -1,0 +1,53 @@
+{
+ "code": "RM4-1-Q01",
+ "pack": "QLD",
+ "name": "SPEED_LIMIT_{speed}_WHITE_LONG",
+ "legend": "{speed}",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "vary": {
+  "key": "speed",
+  "values": [
+   5,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100,
+   110,
+   120,
+   130
+  ]
+ },
+ "elements": [
+  {
+   "type": "annulus",
+   "cx": 600,
+   "cy": 300,
+   "r_outer": 250,
+   "r_inner": 199.5,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "speed",
+   "height": 200,
+   "top": 200
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM4-1-Q01 'Speed limit' multi-message sign plate (2025), 1200 x 600 (the plate across two 600 panels; the sheet's examples pair it with a yellow blank or the REDUCE SPEED plate). Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). Red annulus 500 outside / 399 inside, centred (600, 300); numerals 200D 'insert appropriate speed limit' (60 shown, dashed), chain 50 / 150 / 200 / 150 / 50 = 600 so cap top 200. Speeds generated as the national R4-1 (5-130); three numerals other than 110 take Series C as on R4-1 (the 399 inside the annulus cannot take three 200 D numerals). Red and black on white."
+}

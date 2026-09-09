@@ -1,0 +1,65 @@
+{
+ "code": "TC1933",
+ "pack": "QLD",
+ "name": "WATCH_FOR_TRAMS_WHITE_TALL",
+ "legend": "WATCH FOR TRAMS",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "symbols": {
+  "qld_tc1933_tram": {
+   "source": "TC1933",
+   "pack": "QLD",
+   "desc": "tram (side view, trolley pole) 333 x 180, box measured on the sheet",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1933_tram",
+   "x": 58,
+   "y": 35,
+   "w": 333,
+   "h": 180,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "WATCH",
+   "series": "C",
+   "height": 75,
+   "top": 255
+  },
+  {
+   "type": "text",
+   "text": "FOR",
+   "series": "C",
+   "height": 75,
+   "top": 370
+  },
+  {
+   "type": "text",
+   "text": "TRAMS",
+   "series": "C",
+   "height": 75,
+   "top": 485
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1933 'Watch for trams' regulatory sign (2011). 450 x 600, r50, 5 / 15 (edge 5 + border 10). Chain 35 / 180 (tram symbol) / 40 / 75CM / 40 / 75CM / 40 / 75CM / 40 = 600: symbol 35-215, cap tops 255, 370, 485. 'CM' read as Series C (M suffix as TMR's modified-series label, spacing AS 1744 normal). The tram symbol has no dimensions beyond its 180 height: traced from the sheet (tools/symbols/qld_tc1933_tram.svg), box 333 wide centred (x 58) measured on the drawing. Black on white."
+}

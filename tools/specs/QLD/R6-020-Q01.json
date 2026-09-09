@@ -1,0 +1,105 @@
+{
+ "code": "R6-020-Q01",
+ "pack": "QLD",
+ "name": "LANE_FILTERING_PROHIBITED_WHITE_SQUARE",
+ "legend": "LANE FILTERING PROHIBITED (symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "panel_px": [
+  594,
+  336,
+  1069,
+  811
+ ],
+ "symbols": {
+  "qld_r6-020-q01_filtering": {
+   "source": "R6-020-Q01",
+   "pack": "QLD",
+   "panel_px": [
+    594,
+    336,
+    1069,
+    811
+   ],
+   "desc": "motorcyclist filtering between two cars over a two-lane road (black, fills the ring), from the sheet's grid inset",
+   "colours": [
+    "black"
+   ],
+   "nomask": true,
+   "keep_specks": true,
+   "open": 9
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_r6-020-q01_filtering",
+   "x": 93.5,
+   "y": 179.4,
+   "w": 448.4,
+   "h": 362.5,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     429.2,
+     93.02
+    ],
+    [
+     93.02,
+     429.2
+    ],
+    [
+     170.8,
+     506.98
+    ],
+    [
+     506.98,
+     170.8
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     489.46,
+     75.19
+    ],
+    [
+     75.19,
+     489.46
+    ],
+    [
+     110.54,
+     524.81
+    ],
+    [
+     524.81,
+     110.54
+    ]
+   ],
+   "radius": 0,
+   "colour": "red"
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-020-Q01 'Lane filtering prohibited' (issued 2026). Size A 600 x 600 generated (B 900, C 1200 also tabled): r 50, unbordered white, margin b 6 (annulus outer dia 588), ring c 50 (r1 294 / r2 244), slash c 50 at 45 degrees, white gap d 30 each side. Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). The symbol (two cars, a motorcyclist between them and the black road with a broken centre line) fills the inside of the ring: traced from the sheet inside the r2 circle (tools/symbols/qld_r6-020-q01_filtering.svg; traced inside the r2 circle; the traced extent 460 x 374 (traced with keep_specks so the road pieces the slash cuts off, which touch the crop edge, are kept; the sheet's hairline ring outline that the trace picked up was then removed from tools/symbols/qld_r6-020-q01_filtering.svg by dropping the subpath spanning the ring) is fitted to the black ink's extent inside the ring measured on the sheet after removing hairlines, x 93.5, y 179.4, 448 x 362 (the road is clipped by the ring at the bottom and both sides)). Red and black on white.",
+ "intervene": "the sheet draws its slash well off the sign centre (up-right; the symbol's cut measures x + y about 690 against 600), so the traced scene carries a white cut that does not coincide with the centred slash of the detail: needs the scene traced without the cut (grid inset) or a decision to follow the sheet's slash position"
+}

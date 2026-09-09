@@ -1,0 +1,72 @@
+{
+ "code": "R6-28-Q01",
+ "pack": "QLD",
+ "name": "TRUCKS_AND_BUSES_USE_LEFT_LANE_WHITE_TALL",
+ "legend": "TRUCKS & BUSES USE LEFT LANE",
+ "shape": "rect",
+ "size": [
+  1000,
+  1100
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "E",
+   "height": 120,
+   "top": 110,
+   "expect": 692
+  },
+  {
+   "type": "text",
+   "words": [
+    "&",
+    "BUSES"
+   ],
+   "gap": 75,
+   "series": "E",
+   "height": 120,
+   "top": 300,
+   "expect": [
+    null,
+    null
+   ],
+   "expect_total": 751
+  },
+  {
+   "type": "text",
+   "text": "USE",
+   "series": "E",
+   "height": 120,
+   "top": 490,
+   "expect": 332
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 120,
+   "top": 680,
+   "expect": 415
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 120,
+   "top": 870,
+   "expect": 461
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-28-Q01 'Trucks & buses use left lane' (2022/2023). 1000 x 1100, r100, 15 / 45 (edge 15 + border 30). Chain 110 / 120E / 70 / 120E / 70 / 120E / 70 / 120E / 70 / 120E / 110 = 1100: cap tops 110, 300, 490, 680, 870. Widths 154/692/154 TRUCKS, 124/751/125 the '& BUSES' line, 334/332/334 USE, 292/415/293 LEFT, 269/461/270 LANE; AS 1744 Series E reproduces them within 1 mm, and the '& BUSES' gap 75 follows from 751 - 108 - 568. BUSES is the sheet's dashed 'insert appropriate vehicle' box (BUSES shown). Black on white."
+}

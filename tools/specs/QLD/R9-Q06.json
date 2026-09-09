@@ -1,0 +1,31 @@
+{
+ "code": "R9-Q06",
+ "pack": "QLD",
+ "name": "BICYCLES_WHITE_WIDE",
+ "legend": "BICYCLES",
+ "shape": "rect",
+ "size": [
+  450,
+  150
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "BICYCLES",
+   "series": "C",
+   "height": 60,
+   "top": 45
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R9-Q06 'Bicycles' supplementary plate (2024). Size A 450 x 150 generated (B 600 x 200, C 900 x 300, D 1200 x 400 also tabled), r 25, c 5 / d 15. Chain e 45 / f 60C / e 45 = 150: cap top 45. Black on white."
+}

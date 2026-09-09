@@ -1,0 +1,55 @@
+{
+ "code": "R7-3-Q01-1",
+ "pack": "QLD",
+ "name": "{dir}_2_LANES_WHITE_LONG",
+ "legend": "{dir} 2 LANES",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "R",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{dir}",
+   "series": "E",
+   "height": 100,
+   "top": 75
+  },
+  {
+   "type": "text",
+   "words": [
+    "2",
+    "LANES"
+   ],
+   "gap": 57,
+   "series": "C",
+   "height": 100,
+   "top": 225
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R7-3-Q01_1 'Right / left 2 lanes' (2017; page 2 shows the sign combinations). The sheet draws R7-3-Q01R with R7-3-Q01L as a small example: hands (L) LEFT / (R) RIGHT, text only. Size B 600 x 400 generated to match the national R6-10 (600) and R7-3 (600 x 400) it is mounted with (A 450 x 300, C 900 x 600, D 1200 x 800 also tabled): r 50, c 10 / d 30; chain e 75 / h 100E / g 50 / f 100C / e 75 = 400: cap tops 75 and 225. '2 LANES' gap not stated: 57 at size B (43 measured on the sheet's size-A drawing, scaled with the letters). Black on white."
+}

@@ -1,0 +1,7 @@
+{
+ "code": "TC1868",
+ "pack": "QLD",
+ "drawing": "TC1868",
+ "legend": "SPEED RESTRICTION FOR SETTLEMENT",
+ "skip": "vertical chain cannot be resolved: the tabled c / m / m / k / g / h / g below the annulus (200 / 120 / 120 / 40 / 60 / 80 / 60) does not sum with e 353 + r2 297 to the 1200 height, so the houses symbol and SETTLEMENT cannot be placed from the table; the houses symbol would also need tracing from the grid inset"
+}

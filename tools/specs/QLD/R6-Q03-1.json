@@ -1,0 +1,63 @@
+{
+ "code": "R6-Q03-1",
+ "pack": "QLD",
+ "name": "AUTHORISED_BUSES_ONLY_BEYOND_THIS_POINT_WHITE_TALL",
+ "legend": "AUTHORISED BUSES ONLY BEYOND THIS POINT",
+ "shape": "rect",
+ "size": [
+  600,
+  700
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "AUTHORISED",
+   "series": "C",
+   "height": 70,
+   "top": 65
+  },
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "C",
+   "height": 70,
+   "top": 190
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "C",
+   "height": 70,
+   "top": 315
+  },
+  {
+   "type": "text",
+   "text": "BEYOND",
+   "series": "C",
+   "height": 70,
+   "top": 440
+  },
+  {
+   "type": "text",
+   "words": [
+    "THIS",
+    "POINT"
+   ],
+   "gap": 38,
+   "series": "C",
+   "height": 70,
+   "top": 565
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-Q03_1 'Authorised buses only beyond this point' (2010/2016; pages 2-3 are busway layouts). Size A 600 x 700 generated (B 900 x 1000, C 1200 x 1300 also tabled), r 50, c 10 / d 30. Chain e 65 / f 70C / g 55 / f / g / f / g / f / g / f / e = 700: cap tops 65, 190, 315, 440, 565. THIS POINT word gap not stated: 38 measured from the sheet's drawing (line 396 wide). Black on white."
+}

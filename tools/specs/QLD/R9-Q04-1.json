@@ -1,0 +1,47 @@
+{
+ "code": "R9-Q04-1",
+ "pack": "QLD",
+ "name": "{cls}_EXCEPTED_WHITE_LONG",
+ "legend": "{cls} EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "cls",
+  "values": [
+   "CARS",
+   "TAXIS",
+   "TRAMS",
+   "TRUCKS"
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{cls}",
+   "series": "D",
+   "height": 60,
+   "top": 65
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 60,
+   "top": 175
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R9-Q04_1 '... excepted (2 lines)' supplementary plate (2022/2023); the exception class is the sheet's dashed 'insert appropriate exception class' box, with the classes it lists (CARS, TAXIS, TRAMS, TRUCKS) generated as variants (longer names take Series C per the sheet note; R9-Q04_2 / _3 give the 3- and 4-line plates). Size A 450 x 300 generated (B 600 x 400, C 750 x 500 also tabled), r 25, c 5 / d 15. Chain e 65 / f 60D / g 50 / f 60D / e 65 = 300: cap tops 65 and 175. Black on white."
+}

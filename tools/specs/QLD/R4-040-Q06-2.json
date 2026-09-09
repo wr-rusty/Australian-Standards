@@ -1,0 +1,38 @@
+{
+ "code": "R4-040-Q06-2",
+ "pack": "QLD",
+ "name": "ROAD_TRAINS_WHITE_LONG",
+ "legend": "ROAD TRAINS",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 80,
+   "top": 45
+  },
+  {
+   "type": "text",
+   "text": "TRAINS",
+   "series": "D",
+   "height": 80,
+   "top": 175
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R4-040-Q06_2 'Class of vehicle supplementary plate' page 2, ROAD TRAINS (2025). Size A 450 x 300 generated (B 600 x 400, C 900 x 600, D 1200 x 800 also tabled), r 25, c 5 / d 15. Chain e 45 / f 80D / g 50 / f 80D / e 45 = 300: cap tops 45 and 175. Black on white."
+}

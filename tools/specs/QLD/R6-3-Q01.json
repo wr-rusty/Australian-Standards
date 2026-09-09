@@ -1,0 +1,69 @@
+{
+ "code": "R6-3-Q01",
+ "pack": "QLD",
+ "name": "RAMP_LOAD_LIMIT_80_t_GROSS_WHITE_TALL",
+ "legend": "RAMP LOAD LIMIT 80 t GROSS",
+ "shape": "rect",
+ "size": [
+  600,
+  900
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "RAMP",
+   "series": "D",
+   "height": 100,
+   "top": 80
+  },
+  {
+   "type": "text",
+   "text": "LOAD",
+   "series": "D",
+   "height": 100,
+   "top": 240
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 100,
+   "top": 400
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "80",
+     "series": "E",
+     "height": 100
+    },
+    {
+     "text": "t",
+     "series": "Emod",
+     "height": 100
+    }
+   ],
+   "top": 560,
+   "gap": 30
+  },
+  {
+   "type": "text",
+   "text": "GROSS",
+   "series": "D",
+   "height": 100,
+   "top": 720
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-3-Q01 'Ramp load limit ...t gross' (2014/2016), the ramp version of the national R6-3. Size R6-3-Q01A 600 x 900 generated (B 900 x 1350 also tabled), r 50, d 10 / c 30 (edge 10 + border 20; the sheet's c/d labels are swapped against its other sheets, the drawing puts the 10 at the top edge). Chain e 80 / f 100DM / g 60 / f / g / f / g / h 100E numerals + 100E(lc) t / g / f / e = 900: cap tops 80, 240, 400, 560, 720 (as the national R6-3). 'DM' read as Series D (the M suffix taken as TMR's 'modified' series label, spacing kept AS 1744 normal); tonnage numerals 100 E 'insert appropriate gross load limit' (80 shown as on the national R6-3), t lower-case Series E(M) at the 100 cap height; numeral-to-t gap not stated, 30 as R6-3 (about 30 measured on the sheet). Black on white."
+}

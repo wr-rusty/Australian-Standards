@@ -1,0 +1,92 @@
+{
+ "code": "TC1838",
+ "pack": "QLD",
+ "name": "PEDESTRIAN_DIRECTION_{dir}_WHITE_TALL",
+ "legend": "(pedestrian, arrow {dir})",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  608,
+  233,
+  1142,
+  942
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "hand_values": {
+  "L": {
+   "dir": "LEFT"
+  },
+  "R": {
+   "dir": "RIGHT"
+  }
+ },
+ "symbols": {
+  "qld_tc1838_pedestrian": {
+   "source": "TC1838",
+   "pack": "QLD",
+   "panel_px": [
+    608,
+    233,
+    1142,
+    942
+   ],
+   "desc": "walking pedestrian (facing left) h 420 tall, from the sheet's grid inset; width measured on the drawing",
+   "colours": [
+    "black"
+   ]
+  },
+  "qld_tc1838_arrow": {
+   "source": "TC1838",
+   "pack": "QLD",
+   "panel_px": [
+    608,
+    233,
+    1142,
+    942
+   ],
+   "desc": "diagonal arrow pointing up-left, f 190 tall, from the sheet's grid inset; width measured on the drawing",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1838_pedestrian",
+   "x": 189.9,
+   "y": 60,
+   "w": 219.1,
+   "h": 420,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1838_arrow",
+   "x": 204.5,
+   "y": 550,
+   "w": 190,
+   "h": 190,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC1838 'Pedestrian direction' regulatory sign (2010/2019), left direction option drawn (arrow up-left), right option mirrored: hands (L) / (R). Size B 600 x 800 generated (A 450 x 600, C 750 x 1000 also tabled): r 60, c 5 / d 15 (edge 5 + border 10). Chain e 60 / h 420 (pedestrian) / g 70 / f 190 (arrow) / e 60 = 800: pedestrian 60-480, arrow 550-740, both centred. The symbols are on the sheet's grid insets without dimensions beyond their heights: traced from the sheet (tools/symbols/qld_tc1838_pedestrian.svg 219 wide, qld_tc1838_arrow.svg 190 wide, widths measured on the drawing). Black on white."
+}

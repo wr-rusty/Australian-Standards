@@ -1,0 +1,45 @@
+{
+ "code": "RM9-Q01-B",
+ "pack": "QLD",
+ "drawing": "RM9-Q01",
+ "name": "LOCAL_TRAFFIC_EXCEPTED_WHITE_LONG_SKINNY",
+ "legend": "LOCAL TRAFFIC EXCEPTED",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "which": 1,
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LOCAL",
+    "TRAFFIC"
+   ],
+   "gap": 36,
+   "series": "D",
+   "height": 75,
+   "top": 50
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 90,
+   "top": 165
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM9-Q01 'Local traffic excepted' multi-message sign plates (2021/2023), lower plate RM9-Q01_B 1200 x 300. Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). Chain 50 / 75D / 40 / 90D / 45 = 300: cap tops 50 and 165. LOCAL TRAFFIC gap not stated: 36 measured from the sheet's drawing. Black on white.",
+ "panel_px": [
+  393,
+  986,
+  1334,
+  1222
+ ]
+}

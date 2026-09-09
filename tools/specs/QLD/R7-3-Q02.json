@@ -1,0 +1,49 @@
+{
+ "code": "R7-3-Q02",
+ "pack": "QLD",
+ "name": "LEFT_AND_RIGHT_LANES_WHITE_SQUARE",
+ "legend": "LEFT & RIGHT LANES",
+ "shape": "rect",
+ "size": [
+  600,
+  550
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LEFT",
+    "&"
+   ],
+   "gap": 56,
+   "series": "D",
+   "height": 100,
+   "top": 70
+  },
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "D",
+   "height": 100,
+   "top": 225
+  },
+  {
+   "type": "text",
+   "text": "LANES",
+   "series": "D",
+   "height": 100,
+   "top": 380
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R7-3-Q02 'Left & right lanes' supplementary plate under R6-10-2 (2019). Size A 600 x 550 generated (B 900 x 800, C 1200 x 1100 also tabled), r 50, c 10 / d 30. Chain e 70 / f 100D / g 55 / f / g / f / e = 550: cap tops 70, 225, 380. 'LEFT &' gap not stated: 56 measured from the sheet's drawing (line 430 wide). Black on white."
+}

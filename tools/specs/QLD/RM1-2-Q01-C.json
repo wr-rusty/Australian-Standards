@@ -1,0 +1,98 @@
+{
+ "code": "RM1-2-Q01-C",
+ "pack": "QLD",
+ "drawing": "RM1-2-Q01",
+ "name": "GIVE_WAY_PLATE_WHITE_LONG",
+ "legend": "GIVE WAY",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "which": 1,
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     340.19,
+     75.0
+    ],
+    [
+     859.81,
+     75.0
+    ],
+    [
+     600.0,
+     525.0
+    ]
+   ],
+   "radius": 24.0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     360.98,
+     99.0
+    ],
+    [
+     839.02,
+     99.0
+    ],
+    [
+     600.0,
+     513.0
+    ]
+   ],
+   "radius": 12.0,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     438.92,
+     189.0
+    ],
+    [
+     761.08,
+     189.0
+    ],
+    [
+     600.0,
+     468.0
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "GIVE",
+   "series": "E",
+   "height": 60.0,
+   "top": 156.0
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "D",
+   "height": 48.0,
+   "top": 237.0
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet RM1-2-Q01 'Give way' multi-message sign plates (2025), lower plate RM1-2-Q01C 1200 x 600 with the R1-2 triangle 450 tall (chain 75 / 450 / 75). Multi-message sign plate: black border 25, square corners, no edge strip (as the national RM plates). The give-way triangle's own dimensions are not on the sheet: the AS 1743 R1-2 proportions (750 tall: white edge 20, red band 75, R40, GIVE 100 E cap top 135, WAY 80 D top 270, equilateral, apex down) scaled to the tabled height and centred, drawn as polygons on the white plate. Red, black and white.",
+ "panel_px": [
+  403,
+  1017,
+  1347,
+  1489
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "code": "R9-Q04-2",
+ "pack": "QLD",
+ "name": "{cls[name]}_EXCEPTED_WHITE_LONG",
+ "legend": "{cls[leg]} EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "cls",
+  "values": [
+   {
+    "name": "AUTHORISED_BUSES",
+    "leg": "AUTHORISED BUSES",
+    "l1": "AUTHORISED",
+    "l2": "BUSES"
+   },
+   {
+    "name": "BICYCLES_AND TAXIS",
+    "leg": "BICYCLES AND TAXIS",
+    "l1": "BICYCLES",
+    "l2": "AND TAXIS"
+   },
+   {
+    "name": "CANE_VEHICLES",
+    "leg": "CANE VEHICLES",
+    "l1": "CANE",
+    "l2": "VEHICLES"
+   },
+   {
+    "name": "EMERGENCY_VEHICLES",
+    "leg": "EMERGENCY VEHICLES",
+    "l1": "EMERGENCY",
+    "l2": "VEHICLES"
+   },
+   {
+    "name": "LOCAL_DELIVERIES",
+    "leg": "LOCAL DELIVERIES",
+    "l1": "LOCAL",
+    "l2": "DELIVERIES"
+   },
+   {
+    "name": "LOCAL_TRAFFIC",
+    "leg": "LOCAL TRAFFIC",
+    "l1": "LOCAL",
+    "l2": "TRAFFIC"
+   },
+   {
+    "name": "POLICE_VEHICLES",
+    "leg": "POLICE VEHICLES",
+    "l1": "POLICE",
+    "l2": "VEHICLES"
+   },
+   {
+    "name": "SCHOOL_BUSES",
+    "leg": "SCHOOL BUSES",
+    "l1": "SCHOOL",
+    "l2": "BUSES"
+   },
+   {
+    "name": "SERVICE_VEHICLES",
+    "leg": "SERVICE VEHICLES",
+    "l1": "SERVICE",
+    "l2": "VEHICLES"
+   },
+   {
+    "name": "STOCK_VEHICLES",
+    "leg": "STOCK VEHICLES",
+    "l1": "STOCK",
+    "l2": "VEHICLES"
+   },
+   {
+    "name": "T2-T3_VEHICLES",
+    "leg": "T2/T3 VEHICLES",
+    "l1": "T2/T3",
+    "l2": "VEHICLES"
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "{cls[l1]}",
+   "series": "D",
+   "height": 50,
+   "top": 45
+  },
+  {
+   "type": "text",
+   "text": "{cls[l2]}",
+   "series": "D",
+   "height": 50,
+   "top": 125
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 50,
+   "top": 205
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R9-Q04_2 '... excepted (3 lines)' supplementary plate (2022/2023); the two class lines are the sheet's dashed 'insert appropriate exception class' boxes, generated for each two-line class the sheet lists (the '[COUNCIL] BUSES' and '...t GVM AND UNDER' entries with optional or blank words are left out, and CONSTRUCTION VEHICLES, whose CONSTRUCTION is 476 wide at 50 D and would need the sheet's 'longer names use Series C' option, is not generated here). The vary values are dicts (l1 / l2 / name / leg) so one spec carries both lines. Size A 450 x 300 generated (B 600 x 400, C 750 x 500 also tabled), r 25, c 5 / d 15. Chain h 45 / f 50D / g 30 / f 50D / g 30 / f 50D EXCEPTED / e 45 = 300: cap tops 45, 125, 205. Word gaps within a line (AND TAXIS) the font's word space. Black on white."
+}

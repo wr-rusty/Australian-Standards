@@ -1,0 +1,103 @@
+{
+ "code": "TC2247",
+ "pack": "QLD",
+ "name": "NO_CARAVANS_WHITE_SQUARE",
+ "legend": "NO CARAVANS (symbol)",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 60,
+ "ground": "white",
+ "panel_px": [
+  600,
+  247,
+  1072,
+  719
+ ],
+ "symbols": {
+  "qld_tc2247_caravan": {
+   "source": "TC2247",
+   "pack": "QLD",
+   "panel_px": [
+    600,
+    247,
+    1072,
+    719
+   ],
+   "desc": "caravan (side view, drawbar left) 2c 420 x 2d 260, from the sheet's grid inset",
+   "colours": [
+    "black"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc2247_caravan",
+   "x": 122,
+   "y": 172.9,
+   "w": 419.5,
+   "h": 258.1,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     433.52,
+     95.77
+    ],
+    [
+     95.77,
+     433.52
+    ],
+    [
+     166.48,
+     504.23
+    ],
+    [
+     504.23,
+     166.48
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     489.46,
+     75.19
+    ],
+    [
+     75.19,
+     489.46
+    ],
+    [
+     110.54,
+     524.81
+    ],
+    [
+     524.81,
+     110.54
+    ]
+   ],
+   "radius": 0,
+   "colour": "red"
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 300,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "red"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2247 'No caravans' regulatory sign (2017). Size B 600 x 600 generated (A 450, C 750 also tabled): r 60, unbordered white, margin b 6 (annulus outer dia 588), r1 294 / r2 244, slash f 50, gap e 25, symbol box 2c 420 x 2d 260 (the drawn caravan's ink measured at x 122, y 173, 419.5 x 258: centred 32 right of the centre line, as drawn). Prohibition sign per the sheet's detail: red annulus r1 outside / r2 inside centred on the sign, the black symbol traced from the sheet (black layer only), a white gap e each side of the red slash f wide at 45 degrees from upper-RIGHT to lower-LEFT on this sheet (measured on the drawing; the No motorcycles / No vehicles sheets slope the other way) (drawn as a white slash f + 2e wide inside the ring under the red slash), the slashes are rectangles whose corners lie on their circle (ends within the ring band). Caravan traced from the sheet (tools/symbols/qld_tc2247_caravan.svg). Red and black on white.",
+ "intervene": "the sheet draws its slash about 24 mm off the sign centre (up-right; measured x + y = 634 against 600), so the caravan traced from the sheet carries a white cut that does not coincide with the centred slash the detail specifies: needs the caravan traced without the cut (from the sheet's grid inset) or a decision to place the slash where the sheet draws it"
+}

@@ -1,0 +1,93 @@
+{
+ "code": "R6-020-Q02",
+ "pack": "QLD",
+ "name": "END_LANE_FILTERING_PROHIBITED_WHITE_TALL",
+ "legend": "END LANE FILTERING PROHIBITED (symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  1000
+ ],
+ "radius": 50,
+ "ground": "white",
+ "panel_px": [
+  594,
+  250,
+  1069,
+  1042
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_r6-020-q01_filtering",
+   "x": 93.5,
+   "y": 223.4,
+   "w": 448.4,
+   "h": 362.5,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     429.2,
+     137.02
+    ],
+    [
+     93.02,
+     473.2
+    ],
+    [
+     170.8,
+     550.98
+    ],
+    [
+     506.98,
+     214.8
+    ]
+   ],
+   "radius": 0,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     489.46,
+     119.19
+    ],
+    [
+     75.19,
+     533.46
+    ],
+    [
+     110.54,
+     568.81
+    ],
+    [
+     524.81,
+     154.54
+    ]
+   ],
+   "radius": 0,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 300,
+   "cy": 344,
+   "r_outer": 294,
+   "r_inner": 244,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 160,
+   "top": 760
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. Q-series sheet R6-020-Q02 'End lane filtering prohibited' (issued 2026). Size B 600 x 1000 generated (C 800 x 1350 also tabled): r 50, unbordered white, side margins c 50. Chain g 50 / f 588 (black annulus r1 294 / r2 244, centre (300, 344)) / (gap not tabled: 122 by difference) / e 160E END / d 80 = 1000: END cap top 760. Black slash g 50 at 45 degrees with white gap h 30 (as R6-020-Q01, in black), the R6-020-Q01 symbol reused (traced there) inside the ring. Black on white. Slash from upper-right to lower-left as this sheet draws it (measured; TC9998 / TC2345 slope the other way).",
+ "intervene": "uses the R6-020-Q01 scene traced from that sheet, whose slash cut is off-centre (see R6-020-Q01): same decision needed"
+}

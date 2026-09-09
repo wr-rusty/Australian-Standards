@@ -1,0 +1,46 @@
+{
+ "code": "TC2255",
+ "pack": "QLD",
+ "name": "TRUCK_SPEED_LIMIT_WHITE_SQUARE",
+ "legend": "TRUCK SPEED LIMIT",
+ "folder": "Regulatory Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRUCK",
+   "series": "D",
+   "height": 100,
+   "top": 100
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "D",
+   "height": 100,
+   "top": 250
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 100,
+   "top": 400
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. TC-series sheet TC2255 'Truck speed limit' (regulatory supplementary plate installed above R4-1, 2017). Size B 600 x 600 generated to match the national R4-1 (600 wide) it sits above (A 450, C 900, D 1200 also tabled): r 100, c 15 / d 45, e 100, f 100D, g 50: chain e / f / g / f / g / f / e = 100+100+50+100+50+100+100 = 600, cap tops 100, 250, 400. Black on white."
+}
