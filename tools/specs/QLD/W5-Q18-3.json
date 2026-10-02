@@ -1,0 +1,75 @@
+{
+ "code": "W5-Q18-3",
+ "pack": "QLD",
+ "name": "TAKE_CARE_KOALA_RECENT_CROSSINGS_YELLOW_TALL",
+ "legend": "TAKE CARE (koala symbol) RECENT CROSSINGS",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "qld_w5-q18-3_koala": {
+   "source": "W5-Q18-3",
+   "pack": "QLD",
+   "desc": "koala silhouette, vector path(s) 107 of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  585.5,
+  186.0,
+  1117.0,
+  894.7
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "TAKE",
+    "CARE"
+   ],
+   "series": "D",
+   "height": 50,
+   "top": 50,
+   "gap": 29
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q18-3_koala",
+   "x": 81.3,
+   "y": 160,
+   "w": 287.4,
+   "h": 215,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "RECENT",
+   "series": "D",
+   "height": 50,
+   "top": 430
+  },
+  {
+   "type": "text",
+   "text": "CROSSINGS",
+   "series": "D",
+   "height": 50,
+   "top": 505
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q18_3 wildlife warning sign 'TAKE CARE / koala / RECENT CROSSINGS' (Far North District wildlife management, temporary 5-day sign). Size A 450 x 600 generated (B 900 x 1200 also tabled), r 50, c 10 yellow edge / d 30 (edge 10 + black border 20). Chain e 45 / k 60D / h 55 / j 215 (symbol) / h 55 / f 50D / g 25 / f 50D / e 45 = 600: cap tops 45, 430, 505; symbol top 160, height j 215, its width 287.4 from the artwork's aspect (drawn 287.4 x 215.0 at 81.4, 160.0 on the sheet's sign), centred. Word gap TAKE-CARE 29 measured on the sheet. The koala is the sheet PDF's own vector artwork (tools/symbols/qld_w5-q18-3_koala.svg). Black on Class 400 retroreflective yellow. DISAGREEMENT: k is tabled 60D, but TAKE CARE at 60 Series D (with the drawn word gap) is wider than the 390 between the borders; the sheet's live text sets it at the same size as RECENT / CROSSINGS (50, drawn cap top 50 on the 450 sign, i.e. centred in the 60 slot), so TAKE CARE is generated 50 Series D with cap top 50."
+}

@@ -1,0 +1,32 @@
+{
+ "code": "TC9880",
+ "pack": "QLD",
+ "name": "DEAF_YELLOW_WIDE",
+ "legend": "DEAF",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  200
+ ],
+ "radius": 40,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "ground": "yellow",
+ "elements": [
+  {
+   "type": "text",
+   "text": "DEAF",
+   "series": "D",
+   "height": 100,
+   "top": 50
+  }
+ ],
+ "notes": "TMR Queensland TC-series design sheet with a lettered size table (drawing not to scale); every dimension from the table, AS 1744 (plus0) spacing ('CN' / 'CM' / 'DM' read as the plain series). The table's c is the yellow edge and d the edge + black border. TC9880 supplementary plate DEAF. Size A generated (a 600 x b 200, c 8 / d 24, e 50, f 100DM, g 50, r 40; B, C also tabled): chain 50 / 100D / 50 = 200. Black on yellow."
+}

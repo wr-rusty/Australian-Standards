@@ -1,0 +1,50 @@
+{
+ "code": "W7-13-Q01-5",
+ "pack": "QLD",
+ "name": "OBLIQUE_RAILWAY_CROSSING_AT_SIDE_ROAD_YELLOW_DIAMOND",
+ "legend": "(road and side road crossed obliquely by a railway symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "symbols": {
+  "qld_w7-13-q01-5_legend": {
+   "source": "W7-13-Q01-5",
+   "pack": "QLD",
+   "desc": "road and side road crossed obliquely by a railway, vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  461.3,
+  187.4,
+  1304.4,
+  1030.5
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w7-13-q01-5_legend",
+   "x": 177.7,
+   "y": 175.0,
+   "w": 418.0,
+   "h": 496.1,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-13-Q01_5 railway level crossing warning sign (2022, page 5 of 7): road and side road crossed obliquely by a railway. Size A 600 (B 750, C 900 also tabled): side 600 drawn as the bounding square 848.53, r 40, yellow edge 8 + black border 16. The sheet's vectors are to scale; table A: d 250, e 100, f 250, g 224, h 16, k 120, m 88, n 424. Symbol: the sheet PDF's own vector artwork (tools/symbols/qld_w7-13-q01-5_legend.svg, items 97-98), placed as the sheet draws it: 418.0 x 496.1 with its box 246.6 left / 171.4 right of the vertical centreline and 249.3 above / 246.8 below the horizontal centreline. Black on retroreflective yellow."
+}

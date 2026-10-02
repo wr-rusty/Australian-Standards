@@ -1,0 +1,155 @@
+{
+ "code": "TC1455",
+ "pack": "QLD",
+ "name": "DRIVER_FATIGUE_KILLS_REST_IF_SLEEPY_YELLOW",
+ "legend": "DRIVER FATIGUE KILLS REST IF SLEEPY",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  1800
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "qld_tc1455_artwork": {
+   "source": "TC1455",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 3 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  248.2,
+  268.0,
+  1382.0,
+  1118.4
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 2090.23,566.62 C 2120.6,563.27 2147.65,590.43 2150.43,627.09 C 2153.2,663.74 2130.69,696.37 2100.31,699.72 C 2069.94,703.08 2042.9,675.91 2040.12,639.26 C 2037.34,602.6 2059.85,569.97 2090.23,566.62 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 124.39,511.94 L 124.41,150.0 L 1186.55,150.11 L 1186.53,512.04 L 124.39,511.94 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1627.94,418.25 L 1642.03,395.1 L 1656.11,371.94 L 1664.22,384.69 L 1672.32,397.45 L 1650.13,407.85 L 1627.94,418.25 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1568.66,330.65 L 1568.11,301.93 L 1567.56,273.22 L 1580.43,277.36 L 1593.29,281.49 L 1580.98,306.07 L 1568.66,330.65 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1648.74,351.94 L 1656.78,324.91 L 1664.82,297.87 L 1675.6,307.32 L 1686.38,316.76 L 1667.56,334.35 L 1648.74,351.94 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1551.6,262.81 L 1544.3,235.47 L 1536.99,208.13 L 1550.31,207.68 L 1563.62,207.22 L 1557.61,235.01 L 1551.6,262.81 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1617.85,392.46 L 1610.41,365.18 L 1602.97,337.89 L 1616.27,337.34 L 1629.59,336.79 L 1623.71,364.62 L 1617.85,392.46 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1547.62,317.65 L 1527.93,301.52 L 1508.23,285.38 L 1518.5,275.15 L 1528.76,264.91 L 1538.19,291.28 L 1547.62,317.65 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1671.66,525.35 C 1702.04,522.0 1729.08,549.16 1731.86,585.82 C 1734.64,622.47 1712.13,655.1 1681.75,658.45 C 1651.37,661.81 1624.33,634.65 1621.55,597.99 C 1618.77,561.34 1641.28,528.71 1671.66,525.35 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 263.72,523.09 C 311.48,523.09 350.43,562.04 350.43,609.79 C 350.43,657.55 311.48,696.5 263.72,696.5 C 215.97,696.5 177.02,657.55 177.02,609.79 C 177.02,562.04 215.97,523.09 263.72,523.09 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 457.07,523.88 C 504.83,523.88 543.78,562.84 543.78,610.59 C 543.78,658.34 504.83,697.29 457.07,697.29 C 409.32,697.29 370.37,658.34 370.37,610.59 C 370.37,562.84 409.32,523.88 457.07,523.88 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 818.97,522.0 C 866.72,522.0 905.67,560.95 905.67,608.7 C 905.67,656.46 866.72,695.41 818.97,695.41 C 771.21,695.41 732.26,656.46 732.26,608.7 C 732.26,560.95 771.21,522.0 818.97,522.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1012.31,522.8 C 1060.07,522.8 1099.02,561.74 1099.02,609.5 C 1099.02,657.25 1060.07,696.2 1012.31,696.2 C 964.56,696.2 925.61,657.25 925.61,609.5 C 925.61,561.74 964.56,522.8 1012.31,522.8 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 200.0,1430.0 L 2200.0,1430.0 L 2200.0,1680.0 L 200.0,1680.0 L 200.0,1430.0 Z",
+   "colour": "blue"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1455_artwork",
+   "x": 1120.4,
+   "y": 227.0,
+   "w": 1155.2,
+   "h": 430.3,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 880,
+   "words": [
+    "DRIVER",
+    "FATIGUE"
+   ],
+   "gap": 167
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 1160,
+   "text": "KILLS"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 1475,
+   "words": [
+    "REST",
+    "IF",
+    "SLEEPY"
+   ],
+   "gap": [
+    140,
+    144
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1455 '“DRIVER FATIGUE KILLS REST IF SLEEPY” SPECIAL WARNING SIGN', with a lettered size table: size A generated (a 2400 x b 1800, c 12 / d 32, 160DM / 160EM, r 200; B also tabled). The drawing is to scale for that size (the drawn outline scales to 2400 x 1800 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2400 x 1800, R200; layers from the vectors: yellow from 0, black from 12, yellow from 36. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1455_artwork.svg, 3 outlines), placed as drawn: 1155.2 x 430.3 at x 1120.4, y 227.0."
+}

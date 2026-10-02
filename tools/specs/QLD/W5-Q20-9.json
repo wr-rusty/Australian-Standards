@@ -1,0 +1,74 @@
+{
+ "code": "W5-Q20-9",
+ "pack": "QLD",
+ "name": "CARE_FOR_OUR_WILDLIFE_TREE_KANGAROOS_WHITE",
+ "legend": "CARE FOR OUR WILDLIFE (tree kangaroo symbol)",
+ "shape": "rect",
+ "size": [
+  750,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "green",
+  "width": 20
+ },
+ "symbols": {
+  "qld_w5-q20-9_tree_kangaroo": {
+   "source": "W5-Q20-9",
+   "pack": "QLD",
+   "desc": "tree kangaroo silhouette, vector item(s) [352] of the sheet PDF",
+   "colours": [
+    "green"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  448.8,
+  310.9,
+  1335.2,
+  1019.3
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "CARE",
+    "FOR",
+    "OUR"
+   ],
+   "series": "D",
+   "height": 60,
+   "top": 60,
+   "gap": [
+    34,
+    36
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "WILDLIFE",
+   "series": "D",
+   "height": 90,
+   "top": 163,
+   "colour": "green"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q20-9_tree_kangaroo",
+   "x": 292.35,
+   "y": 300,
+   "w": 165.3,
+   "h": 250,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q20_9 wildlife sign 'CARE FOR WILDLIFE - TREE KANGAROOS' (2023, page 9 of 10). Size A 750 x 600 generated (B 900 x 700 also tabled), r 50, c 10 white edge / d 30 (edge 10 + green border 20). Chain n 60 / m 60D / k 43 / h 90D / g 47 / f 250 (symbol) / e 50 = 600: cap tops 60 (CARE FOR OUR) and 163 (WILDLIFE); symbol top 300, height f 250, width 165.3 from the artwork's aspect, centred (drawn 165.1 x 249.7 at x 292.5, y 299.6 on the sheet's sign). Word gaps [34, 36] measured on the sheet. The tree kangaroo symbol is the sheet PDF's own vector artwork (tools/symbols/qld_w5-q20-9_tree_kangaroo.svg). Green legend, symbol and border on white."
+}

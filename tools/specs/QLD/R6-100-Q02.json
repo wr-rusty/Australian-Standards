@@ -1,0 +1,83 @@
+{
+ "code": "R6-100-Q02",
+ "pack": "QLD",
+ "name": "ON_FOOTPATH_WHITE_TALL",
+ "legend": "ON FOOTPATH",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "folder": "Regulatory Signs",
+ "symbols": {
+  "qld_r6-100-q02_artwork": {
+   "source": "R6-100-Q02",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 10 vector outlines of the sheet PDF (black, red)",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  594.4,
+  235.6,
+  1125.9,
+  944.2
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 89.02,380.62 C 83.07,380.62 78.22,375.76 78.22,369.81 C 78.22,363.86 83.07,359.01 89.02,359.01 C 94.97,359.01 99.82,363.86 99.82,369.81 C 99.82,375.76 94.97,380.62 89.02,380.62 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 116.31,380.62 C 110.36,380.62 105.51,375.76 105.51,369.81 C 105.51,363.86 110.36,359.01 116.31,359.01 C 122.26,359.01 127.11,363.86 127.11,369.81 C 127.11,375.76 122.26,380.62 116.31,380.62 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 144.24,380.62 C 138.29,380.62 133.44,375.76 133.44,369.81 C 133.44,363.86 138.29,359.01 144.24,359.01 C 150.19,359.01 155.04,363.86 155.04,369.81 C 155.04,375.76 150.19,380.62 144.24,380.62 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 171.2,380.62 C 165.25,380.62 160.4,375.76 160.4,369.81 C 160.4,363.86 165.25,359.01 171.2,359.01 C 177.15,359.01 182.0,363.86 182.0,369.81 C 182.0,375.76 177.15,380.62 171.2,380.62 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r6-100-q02_artwork",
+   "x": 35.2,
+   "y": 60.0,
+   "w": 375.8,
+   "h": 369.9,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 50,
+   "top": 490,
+   "words": [
+    "ON",
+    "FOOTPATH"
+   ],
+   "gap": 37
+  }
+ ],
+ "notes": "TMR Queensland design sheet R6-100-Q02 'CYCLING, WHEELED RECREATIONAL DEVICES AND WHEELED TOYS  PROHIBITED R6-100-Q02', directly dimensioned and drawn to scale (the drawn outline is 450 x 600 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 450 x 600, R50; layers from the vectors: white from 0, black from 8, white from 24. Sheet labels: 450 | 30 | 600 | 10 | R50 | 60 | 180 | 10 | 180 | 60 | 50C | 60. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_r6-100-q02_artwork.svg, 10 outlines), placed as drawn: 375.8 x 369.9 at x 35.2, y 60.0."
+}

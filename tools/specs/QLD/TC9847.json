@@ -1,0 +1,80 @@
+{
+ "code": "TC9847",
+ "pack": "QLD",
+ "name": "END_ROAD_TRAIN_ROUTE_B-DOUBLE_ROUTE_500_M_WHITE",
+ "legend": "END ROAD TRAIN ROUTE B-DOUBLE ROUTE 500 m",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2300,
+  1400
+ ],
+ "radius": 225,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  330.2,
+  328.5,
+  1404.6,
+  982.6
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 180,
+   "text": "END"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 520,
+   "words": [
+    "ROAD",
+    "TRAIN",
+    "ROUTE"
+   ],
+   "gap": [
+    126,
+    137
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 800,
+   "words": [
+    "B-DOUBLE",
+    "ROUTE"
+   ],
+   "gap": 128
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1080,
+   "text": "500",
+   "cx": 1043
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 140,
+   "top": 1080,
+   "text": "m",
+   "cx": 1354.6
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9847 '26/6/96 “END TRAIN ROUTE B-DOUBLE ROUTE 500m” ADVANCE WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 2300 x 1400 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2300 x 1400, R225; layers from the vectors: white from 0, black from 20, white from 40. Sheet labels: 2300 | 180 | 40 | 200EM | 140 | 140DM | 140 | 140DM | 140 | 140DM/ | 105LC | 20 | 180 | R225 | 1400."
+}

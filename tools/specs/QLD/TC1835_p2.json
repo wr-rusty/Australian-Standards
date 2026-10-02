@@ -1,0 +1,80 @@
+{
+ "code": "TC1835_p2",
+ "pack": "QLD",
+ "name": "DANGER_FLOOD_HAZARD_DO_NOT_ENTER_WHITE",
+ "legend": "DANGER FLOOD HAZARD DO NOT ENTER",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 4
+ },
+ "border": {
+  "colour": "black",
+  "width": 8
+ },
+ "panel_px": [
+  394.3,
+  431.3,
+  1339.2,
+  1061.2
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 16.0,135.0 L 16.0,50.05 C 16.0,31.32 31.32,16.0 50.05,16.0 L 549.95,16.0 C 568.68,16.0 584.0,31.32 584.0,50.05 L 584.0,135.0 L 16.0,135.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 300.0,22.1 C 423.69,22.1 524.0,46.02 524.0,75.5 C 524.0,104.99 423.69,128.9 300.0,128.9 C 176.31,128.9 76.0,104.99 76.0,75.5 C 76.0,46.02 176.31,22.1 300.0,22.1 Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M 300.0,26.1 C 421.48,26.1 520.0,48.22 520.0,75.5 C 520.0,102.78 421.48,124.9 300.0,124.9 C 178.52,124.9 80.0,102.78 80.0,75.5 C 80.0,48.22 178.52,26.1 300.0,26.1 Z",
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 55,
+   "top": 48,
+   "text": "DANGER",
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 66,
+   "top": 170,
+   "words": [
+    "FLOOD",
+    "HAZARD"
+   ],
+   "gap": 45
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 66,
+   "top": 287.5,
+   "words": [
+    "DO",
+    "NOT",
+    "ENTER"
+   ],
+   "gap": [
+    46,
+    44
+   ]
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1835 page 2 '9/06/10 WARNING SIGN “FLOOD HAZARD DO NOT ENTER ”', directly dimensioned and drawn to scale (the drawn outline is 600 x 400 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 600 x 400, R50; layers from the vectors: white from 0, black from 4, white from 12. Sheet labels: 600 | 440 | 4 | 4 | 135 | 400 | 4 | R50 | 12 | 4 | 47 | 55DM | 32 | 35 | 66CN | 52 | 66CN | 34 | 12."
+}

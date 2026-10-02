@@ -1,0 +1,203 @@
+{
+ "code": "W5-040-Q01-2",
+ "pack": "QLD",
+ "name": "TAKE_CARE_HIGH_CRASH_SITE_OPTION_{opt}_RED_SQUARE",
+ "legend": "TAKE CARE HIGH CRASH SITE (crash symbol option {opt})",
+ "shape": "rect",
+ "size": [
+  1800,
+  1800
+ ],
+ "radius": 130,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "vary": {
+  "key": "opt",
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "symbols": {
+  "qld_w5-040-q01_crash_1": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 1 (side impact) of page 6 of the sheet (vector items [265, 266, 267, 268, 269, 270, 271, 272]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_2": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 2 (side impact) of page 6 of the sheet (vector items [243, 244, 245, 246, 247, 248, 249, 250]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_3": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 3 (side impact) of page 6 of the sheet (vector items [254, 255, 256, 257, 258, 259, 260, 261]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_4": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 4 (side impact) of page 6 of the sheet (vector items [3, 4, 5, 6, 7, 8, 9, 10]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_5": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 5 (head on impact) of page 6 of the sheet (vector items [276, 278, 279, 280, 281, 282, 283]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_6": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 6 (rear end impact) of page 6 of the sheet (vector items [287, 288, 289, 290, 291, 293, 294]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  434.7,
+  324.4,
+  1139.3,
+  1029.1
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "TAKE",
+    "CARE"
+   ],
+   "series": "E",
+   "height": 160,
+   "top": 150,
+   "gap": 110,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "HIGH",
+    "CRASH",
+    "SITE"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 460,
+   "gap": [
+    92,
+    84
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     900,
+     660.05
+    ],
+    [
+     1430.33,
+     1190.38
+    ],
+    [
+     900,
+     1720.71
+    ],
+    [
+     369.67,
+     1190.38
+    ]
+   ],
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     900,
+     674.19
+    ],
+    [
+     1416.19,
+     1190.38
+    ],
+    [
+     900,
+     1706.57
+    ],
+    [
+     383.81,
+     1190.38
+    ]
+   ],
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     900,
+     702.48
+    ],
+    [
+     1387.9,
+     1190.38
+    ],
+    [
+     900,
+     1678.28
+    ],
+    [
+     412.1,
+     1190.38
+    ]
+   ],
+   "radius": 20,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-040-q01_crash_{opt}",
+   "x": 390.38,
+   "y": 680.76,
+   "w": 1019.24,
+   "h": 1019.24,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-040-Q01_2 'TAKE CARE HIGH CRASH SITE' (2025, page 2 of 6), fully dimensioned, 1800 x 1800. Red sign: red edge 30 + white border 30 (the sheet's 30 / 60), r 130, white legend on Class 400 retroreflective red. The '*' diamond is the sheet's 'insert appropriate warning sign option - refer page 6': the six crash-scene options of page 6 (1-4 side impact, 5 head on, 6 rear end) are generated as variants, each scene the sheet PDF's own vector artwork placed in the diamond as page 6 draws it; the inset diamond is 750 side (note 2), yellow edge 10 + black border 20, r 50 (the QLD W-series values at that size; not dimensioned on this sheet), and the sheet's dimensions run to its rounded tips. Chain 150 / 160E / 150 / 140D / 1100 / 100 = 1800: cap tops 150 (TAKE CARE 160 Series E) and 460 (HIGH CRASH SITE 140 Series D); the diamond's bottom tip is 100 above the bottom edge (centre height 1190.4), centred horizontally as drawn. Both lines centred on the sign (drawn centres 894 / 911); word gaps 110 and 92 / 84 measured. The sheet's bottom dimensions 120 (left) and 160 (right) do not correspond to any legend edge on the drawing (the legend's margins are drawn 157 / 134) and are not used."
+}

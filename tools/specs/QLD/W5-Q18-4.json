@@ -1,0 +1,51 @@
+{
+ "code": "W5-Q18-4",
+ "pack": "QLD",
+ "name": "WILDLIFE_RECENT_CROSSINGS_YELLOW",
+ "legend": "WILDLIFE RECENT CROSSINGS",
+ "shape": "rect",
+ "size": [
+  750,
+  550
+ ],
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "ground": "yellow",
+ "panel_px": [
+  505.9,
+  441.8,
+  1214.6,
+  961.5
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "WILDLIFE",
+   "series": "C",
+   "height": 120,
+   "top": 80
+  },
+  {
+   "type": "text",
+   "text": "RECENT",
+   "series": "D",
+   "height": 80,
+   "top": 280
+  },
+  {
+   "type": "text",
+   "text": "CROSSINGS",
+   "series": "D",
+   "height": 80,
+   "top": 400
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q18_4 wildlife warning sign 'WILDLIFE RECENT CROSSINGS' (Far North District wildlife management, temporary 5-day sign), one size dimensioned directly: 750 x 550, R50, 10 yellow edge / 30 (edge 10 + black border 20). Chain 80 / 120D / 80 / 80D / 40 / 80D / 70 = 550: cap tops 80, 280, 400. DISAGREEMENT: WILDLIFE is labelled 120D, but at 120 Series D it is 681 wide in the 690 between the borders; the sheet's own live text sets it in Series C (FHWA Series C font, drawn 590 wide; AS 1744 Series C at 120 = 581), so WILDLIFE is generated 120 Series C; RECENT / CROSSINGS 80 Series D as labelled. Black on Class 400 retroreflective yellow."
+}

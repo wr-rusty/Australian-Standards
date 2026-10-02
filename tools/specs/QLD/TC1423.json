@@ -1,0 +1,180 @@
+{
+ "code": "TC1423",
+ "pack": "QLD",
+ "name": "DRIVER_FATIGUE_CRASH_ZONE_NEXT_{km}_KM_YELLOW",
+ "legend": "DRIVER FATIGUE CRASH ZONE NEXT {km} km",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  1800
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   5,
+   10,
+   20
+  ]
+ },
+ "symbols": {
+  "qld_tc1423_artwork": {
+   "source": "TC1423",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 3 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  257.5,
+  261.8,
+  1391.4,
+  1112.2
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 1509.76,1671.74 L 1511.47,1670.0 L 1511.47,1671.74 L 1509.76,1671.74 L 1508.05,1670.0 L 1508.05,1653.96 L 1511.47,1653.96 L 1511.47,1670.0 L 1509.76,1671.74 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1307.89,1670.0 L 1309.6,1671.74 L 1307.89,1671.74 L 1307.89,1670.0 L 1309.6,1668.26 L 1320.75,1668.26 L 1320.75,1671.74 L 1309.6,1671.74 L 1307.89,1670.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 2090.23,626.52 C 2120.61,623.17 2147.65,650.33 2150.43,686.98 C 2153.21,723.64 2130.69,756.27 2100.32,759.62 C 2069.94,762.97 2042.9,735.81 2040.12,699.16 C 2037.34,662.5 2059.85,629.87 2090.23,626.52 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 124.39,571.83 L 124.41,209.9 L 1186.55,210.0 L 1186.53,571.94 L 124.39,571.83 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1627.94,478.15 L 1642.03,454.99 L 1656.11,431.84 L 1664.21,444.59 L 1672.32,457.35 L 1650.13,467.74 L 1627.94,478.15 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1568.66,390.55 L 1568.11,361.83 L 1567.56,333.11 L 1580.43,337.25 L 1593.3,341.39 L 1580.98,365.97 L 1568.66,390.55 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1648.74,411.84 L 1656.78,384.8 L 1664.82,357.77 L 1675.6,367.21 L 1686.38,376.66 L 1667.56,394.25 L 1648.74,411.84 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1551.6,322.7 L 1544.3,295.36 L 1536.99,268.02 L 1550.31,267.57 L 1563.62,267.12 L 1557.61,294.91 L 1551.6,322.7 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1617.85,452.36 L 1610.41,425.07 L 1602.97,397.79 L 1616.28,397.24 L 1629.59,396.68 L 1623.72,424.52 L 1617.85,452.36 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1547.62,377.55 L 1527.93,361.41 L 1508.23,345.28 L 1518.5,335.04 L 1528.76,324.8 L 1538.19,351.18 L 1547.62,377.55 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1671.66,585.25 C 1702.04,581.9 1729.08,609.06 1731.86,645.72 C 1734.64,682.37 1712.13,715.0 1681.75,718.35 C 1651.37,721.7 1624.33,694.54 1621.55,657.89 C 1618.77,621.23 1641.28,588.6 1671.66,585.25 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 263.72,582.99 C 311.48,582.99 350.43,621.94 350.43,669.69 C 350.43,717.45 311.48,756.39 263.72,756.39 C 215.97,756.39 177.02,717.45 177.02,669.69 C 177.02,621.94 215.97,582.99 263.72,582.99 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 457.07,583.78 C 504.82,583.78 543.77,622.73 543.77,670.49 C 543.77,718.24 504.82,757.19 457.07,757.19 C 409.32,757.19 370.37,718.24 370.37,670.49 C 370.37,622.73 409.32,583.78 457.07,583.78 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 818.97,581.9 C 866.72,581.9 905.67,620.85 905.67,668.6 C 905.67,716.36 866.72,755.3 818.97,755.3 C 771.21,755.3 732.26,716.36 732.26,668.6 C 732.26,620.85 771.21,581.9 818.97,581.9 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1012.31,582.69 C 1060.07,582.69 1099.02,621.64 1099.02,669.4 C 1099.02,717.15 1060.07,756.1 1012.31,756.1 C 964.56,756.1 925.61,717.15 925.61,669.4 C 925.61,621.64 964.56,582.69 1012.31,582.69 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1423_artwork",
+   "x": 1120.4,
+   "y": 286.9,
+   "w": 1155.2,
+   "h": 430.3,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 970,
+   "words": [
+    "DRIVER",
+    "FATIGUE"
+   ],
+   "gap": 169
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 1240,
+   "words": [
+    "CRASH",
+    "ZONE"
+   ],
+   "gap": 182
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 1512,
+   "text": "NEXT",
+   "cx": 798
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 160,
+   "top": 1510,
+   "text": "km",
+   "cx": 1753.6
+  },
+  {
+   "type": "text",
+   "text": "{km}",
+   "series": "E",
+   "height": 160,
+   "top": 1512,
+   "cx": 1410
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1423 '“DRIVER FATIGUE CRASH ZONE NEXT ... km” SPECIAL WARNING SIGN', with a lettered size table: size A generated (a 2400 x b 1800, c 12 / d 32, 160EM, 120LC, r 200; B also tabled). The drawing is to scale for that size (the drawn outline scales to 2400 x 1800 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2400 x 1800, R200; layers from the vectors: yellow from 0, black from 12, yellow from 36. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1423_artwork.svg, 3 outlines), placed as drawn: 1155.2 x 430.3 at x 1120.4, y 286.9. Distance: the dashed box (no example) takes the distance in km: 5, 10 and 20 generated (Russell: the variants that make sense, not every value). The numeral box (corners at x 1308-1511 on the sheet) takes the distance, 160 Series E as NEXT, centred at x 1410."
+}

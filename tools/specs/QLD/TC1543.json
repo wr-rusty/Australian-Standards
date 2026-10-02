@@ -1,0 +1,133 @@
+{
+ "code": "TC1543",
+ "pack": "QLD",
+ "name": "CAUTION_ROAD_TRAINS_TURNING_{d}_M_AHEAD_WHITE",
+ "legend": "CAUTION ROAD TRAINS TURNING {d} m AHEAD",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2400,
+  1400
+ ],
+ "radius": 175,
+ "ground": "white",
+ "vary": {
+  "key": "d",
+  "values": [
+   100,
+   200,
+   300,
+   500
+  ]
+ },
+ "symbols": {
+  "qld_tc1543_artwork": {
+   "source": "TC1543",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 10 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  301.0,
+  363.1,
+  1434.9,
+  1024.5
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 2380.0,430.0 L 2380.0,1260.0 C 2380.0,1326.0 2326.0,1380.0 2260.0,1380.0 L 140.0,1380.0 C 74.0,1380.0 20.0,1326.0 20.0,1260.0 L 20.0,430.0 L 2380.0,430.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 140.0,20.0 L 2260.0,20.0 C 2326.0,20.0 2380.0,74.0 2380.0,140.0 L 2380.0,429.97 L 2380.0,430.0 L 20.0,430.0 L 20.0,429.04 L 20.0,140.0 C 20.0,74.0 74.0,20.0 140.0,20.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 2360.0,430.0 L 2360.0,1260.0 C 2360.0,1315.0 2315.0,1360.0 2260.0,1360.0 L 140.0,1360.0 C 85.0,1360.0 40.0,1315.0 40.0,1260.0 L 40.0,430.0 L 2360.0,430.0 Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M 140.0,40.0 L 2260.0,40.0 C 2315.0,40.0 2360.0,85.0 2360.0,140.0 L 2360.0,429.97 L 2360.0,430.0 L 40.0,430.0 L 40.0,429.05 L 40.0,140.0 C 40.0,85.0 85.0,40.0 140.0,40.0 Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M 32.48,410.0 L 2369.78,410.0 L 2369.78,430.0 L 32.48,430.0 L 32.48,410.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 821.28,1284.07 L 822.69,1282.66 L 822.69,1284.07 L 821.28,1284.07 L 819.87,1282.66 L 819.87,1269.52 L 822.69,1269.52 L 822.69,1282.66 L 821.28,1284.07 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 465.6,1141.25 L 464.19,1142.66 L 464.19,1141.25 L 465.6,1141.25 L 467.01,1142.66 L 467.01,1168.94 L 464.19,1168.94 L 464.19,1142.66 L 465.6,1141.25 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1543_artwork",
+   "x": 595.9,
+   "y": 790.0,
+   "w": 1208.2,
+   "h": 240.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 145,
+   "text": "CAUTION"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 540,
+   "words": [
+    "ROAD",
+    "TRAINS",
+    "TURNING"
+   ],
+   "gap": [
+    119,
+    116
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1140,
+   "text": "AHEAD",
+   "cx": 1606.5
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 140,
+   "top": 1140,
+   "text": "m",
+   "cx": 989.5
+  },
+  {
+   "type": "text",
+   "text": "{d}",
+   "series": "D",
+   "height": 140,
+   "top": 1140,
+   "cx": 643
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1543 'WARNING SIGN “CAUTION, ROAD TRAINS TURNING ... m AHEAD”', directly dimensioned and drawn to scale (the drawn outline is 2400 x 1400 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2400 x 1400, R175; layers from the vectors: white from 0. Sheet labels: 2400 | 40 | 1400 | 20 | R175 | 145 | 180EM | 85 | 20 | 110 | 140DN | 110 | 240 | 110 | 140DM | 120. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1543_artwork.svg, 10 outlines), placed as drawn: 1208.2 x 240.0 at x 595.9, y 790.0. Distance: the dashed box (no example on the sheet) takes the distance in metres: 100, 200, 300 and 500 generated (Russell: the variants that make sense, not every value), 140 Series D centred in the box."
+}

@@ -1,0 +1,51 @@
+{
+ "code": "TC9780",
+ "pack": "QLD",
+ "name": "ROAD_TRAIN_SYMBOL_YELLOW",
+ "legend": "(road train symbol)",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1200,
+  250
+ ],
+ "radius": 80,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "symbols": {
+  "qld_tc9780_artwork": {
+   "source": "TC9780",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 14 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  295.4,
+  572.9,
+  1445.9,
+  812.6
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc9780_artwork",
+   "x": 94.8,
+   "y": 54.8,
+   "w": 1010.5,
+   "h": 140.3,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9780 'Original drawing approved on 21/12/95 9/96 TYPE II ROAD TRAINS VEHICLE MOUNTED SIGN', directly dimensioned and drawn to scale (the drawn outline is 1200 x 250 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1200 x 250, R80; layers from the vectors: yellow from 0, black from 10, yellow from 20. Sheet labels: 1200 | 20 | 250 | 10 | R80 | 55 | 140 | 55. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9780_artwork.svg, 14 outlines), placed as drawn: 1010.5 x 140.3 at x 94.8, y 54.8."
+}

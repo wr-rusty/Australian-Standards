@@ -1,0 +1,82 @@
+{
+ "code": "TC9460",
+ "pack": "QLD",
+ "name": "ROAD_TRAINS_CROSSING_500_M_WHITE",
+ "legend": "ROAD TRAINS CROSSING 500 m",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2150,
+  1250
+ ],
+ "radius": 150,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 24
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "qld_tc9460_artwork": {
+   "source": "TC9460",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 10 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  273.2,
+  342.1,
+  1420.9,
+  1009.4
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc9460_artwork",
+   "x": 320.1,
+   "y": 820.1,
+   "w": 1509.8,
+   "h": 299.9,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 190,
+   "words": [
+    "ROAD",
+    "TRAINS"
+   ],
+   "gap": 144
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 490,
+   "words": [
+    "CROSSING",
+    "500"
+   ],
+   "gap": 148,
+   "cx": 953
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 160,
+   "top": 490,
+   "text": "m",
+   "cx": 1909.6
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9460 'Original drawing approved on 14/1/92 9/96 A  B WARNING SIGN ROAD TRAINS CROSSING 500 m', directly dimensioned and drawn to scale (the drawn outline is 2150 x 1250 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2150 x 1250, R150; layers from the vectors: white from 0, black from 24, white from 48. Sheet labels: 2150 | 48 | 1250 | 24 | R150 | 190 | 160DM/ | 120LC | 140 | 160DM/ | 120LC | 170 | 300 | 130. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9460_artwork.svg, 10 outlines), placed as drawn: 1509.8 x 299.9 at x 320.1, y 820.1."
+}

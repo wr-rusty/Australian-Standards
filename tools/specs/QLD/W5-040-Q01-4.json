@@ -1,0 +1,302 @@
+{
+ "code": "W5-040-Q01-4",
+ "pack": "QLD",
+ "name": "TAKE_CARE_HIGH_CRASH_ZONE_NEXT_{km}_KM_OPTION_{opt}_RED_SQUARE",
+ "legend": "TAKE CARE HIGH CRASH ZONE NEXT {km} km (crash symbol option {opt})",
+ "shape": "rect",
+ "size": [
+  1800,
+  1800
+ ],
+ "radius": 130,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "vary": {
+  "keys": [
+   "opt",
+   "km"
+  ],
+  "values": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    6,
+    10
+   ]
+  ]
+ },
+ "symbols": {
+  "qld_w5-040-q01_crash_1": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 1 (side impact) of page 6 of the sheet (vector items [265, 266, 267, 268, 269, 270, 271, 272]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_2": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 2 (side impact) of page 6 of the sheet (vector items [243, 244, 245, 246, 247, 248, 249, 250]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_3": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 3 (side impact) of page 6 of the sheet (vector items [254, 255, 256, 257, 258, 259, 260, 261]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_4": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 4 (side impact) of page 6 of the sheet (vector items [3, 4, 5, 6, 7, 8, 9, 10]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_5": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 5 (head on impact) of page 6 of the sheet (vector items [276, 278, 279, 280, 281, 282, 283]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_6": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 6 (rear end impact) of page 6 of the sheet (vector items [287, 288, 289, 290, 291, 293, 294]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  362.7,
+  279.0,
+  1076.7,
+  993.1
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "TAKE",
+    "CARE"
+   ],
+   "series": "E",
+   "height": 160,
+   "top": 150,
+   "gap": 111,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "HIGH",
+    "CRASH",
+    "ZONE"
+   ],
+   "series": "D",
+   "height": 120,
+   "top": 390,
+   "gap": [
+    78,
+    73
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     669.62,
+     599.29
+    ],
+    [
+     1199.95,
+     1129.62
+    ],
+    [
+     669.62,
+     1659.95
+    ],
+    [
+     139.29,
+     1129.62
+    ]
+   ],
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     669.62,
+     613.43
+    ],
+    [
+     1185.81,
+     1129.62
+    ],
+    [
+     669.62,
+     1645.81
+    ],
+    [
+     153.43,
+     1129.62
+    ]
+   ],
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     669.62,
+     641.72
+    ],
+    [
+     1157.52,
+     1129.62
+    ],
+    [
+     669.62,
+     1617.52
+    ],
+    [
+     181.72,
+     1129.62
+    ]
+   ],
+   "radius": 20,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-040-q01_crash_{opt}",
+   "x": 160.0,
+   "y": 620.0,
+   "w": 1019.24,
+   "h": 1019.24,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "E",
+   "height": 120,
+   "top": 1320,
+   "cx": 1404.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 120,
+     "slot": 270
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": 48,
+   "top": 1530,
+   "align": "right",
+   "x": 1670,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-040-Q01_4 'TAKE CARE HIGH CRASH ZONE NEXT ... km' (2025, page 4 of 6), fully dimensioned, 1800 x 1800. Red sign: red edge 30 + white border 30 (the sheet's 30 / 60), r 130, white legend on Class 400 retroreflective red. The '*' diamond is the sheet's 'insert appropriate warning sign option - refer page 6': the six crash-scene options of page 6 (1-4 side impact, 5 head on, 6 rear end) are generated as variants, each scene the sheet PDF's own vector artwork placed in the diamond as page 6 draws it; the inset diamond is 750 side (note 2), yellow edge 10 + black border 20, r 50 (the QLD W-series values at that size; not dimensioned on this sheet), and the sheet's dimensions run to its rounded tips. Distance '**' = 'insert appropriate distance' with no example: 2, 5 and 10 km generated (Russell: the variants that make sense, not every value). Chain 150 / 160E / 80 / 120D / 110 / 700 / 120E / 90 / 120E-105Em / 150 = 1800: cap tops 150 (TAKE CARE 160 Series E), 390 (HIGH CRASH ZONE 120 Series D), 1320 (NEXT 120 Series E), 1530 (numeral 120 Series E + km 105 Series E modified lower case). Diamond: top tip at 620 (the start of the 700 span), left tip 160 from the left edge (the sheet's '160'). The distance line ends 130 from the right edge (the sheet's '130'): dashed numeral box 270 wide, 48 to km (read from the drawing); NEXT centred over that line (x 1404.5). The two top lines centred on the sign (drawn centres 893 / 907); word gaps 111 and 78 / 73 measured."
+}

@@ -1,0 +1,61 @@
+{
+ "code": "TC1775",
+ "pack": "QLD",
+ "name": "MOTORCYCLE_YELLOW_DIAMOND",
+ "legend": "(motorcycle symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "symbols": {
+  "qld_tc1775_artwork": {
+   "source": "TC1775",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 3 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  445.8,
+  159.5,
+  1255.2,
+  968.9
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 576.83,555.86 C 541.54,557.96 511.22,530.95 509.12,495.53 C 507.02,460.11 533.94,429.67 569.23,427.56 C 604.52,425.46 634.84,452.47 636.94,487.89 C 639.04,523.32 612.12,553.75 576.83,555.86 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 269.46,572.4 C 234.17,574.51 203.85,547.49 201.75,512.07 C 199.65,476.65 226.57,446.22 261.86,444.11 C 297.15,442.0 327.47,469.02 329.57,504.44 C 331.67,539.86 304.75,570.3 269.46,572.4 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1775_artwork",
+   "x": 209.3,
+   "y": 215.9,
+   "w": 438.1,
+   "h": 322.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1775 '“WATCH FOR MOTORCYCLES” MOTORCYCLE WARNING SIGN', with a lettered size table: size A generated (600 side, 8 / 24, 210, 150, 225, r 40; B and C also tabled). The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 848.53, R40; layers from the vectors: yellow from 0. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1775_artwork.svg, 3 outlines), placed as drawn: 438.1 x 322.5 at x 209.3, y 215.9."
+}

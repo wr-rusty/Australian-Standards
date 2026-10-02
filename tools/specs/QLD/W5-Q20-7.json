@@ -1,0 +1,74 @@
+{
+ "code": "W5-Q20-7",
+ "pack": "QLD",
+ "name": "CARE_FOR_OUR_WILDLIFE_SNAKES_WHITE",
+ "legend": "CARE FOR OUR WILDLIFE (snake symbol)",
+ "shape": "rect",
+ "size": [
+  750,
+  600
+ ],
+ "radius": 50,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "green",
+  "width": 20
+ },
+ "symbols": {
+  "qld_w5-q20-7_snake": {
+   "source": "W5-Q20-7",
+   "pack": "QLD",
+   "desc": "snake silhouette, vector item(s) [288] of the sheet PDF",
+   "colours": [
+    "green"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  448.8,
+  265.7,
+  1335.2,
+  974.1
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "CARE",
+    "FOR",
+    "OUR"
+   ],
+   "series": "D",
+   "height": 60,
+   "top": 60,
+   "gap": [
+    34,
+    36
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "WILDLIFE",
+   "series": "D",
+   "height": 90,
+   "top": 163,
+   "colour": "green"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q20-7_snake",
+   "x": 75.05,
+   "y": 320,
+   "w": 599.9,
+   "h": 200,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q20_7 wildlife sign 'CARE FOR WILDLIFE - SNAKES' (2023, page 7 of 10). Size A 750 x 600 generated (B 900 x 700 also tabled), r 50, c 10 white edge / d 30 (edge 10 + green border 20). Chain n 60 / m 60D / k 43 / h 90D / g 67 / f 200 (symbol) / e 80 = 600: cap tops 60 (CARE FOR OUR) and 163 (WILDLIFE); symbol top 320, height f 200, width 599.9 from the artwork's aspect, centred (drawn 599.3 x 199.8 at x 75.3, y 319.6 on the sheet's sign). Word gaps [34, 36] measured on the sheet. The snake symbol is the sheet PDF's own vector artwork (tools/symbols/qld_w5-q20-7_snake.svg). Green legend, symbol and border on white."
+}

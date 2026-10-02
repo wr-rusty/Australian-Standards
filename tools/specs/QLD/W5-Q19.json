@@ -1,0 +1,259 @@
+{
+ "code": "W5-Q19",
+ "pack": "QLD",
+ "name": "CONSERVATION_AREA_FOR_WILDLIFE_NEXT_{km}_KM_WHITE",
+ "legend": "CONSERVATION AREA FOR WILDLIFE NEXT {km} km (W5-47B koala, REPORT INJURED ANIMALS PHONE 1300 ANIMAL)",
+ "shape": "rect",
+ "size": [
+  2400,
+  1800
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "green",
+  "width": 40
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   2,
+   5,
+   10
+  ]
+ },
+ "symbols": {
+  "qld_w5-q18-3_koala": {
+   "source": "W5-Q18-3",
+   "pack": "QLD",
+   "desc": "koala silhouette as W5-Q18_3 (the sheet's inset W5-47B)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "drawn_value": 2,
+ "panel_px": [
+  374.3,
+  391.7,
+  1351.9,
+  1124.9
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CONSERVATION",
+   "series": "C",
+   "height": 170,
+   "top": 160,
+   "align": "left",
+   "x": 135,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "AREA",
+    "FOR"
+   ],
+   "series": "C",
+   "height": 170,
+   "top": 490,
+   "gap": 96,
+   "align": "left",
+   "x": 135,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "WILDLIFE",
+   "series": "C",
+   "height": 170,
+   "top": 820,
+   "align": "left",
+   "x": 135,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "D",
+   "height": 140,
+   "top": 1230,
+   "align": "left",
+   "x": 252,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{km}",
+     "series": "D",
+     "height": 120,
+     "slot": 204
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": 74,
+   "top": 1480,
+   "align": "left",
+   "x": 223,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1790.38,
+     148.27
+    ],
+    [
+     2320.71,
+     678.6
+    ],
+    [
+     1790.38,
+     1208.93
+    ],
+    [
+     1260.05,
+     678.6
+    ]
+   ],
+   "radius": 50,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1790.38,
+     162.41
+    ],
+    [
+     2306.57,
+     678.6
+    ],
+    [
+     1790.38,
+     1194.79
+    ],
+    [
+     1274.19,
+     678.6
+    ]
+   ],
+   "radius": 40,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1790.38,
+     190.7
+    ],
+    [
+     2278.28,
+     678.6
+    ],
+    [
+     1790.38,
+     1166.5
+    ],
+    [
+     1302.48,
+     678.6
+    ]
+   ],
+   "radius": 20,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q18-3_koala",
+   "x": 1469.38,
+   "y": 457.0,
+   "w": 591.8,
+   "h": 442.7,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 1415.38,
+   "y": 1200,
+   "w": 750,
+   "h": 500,
+   "radius": 50,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 1425.38,
+   "y": 1210,
+   "w": 730,
+   "h": 480,
+   "radius": 40,
+   "colour": "green"
+  },
+  {
+   "type": "panel",
+   "x": 1445.38,
+   "y": 1230,
+   "w": 690,
+   "h": 440,
+   "radius": 20,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "REPORT",
+    "INJURED"
+   ],
+   "series": "C",
+   "height": 70,
+   "top": 1280,
+   "gap": 49,
+   "cx": 1790.38,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ANIMALS",
+    "PHONE"
+   ],
+   "series": "C",
+   "height": 70,
+   "top": 1415,
+   "gap": 42,
+   "cx": 1790.38,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "1300",
+    "ANIMAL"
+   ],
+   "series": "C",
+   "height": 70,
+   "top": 1550,
+   "gap": 37,
+   "cx": 1790.38,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q19 special warning sign 'CONSERVATION AREA FOR WILDLIFE - NEXT ..km' (2023), fully dimensioned, one size 2400 x 1800, R200, white edge 20 + green border 40 (the sheet's 20 / 60). Left chain 160 / 170C / 160 / 170C / 160 / 170C / 240 / 140D / 110 / 120D-105Em / 200 = 1800: cap tops 160 (CONSERVATION), 490 (AREA FOR), 820 (WILDLIFE), 1230 (NEXT, 140 Series D), 1480 (numeral 120 Series D + km 105 Series E modified lower case, one baseline). The three name lines start 135 from the left edge (the sheet's '135'); NEXT and the distance line are placed as drawn (ink from x 252 and the dashed numeral box from x 223, 204 wide; gap box to km 74; AREA-FOR gap 96 measured). DISAGREEMENT: CONSERVATION is labelled 170C like the other two lines but the sheet draws it in Series B (drawn 1107 wide = Series B at 170; Series C is 1367): the labelled Series C fits (clear of the diamond by about 85) and is generated. Inset W5-47B koala diamond ('alternative wildlife warning signs ... may be substituted'): size B 750 side (bounding square 1060.66), r 50, yellow edge 10 + black border 20, its rounded right tip 100 from the sign's right edge (the sheet's '100'; sharp corner 20.7 further out), centre height 678.6 as drawn (not dimensioned); koala as drawn on the inset (the W5-Q18 koala artwork, 591.8 x 442.7). Inset W8-Q18B plate REPORT INJURED ANIMALS PHONE 1300 ANIMAL: 750 x 500, r 50, white edge 10 + green border 20, three lines 70 Series C at 80 / 215 / 350 from its top (chain 80 / 70C / 65 / 70C / 65 / 70C / 80), its bottom 100 above the sign's bottom edge (the sheet's '100'), centred under the diamond as drawn; word gaps 49 / 42 / 37 measured. Distance: 'insert appropriate distance' with no example, so 2, 5 and 10 km are generated (Russell: the variants that make sense, not every value). Green legend and border on white, yellow / black inset."
+}

@@ -1,0 +1,52 @@
+{
+ "code": "TC9611",
+ "pack": "QLD",
+ "name": "SCHOOL_BUS_ENTERING_YELLOW_DIAMOND",
+ "legend": "SCHOOL BUS ENTERING",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "ground": "yellow",
+ "panel_px": [
+  384.8,
+  452.1,
+  1224.3,
+  1291.6
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "C",
+   "height": 110,
+   "top": 315.33
+  },
+  {
+   "type": "text",
+   "text": "BUS",
+   "series": "C",
+   "height": 110,
+   "top": 475.33
+  },
+  {
+   "type": "text",
+   "text": "ENTERING",
+   "series": "C",
+   "height": 110,
+   "top": 635.33
+  }
+ ],
+ "notes": "TMR Queensland TC-series design sheet TC9611 warning sign SCHOOL BUS ENTERING, dimensioned directly: 750 side diamond (bounding square 1060.66), yellow edge 10 + black border 20 (the sheet's 10 / 30), corner radius not labelled (50, as the QLD 750 diamonds). Legend three lines 110C, 50 apart (chain 110C / 50 / 110C / 50 / 110C), the block centred on the sign as drawn: cap tops centre - 215, - 55, + 105. AS 1744 (plus0) spacing. Black on yellow."
+}

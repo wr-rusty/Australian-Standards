@@ -1,0 +1,64 @@
+{
+ "code": "TC1733",
+ "pack": "QLD",
+ "name": "HEAVY_FOG_HEADLIGHTS_ON_FOR_SAFETY_YELLOW_LONG",
+ "legend": "HEAVY FOG HEADLIGHTS ON FOR SAFETY",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  900
+ ],
+ "radius": 125,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 25
+ },
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  420.8,
+  209.1,
+  1364.8,
+  681.1
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 125,
+   "words": [
+    "HEAVY",
+    "FOG"
+   ],
+   "gap": 158
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 415,
+   "words": [
+    "HEADLIGHTS",
+    "ON"
+   ],
+   "gap": 126
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 637,
+   "words": [
+    "FOR",
+    "SAFETY"
+   ],
+   "gap": 130
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1733 '\"HEAVY FOG” “HEADLIGHTS ON FOR SAFETY” 2/10/08 WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 1800 x 900 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1800 x 900, R125; layers from the vectors: yellow from 0, black from 25, yellow from 50. Sheet labels: 1800 | 130 | 50 | 180DM | 110 | 900 | 140DM | 80 | 140DM | 25 | 120 | 2100 | r 125."
+}

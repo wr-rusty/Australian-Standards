@@ -1,0 +1,74 @@
+{
+ "code": "TC9945",
+ "pack": "QLD",
+ "name": "SCHOOL_BUS_ROUTE_YELLOW_SQUARE",
+ "legend": "SCHOOL BUS ROUTE",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  850
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8.5
+ },
+ "border": {
+  "colour": "black",
+  "width": 17
+ },
+ "symbols": {
+  "qld_tc9945_artwork": {
+   "source": "TC9945",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  515.4,
+  279.2,
+  1189.9,
+  953.7
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 398.27,15.66 L 404.7,8.43 L 413.14,22.42 L 398.27,15.66 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc9945_artwork",
+   "x": 273.7,
+   "y": 176.6,
+   "w": 386.3,
+   "h": 309.1,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 60,
+   "top": 515,
+   "words": [
+    "SCHOOL",
+    "BUS"
+   ],
+   "gap": 34
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 60,
+   "top": 605,
+   "text": "ROUTE"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9945 'WARNING SIGN “SCHOOL BUS ROUTE”', with a lettered size table: size A generated (a 600 side, 60C legend, i 10 / j 20, r 40; B and C also tabled). The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 850, R40; layers from the vectors: yellow from 0, black from 8.5, yellow from 25. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9945_artwork.svg, 2 outlines), placed as drawn: 386.3 x 309.1 at x 273.7, y 176.6."
+}

@@ -1,0 +1,36 @@
+{
+ "code": "W5-Q18-6",
+ "pack": "QLD",
+ "name": "RECENT_CROSSINGS_YELLOW_LONG_SKINNY",
+ "legend": "RECENT CROSSINGS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "ground": "yellow",
+ "panel_px": [
+  373.0,
+  388.5,
+  1317.9,
+  624.7
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "RECENT",
+    "CROSSINGS"
+   ],
+   "series": "D",
+   "height": 90,
+   "top": 105,
+   "gap": 50
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q18_6 'RECENT CROSSINGS' panel, 1200 x 300: one panel of the modular W5-Q18_5 to _9 wildlife assembly (the sheet's 'example use': a 600 symbol panel beside TAKE CARE over the 1200 x 300 RECENT CROSSINGS panel); square corners, black border 25, no edge strip, as dimensioned. Chain 105 / 90D / 105 = 300: cap top 105. Word gap measured on the sheet. Black on Class 400 retroreflective yellow."
+}

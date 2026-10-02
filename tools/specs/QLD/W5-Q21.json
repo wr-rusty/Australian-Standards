@@ -1,0 +1,116 @@
+{
+ "code": "W5-Q21",
+ "pack": "QLD",
+ "name": "CARE_FOR_OUR_ISLANDS_WILDLIFE_REPORT_INJURED_ANIMALS_WHITE_TALL",
+ "legend": "CARE FOR OUR ISLAND'S WILDLIFE REPORT INJURED ANIMALS PHONE 1300 ANIMAL",
+ "shape": "rect",
+ "size": [
+  1400,
+  1600
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "green",
+  "width": 40
+ },
+ "panel_px": [
+  318.3,
+  254.3,
+  1297.7,
+  1373.6
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "CARE",
+    "FOR",
+    "OUR"
+   ],
+   "series": "D",
+   "height": 120,
+   "top": 130,
+   "gap": [
+    71,
+    70
+   ],
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "ISLAND’S",
+   "series": "D",
+   "height": 180,
+   "top": 360,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "WILDLIFE",
+   "series": "D",
+   "height": 180,
+   "top": 640,
+   "colour": "green"
+  },
+  {
+   "type": "panel",
+   "x": 150,
+   "y": 905,
+   "w": 1100,
+   "h": 600,
+   "radius": 75,
+   "colour": "green"
+  },
+  {
+   "type": "panel",
+   "x": 170,
+   "y": 925,
+   "w": 1060,
+   "h": 560,
+   "radius": 55,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "REPORT",
+    "INJURED"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 985,
+   "gap": 54,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ANIMALS",
+    "PHONE"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 1155,
+   "gap": 59,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "words": [
+    "1300",
+    "ANIMAL"
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 1325,
+   "gap": 54,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q21 wildlife information sign 'CARE FOR OUR ISLAND'S WILDLIFE / REPORT INJURED ANIMALS PHONE 1300 ANIMAL' (2023), fully dimensioned, one size 1400 x 1600, R200, white edge 20 + green border 40 (the sheet's 20 / 60). Chain 130 / 120D / 110 / 180D / 100 / 180D / 85 / inner panel 600 / 95 = 1600: cap tops 130, 360, 640. Inner panel: green outline 20 wide, R75, 1100 x 600 (x 150-1250 as drawn, 150 each side; the width is not dimensioned), top 905; inside it 80 / 100C / 70 / 100C / 70 / 100C / 80: cap tops 985, 1155, 1325. Word gaps measured on the sheet (71 / 70; 54, 59, 54). Green on white."
+}

@@ -1,0 +1,56 @@
+{
+ "code": "TC9729",
+ "pack": "QLD",
+ "name": "LOW_LOADER_GROUNDING_HAZARD_YELLOW_DIAMOND",
+ "legend": "(low loader on a hump symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "symbols": {
+  "qld_tc9729_artwork": {
+   "source": "TC9729",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 6 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  374.3,
+  306.6,
+  1381.6,
+  1313.9
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 441.39,459.77 C 451.74,459.77 484.07,466.73 494.42,481.2 L 717.09,481.2 L 717.09,502.45 L 132.11,502.45 L 132.11,481.2 L 388.35,481.2 C 398.71,466.73 431.03,459.77 441.39,459.77 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc9729_artwork",
+   "x": 131.9,
+   "y": 318.2,
+   "w": 569.4,
+   "h": 157.1,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9729 '“HAZARD FOR LONG VEHICLE” WARNING SIGN 23/2/95', with a lettered size table: size A generated (600 side, 8 / 16, r 40; B also tabled). The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 848.53, R40; layers from the vectors: yellow from 0. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9729_artwork.svg, 6 outlines), placed as drawn: 569.4 x 157.1 at x 131.9, y 318.2."
+}

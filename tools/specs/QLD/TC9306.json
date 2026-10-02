@@ -1,0 +1,57 @@
+{
+ "code": "TC9306",
+ "pack": "QLD",
+ "name": "SCHOOL_BUS_TURNING_YELLOW_SQUARE",
+ "legend": "SCHOOL BUS TURNING",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 11
+ },
+ "border": {
+  "colour": "black",
+  "width": 21
+ },
+ "panel_px": [
+  440.5,
+  267.2,
+  1283.7,
+  1110.4
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 500.48,16.29 L 509.05,7.28 L 517.43,23.82 L 500.48,16.29 Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 340,
+   "text": "SCHOOL"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 480,
+   "text": "BUS"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 100,
+   "top": 620,
+   "text": "TURNING"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9306 'WARNING SIGN “SCHOOL BUS TURNING” B  C  D  E', with a lettered size table: size A generated (a 750 side, b 10 / c 20, d 100D, f / g 60C, r 50; B and C also tabled). The drawing is to scale for that size (the drawn outline scales to 1060.66 x 1061 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1060.66 x 1060, R50; layers from the vectors: yellow from 0, black from 11, yellow from 31.6. Sheet labels: 60C | 60C | 62 | 10 | 20 | 750 | 10 | 20 | 100D | 40 | 50."
+}

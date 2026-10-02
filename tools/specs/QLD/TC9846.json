@@ -1,0 +1,93 @@
+{
+ "code": "TC9846",
+ "pack": "QLD",
+ "name": "END_{tn}ROAD_TRAIN_ROUTE_500_M_WHITE_LONG",
+ "legend": "END {type} ROAD TRAIN ROUTE 500 m",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2300,
+  1100
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "vary": {
+  "keys": [
+   "type",
+   "tn"
+  ],
+  "values": [
+   [
+    "TYPE 1",
+    "TYPE_1_"
+   ],
+   [
+    "TYPE 2",
+    "TYPE_2_"
+   ]
+  ]
+ },
+ "panel_px": [
+  304.8,
+  531.2,
+  1463.8,
+  1085.6
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 200,
+   "top": 110,
+   "text": "END"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 630,
+   "words": [
+    "ROAD",
+    "TRAIN",
+    "ROUTE"
+   ],
+   "gap": [
+    129,
+    139
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 850,
+   "text": "500",
+   "cx": 1025.4
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 140,
+   "top": 850,
+   "text": "m",
+   "cx": 1373
+  },
+  {
+   "type": "text",
+   "text": "{type}",
+   "series": "D",
+   "height": 140,
+   "top": 400,
+   "cx": 1150
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9846 '“END (TYPE 2) TRAIN ROUTE 500m” ADVANCE WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 2300 x 1100 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2300 x 1100, R200; layers from the vectors: white from 0, black from 20, white from 40. Sheet labels: 2300 | 110 | 40 | 200EM | 100 | 140DM* | 80 | 140DM | 80 | 140DM/ | 105LC | 20 | 110 | R200 | 1100. The dashed box takes TYPE 1 or TYPE 2 (the sheet: insert TYPE 1 or TYPE 2 if appropriate): both generated, 140 Series D as the line below (the box is 884 x about 165, centred at x 1150, y 470; no letter size is labelled for it)."
+}

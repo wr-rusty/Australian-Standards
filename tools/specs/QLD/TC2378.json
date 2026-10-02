@@ -1,0 +1,81 @@
+{
+ "code": "TC2378",
+ "pack": "QLD",
+ "name": "LIGHTING_OUT_DUE_TO_CABLE_THEFT_YELLOW",
+ "legend": "LIGHTING OUT DUE TO CABLE THEFT",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  450
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "symbols": {
+  "qld_tc2378_artwork": {
+   "source": "TC2378",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  450.2,
+  606.2,
+  1158.8,
+  1137.7
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc2378_artwork",
+   "x": 426.6,
+   "y": 150.0,
+   "w": 128.1,
+   "h": 260.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 60,
+   "top": 60,
+   "words": [
+    "LIGHTING",
+    "OUT"
+   ],
+   "gap": 36
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 60,
+   "top": 195,
+   "words": [
+    "DUE",
+    "TO"
+   ],
+   "gap": 30,
+   "cx": 269
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 60,
+   "top": 330,
+   "words": [
+    "CABLE",
+    "THEFT"
+   ],
+   "gap": 30,
+   "cx": 269
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2378 'TEMPORARY WARNING SIGN LIGHTING OUT', directly dimensioned and drawn to scale (the drawn outline is 600 x 450 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 600 x 450; layers from the vectors: black from 0, yellow from 25. Sheet labels: 600 | 450 | 25 | 60 | 60C | 75 | 60C | 260 | 75 | 60C | 60 | 40. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2378_artwork.svg, 2 outlines), placed as drawn: 128.1 x 260.0 at x 426.6, y 150.0."
+}

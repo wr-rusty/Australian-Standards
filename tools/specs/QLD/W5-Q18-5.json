@@ -1,0 +1,39 @@
+{
+ "code": "W5-Q18-5",
+ "pack": "QLD",
+ "name": "TAKE_CARE_YELLOW_SQUARE",
+ "legend": "TAKE CARE",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "ground": "yellow",
+ "panel_px": [
+  628.5,
+  270.2,
+  1100.9,
+  742.7
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TAKE",
+   "series": "D",
+   "height": 140,
+   "top": 110
+  },
+  {
+   "type": "text",
+   "text": "CARE",
+   "series": "D",
+   "height": 140,
+   "top": 350
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q18_5 'TAKE CARE' panel, 600 x 600: one panel of the modular W5-Q18_5 to _9 wildlife assembly (the sheet's 'example use': a 600 symbol panel beside TAKE CARE over the 1200 x 300 RECENT CROSSINGS panel); square corners, black border 25, no edge strip, as dimensioned. Chain 110 / 140D / 100 / 140D / 110 = 600: cap tops 110, 350. Black on Class 400 retroreflective yellow."
+}

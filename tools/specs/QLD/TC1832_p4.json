@@ -1,0 +1,65 @@
+{
+ "code": "TC1832_p4",
+ "pack": "QLD",
+ "name": "ROAD_CLOSED_AHEAD_DUE_TO_FLOODING_YELLOW_LONG",
+ "legend": "ROAD CLOSED AHEAD DUE TO FLOODING",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2000,
+  1000
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  259.6,
+  202.0,
+  1440.7,
+  792.6
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 90,
+   "words": [
+    "ROAD",
+    "CLOSED"
+   ],
+   "gap": 144
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 335,
+   "text": "AHEAD",
+   "cx": 1020
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 660,
+   "words": [
+    "DUE",
+    "TO",
+    "FLOODING"
+   ],
+   "gap": [
+    134,
+    132
+   ]
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1832 page 4 'SPECIAL ADVANCED WARNING “ROAD CLOSED AHEAD DUE TO FLOODING” (one line) H', directly dimensioned and drawn to scale (the drawn outline is 2000 x 1000 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2000 x 1000, R100; layers from the vectors: yellow from 0, black from 10, yellow from 30. Sheet labels: 2000 | 30 | 500 | 1000 | 500 | 10 | R100 | 90 | 160DM | 80 | 160DM | 10 | 170 | 160DN | 170."
+}

@@ -1,0 +1,141 @@
+{
+ "code": "TC1737_p2",
+ "pack": "QLD",
+ "name": "18_M_KEEP_HIGHWAY_LANES_CLEAR_YELLOW_TALL",
+ "legend": "18 m KEEP HIGHWAY LANES CLEAR",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1200,
+  1400
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "qld_tc1737-p2_artwork": {
+   "source": "TC1737_p2",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black, red)",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  485.5,
+  366.1,
+  1194.1,
+  1192.8
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 40.0,1000.0 L 1160.0,1000.0 L 1160.0,1250.0 C 1160.0,1310.42 1110.42,1360.0 1050.0,1360.0 L 150.0,1360.0 C 89.58,1360.0 40.0,1310.42 40.0,1250.0 L 40.0,1000.0 Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M 971.51,230.0 L 1046.51,290.0 L 971.51,350.0 L 146.51,350.0 L 221.51,290.0 L 146.51,230.0 L 971.51,230.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 638.5,
+   "y": 130,
+   "w": 90,
+   "h": 800,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 221.51,710.0 L 1046.51,710.0 L 971.51,770.0 L 1046.51,830.0 L 221.51,830.0 L 146.51,770.0 L 221.51,710.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 510.0,430.0 L 542.5,365.0 L 575.0,430.0 L 510.0,430.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 536.5,
+   "y": 430,
+   "w": 12,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 510.0,630.0 L 575.0,630.0 L 542.5,695.0 L 510.0,630.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 536.5,
+   "y": 590,
+   "w": 12,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1737-p2_artwork",
+   "x": 0.0,
+   "y": 20.0,
+   "w": 1200.0,
+   "h": 1380.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 120,
+   "top": 418,
+   "text": "18",
+   "cx": 258
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 160.0,
+   "top": 460,
+   "text": "m",
+   "cx": 457
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1058,
+   "words": [
+    "KEEP",
+    "HIGHWAY"
+   ],
+   "gap": 85,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1210,
+   "words": [
+    "LANES",
+    "CLEAR"
+   ],
+   "gap": 83,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1737 page 2 'WARNING SIGN LONG VEHICLES  KEEP HIGHWAY LANES CLEAR “.... m MEDIAN”', directly dimensioned and drawn to scale (the drawn outline is 1200 x 1400 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1200 x 1400, R150; layers from the vectors: yellow from 0, white from 20, yellow from 40. Sheet labels: 1200 | 900 | 410 | 90 | 250 | 75 | 150 | 150 | 75 | 65 | 510 | 130 | 40 | 100 | 120 | 120 | 120ModE | 90LC | 120 | 120 | 100 | 70 | 60 | 100DN | 50 | 100DN | 20 | 90 | R150 | 15 | 65 | 40 | 120 | 105 | 1400 | 15. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1737-p2_artwork.svg, 2 outlines), placed as drawn: 1200.0 x 1380.0 at x 0.0, y 20.0. Variable legend (drawn dotted in a dashed box on the sheet): 18 - the sheet's example value is generated."
+}

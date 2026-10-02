@@ -1,0 +1,117 @@
+{
+ "code": "W7-Q01-3",
+ "pack": "QLD",
+ "name": "KEEP_INTERSECTION_CLEAR_{d}_M_CROSS_ROAD_YELLOW_TALL",
+ "legend": "KEEP INTERSECTION CLEAR {d} m (crossing beyond a cross road)",
+ "shape": "rect",
+ "size": [
+  1200,
+  1200
+ ],
+ "radius": 100,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "d",
+  "values": [
+   10,
+   20,
+   30,
+   40
+  ]
+ },
+ "symbols": {
+  "qld_w7-q01-3_layout": {
+   "source": "W7-Q01-3",
+   "pack": "QLD",
+   "desc": "road / railway layout with stacking-distance arrows (crossing beyond a cross road), vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "drawn_value": 20,
+ "ground": "yellow",
+ "panel_px": [
+  377.0,
+  271.0,
+  1321.8,
+  1215.9
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M0 870H1200V1100A100 100 0 0 1 1100 1200H100A100 100 0 0 1 0 1100Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M10 870H1190V1100A90 90 0 0 1 1100 1190H100A90 90 0 0 1 10 1100Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M20 870H1180V1100A80 80 0 0 1 1100 1180H100A80 80 0 0 1 20 1100Z",
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w7-q01-3_layout",
+   "x": 207.5,
+   "y": 75.0,
+   "w": 785.1,
+   "h": 770.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d}",
+     "series": "D",
+     "height": 100,
+     "slot": 160.0
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 86.67
+    }
+   ],
+   "gap": 31.8,
+   "top": 364.9,
+   "align": "left",
+   "x": 214.7
+  },
+  {
+   "type": "text",
+   "words": [
+    "KEEP",
+    "INTERSECTION"
+   ],
+   "series": "D",
+   "height": 90,
+   "top": 915,
+   "gap": [
+    53
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "CLEAR",
+   "series": "D",
+   "height": 90,
+   "top": 1050,
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-Q01_3 railway level crossing short-stacking warning sign 'KEEP INTERSECTION CLEAR' (crossing beyond a cross road; 2023, page 3 of 7), fully dimensioned and drawn to scale, 1200 x 1200, R100. Upper part: yellow ground, yellow edge 10 + black border 10 (the sheet's 10 / 20); lower part from 870 down: red with a white band 10 wide 10 in from the edge along the sides and bottom (the sheet's vectors), white legend 90 Series D. Right chain 75 / 770 / 25 / 45 / 90D / 45 / 90D / 60 = 1200: legend cap top(s) [915, 1050]; word gaps [53] measured. Layout symbol (road, track, stacking arrows): the sheet PDF's own vector artwork (tools/symbols/qld_w7-q01-3_layout.svg), placed as drawn: 785.1 x 770.0 at x 207.5, y 75.0 (the sheet's chain dimensions describe this artwork). Distance: numeral 100 Series D in the dashed box (160 wide at x 215) and 'm' Series E modified lower case 32 after it ('65Em' is the height of the lower-case m itself, drawn 64.8: cap height 86.67), baseline 465, as drawn ('insert appropriate distance in metres e.g. 20'): 20 and 10 / 20 / 30 / 40 generated (Russell: the variants that make sense, not every value). Black, red and white on retroreflective yellow."
+}

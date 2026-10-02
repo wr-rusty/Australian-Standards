@@ -1,0 +1,94 @@
+{
+ "code": "TC2971_p2",
+ "pack": "QLD",
+ "name": "CAUTION_ROAD_TRAINS_53_METRES_LONG_WHITE",
+ "legend": "CAUTION ROAD TRAINS 53 METRES LONG",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  1200
+ ],
+ "radius": 120,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 24
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "qld_tc2971-p2_artwork": {
+   "source": "TC2971_p2",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 14 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  333.7,
+  330.4,
+  1325.8,
+  991.9
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 1752.0,426.72 L 48.0,426.72 L 48.0,120.17 C 48.0,80.48 80.48,48.0 120.18,48.0 L 1679.83,48.0 C 1719.52,48.0 1752.0,80.48 1752.0,120.17 L 1752.0,426.72 Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M 29.5,403.0 L 1765.22,403.0 L 1765.22,427.0 L 29.5,427.0 L 29.5,403.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc2971-p2_artwork",
+   "x": 179.5,
+   "y": 705.2,
+   "w": 1441.0,
+   "h": 200.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 135,
+   "text": "CAUTION"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 495,
+   "words": [
+    "ROAD",
+    "TRAINS"
+   ],
+   "gap": 129
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1005,
+   "words": [
+    "53",
+    "METRES",
+    "LONG"
+   ],
+   "gap": [
+    93,
+    91
+   ]
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2971 page 2 'WARNING SIGN “CAUTION ROAD TRAINS TYPE 2” - 2 Original signed by DCE-PD (24/10/89)', directly dimensioned and drawn to scale (the drawn outline is 1800 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1800 x 1200, R120; layers from the vectors: white from 0, black from 24, white from 48. Sheet labels: 1800 | 48 | 1200 | 24 | R120 | 135 | 403 | 180EM | 180 | 24 | 140DM | 70 | 200 | 773 | 100 | 100DM | 95. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2971-p2_artwork.svg, 14 outlines), placed as drawn: 1441.0 x 200.0 at x 179.5, y 705.2."
+}

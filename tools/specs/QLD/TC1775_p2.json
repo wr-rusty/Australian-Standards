@@ -1,0 +1,46 @@
+{
+ "code": "TC1775_p2",
+ "pack": "QLD",
+ "name": "LOOK_FOR_BIKES_YELLOW",
+ "legend": "LOOK FOR BIKES",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  400
+ ],
+ "radius": 40,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "ground": "yellow",
+ "elements": [
+  {
+   "type": "text",
+   "text": "LOOK",
+   "series": "E",
+   "height": 80,
+   "top": 50
+  },
+  {
+   "type": "text",
+   "text": "FOR",
+   "series": "E",
+   "height": 80,
+   "top": 160
+  },
+  {
+   "type": "text",
+   "text": "BIKES",
+   "series": "E",
+   "height": 80,
+   "top": 270
+  }
+ ],
+ "notes": "TMR Queensland TC-series design sheet with a lettered size table (drawing not to scale); every dimension from the table, AS 1744 (plus0) spacing ('CN' / 'CM' / 'DM' read as the plain series). The table's c is the yellow edge and d the edge + black border. TC1775 page 2 supplementary plate LOOK FOR BIKES (under the motorcycle diamond of page 1). Size A generated (a 600 x b 400, c 8 / d 24, e 50, f 80EW, h 30, r 40; B, C also tabled): chain 50 / 80E / 30 / 80E / 30 / 80E / 50 = 400. '80EW' read as Series E (the sheet draws the letters widely spaced; AS 1744 plus0 spacing generated). Black on yellow."
+}

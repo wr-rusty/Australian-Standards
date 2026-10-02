@@ -1,0 +1,84 @@
+{
+ "code": "TC1832_p2",
+ "pack": "QLD",
+ "name": "ROAD_CLOSED_3_AHEAD_KM_DUE_TO_FLOODING_YELLOW",
+ "legend": "ROAD CLOSED 3 AHEAD km DUE TO FLOODING",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2000,
+  1200
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  259.6,
+  202.0,
+  1440.7,
+  910.7
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 100,
+   "words": [
+    "ROAD",
+    "CLOSED"
+   ],
+   "gap": 164
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 370,
+   "text": "3",
+   "cx": 332
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 370,
+   "text": "AHEAD",
+   "cx": 1341
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 135,
+   "top": 415,
+   "text": "km",
+   "cx": 619
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 680,
+   "words": [
+    "DUE",
+    "TO"
+   ],
+   "gap": 147
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 920,
+   "text": "FLOODING"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1832 page 2 'SPECIAL ADVANCED WARNING “ROAD CLOSED ... km AHEAD DUE TO FLOODING” H', directly dimensioned and drawn to scale (the drawn outline is 2000 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2000 x 1200, R150; layers from the vectors: yellow from 0, black from 20, yellow from 40. Sheet labels: 2000 | 200 | 200 | 40 | 180EN | 1200 | 20 | R150 | 100 | 180DM | 90 | 180DM / | 135 Mod E | 50 | 80 | 160DM | 80 | 160DM | 120. Variable legend (drawn dotted in a dashed box on the sheet): 3 - the sheet's example value is generated."
+}

@@ -1,0 +1,82 @@
+{
+ "code": "TC9951_p2",
+ "pack": "QLD",
+ "name": "ROAD_CLOSED_DUE_TO_FLOODING_YELLOW_LONG",
+ "legend": "ROAD CLOSED DUE TO FLOODING",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  2000,
+  900
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "qld_tc9951-p2_artwork": {
+   "source": "TC9951_p2",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (white)",
+   "colours": [
+    "white"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  342.1,
+  570.3,
+  1413.0,
+  1052.2
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 30.01,450.0 L 30.01,100.0 C 30.01,61.5 61.51,30.0 100.01,30.0 L 1900.0,30.0 C 1938.5,30.0 1970.0,61.5 1970.0,100.0 L 1970.0,450.0 L 30.01,450.0 Z",
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc9951-p2_artwork",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 2000.0,
+   "h": 450.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 150,
+   "words": [
+    "ROAD",
+    "CLOSED"
+   ],
+   "gap": 166
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 590,
+   "words": [
+    "DUE",
+    "TO",
+    "FLOODING"
+   ],
+   "gap": [
+    129,
+    127
+   ]
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9951 page 2 '“ROAD CLOSED DUE TO FLOODING” TEMPORARY WARNING SIGN C  D 2/03/12', directly dimensioned and drawn to scale (the drawn outline is 2000 x 900 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2000 x 900, R100; layers from the vectors: yellow from 0, black from 10, yellow from 30. Sheet labels: 2000 | 30 | 450 | 900 | 450 | 10 | R100 | 150 | 180DM | 260 | 140DM | 170. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9951-p2_artwork.svg, 1 outlines), placed as drawn: 2000.0 x 450.0 at x 0.0, y 0.0."
+}

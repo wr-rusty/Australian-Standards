@@ -1,0 +1,49 @@
+{
+ "code": "R6-100-Q03-1",
+ "pack": "QLD",
+ "name": "NO_ELECTRIC_SCOOTERS_WHITE_TALL",
+ "legend": "(e-scooter prohibited symbol)",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "radius": 30,
+ "ground": "white",
+ "folder": "Regulatory Signs",
+ "symbols": {
+  "qld_r6-100-q03-1_artwork": {
+   "source": "R6-100-Q03-1",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black, red)",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  649.1,
+  221.9,
+  1121.5,
+  694.4
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 236.31,168.32 L 253.39,212.45 L 195.71,154.07 L 222.19,151.16 L 205.29,106.23 L 265.39,165.38 L 236.31,168.32 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_r6-100-q03-1_artwork",
+   "x": 5.7,
+   "y": 5.8,
+   "w": 438.6,
+   "h": 438.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet R6-100-Q03-1 'E-SCOOTERS PROHIBITED R6-100-Q03_1', with a lettered size table: size A generated (a 450; AA 300 and B 600 also tabled). The drawing is to scale for that size (the drawn outline scales to 450 x 450 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 450 x 450, R30; layers from the vectors: white from 0. Sheet labels: 2 | 1. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_r6-100-q03-1_artwork.svg, 2 outlines), placed as drawn: 438.6 x 438.5 at x 5.7, y 5.8."
+}

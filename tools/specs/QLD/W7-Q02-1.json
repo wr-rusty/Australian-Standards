@@ -1,0 +1,168 @@
+{
+ "code": "W7-Q02-1",
+ "pack": "QLD",
+ "name": "KEEP_TRACKS_CLEAR_WHEN_LIGHTS_FLASHING_USE_EMERGENCY_BAY_WHITE_TALL",
+ "legend": "KEEP TRACKS CLEAR WHEN LIGHTS FLASHING 12.5 m USE EMERGENCY BAY",
+ "shape": "rect",
+ "size": [
+  1800,
+  2600
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "symbols": {
+  "qld_w7-q02-1_layout": {
+   "source": "W7-Q02-1",
+   "pack": "QLD",
+   "desc": "T-intersection, side road and railway with the stacking-distance arrow (the sheet's Symbol A, page 3), vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w7-q02_arrow_left": {
+   "source": "W7-Q02-1",
+   "pack": "QLD",
+   "desc": "left-pointing arrow 850 x 160 (detailed on page 2: head 143, R8, 45, 15, shaft 60), vector item 205",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  478.0,
+  253.8,
+  1229.1,
+  1338.8
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 60,
+   "y": 1040,
+   "w": 1680,
+   "h": 1040,
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 40,
+   "y": 1020,
+   "w": 1720,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 40,
+   "y": 2060,
+   "w": 1720,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "KEEP",
+    "TRACKS"
+   ],
+   "series": "E",
+   "height": 160,
+   "top": 120,
+   "gap": 80
+  },
+  {
+   "type": "text",
+   "text": "CLEAR",
+   "series": "E",
+   "height": 160,
+   "top": 360
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "LIGHTS"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 620,
+   "gap": 91
+  },
+  {
+   "type": "text",
+   "text": "FLASHING",
+   "series": "D",
+   "height": 140,
+   "top": 830
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w7-q02-1_layout",
+   "x": 304.8,
+   "y": 1110.1,
+   "w": 1190.3,
+   "h": 900.1,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "12.5",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 47.9,
+   "top": 1400,
+   "align": "left",
+   "x": 1217.4
+  },
+  {
+   "type": "text",
+   "words": [
+    "USE",
+    "EMERGENCY"
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 2150,
+   "gap": 81,
+   "cx": 892.7
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w7-q02_arrow_left",
+   "x": 201.3,
+   "y": 2349.5,
+   "w": 850.0,
+   "h": 159.8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "BAY",
+   "series": "D",
+   "height": 140,
+   "top": 2360,
+   "align": "right",
+   "x": 1584.1
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-Q02_1 warning sign 'USE EMERGENCY BAY' (2023, page 1 of 3; used with flashing light panel TC2092), fully dimensioned and drawn to scale, 1800 x 2600, R200, white edge 20 + black border 40 (the sheet's 20 / 60). Yellow band between two 40 black bars (bars at 1020-1060 and 2060-2100). Right chain 120 / 160E / 80 / 160E / 100 / 140D / 70 / 140D / 50 | 380 / 140D-90Em / 560 | 50 / 140D / 70 / 140D / 100 = 2600: cap tops 120 (KEEP TRACKS), 360 (CLEAR), 620 (WHEN LIGHTS), 830 (FLASHING), 1400 (distance), 2150 (USE EMERGENCY), 2360 (BAY). Lines centred as the sheet draws them (BAY ends at the drawn x); word gaps as drawn. The sheet sets its legend tighter than AS 1744 spacing (drawn left / right / gaps / drawn-to-AS 1744 width ratio per line: [('KEEP TRACKS', (146, 1656, [80], 0)), ('CLEAR', (554, 1244, [], 0.895)), ('WHEN LIGHTS', (355, 1452, [91], 0.939)), ('FLASHING', (498, 1301, [], 0.935)), ('USE EMERGENCY', (201, 1584, [81], 0.937)), ('BAY', (1265, 1584, [], 0.899))]); generated at the labelled sizes with AS 1744 (plus0) spacing. Layout symbol (Symbol A of page 3) and the left arrow are the sheet PDF's own vector artwork, placed as drawn: symbol 1190.3 x 900.1 at x 304.8, y 1110.1; arrow 850.0 x 159.8 at x 201.3, y 2349.5. Distance '12.5 m': numerals 140 Series D, 'm' Series E modified lower case ('90Em' = the height of the lower-case m itself: cap height 120), from x 1217 with 48 between them as drawn; 'insert appropriate distance in metres, e.g. 12.5' with no list: the example only is generated. Black on white and retroreflective yellow."
+}

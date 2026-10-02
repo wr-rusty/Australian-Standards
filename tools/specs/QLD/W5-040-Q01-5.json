@@ -1,0 +1,304 @@
+{
+ "code": "W5-040-Q01-5",
+ "pack": "QLD",
+ "name": "WATCH_FOR_TURNING_TRAFFIC_NEXT_{km}_KM_OPTION_{opt}_RED_LONG",
+ "legend": "WATCH FOR TURNING TRAFFIC NEXT {km} km (crash symbol option {opt})",
+ "shape": "rect",
+ "size": [
+  3300,
+  1800
+ ],
+ "radius": 130,
+ "ground": "red",
+ "edge": {
+  "colour": "red",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "vary": {
+  "keys": [
+   "opt",
+   "km"
+  ],
+  "values": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    6,
+    10
+   ]
+  ]
+ },
+ "symbols": {
+  "qld_w5-040-q01_crash_1": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 1 (side impact) of page 6 of the sheet (vector items [265, 266, 267, 268, 269, 270, 271, 272]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_2": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 2 (side impact) of page 6 of the sheet (vector items [243, 244, 245, 246, 247, 248, 249, 250]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_3": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 3 (side impact) of page 6 of the sheet (vector items [254, 255, 256, 257, 258, 259, 260, 261]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_4": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 4 (side impact) of page 6 of the sheet (vector items [3, 4, 5, 6, 7, 8, 9, 10]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_5": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 5 (head on impact) of page 6 of the sheet (vector items [276, 278, 279, 280, 281, 282, 283]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w5-040-q01_crash_6": {
+   "source": "W5-040-Q01-6",
+   "pack": "QLD",
+   "desc": "crash scene option 6 (rear end impact) of page 6 of the sheet (vector items [287, 288, 289, 290, 291, 293, 294]); the symbol's viewBox is the whole drawn diamond so every option sits in the same box",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  300.1,
+  422.4,
+  1339.5,
+  989.4
+ ],
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     711.55,
+     263.6
+    ],
+    [
+     1347.95,
+     900
+    ],
+    [
+     711.55,
+     1536.4
+    ],
+    [
+     75.15,
+     900
+    ]
+   ],
+   "radius": 60,
+   "colour": "yellow"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     711.55,
+     284.82
+    ],
+    [
+     1326.73,
+     900
+    ],
+    [
+     711.55,
+     1515.18
+    ],
+    [
+     96.37,
+     900
+    ]
+   ],
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     711.55,
+     327.24
+    ],
+    [
+     1284.31,
+     900
+    ],
+    [
+     711.55,
+     1472.76
+    ],
+    [
+     138.79,
+     900
+    ]
+   ],
+   "radius": 15,
+   "colour": "yellow"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-040-q01_crash_{opt}",
+   "x": 100.01,
+   "y": 288.46,
+   "w": 1223.09,
+   "h": 1223.09,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "WATCH",
+    "FOR"
+   ],
+   "series": "E",
+   "height": 200,
+   "top": 200,
+   "gap": 152,
+   "align": "right",
+   "x": 3080,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "TURNING",
+   "series": "E",
+   "height": 200,
+   "top": 590,
+   "cx": 2226,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "TRAFFIC",
+   "series": "E",
+   "height": 200,
+   "top": 980,
+   "cx": 2226,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "NEXT",
+     "series": "E",
+     "height": 180
+    },
+    {
+     "text": "{km}",
+     "series": "E",
+     "height": 180,
+     "slot": 187
+    },
+    {
+     "text": "km",
+     "series": "Emod",
+     "height": 155
+    }
+   ],
+   "gap": [
+    200,
+    127
+   ],
+   "top": 1420,
+   "colour": "white",
+   "cx": 2213
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-040-Q01_5 'WATCH FOR TURNING TRAFFIC NEXT ... km' (2025, page 5 of 6), fully dimensioned, 3300 x 1800. Red sign: red edge 30 + white border 30 (the sheet's 30 / 60), r 130, white legend on Class 400 retroreflective red. The '*' diamond is the sheet's 'insert appropriate warning sign option - refer page 6': the six crash-scene options of page 6 (1-4 side impact, 5 head on, 6 rear end) are generated as variants, each scene the sheet PDF's own vector artwork placed in the diamond as page 6 draws it; the inset diamond is 900 side (note 2), yellow edge 15 + black border 30, r 60 (the QLD W-series values at that size; not dimensioned on this sheet), and the sheet's dimensions run to its rounded tips. Distance '**' = 'insert appropriate distance' with no example: 2, 5 and 10 km generated (Russell: the variants that make sense, not every value). Chain 200 / 200E / 190 / 200E / 190 / 200E / 240 / 180E-155Em / 200 = 1800: cap tops 200, 590, 980, 1420. Diamond: left tip 100 from the left edge, centred vertically. WATCH FOR ends 220 from the right edge (the sheet's '220'), word gap 152 measured; TURNING / TRAFFIC centred on x 2226 and the NEXT line on x 2213, as drawn (not dimensioned); NEXT to the dashed numeral box 200, box 187 wide, box to km 127."
+}

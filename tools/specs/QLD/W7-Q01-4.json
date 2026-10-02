@@ -1,0 +1,111 @@
+{
+ "code": "W7-Q01-4",
+ "pack": "QLD",
+ "name": "KEEP_TRACK_CLEAR_{d}_M_ROUNDABOUT_YELLOW_TALL",
+ "legend": "KEEP TRACK CLEAR {d} m (roundabout beyond the crossing)",
+ "shape": "rect",
+ "size": [
+  1200,
+  1400
+ ],
+ "radius": 100,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "vary": {
+  "key": "d",
+  "values": [
+   10,
+   20,
+   30,
+   40
+  ]
+ },
+ "symbols": {
+  "qld_w7-q01-4_layout": {
+   "source": "W7-Q01-4",
+   "pack": "QLD",
+   "desc": "road / railway layout with stacking-distance arrows (roundabout beyond the crossing), vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "drawn_value": 40,
+ "ground": "yellow",
+ "panel_px": [
+  460.7,
+  235.6,
+  1257.5,
+  1165.2
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M0 1170H1200V1300A100 100 0 0 1 1100 1400H100A100 100 0 0 1 0 1300Z",
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M10 1170H1190V1300A90 90 0 0 1 1100 1390H100A90 90 0 0 1 10 1300Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M20 1170H1180V1300A80 80 0 0 1 1100 1380H100A80 80 0 0 1 20 1300Z",
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w7-q01-4_layout",
+   "x": 150.0,
+   "y": 75.0,
+   "w": 900.0,
+   "h": 1070.1,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{d}",
+     "series": "D",
+     "height": 100,
+     "slot": 168.7
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 86.67
+    }
+   ],
+   "gap": 31.6,
+   "top": 754.5,
+   "align": "left",
+   "x": 194.7
+  },
+  {
+   "type": "text",
+   "words": [
+    "KEEP",
+    "TRACK",
+    "CLEAR"
+   ],
+   "series": "D",
+   "height": 90,
+   "top": 1225,
+   "gap": [
+    44,
+    57
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-Q01_4 railway level crossing short-stacking warning sign 'KEEP TRACK CLEAR' (roundabout beyond the crossing; 2023, page 4 of 7), fully dimensioned and drawn to scale, 1200 x 1400, R100. Upper part: yellow ground, yellow edge 10 + black border 10 (the sheet's 10 / 20); lower part from 1170 down: red with a white band 10 wide 10 in from the edge along the sides and bottom (the sheet's vectors), white legend 90 Series D. Right chain 75 / 1070 / 25 / 55 / 90D / 85 = 1400: legend cap top(s) [1225]; word gaps [44, 57] measured. Layout symbol (road, track, stacking arrows): the sheet PDF's own vector artwork (tools/symbols/qld_w7-q01-4_layout.svg), placed as drawn: 900.0 x 1070.1 at x 150.0, y 75.0 (the sheet's chain dimensions describe this artwork). Distance: numeral 100 Series D in the dashed box (169 wide at x 195) and 'm' Series E modified lower case 32 after it ('65Em' is the height of the lower-case m itself, drawn 64.8: cap height 86.67), baseline 854, as drawn ('insert appropriate distance in metres e.g. 40'): 40 and 10 / 20 / 30 / 40 generated (Russell: the variants that make sense, not every value). Black, red and white on retroreflective yellow."
+}

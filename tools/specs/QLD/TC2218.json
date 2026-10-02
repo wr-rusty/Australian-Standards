@@ -1,0 +1,71 @@
+{
+ "code": "TC2218",
+ "pack": "QLD",
+ "name": "MOTORCYCLE_SHOULDER_DRAIN_YELLOW_DIAMOND",
+ "legend": "(motorcycle on a shoulder drain symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  850
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 18
+ },
+ "symbols": {
+  "qld_tc2218_artwork": {
+   "source": "TC2218",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 3 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  517.3,
+  165.0,
+  1191.8,
+  839.5
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 398.52,8.54 L 408.54,1.17 L 413.89,18.92 L 398.52,8.54 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 344.79,273.21 L 357.42,260.62 L 375.44,286.6 L 361.2,299.44 C 360.54,298.98 359.53,298.42 358.77,297.89 C 351.43,292.77 345.22,282.06 344.79,273.21 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 306.42,513.93 C 280.21,518.59 255.18,501.13 250.51,474.92 C 245.84,448.71 263.31,423.67 289.52,419.01 C 315.73,414.34 340.76,431.81 345.43,458.02 C 350.09,484.23 332.63,509.26 306.42,513.93 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 531.48,474.06 C 505.27,478.73 480.24,461.26 475.57,435.05 C 470.91,408.84 488.37,383.81 514.58,379.14 C 540.79,374.48 565.82,391.94 570.49,418.15 C 575.16,444.36 557.69,469.39 531.48,474.06 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc2218_artwork",
+   "x": 176.0,
+   "y": 235.7,
+   "w": 515.2,
+   "h": 317.0,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2218 '“SHOULDER DRAINS” WARNING SIGN', with a lettered size table: size A generated (600 side, 8 / 24, d 130, e 190, f 250, g 270, r 40; B, C, D also tabled). The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 850, R40; layers from the vectors: yellow from 0, black from 8, yellow from 26.5. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2218_artwork.svg, 3 outlines), placed as drawn: 515.2 x 317.0 at x 176.0, y 235.7."
+}

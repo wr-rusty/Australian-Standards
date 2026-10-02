@@ -1,0 +1,62 @@
+{
+ "code": "TC1346_p2",
+ "pack": "QLD",
+ "name": "NARROW_BRIDGE_YELLOW",
+ "legend": "NARROW BRIDGE",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2200,
+  1400
+ ],
+ "radius": 175,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 24
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "qld_tc1346-p2_artwork": {
+   "source": "TC1346_p2",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  322.8,
+  351.3,
+  1362.2,
+  1012.8
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1346-p2_artwork",
+   "x": 424.9,
+   "y": 150.0,
+   "w": 1350.3,
+   "h": 800.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 1090,
+   "words": [
+    "NARROW",
+    "BRIDGE"
+   ],
+   "gap": 144
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1346 page 2 '7/02/02 “NARROW BRIDGE” SPECIAL WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 2200 x 1400 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2200 x 1400, R175; layers from the vectors: yellow from 0, black from 24, yellow from 48. Sheet labels: 2200 | 1350 | 48 | 1400 | 24 | R175 | 150 | 800 | 140 | 160DM | 150. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1346-p2_artwork.svg, 1 outlines), placed as drawn: 1350.3 x 800.0 at x 424.9, y 150.0."
+}

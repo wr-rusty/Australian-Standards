@@ -1,0 +1,51 @@
+{
+ "code": "TC9944",
+ "pack": "QLD",
+ "name": "SCHOOL_BUS_AND_STUDENT_YELLOWGREEN_DIAMOND",
+ "legend": "(school bus and student symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellowgreen",
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "symbols": {
+  "qld_tc9944_artwork": {
+   "source": "TC9944",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  521.0,
+  213.4,
+  1195.6,
+  887.9
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc9944_artwork",
+   "x": 198.2,
+   "y": 238.2,
+   "w": 434.4,
+   "h": 348.1,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9944 'WARNING SIGN “BUS AND STUDENT (SYMBOLIC)” B  C  D', with a lettered size table: size A generated (TC9944A: a 600 side, b 228, c 210, d 366, e 10 / f 20, r 40; B and C also tabled); fluorescent yellow-green ground as the sheet's colour legend. The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 848.53, R40; layers from the vectors: yellow from 0. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9944_artwork.svg, 2 outlines), placed as drawn: 434.4 x 348.1 at x 198.2, y 238.2."
+}

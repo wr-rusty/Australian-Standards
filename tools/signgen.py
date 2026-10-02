@@ -255,7 +255,8 @@ def build(spec, values, hand=None):
             tr = f' transform="translate({fmt(W)} 0) scale(-1 1)"' if mirror and el.get("mirror", True) else ""
             out.append(f'    <path fill="{colour}" d="{d}"{tr}/>')
         elif t == "symbol":
-            paths, vb = symbol_paths(el["id"])
+            sid = sub(el["id"])   # the id may carry a vary placeholder ("qld_x_{opt}"): one symbol per variant
+            paths, vb = symbol_paths(sid)
             bx, by, bw, bh = el["x"], el["y"], el["w"], el["h"]
             s = min(bw / vb[2], bh / vb[3])
             ox = bx + (bw - vb[2] * s) / 2 - vb[0] * s; oy = by + (bh - vb[3] * s) / 2 - vb[1] * s
@@ -269,7 +270,7 @@ def build(spec, values, hand=None):
             for d, f in paths:
                 out.append(f'      <path fill="{colour if f in ("currentColor", None) else f}" d="{d}"/>')
             out.append('    </g>')
-            flags.append(f"symbol:{el['id']}")
+            flags.append(f"symbol:{sid}")
         elif t == "text":
             # runs: [{"text","series","height","tracking"}] share one baseline; plain text/words = one run each
             if el.get("runs"):

@@ -1,0 +1,50 @@
+{
+ "code": "W7-13-Q01-3",
+ "pack": "QLD",
+ "name": "RAILWAY_CROSSING_BETWEEN_T_JUNCTION_AND_CROSSROAD_YELLOW_DIAMOND",
+ "legend": "(railway crossing between a T-junction ahead and a cross road symbol)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "qld_w7-13-q01-3_legend": {
+   "source": "W7-13-Q01-3",
+   "pack": "QLD",
+   "desc": "railway crossing between a T-junction ahead and a cross road, vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  435.8,
+  260.0,
+  1279.0,
+  1103.1
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w7-13-q01-3_legend",
+   "x": 124.2,
+   "y": 272.1,
+   "w": 812.2,
+   "h": 673.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-13-Q01_3 railway level crossing warning sign (2022, page 3 of 7): railway crossing between a T-junction ahead and a cross road. Size one size, 750, R50, dimensioned directly: side 750 drawn as the bounding square 1060.66, r 50, yellow edge 10 + black border 20. The sheet's vectors are to scale; sheet dims: 410 / 410 across; down the centre 90 / 80 / 32 / 58 / 50 / 32 / 90 / 45 / 203; 45 / 45 and 215 / 215 at the bottom. Symbol: the sheet PDF's own vector artwork (tools/symbols/qld_w7-13-q01-3_legend.svg, items 114-114), placed as the sheet draws it: 812.2 x 673.5 with its box 406.1 left / 406.1 right of the vertical centreline and 258.2 above / 415.3 below the horizontal centreline. Black on retroreflective yellow."
+}

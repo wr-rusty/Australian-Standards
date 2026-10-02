@@ -1,0 +1,97 @@
+{
+ "code": "TC1988_p3",
+ "pack": "QLD",
+ "name": "WATCH_FOR_TURNING_TRUCKS_YELLOW_TALL",
+ "legend": "WATCH FOR TURNING TRUCKS",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  750,
+  1300
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "symbols": {
+  "qld_tc1988-p3_artwork": {
+   "source": "TC1988_p3",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 5 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  510.0,
+  380.5,
+  1100.5,
+  1404.1
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 125,
+   "y": 557,
+   "w": 500,
+   "h": 8,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 551.47,508.78 L 466.79,508.75 L 551.47,508.78 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 609.95,248.36 L 609.95,466.2 L 404.38,466.2 L 404.38,248.34 L 609.95,248.36 Z M 551.93,457.62 L 600.41,457.62 L 600.41,438.97 L 551.93,438.97 L 551.93,457.62 Z M 413.91,457.62 L 462.39,457.62 L 462.39,438.97 L 413.91,438.97 L 413.91,457.62 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1988-p3_artwork",
+   "x": 127.5,
+   "y": 65.0,
+   "w": 482.3,
+   "h": 492.5,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 665,
+   "text": "WATCH"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 815,
+   "text": "FOR"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 965,
+   "text": "TURNING"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1115,
+   "text": "TRUCKS"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1988 page 3 '“WATCH FOR TURNING TRUCKS” (ACROSS LEFT HAND TURN AND BIKE LANES) TRAFFIC WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 750 x 1300 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 750 x 1300, R100; layers from the vectors: yellow from 0, black from 15, yellow from 30. Sheet labels: 750 | 500 | 16 | 1300 | 8 | R100 | 65 | 500 | 100 | 100DN | 50 | 100DN | 50 | 100DN | 50 | 100DN | 85. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1988-p3_artwork.svg, 5 outlines), placed as drawn: 482.3 x 492.5 at x 127.5, y 65.0."
+}

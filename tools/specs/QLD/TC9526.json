@@ -1,0 +1,32 @@
+{
+ "code": "TC9526",
+ "pack": "QLD",
+ "name": "CROSSING_YELLOW",
+ "legend": "CROSSING",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  600,
+  250
+ ],
+ "radius": 40,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "ground": "yellow",
+ "elements": [
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "C",
+   "height": 100,
+   "top": 75
+  }
+ ],
+ "notes": "TMR Queensland TC-series design sheet with a lettered size table (drawing not to scale); every dimension from the table, AS 1744 (plus0) spacing ('CN' / 'CM' / 'DM' read as the plain series). The table's c is the yellow edge and d the edge + black border. TC9526 supplementary plate CROSSING. Size A generated (a 600 x b 250, c 8 / d 24, e 75, f 100CN, r 40; B 750 x 312, C 900 x 375 also tabled): chain e 75 / f 100C / e 75 = 250. The sheet draws the plate shallower than tabled (3:1); the table governs. Black on yellow."
+}

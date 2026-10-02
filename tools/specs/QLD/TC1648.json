@@ -1,0 +1,58 @@
+{
+ "code": "TC1648",
+ "pack": "QLD",
+ "name": "ONLY_WHITE_SQUARE",
+ "legend": "ONLY",
+ "shape": "rect",
+ "size": [
+  800,
+  800
+ ],
+ "radius": 60,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "folder": "Regulatory Signs",
+ "symbols": {
+  "qld_tc1648_artwork": {
+   "source": "TC1648",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  557.7,
+  488.6,
+  1187.6,
+  1118.6
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc1648_artwork",
+   "x": 60.1,
+   "y": 92.2,
+   "w": 680.0,
+   "h": 408.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 580,
+   "text": "ONLY"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1648 '6/06/07 REGULATORY SIGN “LEFT & RIGHT TURNS ONLY”', with a lettered size table: size A generated (a 800 x b 1200, c 8 / d 24, 120EM ONLY; B also tabled). The drawing is to scale for that size (the drawn outline scales to 800 x 800 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 800 x 800, R60; layers from the vectors: white from 0, black from 8, white from 24. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1648_artwork.svg, 2 outlines), placed as drawn: 680.0 x 408.0 at x 60.1, y 92.2."
+}

@@ -1,0 +1,109 @@
+{
+ "code": "TC1374",
+ "pack": "QLD",
+ "name": "SCHOOL_BUS_ON_RANGE_MON_FRI_TO_7.30-8.00_AM_3.30-4.00_PM_YELLOW",
+ "legend": "SCHOOL BUS ON RANGE MON FRI TO 7.30-8.00 AM 3.30-4.00 PM",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1300,
+  1100
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  439.0,
+  492.3,
+  1155.5,
+  1098.6
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 100,
+   "words": [
+    "SCHOOL",
+    "BUS"
+   ],
+   "gap": 105
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 295,
+   "words": [
+    "ON",
+    "RANGE"
+   ],
+   "gap": 118
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 490,
+   "text": "MON",
+   "cx": 349
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 490,
+   "text": "FRI",
+   "cx": 994
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 510,
+   "text": "TO",
+   "cx": 700
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 685,
+   "text": "7.30-8.00",
+   "cx": 502.6
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 705,
+   "text": "AM",
+   "cx": 1105
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 880,
+   "text": "3.30-4.00",
+   "cx": 511
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 900,
+   "text": "PM",
+   "cx": 1115
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1374 'WARNING SIGN “SCHOOL BUS ON RANGE MON TO FRI”', directly dimensioned and drawn to scale (the drawn outline is 1300 x 1100 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1300 x 1100, R150; layers from the vectors: yellow from 0, black from 8, yellow from 24. Sheet labels: 1300 | 24 | 1100 | 8 | R150 | 100 | 120DM | 75 | 120DM | 75 | 120DM/100DM | 75 | 120DM/100DM | 75 | 120DM/100DM | 100."
+}

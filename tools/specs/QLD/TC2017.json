@@ -1,0 +1,249 @@
+{
+ "code": "TC2017",
+ "pack": "QLD",
+ "name": "YELLOW_TALL",
+ "legend": "",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  450,
+  940
+ ],
+ "radius": 38,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 7.5
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "symbols": {
+  "qld_tc2017_artwork": {
+   "source": "TC2017",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 5 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  464.1,
+  262.2,
+  936.5,
+  1246.5
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 172,
+   "y": 625,
+   "w": 5,
+   "h": 49,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 172,
+   "y": 598,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 216.6,
+   "y": 598,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 172,
+   "y": 571,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 216.6,
+   "y": 571,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 216.6,
+   "y": 625,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 216.6,
+   "y": 652,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 116.19,749.79 L 111.8,746.62 L 143.12,713.54 L 144.37,714.57 L 116.19,749.79 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 125.46,758.82 L 145.7,718.24 L 147.33,719.16 L 130.56,761.05 L 125.46,758.82 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 143.64,761.63 L 150.83,716.63 L 152.43,717.05 L 149.03,762.72 L 143.64,761.63 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 144.55,565.77 L 149.79,563.26 L 164.86,609.76 L 163.25,610.41 L 144.55,565.77 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 131.28,569.86 L 159.11,609.78 L 157.4,610.84 L 126.56,573.52 L 131.28,569.86 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 119.3,585.55 L 157.99,615.44 L 156.78,616.73 L 115.5,590.06 L 119.3,585.55 Z",
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 172,
+   "y": 870,
+   "w": 5,
+   "h": 22.6,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 216.6,
+   "y": 870,
+   "w": 5,
+   "h": 22.6,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 242,
+   "y": 679,
+   "w": 5,
+   "h": 214,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 679,
+   "w": 5,
+   "h": 214,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 244.6,
+   "y": 367.5,
+   "w": 5,
+   "h": 28.6,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 289,
+   "y": 367.5,
+   "w": 5,
+   "h": 28.6,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 172,
+   "y": 367.5,
+   "w": 5,
+   "h": 189,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 216.6,
+   "y": 367.5,
+   "w": 5,
+   "h": 189,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 598,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 625,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 652,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 242,
+   "y": 598,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 242,
+   "y": 625,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 242,
+   "y": 652,
+   "w": 5,
+   "h": 14,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc2017_artwork",
+   "x": 46.2,
+   "y": 44.2,
+   "w": 333.6,
+   "h": 834.2,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2017 'WARNING SIGN NO U-TURN ACROSS TRAM TRACKS', with a lettered size table: size A generated (a 450 x b 950, c 10 / d 30, r 50; B also tabled). The drawing is to scale for that size (the drawn outline scales to 450 x 938 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 450 x 940, R38; layers from the vectors: yellow from 0, black from 7.5, yellow from 22.5. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2017_artwork.svg, 5 outlines), placed as drawn: 333.6 x 834.2 at x 46.2, y 44.2."
+}

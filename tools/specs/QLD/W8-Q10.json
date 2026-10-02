@@ -33,16 +33,16 @@
    ],
    "series": "B",
    "height": 100,
-   "gap": 54,
+   "gap": 73,
    "top": 75
   },
   {
    "type": "text",
    "text": "CROSSING",
-   "series": "C",
+   "series": "B",
    "height": 100,
    "top": 225
   }
  ],
- "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q10 'Supplementary plate AT RAIL CROSSING' (2019). Size A 600 x 400 generated (B 750 x 500, C 900 x 600 also tabled), r 40, c 8 / d 24 (edge 8 + border 16). Chain e 75 / h 100B / g 50 / f 100C / e 75 = 400: cap tops 75 (AT RAIL 100 Series B, as tabled) and 225 (CROSSING 100C). Word gap AT-RAIL 54 measured on the sheet. Black on yellow."
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Sheet 'c' is the white edge and 'd' the edge + border (read as AS 1743 does: 10/30 = edge 10 + border 20, 5/15 = 5 + 10, 15/45 = 15 + 30), confirmed against the national R-series pairs. On this yellow plate 'c' is the yellow edge and 'd' the edge + black border. Q-series sheet W8-Q10 'Supplementary plate AT RAIL CROSSING' (2019). Size A 600 x 400 generated (B 750 x 500, C 900 x 600 also tabled), r 40, c 8 / d 24 (edge 8 + border 16). Chain e 75 / h 100B / g 50 / f 100C / e 75 = 400: cap tops 75 (AT RAIL 100 Series B, as tabled) and 225 (CROSSING 100C). Word gap AT-RAIL 54 measured on the sheet. Black on yellow. 2026-10-02 audit: DISAGREEMENT: the table gives f (CROSSING) 100C, but the sheet draws both lines in Series B to scale (measured on the 200 dpi sheet: AT 98, RAIL 193, CROSSING 429 wide = the AS 1744 Series B widths at 100; cap tops 75 / 223), and CROSSING at 100 Series C would be 530 wide in the 552 between the borders (11 clear each side, was generated so and ran to the border). Generated as drawn: both lines 100 Series B. Word gap AT-RAIL re-measured 73 (was 54)."
 }

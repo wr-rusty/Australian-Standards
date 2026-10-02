@@ -1,0 +1,71 @@
+{
+ "code": "W5-Q18-2",
+ "pack": "QLD",
+ "name": "BEWARE_EMU_RECENT_CROSSINGS_YELLOW_TALL",
+ "legend": "BEWARE (emu symbol) RECENT CROSSINGS",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "qld_w5-q18-2_emu": {
+   "source": "W5-Q18-2",
+   "pack": "QLD",
+   "desc": "emu silhouette, vector path(s) 119 of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  586.3,
+  214.5,
+  1117.8,
+  923.2
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BEWARE",
+   "series": "D",
+   "height": 60,
+   "top": 45
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w5-q18-2_emu",
+   "x": 129.45,
+   "y": 135,
+   "w": 191.1,
+   "h": 265,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "RECENT",
+   "series": "D",
+   "height": 50,
+   "top": 430
+  },
+  {
+   "type": "text",
+   "text": "CROSSINGS",
+   "series": "D",
+   "height": 50,
+   "top": 505
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q18_2 wildlife warning sign 'BEWARE / emu / RECENT CROSSINGS' (Far North District wildlife management, temporary 5-day sign). Size A 450 x 600 generated (B 900 x 1200 also tabled), r 50, c 10 yellow edge / d 30 (edge 10 + black border 20). Chain e 45 / k 60D / h 30 / j 265 (symbol) / h 30 / f 50D / g 25 / f 50D / e 45 = 600: cap tops 45, 430, 505; symbol top 135, height j 265, its width 191.1 from the artwork's aspect (drawn 191.1 x 265.0 at 129.5, 135.0 on the sheet's sign), centred. The emu is the sheet PDF's own vector artwork (tools/symbols/qld_w5-q18-2_emu.svg). Black on Class 400 retroreflective yellow."
+}

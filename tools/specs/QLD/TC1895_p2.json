@@ -1,0 +1,52 @@
+{
+ "code": "TC1895_p2",
+ "pack": "QLD",
+ "name": "WATER_OVER_ROAD_YELLOW",
+ "legend": "WATER OVER ROAD",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1200,
+  1000
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  354.9,
+  305.6,
+  1299.8,
+  1093.0
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 140,
+   "text": "WATER"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 450,
+   "text": "OVER"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 160,
+   "top": 700,
+   "text": "ROAD"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1895 page 2 'WARNING SIGN WATER OVER ROAD', directly dimensioned and drawn to scale (the drawn outline is 1200 x 1000 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1200 x 1000, R100; layers from the vectors: yellow from 0, black from 20, yellow from 40. Sheet labels: 1200 | 140 | 40 | 180EN | 130 | 160EM | 90 | 160EM | 24 | 140 | R100 | 1000."
+}

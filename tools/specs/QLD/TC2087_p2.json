@@ -1,0 +1,58 @@
+{
+ "code": "TC2087_p2",
+ "pack": "QLD",
+ "name": "DO_NOT_ENTER_FLOODWATER_WHITE",
+ "legend": "DO NOT ENTER FLOODWATER",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2150,
+  600
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  253.6,
+  604.2,
+  1438.7,
+  934.9
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 105,
+   "words": [
+    "DO",
+    "NOT"
+   ],
+   "gap": 143,
+   "cx": 667.4
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 105,
+   "text": "ENTER",
+   "cx": 1534.6
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 335,
+   "text": "FLOODWATER"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2087 page 2 '2/06/15 “DO NOT ENTER FLOODWATER\" WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 2150 x 600 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2150 x 600, R100; layers from the vectors: white from 0, black from 10, white from 30. Sheet labels: 2150 | 30 | 600 | 10 | r100 | 100 | 160DM | 80 | 160DM | 100."
+}

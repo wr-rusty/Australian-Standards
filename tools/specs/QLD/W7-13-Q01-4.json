@@ -1,0 +1,50 @@
+{
+ "code": "W7-13-Q01-4",
+ "pack": "QLD",
+ "name": "RAILWAY_CROSSING_ON_STAGGERED_SIDE_ROADS_YELLOW_DIAMOND",
+ "legend": "(road with staggered side roads and a railway crossing (tracks each side, crossing gates) symbol)",
+ "shape": "diamond",
+ "size": [
+  1272.79,
+  1272.79
+ ],
+ "radius": 60,
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "qld_w7-13-q01-4_legend": {
+   "source": "W7-13-Q01-4",
+   "pack": "QLD",
+   "desc": "road with staggered side roads and a railway crossing (tracks each side, crossing gates), vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  588.1,
+  297.2,
+  1397.5,
+  1106.6
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w7-13-q01-4_legend",
+   "x": 286.0,
+   "y": 195.6,
+   "w": 822.4,
+   "h": 881.6,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-13-Q01_4 railway level crossing warning sign (2022, page 4 of 7): road with staggered side roads and a railway crossing (tracks each side, crossing gates). Size one size, 900, dimensioned directly: side 900 drawn as the bounding square 1272.79, r 60, yellow edge 12 + black border 24. The sheet's vectors are to scale; sheet dims: 354 / 476 across the top, 242 / 285 at the bottom; 445 / 445 and 100 / 125 / 220 / 215 / 105 / 125 down the left. Symbol: the sheet PDF's own vector artwork (tools/symbols/qld_w7-13-q01-4_legend.svg, items 115-122), placed as the sheet draws it: 822.4 x 881.6 with its box 350.4 left / 472.0 right of the vertical centreline and 440.8 above / 440.8 below the horizontal centreline. Black on retroreflective yellow."
+}

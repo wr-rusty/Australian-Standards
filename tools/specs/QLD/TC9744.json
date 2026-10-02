@@ -1,0 +1,39 @@
+{
+ "code": "TC9744",
+ "pack": "QLD",
+ "name": "CHECK_BRAKES_YELLOW",
+ "legend": "CHECK BRAKES",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  300,
+  200
+ ],
+ "radius": 20,
+ "edge": {
+  "colour": "yellow",
+  "width": 4
+ },
+ "border": {
+  "colour": "black",
+  "width": 8
+ },
+ "ground": "yellow",
+ "elements": [
+  {
+   "type": "text",
+   "text": "CHECK",
+   "series": "C",
+   "height": 50,
+   "top": 37
+  },
+  {
+   "type": "text",
+   "text": "BRAKES",
+   "series": "C",
+   "height": 50,
+   "top": 113
+  }
+ ],
+ "notes": "TMR Queensland TC-series design sheet with a lettered size table (drawing not to scale); every dimension from the table, AS 1744 (plus0) spacing ('CN' / 'CM' / 'DM' read as the plain series). The table's c is the yellow edge and d the edge + black border. TC9744 bikeway warning sign CHECK BRAKES. Size A generated (a 300 x b 200, c 4 / d 12, e 37, f 50CM, g 26, r 20; B 450 x 300 also tabled): chain e 37 / f 50C / g 26 / f 50C / e 37 = 200. Black on yellow."
+}

@@ -1,0 +1,98 @@
+{
+ "code": "TC1636",
+ "pack": "QLD",
+ "name": "SLOW_TRUCKS_CARRYING_EXPLOSIVES_NEXT_{km}_KM_YELLOW",
+ "legend": "SLOW TRUCKS CARRYING EXPLOSIVES NEXT {km} km",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2100,
+  1500
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   2,
+   5,
+   10
+  ]
+ },
+ "panel_px": [
+  331.0,
+  572.2,
+  1213.4,
+  1202.5
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 225,
+   "y": 485,
+   "w": 1650,
+   "h": 550,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 200,
+   "top": 150,
+   "words": [
+    "SLOW",
+    "TRUCKS"
+   ],
+   "gap": 100
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 540,
+   "text": "CARRYING",
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 800,
+   "text": "EXPLOSIVES",
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 1167.4,
+   "text": "NEXT",
+   "cx": 645
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 140,
+   "top": 1210,
+   "text": "km",
+   "cx": 1591
+  },
+  {
+   "type": "text",
+   "text": "{km}",
+   "series": "D",
+   "height": 180,
+   "top": 1167.4,
+   "cx": 1241
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1636 'SLOW TRUCKS CARRYING EXPLOSIVES NEXT ...km SPECIAL WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 2100 x 1500 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2100 x 1500, R200; layers from the vectors: yellow from 0, black from 20, yellow from 60. Sheet labels: 400 | 60 | 1500 | 550 | 20 | 1650 | 2 x 200 dia. | R200 | 150 | 200D | 135 | 55 | 180D | 80 | 180D | 55 | 135 | 180D/140Em | 150. The sheet shows the sign under a pair of flashing lanterns (activated by slow heavy vehicles): the lantern board is hardware and is not drawn. Distance: the dashed box (no example on the sheet) takes the distance in km: 2, 5 and 10 generated (Russell: the variants that make sense, not every value)."
+}

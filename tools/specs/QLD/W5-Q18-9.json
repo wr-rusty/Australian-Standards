@@ -1,0 +1,45 @@
+{
+ "code": "W5-Q18-9",
+ "pack": "QLD",
+ "name": "KOALA_YELLOW_SQUARE",
+ "legend": "(koala symbol)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "symbols": {
+  "qld_w5-q18-3_koala": {
+   "source": "W5-Q18-9",
+   "pack": "QLD",
+   "desc": "koala silhouette as W5-Q18_3",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  608.8,
+  306.7,
+  1081.3,
+  779.2
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q18-3_koala",
+   "x": 50,
+   "y": 125,
+   "w": 500,
+   "h": 350,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q18_9 koala symbol panel, 600 x 600: one panel of the modular W5-Q18_5 to _9 wildlife assembly (the sheet's 'example use': a 600 symbol panel beside TAKE CARE over the 1200 x 300 RECENT CROSSINGS panel); square corners, black border 25, no edge strip, as dimensioned. Chain 125 / 350 (symbol) / 125 = 600: symbol top 125, height 350, centred, its width from the artwork's aspect. The koala is the W5-Q18 artwork (tools/symbols/qld_w5-q18-3_koala.svg, the sheet PDF's own vector). Black on Class 400 retroreflective yellow."
+}

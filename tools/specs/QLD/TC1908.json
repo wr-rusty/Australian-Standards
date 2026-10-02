@@ -1,0 +1,123 @@
+{
+ "code": "TC1908",
+ "pack": "QLD",
+ "name": "OVER_DIMENSIONAL_VEHICLES_MUST_STOP_HERE_CALL_TRAFFIC_CONTROL_UHF_BLACK",
+ "legend": "OVER DIMENSIONAL VEHICLES MUST STOP HERE CALL TRAFFIC CONTROL UHF CHANNEL 40",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2100,
+  1200
+ ],
+ "radius": 150,
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "symbols": {
+  "qld_tc1908_artwork": {
+   "source": "TC1908",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  437.1,
+  468.2,
+  1429.2,
+  1035.1
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 2060.0,460.0 L 40.0,460.0 L 40.0,150.0 C 40.0,89.58 89.58,40.0 150.0,40.0 L 1950.0,40.0 C 2010.42,40.0 2060.0,89.58 2060.0,150.0 L 2060.0,460.0 Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M 40.0,480.0 L 2060.0,480.0 L 2060.0,1050.0 C 2060.0,1110.42 2010.42,1160.0 1950.0,1160.0 L 150.0,1160.0 C 89.58,1160.0 40.0,1110.41 40.0,1050.0 L 40.0,480.0 Z",
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1908_artwork",
+   "x": 215.0,
+   "y": 535.0,
+   "w": 188.0,
+   "h": 165.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 100,
+   "words": [
+    "OVER",
+    "DIMENSIONAL"
+   ],
+   "gap": 119
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 280,
+   "text": "VEHICLES"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 560,
+   "words": [
+    "MUST",
+    "STOP",
+    "HERE"
+   ],
+   "gap": 102,
+   "cx": 1219
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 770,
+   "words": [
+    "CALL",
+    "TRAFFIC",
+    "CONTROL"
+   ],
+   "gap": [
+    99,
+    102
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 980,
+   "words": [
+    "UHF",
+    "CHANNEL"
+   ],
+   "gap": 99,
+   "cx": 855
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 140,
+   "top": 970,
+   "text": "40",
+   "cx": 1657
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1908 'WARNING SIGN “OVER DIMENSIONAL VEHICLES “MUST STOP HERE (L) - CALL UHF CH. ...”', directly dimensioned and drawn to scale (the drawn outline is 2100 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2100 x 1200, R150; layers from the vectors: white from 0, black from 20. Sheet labels: 2100 | 100 | 40 | 120DN | 60 | 120DN | 60 | 20 | 55 | 1200 | 165 | 70 | 120DN | 90 | 120DN | 20 | 100 | 215 | 188 | 150 | r150 | 80 | 120DN | 90 | 120DN | 80 | 140EN | 90. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1908_artwork.svg, 1 outlines), placed as drawn: 188.0 x 165.0 at x 215.0, y 535.0. Variable legend (drawn dotted in a dashed box on the sheet): 40 - the sheet's example value is generated."
+}

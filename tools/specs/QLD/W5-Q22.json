@@ -1,0 +1,66 @@
+{
+ "code": "W5-Q22",
+ "pack": "QLD",
+ "name": "FAUNA_CROSSING_WHITE_SQUARE",
+ "legend": "FAUNA CROSSING (glider on a rope bridge between trees over two cars)",
+ "shape": "rect",
+ "size": [
+  900,
+  900
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "green",
+  "width": 30
+ },
+ "symbols": {
+  "qld_w5-q22_fauna_crossing": {
+   "source": "W5-Q22",
+   "pack": "QLD",
+   "desc": "fauna crossing scene, vector items 327-378 of the sheet PDF",
+   "colours": [
+    "green"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  504.6,
+  387.5,
+  1213.2,
+  1096.2
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w5-q22_fauna_crossing",
+   "x": 75,
+   "y": 90,
+   "w": 750,
+   "h": 360,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "FAUNA",
+   "series": "D",
+   "height": 110,
+   "top": 540,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "CROSSING",
+   "series": "D",
+   "height": 110,
+   "top": 700,
+   "colour": "green"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W5-Q22 wildlife sign 'FAUNA CROSSING' (2023), fully dimensioned, one size 900 x 900, R100, white edge 15 + green border 30 (the sheet's 15 / 45). Chain 90 / 360 (symbol) / 90 / 110D / 50 / 110D / 90 = 900: symbol top 90, cap tops 540, 700. Symbol 750 wide (the sheet's '750') x 360, centred; it is the sheet PDF's own vector artwork (tools/symbols/qld_w5-q22_fauna_crossing.svg: two trees, a rope bridge with a glider, two cars; drawn 750.1 x 359.2 on the sheet's sign). Green on white."
+}

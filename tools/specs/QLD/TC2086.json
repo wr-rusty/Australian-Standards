@@ -1,0 +1,128 @@
+{
+ "code": "TC2086",
+ "pack": "QLD",
+ "name": "ROAD_FLOODS_FREQUENTLY_NEXT_100_KM_DO_NOT_ENTER_FLOODWATER_YELLOW_TALL",
+ "legend": "ROAD FLOODS FREQUENTLY NEXT 100 km DO NOT ENTER FLOODWATER",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1600,
+  1800
+ ],
+ "radius": 200,
+ "ground": "yellow",
+ "edge": {
+  "colour": "white",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "symbols": {
+  "qld_tc2086_artwork": {
+   "source": "TC2086",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (yellow)",
+   "colours": [
+    "yellow"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  296.2,
+  231.1,
+  1304.1,
+  1365.0
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 45,
+   "y": 1217,
+   "w": 1510,
+   "h": 30,
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1555.0,1247.1 L 1555.0,1600.0 C 1555.0,1685.24 1485.25,1754.99 1400.0,1754.99 L 200.0,1754.99 C 114.75,1754.99 45.0,1685.24 45.0,1600.0 L 45.0,1247.1 L 1555.0,1247.1 Z",
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc2086_artwork",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1600.0,
+   "h": 1232.1,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 130,
+   "text": "ROAD"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 390,
+   "text": "FLOODS"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 645,
+   "text": "FREQUENTLY"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 960,
+   "text": "NEXT",
+   "cx": 404.4
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 982,
+   "text": "100",
+   "cx": 973.6
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 140,
+   "top": 980,
+   "text": "km",
+   "cx": 1316.5
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1330,
+   "words": [
+    "DO",
+    "NOT",
+    "ENTER"
+   ],
+   "gap": 116
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 1540,
+   "text": "FLOODWATER"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2086 '2/06/15 “ROAD FLOODS FREQUENTLY NEXT ... km” DO NOT ENTER FLOODWATER” WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 1600 x 1800 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1600 x 1800, R200; layers from the vectors: white from 0, black from 15, yellow from 45. Sheet labels: 1600 | 45 | 1800 | 15 | r200 | 130 | 160DM | 100 | 160DM | 100 | 160DN | 150 | 160DM / | 140 Mod E | 100 | 30 | 80 | 140DN | 70 | 140DN | 120. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2086_artwork.svg, 1 outlines), placed as drawn: 1600.0 x 1232.1 at x 0.0, y 0.0. Variable legend (drawn dotted in a dashed box on the sheet): 100 - the sheet's example value is generated."
+}

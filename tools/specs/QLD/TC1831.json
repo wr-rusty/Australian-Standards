@@ -1,0 +1,138 @@
+{
+ "code": "TC1831",
+ "pack": "QLD",
+ "name": "PATH_SUBJECT_TO_FLOODING_INDICATORS_SHOW_DEPTH_NONE_TALL",
+ "legend": "PATH SUBJECT TO FLOODING INDICATORS SHOW DEPTH",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  450,
+  750
+ ],
+ "radius": 50,
+ "ground": "none",
+ "symbols": {
+  "qld_tc1831_artwork": {
+   "source": "TC1831",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 6 vector outlines of the sheet PDF (white)",
+   "colours": [
+    "white"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  560.5,
+  278.2,
+  1268.9,
+  1459.4
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 450.0,310.17 L 0.0,310.17 L 0.0,44.72 C 0.0,20.33 20.33,0.0 44.47,0.0 L 405.28,0.0 C 430.18,0.0 450.0,20.33 450.0,44.72 L 450.0,310.17 Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M 44.47,750.34 C 20.33,750.34 0.0,727.22 0.0,705.62 L 0.0,310.17 L 450.0,310.17 L 450.0,705.62 C 450.0,727.22 430.18,750.34 405.28,750.34 L 44.47,750.34 Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M 441.87,310.17 L 8.13,310.17 L 8.13,44.72 C 8.13,24.39 24.39,8.13 44.47,8.13 L 405.28,8.13 C 425.61,8.13 441.87,24.39 441.87,44.72 L 441.87,310.17 Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M 44.47,742.72 C 24.39,742.72 8.13,722.9 8.13,705.62 L 8.13,310.17 L 441.87,310.17 L 441.87,705.62 C 441.87,722.9 425.61,742.72 405.28,742.72 L 44.47,742.72 Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M 426.11,310.17 L 23.89,310.17 L 23.89,44.72 C 23.89,33.03 33.03,23.88 44.47,23.88 L 405.28,23.88 C 416.97,23.88 426.11,33.03 426.11,44.72 L 426.11,310.17 Z",
+   "colour": "blue"
+  },
+  {
+   "type": "path",
+   "d": "M 44.47,726.45 C 33.03,726.45 23.89,714.0 23.89,705.62 L 23.89,310.17 L 426.11,310.17 L 426.11,705.62 C 426.11,714.0 416.97,726.45 405.28,726.45 L 44.47,726.45 Z",
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 60,
+   "y": 151,
+   "w": 13,
+   "h": 130,
+   "colour": "white"
+  },
+  {
+   "type": "rect",
+   "x": 206,
+   "y": 246,
+   "w": 209,
+   "h": 13,
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M 34.93,282.32 L 205.9,245.81 L 208.6,258.77 L 34.93,295.86 L 34.93,282.32 Z",
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1831_artwork",
+   "x": 34.9,
+   "y": 55.8,
+   "w": 380.1,
+   "h": 223.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "B",
+   "height": 60,
+   "top": 360,
+   "words": [
+    "PATH",
+    "SUBJECT"
+   ],
+   "gap": 36,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "series": "B",
+   "height": 60,
+   "top": 450,
+   "words": [
+    "TO",
+    "FLOODING"
+   ],
+   "gap": 33,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "series": "B",
+   "height": 60,
+   "top": 540,
+   "text": "INDICATORS",
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "series": "B",
+   "height": 60,
+   "top": 630,
+   "words": [
+    "SHOW",
+    "DEPTH"
+   ],
+   "gap": 32,
+   "colour": "blue"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1831 'WARNING SIGN “PATH SUBJECT TO FLOODING INDICATORS SHOW DEPTH” 18/4/11', directly dimensioned and drawn to scale (the drawn outline is 450 x 750 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 450 x 750, R50; layers from the vectors: none from 0. Sheet labels: 450 | 24 | 310 | 750 | 440 | 8 | R50 | 55 | 240 | 15 | 50 | 60CN | 30 | 60CN | 30 | 60BM | 30 | 60BM | 60. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1831_artwork.svg, 6 outlines), placed as drawn: 380.1 x 223.0 at x 34.9, y 55.8."
+}

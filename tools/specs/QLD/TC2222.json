@@ -1,0 +1,66 @@
+{
+ "code": "TC2222",
+ "pack": "QLD",
+ "name": "VEHICLE_STRIKING_PLINTH_YELLOW_DIAMOND",
+ "legend": "(car striking a tram track plinth symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "symbols": {
+  "qld_tc2222_artwork": {
+   "source": "TC2222",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 4 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  472.1,
+  176.6,
+  1281.5,
+  986.0
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 503.61,489.8 C 489.63,489.43 478.55,477.74 478.92,463.76 C 479.29,449.78 490.99,438.69 504.96,439.07 C 518.94,439.44 530.03,451.13 529.65,465.11 C 529.28,479.09 517.59,490.17 503.61,489.8 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 352.53,414.79 C 338.55,414.42 327.47,402.47 327.84,388.75 C 328.21,374.77 339.91,363.43 353.89,363.8 C 367.86,364.18 378.94,376.13 378.57,390.11 C 378.2,403.83 366.5,415.17 352.53,414.79 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 391.39,490.35 L 674.1,490.35 L 674.1,503.72 L 391.39,503.72 L 174.86,503.72 L 174.86,415.3 L 391.4,415.31 L 391.39,490.35 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc2222_artwork",
+   "x": 298.5,
+   "y": 305.6,
+   "w": 370.3,
+   "h": 175.2,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2222 '“PLINTH RAIL LINE” WARNING SIGN', with a lettered size table: size A generated (a 600 side, b 8 / c 16, d 80, e 120, f 252, r 40; B also tabled). The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 848.53, R40; layers from the vectors: yellow from 0. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2222_artwork.svg, 4 outlines), placed as drawn: 370.3 x 175.2 at x 298.5, y 305.6."
+}

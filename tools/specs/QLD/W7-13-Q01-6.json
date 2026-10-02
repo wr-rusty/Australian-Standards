@@ -1,0 +1,50 @@
+{
+ "code": "W7-13-Q01-6",
+ "pack": "QLD",
+ "name": "CURVED_RAILWAY_CROSSING_AT_CROSSROAD_YELLOW_DIAMOND",
+ "legend": "(cross road with a curved railway joining a straight one symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "symbols": {
+  "qld_w7-13-q01-6_legend": {
+   "source": "W7-13-Q01-6",
+   "pack": "QLD",
+   "desc": "cross road with a curved railway joining a straight one, vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  493.8,
+  314.6,
+  1168.3,
+  989.1
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w7-13-q01-6_legend",
+   "x": 146.6,
+   "y": 176.6,
+   "w": 495.3,
+   "h": 495.3,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-13-Q01_6 railway level crossing warning sign (2022, page 6 of 7): cross road with a curved railway joining a straight one. Size A 600 (B 750, C 900 also tabled): side 600 drawn as the bounding square 848.53, r 40, yellow edge 8 + black border 16. The sheet's vectors are to scale; table A: d 280, e 220, f 90, g 250. Symbol: the sheet PDF's own vector artwork (tools/symbols/qld_w7-13-q01-6_legend.svg, items 98-100), placed as the sheet draws it: 495.3 x 495.3 with its box 277.7 left / 217.6 right of the vertical centreline and 247.7 above / 247.6 below the horizontal centreline. Black on retroreflective yellow."
+}

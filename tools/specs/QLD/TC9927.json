@@ -1,0 +1,97 @@
+{
+ "code": "TC9927",
+ "pack": "QLD",
+ "name": "CAUTION_ROAD_TRAINS_50_METRES_LONG_WHITE",
+ "legend": "CAUTION ROAD TRAINS 50 METRES LONG",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  1200
+ ],
+ "radius": 120,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 24
+ },
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "symbols": {
+  "qld_tc9927_artwork": {
+   "source": "TC9927",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 14 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  266.2,
+  281.1,
+  1360.7,
+  1010.8
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 1752.0,426.72 L 48.0,426.72 L 48.0,120.17 C 48.0,80.48 80.48,48.0 120.18,48.0 L 1679.82,48.0 C 1719.52,48.0 1752.0,80.48 1752.0,120.17 L 1752.0,426.72 Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 29.5,
+   "y": 403,
+   "w": 1736,
+   "h": 24,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc9927_artwork",
+   "x": 179.5,
+   "y": 705.0,
+   "w": 1441.0,
+   "h": 200.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 180,
+   "top": 135,
+   "text": "CAUTION"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 495,
+   "words": [
+    "ROAD",
+    "TRAINS"
+   ],
+   "gap": 127
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1005,
+   "words": [
+    "50",
+    "METRES",
+    "LONG"
+   ],
+   "gap": [
+    92,
+    89
+   ]
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC9927 'WARNING SIGN CAUTION ROAD TRAINS 50m LONG 18/4/97', directly dimensioned and drawn to scale (the drawn outline is 1800 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1800 x 1200, R120; layers from the vectors: white from 0, black from 24, white from 48. Sheet labels: 1800 | 48 | 1200 | 24 | R120 | 135 | 403 | 180EM | 180 | 24 | 140DM | 70 | 200 | 773 | 100 | 100DM | 95. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc9927_artwork.svg, 14 outlines), placed as drawn: 1441.0 x 200.0 at x 179.5, y 705.0."
+}

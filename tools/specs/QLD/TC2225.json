@@ -1,0 +1,80 @@
+{
+ "code": "TC2225",
+ "pack": "QLD",
+ "name": "KEEP_LEFT_WATCH_FOR_VEHICLES_WHITE_TALL",
+ "legend": "KEEP LEFT WATCH FOR VEHICLES",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  300,
+  400
+ ],
+ "radius": 25,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 5
+ },
+ "border": {
+  "colour": "black",
+  "width": 5
+ },
+ "symbols": {
+  "qld_tc2225_artwork": {
+   "source": "TC2225",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  585.1,
+  473.4,
+  1057.6,
+  1103.3
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_tc2225_artwork",
+   "x": 53.0,
+   "y": 30.0,
+   "w": 194.0,
+   "h": 130.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 40,
+   "top": 190,
+   "words": [
+    "KEEP",
+    "LEFT"
+   ],
+   "gap": 28
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 40,
+   "top": 260,
+   "words": [
+    "WATCH",
+    "FOR"
+   ],
+   "gap": 30
+  },
+  {
+   "type": "text",
+   "series": "C",
+   "height": 40,
+   "top": 330,
+   "text": "VEHICLES"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2225 '“CYCLISTS KEEP LEFT WATCH FOR VEHICLES” WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 300 x 400 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 300 x 400, R25; layers from the vectors: white from 0, black from 5, white from 10. Sheet labels: 300 | 10 | 400 | 5 | R25 | 30 | 130 | 30 | 40CN | 30 | 40CN | 30 | 40CN | 30. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2225_artwork.svg, 1 outlines), placed as drawn: 194.0 x 130.0 at x 53.0, y 30.0."
+}

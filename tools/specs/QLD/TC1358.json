@@ -1,0 +1,76 @@
+{
+ "code": "TC1358",
+ "pack": "QLD",
+ "name": "FORKLIFT_YELLOW_DIAMOND",
+ "legend": "(forklift symbol)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  850
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8.5
+ },
+ "border": {
+  "colour": "black",
+  "width": 17
+ },
+ "symbols": {
+  "qld_tc1358_artwork": {
+   "source": "TC1358",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 2 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  494.1,
+  353.8,
+  1168.7,
+  1028.3
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 398.58,8.59 L 413.99,19.04 L 398.58,8.59 L 408.59,1.22 L 413.94,18.97 L 398.58,8.59 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 834.61,449.41 L 849.69,440.68 L 841.6,456.11 L 834.61,449.41 L 849.69,440.68 L 834.61,449.41 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 229.24,579.43 C 206.21,579.43 187.42,560.65 187.42,537.61 C 187.42,514.58 206.21,495.79 229.24,495.79 C 252.28,495.79 271.06,514.58 271.06,537.61 C 271.06,560.65 252.28,579.43 229.24,579.43 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 463.68,576.72 C 431.97,576.72 406.11,550.86 406.11,519.15 C 406.11,487.45 431.97,461.59 463.68,461.59 C 495.38,461.59 521.24,487.45 521.24,519.15 C 521.24,550.86 495.38,576.72 463.68,576.72 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 563.03,364.91 L 679.14,364.91 L 679.14,530.22 L 563.03,530.22 L 563.03,364.91 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1358_artwork",
+   "x": 184.1,
+   "y": 215.8,
+   "w": 475.7,
+   "h": 335.1,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1358 'WARNING SIGN “FORKLIFT (SYMBOLIC)”', with a lettered size table: size A generated (600 side, 8 / 24, r 40; B, C, D also tabled). The drawing is to scale for that size (the drawn outline scales to 848.53 x 848 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 850, R40; layers from the vectors: yellow from 0, black from 8.5, yellow from 25. Sheet labels: . Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1358_artwork.svg, 2 outlines), placed as drawn: 475.7 x 335.1 at x 184.1, y 215.8."
+}

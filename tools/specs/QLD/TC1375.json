@@ -1,0 +1,84 @@
+{
+ "code": "TC1375",
+ "pack": "QLD",
+ "name": "ARRIVE_ALIVE_SPEEDING_KILLS_EVERYDAY_PEOPLE_EVERYDAY_BLACK",
+ "legend": "ARRIVE ALIVE SPEEDING KILLS EVERYDAY PEOPLE EVERYDAY",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  2000,
+  1200
+ ],
+ "radius": 150,
+ "ground": "black",
+ "edge": {
+  "colour": "white",
+  "width": 16
+ },
+ "panel_px": [
+  350.6,
+  335.8,
+  1374.3,
+  950.0
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 1968.0,400.0 L 1968.0,1038.61 C 1968.0,1109.77 1909.78,1168.0 1838.62,1168.0 L 161.38,1168.0 C 90.22,1168.0 32.0,1109.77 32.0,1038.61 L 32.0,400.0 L 1968.0,400.0 Z",
+   "colour": "yellow"
+  },
+  {
+   "type": "path",
+   "d": "M 161.38,32.0 L 1838.62,32.0 C 1909.78,32.0 1968.0,90.22 1968.0,161.38 L 1968.0,384.0 L 32.0,384.0 L 32.0,161.38 C 32.0,90.22 90.22,32.0 161.38,32.0 Z",
+   "colour": "white"
+  },
+  {
+   "type": "path",
+   "d": "M 125.0,460.0 L 1875.0,460.0 L 1875.0,700.0 L 125.0,700.0 L 125.0,460.0 Z",
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 120,
+   "words": [
+    "ARRIVE",
+    "ALIVE"
+   ],
+   "gap": 152,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 520,
+   "words": [
+    "SPEEDING",
+    "KILLS"
+   ],
+   "gap": 102,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 780,
+   "words": [
+    "EVERYDAY",
+    "PEOPLE"
+   ],
+   "gap": 100
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 120,
+   "top": 983,
+   "text": "EVERYDAY"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1375 'WARNING SIGN “FATAL FOUR KILL”', directly dimensioned and drawn to scale (the drawn outline is 2000 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 2000 x 1200, R150; layers from the vectors: white from 0, black from 16. Sheet labels: 2000 | 32 | 1200 | 16 | R150 | 120 | 180DN | 84 | 16 | 60 | 60 | 120DN | 60 | 80 | 120DN | 80 | 120DN | 100."
+}

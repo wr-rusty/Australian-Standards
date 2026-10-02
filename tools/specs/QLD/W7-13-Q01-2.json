@@ -1,0 +1,50 @@
+{
+ "code": "W7-13-Q01-2",
+ "pack": "QLD",
+ "name": "CROSSROADS_WITH_RAILWAY_CROSSINGS_ON_TWO_LEGS_YELLOW_DIAMOND",
+ "legend": "(cross road with railway crossings on the far and left legs symbol)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "qld_w7-13-q01-2_legend": {
+   "source": "W7-13-Q01-2",
+   "pack": "QLD",
+   "desc": "cross road with railway crossings on the far and left legs, vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  565.9,
+  375.0,
+  1240.5,
+  1049.5
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w7-13-q01-2_legend",
+   "x": 134.3,
+   "y": 134.1,
+   "w": 792.4,
+   "h": 792.4,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-13-Q01_2 railway level crossing warning sign (2022, page 2 of 7): cross road with railway crossings on the far and left legs. Size B 750 (C 900, D 1200 also tabled; no A): side 750 drawn as the bounding square 1060.66, r 50, yellow edge 10 + black border 20. The sheet's vectors are to scale; table B: d 400, e 80, f 132, g 188, h 88, k 330. Symbol: the sheet PDF's own vector artwork (tools/symbols/qld_w7-13-q01-2_legend.svg, items 104-134), placed as the sheet draws it: 792.4 x 792.4 with its box 396.0 left / 396.4 right of the vertical centreline and 396.2 above / 396.2 below the horizontal centreline. Black on retroreflective yellow."
+}

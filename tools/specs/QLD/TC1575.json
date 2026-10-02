@@ -1,0 +1,106 @@
+{
+ "code": "TC1575",
+ "pack": "QLD",
+ "name": "GRAVEL_ROAD_IMPASSABLE_IN_WET_WEATHER_STARTS_IN_{km}_KM_YELLOW",
+ "legend": "GRAVEL ROAD IMPASSABLE IN WET WEATHER STARTS IN {km} km",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1800,
+  1000
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   5,
+   10
+  ]
+ },
+ "panel_px": [
+  316.0,
+  502.9,
+  1379.0,
+  1093.5
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 1151.76,756.33 L 1150.0,758.1 L 1150.0,756.33 L 1151.76,756.33 L 1153.53,758.1 L 1153.53,792.73 L 1150.0,792.73 L 1150.0,758.1 L 1151.76,756.33 Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 100,
+   "words": [
+    "GRAVEL",
+    "ROAD"
+   ],
+   "gap": 122
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 320,
+   "words": [
+    "IMPASSABLE",
+    "IN"
+   ],
+   "gap": 127
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 540,
+   "words": [
+    "WET",
+    "WEATHER"
+   ],
+   "gap": 125
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 140,
+   "top": 760,
+   "words": [
+    "STARTS",
+    "IN"
+   ],
+   "gap": 115,
+   "cx": 576
+  },
+  {
+   "type": "text",
+   "series": "Emod",
+   "height": 120.0,
+   "top": 780,
+   "text": "km",
+   "cx": 1563
+  },
+  {
+   "type": "text",
+   "text": "{km}",
+   "series": "D",
+   "height": 140,
+   "top": 760,
+   "cx": 1262
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1575 'WARNING SIGN “GRAVEL ROAD IMPASSABLE IN WET WEATHER STARTS IN ... km”', directly dimensioned and drawn to scale (the drawn outline is 1800 x 1000 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1800 x 1000, R100; layers from the vectors: yellow from 0, black from 20, yellow from 40. Sheet labels: 1800 | 40 | 1000 | 20 | R100 | 100 | 140DM | 80 | 140DM | 80 | 140DM | 80 | 140DN/ | 90LC | 100.5 at x 1363.4, y 756.3. Distance: the dashed box (no example on the sheet) takes the distance in km: 1, 2, 5 and 10 generated (Russell: the variants that make sense, not every value), 140 Series D centred in the box. The dashed numeral box's own dashes are not part of the sign and are not drawn."
+}

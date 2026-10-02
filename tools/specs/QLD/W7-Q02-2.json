@@ -1,0 +1,152 @@
+{
+ "code": "W7-Q02-2",
+ "pack": "QLD",
+ "name": "NO_RIGHT_TURN_WHEN_LIGHTS_FLASHING_WAIT_IN_TURN_LANE_WHITE_TALL",
+ "legend": "(no right turn symbol) WHEN LIGHTS FLASHING 12.5 m WAIT IN TURN LANE",
+ "shape": "rect",
+ "size": [
+  1800,
+  2600
+ ],
+ "radius": 200,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 40
+ },
+ "symbols": {
+  "qld_w7-q02-2_layout": {
+   "source": "W7-Q02-2",
+   "pack": "QLD",
+   "desc": "through road with a side road crossing a railway and the stacking-distance arrow (the sheet's Symbol B, page 3), vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  },
+  "qld_w7-q02-2_no_right_turn": {
+   "source": "W7-Q02-2",
+   "pack": "QLD",
+   "desc": "no right turn roundel 600 diameter: black turn arrow under the red annulus and slash, vector items 135 and 136",
+   "colours": [
+    "black",
+    "red"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  444.5,
+  185.4,
+  1199.0,
+  1275.2
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 60,
+   "y": 1240,
+   "w": 1680,
+   "h": 840,
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 40,
+   "y": 1220,
+   "w": 1720,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 40,
+   "y": 2060,
+   "w": 1720,
+   "h": 40,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w7-q02-2_no_right_turn",
+   "x": 600.0,
+   "y": 120.0,
+   "w": 600.0,
+   "h": 600.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "LIGHTS"
+   ],
+   "series": "E",
+   "height": 140,
+   "top": 820,
+   "gap": 105
+  },
+  {
+   "type": "text",
+   "text": "FLASHING",
+   "series": "E",
+   "height": 140,
+   "top": 1030
+  },
+  {
+   "type": "symbol",
+   "id": "qld_w7-q02-2_layout",
+   "x": 250.0,
+   "y": 1310.0,
+   "w": 1300.0,
+   "h": 700.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "12.5",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 120
+    }
+   ],
+   "gap": 50.1,
+   "top": 1330,
+   "align": "left",
+   "x": 583.3
+  },
+  {
+   "type": "text",
+   "words": [
+    "WAIT",
+    "IN"
+   ],
+   "series": "E",
+   "height": 140,
+   "top": 2150,
+   "gap": 96
+  },
+  {
+   "type": "text",
+   "words": [
+    "TURN",
+    "LANE"
+   ],
+   "series": "E",
+   "height": 140,
+   "top": 2360,
+   "gap": 105
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-Q02_2 warning sign 'WAIT IN TURN LANE' (2023, page 2 of 3; used with flashing light panel TC2092), fully dimensioned and drawn to scale, 1800 x 2600, R200, white edge 20 + black border 40 (the sheet's 20 / 60). Yellow band between two 40 black bars (bars at 1220-1260 and 2060-2100). Right chain 120 / 600 (roundel) / 100 / 140E / 70 / 140E / 50 | 110 / 140D-90Em / 630 | 50 / 140E / 70 / 140E / 100 = 2600: roundel top 120 (600 diameter, centred), cap tops 820 (WHEN LIGHTS), 1030 (FLASHING), 1330 (distance), 2150 (WAIT IN), 2360 (TURN LANE). Lines centred as the sheet draws them; word gaps as drawn. The sheet sets its legend tighter than AS 1744 spacing (drawn left / right / gaps / drawn-to-AS 1744 width ratio per line: [('WHEN LIGHTS', (259, 1547, [105], 0.934)), ('FLASHING', (428, 1373, [], 0.93)), ('WAIT IN', (552, 1254, [96], 0.932)), ('TURN LANE', (383, 1418, [105], 0.937))]); generated at the labelled sizes with AS 1744 (plus0) spacing. The no-right-turn roundel (dimensioned on page 3), the layout symbol (Symbol B of page 3) are the sheet PDF's own vector artwork, placed as drawn: roundel 600.0 x 600.0 at x 600.0, y 120.0; symbol 1300.0 x 700.0 at x 250.0, y 1310.0. Distance '12.5 m': numerals 140 Series D, 'm' Series E modified lower case ('90Em' = the height of the lower-case m itself: cap height 120), from x 583 with 50 between them as drawn; 'insert appropriate distance in metres, e.g. 12.5' with no list: the example only is generated. Black and red on white and retroreflective yellow."
+}

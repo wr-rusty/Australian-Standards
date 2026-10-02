@@ -28,3 +28,16 @@ text and drawings; AS 1744 (plus0) spacing, `DM` / `EM` / `CM` read as the plain
 W8-3 arrow and R1-2 give-way geometry reused from AS 1743 where the sheet refers to them. Overlay-checked with
 `tools/compare_drawing.py` (specs carry `panel_px` where needed). Skips (non-signs, LED signs, sheets that cannot be read) are
 manifest rows with the reason. Attribution as for the sheets: © State of Queensland (Department of Transport and Main Roads), CC BY 4.0.
+
+Update 2026-10-02 (SGN-003): the generated set is 492 SVGs from 317 specs (Warning 331, Regulatory 83, Speed 62, Parking 12,
+Temporary 4) plus 65 skip rows; `Original PNGs/` now holds 465 rendered sheets (Regulatory, every Q-series W sheet, and the
+warning-type TC sheets). All Q-series Warning sheets are spec'd. Three ways a spec is built, said in each spec's notes:
+(1) lettered-table sheets ('not to scale'): dimensions from the table, as before; (2) symbols: the sheet PDF's own vector
+paths written to `tools/symbols/qld_*.svg` (sub-path windings normalised, because signgen fills nonzero), placed by the
+tabled box or as drawn; (3) directly dimensioned, to-scale TC sheets: panel geometry and artwork from the sheet's vectors,
+legend lines placed where the sheet draws them at the labelled letter sizes, AS 1744 (plus0) spacing. "Insert appropriate
+value" legends take the sheet's example, or 2 / 5 / 10 km (100-500 m) where the sheet gives none. A lone lower-case `m`
+labelled e.g. `65Em` is sized by the m's own height on the to-scale sheets. Skipped with a reason in the manifest: LED and
+lantern hardware, assemblies of other signs, road-name / site-specific signs, detail pages, sheets needing a font or
+artwork that cannot be reproduced. What is not yet spec'd is listed in the ticket Log.
+

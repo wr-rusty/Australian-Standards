@@ -1,0 +1,88 @@
+{
+ "code": "TC1832",
+ "pack": "QLD",
+ "name": "ROAD_CLOSED_DUE_TO_FLOODING_YELLOW",
+ "legend": "ROAD CLOSED DUE TO FLOODING",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1500,
+  1200
+ ],
+ "radius": 150,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 20
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "symbols": {
+  "qld_tc1832_artwork": {
+   "source": "TC1832",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (white)",
+   "colours": [
+    "white"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  437.1,
+  202.0,
+  1323.0,
+  910.7
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 40.0,600.0 L 40.0,150.0 C 40.0,89.58 89.58,40.0 150.0,40.0 L 1350.0,40.0 C 1410.42,40.0 1460.0,89.58 1460.0,150.0 L 1460.0,600.0 L 40.0,600.0 Z",
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1832_artwork",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 1500.0,
+   "h": 600.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 95,
+   "text": "ROAD"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 180,
+   "top": 367,
+   "text": "CLOSED"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 680,
+   "words": [
+    "DUE",
+    "TO"
+   ],
+   "gap": 147
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 160,
+   "top": 920,
+   "text": "FLOODING"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1832 'SPECIAL ADVANCED WARNING “ROAD CLOSED DUE TO FLOODING” G  H', directly dimensioned and drawn to scale (the drawn outline is 1500 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1500 x 1200, R150; layers from the vectors: yellow from 0, black from 20, yellow from 40. Sheet labels: 1500 | 200 | 200 | 40 | 1200 | 20 | R150 | 100 | 180DM | 90 | 180DM | 50 | 80 | 160DM | 80 | 160DM | 120. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1832_artwork.svg, 1 outlines), placed as drawn: 1500.0 x 600.0 at x 0.0, y 0.0."
+}

@@ -1,0 +1,113 @@
+{
+ "code": "TC1370",
+ "pack": "QLD",
+ "name": "SUPER_B_DOUBLES_OPERATING_30_METRES_LONG_YELLOW_WIDE",
+ "legend": "SUPER B DOUBLES OPERATING 30 METRES LONG",
+ "folder": "Warning Signs",
+ "shape": "rect",
+ "size": [
+  1400,
+  500
+ ],
+ "radius": 50,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "symbols": {
+  "qld_tc1370_artwork": {
+   "source": "TC1370",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 12 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  302.6,
+  553.8,
+  1405.0,
+  947.5
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 1279.95,402.67 L 1279.95,406.99 L 1107.54,406.99 L 1107.54,402.67 L 1279.95,402.67 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 1305.0,404.83 L 1278.56,418.05 L 1278.56,391.61 L 1305.0,404.83 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 120.05,406.99 L 120.05,402.67 L 292.46,402.67 L 292.46,406.99 L 120.05,406.99 Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M 95.0,404.83 L 121.44,391.6 L 121.44,418.04 L 95.0,404.83 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc1370_artwork",
+   "x": 95.0,
+   "y": 179.9,
+   "w": 1210.0,
+   "h": 154.9,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 65,
+   "words": [
+    "SUPER",
+    "B",
+    "DOUBLES",
+    "OPERATING"
+   ],
+   "gap": [
+    58,
+    53,
+    57
+   ]
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 60,
+   "top": 375,
+   "words": [
+    "30",
+    "METRES",
+    "LONG"
+   ],
+   "gap": [
+    55,
+    53
+   ]
+  },
+  {
+   "type": "path",
+   "d": "M1302.8 435.2L1307.2 435.2L1307.2 374.4L1302.8 374.4Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M92.8 435.2L97.2 435.2L97.2 374.4L92.8 374.4Z",
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC1370 '“SUPER B DOUBLES OPERATING” WARNING SIGN', directly dimensioned and drawn to scale (the drawn outline is 1400 x 500 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 1400 x 500, R50; layers from the vectors: yellow from 0, black from 10, yellow from 20. Sheet labels: 1400 | 20 | 500 | 10 | 1210 | R50 | 65 | 60DM | 55 | 155 | 40 | 60DM | 65. Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc1370_artwork.svg, 12 outlines), placed as drawn: 1210.0 x 154.9 at x 95.0, y 179.9."
+}

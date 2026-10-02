@@ -1,0 +1,61 @@
+{
+ "code": "TC2022",
+ "pack": "QLD",
+ "name": "CURVE_WITH_SIDE_ROADS_1_YELLOW_DIAMOND",
+ "legend": "(curved road with side roads symbol, type 1)",
+ "folder": "Warning Signs",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  850
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8.5
+ },
+ "border": {
+  "colour": "black",
+  "width": 17
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "qld_tc2022_artwork": {
+   "source": "TC2022",
+   "pack": "QLD",
+   "desc": "the sign's symbol artwork: 1 vector outlines of the sheet PDF (black)",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "panel_px": [
+  344.6,
+  186.3,
+  1187.8,
+  1029.5
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 400.22,12.41 L 407.99,6.2 L 412.83,20.22 L 400.22,12.41 Z",
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "qld_tc2022_artwork",
+   "x": 241.8,
+   "y": 111.0,
+   "w": 429.4,
+   "h": 519.0,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2022 '“REVERSE CURVES WITH SIDE ROADS” (L / R) WARNING SIGN', with a lettered size table: size A generated (2022_1 A: 600 side, 8 / 16, d 208, e 316, f 184, g 250, r 40; B, C also tabled); the main drawing is the (L) sign, the (R) is its mirror image. The drawing is to scale for that size (the drawn outline scales to 848.53 x 849 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 848.53 x 850, R40; layers from the vectors: yellow from 0, black from 8.5, yellow from 25. Sheet labels: TC2022_1(R). Symbol artwork: the sheet PDF's own vector outlines (tools/symbols/qld_tc2022_artwork.svg, 1 outlines), placed as drawn: 429.4 x 519.0 at x 241.8, y 111.0."
+}

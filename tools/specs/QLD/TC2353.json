@@ -1,0 +1,64 @@
+{
+ "code": "TC2353",
+ "pack": "QLD",
+ "name": "NEW_SPEED_LIMIT_AHEAD_YELLOW_TALL",
+ "legend": "NEW SPEED LIMIT AHEAD",
+ "folder": "Temporary Signs",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "radius": 100,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  466.7,
+  327.0,
+  1175.3,
+  1271.9
+ ],
+ "elements": [
+  {
+   "type": "path",
+   "d": "M 450.0,310.0 C 284.31,310.0 150.0,444.32 150.0,610.0 C 150.0,775.68 284.31,910.0 450.0,910.0 C 615.69,910.0 750.0,775.68 750.0,610.0 C 750.0,444.32 615.69,310.0 450.0,310.0 Z M 450.0,265.0 C 640.54,265.0 795.0,419.46 795.0,610.0 C 795.0,800.54 640.54,955.0 450.0,955.0 C 259.46,955.0 105.0,800.54 105.0,610.0 C 105.0,419.46 259.46,265.0 450.0,265.0 Z",
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 120,
+   "top": 95,
+   "text": "NEW"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 485,
+   "text": "SPEED"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 635,
+   "text": "LIMIT"
+  },
+  {
+   "type": "text",
+   "series": "E",
+   "height": 100,
+   "top": 1005,
+   "text": "AHEAD"
+  }
+ ],
+ "notes": "TMR Queensland design sheet TC2353 'TEMPORARY WARNING SIGN “NEW SPEED LIMIT AHEAD”', directly dimensioned and drawn to scale (the drawn outline is 900 x 1200 by the sheet's own width label); built from the sheet PDF itself: panel geometry and artwork are the sheet's vectors, legend lines are the sheet's live text placed where the sheet draws them (cap tops and centres measured on the 200 dpi render), letter heights from the sheet's labels, AS 1744 (plus0) spacing ('DN' / 'DM' / 'EN' / 'CN' etc. read as the plain series). Size 900 x 1200, R100; layers from the vectors: yellow from 0, black from 15, yellow from 45. Sheet labels: 900 | 45 | 1200 | 15 | R100 | 95 | 120E | 50 | 45 | 175 | 100E | 50 | 100E | 175 | 45 | 50 | 100E | 95."
+}

@@ -1,0 +1,50 @@
+{
+ "code": "W7-13-Q01-7",
+ "pack": "QLD",
+ "name": "OBLIQUE_RAILWAY_CROSSING_AT_T_JUNCTION_YELLOW_DIAMOND",
+ "legend": "(T-junction with an oblique railway crossing symbol)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "radius": 40,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "symbols": {
+  "qld_w7-13-q01-7_legend": {
+   "source": "W7-13-Q01-7",
+   "pack": "QLD",
+   "desc": "T-junction with an oblique railway crossing, vector items of the sheet PDF",
+   "colours": [
+    "black"
+   ],
+   "vector": "extracted from the sheet PDF (not traced)"
+  }
+ },
+ "ground": "yellow",
+ "panel_px": [
+  493.4,
+  315.3,
+  1167.9,
+  989.9
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "qld_w7-13-q01-7_legend",
+   "x": 176.4,
+   "y": 176.8,
+   "w": 397.0,
+   "h": 495.3,
+   "colour": "black"
+  }
+ ],
+ "notes": "TMR Queensland design sheet (Q-series book / TC-series), colour drawing 'not to scale' with a lettered dimension table; every dimension from the sheet, AS 1744 (plus0) spacing. The sheets give no letter widths, so there is no width check. Q-series sheet W7-13-Q01_7 railway level crossing warning sign (2022, page 7 of 7): T-junction with an oblique railway crossing. Size A 600 (B 750, C 900 also tabled): side 600 drawn as the bounding square 848.53, r 40, yellow edge 8 + black border 16. The sheet's vectors are to scale; table A: d 250, e 150, f 90. Symbol: the sheet PDF's own vector artwork (tools/symbols/qld_w7-13-q01-7_legend.svg, items 101-103), placed as the sheet draws it: 397.0 x 495.3 with its box 247.9 left / 149.1 right of the vertical centreline and 247.5 above / 247.8 below the horizontal centreline. Black on retroreflective yellow."
+}
