@@ -1,0 +1,3 @@
+from auto import *
+for code, name in [("TC1374", "SCHOOL_BUS_ON_RANGE_MON_TO_FRI_YELLOW"), ("TC2086", "ROAD_FLOODS_FREQUENTLY_NEXT_100_KM_DO_NOT_ENTER_FLOODWATER_YELLOW_TALL"), ("TC2087", "DO_NOT_ENTER_FLOODWATER_WHITE")]:
+    report(build(code, name, caps={"100": 160}))

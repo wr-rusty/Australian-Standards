@@ -1,0 +1,7 @@
+RM6-Q02:family="Regulatory Signs"
+R6-100-Q02:family="Regulatory Signs"
+R6-100-Q03-1:vcode="R6-100-Q03_1",W=450,family="Regulatory Signs",name="NO_ELECTRIC_SCOOTERS_WHITE_TALL",legend="(e-scooter prohibited symbol)",table_note="size A generated (a 450; AA 300 and B 600 also tabled)."
+TC2231:family="Parking Signs"
+TC1476:family="Parking Signs"
+TC1476_p2:family="Parking Signs"
+TC1648:W=800,family="Regulatory Signs",table_note="size A generated (a 800 x b 1200, c 8 / d 24, 120EM ONLY; B also tabled)."

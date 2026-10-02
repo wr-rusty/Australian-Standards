@@ -28,5 +28,5 @@ Two top-level folders say what a pack is fit for:
   is approved. Australian states and territories, US states and the United Kingdom sit here until their signs are clean.
 
 A pack moves from `Processing/` to `Complete/` only after review. Paywalls, purchases and decisions waiting on Russell are
-listed in `NEEDS-RUSSELL.md`. Tools live in `tools/` (see `tools/README.md`), work
+listed in `NEEDS-RUSSELL.md`. How a pack is inspected before it moves: `INSPECTION.md`; one "Inspect: …" ticket per pack (SGN-094 to SGN-102). Tools live in `tools/` (see `tools/README.md`), work
 items in `Tickets/`, jurisdiction status in `JURISDICTIONS.md`, the plan in `PLAN.md`.

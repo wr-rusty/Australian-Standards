@@ -1,0 +1,20 @@
+from qb import *
+S_ = [("TC1677", "special warning sign 'RESTRICTED AREA - HORSE MOVEMENTS ARE RESTRICTED - CALL 13 25 23' carrying the Queensland Government coat of arms (corporate logo artwork, not sign-face lettering) and a site contact number: not generated"),
+      ("TC2066", "site-specific tunnel sign (Airport Link tunnel prohibited-vehicle assembly, 5000 wide, with inset plates; pages 2-4 are its inset plates and variants): site-specific, not generated"),
+      ("TC1812", "site-specific tunnel signs (PROHIBITED IN TUNNEL - USE ALTERNATE ROUTE, 6 pages, named tunnel): site-specific, not generated"),
+      ("TC1813", "site-specific tunnel signs (TUNNEL CLEARANCE .. m OVERHEIGHT VEHICLE ..., 8 pages, named tunnel): site-specific, not generated"),
+      ("TC1750", "site-specific tunnel signs (PROHIBITED IN TUNNEL - USE ALTERNATE ROUTE, 6 pages, named tunnel): site-specific, not generated"),
+      ("TC1905", "site-specific sign (CUNNINGHAMS GAP - OVERALL VEHICLE SIZE LIMITS AHEAD ... LONG/WIDE VEHICLE DETOUR, 3 pages): names one location, not generated"),
+      ("TC1832_p6", "flashing-light panel (two lanterns on a black board) of the ROAD CLOSED DUE TO FLOODING assembly: hardware, not a sign face"),
+      ("TC1743", "special advance warning sign on a green backing board with example side-road names (INSKIPS RD / McLENNAN DR): road names are site-specific and the name panels are guide-sign elements (Guide family excluded)"),
+      ("TC1741", "special advance warning assembly on a green backing board (national cross-road diamond, '300 m OVER CREST' plate TC1742 and an example road-name panel; 5 pages): assembly of other signs with site-specific names (Guide family excluded)"),
+      ("TC1761", "special advance warning assembly on a green backing board ('#' warning diamond as required and an example road-name panel; 3 pages): assembly with site-specific names (Guide family excluded)"),
+      ("TC1744", "special advance warning assembly on a green backing board (warning diamond, distance / speed plate and example road-name panel; 2 pages): assembly with site-specific names (Guide family excluded)"),
+      ("TC1762", "CLOSED DUE TO FLOODING sign with an example side-road name panel and arrow options (SOMERSET DR): the road name is site-specific and its width 'min' varies; not generated"),
+      ("TC1518", "site-specific warning / information sign (ROAD SUBJECT TO FLOODING ... LANDSBOROUGH HWY / FLINDERS HWY with changeable OPEN / 80% AXLE inserts; pages 2-3 are the inserts): names particular roads, not generated"),
+      ("TC1768", "flooding warning-lights assembly (flashing lanterns over the national G9-21 ROAD SUBJECT TO FLOODING sign; 3 pages): hardware and an assembly of a national sign, not a sign face"),
+      ("TC2092", "flashing-light panel (two yellow lanterns on a black board) for railway level crossing signs: hardware, not a sign face"),
+      ("TC1621", "wildlife warning assembly: national koala diamond (W5-47) with NEXT .. km / SLOW DOWN plates on a white-green target board (page 2 with flashing lanterns): assembly of other signs, not a sign face of its own"),
+      ("TC1622", "wildlife warning assembly: a warning diamond as required with W8-17-1 NEXT .. km and W8-Q18 plates on a target board: assembly of other signs"),
+      ("TC1918", "wildlife warning assembly: two national wildlife diamonds (W5-47, W5-29) and the SLOW DOWN plate TC1608 on a target board: assembly of other signs")]
+for c, r in S_: skip(c, r)
