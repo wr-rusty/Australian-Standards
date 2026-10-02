@@ -1,0 +1,145 @@
+{
+ "code": "R5-SA163_LEFT",
+ "pack": "SA",
+ "name": "P_PERMITTED_IN_THIS_BAY_DURING_CLEARWAY_PERIOD_GREEN_TALL",
+ "legend": "P PERMITTED IN THIS BAY DURING CLEARWAY PERIOD (left arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "ground": "white",
+ "radius": 25,
+ "drawing": "R5-SA163",
+ "panel_px": [
+  621,
+  465,
+  978,
+  939
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 15,
+   "expect": 81,
+   "colour": "green",
+   "align": "left",
+   "x": 78
+  },
+  {
+   "type": "text",
+   "text": "PERMITTED",
+   "series": "D",
+   "height": 20,
+   "top": 125,
+   "expect": 134,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "IN",
+   "series": "D",
+   "height": 20,
+   "top": 150,
+   "expect": 22,
+   "colour": "green",
+   "align": "left",
+   "x": 34
+  },
+  {
+   "type": "text",
+   "text": "THIS",
+   "series": "D",
+   "height": 20,
+   "top": 150,
+   "expect": 54,
+   "colour": "green",
+   "align": "left",
+   "x": 71
+  },
+  {
+   "type": "text",
+   "text": "BAY",
+   "series": "D",
+   "height": 20,
+   "top": 150,
+   "expect": 51,
+   "colour": "green",
+   "align": "left",
+   "x": 140
+  },
+  {
+   "type": "text",
+   "text": "DURING",
+   "series": "D",
+   "height": 20,
+   "top": 175,
+   "expect": 93,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "CLEARWAY",
+   "series": "D",
+   "height": 20,
+   "top": 200,
+   "expect": 137,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "PERIOD",
+   "series": "D",
+   "height": 20,
+   "top": 225,
+   "expect": 89,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     271
+    ],
+    [
+     71.75,
+     255
+    ],
+    [
+     92.0,
+     255
+    ],
+    [
+     78.41,
+     265
+    ],
+    [
+     175.0,
+     265
+    ],
+    [
+     175.0,
+     277
+    ],
+    [
+     78.41,
+     277
+    ],
+    [
+     92.0,
+     287
+    ],
+    [
+     71.75,
+     287
+    ]
+   ],
+   "colour": "green"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA163 225 x 300 (2015, 1:5), R25, green on white, no border. P 100 E, 15 from the top, 78 / 81 / 66. Five lines 20 D, baselines 145 (30 below the P) / 170 / 195 / 220 / 245 (25 pitch): PERMITTED 134 (45/134/46), IN 22 + 15 + THIS 54 + 15 + BAY 51 (34 margins), DURING 93 (66/93/66), CLEARWAY 137 (44/137/44), PERIOD 89 (68/89/68). Arrow centre line 26 below the last baseline (y 271), 29 from the bottom. Arrows are the AS 1743 R5-14 (double, 155 x 32) and R5-16 (single, 125 x 32) open-chevron arrows the sheet cites, drawn as polygons with the national dimensions (shaft 12, head 42 long x 32 wide, barbs 12 thick). This spec is the sheet's left-arrow alternative (R5-16, 125 long, centred); the sheet draws the double arrow."
+}

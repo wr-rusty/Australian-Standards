@@ -1,0 +1,39 @@
+{
+ "code": "TM4-SA118A",
+ "pack": "SA",
+ "name": "RABBIT_CONTROL_YELLOW_SQUARE",
+ "legend": "RABBIT CONTROL",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 27
+ },
+ "panel_px": [
+  634,
+  838,
+  1108,
+  1312
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "RABBIT",
+   "series": "C",
+   "height": 100,
+   "top": 150
+  },
+  {
+   "type": "text",
+   "text": "CONTROL",
+   "series": "B",
+   "height": 100,
+   "top": 350
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM4-SA118A. Multi-message sign frames only. Layout: 600 x 600, yellow, R0, black border 27, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): RABBIT 100 C top 150 x 117-484 (367); CONTROL 100 B top 350 x 105-496 (391)."
+}

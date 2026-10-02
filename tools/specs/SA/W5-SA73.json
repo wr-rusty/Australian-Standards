@@ -1,0 +1,131 @@
+{
+ "code": "W5-SA73",
+ "pack": "SA",
+ "name": "WARNING_GRAVEL_ROADS_SURFACE_CONDITIONS_CHANGE_OFTEN_YELLOW_TALL",
+ "legend": "WARNING / GRAVEL ROADS (slippery) SURFACE CONDITIONS CHANGE OFTEN / DRIVE CAREFULLY",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "ground": "yellow",
+ "radius": 100,
+ "edge": {
+  "colour": "yellow",
+  "width": 15
+ },
+ "border": {
+  "colour": "black",
+  "width": 30
+ },
+ "panel_px": [
+  532,
+  438,
+  1241,
+  1383
+ ],
+ "symbols": {
+  "w5-20_slippery_car": {
+   "source": "W5-20",
+   "desc": "AS 1743 W5-20 slippery symbol, as the sheet cites"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 45,
+   "y": 75,
+   "w": 810,
+   "h": 200,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "WARNING",
+   "series": "D",
+   "height": 120,
+   "top": 115,
+   "expect": 684,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "GRAVEL",
+    "ROADS"
+   ],
+   "gap": 45,
+   "series": "C",
+   "height": 60,
+   "top": 325,
+   "expect": [
+    244,
+    208
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "w5-20_slippery_car",
+   "x": 290.6,
+   "y": 437.2,
+   "w": 317.2,
+   "h": 289.3,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "SURFACE",
+    "CONDITIONS"
+   ],
+   "gap": 45,
+   "series": "C",
+   "height": 60,
+   "top": 775,
+   "expect": [
+    290,
+    385
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "CHANGE",
+    "OFTEN"
+   ],
+   "gap": 45,
+   "series": "C",
+   "height": 60,
+   "top": 880,
+   "expect": [
+    256,
+    195
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 45,
+   "y": 995,
+   "w": 810,
+   "h": 140,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "words": [
+    "DRIVE",
+    "CAREFULLY"
+   ],
+   "gap": 65,
+   "series": "B",
+   "height": 90,
+   "top": 1020,
+   "expect": [
+    222,
+    452
+   ],
+   "colour": "white"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. W5-SA73 900 x 1200 (2015, 1:10), R100, 15 / 45 (edge 15 + border 30). Red band 200 high from 75 below the top (30 of yellow between the border and the band), full width inside the border: WARNING 120 D white, baseline 235, 684 (108/684/108). GRAVEL 244 + 45 + ROADS 208, 60 C, baseline 385 (201/…/202). Symbol W5-20 (slippery) 300 high from 45 below, 320 wide (290/320/290) — the national W5-20 symbol fitted to that box. SURFACE 290 + 45 + CONDITIONS 385, 60 C, baseline 835 (105 below the symbol; 90 margins); CHANGE 256 + 45 + OFTEN 195, 60 C, baseline 940 (202 margins). Lower red band 140 high ending 65 above the bottom (y 995-1135): DRIVE 222 + 65 + CAREFULLY 452, 90 B white, baseline 1110 (170 below; 80 / 81 margins). Approval required."
+}

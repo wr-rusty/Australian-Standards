@@ -1,0 +1,149 @@
+{
+ "code": "W1-SA101",
+ "pack": "SA",
+ "name": "GRAVEL_ROADS_MAXIMUM_80_KMH_YELLOW_TALL",
+ "legend": "GRAVEL ROADS MAXIMUM 80 km/h / DRIVE TO THE ROAD CONDITIONS",
+ "shape": "rect",
+ "size": [
+  900,
+  1050
+ ],
+ "ground": "yellow",
+ "radius": 100,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  498,
+  477,
+  1207,
+  1304
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "GRAVEL",
+    "ROADS"
+   ],
+   "gap": 62.4,
+   "series": "C",
+   "height": 80,
+   "top": 105,
+   "expect": 665,
+   "expect_total": true,
+   "align": "left",
+   "x": 115
+  },
+  {
+   "type": "text",
+   "text": "MAXIMUM",
+   "series": "E",
+   "height": 100,
+   "top": 330,
+   "expect": 695,
+   "align": "left",
+   "x": 100
+  },
+  {
+   "type": "text",
+   "text": "80",
+   "series": "E",
+   "height": 100,
+   "top": 505,
+   "expect": 180,
+   "align": "left",
+   "x": 175
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "E",
+   "height": 85,
+   "top": 520,
+   "align": "left",
+   "x": 405
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     637.4,
+     484.8
+    ],
+    [
+     655.1,
+     484.8
+    ],
+    [
+     587.3,
+     625.1
+    ],
+    [
+     569.6,
+     625.1
+    ]
+   ],
+   "colour": "black",
+   "mirror": false
+  },
+  {
+   "type": "text",
+   "text": "h",
+   "series": "E",
+   "height": 85,
+   "top": 520,
+   "align": "left",
+   "x": 671
+  },
+  {
+   "type": "panel",
+   "x": 60,
+   "y": 755,
+   "w": 775,
+   "h": 225,
+   "radius": 25,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "words": [
+    "DRIVE",
+    "TO",
+    "THE"
+   ],
+   "gap": [
+    41.5,
+    41.5
+   ],
+   "series": "C",
+   "height": 70,
+   "top": 780,
+   "colour": "white",
+   "align": "left",
+   "x": 180
+  },
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "CONDITIONS"
+   ],
+   "gap": 52.2,
+   "series": "C",
+   "height": 70,
+   "top": 885,
+   "expect": 695,
+   "expect_total": true,
+   "colour": "white",
+   "align": "left",
+   "x": 100
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. W1-SA101 900 x 1050 (2015, 1:10), R100, 10 / 30 (edge 10 + border 20). GRAVEL ROADS 80 C baseline 185, 665 overall (115/G 665 S/120); MAXIMUM 100 E baseline 430, 695 (100/695/105); 80 in 100 E (180, from 175) + 50 + km/h 85 E lower case (320, to 175 from the right), baseline 605 — k, m, the oblique stroke and h placed as drawn (the oblique stroke as a parallelogram on the sheet's ink — the font's own stroke is shorter). Blue panel 775 x 225 (60/775/65) from y 755 (150 below the baseline) to 70 above the bottom, corners R25 measured (not stated): DRIVE TO THE 70 C white, baseline 850 (245 below), 535 overall (180/D 535 E/185); ROAD CONDITIONS 70 C white, baseline 955 (105 pitch, 95 from the bottom), 695 overall (100/R 695 S/105). Word gaps set to span the stated overall widths. The limit (80) is the sign's fixed legend. Approval required."
+}

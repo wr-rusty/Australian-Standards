@@ -1,0 +1,93 @@
+{
+ "code": "W8-SA101B",
+ "pack": "SA",
+ "name": "MERGE_LEFT_YELLOW_LONG",
+ "legend": "MERGE LEFT (arrow)",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  547,
+  827,
+  1139,
+  1222
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "MERGE",
+   "series": "Emod",
+   "height": 100,
+   "top": 70,
+   "expect": 510,
+   "align": "left",
+   "x": 128.4
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "Emod",
+   "height": 100,
+   "top": 215,
+   "expect": 365,
+   "align": "left",
+   "x": 205.4
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     175.0,
+     395.0
+    ],
+    [
+     267.0,
+     445.0
+    ],
+    [
+     258.0,
+     409.5
+    ],
+    [
+     575.0,
+     414.5
+    ],
+    [
+     575.0,
+     375.5
+    ],
+    [
+     258.0,
+     380.5
+    ],
+    [
+     267.0,
+     345.0
+    ]
+   ],
+   "colour": "black",
+   "radius": [
+    5.0,
+    5.0,
+    0,
+    0,
+    0,
+    0,
+    5.0
+   ]
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA101: W8-SA101B 750 x 500 illustrated (C 900 x 600, D 1200 x 800), R50, 10 / 30. MERGE '100 EM' (capitals in Series E modified) baseline 170, 510 (120/510/120); LEFT 100 EM baseline 315 (145 pitch), 365 (195/365/190); arrow 'W8-15' 400 long (175/400/175), centre line 105 from the bottom (y 395) — the AS 1743 W8-15 arrow pointing left (head 92 x 100, notch 9, shaft 29 to 39, R5), as a polygon. Sheet-vs-font: the sheet's MERGE 510 and LEFT 365 are wider than the FHWA Series E / E modified capitals at 100 (493 / 344; the national W8-15 gives MERGE 492) — the sheet's lettering is drawn wider (measured 502 / 360); font widths kept, each word centred on its stated position."
+}

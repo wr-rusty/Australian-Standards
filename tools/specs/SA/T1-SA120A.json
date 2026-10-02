@@ -1,0 +1,69 @@
+{
+ "code": "T1-SA120A",
+ "pack": "SA",
+ "name": "WORKERS_25_ORANGE_WHITE_LONG",
+ "legend": "(workers symbol) 25",
+ "shape": "rect",
+ "size": [
+  1200,
+  600
+ ],
+ "ground": "white",
+ "panel_px": [
+  400,
+  670,
+  1346,
+  1143
+ ],
+ "symbols": {
+  "sa_t1-sa120_worker": {
+   "source": "T1-SA120A",
+   "pack": "SA",
+   "desc": "worker with shovel and spoil heap (T1-5 modified), 550 x 470"
+  }
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 750,
+   "h": 600,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 20,
+   "y": 20,
+   "w": 710,
+   "h": 560,
+   "colour": "orange"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_t1-sa120_worker",
+   "x": 99.8,
+   "y": 59.8,
+   "w": 549.7,
+   "h": 470.2,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 975,
+   "cy": 300,
+   "r_outer": 223,
+   "r_inner": 178,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "25",
+   "series": "D",
+   "height": 180,
+   "top": 210,
+   "cx": 975
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA120: T1-SA120A 1200 x 600 illustrated (B 1800 x 900, shown smaller). One board in two parts: left 750 x 600 'T1-5A mod.' — orange with a 20 black border, worker symbol 550 x 470 (100 / 550 / 100, 60 from the top, 70 from the bottom) traced from the sheet's filled artwork; right 450 x 600 white 'R4-1A mod.' — red ring measured 446 outer diameter, 45 wide, centred (975, 300), numerals 25 measured 183 high: drawn 180 Series D (the pair measures 281 wide, as Series D), centred in the ring. The ring and numeral sizes are not dimensioned on the sheet (measured at 1200 dpi). The 25 km/h workers limit is the sign's fixed legend."
+}

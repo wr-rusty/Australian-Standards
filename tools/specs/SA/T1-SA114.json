@@ -1,0 +1,158 @@
+{
+ "code": "T1-SA114",
+ "pack": "SA",
+ "name": "DETOUR_FOR_HEAVY_VEHICLES_YELLOW_POINTED",
+ "legend": "(chevron) DETOUR FOR HEAVY VEHICLES",
+ "shape": "rect",
+ "size": [
+  2100,
+  600
+ ],
+ "ground": "none",
+ "panel_px": [
+  413,
+  633,
+  1240,
+  870
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     300
+    ],
+    [
+     225,
+     0
+    ],
+    [
+     2100,
+     0
+    ],
+    [
+     2100,
+     600
+    ],
+    [
+     225,
+     600
+    ]
+   ],
+   "colour": "black",
+   "radius": [
+    0,
+    0,
+    100,
+    100,
+    0
+   ]
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     35,
+     300
+    ],
+    [
+     239,
+     28
+    ],
+    [
+     2072,
+     28
+    ],
+    [
+     2072,
+     572
+    ],
+    [
+     239,
+     572
+    ]
+   ],
+   "colour": "yellow",
+   "radius": [
+    0,
+    0,
+    72,
+    72,
+    0
+   ]
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     160,
+     300
+    ],
+    [
+     335,
+     70
+    ],
+    [
+     550,
+     70
+    ],
+    [
+     375,
+     300
+    ],
+    [
+     550,
+     530
+    ],
+    [
+     335,
+     530
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "DETOUR",
+    "FOR"
+   ],
+   "gap": 90,
+   "series": "D",
+   "height": 120,
+   "top": 135,
+   "expect": [
+    586,
+    283
+   ],
+   "align": "left",
+   "x": 812,
+   "mirror": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "HEAVY",
+    "VEHICLES"
+   ],
+   "gap": 80,
+   "series": "D",
+   "height": 120,
+   "top": 345,
+   "expect": [
+    505,
+    728
+   ],
+   "align": "left",
+   "x": 640,
+   "mirror": true
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA114 (L or R): 2100 x 600 board pointed at the left end — point 225 long (apex at mid-height), R100 at the two right corners; outside the outline is transparent. Black border measured 28 wide (not stated), yellow ground. Chevron per CHEVRON DETAILS: 175 + 215 wide, 460 high (230 + 230), its right extreme 550 from the apex, 70 from top and bottom. DETOUR 586 + 90 + FOR 283, 120 D, baseline 255 (329 right margin); HEAVY 505 + 80 + VEHICLES 728, 120 D, baseline 465 (210 pitch, 135 below; 90 after the chevron, 147 right margin — the sheet's 80 and 90 labels sit under the wrong gaps; the drawing and the 2100 total fix the order). The drawing sets the top line about 14 to the right of its own chain (DETOUR at 826, right margin 315): the stated chain is used. The sheet draws the left-pointing board; (R) mirrors the board and chevron, with the legend lines kept reading left to right at the mirrored margins."
+}

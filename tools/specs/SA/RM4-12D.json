@@ -1,0 +1,6 @@
+{
+ "code": "RM4-12D",
+ "pack": "SA",
+ "legend": "END (speed), multi-message",
+ "skip": "AS 1743 code RM4-12D (the SA sheet is the national sign): use Complete/Australia/National (AS 1743) — state packs hold only state-specific signs, no national code is redrawn"
+}

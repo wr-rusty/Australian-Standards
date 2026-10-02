@@ -1,0 +1,42 @@
+{
+ "code": "G7-SA132",
+ "pack": "SA",
+ "name": "ACCESSIBLE_PARKING_SPACES_LEFT_BLUE_TALL",
+ "legend": "P (wheelchair) (arrow left)",
+ "shape": "rect",
+ "size": [
+  450,
+  900
+ ],
+ "ground": "blue",
+ "radius": 50,
+ "panel_px": [
+  640,
+  504,
+  995,
+  1213
+ ],
+ "symbols": {
+  "sa_g7-sa132_legend": {
+   "source": "G7-SA132",
+   "pack": "SA",
+   "desc": "white border, parking P (S14 at 70 %), wheelchair symbol (S22 at 70 %) and an A:120 arrow pointing left (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "folder": "Service Signs",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_g7-sa132_legend",
+   "x": 15.6,
+   "y": 15.8,
+   "w": 419.0,
+   "h": 868.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet G7-SA132 (accessible parking spaces). Drawn with the arrow pointing left (the sheet's small second panel is the right-hand version, not dimensioned). Blue board with the white border ring inside a blue edge strip (sheet 30 / 15 or 32 / 16): the whole white layer — border, bars, symbols and arrow — is one traced layer on the blue ground. Layout: 450 x 900, blue, R50, no border. The board is located by its drawn outline; its artwork (white border, parking P (S14 at 70 %), wheelchair symbol (S22 at 70 %) and an A:120 arrow pointing left) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 16-435, y 16-884."
+}

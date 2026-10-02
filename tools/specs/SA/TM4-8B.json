@@ -1,0 +1,6 @@
+{
+ "code": "TM4-8B",
+ "pack": "SA",
+ "legend": "UHF Channel",
+ "skip": "AS 1743 code TM4-8B (the SA sheet is the national sign): use Complete/Australia/National (AS 1743) — state packs hold only state-specific signs, no national code is redrawn"
+}

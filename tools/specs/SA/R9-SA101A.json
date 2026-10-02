@@ -1,0 +1,54 @@
+{
+ "code": "R9-SA101A",
+ "pack": "SA",
+ "name": "BUSWAY_BUSES_EXCEPTED_WHITE_LONG",
+ "legend": "BUSWAY BUSES EXCEPTED",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  459,
+  850,
+  1170,
+  1324
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BUSWAY",
+   "series": "D",
+   "height": 55,
+   "top": 40,
+   "expect": 285
+  },
+  {
+   "type": "text",
+   "text": "BUSES",
+   "series": "D",
+   "height": 55,
+   "top": 120,
+   "expect": 217
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "D",
+   "height": 55,
+   "top": 200,
+   "expect": 342
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border, as the AS 1743 drawings. R9-SA101A (450 x 300) illustrated (B 600 x 400, C 750 x 500, D 900 x 600), 2016, 1:5; R50, 6 / 18 (edge 6 + border 12). Three lines 55 D, baselines 95 / 175 / 255 (45 below): BUSWAY 285 (82/285/83), BUSES 217 (116/217/117), EXCEPTED 342 (54/342/54) — the top chains are listed BUSES first."
+}

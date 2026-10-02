@@ -1,0 +1,124 @@
+{
+ "code": "R5-2",
+ "pack": "SA",
+ "name": "2P_EVENT_PARKING_GREEN_TALL",
+ "legend": "2P EVENT PARKING (double arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "ground": "white",
+ "radius": 20,
+ "panel_px": [
+  654,
+  444,
+  1010,
+  1155
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "2",
+   "series": "E",
+   "height": 100,
+   "top": 20,
+   "expect": 81,
+   "colour": "green",
+   "align": "left",
+   "x": 24
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 20,
+   "expect": 81,
+   "colour": "green",
+   "align": "left",
+   "x": 120
+  },
+  {
+   "type": "text",
+   "text": "EVENT",
+   "series": "D",
+   "height": 35,
+   "top": 280,
+   "expect": 135,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "PARKING",
+   "series": "D",
+   "height": 35,
+   "top": 325,
+   "expect": 190,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     35.0,
+     420
+    ],
+    [
+     56.75,
+     404
+    ],
+    [
+     77.0,
+     404
+    ],
+    [
+     63.41,
+     414
+    ],
+    [
+     161.59,
+     414
+    ],
+    [
+     148.0,
+     404
+    ],
+    [
+     168.25,
+     404
+    ],
+    [
+     190.0,
+     420
+    ],
+    [
+     168.25,
+     436
+    ],
+    [
+     148.0,
+     436
+    ],
+    [
+     161.59,
+     426
+    ],
+    [
+     63.41,
+     426
+    ],
+    [
+     77.0,
+     436
+    ],
+    [
+     56.75,
+     436
+    ]
+   ],
+   "colour": "green"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet 'R5-2 Event Parking' (2015, 1:5; a generic AS 1742.11 code with an SA legend): 225 x 450, green on white, no border; corner radius not stated — R20 as the companion sheet R5-41. 2P 100 E, baseline 120 (top 20): 24 / 81 / 15 / 81 / 24 (2 at x 24, P at x 120). EVENT 35 D baseline 315 (120 + 195), ink 135 (45/135/45); PARKING 35 D baseline 360, ink 190 (18/190/18). Arrow centre line 60 below (y 420, 30 from the bottom): 35/155/35. The time limit (2P) is the sheet's example; not varied. Arrows are the AS 1743 R5-14 (double, 155 x 32) and R5-16 (single, 125 x 32) open-chevron arrows the sheet cites, drawn as polygons with the national dimensions (shaft 12, head 42 long x 32 wide, barbs 12 thick)."
+}

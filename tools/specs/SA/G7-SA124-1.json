@@ -1,0 +1,42 @@
+{
+ "code": "G7-SA124-1",
+ "pack": "SA",
+ "name": "TRUCK_PARKING_RIGHT_CAR_PARKING_LEFT_BLUE_TALL",
+ "legend": "(truck parking) (arrow up-right) / (arrow up-left) P",
+ "shape": "rect",
+ "size": [
+  900,
+  1050
+ ],
+ "ground": "blue",
+ "radius": 100,
+ "panel_px": [
+  514,
+  468,
+  1223,
+  1295
+ ],
+ "symbols": {
+  "sa_g7-sa124-1_legend": {
+   "source": "G7-SA124-1",
+   "pack": "SA",
+   "desc": "white border, dividing bar, truck-parking symbol S13 with an A140 arrow up-right, and an A140 arrow up-left with the parking P symbol S14 (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "folder": "Service Signs",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_g7-sa124-1_legend",
+   "x": 8.0,
+   "y": 8.0,
+   "w": 884.1,
+   "h": 1034.2,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet G7-SA124-1 (rest-area complex: truck parking / car parking): two panels in one board, symbols 350 high, arrows A140. Blue board with the white border ring inside a blue edge strip (sheet 30 / 15 or 32 / 16): the whole white layer — border, bars, symbols and arrow — is one traced layer on the blue ground. Layout: 900 x 1050, blue, R100, no border. The board is located by its drawn outline; its artwork (white border, dividing bar, truck-parking symbol S13 with an A140 arrow up-right, and an A140 arrow up-left with the parking P symbol S14) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 8-892, y 8-1042."
+}

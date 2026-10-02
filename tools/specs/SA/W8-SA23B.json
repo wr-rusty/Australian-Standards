@@ -1,0 +1,75 @@
+{
+ "code": "W8-SA23B",
+ "pack": "SA",
+ "name": "CROSSING_ARROWS_YELLOWGREEN_WIDE",
+ "legend": "(double arrow) (FYG)",
+ "shape": "rect",
+ "size": [
+  750,
+  250
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W8-SA23A",
+ "panel_px": [
+  550,
+  693,
+  1141,
+  890
+ ],
+ "elements": [
+  {
+   "type": "arrow",
+   "width": 44,
+   "heading": 180,
+   "path": [
+    {
+     "line": 126.0
+    }
+   ],
+   "head": {
+    "length": 138,
+    "width": 150,
+    "notch": 14,
+    "barb_r": 5,
+    "tip_r": 5
+   },
+   "x": 125.0,
+   "y": 50.0,
+   "w": 250.0,
+   "h": 150,
+   "colour": "black"
+  },
+  {
+   "type": "arrow",
+   "width": 44,
+   "heading": 0,
+   "path": [
+    {
+     "line": 126.0
+    }
+   ],
+   "head": {
+    "length": 138,
+    "width": 150,
+    "notch": 14,
+    "barb_r": 5,
+    "tip_r": 5
+   },
+   "x": 375,
+   "y": 50.0,
+   "w": 250.0,
+   "h": 150,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA23: W8-SA23B 750 x 250 illustrated (A 600 x 200, C 900 x 300; PNG W8-SA23A.png), fluorescent yellow-green, R50, 10 / 30. Double-headed arrow 500 long (125/500/125), centred (125 above and below its centre line); arrow detail: heads 138 long x 150 wide, shaft 44, notch 14, R5 (typ) — the AS 1743 W8-23 arrow on FYG. For use only with W6-SA110."
+}

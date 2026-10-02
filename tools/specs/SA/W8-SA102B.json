@@ -1,0 +1,46 @@
+{
+ "code": "W8-SA102B",
+ "pack": "SA",
+ "name": "UNFENCED_ROAD_YELLOW_LONG",
+ "legend": "UNFENCED ROAD",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  520,
+  821,
+  1113,
+  1216
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "UNFENCED",
+   "series": "C",
+   "height": 100,
+   "top": 115,
+   "expect": 565
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "C",
+   "height": 100,
+   "top": 285,
+   "expect": 276
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA102: W8-SA102B 750 x 500 illustrated (C 900 x 600), R50, 10 / 30. UNFENCED 100 C baseline 215, 565 (92/565/93); ROAD 100 C baseline 385 (170 pitch, 115 below), 276 (237/276/237)."
+}

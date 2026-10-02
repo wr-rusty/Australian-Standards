@@ -1,0 +1,46 @@
+{
+ "code": "W8-SA57",
+ "pack": "SA",
+ "name": "RIDING_AREA_YELLOW_LONG",
+ "legend": "RIDING AREA",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  541,
+  691,
+  1134,
+  1087
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "RIDING",
+   "series": "D",
+   "height": 120,
+   "top": 95,
+   "expect": 496
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 120,
+   "top": 285,
+   "expect": 408
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. W8-SA57 750 x 500 (1:10), R50, 10 / 30. RIDING 120 D baseline 215, 496 (127/496/127); AREA 120 D baseline 405 (190 pitch, 95 below), 408 (171/408/171). Only with W5-SA59 (horse riders)."
+}

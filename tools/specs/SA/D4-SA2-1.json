@@ -1,0 +1,38 @@
+{
+ "code": "D4-SA2-1",
+ "pack": "SA",
+ "name": "BIDIRECTIONAL_HAZARD_BOARD_BLACK_WHITE_WIDE_SKINNY",
+ "legend": "(chevrons pointing left and right)",
+ "shape": "rect",
+ "size": [
+  2400,
+  400
+ ],
+ "ground": "white",
+ "radius": 40,
+ "panel_px": [
+  136,
+  682,
+  1398,
+  894
+ ],
+ "symbols": {
+  "sa_d4-sa2-1_chevrons": {
+   "source": "D4-SA2-1",
+   "pack": "SA",
+   "desc": "white chevrons pointing outwards either side of a central black diamond (400 modules) (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_d4-sa2-1_chevrons",
+   "x": 2.7,
+   "y": 0.7,
+   "w": 2396.5,
+   "h": 397.3,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet D4-SA2-1 (bidirectional hazard board). Layout: 2400 x 400, white, R40, no border. The board is located by its drawn outline; its artwork (white chevrons pointing outwards either side of a central black diamond (400 modules)) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 3-2399, y 1-398."
+}

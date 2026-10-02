@@ -1,0 +1,51 @@
+{
+ "code": "W5-SA72B",
+ "pack": "SA",
+ "name": "TILTING_TRUCK_YELLOW_DIAMOND",
+ "legend": "(tilting truck)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  415,
+  459,
+  1251,
+  1295
+ ],
+ "symbols": {
+  "sa_w5-sa72_tilting_truck": {
+   "source": "W5-SA72B",
+   "pack": "SA",
+   "desc": "truck tilting at 30 degrees on a ground line, 'WS 132' (traced from the sheet's filled artwork)"
+  }
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w5-sa72_tilting_truck",
+   "x": 269.7,
+   "y": 211.1,
+   "w": 491.0,
+   "h": 542.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA72B (L or R, without advisory speed): 750. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). Symbol: truck tilting at 30 degrees on a ground line, 'WS 132' — taken from the sheet's own filled artwork (PDF fills rendered at 1000 dpi without the dimension and centre lines, traced), ink box x 270-761, y 211-754 as drawn on the sign."
+}

@@ -1,0 +1,41 @@
+{
+ "code": "T2-SA109",
+ "pack": "SA",
+ "name": "FARM_MACHINERY_YELLOW_LONG",
+ "legend": "(tractor)",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  453,
+  646,
+  1161,
+  1119
+ ],
+ "symbols": {
+  "sa_t2-sa109_tractor": {
+   "source": "T2-SA109",
+   "pack": "SA",
+   "desc": "tractor, 540 x 384 (180 / 540 / 180, 108 above and below) (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_t2-sa109_tractor",
+   "x": 179.8,
+   "y": 108.8,
+   "w": 541.1,
+   "h": 383.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T2-SA109 (farm machinery). Layout: 900 x 600, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol tractor, 540 x 384 (180 / 540 / 180, 108 above and below) x 180-721 y 109-492."
+}

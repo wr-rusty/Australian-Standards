@@ -1,0 +1,6 @@
+{
+ "code": "TM10-16A",
+ "pack": "SA",
+ "legend": "Lane Status",
+ "skip": "AS 1743 code TM10-16A (the SA sheet is the national sign): use Complete/Australia/National (AS 1743) — state packs hold only state-specific signs, no national code is redrawn"
+}

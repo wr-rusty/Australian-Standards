@@ -1,0 +1,206 @@
+{
+ "code": "R5-SA102",
+ "pack": "SA",
+ "name": "BICYCLE_LANE_7-10_AM_3-7_PM_MON-FRI_WHITE_TALL",
+ "legend": "(bicycle) LANE 7 - 10 AM 3 - 7 PM MON - FRI",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "ground": "white",
+ "radius": 25,
+ "panel_px": [
+  680,
+  681,
+  1037,
+  1392
+ ],
+ "symbols": {
+  "r7-1-4_bicycle": {
+   "source": "R7-1-4",
+   "desc": "AS 1743 R7-1-4 bicycle symbol at 20 %"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-4_bicycle",
+   "x": 66.7,
+   "y": 20.1,
+   "w": 89.8,
+   "h": 59.4,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 35,
+   "top": 100.5,
+   "align": "left",
+   "x": 44.9
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 50,
+   "top": 200.0,
+   "align": "left",
+   "x": 16.4
+  },
+  {
+   "type": "rect",
+   "x": 74.3,
+   "y": 222.4,
+   "w": 14.3,
+   "h": 3.4,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "series": "E",
+   "height": 50,
+   "top": 200.0,
+   "align": "left",
+   "x": 105.7
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 235.0,
+   "align": "left",
+   "x": 176.9
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "E",
+   "height": 50,
+   "top": 259.0,
+   "align": "left",
+   "x": 31.9
+  },
+  {
+   "type": "rect",
+   "x": 89.8,
+   "y": 281.6,
+   "w": 14.3,
+   "h": 3.4,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "series": "E",
+   "height": 50,
+   "top": 260.0,
+   "align": "left",
+   "x": 119.1
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 294.0,
+   "align": "left",
+   "x": 162.8
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 20,
+   "top": 320.0,
+   "align": "left",
+   "x": 42.6,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 113.6,
+   "y": 328.3,
+   "w": 14.0,
+   "h": 2.8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 20,
+   "top": 320.0,
+   "align": "left",
+   "x": 142.6,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     35.0,
+     420.9
+    ],
+    [
+     56.75,
+     404.9
+    ],
+    [
+     77.0,
+     404.9
+    ],
+    [
+     63.41,
+     414.9
+    ],
+    [
+     161.59,
+     414.9
+    ],
+    [
+     148.0,
+     404.9
+    ],
+    [
+     168.25,
+     404.9
+    ],
+    [
+     190.0,
+     420.9
+    ],
+    [
+     168.25,
+     436.9
+    ],
+    [
+     148.0,
+     436.9
+    ],
+    [
+     161.59,
+     426.9
+    ],
+    [
+     63.41,
+     426.9
+    ],
+    [
+     77.0,
+     436.9
+    ],
+    [
+     56.75,
+     436.9
+    ]
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA102 225 x 450 (2020, 1:5), R25, black on white, no border. Bicycle symbol R7-1-4 at 20 % (90 wide: 67/90/68), 20 from the top, 60 high; LANE 35 E baseline 135 (55 below), ink 134 (45/134/46); time lines 50 E, baselines 250 (115 below) and 310 (60 pitch), AM / PM 15 E on the baselines; MON - FRI 20 E baseline 340 (30 below); double arrow R5-14 155 x 32, 13 from the bottom (65 below the MON - FRI baseline), 35/155/35. The numerals' horizontal positions are not dimensioned: placed where the sheet draws them (measured at 1200 dpi). Sheet note: panel times are for illustration only — the example is drawn, no time variants. Symbol and arrow reused from the national set."
+}

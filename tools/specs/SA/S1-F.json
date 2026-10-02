@@ -1,0 +1,91 @@
+{
+ "code": "S1-F",
+ "pack": "SA",
+ "name": "CASUALTY_12_HOUR_FIRST_AID_SYMBOL_BLUE_SQUARE",
+ "legend": "(white cross) FIRST AID",
+ "shape": "rect",
+ "size": [
+  350,
+  350
+ ],
+ "ground": "blue",
+ "drawing": "S1-H",
+ "panel_px": [
+  406,
+  307,
+  1325,
+  1226
+ ],
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     145,
+     40
+    ],
+    [
+     204,
+     40
+    ],
+    [
+     204,
+     99
+    ],
+    [
+     263,
+     99
+    ],
+    [
+     263,
+     158
+    ],
+    [
+     204,
+     158
+    ],
+    [
+     204,
+     217
+    ],
+    [
+     145,
+     217
+    ],
+    [
+     145,
+     158
+    ],
+    [
+     86,
+     158
+    ],
+    [
+     86,
+     99
+    ],
+    [
+     145,
+     99
+    ]
+   ],
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "FIRST",
+    "AID"
+   ],
+   "gap": 35.3,
+   "series": "D",
+   "height": 50,
+   "top": 265,
+   "expect": 306,
+   "expect_total": true,
+   "colour": "white"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet S1 (12 hour casualty service symbol; one sheet for S1-H HOSPITAL, S1-C CLINIC and S1-F FIRST AID — the plate is drawn with HOSPITAL and the other two words are given below it with their widths). 350 x 350 blue, no border. White cross 177 x 177 (86 / 177 / 87 across, 40 from the top), arms 58 wide (59 / 58 / 59). FIRST AID 50 D white, baseline 315 (98 below the cross, 35 from the bottom), ink 306."
+}

@@ -1,0 +1,47 @@
+{
+ "code": "W6-5-1B",
+ "pack": "SA",
+ "name": "CHILDRENS_CROSSING_AHEAD_YELLOWGREEN_DIAMOND",
+ "legend": "(arrow ahead, children on a crossing) (FYG)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W6-5-1A",
+ "panel_px": [
+  485,
+  451,
+  1319,
+  1285
+ ],
+ "symbols": {
+  "sa_w6-5-1_children_crossing": {
+   "source": "W6-5-1A",
+   "pack": "SA",
+   "desc": "up arrow above two children walking on a dashed crossing (figures 400 high; arrow 250 x 219) (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w6-5-1_children_crossing",
+   "x": 194.3,
+   "y": 154.5,
+   "w": 672.0,
+   "h": 715.8,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W6-5-1 (children's crossing ahead): W6-5-1B illustrated (A 600, C 900; PNG W6-5-1A.png). The sheet prints the ground as a pale fluorescent yellow-green. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); fluorescent yellow-green, R50, 10 / 30 (edge 10 + border 20). Symbol: up arrow above two children walking on a dashed crossing (figures 400 high; arrow 250 x 219) — taken from the sheet's own filled artwork (PDF fills rendered at 1000 dpi without the dimension and centre lines, traced), ink box x 194-866, y 154-870 as drawn on the sign."
+}

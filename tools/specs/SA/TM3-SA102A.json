@@ -1,0 +1,41 @@
+{
+ "code": "TM3-SA102A",
+ "pack": "SA",
+ "name": "DEEP_EDGE_DROP_SYMBOL_YELLOW_SQUARE",
+ "legend": "(car at a deep edge drop)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  602,
+  817,
+  1074,
+  1290
+ ],
+ "symbols": {
+  "sa_tm3-sa102_edge_drop": {
+   "source": "TM3-SA102A",
+   "pack": "SA",
+   "desc": "rear of a car with one wheel off a deep pavement edge, 450 x 450 (75 margins) (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_tm3-sa102_edge_drop",
+   "x": 74.5,
+   "y": 74.7,
+   "w": 450.9,
+   "h": 450.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM3-SA102A (deep edge drop, symbolic; refer TES). Multi-message sign frames only. Layout: 600 x 600, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol rear of a car with one wheel off a deep pavement edge, 450 x 450 (75 margins) x 74-525 y 75-525."
+}

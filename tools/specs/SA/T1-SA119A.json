@@ -1,0 +1,52 @@
+{
+ "code": "T1-SA119A",
+ "pack": "SA",
+ "name": "SIGNALS_OPERATING_AHEAD_YELLOW_LONG",
+ "legend": "SIGNALS OPERATING AHEAD",
+ "shape": "rect",
+ "size": [
+  900,
+  675
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  422,
+  831,
+  1131,
+  1362
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SIGNALS",
+   "series": "C",
+   "height": 120,
+   "top": 75,
+   "align": "left",
+   "x": 188.4
+  },
+  {
+   "type": "text",
+   "text": "OPERATING",
+   "series": "C",
+   "height": 120,
+   "top": 275,
+   "align": "left",
+   "x": 104.9
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 120,
+   "top": 475,
+   "align": "left",
+   "x": 243.3
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA119: T1-SA119A 900 x 675 illustrated (B 1200 x 900), border 25. Layout: 900 x 675, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): SIGNALS 120 C top 75 x 189-724 (535); OPERATING 120 C top 275 x 105-814 (708); AHEAD 120 C top 475 x 243-663 (420)."
+}

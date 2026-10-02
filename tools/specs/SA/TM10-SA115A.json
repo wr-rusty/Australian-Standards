@@ -1,0 +1,41 @@
+{
+ "code": "TM10-SA115A",
+ "pack": "SA",
+ "name": "LANE_STATUS_MERGE_LEFT_RIGHT_LANE_YELLOW_SQUARE",
+ "legend": "(arrow ahead, right arrow merging left)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  424,
+  776,
+  896,
+  1248
+ ],
+ "symbols": {
+  "sa_tm10-sa115_arrows": {
+   "source": "TM10-SA115A",
+   "pack": "SA",
+   "desc": "lane arrows 400 long x 150 wide heads (shaft 40 to 60, R18), at 30 degrees where shown (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_tm10-sa115_arrows",
+   "x": 60.2,
+   "y": 99.8,
+   "w": 478.2,
+   "h": 400.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM10-SA115A. Multi-message sign frames only. Layout: 600 x 600, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol lane arrows 400 long x 150 wide heads (shaft 40 to 60, R18), at 30 degrees where shown x 60-538 y 100-500."
+}

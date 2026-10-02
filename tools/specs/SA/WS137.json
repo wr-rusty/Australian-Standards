@@ -1,0 +1,38 @@
+{
+ "code": "WS137",
+ "pack": "SA",
+ "name": "DEER_SYMBOL_YELLOW_SQUARE",
+ "legend": "(deer)",
+ "shape": "rect",
+ "size": [
+  350,
+  350
+ ],
+ "ground": "yellow",
+ "panel_px": [
+  434,
+  481,
+  1353,
+  1400
+ ],
+ "symbols": {
+  "sa_ws137_deer": {
+   "source": "WS137",
+   "pack": "SA",
+   "desc": "deer (traced from the sheet's filled artwork)"
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_ws137_deer",
+   "x": 27.9,
+   "y": 14.5,
+   "w": 292.7,
+   "h": 320.4,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet WS137 (warning-series symbol): yellow plate, black pictogram. Layout: 350 x 350, yellow, R0, no border. The board is located by its drawn outline; its artwork (deer) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 28-321, y 14-335."
+}

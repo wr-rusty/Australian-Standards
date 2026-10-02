@@ -1,0 +1,370 @@
+{
+ "code": "R5-SA101-1W",
+ "pack": "SA",
+ "name": "BICYCLE_LANE_2P_PARKING_ONE_PERIOD_WHITE_SQUARE",
+ "legend": "(bicycle) LANE 6.30 - 9.30 AM MON - FRI / 2P 9.30 - 3.30 PM MON - FRI",
+ "shape": "rect",
+ "size": [
+  450,
+  450
+ ],
+ "ground": "white",
+ "radius": 25,
+ "panel_px": [
+  445,
+  437,
+  1156,
+  1148
+ ],
+ "symbols": {
+  "r7-1-4_bicycle": {
+   "source": "R7-1-4",
+   "desc": "AS 1743 R7-1-4 bicycle symbol at 20 % (90 wide, 67 / 68 margins)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-4_bicycle",
+   "x": 66.8,
+   "y": 25.0,
+   "w": 90.2,
+   "h": 59.7,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "E",
+   "height": 35,
+   "top": 105.5,
+   "align": "left",
+   "x": 46.2
+  },
+  {
+   "type": "text",
+   "text": "6",
+   "series": "E",
+   "height": 50,
+   "top": 69.5,
+   "align": "left",
+   "x": 230.0,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 70.0,
+   "align": "left",
+   "x": 274.0,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 318.2,
+   "y": 92.7,
+   "w": 14.4,
+   "h": 3.4,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 69.5,
+   "align": "left",
+   "x": 341.4,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 70.0,
+   "align": "left",
+   "x": 388.8,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "AM",
+   "series": "E",
+   "height": 15,
+   "top": 105.5,
+   "align": "left",
+   "x": 391.7,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 20,
+   "top": 130.0,
+   "align": "left",
+   "x": 267.0,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 338.2,
+   "y": 138.9,
+   "w": 14.1,
+   "h": 2.7,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 20,
+   "top": 130.0,
+   "align": "left",
+   "x": 367.3,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     35.3,
+     193.4
+    ],
+    [
+     57.05,
+     177.4
+    ],
+    [
+     77.3,
+     177.4
+    ],
+    [
+     63.71,
+     187.4
+    ],
+    [
+     161.89,
+     187.4
+    ],
+    [
+     148.3,
+     177.4
+    ],
+    [
+     168.55,
+     177.4
+    ],
+    [
+     190.3,
+     193.4
+    ],
+    [
+     168.55,
+     209.4
+    ],
+    [
+     148.3,
+     209.4
+    ],
+    [
+     161.89,
+     199.4
+    ],
+    [
+     63.71,
+     199.4
+    ],
+    [
+     77.3,
+     209.4
+    ],
+    [
+     57.05,
+     209.4
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 222.5,
+   "w": 450,
+   "h": 5,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "series": "E",
+   "height": 100,
+   "top": 263.5,
+   "align": "left",
+   "x": 25.4,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 265.0,
+   "align": "left",
+   "x": 120.2,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "9",
+   "series": "E",
+   "height": 50,
+   "top": 296.0,
+   "align": "left",
+   "x": 239.4,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 295.5,
+   "align": "left",
+   "x": 283.9,
+   "colour": "green"
+  },
+  {
+   "type": "rect",
+   "x": 328.1,
+   "y": 318.5,
+   "w": 14.4,
+   "h": 3.4,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "series": "E",
+   "height": 50,
+   "top": 295.5,
+   "align": "left",
+   "x": 351.5,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "30",
+   "series": "C",
+   "height": 30,
+   "top": 295.5,
+   "align": "left",
+   "x": 398.7,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "PM",
+   "series": "E",
+   "height": 15,
+   "top": 331.0,
+   "align": "left",
+   "x": 405.1,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "MON",
+   "series": "E",
+   "height": 20,
+   "top": 356.5,
+   "align": "left",
+   "x": 267.0,
+   "colour": "green"
+  },
+  {
+   "type": "rect",
+   "x": 338.2,
+   "y": 365.3,
+   "w": 14.1,
+   "h": 2.7,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "FRI",
+   "series": "E",
+   "height": 20,
+   "top": 356.5,
+   "align": "left",
+   "x": 367.3,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     35.3,
+     420.5
+    ],
+    [
+     57.05,
+     404.5
+    ],
+    [
+     77.3,
+     404.5
+    ],
+    [
+     63.71,
+     414.5
+    ],
+    [
+     161.89,
+     414.5
+    ],
+    [
+     148.3,
+     404.5
+    ],
+    [
+     168.55,
+     404.5
+    ],
+    [
+     190.3,
+     420.5
+    ],
+    [
+     168.55,
+     436.5
+    ],
+    [
+     148.3,
+     436.5
+    ],
+    [
+     161.89,
+     426.5
+    ],
+    [
+     63.71,
+     426.5
+    ],
+    [
+     77.3,
+     436.5
+    ],
+    [
+     57.05,
+     436.5
+    ]
+   ],
+   "colour": "green"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA101-1W 450 x 450 (wide format, one time period): two panels 225 high, dividing line at y 222.5-227.5. Part-time lane sign with a parking panel: black lane legend above a 5 black dividing line, green parking legend below; white, R25, no border. R7-1-4 bicycle symbol at 20 % (90 wide, 67 / 68 margins); LANE 35 E (134: 45/134/46); hour numerals 50 E with '30' in 30 C top-aligned and AM / PM 15 E bottom-aligned; MON - FRI and SAT 20 E; 2P 100 E (24/81/15/81/24); 12 in 35 E over NOON 12 E where shown; double arrows R5-14 (155 x 32, 35 margins) — the AS 1743 arrow drawn as a polygon. The sheet dimensions the panels and line pitches; the legend blocks are given only as '195 MAX.' / 141 / 155 centred, so every element is placed where the sheet draws it (ink positions measured at 1200 dpi; the sheet is at 1:5, about +/- 0.5 mm). Sheet note: panel times are for illustration only — the example times are drawn, no time variants. Symbols reused from the national set (the sheet cites R7-1-4 and R5-14)."
+}

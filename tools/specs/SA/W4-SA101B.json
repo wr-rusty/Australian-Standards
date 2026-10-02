@@ -1,0 +1,56 @@
+{
+ "code": "W4-SA101B",
+ "pack": "SA",
+ "name": "RIGHT_LANE_ENDS_YELLOW_DIAMOND",
+ "legend": "RIGHT LANE ENDS",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  469,
+  649,
+  1305,
+  1485
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "RIGHT",
+   "series": "D",
+   "height": 120,
+   "top": 277,
+   "tracking": "minus10",
+   "expect": 420
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 120,
+   "top": 467,
+   "tracking": "minus10"
+  },
+  {
+   "type": "text",
+   "text": "ENDS",
+   "series": "D",
+   "height": 120,
+   "top": 656,
+   "tracking": "minus10",
+   "expect": 381
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W4-SA101: '120 DN' = Series D at narrow spacing — drawn with the FHWA Series D at minus10 tracking, which reproduces the stated RIGHT 420 (210 | 210) and ENDS 381 (186 | 195); LANE is stated 388 (194 | 194) and comes to 381 (sheet-vs-font). 190 pitch. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). W4-SA101B illustrated (C 900, D 1200). Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): RIGHT 120 D, baseline -133 from the horizontal centre line (top 277), ink 420 (measured 416, centred); LANE 120 D, baseline +57 from the horizontal centre line (top 467) (measured 383, x 337-720); ENDS 120 D, baseline +246 from the horizontal centre line (top 656), ink 381 (measured 378, x 345-723)."
+}

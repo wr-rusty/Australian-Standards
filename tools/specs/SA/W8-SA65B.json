@@ -1,0 +1,53 @@
+{
+ "code": "W8-SA65B",
+ "pack": "SA",
+ "name": "ON_GREEN_SIGNAL_YELLOW_LONG",
+ "legend": "ON GREEN SIGNAL",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  550,
+  776,
+  1142,
+  1172
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "GREEN"
+   ],
+   "gap": 90,
+   "series": "B",
+   "height": 120,
+   "top": 100,
+   "expect": [
+    130,
+    326
+   ]
+  },
+  {
+   "type": "text",
+   "text": "SIGNAL",
+   "series": "B",
+   "height": 120,
+   "top": 280,
+   "expect": 379
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA65: W8-SA65B 750 x 500 illustrated (C 900 x 600), R50, 10 / 30. ON 130 + 90 + GREEN 326, 120 B, baseline 220 (102/130/90/326/102); SIGNAL 120 B baseline 400 (180 pitch, 100 below), 379 (185/379/186)."
+}

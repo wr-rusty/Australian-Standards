@@ -1,0 +1,41 @@
+{
+ "code": "W5-SA109B",
+ "pack": "SA",
+ "name": "CREEK_YELLOW_DIAMOND",
+ "legend": "CREEK",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W5-SA109A",
+ "panel_px": [
+  446,
+  647,
+  1282,
+  1483
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CREEK",
+   "series": "D",
+   "height": 180,
+   "top": 442,
+   "align": "left",
+   "x": 165.3,
+   "expect": 725
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA109. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). W5-SA109B illustrated (A 600, C 900; PNG W5-SA109A.png). Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): CREEK 180 D, baseline +92 from the horizontal centre line (top 442), ink 725 (measured 724, x 166-890)."
+}

@@ -1,0 +1,43 @@
+{
+ "code": "TM8-SA102B",
+ "pack": "SA",
+ "name": "FOOTPATH_REPAIRS_YELLOW_WIDE_SKINNY",
+ "legend": "FOOTPATH REPAIRS",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  440,
+  856,
+  1385,
+  1093
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "FOOTPATH",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "align": "left",
+   "x": 70.4
+  },
+  {
+   "type": "text",
+   "text": "REPAIRS",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "align": "left",
+   "x": 680.8
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM8-SA102B. Multi-message sign frames only. Layout: 1200 x 300, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): FOOTPATH 100 C top 100 x 71-605 (534); REPAIRS 100 C top 100 x 681-1128 (447)."
+}

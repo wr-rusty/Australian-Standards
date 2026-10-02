@@ -1,0 +1,47 @@
+{
+ "code": "T1-SA118",
+ "pack": "SA",
+ "name": "SIGNALS_NOT_OPERATING_YELLOW_TALL",
+ "legend": "SIGNALS NOT OPERATING",
+ "shape": "rect",
+ "size": [
+  160,
+  210
+ ],
+ "ground": "yellow",
+ "radius": 10,
+ "border": {
+  "colour": "black",
+  "width": 5
+ },
+ "panel_px": [
+  518,
+  372,
+  1148,
+  1199
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SIGNALS",
+   "series": "C",
+   "height": 25,
+   "top": 35
+  },
+  {
+   "type": "text",
+   "text": "NOT",
+   "series": "C",
+   "height": 25,
+   "top": 90
+  },
+  {
+   "type": "text",
+   "text": "OPERATING",
+   "series": "B",
+   "height": 25,
+   "top": 145
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA118 (for attachment above push buttons at pedestrian facilities): 160 x 210, R10. Layout: 160 x 210, yellow, R10, black border 5, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): SIGNALS 25 C top 35 x 24-136 (112); NOT 25 C top 90 x 56-105 (49); OPERATING 25 B top 145 x 20-140 (120)."
+}

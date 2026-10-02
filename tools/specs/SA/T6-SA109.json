@@ -1,0 +1,40 @@
+{
+ "code": "T6-SA109",
+ "pack": "SA",
+ "name": "SURVEY_VEHICLE_ORANGE_LONG",
+ "legend": "SURVEY VEHICLE",
+ "shape": "rect",
+ "size": [
+  800,
+  600
+ ],
+ "ground": "orange",
+ "radius": 50,
+ "panel_px": [
+  499,
+  658,
+  1129,
+  1130
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SURVEY",
+   "series": "D",
+   "height": 120,
+   "top": 120,
+   "align": "left",
+   "x": 105.3
+  },
+  {
+   "type": "text",
+   "text": "VEHICLE",
+   "series": "D",
+   "height": 120,
+   "top": 360,
+   "align": "left",
+   "x": 85.4
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T6-SA109 (vehicle-mounted; refer to Traffic Operations): orange, R50, no border. Layout: 800 x 600, orange, R50, no border. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): SURVEY 120 D top 120 x 106-705 (599); VEHICLE 120 D top 360 x 86-720 (635)."
+}

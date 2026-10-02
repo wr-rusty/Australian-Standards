@@ -1,0 +1,51 @@
+{
+ "code": "T1-SA2",
+ "pack": "SA",
+ "name": "BRIDGE_WORK_AHEAD_YELLOW_TALL",
+ "legend": "BRIDGE WORK AHEAD",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "drawing": "T1-SA2_upright",
+ "panel_px": [
+  508,
+  497,
+  1216,
+  1442
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "BRIDGE",
+   "series": "D",
+   "height": 160,
+   "top": 180,
+   "align": "left",
+   "x": 91.0
+  },
+  {
+   "type": "text",
+   "text": "WORK",
+   "series": "D",
+   "height": 160,
+   "top": 520
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 160,
+   "top": 860,
+   "align": "left",
+   "x": 109.7
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA2 (2015, 1:10; for larger sizes refer to AS 1743). Layout: 900 x 1200, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): BRIDGE 160 D top 180 x 91-812 (721); WORK 160 D top 520 x 170-730 (559); AHEAD 160 D top 860 x 110-797 (687)."
+}

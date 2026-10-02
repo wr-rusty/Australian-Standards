@@ -1,0 +1,51 @@
+{
+ "code": "W1-SA50-2A",
+ "pack": "SA",
+ "name": "TILTING_TRUCK_REVERSE_TURN_YELLOW_TALL",
+ "legend": "(tilting truck) (reverse-turn arrow (W1-2))",
+ "shape": "rect",
+ "size": [
+  1000,
+  2000
+ ],
+ "ground": "yellow",
+ "radius": 150,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  306,
+  712,
+  700,
+  1499
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "sa_w1-sa50-2_truck_arrow": {
+   "source": "W1-SA50-2A",
+   "pack": "SA",
+   "desc": "tilting truck on a ground line above the reverse-turn arrow (W1-2)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w1-sa50-2_truck_arrow",
+   "x": 92.9,
+   "y": 149.2,
+   "w": 799.3,
+   "h": 1701.2,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W1-SA50-2 (L or R): W1-SA50-2A 1000 x 2000 illustrated (B 1500 x 3000), R150, 10 / 30 (edge 10 + border 20). Truck tilting at 30 degrees on a 45 thick ground line (TRUCK DETAILS: body 453 x 567, 770 wide x 885 high overall, 120 / 770 / 110 across) above the reverse-turn arrow (W1-2) drawn to the sheet's ARROW DETAILS. The whole black legend is taken as one symbol from the sheet's filled artwork (PDF fills at 1000 dpi, traced; ink box x 93-892, y 149-1850). The sheet draws the left-hand sign; (R) mirrors it."
+}

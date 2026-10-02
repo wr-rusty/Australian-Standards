@@ -1,0 +1,42 @@
+{
+ "code": "T2-SA104A",
+ "pack": "SA",
+ "name": "END_EVENT_YELLOWGREEN_LONG",
+ "legend": "END EVENT (FYG)",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "ground": "yellowgreen",
+ "radius": 25,
+ "border": {
+  "colour": "black",
+  "width": 10
+ },
+ "panel_px": [
+  474,
+  772,
+  1182,
+  1244
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 80,
+   "top": 50
+  },
+  {
+   "type": "text",
+   "text": "EVENT",
+   "series": "D",
+   "height": 80,
+   "top": 170,
+   "align": "left",
+   "x": 69.2
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T2-SA104: T2-SA104A 450 x 300 illustrated (B 600 x 400). May be installed beneath R1-4A during long events. Layout: 450 x 300, fluorescent yellow-green, R25, black border 10, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): END 80 D top 50 x 129-321 (192); EVENT 80 D top 170 x 69-377 (308)."
+}

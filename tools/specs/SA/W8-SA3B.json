@@ -1,0 +1,102 @@
+{
+ "code": "W8-SA3B",
+ "pack": "SA",
+ "name": "ON_SIDE_ROAD_YELLOWGREEN_LONG",
+ "legend": "ON SIDE ROAD (arrow) (FYG)",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W8-SA3A",
+ "panel_px": [
+  541,
+  702,
+  1132,
+  1096
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 100,
+   "top": 70,
+   "expect": 161
+  },
+  {
+   "type": "text",
+   "words": [
+    "SIDE",
+    "ROAD"
+   ],
+   "gap": 70,
+   "series": "C",
+   "height": 100,
+   "top": 214,
+   "expect": [
+    236,
+    276
+   ]
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     175.0,
+     395.0
+    ],
+    [
+     267.0,
+     445.0
+    ],
+    [
+     258.0,
+     409.5
+    ],
+    [
+     575.0,
+     414.5
+    ],
+    [
+     575.0,
+     375.5
+    ],
+    [
+     258.0,
+     380.5
+    ],
+    [
+     267.0,
+     345.0
+    ]
+   ],
+   "colour": "black",
+   "radius": [
+    5.0,
+    5.0,
+    0,
+    0,
+    0,
+    0,
+    5.0
+   ]
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA3: W8-SA3B 750 x 500 illustrated (A 600 x 400, C 900 x 600, D 1200 x 800; PNG W8-SA3A.png), fluorescent yellow-green, R50, 10 / 30. The AS 1743 W8-3 layout on FYG: ON 100 D baseline 170, 161 (294/161/295); SIDE 236 + 70 + ROAD 276, 100 C, baseline 314 (84/236/70/276/84); arrow 400 long (175/400/175), centre line 105 from the bottom, head 100 x 92, shaft 29 at the head (9 notch), R5 — drawn as the national W8-3 polygon. (L) drawn; (R) mirrors the arrow."
+}

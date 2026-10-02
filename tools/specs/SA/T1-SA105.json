@@ -1,0 +1,6 @@
+{
+ "code": "T1-SA105",
+ "pack": "SA",
+ "legend": "ADVANCE NOTICE TRAFFIC SIGNALS SWITCH ON (time) (date)",
+ "skip": "the time and date lines are site-specific legend shown only as a grey example (10 AM - 24 AUG 04; 'varies'): not generated as a fixed sign"
+}

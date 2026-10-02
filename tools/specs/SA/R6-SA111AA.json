@@ -1,0 +1,137 @@
+{
+ "code": "R6-SA111AA",
+ "pack": "SA",
+ "name": "WHEELED_RECREATIONAL_DEVICES_NOT_PERMITTED_ON_FOOTPATH_WHITE_TALL",
+ "legend": "(no skateboards, no skates, no scooters) ON FOOTPATH",
+ "shape": "rect",
+ "size": [
+  225,
+  260
+ ],
+ "ground": "white",
+ "radius": 10,
+ "drawing": "R6-SA111A",
+ "panel_px": [
+  521,
+  909,
+  878,
+  1321
+ ],
+ "symbols": {
+  "sa_r6-sa109_skateboard": {
+   "source": "R6-SA109A",
+   "pack": "SA",
+   "desc": "skateboard side view, 70.2 x 16.1 — the sheet's 10 mm grid inset outline filled (PDF vector strokes of the inset, not a raster trace of the sign, where the slash covers it)"
+  },
+  "sa_r6-sa109_skate": {
+   "source": "R6-SA109A",
+   "pack": "SA",
+   "desc": "in-line skate, 53.7 x 37.8 — from the 10 mm grid inset outline, filled"
+  },
+  "sa_r6-sa109_scooter": {
+   "source": "R6-SA109A",
+   "pack": "SA",
+   "desc": "kick scooter, 49.3 x 50.1 — from the 10 mm grid inset outline, filled between its inner and outer outlines (wheel rings open)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_r6-sa109_skateboard",
+   "x": 77.39,
+   "y": 53.2,
+   "w": 70.22,
+   "h": 16.11,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 112.5,
+   "cy": 57,
+   "r_outer": 45,
+   "r_inner": 37.5,
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M138.72 25.48A41 41 0 0 1 144.02 30.78L86.28 88.52A41 41 0 0 1 80.98 83.22Z",
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_r6-sa109_skate",
+   "x": 34.47,
+   "y": 141.41,
+   "w": 53.66,
+   "h": 37.78,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 60,
+   "cy": 157,
+   "r_outer": 45,
+   "r_inner": 37.5,
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M86.22 125.48A41 41 0 0 1 91.52 130.78L33.78 188.52A41 41 0 0 1 28.48 183.22Z",
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_r6-sa109_scooter",
+   "x": 139.81,
+   "y": 130.49,
+   "w": 49.28,
+   "h": 50.12,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 165,
+   "cy": 157,
+   "r_outer": 45,
+   "r_inner": 37.5,
+   "colour": "red"
+  },
+  {
+   "type": "path",
+   "d": "M191.22 125.48A41 41 0 0 1 196.52 130.78L138.78 188.52A41 41 0 0 1 133.48 183.22Z",
+   "colour": "red"
+  },
+  {
+   "type": "panel",
+   "x": 3,
+   "y": 212,
+   "w": 219,
+   "h": 45,
+   "radius": 7,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 6,
+   "y": 215,
+   "w": 213,
+   "h": 39,
+   "radius": 4,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "words": [
+    "ON",
+    "FOOTPATH"
+   ],
+   "gap": 14.3,
+   "series": "D",
+   "height": 20,
+   "top": 225,
+   "expect": 174,
+   "expect_total": true
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet R6-SA111 (2026, 1:5): R6-SA111AA 225 x 260 illustrated (A 450 x 520), R10, white, no outer border. Chain 12 / 90 ring / 10 / 90 ring / 23 / 35 = 260 (35 = top of the legend to the bottom edge: 20 D + 15). ON FOOTPATH panel across the bottom: black border 3 inside a 3 white edge (3 / 6), outer y 212-257 measured; ON FOOTPATH 20 D, top 225, overall ink 174 (25/174/26; word gap not stated, set so the pair spans 174: 14.3; measured 15). Three red prohibition rings 90 dia (ring and slash 7.5 wide, measured — not dimensioned; slash from upper right to lower left over the symbol): skateboard on top (centred, 67.5/90/67.5), in-line skate and scooter below (15 / 90 / 15 / 90 / 15, the sheet's 98 | 98 from the ring edges to the sign's centre line). Pictograms from the sheet's 10 mm grid inset (outlines filled; skateboard 70 x 16, skate 54 x 38, scooter 49 x 50), placed where the sign shows them (measured). The sign draws a hairline white keyline round each pictogram part (CAD outline) — not reproduced. "
+}

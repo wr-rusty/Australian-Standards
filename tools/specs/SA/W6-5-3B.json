@@ -1,0 +1,76 @@
+{
+ "code": "W6-5-3B",
+ "pack": "SA",
+ "name": "CHILDRENS_CROSSING_AHEAD_90_YELLOWGREEN_DIAMOND",
+ "legend": "(arrow at 90 degrees, children on a crossing) (FYG)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W6-5-3A",
+ "panel_px": [
+  439,
+  219,
+  1273,
+  1053
+ ],
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "symbols": {
+  "sa_w6-5-3_children_crossing_l": {
+   "source": "W6-5-3A",
+   "pack": "SA",
+   "desc": "arrow left + children on crossing (upper diamond)"
+  },
+  "sa_w6-5-3_children_crossing_r": {
+   "source": "W6-5-3A",
+   "pack": "SA",
+   "desc": "arrow right + children on crossing (lower diamond)",
+   "panel_px": [
+    749,
+    1045,
+    1583,
+    1880
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w6-5-3_children_crossing_l",
+   "x": 194.1,
+   "y": 144.5,
+   "w": 672.2,
+   "h": 725.8,
+   "colour": "black",
+   "hand": "L",
+   "mirror": false
+  },
+  {
+   "type": "symbol",
+   "id": "sa_w6-5-3_children_crossing_r",
+   "x": 194.2,
+   "y": 144.6,
+   "w": 672.1,
+   "h": 725.8,
+   "colour": "black",
+   "hand": "R",
+   "mirror": false
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W6-5-3 (children's crossing ahead, 90 degrees): W6-5-3B illustrated (A 600, C 900; PNG W6-5-3A.png). Diamond 750 side in its 1060.66 bounding square; pale fluorescent yellow-green as printed, R50, 10 / 30 (edge 10 + border 20). The sheet draws both hands — arrow left (upper diamond, dimensioned) and arrow right (lower diamond); the children walk the same way on both, so each hand is traced from its own diamond (not mirrored). Symbols from the sheet's filled artwork (PDF fills at 1000 dpi, traced): arrow (250 x 219 detail) above two children (400 high) on a dashed crossing."
+}

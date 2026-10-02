@@ -1,0 +1,47 @@
+{
+ "code": "W6-2-2B",
+ "pack": "SA",
+ "name": "PEDESTRIAN_CROSSING_AHEAD_45_YELLOWGREEN_DIAMOND",
+ "legend": "(arrow at 45 degrees, pedestrian crossing symbol) (FYG)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W6-2-2A",
+ "panel_px": [
+  351,
+  934,
+  1187,
+  1770
+ ],
+ "symbols": {
+  "sa_w6-2-2_arrow_legs": {
+   "source": "W6-2-2A",
+   "pack": "SA",
+   "desc": "block arrow pointing up-left at 45 degrees (250 x 219 arrow detail) above the walking-legs disc (450 dia ring 18 wide) (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w6-2-2_arrow_legs",
+   "x": 305.7,
+   "y": 179.3,
+   "w": 449.3,
+   "h": 678.2,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W6-2-2 (pedestrian crossing ahead, 45 degrees): W6-2-2B illustrated (A 600, C 900; PNG W6-2-2A.png). Only the hand the sheet draws (arrow up-left). Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); fluorescent yellow-green, R50, 10 / 30 (edge 10 + border 20). Symbol: block arrow pointing up-left at 45 degrees (250 x 219 arrow detail) above the walking-legs disc (450 dia ring 18 wide) — taken from the sheet's own filled artwork (PDF fills rendered at 1000 dpi without the dimension and centre lines, traced), ink box x 306-755, y 179-858 as drawn on the sign."
+}

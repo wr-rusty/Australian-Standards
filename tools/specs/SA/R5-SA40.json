@@ -1,0 +1,104 @@
+{
+ "code": "R5-SA40",
+ "pack": "SA",
+ "name": "NO_PARKING_BOTH_WAYS_WHITE_TALL",
+ "legend": "(no parking) <->",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "ground": "white",
+ "radius": 25,
+ "panel_px": [
+  648,
+  852,
+  1005,
+  1326
+ ],
+ "symbols": {
+  "sa_r5-sa40_no_parking_140": {
+   "source": "R5-SA40L",
+   "pack": "SA",
+   "colours": [
+    "red",
+    "black"
+   ],
+   "desc": "no-parking roundel 140 dia: red annulus, black P 95 E (30/80/30 inside the ring), red slash from upper right to lower left — traced from R5-SA40L at 800 dpi (red and black layers)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_r5-sa40_no_parking_140",
+   "x": 42.5,
+   "y": 60,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     39.5,
+     271
+    ],
+    [
+     61.25,
+     255
+    ],
+    [
+     81.5,
+     255
+    ],
+    [
+     67.91,
+     265
+    ],
+    [
+     157.09,
+     265
+    ],
+    [
+     143.5,
+     255
+    ],
+    [
+     163.75,
+     255
+    ],
+    [
+     185.5,
+     271
+    ],
+    [
+     163.75,
+     287
+    ],
+    [
+     143.5,
+     287
+    ],
+    [
+     157.09,
+     277
+    ],
+    [
+     67.91,
+     277
+    ],
+    [
+     81.5,
+     287
+    ],
+    [
+     61.25,
+     287
+    ]
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA40 225 x 300 (2026, 1:5), R25, white, no border. No-parking roundel 140 dia, 60 from the top, centred (P 95 E: 30 / 80 / 30 inside the ring); 55 gap; black arrow 32 high, 13 from the bottom (y 255-287). Only for use with the Slow Vehicle Turnout standard treatment (TES 10530). Double arrow 146 long (40/146/40 on the sheet — shorter than the national 155 R5-14 arrow; heads as the AS 1743 arrow, shaft shortened), black."
+}

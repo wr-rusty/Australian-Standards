@@ -1,0 +1,104 @@
+{
+ "code": "R4-SA61A",
+ "pack": "SA",
+ "name": "END_SCHOOL_ZONE_END_{speed}_AREA_WHITE_TALL",
+ "legend": "END SCHOOL ZONE / END {speed} AREA",
+ "shape": "rect",
+ "size": [
+  450,
+  1050
+ ],
+ "ground": "white",
+ "radius": 50,
+ "panel_px": [
+  657,
+  668,
+  1013,
+  1497
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   40,
+   50
+  ]
+ },
+ "folder": "Speed Signs/End",
+ "elements": [
+  {
+   "type": "panel",
+   "x": 5,
+   "y": 5,
+   "w": 440,
+   "h": 290,
+   "radius": 45,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 15,
+   "y": 15,
+   "w": 420,
+   "h": 270,
+   "radius": 35,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 50,
+   "top": 45,
+   "expect": 142
+  },
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 50,
+   "top": 125,
+   "expect": 255
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 50,
+   "top": 205,
+   "expect": 165
+  },
+  {
+   "type": "text",
+   "text": "END",
+   "series": "D",
+   "height": 120,
+   "top": 355,
+   "expect": 287
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 690,
+   "r_outer": 160,
+   "r_inner": 135,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "C",
+   "height": 150,
+   "top": 615,
+   "cx": 225
+  },
+  {
+   "type": "text",
+   "text": "AREA",
+   "series": "D",
+   "height": 100,
+   "top": 900,
+   "expect": 340
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R4-SA61A (450 x 1050) illustrated (B 600 x 1400), 2016, 1:10; R50, white ground, no outer border. END SCHOOL ZONE panel across the top as R4-SA59/60: black border 10 inside a 5 white edge (sheet 5 / 15), outer 5..295; END 50 E top 45, SCHOOL 50 D top 125, ZONE 50 D top 205 (baselines 95 / 175 / 255, 40 below); widths END 142 (154/142/154), SCHOOL 255 (97/255/98), ZONE 165 (142/165/143) — the top chains are listed bottom line first. Below the panel: END 120 D baseline 475 (295 + 180; top 355), ink 287 (82/287/82); black ring outer dia 320 (160 + 160; top at 295 + 235 = 530, centre (225, 690)), 25 wide (inner R135); area speed numerals 150 C in the dashed box, 85 above the ring's bottom (baseline 765, top 615), centred; AREA 100 D baseline 1000 (475 + 525; top 900, 50 below), ink 340 (55/340/55); ring bottom to sign bottom 200. The sheet shows no numerals ('End (km/h) Area'): generated at 40 and 50 (the area limits signed in SA with R4-10 / R4-11; R4-SA109 covers END 30 AREA on its own). Approval required."
+}

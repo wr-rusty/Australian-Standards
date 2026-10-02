@@ -1,0 +1,47 @@
+{
+ "code": "W5-SA117B",
+ "pack": "SA",
+ "name": "ROUGH_SURFACE_YELLOW_DIAMOND",
+ "legend": "ROUGH SURFACE",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W5-SA117A",
+ "panel_px": [
+  446,
+  560,
+  1282,
+  1396
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROUGH",
+   "series": "C",
+   "height": 120,
+   "top": 338,
+   "expect": 430
+  },
+  {
+   "type": "text",
+   "text": "SURFACE",
+   "series": "C",
+   "height": 120,
+   "top": 536,
+   "expect": 580
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA117. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). W5-SA117B illustrated (A 600, C 900; PNG W5-SA117A.png). Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): ROUGH 120 C, baseline -72 from the horizontal centre line (top 338), ink 430 (measured 429, centred); SURFACE 120 C, baseline +126 from the horizontal centre line (top 536), ink 580 (measured 580, centred)."
+}

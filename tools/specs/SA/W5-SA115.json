@@ -1,0 +1,68 @@
+{
+ "code": "W5-SA115",
+ "pack": "SA",
+ "name": "DRY_WEATHER_ROAD_ONLY_YELLOW_DIAMOND",
+ "legend": "DRY WEATHER ROAD ONLY",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  416,
+  585,
+  1252,
+  1421
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "DRY",
+   "series": "D",
+   "height": 100,
+   "top": 242,
+   "align": "left",
+   "x": 408.7,
+   "expect": 252
+  },
+  {
+   "type": "text",
+   "text": "WEATHER",
+   "series": "D",
+   "height": 100,
+   "top": 402,
+   "align": "left",
+   "x": 237.1,
+   "expect": 581
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 100,
+   "top": 562,
+   "expect": 335
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "D",
+   "height": 100,
+   "top": 722,
+   "align": "left",
+   "x": 364.2,
+   "expect": 339
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA115 (outback roads only; 160 pitch). Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20).  Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): DRY 100 D, baseline -188 from the horizontal centre line (top 242), ink 252 (measured 252, x 409-661); WEATHER 100 D, baseline -28 from the horizontal centre line (top 402), ink 581 (measured 580, x 238-818); ROAD 100 D, baseline +132 from the horizontal centre line (top 562), ink 335 (measured 335, centred); ONLY 100 D, baseline +292 from the horizontal centre line (top 722), ink 339 (measured 339, x 365-703)."
+}

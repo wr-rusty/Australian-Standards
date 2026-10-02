@@ -1,0 +1,163 @@
+{
+ "code": "G7-SA128-6",
+ "pack": "SA",
+ "name": "TRUCK_PARKING_1km_ON_LEFT_FATIGUE_IS_FATAL_BLUE",
+ "legend": "(truck parking) 1 km ON LEFT / FATIGUE IS FATAL",
+ "shape": "rect",
+ "size": [
+  2400,
+  1850
+ ],
+ "ground": "none",
+ "panel_px": [
+  385,
+  659,
+  1331,
+  1388
+ ],
+ "folder": "Service Signs",
+ "symbols": {
+  "sa_g7-sa128_symbol": {
+   "source": "G7-SA128-6",
+   "pack": "SA",
+   "colours": [
+    "white"
+   ],
+   "desc": "truck parking symbol S13 (P over a truck) at 260 %"
+  }
+ },
+ "elements": [
+  {
+   "type": "panel",
+   "x": 0,
+   "y": 0,
+   "w": 2400,
+   "h": 1200,
+   "radius": 150,
+   "colour": "blue"
+  },
+  {
+   "type": "panel",
+   "x": 30,
+   "y": 30,
+   "w": 2340,
+   "h": 1140,
+   "radius": 120,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 60,
+   "y": 60,
+   "w": 2280,
+   "h": 1080,
+   "radius": 90,
+   "colour": "blue"
+  },
+  {
+   "type": "panel",
+   "x": 0,
+   "y": 1250,
+   "w": 2400,
+   "h": 600,
+   "radius": 100,
+   "colour": "white"
+  },
+  {
+   "type": "panel",
+   "x": 10,
+   "y": 1260,
+   "w": 2380,
+   "h": 580,
+   "radius": 90,
+   "colour": "blue"
+  },
+  {
+   "type": "panel",
+   "x": 30,
+   "y": 1280,
+   "w": 2340,
+   "h": 540,
+   "radius": 70,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_g7-sa128_symbol",
+   "x": 224.4,
+   "y": 251.1,
+   "w": 921.2,
+   "h": 665.3,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "1",
+   "series": "E",
+   "height": 200,
+   "top": 180,
+   "align": "left",
+   "x": 1522.6,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "E",
+   "height": 170,
+   "top": 210,
+   "align": "left",
+   "x": 1665.5,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "E",
+   "height": 200,
+   "top": 500,
+   "align": "left",
+   "x": 1554.6,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "E",
+   "height": 200,
+   "top": 819,
+   "align": "left",
+   "x": 1399.0,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "FATIGUE",
+   "series": "E",
+   "height": 160,
+   "top": 1348,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "IS",
+   "series": "E",
+   "height": 160,
+   "top": 1588,
+   "align": "left",
+   "x": 671.6,
+   "colour": "blue"
+  },
+  {
+   "type": "text",
+   "text": "FATAL",
+   "series": "E",
+   "height": 160,
+   "top": 1588,
+   "align": "left",
+   "x": 980.6,
+   "colour": "blue"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet G7-SA128-6 (advance sign, 2400 x 1800 in the register): two boards in one assembly — the blue sign 2400 x 1200 (R150, blue edge 30 + white border 30, sheet 60 / 30) above the white slogan plate 2400 x 600 (R100, white edge 10 + blue border 20, sheet 30 / 10), drawn 50 apart as on the sheet (the gap is not dimensioned; measured), so the file is 2400 x 1850 with the gap transparent. Blue sign: truck parking symbol S13 (P over a truck) at 260 %, 910 high, 145 from top and bottom — traced from the sheet's filled artwork; 1 km (numerals 200 E, unit 170 E lower case), ON and LEFT 200 E, white. Slogan plate: FATIGUE / IS FATAL 160 E blue. Legend placed from the sheet's filled artwork measured at 1200 dpi (the sheet's chains were read for the series and heights): 1 200 E top 180 x 1522-1583; km 170 E top 210 x 1666-1963; ON 200 E top 500 x 1555-1930; LEFT 200 E top 819 x 1400-2088; FATIGUE 160 E blue top 1348 x 711-1687; IS 160 E blue top 1588 x 672-862; FATAL 160 E blue top 1588 x 981-1732. The sheet's lower blue plate with empty symbol boxes (supplementary services, where shown) is a template and is not drawn."
+}

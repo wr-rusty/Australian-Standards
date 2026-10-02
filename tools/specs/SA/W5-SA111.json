@@ -1,0 +1,66 @@
+{
+ "code": "W5-SA111",
+ "pack": "SA",
+ "name": "ROCKY_CREEK_BED_TRACK_YELLOW_DIAMOND",
+ "legend": "ROCKY CREEK BED TRACK",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  469,
+  411,
+  1305,
+  1247
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROCKY",
+   "series": "C",
+   "height": 120,
+   "top": 292,
+   "expect": 424
+  },
+  {
+   "type": "text",
+   "text": "CREEK",
+   "series": "C",
+   "height": 120,
+   "top": 472,
+   "align": "left",
+   "x": 171.9
+  },
+  {
+   "type": "text",
+   "text": "BED",
+   "series": "C",
+   "height": 120,
+   "top": 472,
+   "align": "left",
+   "x": 671.3
+  },
+  {
+   "type": "text",
+   "text": "TRACK",
+   "series": "C",
+   "height": 120,
+   "top": 652,
+   "align": "left",
+   "x": 329.9,
+   "expect": 406
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA111 (CREEK 409 + 90 + BED 236). Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20).  Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): ROCKY 120 C, baseline -118 from the horizontal centre line (top 292), ink 424 (measured 423, centred); CREEK BED 120 C, baseline +62 from the horizontal centre line (top 472) (measured 736, x 172-908); TRACK 120 C, baseline +242 from the horizontal centre line (top 652), ink 406 (measured 405, x 330-735)."
+}

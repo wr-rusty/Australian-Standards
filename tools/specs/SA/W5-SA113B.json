@@ -1,0 +1,72 @@
+{
+ "code": "W5-SA113B",
+ "pack": "SA",
+ "name": "TRAM_ADVISORY_SPEED_{speed}_YELLOW_TALL",
+ "legend": "(tram) {speed}",
+ "shape": "rect",
+ "size": [
+  450,
+  600
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "drawing": "W5-SA113A",
+ "panel_px": [
+  487,
+  624,
+  1197,
+  1569
+ ],
+ "vary": {
+  "key": "speed",
+  "values": [
+   10,
+   20,
+   30,
+   40,
+   50
+  ]
+ },
+ "symbols": {
+  "r7-1-5_tram": {
+   "source": "R7-1-5",
+   "desc": "AS 1743 R7-1-5 tram symbol"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r7-1-5_tram",
+   "x": 75.3,
+   "y": 39.8,
+   "w": 299.5,
+   "h": 160.3,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 400,
+   "r_outer": 160,
+   "r_inner": 139,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "{speed}",
+   "series": "C",
+   "height": 160,
+   "top": 320,
+   "cx": 225
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA113 (advisory tram speed): W5-SA113B 450 x 600 illustrated (A 300 x 400; PNG W5-SA113A.png), R50, 8 / 24 (edge 8 + border 16). Tram symbol 'R7-1-5' 300 wide (75/300/75), 160 high from 40 below the top — the national R7-1-5 symbol; 40 gap; black ring outer dia 320 (y 240-560, 40 from the bottom; 65 margins), 21 wide measured; speed numerals '160 C (insert required speed limit)' centred in the ring ('=' / varies; 60 above the ring's bottom → baseline 480... the dashed box measures y 320-480). The sheet gives no example: generated at 10 to 50 km/h in tens — not confirmed against SA tram practice."
+}

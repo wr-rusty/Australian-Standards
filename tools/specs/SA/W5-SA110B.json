@@ -1,0 +1,41 @@
+{
+ "code": "W5-SA110B",
+ "pack": "SA",
+ "name": "CREEKS_YELLOW_DIAMOND",
+ "legend": "CREEKS",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W5-SA110A",
+ "panel_px": [
+  446,
+  647,
+  1282,
+  1483
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CREEKS",
+   "series": "C",
+   "height": 180,
+   "top": 442,
+   "align": "left",
+   "x": 160.0,
+   "expect": 736
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA110. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). W5-SA110B illustrated (A 600, C 900; PNG W5-SA110A.png). Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): CREEKS 180 C, baseline +92 from the horizontal centre line (top 442), ink 736 (measured 735, x 161-896)."
+}

@@ -1,0 +1,100 @@
+{
+ "code": "W8-SA107B",
+ "pack": "SA",
+ "name": "ON_SIDE_ROAD_BOTH_WAYS_YELLOW_LONG",
+ "legend": "ON SIDE ROAD (double arrow)",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W8-SA107A",
+ "panel_px": [
+  541,
+  770,
+  1132,
+  1164
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 100,
+   "top": 70,
+   "expect": 160
+  },
+  {
+   "type": "text",
+   "words": [
+    "SIDE",
+    "ROAD"
+   ],
+   "gap": 75,
+   "series": "C",
+   "height": 100,
+   "top": 215,
+   "expect": [
+    235,
+    275
+   ],
+   "align": "left",
+   "x": 80
+  },
+  {
+   "type": "arrow",
+   "width": 29,
+   "heading": 180,
+   "path": [
+    {
+     "line": 117.0
+    }
+   ],
+   "head": {
+    "length": 92,
+    "width": 100,
+    "notch": 9,
+    "barb_r": 5,
+    "tip_r": 5
+   },
+   "x": 175.0,
+   "y": 345.0,
+   "w": 200.0,
+   "h": 100,
+   "colour": "black"
+  },
+  {
+   "type": "arrow",
+   "width": 29,
+   "heading": 0,
+   "path": [
+    {
+     "line": 117.0
+    }
+   ],
+   "head": {
+    "length": 92,
+    "width": 100,
+    "notch": 9,
+    "barb_r": 5,
+    "tip_r": 5
+   },
+   "x": 375,
+   "y": 345.0,
+   "w": 200.0,
+   "h": 100,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA107: W8-SA107B 750 x 500 illustrated (A 600 x 400, C 900 x 600, D 1200 x 800; PNG W8-SA107A.png), R50, 10 / 30. ON 100 D baseline 170, 160 (295/160/295); SIDE 235 + 75 + ROAD 275, 100 C, baseline 315 (80/235/75/275/85); double-headed arrow 400 long (175/400/175), centre line 80 below (y 395), 105 from the bottom; ARROW DETAIL: 400 x 100, heads 92 long, shaft 29, notch 9, R5."
+}

@@ -1,0 +1,38 @@
+{
+ "code": "WS141",
+ "pack": "SA",
+ "name": "SEMI_TRUCK_SYMBOL_YELLOW_WIDE",
+ "legend": "(semi-trailer truck)",
+ "shape": "rect",
+ "size": [
+  1050,
+  350
+ ],
+ "ground": "yellow",
+ "panel_px": [
+  905,
+  586,
+  1733,
+  862
+ ],
+ "symbols": {
+  "sa_ws141_semi_trailer_truck": {
+   "source": "WS141",
+   "pack": "SA",
+   "desc": "semi-trailer truck, side view (traced from the sheet's filled artwork)"
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_ws141_semi_trailer_truck",
+   "x": 29.7,
+   "y": 44.5,
+   "w": 992.4,
+   "h": 265.6,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet WS141 (warning-series symbol): yellow plate, black pictogram. Layout: 1050 x 350, yellow, R0, no border. The board is located by its drawn outline; its artwork (semi-trailer truck, side view) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 30-1022, y 44-310."
+}

@@ -1,0 +1,41 @@
+{
+ "code": "S143",
+ "pack": "SA",
+ "name": "DISABLED_PARKING_SYMBOL_BLUE_LONG",
+ "legend": "P (wheelchair)",
+ "shape": "rect",
+ "size": [
+  420,
+  350
+ ],
+ "ground": "blue",
+ "panel_px": [
+  321,
+  440,
+  1424,
+  1360
+ ],
+ "folder": "Symbols",
+ "symbols": {
+  "sa_s143_p_wheelchair": {
+   "source": "S143",
+   "pack": "SA",
+   "desc": "P (300 EM) with the wheelchair symbol (S22 at 50 %) (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_s143_p_wheelchair",
+   "x": 50.4,
+   "y": 25.0,
+   "w": 343.2,
+   "h": 306.6,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet S143 (disabled parking). Layout: 420 x 350, blue, R0, no border. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol P (300 EM) with the wheelchair symbol (S22 at 50 %) x 50-394 y 25-332."
+}

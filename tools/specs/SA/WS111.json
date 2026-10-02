@@ -1,0 +1,36 @@
+{
+ "code": "WS111",
+ "pack": "SA",
+ "name": "4WD_ONLY_SYMBOL_YELLOW_SQUARE",
+ "legend": "4WD ONLY",
+ "shape": "rect",
+ "size": [
+  350,
+  350
+ ],
+ "ground": "yellow",
+ "panel_px": [
+  510,
+  481,
+  1429,
+  1400
+ ],
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "text",
+   "text": "4WD",
+   "series": "D",
+   "height": 80,
+   "top": 60
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "D",
+   "height": 80,
+   "top": 210
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet WS111 (warning-series symbol): 4WD 80 D (210 wide) baseline 140, ONLY 80 D (271) baseline 290. Layout: 350 x 350, yellow, R0, no border. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): 4WD 80 D top 60 x 71-280 (209); ONLY 80 D top 210 x 39-310 (271)."
+}

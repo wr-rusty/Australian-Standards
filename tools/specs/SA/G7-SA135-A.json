@@ -1,0 +1,48 @@
+{
+ "code": "G7-SA135-A",
+ "pack": "SA",
+ "name": "HOSPITAL_PRECINCT_BLUE_LONG",
+ "legend": "HOSPITAL PRECINCT",
+ "shape": "rect",
+ "size": [
+  450,
+  250
+ ],
+ "ground": "blue",
+ "radius": 25,
+ "edge": {
+  "colour": "blue",
+  "width": 10
+ },
+ "border": {
+  "colour": "white",
+  "width": 12
+ },
+ "panel_px": [
+  657,
+  518,
+  1014,
+  717
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "HOSPITAL",
+   "series": "C",
+   "height": 60,
+   "top": 50,
+   "align": "left",
+   "x": 69.2,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "PRECINCT",
+   "series": "C",
+   "height": 60,
+   "top": 139,
+   "colour": "white"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet G7-SA135 (both sizes drawn): G7-SA135-A 450 x 250 — use under R4-1A. Layout: 450 x 250, blue, R25, 10 / 22 (edge 10 + white border 12). Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): HOSPITAL 60 C white top 50 x 70-376 (305); PRECINCT 60 C white top 139 x 70-382 (311)."
+}

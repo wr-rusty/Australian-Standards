@@ -1,0 +1,42 @@
+{
+ "code": "G7-SA131",
+ "pack": "SA",
+ "name": "EV_PARKING_LEFT_BLUE_TALL",
+ "legend": "P (EV charging) (arrow left)",
+ "shape": "rect",
+ "size": [
+  450,
+  900
+ ],
+ "ground": "blue",
+ "radius": 100,
+ "panel_px": [
+  643,
+  475,
+  998,
+  1184
+ ],
+ "symbols": {
+  "sa_g7-sa131_legend": {
+   "source": "G7-SA131",
+   "pack": "SA",
+   "desc": "white border, parking P (S14 at 70 %), EV charging symbol (S148 at 70 %) and an A:120 arrow pointing left (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "folder": "Service Signs",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_g7-sa131_legend",
+   "x": 14.1,
+   "y": 13.9,
+   "w": 422.1,
+   "h": 872.4,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet G7-SA131 (electric vehicle parking): symbols 245 high, 40 apart. Drawn with the arrow pointing left. Blue board with the white border ring inside a blue edge strip (sheet 30 / 15 or 32 / 16): the whole white layer — border, bars, symbols and arrow — is one traced layer on the blue ground. Layout: 450 x 900, blue, R100, no border. The board is located by its drawn outline; its artwork (white border, parking P (S14 at 70 %), EV charging symbol (S148 at 70 %) and an A:120 arrow pointing left) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 14-436, y 14-886."
+}

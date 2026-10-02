@@ -1,0 +1,61 @@
+{
+ "code": "TM9-SA28B",
+ "pack": "SA",
+ "name": "NEXT_{km}_km_YELLOWGREEN_WIDE_SKINNY",
+ "legend": "NEXT {km} km (FYG)",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellowgreen",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  394,
+  928,
+  1339,
+  1165
+ ],
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   5,
+   10
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "E",
+   "height": 100,
+   "top": 100,
+   "align": "left",
+   "x": 170.8
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "E",
+   "height": 85,
+   "top": 116,
+   "align": "left",
+   "x": 881.2
+  },
+  {
+   "type": "text",
+   "text": "{km}",
+   "series": "E",
+   "height": 100,
+   "top": 100,
+   "cx": 725.4
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM9-SA28B: NEXT 100 E (369) + 75 + numerals 100 E ('varies', dashed box) + 45 + km 85 E lower case (149), baseline 200. Generated at 1, 2, 3, 5 and 10 km. Multi-message sign frames only. Layout: 1200 x 300, fluorescent yellow-green, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): {km} 100 E centred in the sheet's numeral box x 615-836; NEXT 100 E top 100 x 171-540 (369); km 85 E top 116 x 881-1030 (149)."
+}

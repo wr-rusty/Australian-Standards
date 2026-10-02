@@ -1,0 +1,52 @@
+{
+ "code": "W3-SA4B",
+ "pack": "SA",
+ "name": "ROAD_HUMPS_ON_SIDE_ROAD_YELLOW_DIAMOND",
+ "legend": "(road hump, arrow to the side road)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W3-SA4A",
+ "panel_px": [
+  453,
+  461,
+  1289,
+  1297
+ ],
+ "symbols": {
+  "sa_w3-sa4_hump_side_road": {
+   "source": "W3-SA4A",
+   "pack": "SA",
+   "desc": "road-hump profile (608 x 184, R250 crown) below a left-pointing block arrow (250 x 220) (traced from the sheet's filled artwork)"
+  }
+ },
+ "hands": [
+  "L",
+  "R"
+ ],
+ "drawn_hand": "L",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w3-sa4_hump_side_road",
+   "x": 226.8,
+   "y": 146.5,
+   "w": 607.8,
+   "h": 504.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W3-SA4: W3-SA4B illustrated (A 600; PNG W3-SA4A.png). The sheet draws the arrow pointing left; (R) mirrors it. Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). Symbol: road-hump profile (608 x 184, R250 crown) below a left-pointing block arrow (250 x 220) — taken from the sheet's own filled artwork (PDF fills rendered at 1000 dpi without the dimension and centre lines, traced), ink box x 227-835, y 146-651 as drawn on the sign."
+}

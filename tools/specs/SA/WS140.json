@@ -1,0 +1,38 @@
+{
+ "code": "WS140",
+ "pack": "SA",
+ "name": "TRIPLE_ROAD_TRAIN_SYMBOL_YELLOW_WIDE",
+ "legend": "(triple road train)",
+ "shape": "rect",
+ "size": [
+  2800,
+  350
+ ],
+ "ground": "yellow",
+ "panel_px": [
+  616,
+  714,
+  2087,
+  898
+ ],
+ "symbols": {
+  "sa_ws140_triple_road_train": {
+   "source": "WS140",
+   "pack": "SA",
+   "desc": "triple road train, side view (traced from the sheet's filled artwork)"
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_ws140_triple_road_train",
+   "x": 45.3,
+   "y": 42.3,
+   "w": 2716.0,
+   "h": 265.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet WS140 (warning-series symbol): yellow plate, black pictogram. Layout: 2800 x 350, yellow, R0, no border. The board is located by its drawn outline; its artwork (triple road train, side view) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 45-2761, y 42-308."
+}

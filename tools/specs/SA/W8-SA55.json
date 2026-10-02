@@ -1,0 +1,53 @@
+{
+ "code": "W8-SA55",
+ "pack": "SA",
+ "name": "MUD_ON_ROAD_YELLOW_LONG",
+ "legend": "MUD ON ROAD",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  523,
+  770,
+  1116,
+  1166
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "MUD",
+    "ON"
+   ],
+   "gap": 90,
+   "series": "D",
+   "height": 120,
+   "top": 95,
+   "expect": [
+    314,
+    193
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 120,
+   "top": 280,
+   "expect": 402
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. W8-SA55 750 x 500 (1:10), R50, 10 / 30. MUD 314 + 90 + ON 193, 120 D, baseline 215 (76/314/90/193/77); ROAD 120 D baseline 400 (100 below), 402 (174/402/174)."
+}

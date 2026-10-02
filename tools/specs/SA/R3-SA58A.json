@@ -1,0 +1,194 @@
+{
+ "code": "R3-SA58A",
+ "pack": "SA",
+ "name": "SCHOOL_ZONE_25_WHEN_CHILDREN_PRESENT_WHITE_TALL",
+ "legend": "(children symbol) 25 WHEN CHILDREN PRESENT",
+ "shape": "rect",
+ "size": [
+  450,
+  1555
+ ],
+ "ground": "none",
+ "panel_px": [
+  792,
+  370,
+  1149,
+  1602
+ ],
+ "symbols": {
+  "sa_r3-sa58_children": {
+   "source": "R3-SA58A",
+   "pack": "SA",
+   "desc": "two children walking hand in hand (W6-3 modified), 276 x 247 — traced from the sheet at 1000 dpi"
+  }
+ },
+ "elements": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     225,
+     -20
+    ],
+    [
+     450,
+     205
+    ],
+    [
+     450,
+     1555
+    ],
+    [
+     0,
+     1555
+    ],
+    [
+     0,
+     205
+    ]
+   ],
+   "colour": "white",
+   "radius": [
+    48.3,
+    45,
+    45,
+    45,
+    45
+   ]
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     225,
+     -14.34314575050762
+    ],
+    [
+     446,
+     206.65685424949237
+    ],
+    [
+     446,
+     503
+    ],
+    [
+     4,
+     503
+    ],
+    [
+     4,
+     206.65685424949237
+    ]
+   ],
+   "colour": "black",
+   "radius": [
+    44.3,
+    41,
+    41,
+    41,
+    41
+   ]
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     225,
+     -3.0294372515228574
+    ],
+    [
+     438,
+     209.97056274847714
+    ],
+    [
+     438,
+     495
+    ],
+    [
+     12,
+     495
+    ],
+    [
+     12,
+     209.97056274847714
+    ]
+   ],
+   "colour": "orange",
+   "radius": [
+    36.3,
+    33,
+    33,
+    33,
+    33
+   ]
+  },
+  {
+   "type": "symbol",
+   "id": "sa_r3-sa58_children",
+   "x": 86.71,
+   "y": 161.87,
+   "w": 276.59,
+   "h": 247.26,
+   "colour": "black"
+  },
+  {
+   "type": "annulus",
+   "cx": 225,
+   "cy": 807,
+   "r_outer": 210,
+   "r_inner": 174,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "25",
+   "series": "C",
+   "height": 190,
+   "top": 712,
+   "expect": 236
+  },
+  {
+   "type": "panel",
+   "x": 4,
+   "y": 1111,
+   "w": 442,
+   "h": 440,
+   "radius": 41,
+   "colour": "black"
+  },
+  {
+   "type": "panel",
+   "x": 12,
+   "y": 1119,
+   "w": 426,
+   "h": 424,
+   "radius": 33,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "WHEN",
+   "series": "C",
+   "height": 75,
+   "top": 1165,
+   "expect": 219
+  },
+  {
+   "type": "text",
+   "text": "CHILDREN",
+   "series": "C",
+   "height": 75,
+   "top": 1290,
+   "expect": 396
+  },
+  {
+   "type": "text",
+   "text": "PRESENT",
+   "series": "C",
+   "height": 75,
+   "top": 1415,
+   "expect": 356
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet R3-SA58 (2015, 1:10; formerly R4-SA58): R3-SA58A 450 x 1555 illustrated (B 600 x 2070). One white blade with a pointed top: the sharp apex ('x') is 20 above the sign's top (527 + 600 + 448 = 1575 = 1555 + 20), shoulders 135 deg at 225 below the apex; ground transparent, the blade drawn as a white polygon. Corner radius R33 (Typ) is read as the orange ground's radius (4 / 12: white edge 4 + black border 8), so the outline is R45 — which puts the rounded apex 18.6 below the sharp point; the apex radius is set to 48.3 so that the top sits exactly at the stated 20. Top part (apex to 507): fluorescent orange pentagon inside the 4 edge and 8 border; children symbol 'W6-3 (modified)' 247 high, 98 above the part's bottom (y 162-409), 280 wide box (85/280/85) — traced from this sheet (it differs from the national W6-3 artwork), ink 276 x 247, centred. Middle (600): red ring outer dia 420 (90 below the pentagon: y 597-1017, centre (225, 807)), ring 36 wide measured (not dimensioned); 25 in 190 C, baseline 115 above the ring's bottom (top 712), ink 236 (107/236/107). Bottom part (448, y 1107-1555): panel with 4 edge + 8 border, WHEN / CHILDREN / PRESENT 75 C, baselines 133 / 125 / 125 below the panel top (tops 1165, 1290, 1415; 65 below), widths 219 (115/219/116), 396 (27/396/27), 356 (47/356/47). The drawing itself sits up to 5 mm off these chains in its upper half (pentagon and ring drawn slightly low); the stated dimensions are used. School zone limit in SA is 25 km/h (no other value)."
+}

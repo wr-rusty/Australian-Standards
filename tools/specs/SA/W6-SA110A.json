@@ -1,0 +1,46 @@
+{
+ "code": "W6-SA110A",
+ "pack": "SA",
+ "name": "PEDESTRIAN_BICYCLE_YELLOWGREEN_DIAMOND",
+ "legend": "(pedestrian over bicycle) (FYG)",
+ "shape": "diamond",
+ "size": [
+  848.53,
+  848.53
+ ],
+ "ground": "yellowgreen",
+ "radius": 40,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  491,
+  727,
+  1160,
+  1396
+ ],
+ "symbols": {
+  "sa_w6-sa110_ped_bicycle": {
+   "source": "W6-SA110A",
+   "pack": "SA",
+   "desc": "pedestrian (250 high) above a bicycle (200 high), as AS 1743 W6-9 (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w6-sa110_ped_bicycle",
+   "x": 272.3,
+   "y": 122.1,
+   "w": 304.4,
+   "h": 502.8,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W6-SA110 (see the DIT supplement to AS 1742.10; W6-9 is the yellow version): W6-SA110A illustrated (B 750). Diamond 600 side, drawn in its 848.53 bounding square (centre 424.26); fluorescent yellow-green, R40, 10 / 30 (edge 10 + border 20). Symbol: pedestrian (250 high) above a bicycle (200 high), as AS 1743 W6-9 — taken from the sheet's own filled artwork (PDF fills rendered at 1000 dpi without the dimension and centre lines, traced), ink box x 272-577, y 122-625 as drawn on the sign."
+}

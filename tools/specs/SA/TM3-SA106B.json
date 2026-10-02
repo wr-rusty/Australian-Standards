@@ -1,0 +1,52 @@
+{
+ "code": "TM3-SA106B",
+ "pack": "SA",
+ "name": "NO_LINES_MARKED_YELLOW_WIDE_SKINNY",
+ "legend": "NO LINES MARKED",
+ "shape": "rect",
+ "size": [
+  1200,
+  300
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  400,
+  840,
+  1345,
+  1076
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "align": "left",
+   "x": 100.2
+  },
+  {
+   "type": "text",
+   "text": "LINES",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "align": "left",
+   "x": 305.1
+  },
+  {
+   "type": "text",
+   "text": "MARKED",
+   "series": "C",
+   "height": 100,
+   "top": 100,
+   "align": "left",
+   "x": 673.1
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM3-SA106B. Multi-message sign frames only. Layout: 1200 x 300, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): NO 100 C top 100 x 100-235 (135); LINES 100 C top 100 x 305-603 (298); MARKED 100 C top 100 x 673-1101 (428)."
+}

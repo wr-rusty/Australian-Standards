@@ -1,0 +1,47 @@
+{
+ "code": "W5-SA63B",
+ "pack": "SA",
+ "name": "COW_YELLOW_DIAMOND",
+ "legend": "(cow)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W5-SA63A",
+ "panel_px": [
+  469,
+  637,
+  1305,
+  1473
+ ],
+ "symbols": {
+  "sa_w5-sa63_cow": {
+   "source": "W5-SA63A",
+   "pack": "SA",
+   "desc": "cow, 'WS 122' (615 x 385) (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_w5-sa63_cow",
+   "x": 236.1,
+   "y": 355.0,
+   "w": 613.7,
+   "h": 384.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA63 (for use north of the dog fence, otherwise W5-38): W5-SA63B illustrated (A 600, C 900; PNG W5-SA63A.png). Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). Symbol: cow, 'WS 122' (615 x 385) — taken from the sheet's own filled artwork (PDF fills rendered at 1000 dpi without the dimension and centre lines, traced), ink box x 236-850, y 355-740 as drawn on the sign."
+}

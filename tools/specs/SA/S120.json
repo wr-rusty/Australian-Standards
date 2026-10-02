@@ -1,0 +1,41 @@
+{
+ "code": "S120",
+ "pack": "SA",
+ "name": "ROAD_TRAIN_SYMBOL_BLUE_WIDE",
+ "legend": "(road train)",
+ "shape": "rect",
+ "size": [
+  1960,
+  350
+ ],
+ "ground": "blue",
+ "panel_px": [
+  630,
+  762,
+  2175,
+  1038
+ ],
+ "folder": "Symbols",
+ "symbols": {
+  "sa_s120_road_train": {
+   "source": "S120",
+   "pack": "SA",
+   "desc": "double road train, side view (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_s120_road_train",
+   "x": 55.0,
+   "y": 42.5,
+   "w": 1854.9,
+   "h": 265.4,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet S120 (road train symbol, 1960 x 350). Layout: 1960 x 350, blue, R0, no border. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol double road train, side view x 55-1910 y 42-308."
+}

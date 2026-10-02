@@ -1,0 +1,73 @@
+{
+ "code": "T1-SA106",
+ "pack": "SA",
+ "name": "EVENT_AHEAD_SPEED_LIMIT_CHANGED_YELLOWGREEN_LONG",
+ "legend": "EVENT AHEAD / SPEED LIMIT CHANGED (FYG)",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "ground": "yellowgreen",
+ "radius": 30,
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  376,
+  540,
+  1321,
+  1248
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 89.9,
+   "y": 439.7,
+   "w": 1020.3,
+   "h": 20.5,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "EVENT",
+   "series": "D",
+   "height": 120,
+   "top": 80
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 120,
+   "top": 260
+  },
+  {
+   "type": "text",
+   "text": "SPEED",
+   "series": "D",
+   "height": 120,
+   "top": 520,
+   "align": "left",
+   "x": 129.1
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 120,
+   "top": 520,
+   "align": "left",
+   "x": 696.3
+  },
+  {
+   "type": "text",
+   "text": "CHANGED",
+   "series": "D",
+   "height": 120,
+   "top": 700
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA106 (optionally hinged along the black bar; padlock holes not drawn): four lines 120 D. Layout: 1200 x 900, fluorescent yellow-green, R30, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): bar x 90-1110 y 440-460; EVENT 120 D top 80 x 370-832 (462); AHEAD 120 D top 260 x 341-857 (515); SPEED 120 D top 520 x 129-602 (473); LIMIT 120 D top 520 x 696-1071 (375); CHANGED 120 D top 700 x 240-960 (720)."
+}

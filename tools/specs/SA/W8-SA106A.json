@@ -1,0 +1,46 @@
+{
+ "code": "W8-SA106A",
+ "pack": "SA",
+ "name": "PEDESTRIAN_PRECINCT_YELLOWGREEN_LONG",
+ "legend": "PEDESTRIAN PRECINCT (FYG)",
+ "shape": "rect",
+ "size": [
+  600,
+  300
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  576,
+  509,
+  1051,
+  747
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "PEDESTRIAN",
+   "series": "C",
+   "height": 75,
+   "top": 55,
+   "expect": 485
+  },
+  {
+   "type": "text",
+   "text": "PRECINCT",
+   "series": "C",
+   "height": 75,
+   "top": 170,
+   "expect": 390
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA106 (two sizes drawn): W8-SA106A 600 x 300, fluorescent yellow-green, R50, 8 / 24 (edge 8 + border 16). PEDESTRIAN 75 C baseline 130, 485 (55/485/60); PRECINCT 75 C baseline 245 (115 pitch, 55 below), 390 (105/390/105). Use under R4-1B only."
+}

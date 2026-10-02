@@ -1,0 +1,112 @@
+{
+ "code": "R5-41_LEFT",
+ "pack": "SA",
+ "name": "NO_PARKING_DURING_STADIUM_EVENTS_WHITE_TALL",
+ "legend": "(no parking) DURING STADIUM EVENTS (left arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "ground": "white",
+ "radius": 20,
+ "drawing": "R5-41",
+ "panel_px": [
+  654,
+  444,
+  1010,
+  1155
+ ],
+ "symbols": {
+  "sa_r5-41_no_parking_140": {
+   "source": "R5-41",
+   "pack": "SA",
+   "colours": [
+    "red",
+    "black"
+   ],
+   "desc": "no-parking roundel 140 dia with the larger P this sheet draws (about 87 high, against 80 on R5-SA40) — traced from R5-41 at 800 dpi (red and black layers)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_r5-41_no_parking_140",
+   "x": 42.5,
+   "y": 15,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "DURING",
+   "series": "D",
+   "height": 35,
+   "top": 235,
+   "expect": 163,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "STADIUM",
+   "series": "D",
+   "height": 35,
+   "top": 280,
+   "expect": 190,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "EVENTS",
+   "series": "D",
+   "height": 35,
+   "top": 325,
+   "expect": 161,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     420
+    ],
+    [
+     71.75,
+     404
+    ],
+    [
+     92.0,
+     404
+    ],
+    [
+     78.41,
+     414
+    ],
+    [
+     175.0,
+     414
+    ],
+    [
+     175.0,
+     426
+    ],
+    [
+     78.41,
+     426
+    ],
+    [
+     92.0,
+     436
+    ],
+    [
+     71.75,
+     436
+    ]
+   ],
+   "colour": "red"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet R5-41 (2015, 1:5; generic code with an SA legend): 225 x 450, R20, white, no border. No-parking roundel ('Symbol') 140 dia, 15 from the top, centred — traced from this sheet (its P is larger than on R5-SA40). DURING / STADIUM / EVENTS 35 D red, baselines 270 (155 + 115) / 315 / 360; widths 163 (31/163/31), 190 (17/190/18), 161 (32/161/32). Arrow centre line at 420 (60 below, 30 from the bottom): 35/155/35. Arrows are the AS 1743 R5-14 (double, 155 x 32) and R5-16 (single, 125 x 32) open-chevron arrows the sheet cites, drawn as polygons with the national dimensions (shaft 12, head 42 long x 32 wide, barbs 12 thick). This spec is the sheet's left-arrow alternative (R5-16, 125 long, centred); the sheet draws the double arrow."
+}

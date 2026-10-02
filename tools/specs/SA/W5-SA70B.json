@@ -1,0 +1,50 @@
+{
+ "code": "W5-SA70B",
+ "pack": "SA",
+ "name": "EMERGENCY_VEHICLES_YELLOW_DIAMOND",
+ "legend": "EMERGENCY VEHICLES",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  461,
+  492,
+  1297,
+  1328
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "EMERGENCY",
+   "series": "C",
+   "height": 100,
+   "top": 432,
+   "align": "left",
+   "x": 205.4,
+   "expect": 647
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "C",
+   "height": 100,
+   "top": 582,
+   "align": "left",
+   "x": 263.0,
+   "expect": 516
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA70. Not to be used at fire or ambulance stations (sheet note). Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); yellow, R50, 10 / 30 (edge 10 + border 20). W5-SA70B illustrated (C 900). Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): EMERGENCY 100 C, baseline +2 from the horizontal centre line (top 432), ink 647 (measured 646, centred); VEHICLES 100 C, baseline +152 from the horizontal centre line (top 582), ink 516 (measured 515, x 264-779)."
+}

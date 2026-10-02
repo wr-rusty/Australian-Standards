@@ -1,0 +1,51 @@
+{
+ "code": "W6-SA106B",
+ "pack": "SA",
+ "name": "SCHOOL_ZONE_YELLOWGREEN_DIAMOND",
+ "legend": "SCHOOL ZONE (FYG)",
+ "shape": "diamond",
+ "size": [
+  1060.66,
+  1060.66
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W6-SA106A",
+ "panel_px": [
+  473,
+  656,
+  1309,
+  1492
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "SCHOOL",
+   "series": "D",
+   "height": 125,
+   "top": 404,
+   "align": "left",
+   "x": 223.9,
+   "expect": 636
+  },
+  {
+   "type": "text",
+   "text": "ZONE",
+   "series": "D",
+   "height": 125,
+   "top": 592,
+   "align": "left",
+   "x": 319.7,
+   "expect": 413
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W6-SA106 (used above W8-SA108; refer to the Speed Limit Guidelines). Diamond 750 side, drawn in its 1060.66 bounding square (centre 530.33); fluorescent yellow-green, R50, 10 / 30 (edge 10 + border 20). W6-SA106B illustrated (A 600, C 900; PNG W6-SA106A.png). Lines centred on the vertical centre line unless noted; the sheet dimensions the legend from the centre lines — vertical positions here are the sheet's (checked against the ink at 1200 dpi): SCHOOL 125 D, baseline -1 from the horizontal centre line (top 404), ink 636 (measured 636, x 224-860); ZONE 125 D, baseline +187 from the horizontal centre line (top 592), ink 413 (measured 413, x 320-732)."
+}

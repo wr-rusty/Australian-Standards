@@ -1,0 +1,132 @@
+{
+ "code": "R5-SA166",
+ "pack": "SA",
+ "name": "{n}P_TRUCKS_ONLY_GREEN_TALL",
+ "legend": "{n}P TRUCKS ONLY (double arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "ground": "white",
+ "radius": 25,
+ "panel_px": [
+  610,
+  634,
+  966,
+  1108
+ ],
+ "vary": {
+  "key": "n",
+  "values": [
+   1,
+   2
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{n}",
+     "series": "E",
+     "height": 100,
+     "slot": 70
+    },
+    {
+     "text": "P",
+     "series": "E",
+     "height": 100
+    }
+   ],
+   "gap": 25,
+   "top": 15,
+   "colour": "green",
+   "expect": [
+    null,
+    81
+   ]
+  },
+  {
+   "type": "text",
+   "text": "TRUCKS",
+   "series": "D",
+   "height": 35,
+   "top": 145,
+   "expect": 172,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "ONLY",
+   "series": "D",
+   "height": 35,
+   "top": 200,
+   "expect": 119,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     35.0,
+     275
+    ],
+    [
+     56.75,
+     259
+    ],
+    [
+     77.0,
+     259
+    ],
+    [
+     63.41,
+     269
+    ],
+    [
+     161.59,
+     269
+    ],
+    [
+     148.0,
+     259
+    ],
+    [
+     168.25,
+     259
+    ],
+    [
+     190.0,
+     275
+    ],
+    [
+     168.25,
+     291
+    ],
+    [
+     148.0,
+     291
+    ],
+    [
+     161.59,
+     281
+    ],
+    [
+     63.41,
+     281
+    ],
+    [
+     77.0,
+     291
+    ],
+    [
+     56.75,
+     291
+    ]
+   ],
+   "colour": "green"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA166 225 x 300 (2015, 1:5), R25, green on white, no border. Time numeral ('varies', dashed box 70 wide measured, numeral centred in it) + 25 gap + P 100 E (81), the pair centred ('=' margins), 15 from the top. TRUCKS 35 D baseline 180 (115 + 65), ink 172 (26/172/27); ONLY 35 D baseline 235, ink 119 (53/119/53). Arrow centre line 40 below (y 275), 25 from the bottom. The sheet gives no example time ('X P Trucks Only'): generated at 1P and 2P — not confirmed against SA practice. Arrows are the AS 1743 R5-14 (double, 155 x 32) and R5-16 (single, 125 x 32) open-chevron arrows the sheet cites, drawn as polygons with the national dimensions (shaft 12, head 42 long x 32 wide, barbs 12 thick)."
+}

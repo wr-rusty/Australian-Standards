@@ -1,0 +1,41 @@
+{
+ "code": "T2-6-SA120",
+ "pack": "SA",
+ "name": "LANE_STATUS_4_LANES_LEFT_TURN_TWO_CLOSED_AHEAD_RIGHT_YELLOW_LONG",
+ "legend": "(left turn, two lanes closed, ahead and right)",
+ "shape": "rect",
+ "size": [
+  1500,
+  900
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  451,
+  488,
+  1238,
+  961
+ ],
+ "symbols": {
+  "sa_t2-6-sa120_lane_status": {
+   "source": "T2-6-SA120",
+   "pack": "SA",
+   "desc": "lane-status diagram: closed-lane bars and lane arrows as the sheet's ARROW DETAILS (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_t2-6-sa120_lane_status",
+   "x": 58.8,
+   "y": 79.8,
+   "w": 1381.4,
+   "h": 741.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T2-6-SA120 (lane status). Layout: 1500 x 900, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol lane-status diagram: closed-lane bars and lane arrows as the sheet's ARROW DETAILS x 59-1440 y 80-822."
+}

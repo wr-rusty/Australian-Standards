@@ -1,0 +1,41 @@
+{
+ "code": "IS147",
+ "pack": "SA",
+ "name": "SWAN_SYMBOL_GREEN",
+ "legend": "(swan)",
+ "shape": "rect",
+ "size": [
+  280,
+  350
+ ],
+ "ground": "none",
+ "panel_px": [
+  524,
+  402,
+  1259,
+  1321
+ ],
+ "symbols": {
+  "sa_is147_swan": {
+   "source": "IS147",
+   "pack": "SA",
+   "desc": "swan pictogram, green (traced from the sheet's filled artwork)",
+   "colours": [
+    "green"
+   ]
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_is147_swan",
+   "x": 25.1,
+   "y": 22.0,
+   "w": 230.0,
+   "h": 303.0,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; contact DIT before use). Sheet IS147 (interpretive-series symbol): a green pictogram on a 280 x 350 grid box (no plate — the ground is whatever sign carries it), so the file is the box with a transparent ground; the box is located from the sheet's dotted grid. Layout: 280 x 350, transparent outside the artwork, R0, no border. The board is located by its drawn outline; its artwork (swan pictogram, green) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 25-255, y 22-325."
+}

@@ -1,0 +1,6 @@
+{
+ "code": "S109",
+ "pack": "SA",
+ "legend": "(aircraft) (name)",
+ "skip": "template: airport symbol plate with a 'varies' name line (legend per airport: Adelaide, Parafield, Ceduna, Port Augusta …) in through / left / right forms — not a fixed symbol"
+}

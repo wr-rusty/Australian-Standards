@@ -1,0 +1,86 @@
+{
+ "code": "T1-SA122",
+ "pack": "SA",
+ "name": "LEFT_LANE_ENDS_{km}_km_AHEAD_YELLOW_LONG",
+ "legend": "LEFT LANE ENDS {km} km AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  750
+ ],
+ "ground": "yellow",
+ "radius": 30,
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  384,
+  761,
+  1328,
+  1352
+ ],
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   5
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "LEFT",
+   "series": "D",
+   "height": 120,
+   "top": 100,
+   "align": "left",
+   "x": 190.4
+  },
+  {
+   "type": "text",
+   "text": "LANE",
+   "series": "D",
+   "height": 120,
+   "top": 100,
+   "align": "left",
+   "x": 623.2
+  },
+  {
+   "type": "text",
+   "text": "ENDS",
+   "series": "D",
+   "height": 120,
+   "top": 295
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "D",
+   "height": 100,
+   "top": 550,
+   "align": "left",
+   "x": 290.0
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "D",
+   "height": 120,
+   "top": 530,
+   "align": "left",
+   "x": 557.0
+  },
+  {
+   "type": "text",
+   "text": "{km}",
+   "series": "D",
+   "height": 120,
+   "top": 530,
+   "cx": 183.5
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA122: LEFT 343 + 90 + LANE 386, 120 D, baseline 220; ENDS 120 D baseline 415; third line baseline 650 (100 below): numerals 120 D ('varies') + 50 + km 100 D lower case (175) + 90 + AHEAD 120 D (516), the numerals centred in the sheet's dashed box. Generated at 1, 2, 3, 5 km. Layout: 1200 x 750, yellow, R30, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): LEFT 120 D top 100 x 190-534 (343); LANE 120 D top 100 x 623-1010 (386); ENDS 120 D top 295 x 407-794 (387); {km} 120 D centred in the sheet's numeral box x 127-240; km 100 D top 550 x 290-465 (176); AHEAD 120 D top 530 x 557-1073 (515)."
+}

@@ -1,0 +1,51 @@
+{
+ "code": "R9-SA114-A",
+ "pack": "SA",
+ "name": "AT_ALL_TIMES_WHITE_LONG",
+ "legend": "AT ALL TIMES",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "ground": "white",
+ "radius": 50,
+ "edge": {
+  "colour": "white",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "panel_px": [
+  484,
+  727,
+  1194,
+  1201
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "AT",
+    "ALL"
+   ],
+   "gap": 45.4,
+   "series": "E",
+   "height": 60,
+   "top": 65,
+   "expect": 328,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "TIMES",
+   "series": "E",
+   "height": 60,
+   "top": 175,
+   "expect": 256
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border, as the AS 1743 drawings. R9-SA114-A 450 x 300 (2026, 1:5), R50, 6 / 18 (edge 6 + border 12). AT ALL 60 E baseline 125, overall ink 328 (61/A 328 L/61; word gap not stated, set so the pair spans 328: 45.4); TIMES 60 E baseline 235 (65 below), 256 (97/256/97). Approval required."
+}

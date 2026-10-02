@@ -1,0 +1,39 @@
+{
+ "code": "D4-SA5",
+ "pack": "SA",
+ "name": "OBSTRUCTION_BOARD_BLACK_WHITE_WIDE_SKINNY",
+ "legend": "(black and white vertical bars)",
+ "shape": "rect",
+ "size": [
+  2400,
+  400
+ ],
+ "ground": "white",
+ "radius": 40,
+ "drawing": "D4-5",
+ "panel_px": [
+  136,
+  682,
+  1398,
+  894
+ ],
+ "symbols": {
+  "sa_d4-sa5_bars": {
+   "source": "D4-5",
+   "pack": "SA",
+   "desc": "black bars 140 wide at 280 pitch between 150 wide end bars (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_d4-sa5_bars",
+   "x": 2.8,
+   "y": 0.8,
+   "w": 2396.3,
+   "h": 397.7,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet 'D4-5 / D4-SA5' (obstruction board): the 2400 x 400 board D4-SA5 is drawn (D4-5 is the 1800 x 400 size). Layout: 2400 x 400, white, R40, no border. The board is located by its drawn outline; its artwork (black bars 140 wide at 280 pitch between 150 wide end bars) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 3-2399, y 1-398."
+}

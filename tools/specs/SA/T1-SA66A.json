@@ -1,0 +1,138 @@
+{
+ "code": "T1-SA66A",
+ "pack": "SA",
+ "name": "GRADER_AHEAD_ROCKS_ON_ROAD_NEXT_{km}_km_YELLOW_LONG",
+ "legend": "GRADER AHEAD / ROCKS ON ROAD / NEXT {km} km",
+ "shape": "rect",
+ "size": [
+  900,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  473,
+  808,
+  1182,
+  1281
+ ],
+ "vary": {
+  "key": "km",
+  "values": [
+   1,
+   2,
+   3,
+   5,
+   10
+  ]
+ },
+ "elements": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 900,
+   "h": 600,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 20.1,
+   "y": 20.3,
+   "w": 419.7,
+   "h": 414.4,
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 455.1,
+   "y": 20.3,
+   "w": 424.6,
+   "h": 414.4,
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 20.1,
+   "y": 450.2,
+   "w": 859.6,
+   "h": 129.5,
+   "colour": "yellow"
+  },
+  {
+   "type": "text",
+   "text": "GRADER",
+   "series": "C",
+   "height": 75,
+   "top": 110,
+   "align": "left",
+   "x": 72.6
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "C",
+   "height": 75,
+   "top": 276,
+   "align": "left",
+   "x": 99.0
+  },
+  {
+   "type": "text",
+   "text": "ROCKS",
+   "series": "D",
+   "height": 75,
+   "top": 66,
+   "align": "left",
+   "x": 512.8
+  },
+  {
+   "type": "text",
+   "text": "ON",
+   "series": "D",
+   "height": 75,
+   "top": 190,
+   "align": "left",
+   "x": 606.6
+  },
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "D",
+   "height": 75,
+   "top": 316,
+   "align": "left",
+   "x": 542.7
+  },
+  {
+   "type": "text",
+   "text": "NEXT",
+   "series": "D",
+   "height": 60,
+   "top": 490,
+   "align": "left",
+   "x": 261.0
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "D",
+   "height": 50,
+   "top": 500,
+   "align": "left",
+   "x": 552.1
+  },
+  {
+   "type": "text",
+   "text": "{km}",
+   "series": "D",
+   "height": 60,
+   "top": 490,
+   "cx": 507.1
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T1-SA66: T1-SA66A 900 x 600 illustrated (B 1200 x 800), border 20 for both sizes. Two panels divided by a vertical bar over a bottom strip: GRADER / AHEAD 75 C (left), ROCKS / ON / ROAD 75 D (right); bottom strip NEXT 60 D + 45 + numerals 60 D ('varies') + 25 + km 50 D lower case, baseline 550 (50 from the bottom), the numerals centred in the sheet's dashed box. Generated at 1, 2, 3, 5 and 10 km. Layout: 900 x 600, yellow, R0, black border 20, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): ground in 3 panels divided by black bars: x 20-440 y 20-435, x 455-880 y 20-435, x 20-880 y 450-580; GRADER 75 C top 110 x 72-387 (315); AHEAD 75 C top 276 x 99-362 (263); ROCKS 75 D top 66 x 513-822 (309); ON 75 D top 190 x 606-727 (121); ROAD 75 D top 316 x 543-794 (251); {km} 60 D centred in the sheet's numeral box x 487-527; NEXT 60 D top 490 x 261-442 (181); km 50 D top 500 x 552-640 (88)."
+}

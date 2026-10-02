@@ -1,0 +1,195 @@
+{
+ "code": "W4-SA52",
+ "pack": "SA",
+ "name": "NO_OVERTAKING_UNLESS_BOTH_ONCOMING_LANES_ARE_CLEAR_WHITE_WIDE",
+ "legend": "NO OVERTAKING UNLESS BOTH ONCOMING LANES ARE CLEAR (W4-10 panel)",
+ "shape": "rect",
+ "size": [
+  2700,
+  1200
+ ],
+ "ground": "white",
+ "radius": 150,
+ "edge": {
+  "colour": "white",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  362,
+  560,
+  1418,
+  1026
+ ],
+ "symbols": {
+  "sa_w4-sa52_w4-10_arrows": {
+   "source": "W4-SA52",
+   "pack": "SA",
+   "desc": "W4-10 panel arrows: one up, two down"
+  },
+  "sa_w4-sa52_both": {
+   "source": "W4-SA52",
+   "pack": "SA",
+   "colours": [
+    "red"
+   ],
+   "desc": "BOTH, 140 D at 10 % oblique, red, with 20 thick underline"
+  }
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "NO",
+   "series": "D",
+   "height": 140,
+   "top": 140,
+   "align": "left",
+   "x": 197.5
+  },
+  {
+   "type": "text",
+   "text": "OVERTAKING",
+   "series": "D",
+   "height": 140,
+   "top": 140,
+   "align": "left",
+   "x": 531.3
+  },
+  {
+   "type": "text",
+   "text": "UNLESS",
+   "series": "D",
+   "height": 140,
+   "top": 400,
+   "align": "left",
+   "x": 289.6
+  },
+  {
+   "type": "text",
+   "text": "ONCOMING",
+   "series": "D",
+   "height": 140,
+   "top": 660,
+   "align": "left",
+   "x": 113.6
+  },
+  {
+   "type": "text",
+   "text": "LANES",
+   "series": "D",
+   "height": 140,
+   "top": 660,
+   "align": "left",
+   "x": 1156.1
+  },
+  {
+   "type": "text",
+   "text": "ARE",
+   "series": "D",
+   "height": 140,
+   "top": 920,
+   "align": "left",
+   "x": 406.1
+  },
+  {
+   "type": "text",
+   "text": "CLEAR",
+   "series": "D",
+   "height": 140,
+   "top": 920,
+   "align": "left",
+   "x": 857.2
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2195,
+     195.0
+    ],
+    [
+     2600.0,
+     600
+    ],
+    [
+     2195,
+     1005.0
+    ],
+    [
+     1790.0,
+     600
+    ]
+   ],
+   "colour": "yellow",
+   "radius": 48
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2195,
+     208.4350288425444
+    ],
+    [
+     2586.5649711574556,
+     600
+    ],
+    [
+     2195,
+     991.5649711574556
+    ],
+    [
+     1803.4350288425444,
+     600
+    ]
+   ],
+   "colour": "black",
+   "radius": 38
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2195,
+     235.30508652763322
+    ],
+    [
+     2559.694913472367,
+     600
+    ],
+    [
+     2195,
+     964.6949134723668
+    ],
+    [
+     1830.3050865276332,
+     600
+    ]
+   ],
+   "colour": "yellow",
+   "radius": 19
+  },
+  {
+   "type": "symbol",
+   "id": "sa_w4-sa52_w4-10_arrows",
+   "x": 1949.0,
+   "y": 452.7,
+   "w": 495.7,
+   "h": 295.5,
+   "colour": "black"
+  },
+  {
+   "type": "symbol",
+   "id": "sa_w4-sa52_both",
+   "x": 1059.3,
+   "y": 394.2,
+   "w": 484.3,
+   "h": 186.0,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the white edge and edge + black border, as the AS 1743 drawings. W4-SA52 2700 x 1200 (2015, 1:20), R150, 10 / 30 (edge 10 + border 20), white. Four lines 140 D, baselines 280 / 540 / 800 / 1060 (sheet chain 280 / 260 / [20 + 20 underline] / 220 / 260 / 140: the underline of BOTH sits 20 below the second baseline and is 20 thick, the third baseline 220 below it): NO OVERTAKING 1426 overall from 205; UNLESS + BOTH 1236 overall from 295, BOTH in red '140 D @ 10 % oblique', underlined (480 wide underline: 1062/480/1158) — the red word and its underline are traced from the sheet's filled artwork (signgen has no oblique lettering); ONCOMING LANES 1595 overall from 120; ARE CLEAR 1018 from 408. Each word is placed where the sheet draws it (measured at 1200 dpi; widths agree with Series D). Warning panel 'W4-10(A)' 810 across its diagonals, 75 right of the third line (x 1790-2600, 100 from the right edge), 195 from top and bottom: yellow diamond (573 side) with edge 9.5 and black border 19 (the 600 mm sign's 10 / 30 at 810/848.5), corners R48; its three arrows (one up, two down) traced from the sheet."
+}

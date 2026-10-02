@@ -1,0 +1,41 @@
+{
+ "code": "IS134",
+ "pack": "SA",
+ "name": "DUCK_SYMBOL_GREEN",
+ "legend": "(duck)",
+ "shape": "rect",
+ "size": [
+  350,
+  350
+ ],
+ "ground": "none",
+ "panel_px": [
+  390,
+  457,
+  1308,
+  1376
+ ],
+ "symbols": {
+  "sa_is134_duck": {
+   "source": "IS134",
+   "pack": "SA",
+   "desc": "duck pictogram, green (traced from the sheet's filled artwork)",
+   "colours": [
+    "green"
+   ]
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_is134_duck",
+   "x": 12.7,
+   "y": 5.2,
+   "w": 325.0,
+   "h": 339.8,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; contact DIT before use). Sheet IS134 (interpretive-series symbol): a green pictogram on a 350 x 350 grid box (no plate — the ground is whatever sign carries it), so the file is the box with a transparent ground; the box is located from the sheet's dotted grid. Layout: 350 x 350, transparent outside the artwork, R0, no border. The board is located by its drawn outline; its artwork (duck pictogram, green) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 13-338, y 5-345."
+}

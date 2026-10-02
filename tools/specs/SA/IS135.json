@@ -1,0 +1,41 @@
+{
+ "code": "IS135",
+ "pack": "SA",
+ "name": "MALLEE_FOWL_SYMBOL_GREEN",
+ "legend": "(mallee fowl)",
+ "shape": "rect",
+ "size": [
+  420,
+  350
+ ],
+ "ground": "none",
+ "panel_px": [
+  352,
+  459,
+  1455,
+  1378
+ ],
+ "symbols": {
+  "sa_is135_mallee_fowl": {
+   "source": "IS135",
+   "pack": "SA",
+   "desc": "mallee fowl pictogram, green (traced from the sheet's filled artwork)",
+   "colours": [
+    "green"
+   ]
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_is135_mallee_fowl",
+   "x": 11.8,
+   "y": 40.4,
+   "w": 396.4,
+   "h": 269.1,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; contact DIT before use). Sheet IS135 (interpretive-series symbol): a green pictogram on a 420 x 350 grid box (no plate — the ground is whatever sign carries it), so the file is the box with a transparent ground; the box is located from the sheet's dotted grid. Layout: 420 x 350, transparent outside the artwork, R0, no border. The board is located by its drawn outline; its artwork (mallee fowl pictogram, green) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x 12-408, y 40-310."
+}

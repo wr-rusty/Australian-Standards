@@ -1,0 +1,58 @@
+{
+ "code": "W8-SA5B",
+ "pack": "SA",
+ "name": "{dist}_m_YELLOWGREEN_WIDE",
+ "legend": "{dist} m (FYG)",
+ "shape": "rect",
+ "size": [
+  750,
+  250
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W8-SA5A",
+ "panel_px": [
+  572,
+  940,
+  1164,
+  1138
+ ],
+ "vary": {
+  "key": "dist",
+  "values": [
+   100,
+   200,
+   300,
+   400,
+   500
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{dist}",
+     "series": "E",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "E",
+     "height": 120
+    }
+   ],
+   "gap": 60,
+   "top": 55
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA5: W8-SA5B 750 x 250 illustrated (A 600 x 200, C 900 x 300, D 1200 x 400; PNG W8-SA5A.png), fluorescent yellow-green, R50, 10 / 30. Distance numerals 140 E ('VARIES', dashed box; the line is centred as a whole, '=' margins on the sheet), 60 gap, m 120 E lower case (125 wide), baseline 195 (55 below). The sheet gives no example: generated at 100 to 500 m in hundreds — not confirmed against SA practice. To be installed with W6-SA1, W6-SA2 and W6-SA3 only."
+}

@@ -1,0 +1,41 @@
+{
+ "code": "S141",
+ "pack": "SA",
+ "name": "PARK_N_RIDE_TRAIN_SYMBOL_BLUE_LONG",
+ "legend": "P (train)",
+ "shape": "rect",
+ "size": [
+  420,
+  350
+ ],
+ "ground": "blue",
+ "panel_px": [
+  325,
+  449,
+  1428,
+  1368
+ ],
+ "folder": "Symbols",
+ "symbols": {
+  "sa_s141_p_train": {
+   "source": "S141",
+   "pack": "SA",
+   "desc": "P (300 EM) with a train front (S140 at 40 %) (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_s141_p_train",
+   "x": 50.5,
+   "y": 25.0,
+   "w": 336.7,
+   "h": 299.9,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet S141 (Park 'n' Ride, train). Layout: 420 x 350, blue, R0, no border. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol P (300 EM) with a train front (S140 at 40 %) x 50-387 y 25-325."
+}

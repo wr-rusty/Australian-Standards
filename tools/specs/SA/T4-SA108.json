@@ -1,0 +1,58 @@
+{
+ "code": "T4-SA108",
+ "pack": "SA",
+ "name": "ROAD_PLATES_IN_USE_YELLOW_TALL",
+ "legend": "ROAD PLATES IN USE",
+ "shape": "rect",
+ "size": [
+  600,
+  800
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "drawing": "T4-SA108_upright",
+ "panel_px": [
+  602,
+  628,
+  1075,
+  1258
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "ROAD",
+   "series": "C",
+   "height": 120,
+   "top": 110
+  },
+  {
+   "type": "text",
+   "text": "PLATES",
+   "series": "C",
+   "height": 120,
+   "top": 340
+  },
+  {
+   "type": "text",
+   "text": "IN",
+   "series": "C",
+   "height": 120,
+   "top": 571,
+   "align": "left",
+   "x": 82.2
+  },
+  {
+   "type": "text",
+   "text": "USE",
+   "series": "C",
+   "height": 120,
+   "top": 570,
+   "align": "left",
+   "x": 281.9
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet T4-SA108 (2017). Layout: 600 x 800, yellow, R0, black border 25, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): ROAD 120 C top 110 x 134-465 (331); PLATES 120 C top 340 x 68-532 (464); IN 120 C top 571 x 82-193 (111); USE 120 C top 570 x 282-518 (236)."
+}

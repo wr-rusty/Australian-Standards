@@ -1,0 +1,158 @@
+{
+ "code": "R5-SA164_LEFT",
+ "pack": "SA",
+ "name": "1P_PERMITTED_IN_THIS_BAY_AT_ALL_TIMES_GREEN_TALL",
+ "legend": "1P PERMITTED IN THIS BAY AT ALL TIMES (left arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  300
+ ],
+ "ground": "white",
+ "radius": 25,
+ "drawing": "R5-SA164",
+ "panel_px": [
+  621,
+  465,
+  978,
+  939
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "1",
+   "series": "E",
+   "height": 100,
+   "top": 15,
+   "colour": "green",
+   "align": "left",
+   "x": 45
+  },
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 100,
+   "top": 15,
+   "colour": "green",
+   "align": "left",
+   "x": 99
+  },
+  {
+   "type": "text",
+   "text": "PERMITTED",
+   "series": "D",
+   "height": 20,
+   "top": 132,
+   "expect": 134,
+   "colour": "green"
+  },
+  {
+   "type": "text",
+   "text": "IN",
+   "series": "D",
+   "height": 20,
+   "top": 164,
+   "expect": 22,
+   "colour": "green",
+   "align": "left",
+   "x": 34
+  },
+  {
+   "type": "text",
+   "text": "THIS",
+   "series": "D",
+   "height": 20,
+   "top": 164,
+   "expect": 54,
+   "colour": "green",
+   "align": "left",
+   "x": 71
+  },
+  {
+   "type": "text",
+   "text": "BAY",
+   "series": "D",
+   "height": 20,
+   "top": 164,
+   "expect": 51,
+   "colour": "green",
+   "align": "left",
+   "x": 140
+  },
+  {
+   "type": "text",
+   "text": "AT",
+   "series": "D",
+   "height": 20,
+   "top": 196,
+   "expect": 31,
+   "colour": "green",
+   "align": "left",
+   "x": 65
+  },
+  {
+   "type": "text",
+   "text": "ALL",
+   "series": "D",
+   "height": 20,
+   "top": 196,
+   "expect": 48,
+   "colour": "green",
+   "align": "left",
+   "x": 111
+  },
+  {
+   "type": "text",
+   "text": "TIMES",
+   "series": "D",
+   "height": 20,
+   "top": 228,
+   "expect": 72,
+   "colour": "green"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     274
+    ],
+    [
+     71.75,
+     258
+    ],
+    [
+     92.0,
+     258
+    ],
+    [
+     78.41,
+     268
+    ],
+    [
+     175.0,
+     268
+    ],
+    [
+     175.0,
+     280
+    ],
+    [
+     78.41,
+     280
+    ],
+    [
+     92.0,
+     290
+    ],
+    [
+     71.75,
+     290
+    ]
+   ],
+   "colour": "green"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA164 225 x 300 (2015, 1:5), R25, green on white, no border. 1P '100 D/E', 15 from the top, 135 overall centred (measured: 1 at x 45, 30 wide; P at x 99, 80 wide — both match Series E). Four lines 20 D, baselines 152 (37 below) / 184 / 216 / 248 (32 pitch): PERMITTED 134 (45/134/46), IN 22 + 15 + THIS 54 + 15 + BAY 51 (34 margins), AT 31 + 15 + ALL 48 (65 / 66 margins), TIMES 72 (76/72/77). Arrow centre line 26 below the last baseline (y 274), 26 from the bottom. The time limit (1P) is the sheet's example ('Parking (time period) permitted…'); not varied. Arrows are the AS 1743 R5-14 (double, 155 x 32) and R5-16 (single, 125 x 32) open-chevron arrows the sheet cites, drawn as polygons with the national dimensions (shaft 12, head 42 long x 32 wide, barbs 12 thick). This spec is the sheet's left-arrow alternative (R5-16, 125 long, centred); the sheet draws the double arrow."
+}

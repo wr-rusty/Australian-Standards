@@ -1,0 +1,101 @@
+{
+ "code": "W8-SA110",
+ "pack": "SA",
+ "name": "50_KMH_WHEN_LIGHTS_FLASHING_YELLOW_LONG",
+ "legend": "50 km/h WHEN LIGHTS FLASHING",
+ "shape": "rect",
+ "size": [
+  1060,
+  770
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  430,
+  690,
+  1266,
+  1297
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "50",
+   "series": "E",
+   "height": 280,
+   "top": 65,
+   "expect": 510,
+   "align": "left",
+   "x": 60
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "E",
+   "height": 120,
+   "top": 225,
+   "align": "left",
+   "x": 595
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     903.4,
+     194
+    ],
+    [
+     925,
+     194
+    ],
+    [
+     820.6,
+     374
+    ],
+    [
+     799,
+     374
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "h",
+   "series": "E",
+   "height": 120,
+   "top": 225,
+   "align": "left",
+   "x": 924
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "LIGHTS"
+   ],
+   "gap": 75.5,
+   "series": "D",
+   "height": 100,
+   "top": 430,
+   "expect": 845,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "FLASHING",
+   "series": "D",
+   "height": 100,
+   "top": 605,
+   "expect": 615
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. W8-SA110 1060 x 770, R50, 10 / 30. 50 in 280 E, baseline 345, 510 wide (60 from the left); 24 gap; km/h 120 E lower case, 406 overall, on the same baseline (60 from the right) — k, m, the oblique stroke and h placed where the sheet draws them (the stroke, 180 tall, as a parallelogram on the sheet's ink). WHEN LIGHTS 100 D baseline 530 (185 below), 845 overall (110/W 845 S/105; word gap set to span it); FLASHING 100 D baseline 705 (175 pitch, 65 below), 615 (225/615/220). For 80 km/h locations (see TES 19975); the value is fixed — no variants."
+}

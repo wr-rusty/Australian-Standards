@@ -1,0 +1,41 @@
+{
+ "code": "TM5-SA102A",
+ "pack": "SA",
+ "name": "BICYCLE_DETOUR_AHEAD_ARROW_YELLOW_SQUARE",
+ "legend": "(arrow ahead) (bicycle)",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "panel_px": [
+  593,
+  829,
+  1065,
+  1302
+ ],
+ "symbols": {
+  "sa_tm5-sa102_arrow_bicycle": {
+   "source": "TM5-SA102A",
+   "pack": "SA",
+   "desc": "'A:80' arrow pointing up above a bicycle symbol 360 wide (traced from the sheet's filled artwork)"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_tm5-sa102_arrow_bicycle",
+   "x": 120.5,
+   "y": 84.8,
+   "w": 355.9,
+   "h": 429.5,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. Sheet TM5-SA102A (bicycle detour, straight ahead). Layout: 600 x 600, yellow, R0, black border 15, no edge strip. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol 'A:80' arrow pointing up above a bicycle symbol 360 wide x 120-476 y 85-514."
+}

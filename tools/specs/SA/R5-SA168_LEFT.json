@@ -1,0 +1,107 @@
+{
+ "code": "R5-SA168_LEFT",
+ "pack": "SA",
+ "name": "NO_STOPPING_MAINTENANCE_VEHICLES_EXCEPTED_WHITE_TALL",
+ "legend": "(no stopping) MAINTENANCE VEHICLES EXCEPTED (left arrow)",
+ "shape": "rect",
+ "size": [
+  225,
+  450
+ ],
+ "ground": "white",
+ "radius": 25,
+ "drawing": "R5-SA168",
+ "panel_px": [
+  630,
+  578,
+  986,
+  1289
+ ],
+ "symbols": {
+  "r5-35_no_standing_140": {
+   "source": "R5-36",
+   "desc": "AS 1743 no-stopping roundel 140 dia (R5-36), as the sheet cites"
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "r5-35_no_standing_140",
+   "x": 42.5,
+   "y": 30,
+   "w": 140,
+   "h": 140,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "MAINTENANCE",
+   "series": "B",
+   "height": 35,
+   "top": 205,
+   "expect": 216,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "VEHICLES",
+   "series": "C",
+   "height": 35,
+   "top": 265,
+   "expect": 180,
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "EXCEPTED",
+   "series": "C",
+   "height": 35,
+   "top": 325,
+   "expect": 185,
+   "colour": "red"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50.0,
+     405
+    ],
+    [
+     71.75,
+     389
+    ],
+    [
+     92.0,
+     389
+    ],
+    [
+     78.41,
+     399
+    ],
+    [
+     175.0,
+     399
+    ],
+    [
+     175.0,
+     411
+    ],
+    [
+     78.41,
+     411
+    ],
+    [
+     92.0,
+     421
+    ],
+    [
+     71.75,
+     421
+    ]
+   ],
+   "colour": "red"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. R5-SA168 225 x 450 (2025, 1:5), R25, white, no border. No-stopping roundel R5-36 (140 dia), 30 from the top, centred — the national symbol. MAINTENANCE 35 B baseline 240 (170 + 70), ink 216 (5/216/4); VEHICLES 35 C baseline 300, 180 (23/180/22); EXCEPTED 35 C baseline 360, 185 (20/185/20). Arrow centre line 45 below (y 405), 45 from the bottom: 35/155/35. For use in maintenance bays only. Arrows are the AS 1743 R5-14 (double, 155 x 32) and R5-16 (single, 125 x 32) open-chevron arrows the sheet cites, drawn as polygons with the national dimensions (shaft 12, head 42 long x 32 wide, barbs 12 thick). This spec is the sheet's left-arrow alternative (R5-16, 125 long, centred); the sheet draws the double arrow."
+}

@@ -1,0 +1,47 @@
+{
+ "code": "W5-SA114B",
+ "pack": "SA",
+ "name": "TRAM_WORKS_YELLOW_LONG",
+ "legend": "TRAM WORKS",
+ "shape": "rect",
+ "size": [
+  450,
+  300
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 6
+ },
+ "border": {
+  "colour": "black",
+  "width": 12
+ },
+ "drawing": "W5-SA114A",
+ "panel_px": [
+  487,
+  735,
+  1197,
+  1208
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "TRAM",
+   "series": "D",
+   "height": 75,
+   "top": 50,
+   "expect": 248
+  },
+  {
+   "type": "text",
+   "text": "WORKS",
+   "series": "D",
+   "height": 75,
+   "top": 175,
+   "expect": 321
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W5-SA114: W5-SA114B 450 x 300 illustrated (A 300 x 200; PNG W5-SA114A.png), R50, 6 / 18 (edge 6 + border 12). TRAM 75 D baseline 125, 248 (101/248/101); WORKS 75 D baseline 250 (125 pitch, 50 below), 321 (64/321/65)."
+}

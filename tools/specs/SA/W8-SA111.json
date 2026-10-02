@@ -1,0 +1,100 @@
+{
+ "code": "W8-SA111",
+ "pack": "SA",
+ "name": "70_KMH_WHEN_LIGHTS_FLASHING_YELLOW_LONG",
+ "legend": "70 km/h WHEN LIGHTS FLASHING",
+ "shape": "rect",
+ "size": [
+  1230,
+  850
+ ],
+ "ground": "yellow",
+ "radius": 50,
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "panel_px": [
+  398,
+  639,
+  1367,
+  1308
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "70",
+   "series": "E",
+   "height": 280,
+   "top": 105,
+   "align": "right",
+   "x": 590
+  },
+  {
+   "type": "text",
+   "text": "km",
+   "series": "E",
+   "height": 120,
+   "top": 265,
+   "align": "left",
+   "x": 689
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1023.4,
+     234
+    ],
+    [
+     1045,
+     234
+    ],
+    [
+     940.6,
+     414
+    ],
+    [
+     919,
+     414
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "text": "h",
+   "series": "E",
+   "height": 120,
+   "top": 265,
+   "align": "left",
+   "x": 1073
+  },
+  {
+   "type": "text",
+   "words": [
+    "WHEN",
+    "LIGHTS"
+   ],
+   "gap": 91.6,
+   "series": "D",
+   "height": 120,
+   "top": 450,
+   "expect": 1015,
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "text": "FLASHING",
+   "series": "D",
+   "height": 120,
+   "top": 625,
+   "expect": 735
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. W8-SA111 1230 x 850, R50, 10 / 30. 70 in 280 E, baseline 385, the pair ending 590 from the left (sheet 80 / 510; the 7 itself starts at 72 on the drawing, the font's 70 being 518 wide); 100 gap; km/h 120 E lower case, 460 overall (80 from the right) — k, m, the oblique stroke (a parallelogram on the sheet's ink) and h placed where the sheet draws them. WHEN LIGHTS 120 D baseline 570 (185 below), 1015 overall (110/W 1015 S/105); FLASHING 120 D baseline 745 (105 below), 735 (250/735/245). For 100 km/h locations (see TES 19976); the value is fixed — no variants."
+}

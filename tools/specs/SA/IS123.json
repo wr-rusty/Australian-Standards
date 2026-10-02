@@ -1,0 +1,41 @@
+{
+ "code": "IS123",
+ "pack": "SA",
+ "name": "BANDICOOT_SYMBOL_GREEN",
+ "legend": "(bandicoot)",
+ "shape": "rect",
+ "size": [
+  420,
+  350
+ ],
+ "ground": "none",
+ "panel_px": [
+  350,
+  461,
+  1452,
+  1380
+ ],
+ "symbols": {
+  "sa_is123_bandicoot": {
+   "source": "IS123",
+   "pack": "SA",
+   "desc": "bandicoot pictogram, green (traced from the sheet's filled artwork)",
+   "colours": [
+    "green"
+   ]
+  }
+ },
+ "folder": "Symbols",
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_is123_bandicoot",
+   "x": -0.0,
+   "y": 66.2,
+   "w": 419.9,
+   "h": 218.8,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; contact DIT before use). Sheet IS123 (interpretive-series symbol): a green pictogram on a 420 x 350 grid box (no plate — the ground is whatever sign carries it), so the file is the box with a transparent ground; the box is located from the sheet's dotted grid. Layout: 420 x 350, transparent outside the artwork, R0, no border. The board is located by its drawn outline; its artwork (bandicoot pictogram, green) is taken from the sheet's own filled shapes (PDF fills rendered at 1000 dpi without the dimension lines, traced), ink box x -0-420, y 66-285."
+}

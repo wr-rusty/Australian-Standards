@@ -1,0 +1,92 @@
+{
+ "code": "W8-SA17-2B",
+ "pack": "SA",
+ "name": "NEXT_{dist}_m_YELLOWGREEN_LONG",
+ "legend": "NEXT {dist} m (FYG)",
+ "shape": "rect",
+ "size": [
+  750,
+  500
+ ],
+ "ground": "yellowgreen",
+ "radius": 50,
+ "edge": {
+  "colour": "yellowgreen",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "drawing": "W8-SA17-2A",
+ "panel_px": [
+  555,
+  784,
+  1146,
+  1178
+ ],
+ "vary": {
+  "key": "dist",
+  "values": [
+   100,
+   200,
+   300
+  ]
+ },
+ "elements": [
+  {
+   "type": "text",
+   "text": "N",
+   "series": "Emod",
+   "height": 125,
+   "top": 95,
+   "align": "left",
+   "x": 129.7
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "series": "Emod",
+   "height": 125,
+   "top": 95,
+   "align": "left",
+   "x": 270.0
+  },
+  {
+   "type": "text",
+   "text": "X",
+   "series": "Emod",
+   "height": 125,
+   "top": 95,
+   "align": "left",
+   "x": 392.6
+  },
+  {
+   "type": "text",
+   "text": "T",
+   "series": "Emod",
+   "height": 125,
+   "top": 95,
+   "align": "left",
+   "x": 529.0
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "{dist}",
+     "series": "Emod",
+     "height": 125
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    }
+   ],
+   "gap": 50,
+   "top": 280
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. The sheet's two edge figures are the edge strip (ground colour) and edge + black border, as the AS 1743 drawings. Sheet W8-SA17-2: W8-SA17-2B 750 x 500 illustrated (A 600 x 400; PNG W8-SA17-2A.png), fluorescent yellow-green, R50, 10 / 30. Chain 95 / 125 / 60 / 125 / 95: NEXT '125 EM' top 95, 485 (130/485/135); distance numerals 125 EM ('varies', dashed box; the line is centred as a whole, '=' margins on the sheet), 50 gap, m '105 EMOD' lower case (110), baseline 405. Sheet note: maximum distance 300 m on this plate — generated at 100, 200 and 300 m. Sheet-vs-font: the sheet's 'EM' (Series E modified) words are set wider than the FHWA Series E modified font at plus0 (NEXT 485 against 461); each letter is drawn from the font and placed at the sheet's own letter positions (measured), so the word spans the stated width."
+}

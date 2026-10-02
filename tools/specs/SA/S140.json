@@ -1,0 +1,41 @@
+{
+ "code": "S140",
+ "pack": "SA",
+ "name": "TRAIN_TRAM_STATION_SYMBOL_BLUE_TALL",
+ "legend": "(train front)",
+ "shape": "rect",
+ "size": [
+  280,
+  350
+ ],
+ "ground": "blue",
+ "panel_px": [
+  497,
+  515,
+  1233,
+  1434
+ ],
+ "folder": "Symbols",
+ "symbols": {
+  "sa_s140_train": {
+   "source": "S140",
+   "pack": "SA",
+   "desc": "train / tram front on track (220 x 320) (traced from the sheet's filled artwork)",
+   "colours": [
+    "white"
+   ]
+  }
+ },
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "sa_s140_train",
+   "x": 31.2,
+   "y": 15.1,
+   "w": 217.5,
+   "h": 319.8,
+   "colour": "black"
+  }
+ ],
+ "notes": "DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. DIT symbol sheet (Symbol Series: a sign component published as its own drawing; used on service, tourist and warning signs at the percentage each sign sheet states). Sheet S140 (train / tram station): 280 x 350; symbol 30 / 220 / 30, 15 from top and bottom. Layout: 280 x 350, blue, R0, no border. Legend placed from the sheet's own filled artwork measured at 1200 dpi (letter heights from the ink, series confirmed by the FHWA widths, each word centred on its ink; the sheet's dimension chains were not transcribed one by one for this sign — the positions are the sheet's drawn artwork itself, which the overlay check confirms): symbol train / tram front on track (220 x 320) x 31-249 y 15-335."
+}
