@@ -85,6 +85,7 @@ The platform needs the whole traffic-control picture, drawn the way a Traffic Gu
 * `OPEN-ITEMS.md` lists the paywalled standards, purchases and decisions that work is waiting on.
 * `INSPECTION.md` says how a pack is inspected before it moves to `Complete/`. Each pack has an "Inspect: …" ticket
   (SGN-094 to SGN-102).
+* `COUNTRIES.md` is the country matrix: what we have, what is being built, what is sourced, and candidates.
 * `JURISDICTIONS.md` maps every jurisdiction to its folder and current status.
 * `Tickets/INDEX.md` lists all open work; remaining build work is SGN-083 to SGN-093.
 * `PLAN.md` is the original AS 1743 plan, kept for the record.

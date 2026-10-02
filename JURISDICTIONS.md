@@ -24,3 +24,5 @@ material only. A jurisdiction's signs are the national pack plus its own pack.
 | Germany | national | `Processing/Germany/National (StVO)` | 232 from BASt's free vector set; 996 catalogue entries need the paid set or generation | SGN-078, SGN-100 |
 | Italy | national | `Processing/Italy/National (Codice della Strada)` | sources only (1992 Gazzetta figures, scan); to be generated | SGN-080 |
 | Canada | national + provinces | `Processing/Canada/National (MUTCDC)` | not started; national manual is sold by TAC, provincial manuals are free | SGN-082 |
+| Japan | national | `Processing/Japan/National (MLIT)` | in progress: ministry's vector sign list, about 250 signs | SGN-103 |
+| Singapore | national | `Processing/Singapore/National (LTA)` | in progress: sourcing LTA's Standard Details of Road Elements | SGN-104 |
