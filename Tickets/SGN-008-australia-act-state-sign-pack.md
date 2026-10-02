@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `Processing/Australia/ACT/` with the ACT-specific signs (those not in AS 1743, or drawn differently) from Transport Canberra and City Services MITS-14 Road signs. Russell's users work in every state, so every state pack is P1.
+Build `Processing/Australia/ACT/` with the ACT-specific signs (those not in AS 1743, or drawn differently) from Transport Canberra and City Services MITS-14 Road signs. the owner's users work in every state, so every state pack is P1.
 
 ## Evidence
 

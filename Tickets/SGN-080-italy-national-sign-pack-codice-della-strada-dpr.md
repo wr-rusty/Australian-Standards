@@ -55,7 +55,7 @@ Researched 2026-09-08; full detail in `Processing/Italy/National (Codice della S
 - **Recommended route: drawings/spec only → generate.** Build the ~500 figures from the regolamento's shapes,
   sizes (art. 79–80), colours (Tabella II) and the Alfabeto Normale/Stretto (art. 125), with the GU scan as the
   visual reference and the Commons SVGs as a check, as was done for AS 1743.
-- **Russell decides:** whether a first pass may normalise the Commons SVGs (CC BY-SA share-alike → attribution
+- **the owner decides:** whether a first pass may normalise the Commons SVGs (CC BY-SA share-alike → attribution
   and licence notice on the platform) while the generated set is built; whether to buy a consolidated printed
   edition with current figures (Maggioli/Legislazione Tecnica, ~50–100 €) as the reference for post-1992
   changes; the Alfabeto Normale/Stretto font source (free redrawings exist, e.g. on Commons "Technical measures

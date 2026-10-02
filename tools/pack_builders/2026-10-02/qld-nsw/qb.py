@@ -2,7 +2,7 @@
 import json, os, sys, subprocess
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image
-ROOT = "/Users/russell/Local/GitHub/Australian-Standards"
+ROOT = "/Users/USER/Local/GitHub/Australian-Standards"
 sys.path.insert(0, ROOT + "/tools")
 import signgen as G
 PNG = ROOT + "/Processing/Australia/QLD/Original PNGs/"

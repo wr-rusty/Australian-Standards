@@ -126,7 +126,7 @@ text, set real sizes from the IISR parts), family folders by letter, MANIFEST.cs
   R24 light and bell); perspective illustrations (3): J15a, J15b, K16; raster (1): K14.
 * **Attribution (Licence Ouverte 2.0 asks for the source and the date of last update):** proposed platform line
   "Source : Cerema, licence Etalab 2.0, 2025" (Cerema's SVG page: published 2025-01-16, updated 2025-01-27; the Box
-  files date from October 2023). Russell decides the wording.
+  files date from October 2023). The owner decides the wording.
 * **Not done / to decide:** the 45 SIZE TO CHECK scales (needs the IISR 5e/8e partie figures read sign by sign, or
   Cerema asked what page scale the direction-sign examples use); the KC/KD temporary-direction and 9e partie dynamic
   signs missing from the Cerema set; the L1/L4 alphabets for the 9 text files; `tools/README.md` has no France entry

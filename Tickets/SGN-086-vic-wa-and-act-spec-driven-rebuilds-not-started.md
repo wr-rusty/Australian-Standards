@@ -20,7 +20,7 @@ NSW, QLD, SA, TAS and NT are rebuilt spec-driven. VIC (319 extracted, TEM Vol 2 
 
 ## Fix
 
-Add PACKS entries, render sheets, write specs per family (Regulatory first), overlay-check; WA needs the colour decision in NEEDS-RUSSELL.md.
+Add PACKS entries, render sheets, write specs per family (Regulatory first), overlay-check; WA needs the colour decision in OPEN-ITEMS.md.
 
 ## Verify
 

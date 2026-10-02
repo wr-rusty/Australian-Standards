@@ -1,7 +1,7 @@
 """vw.py CODE... -> view/<CODE>.png : drawing area cropped (frame, title block, colour legend removed), prints crop origin (200-dpi px)"""
 import sys, numpy as np
 from PIL import Image
-SA="/Users/russell/Local/GitHub/Australian-Standards/Processing/Australia/SA/Original PNGs/"
+SA="/Users/USER/Local/GitHub/Australian-Standards/Processing/Australia/SA/Original PNGs/"
 for code in sys.argv[1:]:
     im=Image.open(SA+code+".png").convert("RGB"); a=np.asarray(im); H,W=a.shape[:2]
     if W>H: print(code,"LANDSCAPE",W,H)

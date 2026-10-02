@@ -20,7 +20,7 @@ The only NSW-only code outside Guide/Freeway without a sign. The static part is 
 
 ## Fix
 
-Russell decides: build the static board with the cut-out left empty (transparent), or skip.
+The owner decides: build the static board with the cut-out left empty (transparent), or skip.
 
 ## Verify
 

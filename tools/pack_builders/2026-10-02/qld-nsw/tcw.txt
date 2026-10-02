@@ -7,7 +7,7 @@ TC1835
 TC1835_p2
 TC1895
 TC1895_p2
-TC1575:name="GRAVEL_ROAD_IMPASSABLE_IN_WET_WEATHER_STARTS_IN_{km}_KM_YELLOW",legend="GRAVEL ROAD IMPASSABLE IN WET WEATHER STARTS IN {km} km",vary={"key":"km","values":[1,2,5,10]},add=[T("{km}","D",140,760,cx=1262)],notes_extra="Distance: the dashed box (no example on the sheet) takes the distance in km: 1, 2, 5 and 10 generated (Russell: the variants that make sense, not every value), 140 Series D centred in the box."
+TC1575:name="GRAVEL_ROAD_IMPASSABLE_IN_WET_WEATHER_STARTS_IN_{km}_KM_YELLOW",legend="GRAVEL ROAD IMPASSABLE IN WET WEATHER STARTS IN {km} km",vary={"key":"km","values":[1,2,5,10]},add=[T("{km}","D",140,760,cx=1262)],notes_extra="Distance: the dashed box (no example on the sheet) takes the distance in km: 1, 2, 5 and 10 generated (the owner: the variants that make sense, not every value), 140 Series D centred in the box."
 TC2225
 TC1831:union=True
 TC1737:caps={"18":120},series={"18":"Emod"}
@@ -16,8 +16,8 @@ TC1733:which=1
 TC1375:no_strokes=True
 TC1908
 TC1908_p2
-TC1420:drop_rows=[3],name="DO_NOT_OVERTAKE_ROAD_TRAINS_TURNING_{d}_M_AHEAD_WHITE",legend="DO NOT OVERTAKE ROAD TRAINS TURNING {d} m AHEAD",vary={"key":"d","values":[100,200,300,500]},add=[T("{d}","D",140,1510,cx=695)],notes_extra="Distance: the dashed box (no example on the sheet) takes the distance in metres: 100, 200, 300 and 500 generated (Russell: the variants that make sense, not every value), 140 Series D centred in the box."
-TC1543:drop_rows=[2],name="CAUTION_ROAD_TRAINS_TURNING_{d}_M_AHEAD_WHITE",legend="CAUTION ROAD TRAINS TURNING {d} m AHEAD",vary={"key":"d","values":[100,200,300,500]},add=[T("{d}","D",140,1140,cx=643)],notes_extra="Distance: the dashed box (no example on the sheet) takes the distance in metres: 100, 200, 300 and 500 generated (Russell: the variants that make sense, not every value), 140 Series D centred in the box."
+TC1420:drop_rows=[3],name="DO_NOT_OVERTAKE_ROAD_TRAINS_TURNING_{d}_M_AHEAD_WHITE",legend="DO NOT OVERTAKE ROAD TRAINS TURNING {d} m AHEAD",vary={"key":"d","values":[100,200,300,500]},add=[T("{d}","D",140,1510,cx=695)],notes_extra="Distance: the dashed box (no example on the sheet) takes the distance in metres: 100, 200, 300 and 500 generated (the owner: the variants that make sense, not every value), 140 Series D centred in the box."
+TC1543:drop_rows=[2],name="CAUTION_ROAD_TRAINS_TURNING_{d}_M_AHEAD_WHITE",legend="CAUTION ROAD TRAINS TURNING {d} m AHEAD",vary={"key":"d","values":[100,200,300,500]},add=[T("{d}","D",140,1140,cx=643)],notes_extra="Distance: the dashed box (no example on the sheet) takes the distance in metres: 100, 200, 300 and 500 generated (the owner: the variants that make sense, not every value), 140 Series D centred in the box."
 TC1370
 TC2971
 TC2971_p2
@@ -32,7 +32,7 @@ TC2378
 TC9951
 TC9951_p2
 TC2353
-TC1636:name="SLOW_TRUCKS_CARRYING_EXPLOSIVES_NEXT_{km}_KM_YELLOW",legend="SLOW TRUCKS CARRYING EXPLOSIVES NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[2,5,10]},notes_extra="The sheet shows the sign under a pair of flashing lanterns (activated by slow heavy vehicles): the lantern board is hardware and is not drawn. Distance: the dashed box (no example on the sheet) takes the distance in km: 2, 5 and 10 generated (Russell: the variants that make sense, not every value)."
+TC1636:name="SLOW_TRUCKS_CARRYING_EXPLOSIVES_NEXT_{km}_KM_YELLOW",legend="SLOW TRUCKS CARRYING EXPLOSIVES NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[2,5,10]},notes_extra="The sheet shows the sign under a pair of flashing lanterns (activated by slow heavy vehicles): the lantern board is hardware and is not drawn. Distance: the dashed box (no example on the sheet) takes the distance in km: 2, 5 and 10 generated (the owner: the variants that make sense, not every value)."
 TC1346_p2
 TC9846:drop_rows=[0,1],drop_small=60,name="END_{tn}ROAD_TRAIN_ROUTE_500_M_WHITE_LONG",legend="END {type} ROAD TRAIN ROUTE 500 m",vary={"keys":["type","tn"],"values":[["TYPE 1","TYPE_1_"],["TYPE 2","TYPE_2_"]]},add=[T("{type}","D",140,400,cx=1150)],notes_extra="The dashed box takes TYPE 1 or TYPE 2 (the sheet: insert TYPE 1 or TYPE 2 if appropriate): both generated, 140 Series D as the line below (the box is 884 x about 165, centred at x 1150, y 470; no letter size is labelled for it)."
 TC9847
@@ -40,8 +40,8 @@ TC1832
 TC1832_p2
 TC1832_p4
 TC1832_p5
-TC9466:name="KEEP_LEFT_ON_CRESTS_NEXT_{km}_KM_WHITE",legend="KEEP LEFT ON CRESTS NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[2,5,10]},notes_extra="Distance: the dashed box (insert appropriate distance, no example) takes the distance in km: 2, 5 and 10 generated (Russell: the variants that make sense, not every value)."
-TC9491:name="KEEP_LEFT_ON_CRESTS_NEXT_{km}_KM_WHITE",legend="KEEP LEFT ON CRESTS NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[2,5,10]},notes_extra="Distance: the dashed box (insert appropriate distance, no example) takes the distance in km: 2, 5 and 10 generated (Russell: the variants that make sense, not every value)."
+TC9466:name="KEEP_LEFT_ON_CRESTS_NEXT_{km}_KM_WHITE",legend="KEEP LEFT ON CRESTS NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[2,5,10]},notes_extra="Distance: the dashed box (insert appropriate distance, no example) takes the distance in km: 2, 5 and 10 generated (the owner: the variants that make sense, not every value)."
+TC9491:name="KEEP_LEFT_ON_CRESTS_NEXT_{km}_KM_WHITE",legend="KEEP LEFT ON CRESTS NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[2,5,10]},notes_extra="Distance: the dashed box (insert appropriate distance, no example) takes the distance in km: 2, 5 and 10 generated (the owner: the variants that make sense, not every value)."
 TC1988
 TC1988_p2
 TC1988_p3

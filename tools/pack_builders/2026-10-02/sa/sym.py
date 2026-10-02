@@ -2,7 +2,7 @@
  inset(code, clip200, scale, sid, mode)  — fill the outline strokes of a grid inset (vector strokes from the PDF)
  htrace(code, panel200, W, H, box_mm, sid, dpi, **kw) — trace_symbol's tracer on a high-dpi render of the sheet"""
 import sys, os, numpy as np, pymupdf
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); sys.path.insert(0, "/Users/russell/Local/GitHub/Australian-Standards/tools")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); sys.path.insert(0, "/Users/USER/Local/GitHub/Australian-Standards/tools")
 import h, trace_symbol as T
 from PIL import Image, ImageDraw
 from scipy import ndimage as ndi

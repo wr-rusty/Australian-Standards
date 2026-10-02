@@ -1,7 +1,7 @@
 """contact.py — contact sheets (grey ground) of the SA SVGs generated in this run: Inkscape render + PIL."""
 import os, sys, subprocess, csv, json, glob, tempfile
 from PIL import Image, ImageDraw
-ROOT="/Users/russell/Local/GitHub/Australian-Standards"; OUT=ROOT+"/Processing/Australia/SA/SVGs (generated)"
+ROOT="/Users/USER/Local/GitHub/Australian-Standards"; OUT=ROOT+"/Processing/Australia/SA/SVGs (generated)"
 INK="/Applications/Inkscape.app/Contents/MacOS/inkscape"
 S=os.path.dirname(os.path.abspath(__file__))
 old=set(json.load(open(S+"/before_files.json")))

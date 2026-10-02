@@ -29,5 +29,5 @@
 
 ## Status (2026-09-08)
 
-658 SVGs in 18 DfT categories, awaiting Russell's review before moving to `Complete/`. Open points: sizes are nominal
+658 SVGs in 18 DfT categories, awaiting the owner's review before moving to `Complete/`. Open points: sizes are nominal
 for the x-height signs (SGN-060); 530 and 543 are raster only; Northern Ireland uses its own regulations (not covered).

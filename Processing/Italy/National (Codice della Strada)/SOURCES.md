@@ -53,7 +53,7 @@ Researched 2026-09-08 (SGN-080). Nothing built yet.
 
 Drawings/spec only → **generate**: no official vector exists. Build the figures from the regolamento's shapes,
 sizes, colours and the Alfabeto Normale/Stretto (art. 125), using the GU scan as the visual reference and the
-Commons SVGs as a check (or, if Russell accepts third-party redrawings for a first pass, normalise the Commons
+Commons SVGs as a check (or, if the owner accepts third-party redrawings for a first pass, normalise the Commons
 set under its CC BY-SA terms and replace progressively). Budget: ~500 figures with variants (II 1 – II 482 plus 48+ /a /b variants).
 `Original PDFs (Gazzetta Ufficiale)/FIGURES-OCR.csv` is a tesseract pass over the scan (150 dpi, Italian):
 322 caption hits, 299 of the 482 base numbers read, with the GU PDF page for each — a partial index, to be

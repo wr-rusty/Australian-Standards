@@ -9,7 +9,7 @@ unclear, write it in `notes` and keep going.
 * `code`: the drawing code exactly as in the PNG filename minus `.png` (e.g. `TM2-4A`, `W1-1(R)(L)` -> use `W1-1` with `hands`).
 * `size`: `[width, height]` in mm of the **illustrated** size (the one marked "Illust." when a
   size table exists). Ignore the other sizes in the table.
-* `name`: filename stem in Russell's style — UPPERCASE words joined by `_`: legend words, then colour
+* `name`: filename stem in the owner's style — UPPERCASE words joined by `_`: legend words, then colour
   (`YELLOW` / `WHITE` / `RED` / `ORANGE` / `GREEN` / `BLUE` / `BROWN`), then shape word:
   `SQUARE` (1:1), `LONG` (2:1), `LONG_SKINNY` (4:1), `WIDE` (3:1), `WIDE_SKINNY` (6:1), `TALL` (portrait),
   `DIAMOND`, `ROUND`. Examples: `ROADWORK_YELLOW_SQUARE`, `ROAD_CLOSED_WHITE_LONG_SKINNY`, `STOP_SIGN`,

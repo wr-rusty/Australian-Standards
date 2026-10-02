@@ -4,7 +4,7 @@ TC9526:W=600,table_note="size A generated (a 600 x b 250, c 8 / d 24, f 100CN, r
 TC9744:W=300,table_note="size A generated (a 300 x b 200, c 4 / d 12, f 50CM, r 20; B also tabled)."
 TC1775_p2:W=600,table_note="size A generated (a 600 x b 400, c 8 / d 24, f 80EW, r 40; B and C also tabled)."
 TC1752:W=1500,table_note="size A generated (a 1500 x b 450, c 15 / d 30, 100DM / 100EM; B also tabled)."
-TC1423:W=2400,table_note="size A generated (a 2400 x b 1800, c 12 / d 32, 160EM, 120LC, r 200; B also tabled).",name="DRIVER_FATIGUE_CRASH_ZONE_NEXT_{km}_KM_YELLOW",legend="DRIVER FATIGUE CRASH ZONE NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[5,10,20]},notes_extra="Distance: the dashed box (no example) takes the distance in km: 5, 10 and 20 generated (Russell: the variants that make sense, not every value)."
+TC1423:W=2400,table_note="size A generated (a 2400 x b 1800, c 12 / d 32, 160EM, 120LC, r 200; B also tabled).",name="DRIVER_FATIGUE_CRASH_ZONE_NEXT_{km}_KM_YELLOW",legend="DRIVER FATIGUE CRASH ZONE NEXT {km} km",fill_box="{km}",vary={"key":"km","values":[5,10,20]},notes_extra="Distance: the dashed box (no example) takes the distance in km: 5, 10 and 20 generated (the owner: the variants that make sense, not every value)."
 TC1455:W=2400,table_note="size A generated (a 2400 x b 1800, c 12 / d 32, 160DM / 160EM, r 200; B also tabled)."
 TC2017:W=450,table_note="size A generated (a 450 x b 950, c 10 / d 30, r 50; B also tabled)."
 TC1372:which=0

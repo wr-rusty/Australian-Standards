@@ -17,11 +17,11 @@ AS 1319 safety signs (not traffic) were parked on 2026-09-05: pictograms traced 
 ## Evidence
 
 - PLAN.md Status — AS 1319 TODO
-- Processing/Australia/National (AS 1319)/SVGs — Russell's 16 existing files
+- Processing/Australia/National (AS 1319)/SVGs — the owner's 16 existing files
 
 ## Fix
 
-Write tools/specs/AS1319/*.json (H/D rule layouts, DANGER header per C1), lift the camera/video symbols from Russell's NO_PHOTO/NO_VIDEO SVGs, generate and compare against his 16 files.
+Write tools/specs/AS1319/*.json (H/D rule layouts, DANGER header per C1), lift the camera/video symbols from the owner's NO_PHOTO/NO_VIDEO SVGs, generate and compare against his 16 files.
 
 ## Verify
 

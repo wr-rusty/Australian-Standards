@@ -1,5 +1,7 @@
 # Plan: generate every sign variation in Complete/Australia/National (AS 1743) (and Processing/Australia/National (AS 1319))
 
+> This is the original plan for the AS 1743 pack (September 2026), kept for the record. Current status lives in `README.md`, `JURISDICTIONS.md` and `Tickets/INDEX.md`.
+
 Written 2026-09-04 after a full survey of the repo. This is the working plan for
 producing a dimensionally correct SVG for every sign drawing in the standards,
 in every size and handedness variant the standard lists.
@@ -79,7 +81,7 @@ in the manifest, not by renaming.
 - The `plus0` tracking variant reproduces the AS 1744 spacing tables. Proof: TM2-4A "ROAD" at 110 C computed 303.7 mm ink width (drawing: 303); "CLOSED" 451.2 mm (drawing: 450). Other variants (`minus10`, `plus10`…) change advance widths only; use them only where a drawing says "medium/condensed spacing".
 - Every AS 1743 dimension line that spans a word is therefore a free automated check.
 
-**Colours in use** (keep these unless Russell decides otherwise):
+**Colours in use** (keep these unless the owner decides otherwise):
 
 | Use | Hex | Seen in |
 |---|---|---|
@@ -222,7 +224,7 @@ restriction, hazard, emergency and fire pictograms).
 
 ---
 
-## 5. Decisions for Russell
+## 5. Decisions for the owner
 
 1. **Units**: switch all new output to 1 unit = 1 mm (recommended). Yes/no.
 2. **Naming**: code-based filenames for generated output, descriptive names kept via the manifest (recommended).
@@ -251,23 +253,23 @@ for AS 1743, then 2–3 for AS 1319.
 
 * Phases 0–4 done for AS 1743: every drawing has a spec (`tools/specs/`), 261 symbols traced, ~1,265 SVGs generated
   into family folders, 68 non-sign drawings skipped and accounted for in the manifest.
-* Rules changed from the original plan at Russell's direction: no size variants (only legend/hand variants), output
+* Rules changed from the original plan at the owner's direction: no size variants (only legend/hand variants), output
   grouped by family under `SVGs/`, header format = the speed-sign Illustrator exports, no metadata in SVGs,
   signs needing a decision go to `SVGs/intervene/`.
 * Phase 5 (QA) done for every family (2026-09-05): 1,196 clean files; 50 drawings in `SVGs/intervene/` (see `INTERVENE_LIST.md` there).
-* Arrows drawn geometrically (2026-09-05); Guide and Freeway families excluded from generation at Russell's request
+* Arrows drawn geometrically (2026-09-05); Guide and Freeway families excluded from generation at the owner's request
   (specs kept); all intervene items accepted.
 * TODO — AS 1319 (paused 2026-09-05): pictograms traced to `tools/symbols/as1319/` (31, from the standard's small
   rasters), generator drafted in `tools/as1319.py` (H/D rule layouts, DANGER header per C1, figure 3.1 arrows); specs
-  not yet written; Russell's camera/video symbols still to be lifted from his NO_PHOTO/NO_VIDEO SVGs. Resume by writing
+  not yet written; the owner's camera/video symbols still to be lifted from his NO_PHOTO/NO_VIDEO SVGs. Resume by writing
   `tools/specs/AS1319/*.json` and comparing against his 16 existing SVGs.
 * International: see `International/REVIEW.md` (USA first, then NZ, then UK).
   * USA (2026-09-05): FHWA Standard Highway Signs sheets (2004 edition, 2012 supplement, 2024 releases 1–6) downloaded to
     `Complete/USA/Federal (MUTCD 2023)/Original PDFs/`; artwork lifted exactly from the vector PDFs by `tools/shs_extract.py` (see `tools/README.md`),
     organised into family folders under `Complete/USA/Federal (MUTCD 2023)/SVGs/` with `MANIFEST.csv`. Newer edition supersedes older for the same
-    code. Open for Russell: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
+    code. Open for the owner: manifest rows noted "check" (size row chosen by rule where the 2024 tables have no
     conventional-road marker), guide signs drawn at sheet scale (no size table), and `SVGs/intervene/INTERVENE_LIST.md`.
-  * NZ (2026-09-05): NZTA sign-specifications register crawled with `tools/nz_crawl.py` (Russell passes the site's
+  * NZ (2026-09-05): NZTA sign-specifications register crawled with `tools/nz_crawl.py` (the owner passes the site's
     Imperva check once in the Browser pane; the tools reuse that session) into `Complete/New Zealand/National (TCD Manual)/` (`REGISTER.csv`,
     `Original EPS/`); `tools/nz_extract.py` lifts the EPS artwork (1:10, legends outlined) into `SVGs/<family>/` with
     `MANIFEST.csv`. Fonts per TCD Manual Part 1 §5.3.1: AS 1744 Series A–E + modified E lower case, Transport Medium NZ
@@ -278,7 +280,7 @@ for AS 1743, then 2–3 for AS 1319.
   * UK national built 2026-09-08 from the DfT EPS artwork (658 SVGs, in review).
 * TODO — variants for signs that need them (parking times, clearways, speed values; NZ signs composed from the symbol set) — SGN-068. Not every street-name sign; keep those as examples.
 * TODO — reconcile the old `SVGs/` folder against the generated set.
-* Layout (2026-09-06, agreed with Russell): country → jurisdiction pack → `Original …/` + `SVGs/<family>/`:
+* Layout (2026-09-06, agreed with the owner): country → jurisdiction pack → `Original …/` + `SVGs/<family>/`:
   `Complete/Australia/National (AS 1743)`, `Processing/Australia/<State>` (all eight states/territories, P1), `Complete/USA/Federal (MUTCD 2023)`,
   `Processing/USA/<State>` (major states first, minor states as tickets), `Complete/New Zealand/National (TCD Manual)`, `UK/<Region>`.
   Work is tracked in `Tickets/` (`python3 Tickets/tk.py list`, Akimbo format); Linear is not used.

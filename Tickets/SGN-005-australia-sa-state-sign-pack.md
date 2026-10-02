@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `Processing/Australia/SA/` with the SA-specific signs (those not in AS 1743, or drawn differently) from DIT Standard Road Sign Index. Russell's users work in every state, so every state pack is P1.
+Build `Processing/Australia/SA/` with the SA-specific signs (those not in AS 1743, or drawn differently) from DIT Standard Road Sign Index. the owner's users work in every state, so every state pack is P1.
 
 ## Evidence
 

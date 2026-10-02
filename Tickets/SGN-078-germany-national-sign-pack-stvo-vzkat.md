@@ -69,6 +69,6 @@ Researched 2026-09-08; full detail in `Processing/Germany/National (StVO)/SOURCE
   (`tools/uk_eps.py` pattern) over the free BASt EPS (post-2017 signs, VLT, pictograms). Step 2: buy the BASt
   stick, convert the ~1,000 DVKAZ files with DV-Vision in a Windows VM, and run the same pipeline over the full
   catalogue; JPGs serve as the visual check and for anything the stick lacks.
-- **Russell decides:** (a) buy the BASt data stick (297.50 €) and provide a Windows VM/PC for DV-Vision, or
+- **the owner decides:** (a) buy the BASt data stick (297.50 €) and provide a Windows VM/PC for DV-Vision, or
   (b) generate the pre-2017 signs from the VzKat sizes + JPGs / Commons SVGs instead; (c) whether RWB/RWBA
   composed guide signs are in scope (the FGSV rules would have to be bought and only the pictograms are free).

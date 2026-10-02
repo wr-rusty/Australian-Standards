@@ -40,14 +40,14 @@ decided, and what disagrees. Rows with no file are skips; the reason is in the r
 ## What to record
 
 In the inspection ticket's Log, one line per finding: `CODE — what is wrong — what the source shows`. Then one of:
-**fix** (the SVG disagrees with its source), **decide** (the source is ambiguous or wrong; Russell decides),
+**fix** (the SVG disagrees with its source), **decide** (the source is ambiguous or wrong; the owner decides),
 **ok as noted** (the manifest note already explains it). Finish with the count inspected, the count sampled by
 overlay, and whether the pack can move to `Complete/`.
 
 ## Not defects
 
 * The SVG header: `width`/`height` in mm are the viewBox in points × 25.4/72, viewBox 1 pt = 1 cm of sign, one
-  `<g transform="scale(0.1)">`. This matches Russell's Illustrator exports and is deliberate.
+  `<g transform="scale(0.1)">`. This matches the owner's Illustrator exports and is deliberate.
 * No size variants: one file per sign at the illustrated size.
 * Guide and Freeway families are excluded on purpose; example and site-specific sheets are skipped on purpose.
 * State packs hold only state-specific signs; a code that exists in the national pack is a manifest pointer, not a file.

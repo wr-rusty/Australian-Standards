@@ -92,7 +92,7 @@ Researched 2026-09-08 (SGN-078). First build from the free vector sets the same 
 Official vector artwork → convert, in two steps: (1) build now from the free BASt EPS (Vz2017 + VLT 2021 +
 Sinnbilder/RWB/RWBA symbols) with the UK EPS pipeline, and the 670 JPGs only as a visual check; (2) buy the
 BASt data stick (297.50 €) and convert the ~1,000 DVKAZ signs to EPS with DV-Vision (needs a Windows VM), then
-run the same pipeline over the whole catalogue. If Russell does not want to buy, the alternative for the
+run the same pipeline over the whole catalogue. If the owner does not want to buy, the alternative for the
 pre-2017 signs is "drawings/spec only → generate" from the VzKat sizes plus the JPGs, or the Commons SVGs.
 
 ## Build (2026-09-08, `tools/de_bast.py`)

@@ -20,7 +20,7 @@ def vary(km):
     return {"key": "opt", "values": [1, 2, 3, 4, 5, 6]}
 COMMON = ("Red sign: red edge 30 + white border 30 (the sheet's 30 / 60), r 130, white legend on Class 400 retroreflective red. The '*' diamond is the sheet's 'insert appropriate warning sign option - refer page 6': the six crash-scene options of page 6 (1-4 side impact, 5 head on, 6 rear end) are generated as variants, each scene the sheet PDF's own vector artwork placed in the diamond as page 6 draws it; "
           "the inset diamond is {side} side (note 2), yellow edge {e} + black border {b}, r {r} (the QLD W-series values at that size; not dimensioned on this sheet), and the sheet's dimensions run to its rounded tips. ")
-KM = "Distance '**' = 'insert appropriate distance' with no example: 2, 5 and 10 km generated (Russell: the variants that make sense, not every value). "
+KM = "Distance '**' = 'insert appropriate distance' with no example: 2, 5 and 10 km generated (the owner: the variants that make sense, not every value). "
 def com(side): return COMMON.format(side=side, e=15 if side == 900 else 10, b=30 if side == 900 else 20, r=60 if side == 900 else 50)
 c9 = 100 - 24.85 + 636.4
 # page 1

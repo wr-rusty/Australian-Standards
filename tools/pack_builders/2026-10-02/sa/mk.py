@@ -1,6 +1,6 @@
 """spec builder helpers (scratch, SA)"""
 import json, math, os, sys
-ROOT="/Users/russell/Local/GitHub/Australian-Standards"
+ROOT="/Users/USER/Local/GitHub/Australian-Standards"
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); sys.path.insert(0, ROOT+"/tools"); import signgen as G
 PRE="DIT SA Standard Road Sign Index sheet (A4, legends and dimensions outlined, colour legend; size from the sheet's size table = register). Every dimension from the sheet; AS 1744 (plus0) spacing. "
 E2="The sheet's two edge figures are the white edge and edge + black border, as the AS 1743 drawings. "

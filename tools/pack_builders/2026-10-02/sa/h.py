@@ -1,6 +1,6 @@
 """helpers: crop(code, box200, dpi) -> png path; pdf_for(code)"""
 import csv, os, re, sys, pymupdf
-ROOT="/Users/russell/Local/GitHub/Australian-Standards"; SA=ROOT+"/Processing/Australia/SA"
+ROOT="/Users/USER/Local/GitHub/Australian-Standards"; SA=ROOT+"/Processing/Australia/SA"
 S=os.path.dirname(os.path.abspath(__file__))
 _reg=None
 def reg():

@@ -1,7 +1,7 @@
 """ov.py out_prefix CODE...  — compare_drawing's overlay on a high-dpi render of the SA sheet (panel_px from the spec, else C.locate)."""
 import sys, os, json, warnings
 warnings.filterwarnings("ignore")
-ROOT="/Users/russell/Local/GitHub/Australian-Standards"
+ROOT="/Users/USER/Local/GitHub/Australian-Standards"
 sys.path.insert(0,"."); sys.path.insert(0,ROOT+"/tools")
 import compare_drawing as C, h
 from PIL import Image, ImageDraw

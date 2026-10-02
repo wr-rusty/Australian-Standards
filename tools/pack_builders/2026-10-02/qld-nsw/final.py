@@ -1,6 +1,6 @@
 import os, glob, subprocess, filecmp
 from PIL import Image, ImageDraw
-V="/private/tmp/claude-501/-Users-russell-Local-GitHub-Australian-Standards/864c19bd-a9fd-4e42-b214-2b760136839d/scratchpad"
+V="/private/tmp/claude-501/-Users-USER-Local-GitHub-Australian-Standards/864c19bd-a9fd-4e42-b214-2b760136839d/scratchpad"
 root="Processing/Australia/QLD/SVGs (generated)"; old=V+"/oldgen/SVGs (generated)"
 import csv, subprocess as sp
 before={r[1] for r in csv.reader(open(V+"/MANIFEST.before.csv")) if len(r)>1}

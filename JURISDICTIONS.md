@@ -1,25 +1,26 @@
 # Jurisdictions and packs
 
-Country → jurisdiction pack → `Original …/` (sources) + `SVGs/<family>/` (deliverable) + `SVGs/MANIFEST.csv`.
-The SitePilot upload takes the `SVGs/` folders; a jurisdiction's signs are the national pack plus its own pack.
+Country → jurisdiction pack → `Original …/` (sources) + `SVGs/<family>/` (deliverable) + `MANIFEST.csv`.
+State packs carry their spec-driven set in `SVGs (generated)/`; `SVGs/` there is the earlier extraction, source
+material only. A jurisdiction's signs are the national pack plus its own pack.
 
-| Country | Jurisdiction | Pack folder | Status (2026-09-06) |
-|---|---|---|---|
-| Australia | national | `Complete/Australia/National (AS 1743)` | 1,026 signs generated from AS 1743-2023 (Guide/Freeway families excluded by decision) |
-| Australia | national safety signs | `Processing/Australia/National (AS 1319)` | Russell's 16 SVGs; generator drafted, specs TODO (SGN-064) |
-| Australia | NSW | `Processing/Australia/NSW` | register crawled (1,662 signs, 1,162 plans); extraction in progress (SGN-001) |
-| Australia | VIC | `Processing/Australia/VIC` | 319 signs from the DTP Supplement to AS 1743 (TEM 2.17) and TEM 3.12 (SGN-002) |
-| Australia | QLD | `Processing/Australia/QLD` | TC signs pack, 731 SVGs (SGN-003); Q-series book TODO |
-| Australia | WA | `Processing/Australia/WA` | ~1,200 signs from the Signs Index DWGs (LibreDWG + ezdxf); colours by note / series default, check notes (SGN-004) |
-| Australia | SA | `Processing/Australia/SA` | sign index (1,211) and 685 PDFs; extraction in progress (SGN-005) |
-| Australia | TAS | `Processing/Australia/TAS` | 17 sign drawings listed (SOURCES.md); PDFs need saving by hand past the bot wall (SGN-006) |
-| Australia | NT | `Processing/Australia/NT` | DLI standard drawings CS 3400–3599 hold the NT sign faces; PDFs need saving by hand past the bot wall (SGN-007) |
-| Australia | ACT | `Processing/Australia/ACT` | national pack + TCCS ACTSD parking sheets (scans; 5 pay-parking SVGs) (SGN-008) |
-| New Zealand | national | `Complete/New Zealand/National (TCD Manual)` | 1,266 signs (NZTA register swept by id; speed limits, priority and warning sets included) |
-| USA | federal | `Complete/USA/Federal (MUTCD 2023)` | 1,441 signs (FHWA SHS 2004/2012/2024); reviewed | 
-| USA | states | `Processing/USA/<State>` | see `Processing/USA/STATES.csv`; major states SGN-009..018, others SGN-019..059 |
-| UK | national (England, Wales, Scotland) | `Processing/United Kingdom/National (TSRGD 2016)` | 658 SVGs from the DfT's own coloured EPS artwork (OGL v3), sizes from the working drawings where stated; in review (SGN-060) |
-| Germany | national | `Processing/Germany/National (StVO)` | sources to find (SGN-078) |
-| France | national | `Processing/France/National (IISR)` | sources to find (SGN-079) |
-| Italy | national | `Processing/Italy/National (Codice della Strada)` | sources to find (SGN-080) |
-| Canada | national + provinces | `Processing/Canada/National (MUTCDC)` | to do: TAC Manual of Uniform Traffic Control Devices for Canada (paid, TAC) and provincial books (Ontario Traffic Manual, Québec Tome V, BC MoTI, Alberta); sources to find (SGN-082) |
+| Country | Jurisdiction | Pack folder | Status (2026-10-02) | Ticket |
+|---|---|---|---|---|
+| Australia | national | `Complete/Australia/National (AS 1743)` | 1,068 signs generated from AS 1743-2023 and overlaid on every drawing; Guide/Freeway families excluded by decision | SGN-081 |
+| Australia | national safety signs | `Processing/Australia/National (AS 1319)` | 16 hand-made SVGs; generator drafted; paused until the standard's text is supplied | SGN-064 |
+| Australia | NSW | `Processing/Australia/NSW` | 538 generated from TfNSW design plans (all families bar Guide/Freeway); one sign open; awaiting inspection | SGN-001, SGN-087, SGN-094 |
+| Australia | QLD | `Processing/Australia/QLD` | 491 generated from TMR sheets (Regulatory, Speed, Parking, Warning); Temporary, Service, Hazard to do | SGN-003, SGN-083, SGN-095 |
+| Australia | SA | `Processing/Australia/SA` | 565 generated from DIT sheets; "Other" series to do; artwork-built families need their figures read | SGN-005, SGN-084, SGN-085, SGN-096 |
+| Australia | TAS | `Processing/Australia/TAS` | 15 generated from the standard drawings; reuse terms to record | SGN-006, SGN-090, SGN-097 |
+| Australia | NT | `Processing/Australia/NT` | 8 generated; 6 sheets point at the national pack; reuse terms to record | SGN-007, SGN-090, SGN-097 |
+| Australia | VIC | `Processing/Australia/VIC` | 319 extracted from the DTP Supplement to AS 1743; spec-driven rebuild not started | SGN-002, SGN-086 |
+| Australia | WA | `Processing/Australia/WA` | 1,189 extracted from the Signs Index DWGs, colours uncertain; rebuild not started | SGN-004, SGN-086 |
+| Australia | ACT | `Processing/Australia/ACT` | national pack plus 5 parking sheets (scans); rebuild not started | SGN-008, SGN-086 |
+| New Zealand | national | `Complete/New Zealand/National (TCD Manual)` | 1,437 signs: NZTA register artwork plus 149 parking time-plate variants | SGN-068, SGN-101 |
+| USA | federal | `Complete/USA/Federal (MUTCD 2023)` | 1,451 signs (FHWA SHS 2004/2012/2024); artifacts removed, one colour value per MUTCD colour | SGN-065, SGN-102 |
+| USA | states | `Processing/USA/<State>` | California (229) and Texas (1,144) extractions on file, not rebuilt; see `Processing/USA/STATES.csv` | SGN-009..059 |
+| UK | national (England, Wales, Scotland) | `Processing/United Kingdom/National (TSRGD 2016)` | 658 from the DfT's own artwork; sizes from the working drawings where stated; awaiting inspection | SGN-060, SGN-098 |
+| France | national | `Processing/France/National (IISR)` | 484 from Cerema's official SVGs, 46 set aside; 45 sizes to check; attribution line needed | SGN-079, SGN-089, SGN-099 |
+| Germany | national | `Processing/Germany/National (StVO)` | 232 from BASt's free vector set; 996 catalogue entries need the paid set or generation | SGN-078, SGN-100 |
+| Italy | national | `Processing/Italy/National (Codice della Strada)` | sources only (1992 Gazzetta figures, scan); to be generated | SGN-080 |
+| Canada | national + provinces | `Processing/Canada/National (MUTCDC)` | not started; national manual is sold by TAC, provincial manuals are free | SGN-082 |

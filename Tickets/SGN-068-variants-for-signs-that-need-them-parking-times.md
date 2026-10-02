@@ -30,7 +30,7 @@ source: manual
 
 - 2026-09-08 — filed.
 
-## What Russell asked (2026-09-08)
+## What the owner asked (2026-09-08)
 
 "Add to the todo that we need to ensure we are providing all variants of signs that need it. I don't mean every single
 street sign — the example street signs (like 'Auckland this turn') are fine as examples; these signs are made ad hoc
@@ -93,5 +93,5 @@ register says 75D; the variants follow the register (75D). Files: `<TITLE>_P<VAL
 
 ## Log
 
-- 2026-09-08 — filed from Russell's message while the UK national pack was being built.
+- 2026-09-08 — filed from the owner's message while the UK national pack was being built.
 - 2026-09-08 — NZ built: `tools/nz_variants.py` composed 149 time-limit variants into `SVGs/Parking Signs/` (PP21 standard hours 15, PP22 non-standard/other times 42, bus 28, shuttle 28, loading zone 12, PZ zone signs 24), one MANIFEST.csv row each with the composition note; contact sheet rendered and inspected, geometry re-checked against the bases (baseline and centring within 0.05 mm). Remaining: disabled-parking bases need re-extraction before their variants; EV, clearway and no-stopping time plates not composed (see inventory); other packs (AU/US/UK) not started.

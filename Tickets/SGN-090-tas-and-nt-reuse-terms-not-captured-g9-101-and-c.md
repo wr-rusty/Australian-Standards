@@ -20,7 +20,7 @@ Both sites' copyright pages are behind the bot wall, so reuse terms are recorded
 
 ## Fix
 
-Russell reads the two copyright pages in a browser and records the terms; decides whether G9-101 is generated and where CS3507 files.
+The owner reads the two copyright pages in a browser and records the terms; decides whether G9-101 is generated and where CS3507 files.
 
 ## Verify
 

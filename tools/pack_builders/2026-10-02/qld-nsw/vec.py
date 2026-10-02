@@ -7,7 +7,7 @@ import pymupdf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fixwind import fix
 V = os.path.dirname(os.path.abspath(__file__)); K = 200 / 72
-ROOT = "/Users/russell/Local/GitHub/Australian-Standards"
+ROOT = "/Users/USER/Local/GitHub/Australian-Standards"
 def page_for(code):
     if code.lower().endswith(".pdf") or "@" in code:
         path, _, pg = code.partition("@"); return pymupdf.open(path)[int(pg or 0)]

@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `Processing/Australia/QLD/` with the QLD-specific signs (those not in AS 1743, or drawn differently) from TMR Queensland MUTCD Q-series and TC signs. Russell's users work in every state, so every state pack is P1.
+Build `Processing/Australia/QLD/` with the QLD-specific signs (those not in AS 1743, or drawn differently) from TMR Queensland MUTCD Q-series and TC signs. the owner's users work in every state, so every state pack is P1.
 
 ## Evidence
 
@@ -40,4 +40,4 @@ Review sheets checked; corner transparency check clean; MANIFEST.csv lists every
 
 - 2026-10-02 — review of a 56-sign Warning sample after the run: clean except two to resolve — the "CAUTION ICON TURNING" sign carries the sheet's placeholder word ICON as its legend (should be the vehicle class the sheet lists, or skipped), and WANDERING STOCK NEXT 5 km carries the example station name DULKANINNA STATION (site-specific: keep as an example or drop the name panel).
 
-- 2026-10-02 — Russell decided: TC9972 skipped (ICON is a placeholder); W5-Q10-1 kept without the station-name panel (blank band left where the sheet puts it). Regenerated, 491 SVGs.
+- 2026-10-02 — the owner decided: TC9972 skipped (ICON is a placeholder); W5-Q10-1 kept without the station-name panel (blank band left where the sheet puts it). Regenerated, 491 SVGs.

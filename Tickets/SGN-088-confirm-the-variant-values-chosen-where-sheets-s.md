@@ -23,7 +23,7 @@ Where a sheet gives no list, variants are the sheet's example plus values in usu
 
 ## Fix
 
-Russell (or the inspector) marks which values stay; specs trimmed and regenerated.
+The owner (or the inspector) marks which values stay; specs trimmed and regenerated.
 
 ## Verify
 

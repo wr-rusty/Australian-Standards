@@ -12,7 +12,7 @@ source: manual
 
 ## Summary
 
-Build `Processing/Australia/VIC/` with the VIC-specific signs (those not in AS 1743, or drawn differently) from Department of Transport and Planning (VicRoads) sign drawings. Russell's users work in every state, so every state pack is P1.
+Build `Processing/Australia/VIC/` with the VIC-specific signs (those not in AS 1743, or drawn differently) from Department of Transport and Planning (VicRoads) sign drawings. the owner's users work in every state, so every state pack is P1.
 
 ## Evidence
 

@@ -1,7 +1,7 @@
 """mont.py out.png cols CODE... — thumbnails of sheets (frame area only), labelled"""
 import sys
 from PIL import Image, ImageDraw
-SA="/Users/russell/Local/GitHub/Australian-Standards/Processing/Australia/SA/Original PNGs/"
+SA="/Users/USER/Local/GitHub/Australian-Standards/Processing/Australia/SA/Original PNGs/"
 out=sys.argv[1]; cols=int(sys.argv[2]); codes=sys.argv[3:]; tw=int(1900/cols)
 ims=[]
 for c in codes:

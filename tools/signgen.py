@@ -2,10 +2,10 @@
 """
 signgen.py — generate AS 1743 sign SVGs from JSON specs (tools/specs/**/*.json).
 
-Rules (agreed with Russell, Sept 2026):
+Rules (agreed with the owner, Sept 2026):
 * One SVG per drawing at the size the standard illustrates. Variants only where the
   standard draws a meaningful difference: legend values that "vary" (speeds), (L)/(R).
-* Header matches Russell's Illustrator speed-sign exports: viewBox in points at
+* Header matches the owner's Illustrator speed-sign exports: viewBox in points at
   1 pt = 1 cm of drawn sign (a 600 mm sign -> viewBox 60 wide), width/height given in
   mm at 72 pt/in (60 pt = 21.17mm), e.g. his 60_SPEED_SIGN.svg is
   width="23.25mm" height="30.78mm" viewBox="0 0 65.91 87.26". Specs stay in mm.
@@ -75,7 +75,7 @@ COLOURS = {"yellow": "#ffe40d", "red": "#ed1c24", "white": "#fff", "black": "#00
            "yellowgreen": "#c4d82e", "grey": "#8c8c8c"}
 KEYLINE_MM = 2.0
 WIDTH_MISMATCH_TO_INTERVENE = False
-EXCLUDE_FOLDERS = {"Freeway Signs", "Guide Signs"}   # not traffic signs for the platform (Russell, 2026-09-05); specs kept, not generated   # drawing width figures that contradict AS 1744 spacing are accepted as typos (Russell, 2026-09-05)
+EXCLUDE_FOLDERS = {"Freeway Signs", "Guide Signs"}   # not traffic signs for the platform (the owner, 2026-09-05); specs kept, not generated   # drawing width figures that contradict AS 1744 spacing are accepted as typos (the owner, 2026-09-05)
 OUT_SCALE = 0.1   # mm -> output units (1 unit = 1 cm)
 
 def col(c): return COLOURS.get(c, c)

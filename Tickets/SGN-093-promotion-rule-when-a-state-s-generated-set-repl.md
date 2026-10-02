@@ -20,7 +20,7 @@ State packs now hold two sets: the rejected extraction in SVGs/ and the spec-dri
 
 ## Fix
 
-Russell decides: after inspection passes, 'SVGs (generated)' becomes SVGs/, the extraction moves to an archive folder (not deleted), the pack moves to Complete/.
+The owner decides: after inspection passes, 'SVGs (generated)' becomes SVGs/, the extraction moves to an archive folder (not deleted), the pack moves to Complete/.
 
 ## Verify
 

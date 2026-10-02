@@ -139,3 +139,27 @@ base pack and leaves a manifest row pointing to the base file. Extraction is mem
 and extractor version) and `tools/precache.py` fills the memo in parallel, so reruns cost minutes.
 * `fr_cerema.py` — France national pack from Cerema's official IISR SVGs (Licence Ouverte 2.0): sizes from the file's mm dimensions at the drawn scale (1:5 default; 1:10/1:15 where Cerema drew so, set from the IISR size tables), strokes to fills, text outlined, artboards dropped; illustrations, assemblies and multi-drawing sheets go to intervene. Output Processing/France/National (IISR)/SVGs.
 * `de_bast.py` — Germany national pack from BASt's free vector artwork (EPS at 1:1 via the uk_eps route); REGISTER.csv of every Zeichen with the vector/JPG/none gap.
+
+## Packs built from specs — `signgen.py` with `"pack"`
+
+A spec with top-level `"pack": "NSW"` (also `QLD`, `SA`, `TAS`, `NT`; see `PACKS` in `signgen.py`) is written to that
+pack's `SVGs (generated)/` with its own `MANIFEST.csv`; the pack's sheets are rendered to `Original PNGs/` for tracing
+and checking. A run with explicit spec paths merges its rows into the existing manifest; a run with no arguments
+rewrites everything. `vary.keys` varies several values at once; a symbol `id` may carry a vary placeholder.
+
+## Checking against the source
+
+* `compare_drawing.py out.png CODE[=value][@x0,y0,x1,y1] …` — lays a generated sign over its drawing: drawing,
+  generated, overlay (red = drawing only, blue = generated only, green = both). Works for AS 1743 and the state packs.
+* `drawing_check.py out FAMILY …` — scores every spec of a family against its drawing; ranked CSV and a sheet of the
+  worst overlays.
+* `trace_symbol.py` — traces a symbol from a drawing into `tools/symbols/`; `--render-pngs` renders a pack's sheets,
+  `--turn DEG` forces the upright rotation.
+
+## Other packs
+
+* `uk_crawl.py`, `uk_sizes.py`, `uk_eps.py` — UK national pack: working drawings crawled, size figures read by OCR,
+  the DfT's EPS artwork converted.
+* `nz_sweep.py`, `nz_variants.py` — NZ register swept by id; parking time-plate variants composed from NZTA artwork.
+* `dedupe_pack.py <pack> <base>` — removes from a state pack any sign whose code exists in the base pack.
+* `pack_builders/` — working scripts from the state builds, kept for the record (see its README).

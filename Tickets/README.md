@@ -30,7 +30,7 @@ source: manual | review-YYYY-MM-DD
 ## Log          dated entries, newest last
 ```
 
-Priority: P0 = wrong or missing official signs in a shipped pack, licence breach. P1 = a pack Russell's users need (Australian states, major US states). P2 = the rest of the roadmap. P3 = nit.
+Priority: P0 = wrong or missing official signs in a shipped pack, licence breach. P1 = a pack the owner's users need (Australian states, major US states). P2 = the rest of the roadmap. P3 = nit.
 
 Projects: `australia` national + state packs · `usa` federal + state packs · `nz` TCD Manual pack · `uk` TSRGD packs · `pipeline` extractor/QA tooling · `repo` repo, docs and layout.
 

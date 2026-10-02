@@ -20,7 +20,7 @@ France has 484 signs + 46 in intervene. 45 manifest rows are marked SIZE TO CHEC
 
 ## Fix
 
-Read the IISR figures sign by sign for the 45 sizes; Russell decides whether devices stay in the sign pack or move to the devices work; settle the wording 'Source : Cerema, licence Etalab 2.0, 2025'.
+Read the IISR figures sign by sign for the 45 sizes; the owner decides whether devices stay in the sign pack or move to the devices work; settle the wording 'Source : Cerema, licence Etalab 2.0, 2025'.
 
 ## Verify
 

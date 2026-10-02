@@ -1,6 +1,6 @@
 """render.py CODE... : render TC sheets (all pages) upright at 200 dpi into the QLD Original PNGs folder (TC1234.png, TC1234_p2.png ...)"""
 import sys, os, glob, re, pymupdf
-ROOT = "/Users/russell/Local/GitHub/Australian-Standards/Processing/Australia/QLD/"
+ROOT = "/Users/USER/Local/GitHub/Australian-Standards/Processing/Australia/QLD/"
 allpdf = [f for f in glob.glob(ROOT + "Original PDFs/TC signs/**/*.pdf", recursive=True) if "/Superseded/" not in f]
 def find(code):
     num = code[2:]
