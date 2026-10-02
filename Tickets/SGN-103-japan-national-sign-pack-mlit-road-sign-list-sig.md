@@ -30,3 +30,5 @@ SVGs + MANIFEST.csv, contact sheets inspected, SOURCES.md with licence.
 ## Log
 
 - 2026-10-02 — filed.
+
+- 2026-10-02 — build stopped mid-run when the owner packed up; work on disk checkpointed (not yet inspected, log entry not written by the agent). Resume from the files.
