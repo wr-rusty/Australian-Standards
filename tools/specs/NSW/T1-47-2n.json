@@ -1,6 +1,111 @@
 {
  "code": "T1-47-2n",
  "pack": "NSW",
- "legend": "Queued Traffic Prepare To Stop - Do Not Overtake",
- "skip": "older outlined sheet: three-panel assembly (queued cars, PREPARE TO STOP patch, DO NOT OVERTAKE) drawn in fragments; needs hand work (remaining)"
+ "name": "QUEUED_TRAFFIC_PREPARE_TO_STOP_DO_NOT_OVERTAKE_LONG",
+ "legend": "PREPARE TO STOP DO NOT OVERTAKE",
+ "shape": "rect",
+ "size": [
+  1680,
+  1260
+ ],
+ "radius": 0,
+ "ground": "black",
+ "panel_px": [
+  1714,
+  384,
+  2609,
+  1057
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 35,
+   "y": 35,
+   "w": 787.5,
+   "h": 787.5,
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 857.5,
+   "y": 35,
+   "w": 787.5,
+   "h": 787.5,
+   "colour": "red"
+  },
+  {
+   "type": "rect",
+   "x": 35,
+   "y": 857.5,
+   "w": 1610,
+   "h": 367.5,
+   "colour": "white"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_t1-47n_queued_cars",
+   "x": 70,
+   "y": 174,
+   "w": 700,
+   "h": 493
+  },
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "C",
+   "height": 140,
+   "top": 112,
+   "cx": 1260,
+   "colour": "white",
+   "expect": 682
+  },
+  {
+   "type": "text",
+   "text": "TO",
+   "series": "D",
+   "height": 140,
+   "top": 350,
+   "cx": 1260,
+   "colour": "white",
+   "expect": 204
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "D",
+   "height": 140,
+   "top": 588,
+   "cx": 1260,
+   "colour": "white",
+   "expect": 437
+  },
+  {
+   "type": "text",
+   "words": [
+    "DO",
+    "NOT",
+    "OVERTAKE"
+   ],
+   "gap": [
+    91,
+    80
+   ],
+   "series": "C",
+   "height": 155,
+   "top": 972,
+   "expect": [
+    205,
+    303,
+    834
+   ]
+  }
+ ],
+ "symbols": {
+  "nsw_t1-47n_queued_cars": {
+   "source": "T1-47n",
+   "pack": "NSW",
+   "desc": "three queued cars from behind with red tail lights: the T1-47n symbol (same symbol detail on these sheets), scaled to the stated box"
+  }
+ },
+ "notes": "TfNSW plan T1-47-2n (Roads & Maritime 2019 sheet, 1:15, text outlined): size (B) 1680 x 1260 drawn ((A) 1200 x 900 also on the sheet; the largest is generated). Square corners, black border 35 ('35' corner mark), black 35 dividers centred on x 840 (upper panels) and y 840. Upper left yellow with the queued-cars symbol 700 x 493 at 70 / 174 (70 / 700 / 70, 174 / 493 / 174); upper right red with white PREPARE 140 C (78 / 682 / 80 from x 840), TO 140 D (204), STOP 140 D (437), tops 112 / 350 / 588 (112 / 140 / 98 / 140 / 98 / 140 / 112); lower panel white with black DO NOT OVERTAKE 155 Series C (labelled '155D', but the stated 205 / 303 / 834 are the Series C widths; D would be 247 / 366 / 1003 and overrun the panel), top 972 (132 / 155 / 133 below y 840), 83 / 205 / 91 / 303 / 80 / 834 / 84. Drawn on a black ground with the coloured panels as rectangles."
 }

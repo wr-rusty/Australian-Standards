@@ -1,6 +1,99 @@
 {
  "code": "T2-240n",
  "pack": "NSW",
- "legend": "New Speed Camera To Commence Soon",
- "skip": "older outlined sheet: camera symbol and two-panel layout drawn in fragments; needs hand work (remaining)"
+ "name": "NEW_SPEED_CAMERA_TO_COMMENCE_SOON_YELLOW_LONG",
+ "legend": "NEW SPEED CAMERA TO COMMENCE SOON",
+ "shape": "rect",
+ "size": [
+  1320,
+  1200
+ ],
+ "radius": 65,
+ "ground": "yellow",
+ "panel_px": [
+  667,
+  323,
+  1720,
+  1280
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t2-240n_camera",
+   "x": 325,
+   "y": 92,
+   "w": 670,
+   "h": 280
+  },
+  {
+   "type": "text",
+   "text": "NEW",
+   "series": "D",
+   "height": 100,
+   "top": 425,
+   "expect": 251
+  },
+  {
+   "type": "text",
+   "words": [
+    "SPEED",
+    "CAMERA"
+   ],
+   "gap": 63,
+   "series": "D",
+   "height": 100,
+   "top": 575,
+   "expect": [
+    394,
+    523
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 757,
+   "w": 1320,
+   "h": 18,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "TO",
+    "COMMENCE"
+   ],
+   "gap": 63,
+   "series": "D",
+   "height": 100,
+   "top": 865,
+   "expect": [
+    146,
+    706
+   ]
+  },
+  {
+   "type": "text",
+   "text": "SOON",
+   "series": "D",
+   "height": 100,
+   "top": 1020,
+   "expect": 335
+  }
+ ],
+ "symbols": {
+  "nsw_t2-240n_camera": {
+   "source": "T2-240n",
+   "pack": "NSW",
+   "panel_px": [
+    667,
+    323,
+    1720,
+    1280
+   ],
+   "inset": 0,
+   "nomask": true,
+   "desc": "camera with four radar arcs, 670 x 280 (symbol detail on a 50 mm grid)"
+  }
+ },
+ "notes": "TfNSW plan T2-240n (Roads & Maritime 2019 sheet, 1:10, text outlined): 1320 x 1200, R65, yellow with no border (hairline outline only). Vertical chain 92 / 280 (symbol) / 53 / 100 / 50 / 100 / 82 / 18 (black bar, full width) / 90 / 100 / 55 / 100 / 80; all legend 100 D. Camera symbol 670 x 280 at 325 from the left (325 / 670 / 325), traced from the sheet. NEW 534 / 251 / 535; SPEED CAMERA 170 / 394 / 63 / 523 / 170; TO COMMENCE 202 / 146 / 63 / 706 / 203; SOON 492 / 335 / 493."
 }

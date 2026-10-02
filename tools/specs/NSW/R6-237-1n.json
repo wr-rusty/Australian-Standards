@@ -122,7 +122,25 @@
     130,
     140
    ]
+  },
+  {
+   "type": "text",
+   "text": "T",
+   "series": "Emod",
+   "height": 12.2,
+   "top": 137.0,
+   "align": "left",
+   "x": 192.7
+  },
+  {
+   "type": "text",
+   "text": "WAY",
+   "series": "Emod",
+   "height": 12.2,
+   "top": 137.0,
+   "align": "left",
+   "x": 212.4
   }
  ],
- "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '750 x 450' (H x W) = 450 x 750, Cnr Rad 60, Border '5 x 10' = edge 5 (white) + border 10 (black) (drawn as a 10.0 stroke centred 10.0 in), Patch CR 12; Aluminium Sign; Black lgd; Cl.400 White refl grd(AS1906.1); T-Way Patch:-Cl.400 White refl lgd on Cl.400 Red refl Grd. Fonts: T-WAY: FHWA Series E2000EX 60; LANE: FHWA Series E2000EX 70; 24: FHWA Series E2000EX 70; hrs: FHWA Series Em2000EX 60. T-WAY 60 E top 218.0 (baseline 278; plan advance box 88-362, dims 270) LANE 70 E top 342.5 (baseline 412; plan advance box 82-364, dims 268) 24 hrs 70 E top 447.6 (baseline 518; plan advance box 68-383, dims [130, 140]) symbol: 12 filled paths from the sheet's own vector artwork (bbox [60.0, 40.0, 390.0, 710.8])"
+ "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '750 x 450' (H x W) = 450 x 750, Cnr Rad 60, Border '5 x 10' = edge 5 (white) + border 10 (black) (drawn as a 10.0 stroke centred 10.0 in), Patch CR 12; Aluminium Sign; Black lgd; Cl.400 White refl grd(AS1906.1); T-Way Patch:-Cl.400 White refl lgd on Cl.400 Red refl Grd. Fonts: T-WAY: FHWA Series E2000EX 60; LANE: FHWA Series E2000EX 70; 24: FHWA Series E2000EX 70; hrs: FHWA Series Em2000EX 60. T-WAY 60 E top 218.0 (baseline 278; plan advance box 88-362, dims 270) LANE 70 E top 342.5 (baseline 412; plan advance box 82-364, dims 268) 24 hrs 70 E top 447.6 (baseline 518; plan advance box 68-383, dims [130, 140]) symbol: 12 filled paths from the sheet's own vector artwork (bbox [60.0, 40.0, 390.0, 710.8]) T-way logo lettering: the sheet sets T-WAY in 'AS1744 Modified E' at cap height 12.2 (live text 'TWAY' with a drawn hyphen bar); added as Series E(M) text at the plan's character origins."
 }

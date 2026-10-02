@@ -1,6 +1,88 @@
 {
  "code": "T4-213-1n",
  "pack": "NSW",
- "legend": "Cyclists Race In Progress",
- "skip": "older outlined sheet: the cyclists symbol and the RACE / IN PROGRESS lines are drawn in fragments the outline reader misreads; needs hand work (remaining)"
+ "name": "CYCLISTS_RACE_IN_PROGRESS_YELLOW_SQUARE",
+ "legend": "CYCLISTS RACE IN PROGRESS",
+ "shape": "rect",
+ "size": [
+  1000,
+  1000
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  1058,
+  462,
+  1858,
+  1262
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "CYCLISTS",
+   "series": "D",
+   "height": 120,
+   "top": 90,
+   "expect": 713
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_t4-213-1n_racing_cyclist",
+   "x": 118,
+   "y": 280,
+   "w": 302,
+   "h": 250
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_t4-213-1n_racing_cyclist",
+   "x": 582,
+   "y": 280,
+   "w": 302,
+   "h": 250
+  },
+  {
+   "type": "text",
+   "text": "RACE",
+   "series": "D",
+   "height": 120,
+   "top": 600,
+   "expect": 391
+  },
+  {
+   "type": "text",
+   "words": [
+    "IN",
+    "PROGRESS"
+   ],
+   "gap": 66,
+   "series": "D",
+   "height": 100,
+   "top": 810,
+   "expect": [
+    108,
+    650
+   ]
+  }
+ ],
+ "symbols": {
+  "nsw_t4-213-1n_racing_cyclist": {
+   "source": "T4-213-1n",
+   "pack": "NSW",
+   "panel_px": [
+    1058,
+    462,
+    1858,
+    1262
+   ],
+   "inset": 0,
+   "nomask": true,
+   "desc": "racing cyclist, about 302 x 250 (symbol detail on a 25 mm grid); traced from the left one of the pair"
+  }
+ },
+ "notes": "TfNSW plan T4-213-1n (Roads & Maritime 2019 sheet, 1:10, text outlined): 1000 x 1000, square corners, black border 25 ('25' corner mark), yellow ground. Vertical chain 90 / 120 / 70 / 250 (symbols) / 70 / 120 / 90 / 100 / 90: CYCLISTS 120 D (143 / 713 / 144), RACE 120 D (304 / 391 / 305), IN PROGRESS 100 D (88 / 108 / 66 / 650 / 88). Two racing cyclists 250 high; their horizontal positions are not dimensioned and were measured on the sheet (ink 118-420 and 582-884), the left one traced and used for both."
 }

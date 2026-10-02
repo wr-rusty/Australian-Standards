@@ -1,6 +1,53 @@
 {
  "code": "T5-209n",
  "pack": "NSW",
- "legend": "Lane Divides (Symbolic)",
- "skip": "older outlined sheet: lane-divides symbol drawn as fragmented yellow/black pieces; needs hand tracing (remaining)"
+ "name": "LANE_DIVIDES_SYMBOL_YELLOW_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  450
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  622,
+  578,
+  1584,
+  1298
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t5-209n_lane_divides",
+   "x": 60,
+   "y": 69,
+   "w": 480,
+   "h": 311
+  }
+ ],
+ "symbols": {
+  "nsw_t5-209n_lane_divides": {
+   "source": "T5-209n",
+   "pack": "NSW",
+   "panel_px": [
+    622,
+    578,
+    1584,
+    1298
+   ],
+   "inset": 0,
+   "nomask": true,
+   "colours": [
+    "black",
+    "red"
+   ],
+   "desc": "straight-on arrow with a lane diverging down to the right and a red closed-lane bar, 480 x 311 overall (symbol detail on a 30 mm grid)"
+  }
+ },
+ "notes": "TfNSW plan T5-209n (Roads & Maritime 2019 sheet, text outlined): 600 x 450, square corners, black border 25 ('25' corner mark), yellow ground. Lane-divides symbol traced from the sheet in two colour layers (black arrows, red bar); the sheet dimensions only 60 / 407 / 26 / 106 across (symbol from 60, red bar ending 132 from the right) and 154 / 37 / 233 down (red bar 37 high from 154), so the symbol's overall box (60 to 540 across, 69 to 380 down) was measured on the sheet."
 }

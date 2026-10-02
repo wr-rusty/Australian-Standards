@@ -1,6 +1,78 @@
 {
  "code": "T1-23-2n",
  "pack": "NSW",
- "legend": "Wide Centre Line Treatment (Overtaking Not Permitted) One Direction",
- "skip": "older outlined sheet: composite-path symbol panel and text (as T1-23-4n); needs hand work (remaining)"
+ "name": "OVERTAKING_NOT_PERMITTED_WIDE_CENTRE_LINE_ONE_WHITE_TALL",
+ "legend": "OVERTAKING NOT PERMITTED",
+ "shape": "rect",
+ "size": [
+  1000,
+  1200
+ ],
+ "radius": 100,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 16
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  405,
+  253,
+  1483,
+  1546
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t1-23-2n_road",
+   "x": 100,
+   "y": 90,
+   "w": 800,
+   "h": 500
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 650,
+   "text": "OVERTAKING",
+   "expect": 783
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 830,
+   "text": "NOT",
+   "expect": 236
+  },
+  {
+   "type": "text",
+   "series": "D",
+   "height": 100,
+   "top": 1010,
+   "text": "PERMITTED",
+   "expect": 672
+  }
+ ],
+ "symbols": {
+  "nsw_t1-23-2n_road": {
+   "source": "T1-23-2n",
+   "pack": "NSW",
+   "panel_px": [
+    405,
+    253,
+    1483,
+    1546
+   ],
+   "inset": 0,
+   "nomask": true,
+   "desc": "road in perspective: wide centre line, unbroken on the near side and broken on the far side, 800 x 500",
+   "keep_specks": true
+  }
+ },
+ "notes": "TfNSW plan t1_23_2n (TraSiCAD sheet 1:7.3, text outlined): size 1200 x 1000 (H x W), Cnr Rad 100, Border '16 x 16' = white edge 16 + black border 16. Road-perspective symbol panel 800 x 500 at 100 from each side and 90 from the top (chains 100 / 800 / 100 and 90 / 500), traced from the sheet (wide centre line, unbroken on the near side and broken on the far side). Legend 100 D: vertical chains 90 / 500 / 420 / 100 / 90 and 830 / 100 / 270 give NOT-line top 830 and bottom line top 1010; the first line's top (650, the same 180 pitch) is not dimensioned and was measured on the sheet. Widths as stated: 108 / 783 / 109, 382 / 236 / 382, 164 / 672 / 164."
 }

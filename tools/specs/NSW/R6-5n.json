@@ -1,6 +1,54 @@
 {
  "code": "R6-5n",
  "pack": "NSW",
- "legend": "End Load Limit",
- "skip": "older sheet without live text (outlined / partly outlined), not read this pass (remaining)"
+ "name": "END_LOAD_LIMIT_WHITE_TALL",
+ "legend": "END LOAD LIMIT",
+ "shape": "rect",
+ "size": [
+  900,
+  1200
+ ],
+ "radius": 90,
+ "ground": "white",
+ "edge": {
+  "colour": "white",
+  "width": 14
+ },
+ "border": {
+  "colour": "black",
+  "width": 28
+ },
+ "panel_px": [
+  1869,
+  345,
+  2590,
+  1305
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "END",
+   "series": "E",
+   "height": 210,
+   "top": 156,
+   "expect": 594
+  },
+  {
+   "type": "text",
+   "text": "LOAD",
+   "series": "D",
+   "height": 210,
+   "top": 495,
+   "expect": 687
+  },
+  {
+   "type": "text",
+   "text": "LIMIT",
+   "series": "D",
+   "height": 210,
+   "top": 834,
+   "expect": 654
+  }
+ ],
+ "notes": "TfNSW plan R6-5n (Roads & Maritime 2019 sheet, 1:10, text outlined). Size (B) 900 x 1200 drawn, R90 ((A) 600 x 800, R60, 9 / 18, 140 letters also on the sheet; the largest is generated). Corner pair '14 / 28' = white edge 14 + black border 28 (measured on the sheet: about 11 and 27). Vertical chain 156 / 210 / 129 / 210 / 129 / 210 / 156: END 210 E, LOAD and LIMIT 210 D (the (B) drawing still carries the (A) labels '140E / 140D'; the chain's 210 is the letter height, 1.5 x (A)). Widths 153 / 594 / 153, 107 / 687 / 107, 123 / 654 / 123."
 }

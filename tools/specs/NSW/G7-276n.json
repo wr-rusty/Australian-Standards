@@ -1,6 +1,64 @@
 {
  "code": "G7-276n",
  "pack": "NSW",
- "legend": "Bicycle Parking",
- "skip": "older sheet without live text (outlined / partly outlined), not read this pass (remaining)"
+ "name": "BICYCLE_PARKING_BLUE_TALL",
+ "legend": "P",
+ "shape": "rect",
+ "size": [
+  600,
+  1000
+ ],
+ "radius": 100,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 12
+ },
+ "border": {
+  "colour": "white",
+  "width": 12
+ },
+ "panel_px": [
+  1990,
+  529,
+  2471,
+  1329
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 420,
+   "top": 136,
+   "colour": "white",
+   "expect": 341
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_g7-276n_bicycle",
+   "x": 133,
+   "y": 643,
+   "w": 333,
+   "h": 220,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "nsw_g7-276n_bicycle": {
+   "source": "G7-276n",
+   "pack": "NSW",
+   "panel_px": [
+    1990,
+    529,
+    2471,
+    1329
+   ],
+   "inset": 0,
+   "invert": true,
+   "nomask": true,
+   "desc": "bicycle side view, 333 x 220 (symbol detail on a 10 mm grid)"
+  }
+ },
+ "notes": "TfNSW plan G7-276n (Roads & Maritime 2019 sheet, 1:10, text outlined). Size (B) 600 x 1000 drawn, R100 ((A) 450 x 750, R75, 320 E also on the sheet; the largest is generated). Corner pair '12 / 12' = blue edge 12 + white border 12 as stated (the sheet draws both bands about 21 wide; the stated figures are used). P 420 E white, top 136, 129 / 341 / 130; bicycle 333 x 220 at 133 from the left, 643 from the top (136 / 420 / 87 / 220 / 137), traced from the sheet."
 }

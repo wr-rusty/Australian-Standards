@@ -22,8 +22,8 @@
    "text": "GRASS",
    "expect": 775,
    "series": "E",
-   "height": 165,
-   "top": 87.6
+   "height": 160,
+   "top": 90.1
   },
   {
    "type": "text",
@@ -34,5 +34,5 @@
    "top": 350.3
   }
  ],
- "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 600 (the sheet's caption; drawn at 1:4.93), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. GRASS 165 E top 87.6 (raster of the outlines: cap 165.4, widths [775.0] vs ours [800.7]) CUTTING 160 E top 350.3 (raster of the outlines: cap 159.9, widths [968.8] vs ours [969.9])"
+ "notes": "TfNSW plan (older RMS sheet, all text outlined; the sign read from the sheet's own vector geometry). 1200 x 600 (the sheet's caption; drawn at 1:4.93), yellow face. Text: each line measured from a 600 dpi raster of the sheet's outlines (cap height = median letter height, ink extents, word gaps); the series is the AS 1744 series whose ink width at that height best matches (the sheet's own font); expect = the measured width. GRASS 165 E top 87.6 (raster of the outlines: cap 165.4, widths [775.0] vs ours [800.7]) CUTTING 160 E top 350.3 (raster of the outlines: cap 159.9, widths [968.8] vs ours [969.9]) Correction (2026-10-02): GRASS is 160 high, not 165 \u2014 the raster cap measurement took the round letters' overshoot as cap height; at 160 the AS 1744 width matches the sheet's figure, and the line keeps its measured centre."
 }

@@ -1,6 +1,87 @@
 {
  "code": "T6-228n",
  "pack": "NSW",
- "legend": "Road Surface Test Keep Clear",
- "skip": "older outlined sheet: three-panel sign (window opening, ridge, striped bars) with fragmented artwork; needs hand work (remaining)"
+ "name": "ROAD_SURFACE_TEST_KEEP_CLEAR_YELLOW_LONG",
+ "legend": "ROAD SURFACE TEST KEEP CLEAR",
+ "shape": "rect",
+ "size": [
+  1320,
+  540
+ ],
+ "radius": 30,
+ "ground": "yellow",
+ "panel_px": [
+  1164,
+  692,
+  2216,
+  1121
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "ROAD",
+    "SURFACE",
+    "TEST"
+   ],
+   "gap": [
+    55,
+    48
+   ],
+   "series": "C",
+   "height": 100,
+   "top": 20,
+   "expect": [
+    276,
+    484,
+    244
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "KEEP",
+    "CLEAR"
+   ],
+   "gap": 64,
+   "series": "D",
+   "height": 120,
+   "top": 380,
+   "expect": [
+    376,
+    486
+   ]
+  },
+  {
+   "type": "path",
+   "d": "M0.00 378.18L38.18 340.00L0.00 340.00Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M1320.00 340.00L1281.82 340.00L1320.00 378.18Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M0.00 455.97L0.00 510.00L0.01 510.74L0.04 511.47L0.08 512.21L0.14 512.94L0.23 513.67L0.32 514.40L0.44 515.13L0.58 515.85L0.73 516.57L0.90 517.29L1.09 518.00L1.29 518.71L1.51 519.41L1.75 520.11L2.01 520.80L2.28 521.48L2.57 522.16L2.88 522.83L3.20 523.49L3.54 524.14L3.90 524.79L4.27 525.42L4.65 526.05L5.06 526.67L5.47 527.27L5.89 527.86L155.00 378.75L155.00 340.00L115.97 340.00Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M1204.03 340.00L1165.00 340.00L1165.00 378.75L1314.11 527.86L1314.53 527.27L1314.94 526.67L1315.35 526.05L1315.73 525.42L1316.10 524.79L1316.46 524.14L1316.80 523.49L1317.12 522.83L1317.43 522.16L1317.72 521.48L1317.99 520.80L1318.25 520.11L1318.49 519.41L1318.71 518.71L1318.91 518.00L1319.10 517.29L1319.27 516.57L1319.42 515.85L1319.56 515.13L1319.68 514.40L1319.77 513.67L1319.86 512.94L1319.92 512.21L1319.96 511.47L1319.99 510.74L1320.00 510.00L1320.00 455.97Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M155.00 540.00L155.00 456.53L71.53 540.00Z",
+   "colour": "black"
+  },
+  {
+   "type": "path",
+   "d": "M1248.47 540.00L1165.00 456.53L1165.00 540.00Z",
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan T6-228n (Roads & Maritime 2019 sheet, 1:10, text outlined): vehicle-mounted panel 1320 x 540, R30, yellow, no border (hairline outline). ROAD SURFACE TEST 100 C, top 20 (20 / 100), 106 / 276 / 55 / 484 / 48 / 244 / 107. KEEP CLEAR 120 D, top 380 (340 to the ridge, then 40 / 120 / 40), 155 / 42 / 376 / 64 / 486 / 42 / 155. Corner blocks 155 x 200 below the ridge at each end with 45-degree stripes from the stripe detail (27 black / 55 yellow / 55 black / 55 yellow / 59 black, measured square to the stripes from the upper outer corner), mirrored left and right and clipped to the rounded outline. Not drawn: the plan's 'window opening' (160 x 77 cut-out at 580 from the left, 140 from the top) and the dashed 'ridge' fold line at 340 \u2014 fabrication features of the roof-mounted panel, not part of the face artwork. The sheet draws both legend lines about 5 mm up and 5 mm right of its own chains (ROAD from 112, cap top 15; KEEP from 203, cap top 375): the stated figures are used, which is why the overlay shows an offset."
 }

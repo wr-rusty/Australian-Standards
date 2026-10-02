@@ -1,6 +1,53 @@
 {
  "code": "T5-211n",
  "pack": "NSW",
- "legend": "Temporary Portable Rumble Strip(Symbolic)",
- "skip": "older outlined sheet: the rumble-strip symbol is drawn as fragmented fills the vector reader cannot rebuild; needs hand tracing (remaining)"
+ "name": "TEMPORARY_PORTABLE_RUMBLE_STRIP_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  1474,
+  457,
+  1951,
+  934
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t5-210n_rumble_strip",
+   "x": 57,
+   "y": 229,
+   "w": 486,
+   "h": 147
+  }
+ ],
+ "symbols": {
+  "nsw_t5-210n_rumble_strip": {
+   "source": "T5-210n",
+   "pack": "NSW",
+   "panel_px": [
+    1474,
+    457,
+    1951,
+    934
+   ],
+   "inset": 0,
+   "nomask": true,
+   "desc": "rumble strip in section: 486 x 147, base 45 high with 69 shoulders, R200 crown (symbol detail); the T5-210n tracing (same detail)"
+  }
+ },
+ "notes": "TfNSW plan T5-211n (Roads & Maritime 2019 sheet, 1:5 drawn at half scale): 600 x 600, R40, corner pair '8 / 16' = yellow edge 8 + black border 16. Rumble-strip section 486 x 147 at 57 from the left (57 / 486 / 57); its height on the sign measured on the sheet (229 to 376, i.e. 2.5 below centre). Symbol: the T5-210n tracing."
 }

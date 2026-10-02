@@ -1,6 +1,53 @@
 {
  "code": "T1-47n",
  "pack": "NSW",
- "legend": "Queued Traffic",
- "skip": "older outlined sheet: queued-cars symbol drawn as fragmented yellow/black pieces; needs hand tracing (remaining)"
+ "name": "QUEUED_TRAFFIC_SYMBOL_YELLOW_LONG",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  1200,
+  800
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  1880,
+  292,
+  2839,
+  931
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t1-47n_queued_cars",
+   "x": 167,
+   "y": 100,
+   "w": 867,
+   "h": 600
+  }
+ ],
+ "symbols": {
+  "nsw_t1-47n_queued_cars": {
+   "source": "T1-47n",
+   "pack": "NSW",
+   "panel_px": [
+    1880,
+    292,
+    2839,
+    931
+   ],
+   "inset": 0,
+   "colours": [
+    "black",
+    "red"
+   ],
+   "nomask": true,
+   "desc": "three queued cars seen from behind, red tail lights, 867 x 600 (symbol detail on a 20 mm grid)"
+  }
+ },
+ "notes": "TfNSW plan T1-47n (Roads & Maritime 2019 sheet, 1:10): size (B) 1200 x 800 drawn ((A) 900 x 600 with a 650 x 450 symbol also on the sheet; the largest is generated). Square corners, black border 25 ('25' corner mark), yellow ground. Queued-cars symbol 867 x 600 at 167 from the left and 100 from the top (167 / 867 / 167, 100 / 600 / 100), black with red tail lights, traced from the sheet in two colour layers."
 }

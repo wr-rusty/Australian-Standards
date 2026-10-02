@@ -2,5 +2,5 @@
  "code": "R5-447n",
  "pack": "NSW",
  "legend": "No Parking (Authorised Car Share Vehicles Excepted Zone Xxxxx) (Left, Left/Right and Right Arrows)",
- "skip": "older sheet without live text (outlined / partly outlined), not read this pass (remaining)"
+ "skip": "site-specific: RTA 2007 plan R5-447L (No Parking, authorised car share vehicles excepted) leaves the council name box and the zone number ('ZONE XXXXX', '*Variable') to be inserted per site; outlined CAD lettering"
 }

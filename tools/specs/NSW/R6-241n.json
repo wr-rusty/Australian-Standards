@@ -1,6 +1,48 @@
 {
  "code": "R6-241n",
  "pack": "NSW",
- "legend": "Start Motorway",
- "skip": "older sheet without live text (outlined / partly outlined), not read this pass (remaining)"
+ "name": "START_MOTORWAY_GREEN_LONG",
+ "legend": "START MOTORWAY",
+ "shape": "rect",
+ "size": [
+  1800,
+  900
+ ],
+ "radius": 150,
+ "ground": "green",
+ "edge": {
+  "colour": "green",
+  "width": 30
+ },
+ "border": {
+  "colour": "white",
+  "width": 30
+ },
+ "panel_px": [
+  1689,
+  701,
+  2650,
+  1183
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "START",
+   "series": "E",
+   "height": 210,
+   "top": 180,
+   "colour": "white",
+   "expect": 968
+  },
+  {
+   "type": "text",
+   "text": "MOTORWAY",
+   "series": "D",
+   "height": 210,
+   "top": 510,
+   "colour": "white",
+   "expect": 1470
+  }
+ ],
+ "notes": "TfNSW plan R6-241n (Roads & Maritime 2019 sheet, 1:15, text outlined). Size (B) 1800 x 900 drawn, R150 ((A) 1200 x 600, R100, 140 E also on the sheet; the largest is generated). Corner pair '30 / 30' = green edge 30 + white border 30. Vertical chain 180 / 210 / 120 / 210 / 180, START 210 E, MOTORWAY 210 Series D (labelled '210E' on the sheet, but its stated 1470 is the Series D width \u2014 E would be 1742 \u2014 as on R6-243n), white; widths 416 / 968 / 417 and 165 / 1470 / 165. Companion of R6-243n END MOTORWAY."
 }

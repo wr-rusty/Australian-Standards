@@ -1,6 +1,74 @@
 {
  "code": "T5-210n",
  "pack": "NSW",
- "legend": "Temporary Portable Rumble Strip Ahead (Symbolic)",
- "skip": "older outlined sheet: the rumble-strip-ahead symbol is drawn as fragmented fills; needs hand tracing (remaining)"
+ "name": "TEMPORARY_PORTABLE_RUMBLE_STRIP_AHEAD_YELLOW_SQUARE",
+ "legend": "",
+ "shape": "rect",
+ "size": [
+  600,
+  600
+ ],
+ "radius": 40,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 8
+ },
+ "border": {
+  "colour": "black",
+  "width": 16
+ },
+ "panel_px": [
+  1474,
+  457,
+  1951,
+  934
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t5-210n_up_arrow",
+   "x": 200,
+   "y": 104,
+   "w": 200,
+   "h": 175
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_t5-210n_rumble_strip",
+   "x": 57,
+   "y": 349,
+   "w": 486,
+   "h": 147
+  }
+ ],
+ "symbols": {
+  "nsw_t5-210n_up_arrow": {
+   "source": "T5-210n",
+   "pack": "NSW",
+   "panel_px": [
+    1474,
+    457,
+    1951,
+    934
+   ],
+   "inset": 0,
+   "nomask": true,
+   "desc": "ahead arrow 200 x 175: head 200 wide x 100 with R6 barbs and 8 returns, shaft 65 wide (symbol detail)"
+  },
+  "nsw_t5-210n_rumble_strip": {
+   "source": "T5-210n",
+   "pack": "NSW",
+   "panel_px": [
+    1474,
+    457,
+    1951,
+    934
+   ],
+   "inset": 0,
+   "nomask": true,
+   "desc": "rumble strip in section: 486 x 147, base 45 high with 69 shoulders, R200 crown (symbol detail)"
+  }
+ },
+ "notes": "TfNSW plan T5-210n (Roads & Maritime 2019 sheet, 1:5 drawn at half scale, text outlined): 600 x 600, R40, corner pair '8 / 16' = yellow edge 8 + black border 16. Arrow 200 x 175 centred (200 / 200 / 200), top 104; rumble-strip section 486 x 147 at 57 from the left (57 / 486 / 57), top 349 (104 / 175 / 70 / 147 / 104). Both traced from the sheet at their stated boxes; detail figures in the symbols' desc."
 }

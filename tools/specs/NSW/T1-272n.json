@@ -1,6 +1,290 @@
 {
  "code": "T1-272n",
  "pack": "NSW",
- "legend": "Boom Barrier Ahead",
- "skip": "RMS 2019 sheet (boom barrier ahead, sizes A and B) not read this pass (remaining)"
+ "name": "BOOM_BARRIER_AHEAD_YELLOW_LONG",
+ "legend": "STOP AHEAD",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 60,
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 12
+ },
+ "border": {
+  "colour": "black",
+  "width": 18
+ },
+ "panel_px": [
+  1984,
+  457,
+  2931,
+  1167
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 98,
+   "y": 196,
+   "w": 150,
+   "h": 400,
+   "colour": "black"
+  },
+  {
+   "type": "rect",
+   "x": 164,
+   "y": 223,
+   "w": 350,
+   "h": 70,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     180,
+     278
+    ],
+    [
+     247.9,
+     278
+    ],
+    [
+     277,
+     238
+    ],
+    [
+     209.1,
+     238
+    ]
+   ],
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     290,
+     278
+    ],
+    [
+     357.9,
+     278
+    ],
+    [
+     387,
+     238
+    ],
+    [
+     319.1,
+     238
+    ]
+   ],
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     400,
+     278
+    ],
+    [
+     467.9,
+     278
+    ],
+    [
+     497,
+     238
+    ],
+    [
+     429.1,
+     238
+    ]
+   ],
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "rect",
+   "x": 756,
+   "y": 223,
+   "w": 350,
+   "h": 70,
+   "colour": "white"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     772,
+     278
+    ],
+    [
+     839.9,
+     278
+    ],
+    [
+     869,
+     238
+    ],
+    [
+     801.1,
+     238
+    ]
+   ],
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     882,
+     278
+    ],
+    [
+     949.9,
+     278
+    ],
+    [
+     979,
+     238
+    ],
+    [
+     911.1,
+     238
+    ]
+   ],
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     992,
+     278
+    ],
+    [
+     1059.9,
+     278
+    ],
+    [
+     1089,
+     238
+    ],
+    [
+     1021.1,
+     238
+    ]
+   ],
+   "colour": "red",
+   "mirror": false
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     588.44,
+     148
+    ],
+    [
+     679.56,
+     148
+    ],
+    [
+     744,
+     212.44
+    ],
+    [
+     744,
+     303.56
+    ],
+    [
+     679.56,
+     368
+    ],
+    [
+     588.44,
+     368
+    ],
+    [
+     524,
+     303.56
+    ],
+    [
+     524,
+     212.44
+    ]
+   ],
+   "colour": "white",
+   "stroke": {
+    "colour": "black",
+    "width": 2
+   }
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     590.92,
+     154
+    ],
+    [
+     677.08,
+     154
+    ],
+    [
+     738,
+     214.92
+    ],
+    [
+     738,
+     301.08
+    ],
+    [
+     677.08,
+     362
+    ],
+    [
+     590.92,
+     362
+    ],
+    [
+     530,
+     301.08
+    ],
+    [
+     530,
+     214.92
+    ]
+   ],
+   "colour": "red"
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "C",
+   "height": 75,
+   "top": 220,
+   "cx": 634,
+   "colour": "white",
+   "expect": 184
+  },
+  {
+   "type": "text",
+   "text": "AHEAD",
+   "series": "E",
+   "height": 140,
+   "top": 649,
+   "expect": 716
+  }
+ ],
+ "notes": "TfNSW plan T1-272n (Roads & Maritime 2019 sheet, 1:10, text outlined): size (B) 1200 x 900 drawn ((A) also on the sheet; the largest is generated). Yellow edge 12, black border 18 and R60 measured on the (B) drawing (no corner figures beside it). Boom post black 150 x 400 at 98 / 196 (98 / 150 ..., 196 / 400). Boom arms white 350 x 70 at x 164 and 756, y 223 (164 / 350 / 242 / 350 / 94; 223 / 70 / 607), each with three red parallelograms from the arm detail: 16 / 97 / 13 / 97 / 13 / 97 / 17 across, 15 / 40 / 15 down, sloped at 126 degrees (29 lean). STOP octagon 220 across flats at x 524, y 148 (98 / 150 / 277 / 219 / 456; 148 / 220 / 532): white 6 edge with a hairline outline, red inside, STOP 75 C white 184 wide, top 72 down (72 / 75 / 73). AHEAD 140 E, top 649 (196 / 400 / 53 / 140 / 111), 242 / 716 / 242. The sheet outlines the arms with a hairline, not generated. Width flag: STOP 75 C is 197 at AS 1744 spacing against the detail's 18 / 184 / 18 (the sheet's lettering is set tighter); spacing not changed."
 }

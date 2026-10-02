@@ -1,6 +1,83 @@
 {
  "code": "T1-47-1n",
  "pack": "NSW",
- "legend": "Queued Traffic Prepare To Stop",
- "skip": "older outlined sheet: two-panel assembly (queued cars, PREPARE TO STOP patch) drawn in fragments; needs hand work (remaining)"
+ "name": "QUEUED_TRAFFIC_PREPARE_TO_STOP_YELLOW_RED_LONG",
+ "legend": "PREPARE TO STOP",
+ "shape": "rect",
+ "size": [
+  1680,
+  1260
+ ],
+ "radius": 0,
+ "ground": "black",
+ "panel_px": [
+  1600,
+  528,
+  2495,
+  1199
+ ],
+ "elements": [
+  {
+   "type": "rect",
+   "x": 35,
+   "y": 35,
+   "w": 787.5,
+   "h": 1190,
+   "colour": "yellow"
+  },
+  {
+   "type": "rect",
+   "x": 857.5,
+   "y": 35,
+   "w": 787.5,
+   "h": 1190,
+   "colour": "red"
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_t1-47n_queued_cars",
+   "x": 70,
+   "y": 384,
+   "w": 700,
+   "h": 492
+  },
+  {
+   "type": "text",
+   "text": "PREPARE",
+   "series": "C",
+   "height": 140,
+   "top": 280,
+   "cx": 1260,
+   "colour": "white",
+   "expect": 682
+  },
+  {
+   "type": "text",
+   "text": "TO",
+   "series": "D",
+   "height": 140,
+   "top": 560,
+   "cx": 1260,
+   "colour": "white",
+   "expect": 204
+  },
+  {
+   "type": "text",
+   "text": "STOP",
+   "series": "D",
+   "height": 140,
+   "top": 840,
+   "cx": 1260,
+   "colour": "white",
+   "expect": 437
+  }
+ ],
+ "symbols": {
+  "nsw_t1-47n_queued_cars": {
+   "source": "T1-47n",
+   "pack": "NSW",
+   "desc": "three queued cars from behind with red tail lights: the T1-47n symbol (same symbol detail on these sheets), scaled to the stated box"
+  }
+ },
+ "notes": "TfNSW plan T1-47-1n (Roads & Maritime 2019 sheet, 1:15, text outlined): size (B) 1680 x 1260 drawn ((A) 1200 x 900 also on the sheet; the largest is generated). Square corners, black border 35 ('35' corner mark) and a black 35 divider centred on x 840; left panel yellow with the queued-cars symbol 700 x 492 at 70 from the left, 384 from the top (70 / 700 / 70, 384 / 492 / 384); right panel red with white PREPARE 140 C (78 / 682 / 80 from x 840), TO 140 D (318 / 204 / 318), STOP 140 D (202 / 437 / 202), tops 280 / 560 / 840 (280 / 140 / 140 / 140 / 140 / 140 / 280), centred on the red half (x 1260). Drawn on a black ground with the coloured panels as rectangles."
 }

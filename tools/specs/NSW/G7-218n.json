@@ -1,6 +1,87 @@
 {
  "code": "G7-218n",
  "pack": "NSW",
- "legend": "Truck parking (symbolic) ____m",
- "skip": "older sheet without live text (outlined / partly outlined), not read this pass (remaining)"
+ "name": "TRUCK_PARKING_{d}_M_BLUE_LONG",
+ "legend": "P {d} m",
+ "shape": "rect",
+ "size": [
+  1200,
+  900
+ ],
+ "radius": 125,
+ "ground": "blue",
+ "edge": {
+  "colour": "blue",
+  "width": 16
+ },
+ "border": {
+  "colour": "white",
+  "width": 16
+ },
+ "panel_px": [
+  571,
+  757,
+  1200,
+  1228
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "P",
+   "series": "E",
+   "height": 320,
+   "top": 115,
+   "align": "left",
+   "x": 162,
+   "colour": "white",
+   "expect": 256
+  },
+  {
+   "type": "text",
+   "text": "{d}",
+   "series": "E",
+   "height": 120,
+   "top": 215,
+   "align": "right",
+   "x": 888,
+   "colour": "white"
+  },
+  {
+   "type": "text",
+   "text": "m",
+   "series": "Emod",
+   "height": 100,
+   "top": 235,
+   "align": "left",
+   "x": 928,
+   "colour": "white",
+   "expect": 110
+  },
+  {
+   "type": "symbol",
+   "id": "nsw_g7-218n_truck",
+   "x": 129,
+   "y": 505,
+   "w": 942,
+   "h": 300,
+   "colour": "white"
+  }
+ ],
+ "symbols": {
+  "nsw_g7-218n_truck": {
+   "source": "G7-218n",
+   "pack": "NSW",
+   "desc": "semi-trailer side view, 942 x 300: the G7-218n plan's own vector artwork (cab, trailer box, four wheels), not traced"
+  }
+ },
+ "vary": {
+  "key": "d",
+  "values": [
+   200,
+   300,
+   500
+  ]
+ },
+ "drawn_value": 200,
+ "notes": "TfNSW plan g7-218n (TraSiCAD sheet 1:15, text outlined): 900 x 1200 (H x W), Cnr Rad 125, Border '16 x 16' = blue edge 16 + white border 16. P 320 E, top 115 (115 / 320 / 465), 256 wide; numeral 120 E, top 215 (215 / 120 / 565); m 100 E(M), top 235 (235 / 100), 110 wide; truck symbol 942 x 300 at 129 from the left, 505 from the top (235 / 100 / 170 / 300 / 95; 129 / 942 / 129), taken from the plan's vectors. Across: 256 (P) / 510 / 110 (m) with '=' margins, i.e. P from 162, m from 928; the numeral ('*' variable, dashed '200') ends 40 before the unit as drawn and is right-aligned there, so other values keep P and the unit where the plan's example puts them (the plan re-centres the row for other widths; the generated digits differ by a few mm at most). The sheet draws the row 3-5 mm above its own chain (numeral baseline 332, unit baseline 330): the stated figures are used. Values generated: 200, 300, 500 m (the plan's example and the usual advance distances)."
 }

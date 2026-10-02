@@ -1,6 +1,60 @@
 {
  "code": "R6-202n",
  "pack": "NSW",
- "legend": "Public Gate",
- "skip": "older sheet without live text (outlined / partly outlined), not read this pass (remaining)"
+ "name": "PUBLIC_GATE_NO_244_YELLOW_ROUND",
+ "legend": "PUBLIC GATE NO. 244",
+ "shape": "circle",
+ "size": [
+  600,
+  600
+ ],
+ "ground": "yellow",
+ "edge": {
+  "colour": "yellow",
+  "width": 10
+ },
+ "border": {
+  "colour": "black",
+  "width": 15
+ },
+ "panel_px": [
+  1044,
+  452,
+  2001,
+  1410
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "text": "PUBLIC",
+   "series": "D",
+   "height": 100,
+   "top": 170,
+   "expect": 443
+  },
+  {
+   "type": "text",
+   "text": "GATE",
+   "series": "D",
+   "height": 100,
+   "top": 320,
+   "expect": 311
+  },
+  {
+   "type": "text",
+   "words": [
+    "NO.",
+    "244"
+   ],
+   "gap": 28,
+   "series": "D",
+   "height": 50,
+   "top": 470,
+   "expect": [
+    246
+   ],
+   "expect_total": true
+  }
+ ],
+ "notes": "TfNSW plan R6-202n (Roads & Maritime 2019 sheet, 1:5, text outlined): 600 disc, corner pair '10 / 15' = yellow edge 10 + black border 15. Vertical chain 170 / 100 / 30 + 20 / 100 / 50 / 50 / 80: PUBLIC 100 D top 170 (443 wide), GATE 100 D top 320 (311), NO. 244 50 D top 470 (246 overall; word gap 28 from that width). The gate number is site-specific: only the plan's example '244' is generated."
 }

@@ -1,6 +1,81 @@
 {
  "code": "T1-276n",
  "pack": "NSW",
- "legend": "Osom (Oversize Overmass - Limit Vehicle Restriction Heavy) Vehicle Bay x(m) Ahead",
- "skip": "OSOM plate with a variable numeral; older sheet not read this pass (remaining)"
+ "name": "OSOM_VEHICLE_BAY_{d}_M_AHEAD_YELLOW_WIDE",
+ "legend": "OSOM VEHICLE BAY {d} m AHEAD",
+ "shape": "rect",
+ "size": [
+  1800,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 20
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "OSOM",
+    "VEHICLE"
+   ],
+   "gap": 76.7,
+   "series": "D",
+   "height": 140,
+   "top": 125,
+   "expect": [
+    1294
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "BAY",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "{d}",
+     "series": "D",
+     "height": 140
+    },
+    {
+     "text": "m",
+     "series": "Emod",
+     "height": 105
+    },
+    {
+     "text": "AHEAD",
+     "series": "D",
+     "height": 140
+    }
+   ],
+   "gap": [
+    55,
+    58,
+    77
+   ],
+   "top": 340,
+   "expect": [
+    358,
+    null,
+    115,
+    599
+   ]
+  }
+ ],
+ "vary": {
+  "key": "d",
+  "values": [
+   200,
+   300,
+   500
+  ]
+ },
+ "drawn_value": 200,
+ "notes": "TfNSW plan t1-276n (TraSiCAD sheet, text outlined): 600 x 1800 (H x W), Cnr Rad 0, Border '0 x 20' = black border 20 at the edge, yellow ground. OSOM = oversize overmass. Line 1 OSOM VEHICLE 140 D, top 125, 253 / 1294 / 253 (word gap 76.7 from the stated width). Line 2 top 340 (340 / 140 / 120): BAY 358, 55, variable numeral ('*', dashed box, 'eg 200'), 58, m 115 (105 E(M), same baseline: 375 / 105 / 120), 77, AHEAD 599; centred as a whole ('=' margins). Distances generated: 200, 300, 500 m (the plan's example 200 plus the usual advance distances)."
 }

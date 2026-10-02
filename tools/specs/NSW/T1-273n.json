@@ -1,6 +1,64 @@
 {
  "code": "T1-273n",
  "pack": "NSW",
- "legend": "Osom (Oversize Overmass - Limit Vehicle Restriction Heavy) Vehicles Call UHF(xx)",
- "skip": "OSOM plate with a variable numeral; older sheet not read this pass (remaining)"
+ "name": "OSOM_VEHICLES_CALL_UHF_{ch}_YELLOW_WIDE",
+ "legend": "OSOM VEHICLES CALL UHF {ch}",
+ "shape": "rect",
+ "size": [
+  1800,
+  600
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 24
+ },
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "OSOM",
+    "VEHICLES"
+   ],
+   "gap": 76.4,
+   "series": "D",
+   "height": 140,
+   "top": 125,
+   "expect": [
+    1403
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "CALL"
+    },
+    {
+     "text": "UHF"
+    },
+    {
+     "text": "{ch}"
+    }
+   ],
+   "gap": [
+    79.1,
+    66
+   ],
+   "series": "D",
+   "height": 140,
+   "top": 335
+  }
+ ],
+ "vary": {
+  "key": "ch",
+  "values": [
+   40,
+   29
+  ]
+ },
+ "drawn_value": 40,
+ "notes": "TfNSW plan t1-273n (TraSiCAD sheet, text outlined): 600 x 1800 (H x W), Cnr Rad 0, Border '0 x 24' = black border 24 at the edge, yellow ground. OSOM = oversize overmass. Line 1 OSOM VEHICLES 140 D, top 125 (125 / 140 / 335), 198 / 1403 / 199 (word gap 76.4 from the stated width). Line 2 CALL UHF 140 D, top 335 (335 / 140 / 125), 872 wide (word gap 79.1), then 66 and the variable channel numeral ('*' in a dashed box, 'Variable Numeral'), the line centred as a whole ('=' margins). The plan gives no example numeral: generated for UHF 40 (the highway channel) and 29 (Pacific Highway / M1) as the channels in NSW use \u2014 chosen for the pack, not from the plan."
 }

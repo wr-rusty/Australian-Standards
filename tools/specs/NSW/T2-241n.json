@@ -1,6 +1,105 @@
 {
  "code": "T2-241n",
  "pack": "NSW",
- "legend": "Speed Camera 24 Hours Variable Speed Limit Enforced",
- "skip": "older outlined sheet: camera symbol and two-panel layout drawn in fragments; needs hand work (remaining)"
+ "name": "SPEED_CAMERA_24_HOURS_VARIABLE_SPEED_LIMIT_ENFORCED_YELLOW_LONG",
+ "legend": "SPEED CAMERA 24 HOURS VARIABLE SPEED LIMIT ENFORCED",
+ "shape": "rect",
+ "size": [
+  1320,
+  1200
+ ],
+ "radius": 65,
+ "ground": "yellow",
+ "panel_px": [
+  667,
+  323,
+  1720,
+  1280
+ ],
+ "elements": [
+  {
+   "type": "symbol",
+   "id": "nsw_t2-240n_camera",
+   "x": 325,
+   "y": 92,
+   "w": 670,
+   "h": 280
+  },
+  {
+   "type": "text",
+   "words": [
+    "SPEED",
+    "CAMERA"
+   ],
+   "gap": 63,
+   "series": "D",
+   "height": 100,
+   "top": 425,
+   "expect": [
+    394,
+    523
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "24",
+    "HOURS"
+   ],
+   "gap": 66,
+   "series": "D",
+   "height": 100,
+   "top": 575,
+   "expect": [
+    155,
+    421
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 757,
+   "w": 1320,
+   "h": 18,
+   "colour": "black"
+  },
+  {
+   "type": "text",
+   "words": [
+    "VARIABLE",
+    "SPEED"
+   ],
+   "gap": 66,
+   "series": "D",
+   "height": 100,
+   "top": 865,
+   "expect": [
+    622,
+    394
+   ]
+  },
+  {
+   "type": "text",
+   "words": [
+    "LIMIT",
+    "ENFORCED"
+   ],
+   "gap": 66,
+   "series": "D",
+   "height": 100,
+   "top": 1020,
+   "expect": [
+    312,
+    659
+   ]
+  }
+ ],
+ "symbols": {
+  "nsw_t2-240n_camera": {
+   "source": "T2-240n",
+   "pack": "NSW",
+   "desc": "camera with four radar arcs, 670 x 280: the same symbol detail as T2-240n"
+  }
+ },
+ "notes": "TfNSW plan T2-241n (Roads & Maritime 2019 sheet, 1:10, text outlined): 1320 x 1200, R65, yellow with no border (hairline outline only). Vertical chain 92 / 280 (symbol) / 53 / 100 / 50 / 100 / 82 / 18 (black bar, full width) / 90 / 100 / 55 / 100 / 80; all legend 100 D. Camera symbol 670 x 280 at 325 from the left, the T2-240n tracing (same symbol detail). SPEED CAMERA 170 / 394 / 63 / 523 / 170; 24 HOURS 339 / 155 / 66 / 421 / 339; VARIABLE SPEED 119 / 622 / 66 / 394 / 119; LIMIT ENFORCED 141 / 312 / 66 / 659 / 142."
 }

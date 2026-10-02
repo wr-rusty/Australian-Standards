@@ -1,6 +1,169 @@
 {
  "code": "T2-235n(L)",
  "pack": "NSW",
- "legend": "Lane Closed (over hazard marker) Left",
- "skip": "older outlined sheet: the chevron band is drawn as fragmented yellow/black pieces; needs hand work (remaining)"
+ "name": "LANE_CLOSED_LEFT_CHEVRONS_YELLOW_LONG",
+ "legend": "LANE CLOSED",
+ "shape": "rect",
+ "size": [
+  1800,
+  750
+ ],
+ "radius": 0,
+ "ground": "yellow",
+ "border": {
+  "colour": "black",
+  "width": 25
+ },
+ "panel_px": [
+  1000,
+  358,
+  2439,
+  957
+ ],
+ "elements": [
+  {
+   "type": "text",
+   "words": [
+    "LANE",
+    "CLOSED"
+   ],
+   "gap": 93,
+   "series": "D",
+   "height": 160,
+   "top": 94,
+   "expect": [
+    515,
+    772
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 25,
+   "y": 323,
+   "w": 1750,
+   "h": 25,
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     25,
+     536
+    ],
+    [
+     213,
+     348
+    ],
+    [
+     437,
+     348
+    ],
+    [
+     213,
+     536
+    ],
+    [
+     437,
+     724
+    ],
+    [
+     213,
+     724
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     437,
+     536
+    ],
+    [
+     659,
+     348
+    ],
+    [
+     883,
+     348
+    ],
+    [
+     659,
+     536
+    ],
+    [
+     883,
+     724
+    ],
+    [
+     659,
+     724
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     883,
+     536
+    ],
+    [
+     1105,
+     348
+    ],
+    [
+     1329,
+     348
+    ],
+    [
+     1105,
+     536
+    ],
+    [
+     1329,
+     724
+    ],
+    [
+     1105,
+     724
+    ]
+   ],
+   "colour": "black"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     1329,
+     536
+    ],
+    [
+     1551,
+     348
+    ],
+    [
+     1775,
+     348
+    ],
+    [
+     1551,
+     536
+    ],
+    [
+     1775,
+     724
+    ],
+    [
+     1551,
+     724
+    ]
+   ],
+   "colour": "black"
+  }
+ ],
+ "notes": "TfNSW plan T2-235n(L) (Roads & Maritime 2019 sheet, 1:10, text outlined): LANE CLOSED over a left-pointing chevron hazard marker; 1800 x 750, square corners, black border 25 ('25' at each corner mark), yellow ground. Top panel: LANE CLOSED 160 D, top 94 (25 / 69 / 160 / 69), 210 / 515 / 93 / 772 / 210. Black divider 25 (y 323 to 348), then the hazard-marker band 376 high (188 / 188 about the centre line y 536) to the bottom border. Chevrons from the symbol detail: four black chevrons pointing left, each a 45-degree-tipped band \u2014 across the band 25 / 188 / 224 / 222 / 224 / 222 / 224 / 222 / 224 / 25: tip, outer shoulder 188 (first) or 222 on, arm 224 along the top and bottom edges, inner vertex under the shoulder; the first tip touches the border. Drawn as polygons from those figures (the sheet's own artwork is tessellated)."
 }

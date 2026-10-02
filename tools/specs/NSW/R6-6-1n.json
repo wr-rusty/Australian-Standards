@@ -2,38 +2,21 @@
  "code": "R6-6-1n",
  "pack": "NSW",
  "name": "STOP_HERE_ON_RED_SIGNAL_WHITE_WIDE",
- "legend": "RED SIGNAL STOP HERE ON",
+ "legend": "STOP HERE ON RED SIGNAL",
  "shape": "rect",
  "size": [
-  700,
-  2400
+  2400,
+  700
  ],
- "radius": 0,
+ "radius": 0.0,
  "ground": "white",
- "border": {
-  "colour": "black",
-  "width": 3
- },
  "panel_px": [
-  367,
-  136,
-  918,
-  2025
+  312,
+  366,
+  2203,
+  918
  ],
  "elements": [
-  {
-   "type": "text",
-   "words": [
-    "RED",
-    "SIGNAL"
-   ],
-   "series": "D",
-   "height": 200,
-   "gap": -248.5,
-   "top": 1899.6,
-   "cx": 474.7,
-   "colour": "red"
-  },
   {
    "type": "text",
    "words": [
@@ -41,13 +24,39 @@
     "HERE",
     "ON"
    ],
-   "series": "D",
-   "height": 200,
-   "gap": -248.5,
-   "top": 2089.4,
-   "cx": 158.3,
-   "colour": "red"
+   "gap": [
+    132.2,
+    133.0
+   ],
+   "series": "E",
+   "height": 200.0,
+   "top": 100,
+   "cx": 1200,
+   "colour": "red",
+   "expect": [
+    2176
+   ],
+   "expect_total": true
+  },
+  {
+   "type": "text",
+   "words": [
+    "RED",
+    "SIGNAL"
+   ],
+   "gap": [
+    131.8
+   ],
+   "series": "E",
+   "height": 200.0,
+   "top": 400,
+   "cx": 1200,
+   "colour": "red",
+   "expect": [
+    1796
+   ],
+   "expect_total": true
   }
  ],
- "notes": "TfNSW plan (TraSiCAD sheet, live text and vector paths). Size '700 x 2400 (largest a x b figure on the sheet)' (H x W) = 700 x 2400, Cnr Rad Patch CR:, Border 'Cnr Rad:' = edge 0 (white) + border 3 (black) (drawn as a 3.0 stroke centred -0.4 in), Patch CR Prepared using TraSiCAD; Red legend. Fonts: . border as drawn: black stroke 3 wide from 0 in (the title block's 'Cnr Rad:' read as edge 0 + border 0); the drawn values are used RED SIGNAL 200 D top 1899.6 (baseline 2100; plan advance box 326-605, no width figure matched) STOP HERE ON 200 D top 2089.4 (baseline 2289; plan advance box 26-304, no width figure matched)"
+ "notes": "TfNSW plan r6-6-1n.pdf (TraSiCAD sheet 1:10, live text and vector paths). Size '700 x 2400' (H x W), Cnr Rad 0, Border '0 x 0' = white edge 0 + black border 0. Legend table: STOP HERE ON: FHWA Series E2000EX 200; RED SIGNAL: FHWA Series E2000EX 200. Lines set to the stated chain (tops 100 and 400, centred on 1200); the plan's live text sits within 1.5 mm of that except RED SIGNAL, drawn 10 right of its own 302 / 1796 / 302 chain. Word gaps from the plan's character origins (132 / 133 / 132). Widths: AS 1744 Series E gives 2136 and 1762 against the stated 2176 and 1796 (1.9 % narrower; the sheet's embedded font subset is a little wider than Series E 2000) \u2014 within tolerance, spacing not changed. Tunnel use only (register title). The sheet draws the 2400 x 700 face as a plain white rectangle with a hairline outline (Border 0 x 0, Cnr Rad 0): no border is generated."
 }

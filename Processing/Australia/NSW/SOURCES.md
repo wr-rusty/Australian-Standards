@@ -33,3 +33,13 @@ the specs' notes: the corner pair 'a / b' is edge + border on the 2019 RMS bus, 
 the school-zone sheets (12 / 36 = 12 + 24); 900 diamonds are edge 12 / border 24 (R60), 1200 ones 16 / 32 (R80); several
 sheets are drawn at half the labelled scale. Overlay scores are in the ticket log (SGN-001). Temporary, Service, Parking and
 Hazard families not started; Guide and Freeway excluded.
+
+State of the generated set (2026-10-02): 460 specs, 538 SVGs — Regulatory 152 (incl. the R6 series: 20 specs, 24 SVGs),
+Warning 210 (complete but for the five skips above), Temporary 138 (112 specs; 33 codes are the national TM / T signs and are
+not redrawn; T9-1n example only), Service 36 (32 specs; 55 example-only or site-named plans skipped, G7-4-3 and G7-5-2 are
+national, G7-315n remains: its lower panel is a cut-out for LED panels), Parking 2 (R5-40-1n / -2n; R5-1-10n / -11n example
+only, R5-447n site-specific). Hazard markers D4-3 and D4-7 are the national signs. Pointed service fingerboards are drawn with
+ground 'none': outline from the plan's corner circles, border band inset from it, transparent outside. Variable legends:
+the plan's example plus the values in NSW use, listed in each spec's notes (OSOM plates, G7-218n distances, R6-244n masses).
+Sheets that the upright guess gets wrong were re-rendered with `--turn` (nine G7 / R6 sheets at 0, T4-216n at 270).
+Guide and Freeway excluded. Details and overlay scores: ticket SGN-001, log of 2026-10-02.
